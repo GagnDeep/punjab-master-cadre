@@ -1,0 +1,94 @@
+{
+  "title": "Quiz: Consonants & Conjuncts",
+  "time_limit_minutes": 15,
+  "questions": [
+    {
+      "q": "Which of the following is an Anunasik (nasal) consonant?",
+      "opts": [
+        "ਮ (Mamma)",
+        "ਕ (Kakka)",
+        "ਚ (Chacha)",
+        "ਟ (Tainka)"
+      ],
+      "ans": 0,
+      "exp": "The nasal consonants are ਙ, ਞ, ਣ, ਨ, ਮ. Mamma is nasal."
+    },
+    {
+      "q": "How many letters are used as Dut Akhars (sub-joined letters) in Punjabi?",
+      "opts": [
+        "3",
+        "5",
+        "7",
+        "2"
+      ],
+      "ans": 0,
+      "exp": "Only three letters are used as Dut Akhars: ਹ (Haha), ਰ (Rara), and ਵ (Vava)."
+    },
+    {
+      "q": "Which of these is a valid Dut Akhar in Gurmukhi?",
+      "opts": [
+        "ਰ (Rara)",
+        "ਸ (Sassa)",
+        "ਕ (Kakka)",
+        "ਮ (Mamma)"
+      ],
+      "ans": 0,
+      "exp": "Rara is a Dut Akhar. The three are ਹ, ਰ, ਵ."
+    },
+    {
+      "q": "What is the name of the 'Ka' varg consonants?",
+      "opts": [
+        "Velar",
+        "Palatal",
+        "Retroflex",
+        "Labial"
+      ],
+      "ans": 0,
+      "exp": "'Ka' varg are Velar consonants."
+    },
+    {
+      "q": "How many nasal consonants (Anunasik) are there in Gurmukhi?",
+      "opts": [
+        "5",
+        "3",
+        "7",
+        "4"
+      ],
+      "ans": 0,
+      "exp": "There are five: ਙ, ਞ, ਣ, ਨ, ਮ."
+    },
+    {
+      "q": "Where are Dut Akhars written?",
+      "opts": [
+        "At the foot of a letter",
+        "Above a letter",
+        "Before a letter",
+        "At the end of a word"
+      ],
+      "ans": 0,
+      "exp": "They are sub-joined, meaning written at the foot of another letter."
+    },
+    {
+      "q": "Which of the following words correctly uses a Dut Akhar?",
+      "opts": [
+        "ਪ੍ਰਕਾਸ਼",
+        "ਕਰਮ",
+        "ਸਰਕਾਰ",
+        "ਮਕਾਨ"
+      ],
+      "ans": 0,
+      "exp": "ਪ੍ਰਕਾਸ਼ uses the Dut Akhar 'ਰ' under the 'ਪ'."
+    },
+    {
+      "q": "Which varg does 'ਪ' (Pappa) belong to?",
+      "opts": [
+        "Pa varg",
+        "Ta varg",
+        "Cha varg",
+        "Ka varg"
+      ],
+      "ans": 0,
+      "exp": "It belongs to the Pa varg (Labial)."
+    }
+  ]
+}

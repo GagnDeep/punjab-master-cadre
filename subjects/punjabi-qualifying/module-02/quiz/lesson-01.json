@@ -1,0 +1,94 @@
+{
+  "title": "Quiz: Gurmukhi Script & Vowels",
+  "time_limit_minutes": 15,
+  "questions": [
+    {
+      "q": "What is the script of the Punjabi language?",
+      "opts": [
+        "Gurmukhi",
+        "Devanagari",
+        "Shahmukhi",
+        "Brahmi"
+      ],
+      "ans": 0,
+      "exp": "Punjabi is written in the Gurmukhi script."
+    },
+    {
+      "q": "How many original letters were there in the Gurmukhi alphabet?",
+      "opts": [
+        "35",
+        "41",
+        "40",
+        "30"
+      ],
+      "ans": 0,
+      "exp": "The alphabet originally consisted of 35 letters, earning it the name 'Painti Akhri'."
+    },
+    {
+      "q": "How many letters are there in the modern Gurmukhi alphabet?",
+      "opts": [
+        "41",
+        "35",
+        "45",
+        "38"
+      ],
+      "ans": 0,
+      "exp": "Six more letters were added by placing a dot (bindi) at the foot, bringing the total to 41."
+    },
+    {
+      "q": "Which of the following is NOT a vowel bearer (Swar) in Gurmukhi?",
+      "opts": [
+        "ਸ (Sassa)",
+        "ੳ (Oora)",
+        "ਅ (Aira)",
+        "ੲ (Eeri)"
+      ],
+      "ans": 0,
+      "exp": "There are only three vowel bearers: ੳ, ਅ, and ੲ. 'ਸ' is a consonant."
+    },
+    {
+      "q": "How many vowel bearers (Swar Uchar) are there in Gurmukhi?",
+      "opts": [
+        "3",
+        "10",
+        "5",
+        "7"
+      ],
+      "ans": 0,
+      "exp": "There are three primary vowel bearers: Oora, Aira, and Eeri."
+    },
+    {
+      "q": "How many vowel symbols (lagaan) are there?",
+      "opts": [
+        "10",
+        "12",
+        "8",
+        "6"
+      ],
+      "ans": 0,
+      "exp": "There are 10 vowel symbols (lagaan)."
+    },
+    {
+      "q": "Which of these letters was added to accommodate Persian sounds?",
+      "opts": [
+        "ਸ਼ (Shasha bindi)",
+        "ਕ (Kakka)",
+        "ਚ (Chacha)",
+        "ਪ (Pappa)"
+      ],
+      "ans": 0,
+      "exp": "ਸ਼ is one of the six letters added with a bindi at the foot."
+    },
+    {
+      "q": "What does the word 'Gurmukhi' literally mean?",
+      "opts": [
+        "From the mouth of the Guru",
+        "The language of Punjab",
+        "The pure script",
+        "From the ancient texts"
+      ],
+      "ans": 0,
+      "exp": "Gurmukhi translates to 'from the mouth of the Guru'."
+    }
+  ]
+}

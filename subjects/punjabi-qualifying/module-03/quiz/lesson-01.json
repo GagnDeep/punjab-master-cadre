@@ -1,0 +1,94 @@
+{
+  "title": "Quiz: Lagaan Rules",
+  "time_limit_minutes": 15,
+  "questions": [
+    {
+      "q": "How many Lagaan (vowel symbols) are there in Punjabi?",
+      "opts": [
+        "10",
+        "12",
+        "8",
+        "15"
+      ],
+      "ans": 0,
+      "exp": "There are 10 Lagaan in the Punjabi language."
+    },
+    {
+      "q": "Which vowel bearer takes 4 Lagaan?",
+      "opts": [
+        "ਅ (Aira)",
+        "ੳ (Oora)",
+        "ੲ (Eeri)",
+        "None of these"
+      ],
+      "ans": 0,
+      "exp": "Aira takes 4 Lagaan: Mukta, Kanna, Dulavan, and Kanaura."
+    },
+    {
+      "q": "Which Lagaan does NOT attach to 'ੳ' (Oora)?",
+      "opts": [
+        "Sihari",
+        "Aunkar",
+        "Dulankar",
+        "Hora"
+      ],
+      "ans": 0,
+      "exp": "Sihari does not attach to Oora. It attaches to Eeri."
+    },
+    {
+      "q": "Which of these is the '3, 4, 3' formula referring to?",
+      "opts": [
+        "Number of Lagaan for ੳ, ਅ, ੲ",
+        "Number of Dut Akhars",
+        "Number of Anunasik consonants",
+        "Number of Lagaakhar"
+      ],
+      "ans": 0,
+      "exp": "It refers to the number of Lagaan attached to the vowel bearers ੳ (3), ਅ (4), and ੲ (3)."
+    },
+    {
+      "q": "Can 'ੲ' (Eeri) take a Kanna?",
+      "opts": [
+        "No",
+        "Yes",
+        "Only in poetry",
+        "Only in loan words"
+      ],
+      "ans": 0,
+      "exp": "Eeri never takes a Kanna. It only takes Sihari, Bihari, and Lavan."
+    },
+    {
+      "q": "What is the 'Mukta' Laga?",
+      "opts": [
+        "A letter with no visible vowel symbol",
+        "A dot on top",
+        "A line below",
+        "A symbol for a doubled consonant"
+      ],
+      "ans": 0,
+      "exp": "Mukta means the letter is free from any visible vowel symbol."
+    },
+    {
+      "q": "Which vowel bearer takes the 'Hora' symbol?",
+      "opts": [
+        "ੳ (Oora)",
+        "ਅ (Aira)",
+        "ੲ (Eeri)",
+        "ਸ (Sassa)"
+      ],
+      "ans": 0,
+      "exp": "Oora takes Hora. It often takes an open top form (ਓ)."
+    },
+    {
+      "q": "Which Lagaan attach to 'ੲ' (Eeri)?",
+      "opts": [
+        "Sihari, Bihari, Lavan",
+        "Sihari, Aunkar, Hora",
+        "Kanna, Dulavan, Kanaura",
+        "Aunkar, Dulankar, Lavan"
+      ],
+      "ans": 0,
+      "exp": "Eeri takes Sihari, Bihari, and Lavan."
+    }
+  ]
+}
