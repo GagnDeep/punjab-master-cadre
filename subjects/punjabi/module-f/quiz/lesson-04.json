@@ -1,0 +1,86 @@
+{
+  "id": "pbi-mod-f-l4",
+  "title": "Recall Quiz: Kaal te Kirya Roop",
+  "questions": [
+    {
+      "id": "q-f-4-1",
+      "topic": "Kirya",
+      "q": "What is the root form of a verb called in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿੱਚ ਕਿਰਿਆ ਦੇ ਮੂਲ ਰੂਪ ਨੂੰ ਕੀ ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+      "options": ["ਕਾਲ", "ਧਾਤੂ", "ਕਰਮ", "ਲਗ"],
+      "answerIndex": 1,
+      "explanation": "The root is called Dhatu (ਧਾਤੂ).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-4-2",
+      "topic": "Kirya",
+      "q": "Identify the type of verb in the sentence: 'ਕੁੜੀ ਹੱਸਦੀ ਹੈ'.",
+      "qPa": "ਵਾਕ 'ਕੁੜੀ ਹੱਸਦੀ ਹੈ' ਵਿੱਚ ਕਿਰਿਆ ਦੀ ਕਿਸਮ ਦੱਸੋ:",
+      "options": ["ਸਕਰਮਕ", "ਅਕਰਮਕ", "ਸਸਰੰਗੀ", "ਦੂਹਰੀ"],
+      "answerIndex": 1,
+      "explanation": "There is no object (Karam), so it is Akarmak (Intransitive).",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "q-f-4-3",
+      "topic": "Kirya",
+      "q": "Identify the type of verb in the sentence: 'ਉਹ ਅਧਿਆਪਕ ਹੈ'.",
+      "qPa": "ਵਾਕ 'ਉਹ ਅਧਿਆਪਕ ਹੈ' ਵਿੱਚ 'ਹੈ' ਕੀ ਹੈ?",
+      "options": ["ਮੁੱਖ ਕਿਰਿਆ", "ਸਹਾਇਕ ਕਿਰਿਆ", "ਸਸਰੰਗੀ ਕਿਰਿਆ", "ਅਕਰਮਕ ਕਿਰਿਆ"],
+      "answerIndex": 2,
+      "explanation": "Since 'ਹੈ' acts alone to show state without a main verb, it is a Sasrangi Kirya (Copula).",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-f-4-4",
+      "topic": "Kaal",
+      "q": "Which tense is represented by 'ਉਹ ਪੜ੍ਹ ਰਿਹਾ ਸੀ'?",
+      "qPa": "ਵਾਕ 'ਉਹ ਪੜ੍ਹ ਰਿਹਾ ਸੀ' ਦਾ ਕਾਲ ਦੱਸੋ:",
+      "options": ["ਚਾਲੂ ਵਰਤਮਾਨ", "ਪੂਰਨ ਭੂਤ ਕਾਲ", "ਚਾਲੂ ਭੂਤ ਕਾਲ", "ਸਧਾਰਨ ਭੂਤ ਕਾਲ"],
+      "answerIndex": 2,
+      "explanation": "Action was happening in the past, so it is Chalu Bhoot Kaal (Past Continuous).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-4-5",
+      "topic": "Kirya",
+      "q": "Which sentence has a Sakarmak (Transitive) verb?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਸਕਰਮਕ ਕਿਰਿਆ ਵਾਲਾ ਵਾਕ ਚੁਣੋ:",
+      "options": ["ਬੱਚਾ ਰੋਂਦਾ ਹੈ।", "ਮੁੰਡਾ ਸੌਂ ਗਿਆ।", "ਉਸ ਨੇ ਪਾਣੀ ਪੀਤਾ।", "ਪੰਛੀ ਉੱਡਦੇ ਹਨ।"],
+      "answerIndex": 2,
+      "explanation": "'ਪਾਣੀ ਪੀਤਾ' has an object ('ਪਾਣੀ'), so it is Sakarmak.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-4-6",
+      "topic": "Kaal",
+      "q": "What is the future tense marker in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿੱਚ ਭਵਿੱਖਤ ਕਾਲ ਦਾ ਚਿੰਨ੍ਹ ਕੀ ਹੈ?",
+      "options": ["ਹੈ, ਹਨ", "ਸੀ, ਸਨ", "ਗਾ, ਗੇ, ਗੀ", "ਦਾ, ਦੇ, ਦੀ"],
+      "answerIndex": 2,
+      "explanation": "'ਗਾ, ਗੇ, ਗੀ' indicate future tense.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-4-7",
+      "topic": "Kaal",
+      "q": "'ਮੈਂ ਰੋਟੀ ਖਾ ਚੁੱਕਾ ਹਾਂ' - ਇਹ ਕਿਹੜਾ ਕਾਲ ਹੈ?",
+      "qPa": "'ਮੈਂ ਰੋਟੀ ਖਾ ਚੁੱਕਾ ਹਾਂ' - ਇਹ ਕਿਹੜਾ ਕਾਲ ਹੈ?",
+      "options": ["ਸਧਾਰਨ ਵਰਤਮਾਨ", "ਪੂਰਨ ਵਰਤਮਾਨ", "ਚਾਲੂ ਵਰਤਮਾਨ", "ਪੂਰਨ ਭੂਤ ਕਾਲ"],
+      "answerIndex": 1,
+      "explanation": "Action is completed in the present, so it is Puran Vartman (Present Perfect).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-4-8",
+      "topic": "Kirya",
+      "q": "In 'ਉਹ ਖੇਡ ਰਿਹਾ ਹੈ', what is 'ਹੈ'?",
+      "qPa": "ਵਾਕ 'ਉਹ ਖੇਡ ਰਿਹਾ ਹੈ' ਵਿੱਚ 'ਹੈ' ਕੀ ਹੈ?",
+      "options": ["ਮੁੱਖ ਕਿਰਿਆ", "ਸਸਰੰਗੀ ਕਿਰਿਆ", "ਸਹਾਇਕ ਕਿਰਿਆ", "ਅਕਰਮਕ ਕਿਰਿਆ"],
+      "answerIndex": 2,
+      "explanation": "Here 'ਹੈ' helps the main verb 'ਖੇਡ', so it is Sahayak Kirya (Helping Verb).",
+      "pyq": ""
+    }
+  ]
+}

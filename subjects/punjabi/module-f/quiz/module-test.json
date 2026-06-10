@@ -1,0 +1,207 @@
+{
+  "id": "pbi-mod-f-test",
+  "title": "Module F Full Test: Grammar",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mod-f-test-q1",
+      "topic": "Dhuni Viunt",
+      "q": "How many vowel sounds (Swar Dhunian) are in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿੱਚ ਸਵਰ ਧੁਨੀਆਂ ਦੀ ਗਿਣਤੀ ਕਿੰਨੀ ਹੈ?",
+      "options": ["3", "10", "12", "8"],
+      "answerIndex": 1,
+      "explanation": "The 3 Swar letters produce 10 distinct Swar Dhunian.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "mod-f-test-q2",
+      "topic": "Consonants",
+      "q": "Which type of consonant is 'ਚ'?",
+      "qPa": "'ਚ' ਕਿਹੜੇ ਵਰਗ ਦਾ ਵਿਅੰਜਨ ਹੈ?",
+      "options": ["ਕੰਠੀ (Kanthi)", "ਤਾਲਵੀ (Talvi)", "ਦੰਤੀ (Danti)", "ਹੋਂਠੀ (Honthi)"],
+      "answerIndex": 1,
+      "explanation": "'ਚ' belongs to the Talvi (Palatal) group.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q3",
+      "topic": "Script",
+      "q": "How many total letters are currently in Gurmukhi?",
+      "qPa": "ਹੁਣ ਗੁਰਮੁਖੀ ਲਿਪੀ ਵਿੱਚ ਕੁੱਲ ਕਿੰਨੇ ਅੱਖਰ ਹਨ?",
+      "options": ["35", "39", "41", "44"],
+      "answerIndex": 2,
+      "explanation": "35 original + 6 Naveen Varg = 41 total.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q4",
+      "topic": "Naav",
+      "q": "How many types of Nouns (Naav) are there?",
+      "qPa": "ਨਾਂਵ ਦੀਆਂ ਕਿੰਨੀਆਂ ਕਿਸਮਾਂ ਹਨ?",
+      "options": ["3", "4", "5", "6"],
+      "answerIndex": 2,
+      "explanation": "Naav has 5 types.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q5",
+      "topic": "Parnaav",
+      "q": "Identify the type of pronoun: 'ਆਪ' (in 'ਉਹ ਆਪ ਗਿਆ').",
+      "qPa": "'ਉਹ ਆਪ ਗਿਆ' ਵਿੱਚ 'ਆਪ' ਕਿਹੜਾ ਪੜਨਾਂਵ ਹੈ?",
+      "options": ["ਨਿੱਜ-ਵਾਚਕ", "ਪੁਰਖ-ਵਾਚਕ", "ਨਿਸ਼ਚੇ-ਵਾਚਕ", "ਅਨਿਸ਼ਚੇ-ਵਾਚਕ"],
+      "answerIndex": 0,
+      "explanation": "'ਆਪ' is Nij-vachak (Reflexive pronoun).",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q6",
+      "topic": "Visheshan",
+      "q": "In the sentence 'ਇਹ ਕਿਤਾਬ ਮੇਰੀ ਹੈ', what is 'ਇਹ'?",
+      "qPa": "ਵਾਕ 'ਇਹ ਕਿਤਾਬ ਮੇਰੀ ਹੈ' ਵਿੱਚ 'ਇਹ' ਕੀ ਹੈ?",
+      "options": ["ਨਿਸ਼ਚੇਵਾਚਕ ਪੜਨਾਂਵ", "ਨਿਸ਼ਚੇਵਾਚਕ ਵਿਸ਼ੇਸ਼ਣ", "ਗੁਣਵਾਚਕ ਵਿਸ਼ੇਸ਼ਣ", "ਪੁਰਖਵਾਚਕ ਪੜਨਾਂਵ"],
+      "answerIndex": 1,
+      "explanation": "Since 'ਇਹ' is modifying the noun 'ਕਿਤਾਬ', it acts as a Nishche-vachak Visheshan.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod-f-test-q7",
+      "topic": "Karak",
+      "q": "Which Karak uses the marker 'ਨੇ'?",
+      "qPa": "'ਨੇ' ਚਿੰਨ੍ਹ ਕਿਹੜੇ ਕਾਰਕ ਦਾ ਹੈ?",
+      "options": ["ਕਰਮ", "ਕਰਤਾ", "ਕਰਣ", "ਸੰਪਰਦਾਨ"],
+      "answerIndex": 1,
+      "explanation": "'ਨੇ' is the marker for Karta Karak (Nominative).",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q8",
+      "topic": "Karak",
+      "q": "In the sentence 'ਰੁੱਖ ਤੋਂ ਪੱਤਾ ਡਿੱਗਿਆ', what is the Karak of 'ਰੁੱਖ ਤੋਂ'?",
+      "qPa": "ਵਾਕ 'ਰੁੱਖ ਤੋਂ ਪੱਤਾ ਡਿੱਗਿਆ' ਵਿੱਚ 'ਰੁੱਖ ਤੋਂ' ਦਾ ਕਾਰਕ ਦੱਸੋ:",
+      "options": ["ਅਪਾਦਾਨ", "ਅਧਿਕਰਣ", "ਸੰਬੰਧ", "ਕਰਣ"],
+      "answerIndex": 0,
+      "explanation": "Separation ('ਤੋਂ') is indicated by Apadan Karak (Ablative).",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "mod-f-test-q9",
+      "topic": "Karak",
+      "q": "In 'ਮੈਂ ਪੈੱਨ ਨਾਲ ਲਿਖਿਆ', what is the Karak of 'ਪੈੱਨ ਨਾਲ'?",
+      "qPa": "ਵਾਕ 'ਮੈਂ ਪੈੱਨ ਨਾਲ ਲਿਖਿਆ' ਵਿੱਚ 'ਪੈੱਨ ਨਾਲ' ਕੀ ਹੈ?",
+      "options": ["ਕਰਮ", "ਕਰਣ", "ਸੰਪਰਦਾਨ", "ਅਪਾਦਾਨ"],
+      "answerIndex": 1,
+      "explanation": "'ਪੈੱਨ ਨਾਲ' indicates the instrument used, so it is Karan Karak (Instrumental).",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q10",
+      "topic": "Kirya",
+      "q": "Identify the type of verb in the sentence: 'ਕੁੜੀ ਹੱਸਦੀ ਹੈ'.",
+      "qPa": "ਵਾਕ 'ਕੁੜੀ ਹੱਸਦੀ ਹੈ' ਵਿੱਚ ਕਿਰਿਆ ਦੀ ਕਿਸਮ ਦੱਸੋ:",
+      "options": ["ਸਕਰਮਕ", "ਅਕਰਮਕ", "ਸਸਰੰਗੀ", "ਦੂਹਰੀ"],
+      "answerIndex": 1,
+      "explanation": "There is no object (Karam), so it is Akarmak (Intransitive).",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "mod-f-test-q11",
+      "topic": "Kirya",
+      "q": "Identify the type of verb in the sentence: 'ਉਹ ਅਧਿਆਪਕ ਹੈ'.",
+      "qPa": "ਵਾਕ 'ਉਹ ਅਧਿਆਪਕ ਹੈ' ਵਿੱਚ 'ਹੈ' ਕੀ ਹੈ?",
+      "options": ["ਮੁੱਖ ਕਿਰਿਆ", "ਸਹਾਇਕ ਕਿਰਿਆ", "ਸਸਰੰਗੀ ਕਿਰਿਆ", "ਅਕਰਮਕ ਕਿਰਿਆ"],
+      "answerIndex": 2,
+      "explanation": "Since 'ਹੈ' acts alone to show state without a main verb, it is a Sasrangi Kirya.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod-f-test-q12",
+      "topic": "Kaal",
+      "q": "Which tense is represented by 'ਉਹ ਪੜ੍ਹ ਰਿਹਾ ਸੀ'?",
+      "qPa": "ਵਾਕ 'ਉਹ ਪੜ੍ਹ ਰਿਹਾ ਸੀ' ਦਾ ਕਾਲ ਦੱਸੋ:",
+      "options": ["ਚਾਲੂ ਵਰਤਮਾਨ", "ਪੂਰਨ ਭੂਤ ਕਾਲ", "ਚਾਲੂ ਭੂਤ ਕਾਲ", "ਸਧਾਰਨ ਭੂਤ ਕਾਲ"],
+      "answerIndex": 2,
+      "explanation": "Action was happening in the past, so it is Chalu Bhoot Kaal.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q13",
+      "topic": "Vaak Types",
+      "q": "Identify the type of sentence: 'ਮਾਸਟਰ ਜੀ ਨੇ ਕਿਹਾ ਕਿ ਕੱਲ੍ਹ ਛੁੱਟੀ ਹੈ।'",
+      "qPa": "ਵਾਕ ਦੀ ਕਿਸਮ ਦੱਸੋ: 'ਮਾਸਟਰ ਜੀ ਨੇ ਕਿਹਾ ਕਿ ਕੱਲ੍ਹ ਛੁੱਟੀ ਹੈ।'?",
+      "options": ["ਸਧਾਰਨ ਵਾਕ", "ਸੰਯੁਕਤ ਵਾਕ", "ਮਿਸ਼ਰਤ ਵਾਕ", "ਵਿਸਮਿਕ ਵਾਕ"],
+      "answerIndex": 2,
+      "explanation": "It has a main clause and a dependent clause joined by 'ਕਿ', making it a Mishrat Vaak.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "mod-f-test-q14",
+      "topic": "Vaak Vatandra",
+      "q": "Change the compound sentence 'ਉਹ ਗਰੀਬ ਹੈ, ਪਰ ਇਮਾਨਦਾਰ ਹੈ' into a simple sentence.",
+      "qPa": "ਸੰਯੁਕਤ ਵਾਕ 'ਉਹ ਗਰੀਬ ਹੈ, ਪਰ ਇਮਾਨਦਾਰ ਹੈ' ਨੂੰ ਸਧਾਰਨ ਵਾਕ ਵਿੱਚ ਬਦਲੋ:",
+      "options": ["ਉਹ ਗਰੀਬ ਹੈ ਅਤੇ ਇਮਾਨਦਾਰ ਹੈ।", "ਉਹ ਗਰੀਬ ਹੋਣ ਦੇ ਬਾਵਜੂਦ ਇਮਾਨਦਾਰ ਹੈ।", "ਜੇਕਰ ਉਹ ਗਰੀਬ ਹੈ, ਤਾਂ ਇਮਾਨਦਾਰ ਹੈ।", "ਉਹ ਇਮਾਨਦਾਰ ਹੈ ਕਿਉਂਕਿ ਉਹ ਗਰੀਬ ਹੈ।"],
+      "answerIndex": 1,
+      "explanation": "Removing the conjunction 'ਪਰ' and combining into one clause gives the simple sentence.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q15",
+      "topic": "Muhavare vs Akhaan",
+      "q": "Which of these ends in an infinitive verb (ਣਾ/ਨਾ) and changes form according to tense?",
+      "qPa": "ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸਦੇ ਅੰਤ ਵਿੱਚ 'ਣਾ/ਨਾ' ਆਉਂਦਾ ਹੈ ਅਤੇ ਵਾਕ ਵਿੱਚ ਉਸਦਾ ਰੂਪ ਬਦਲਦਾ ਹੈ?",
+      "options": ["ਅਖਾਣ", "ਮੁਹਾਵਰਾ", "ਸ਼ਬਦ", "ਵਾਕ"],
+      "answerIndex": 1,
+      "explanation": "Muhavaras end in infinitive verbs and their form changes in a sentence.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "mod-f-test-q16",
+      "topic": "Akhaan",
+      "q": "Complete the Akhaan: 'ਆਪੇ ਫਾਥੜੀਏ...'",
+      "qPa": "ਅਖਾਣ ਪੂਰਾ ਕਰੋ: 'ਆਪੇ ਫਾਥੜੀਏ...'",
+      "options": ["ਕੀ ਕਰੀਏ", "ਤੈਨੂੰ ਕੌਣ ਛੁਡਾਵੇ", "ਜਾਲ ਵਿੱਚ", "ਆਪਣਾ ਨੁਕਸਾਨ"],
+      "answerIndex": 1,
+      "explanation": "The full Akhaan is 'ਆਪੇ ਫਾਥੜੀਏ ਤੈਨੂੰ ਕੌਣ ਛੁਡਾਵੇ'.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod-f-test-q17",
+      "topic": "Shudh-Ashudh",
+      "q": "Which of the following is the correct spelling?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਸ਼ੁੱਧ ਸ਼ਬਦ ਚੁਣੋ:",
+      "options": ["ਬੋਹਤ", "ਬਹੁੱਤ", "ਬਹੁਤ", "ਬਹੁਤੁ"],
+      "answerIndex": 2,
+      "explanation": "'ਬਹੁਤ' is the grammatically correct spelling.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q18",
+      "topic": "Shudh-Ashudh",
+      "q": "Which is the correct spelling?",
+      "qPa": "ਸ਼ੁੱਧ ਸ਼ਬਦ ਚੁਣੋ:",
+      "options": ["ਜਿੰਦਗੀ", "ਜ਼ਿੰਦਗੀ", "ਜਿੰਦੱਗੀ", "ਜ਼ਿੰਦੱਗੀ"],
+      "answerIndex": 1,
+      "explanation": "The letter 'ਜ਼' (with pair-bindi) is required.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q19",
+      "topic": "Akhandi Dhunian",
+      "q": "Which of the following is an Akhandi (Suprasegmental) sound?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜੀ ਅਖੰਡੀ ਧੁਨੀ ਹੈ?",
+      "options": ["ਸਵਰ (Vowel)", "ਵਿਅੰਜਨ (Consonant)", "ਸੁਰ (Tone)", "ਲਿਪੀ (Script)"],
+      "answerIndex": 2,
+      "explanation": "Tone (Sur), Stress (Bal), and Nasalization (Nasikta) are Akhandi Dhunian.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-f-test-q20",
+      "topic": "Vaak Bantar",
+      "q": "What is the standard sentence structure in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਾਕ ਦੀ ਮਿਆਰੀ ਤਰਤੀਬ ਕੀ ਹੈ?",
+      "options": ["ਕਰਤਾ + ਕਿਰਿਆ + ਕਰਮ", "ਕਰਮ + ਕਰਤਾ + ਕਿਰਿਆ", "ਕਰਤਾ + ਕਰਮ + ਕਿਰਿਆ", "ਕਿਰਿਆ + ਕਰਤਾ + ਕਰਮ"],
+      "answerIndex": 2,
+      "explanation": "Punjabi follows SOV order (Subject + Object + Verb).",
+      "pyq": "ERB 2018"
+    }
+  ]
+}
