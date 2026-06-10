@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Determinants & System of Equations - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 04
+    </div>
+
+    <h1>Lesson 04: Determinants & System of Equations</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਡਿਟਰਮੀਨੈਂਟ ਅਤੇ ਸਮੀਕਰਨਾਂ ਦੀ ਪ੍ਰਣਾਲੀ</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2022 Pattern)</div>
+        <p>Cramer's rule applications or identifying singular matrices (where the determinant is exactly zero) are staple questions in Master Cadre exams. These test your ability to quickly evaluate square matrices.</p>
+        <p class="pa mt-2">ਕਰੈਮਰ ਦਾ ਨਿਯਮ ਜਾਂ ਸਿੰਗੂਲਰ ਮੈਟ੍ਰਿਕਸ ਦੀ ਪਛਾਣ ਕਰਨਾ (ਜਿੱਥੇ ਡਿਟਰਮੀਨੈਂਟ ਜ਼ੀਰੋ ਹੁੰਦਾ ਹੈ) ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਆਮ ਸਵਾਲ ਹਨ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Calculate the determinant of 2x2 and 3x3 matrices rapidly.</li><li>Use fundamental properties of determinants to simplify heavy calculations.</li><li>Solve systems of linear equations using Cramer's Rule.</li><li>Understand the relationship between determinants and matrix inverses.</li><li>Identify singular and non-singular matrices.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>The <strong>determinant</strong> is a unique scalar value that can be calculated from any square matrix. It holds several powerful properties: If any two rows or columns are identical or proportional, the determinant |A| is exactly 0. The determinant of a product is the product of determinants: |AB| = |A||B|. A matrix is classified as <strong>singular</strong> if |A| = 0, which fundamentally means it does not possess an inverse matrix. To find the inverse of a non-singular matrix, we use the formula: A<sup class="sup">-1</sup> = <span class="fraction"><span>1</span><span class="bottom">|A|</span></span> * adj(A). Therefore, if |A| is 0, the fraction is undefined.</p><p>Calculating determinants for 3x3 matrices using Sarrus' rule or cofactor expansion is standard, but you should always look to simplify the matrix first using elementary row operations. Adding a multiple of one row to another does NOT change the value of the determinant. This is your most powerful tool. Aim to create a row or column with mostly zeros before expanding. </p><p>The Adjoint matrix, adj(A), is the transpose of the cofactor matrix. A critical property linking a matrix, its determinant, and its adjoint is A * adj(A) = |A| * I. Taking the determinant of both sides yields |A| * |adj(A)| = |A|<sup class="sup">n</sup>, which simplifies to the vital formula: |adj(A)| = |A|<sup class="sup">n-1</sup>. Memorize this; it is guaranteed to appear in the Master Cadre exam.</p><p>Cramer's Rule uses determinants to solve systems of linear equations. For a system of three variables, x = Dx/D, y = Dy/D, and z = Dz/D, where D is the determinant of the coefficient matrix, and Dx is the determinant formed by replacing the x-column with the constant terms. If D is not 0, the system has a unique solution and is consistent.</p><p>However, the analysis of systems where D = 0 is where examiners separate average students from top scorers. If D = 0, and at least one of Dx, Dy, or Dz is non-zero, the system is inconsistent and has no solution. The planes do not intersect at a single point or a common line. If D = 0 AND Dx = Dy = Dz = 0, the system usually has infinitely many solutions (dependent system), though strictly speaking, it requires further checking to ensure it isn't inconsistent in a specific parallel plane scenario.</p><p>Understanding the geometric interpretation helps immensely. A 3x3 determinant calculates the volume of the parallelepiped formed by its row vectors. If the determinant is zero, the volume is zero, meaning the three vectors lie in the same flat plane; they are linearly dependent. This spatial intuition provides a safety check for your algebraic calculations.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Find the determinant of a 2x2 matrix A with first row [2, 4] and second row [1, 3].</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the elements: a=2, b=4, c=1, d=3.</p><p><strong>Step 2:</strong> Apply the 2x2 determinant formula: (a * d) - (b * c).</p><p><strong>Step 3:</strong> Calculate the primary diagonal: 2 * 3 = 6.</p><p><strong>Step 4:</strong> Calculate the secondary diagonal: 4 * 1 = 4.</p><p><strong>Step 5:</strong> Subtract: 6 - 4 = 2.</p>
+        <p class="mt-4"><strong>Answer:</strong> The determinant is 2.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Watch out for questions asking for the determinant of the adjoint matrix: |adj(A)|. You do not need to calculate the adjoint itself! Simply use the formula: |adj(A)| = |A|<sup class="sup">n-1</sup>, where n is the order of the matrix.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>|A| = 0 means the matrix is singular (no inverse).</li><li>Proportional rows/cols mean |A| = 0.</li><li>Scaling property: |kA| = k<sup class="sup">n</sup>|A|.</li><li>Adjoint determinant: |adj(A)| = |A|<sup class="sup">n-1</sup>.</li><li>Inverse formula: A<sup class="sup">-1</sup> = (1/|A|) * adj(A).</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-04.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਜੀ ਆਇਆਂ ਨੂੰ ਬੱਚਿਓ! ਅੱਜ ਅਸੀਂ ਡਿਟਰਮੀਨੈਂਟ (Determinants) ਸਿੱਖਾਂਗੇ। ਇਹ ਮੈਟ੍ਰਿਕਸ ਦਾ ਹੀ ਅਗਲਾ ਹਿੱਸਾ ਹੈ ਅਤੇ ਬਹੁਤ ਹੀ ਮਜ਼ੇਦਾਰ ਹੈ।</p><p>ਡਿਟਰਮੀਨੈਂਟ ਕੱਢਣਾ ਬਹੁਤ ਸੌਖਾ ਹੈ, ਖਾਸ ਕਰਕੇ 2x2 ਮੈਟ੍ਰਿਕਸ ਦਾ। ਬਸ ਤਿਰਛੀ ਗੁਣਾ (cross multiply) ਕਰੋ ਅਤੇ ਘਟਾਓ। ਜਿਵੇਂ X ਬਣਾਉਣਾ ਹੋਵੇ। ਪਰ ਅਸਲੀ ਜਾਦੂ ਅਤੇ ਅਸਲੀ ਸ਼ਾਰਟਕੱਟ ਇਸਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ (properties) ਵਿੱਚ ਲੁਕਿਆ ਹੈ। ਪ੍ਰੀਖਿਅਕ ਤੁਹਾਨੂੰ ਵੱਡਾ ਸਾਰਾ ਮੈਟ੍ਰਿਕਸ ਦੇਵੇਗਾ, ਪਰ ਜੇਕਰ ਤੁਸੀਂ ਧਿਆਨ ਨਾਲ ਦੇਖੋਗੇ, ਤਾਂ ਸ਼ਾਇਦ ਉਸਦੀਆਂ ਦੋ ਕਤਾਰਾਂ (rows) ਜਾਂ ਦੋ ਕਾਲਮ (columns) ਇੱਕੋ ਜਿਹੇ ਹੋਣਗੇ। ਜੇਕਰ ਅਜਿਹਾ ਹੈ, ਤਾਂ ਤੁਹਾਨੂੰ ਕੁਝ ਵੀ ਗਿਣਨ ਦੀ ਲੋੜ ਨਹੀਂ, ਡਿਟਰਮੀਨੈਂਟ ਸਿੱਧਾ ਜ਼ੀਰੋ (0) ਹੋਵੇਗਾ!</p><p>ਇੱਕ ਹੋਰ ਸ਼ਬਦ ਜੋ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸੁਣਨ ਨੂੰ ਮਿਲੇਗਾ, ਉਹ ਹੈ 'Singular Matrix'। ਇਹ ਕੀ ਹੁੰਦਾ ਹੈ? ਸਿੰਗੂਲਰ ਮੈਟ੍ਰਿਕਸ ਉਹ ਹੁੰਦਾ ਹੈ ਜਿਸਦਾ ਡਿਟਰਮੀਨੈਂਟ ਜ਼ੀਰੋ ਹੋਵੇ। ਅਤੇ ਸਭ ਤੋਂ ਵੱਡੀ ਗੱਲ, ਅਜਿਹੇ ਮੈਟ੍ਰਿਕਸ ਦਾ ਅਸੀਂ ਉਲਟ (Inverse) ਨਹੀਂ ਕੱਢ ਸਕਦੇ। </p><p>ਪ੍ਰੀਖਿਆ ਲਈ ਇੱਕ ਸੁਨਹਿਰੀ ਫਾਰਮੂਲਾ ਲਿਖ ਲਓ: |adj(A)| = |A| ਦੀ ਘਾਤ (n-1)। ਉਹ ਤੁਹਾਨੂੰ A ਦਾ ਡਿਟਰਮੀਨੈਂਟ ਦੇਣਗੇ ਅਤੇ adj(A) ਦਾ ਡਿਟਰਮੀਨੈਂਟ ਪੁੱਛਣਗੇ। ਇਸ ਫਾਰਮੂਲੇ ਨਾਲ ਤੁਸੀਂ ਬਿਨਾਂ ਪੈੱਨ ਚੁੱਕੇ ਜਵਾਬ ਦੇ ਸਕਦੇ ਹੋ। </p><p>ਹੁਣ ਕਰੈਮਰ ਦੇ ਨਿਯਮ (Cramer's Rule) ਦੀ ਗੱਲ ਕਰਦੇ ਹਾਂ। ਇਹ ਸਮੀਕਰਨਾਂ (equations) ਨੂੰ ਹੱਲ ਕਰਨ ਦਾ ਬਹੁਤ ਹੀ ਵਧੀਆ ਤਰੀਕਾ ਹੈ। ਇਸ ਵਿੱਚ ਅਸੀਂ ਡਿਟਰਮੀਨੈਂਟਸ ਦੀ ਮਦਦ ਨਾਲ x, y ਅਤੇ z ਦੇ ਮੁੱਲ ਕੱਢਦੇ ਹਾਂ। ਪਰ ਧਿਆਨ ਰੱਖੋ, ਜੇਕਰ ਮੁੱਖ ਡਿਟਰਮੀਨੈਂਟ D ਜ਼ੀਰੋ ਹੋ ਜਾਵੇ, ਤਾਂ ਗੱਲ ਵਿਗੜ ਸਕਦੀ ਹੈ। </p><p>ਜੇ D ਜ਼ੀਰੋ ਹੈ ਅਤੇ ਬਾਕੀ Dx, Dy, Dz ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਜ਼ੀਰੋ ਨਹੀਂ ਹੈ, ਤਾਂ ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਸਮੀਕਰਨਾਂ ਦਾ ਕੋਈ ਹੱਲ ਨਹੀਂ ਹੈ (No solution)। ਪਰ ਜੇਕਰ ਸਾਰੇ ਦੇ ਸਾਰੇ ਜ਼ੀਰੋ ਹੋ ਜਾਣ, ਤਾਂ ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਅਣਗਿਣਤ ਹੱਲ (Infinite solutions) ਹਨ। ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਤੁਹਾਨੂੰ ਇਹ ਸ਼ਰਤਾਂ ਯਾਦ ਰੱਖਣੀਆਂ ਪੈਣਗੀਆਂ। ਇਹਨਾਂ ਗੱਲਾਂ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ ਅਤੇ ਅਸੀਂ ਕਰੈਮਰ ਦੇ ਨਿਯਮ ਨਾਲ ਵੱਡੀਆਂ ਸਮੀਕਰਨਾਂ ਵੀ ਚੁਟਕੀਆਂ ਵਿੱਚ ਹੱਲ ਕਰਾਂਗੇ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-04.json');</script>
+</body></html>

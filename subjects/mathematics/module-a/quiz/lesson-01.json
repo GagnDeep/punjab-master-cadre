@@ -1,0 +1,111 @@
+{
+  "id": "quiz-01",
+  "title": "Quiz 01",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Sets",
+      "q": "If set A has 4 elements, how many proper subsets does it have?",
+      "options": [
+        "16",
+        "15",
+        "8",
+        "7"
+      ],
+      "answerIndex": 1,
+      "explanation": "Proper subsets = 2<sup class=\"sup\">n</sup> - 1 = 16 - 1 = 15.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q2",
+      "topic": "Sets",
+      "q": "A intersection B is equivalent to:",
+      "options": [
+        "A union B",
+        "Elements in A but not B",
+        "Elements common to both A and B",
+        "Elements in B but not A"
+      ],
+      "answerIndex": 2,
+      "explanation": "Intersection strictly means elements present in both sets."
+    },
+    {
+      "id": "q3",
+      "topic": "Sets",
+      "q": "The power set of an empty set has how many elements?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Undefined"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(empty) = {empty}. The cardinality is 2<sup class=\"sup\">0</sup> = 1."
+    },
+    {
+      "id": "q4",
+      "topic": "Sets",
+      "q": "If A = {1, 2, 3} and B = {3, 4, 5}, what is A union B?",
+      "options": [
+        "{1, 2, 3, 4, 5}",
+        "{3}",
+        "{1, 2, 4, 5}",
+        "{1, 2, 3, 3, 4, 5}"
+      ],
+      "answerIndex": 0,
+      "explanation": "Union combines all unique elements without duplicates."
+    },
+    {
+      "id": "q5",
+      "topic": "Sets",
+      "q": "Which of the following is an infinite set?",
+      "options": [
+        "Set of vowels",
+        "Set of days in a week",
+        "Set of natural numbers",
+        "Set of rivers in Punjab"
+      ],
+      "answerIndex": 2,
+      "explanation": "Natural numbers go on forever: {1, 2, 3, ...}."
+    },
+    {
+      "id": "q6",
+      "topic": "Sets",
+      "q": "De Morgan's Law states that (A U B)' is equal to:",
+      "options": [
+        "A' U B'",
+        "A' intersection B'",
+        "A intersection B",
+        "A U B"
+      ],
+      "answerIndex": 1,
+      "explanation": "The complement of a union is the intersection of the individual complements."
+    },
+    {
+      "id": "q7",
+      "topic": "Sets",
+      "q": "If A is a subset of B, then A intersection B is:",
+      "options": [
+        "B",
+        "A",
+        "Empty set",
+        "Universal set"
+      ],
+      "answerIndex": 1,
+      "explanation": "Since all elements of A are already contained in B, their intersection is just A."
+    },
+    {
+      "id": "q8",
+      "topic": "Sets",
+      "q": "Let n(A) = 3 and n(B) = 4. What is the maximum number of elements in A U B?",
+      "options": [
+        "3",
+        "4",
+        "7",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "The maximum occurs when they are completely disjoint sets: 3 + 4 = 7."
+    }
+  ]
+}

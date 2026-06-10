@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 03</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 03</div>
+      <h1 class="slide-heading">Matrices & Operations</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Perform matrix addition, subtraction, and multiplication flawlessly.</li><li>Understand the concept of matrix transpose.</li><li>Identify symmetric and skew-symmetric matrices.</li><li>Apply properties of matrix operations to simplify complex expressions.</li><li>Decompose a square matrix into symmetric and skew-symmetric parts.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>Matrix multiplication is fundamentally different from regular number multiplication. To multiply two matrices A (size m by n) and B (size n by p), the number of columns in A must strictly equal the number of rows in B. The resulting matrix will have the size m by p. Unlike normal numbers, matrix multiplication is <strong>not commutative</strong>, meaning AB does not generally equal BA. The <strong>transpose</strong> of a matrix, denoted as A<sup class="sup">T</sup>, is found by swapping rows and columns. A matrix is perfectly <strong>symmetric</strong> if A = A<sup class="sup">T</sup>, and it is <strong>skew-symmetric</strong> if A = -A<sup class="sup">T</sup>. Any square matrix can uniquely be expressed as the sum of a symmetric and a skew-symmetric matrix.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>A very common error is applying the transpose operator incorrectly to a product. Remember the reversal rule: (AB)<sup class="sup">T</sup> = B<sup class="sup">T</sup> A<sup class="sup">T</sup>, NOT A<sup class="sup">T</sup> B<sup class="sup">T</sup>.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 2]], find the element in the first row and first column of the product AB.</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the first row of A: [1, 2].</li><li>Identify the first column of B: [2, 1].</li><li>Multiply corresponding elements and sum them up.</li><li>Calculation: (1 * 2) + (2 * 1) = 2 + 2 = 4.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The element is 4.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>They frequently ask to decompose a square matrix into the sum of a symmetric and a skew-symmetric matrix. The standard formula to memorize is: A = 1/2(A + A<sup class="sup">T</sup>) + 1/2(A - A<sup class="sup">T</sup>).</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Questions involving matrix multiplication and transpose properties are frequent. Finding A squared or A cubed efficiently is a common calculation task that tests both accuracy and speed.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Inner dimensions must match for multiplication (n = n).</li><li>Matrix multiplication is NOT commutative (AB != BA).</li><li>Transpose reversal rule: (AB)<sup class="sup">T</sup> = B<sup class="sup">T</sup> A<sup class="sup">T</sup>.</li><li>Symmetric: A = A<sup class="sup">T</sup>.</li><li>Skew-symmetric: A = -A<sup class="sup">T</sup>.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

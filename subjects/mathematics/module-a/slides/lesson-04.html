@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 04</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 04</div>
+      <h1 class="slide-heading">Determinants & System of Equations</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Calculate the determinant of 2x2 and 3x3 matrices rapidly.</li><li>Use fundamental properties of determinants to simplify heavy calculations.</li><li>Solve systems of linear equations using Cramer's Rule.</li><li>Understand the relationship between determinants and matrix inverses.</li><li>Identify singular and non-singular matrices.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>The <strong>determinant</strong> is a unique scalar value that can be calculated from any square matrix. It holds several powerful properties: If any two rows or columns are identical or proportional, the determinant |A| is exactly 0. The determinant of a product is the product of determinants: |AB| = |A||B|. A matrix is classified as <strong>singular</strong> if |A| = 0, which fundamentally means it does not possess an inverse matrix. To find the inverse of a non-singular matrix, we use the formula: A<sup class="sup">-1</sup> = <span class="fraction"><span>1</span><span class="bottom">|A|</span></span> * adj(A). Therefore, if |A| is 0, the fraction is undefined.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>A classic trap is confusing the scaling property |kA| with k|A|. For an n by n matrix, scaling the entire matrix by k scales the determinant by k<sup class="sup">n</sup>. So, |kA| = k<sup class="sup">n</sup>|A|.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Find the determinant of a 2x2 matrix A with first row [2, 4] and second row [1, 3].</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the elements: a=2, b=4, c=1, d=3.</li><li>Apply the 2x2 determinant formula: (a * d) - (b * c).</li><li>Calculate the primary diagonal: 2 * 3 = 6.</li><li>Calculate the secondary diagonal: 4 * 1 = 4.</li><li>Subtract: 6 - 4 = 2.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The determinant is 2.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Watch out for questions asking for the determinant of the adjoint matrix: |adj(A)|. You do not need to calculate the adjoint itself! Simply use the formula: |adj(A)| = |A|<sup class="sup">n-1</sup>, where n is the order of the matrix.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Cramer's rule applications or identifying singular matrices (where the determinant is exactly zero) are staple questions in Master Cadre exams. These test your ability to quickly evaluate square matrices.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>|A| = 0 means the matrix is singular (no inverse).</li><li>Proportional rows/cols mean |A| = 0.</li><li>Scaling property: |kA| = k<sup class="sup">n</sup>|A|.</li><li>Adjoint determinant: |adj(A)| = |A|<sup class="sup">n-1</sup>.</li><li>Inverse formula: A<sup class="sup">-1</sup> = (1/|A|) * adj(A).</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 02</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 02</div>
+      <h1 class="slide-heading">Types of Relations & Functions</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Identify reflexive, symmetric, and transitive relations with ease.</li><li>Understand the concept of an equivalence relation.</li><li>Define one-to-one (injective) and onto (surjective) functions.</li><li>Determine if a function is bijective by checking both conditions.</li><li>Calculate composite functions quickly.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>A relation R on a set A is an <strong>equivalence relation</strong> if it satisfies three critical properties: it must be reflexive (aRa for all a in A), symmetric (if aRb then bRa), and transitive (if aRb and bRc then aRc). A failure in any one of these means it is not an equivalence relation. For functions, an <strong>Injective</strong> (one-to-one) function means every element in the domain maps to a unique, distinct element in the codomain. A <strong>Surjective</strong> (onto) function means every element in the codomain has at least one pre-image in the domain. A function that is both injective and surjective is called <strong>Bijective</strong>. Bijective functions are especially important because they are the only functions that have a well-defined inverse.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>A common trap is assuming that a relation is reflexive just because it is symmetric and transitive. Reflexivity must be checked for EVERY element in the base set A. If even one element 'x' does not relate to itself (xRx), it is not reflexive.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Let A = {1, 2, 3}. Consider the relation R = {(1,1), (2,2), (3,3), (1,2), (2,1)}. Is this relation an equivalence relation?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Check Reflexive: Are (1,1), (2,2), and (3,3) in R? Yes.</li><li>Check Symmetric: For every (a,b), is (b,a) in R? We have (1,2), and (2,1) is also there. Yes.</li><li>Check Transitive: For (1,2) and (2,1), is (1,1) present? Yes. Are there any other chains? No.</li><li>Since it satisfies all three properties, it is an equivalence relation.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">Yes, it is an equivalence relation.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>ERB exams often present a relation defined mathematically, such as 'x - y is an even integer'. You must mentally test the three conditions. Hint: standard divisibility relations are almost always equivalence relations.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Identifying whether a relation is an equivalence relation (reflexive, symmetric, transitive) is a classic 1-mark question. Examiners love to test the boundaries of these definitions.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Equivalence = Reflexive + Symmetric + Transitive.</li><li>Reflexive: every element to itself.</li><li>Injective = One-to-one mapping.</li><li>Surjective = Onto mapping (codomain equals range).</li><li>Bijective functions have inverses.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>
