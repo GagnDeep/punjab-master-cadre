@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Applications of Derivatives - Module B - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module B</a> >
+      Lesson 03
+    </div>
+
+    <h1>Lesson 03: Applications of Derivatives</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਡੈਰੀਵੇਟਿਵਜ਼ ਦੀਆਂ ਐਪਲੀਕੇਸ਼ਨਾਂ (Applications of Derivatives)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>This is where calculus meets the real world. Questions on finding the maximum area, minimum cost, or the equation of a normal line appear in almost every ERB exam. Maximizing/minimizing problems carry high weightage.</p>
+        <p class="pa mt-2">ਇਹ ਉਹ ਥਾਂ ਹੈ ਜਿੱਥੇ ਕੈਲਕੂਲਸ ਅਸਲ ਸੰਸਾਰ ਨੂੰ ਮਿਲਦਾ ਹੈ। ਵੱਧ ਤੋਂ ਵੱਧ ਖੇਤਰ, ਘੱਟੋ-ਘੱਟ ਲਾਗਤ, ਜਾਂ ਇੱਕ ਆਮ ਰੇਖਾ ਦਾ ਸਮੀਕਰਨ ਲੱਭਣ ਬਾਰੇ ਸਵਾਲ ਲਗਭਗ ਹਰ ERB ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਆਉਂਦੇ ਹਨ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Find equations of tangent and normal lines to a curve.</li>
+        <li>Identify local maxima and minima using the First and Second Derivative Tests.</li>
+        <li>Solve practical rate-of-change word problems.</li>
+        <li>Understand increasing and decreasing functions.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>The derivative f'(x) gives the <strong>slope of the tangent line</strong> to the curve y = f(x) at any point x. If you have the point (x&sub1;, y&sub1;) and the slope m = f'(x&sub1;), the equation of the tangent is y - y&sub1; = m(x - x&sub1;). The <strong>normal line</strong> is perpendicular to the tangent, so its slope is -1/m.</p>
+
+      <p>One of the most powerful applications is finding <strong>Maxima and Minima</strong>. A function has a critical point where f'(x) = 0 or is undefined. To determine if this point is a maximum, minimum, or point of inflection, we use the Second Derivative Test: if f''(x) > 0 at the critical point, it's a local minimum (the curve is concave up, shaped like a 'U'). If f''(x) < 0, it's a local maximum (concave down, shaped like an inverted 'U').</p>
+
+      <div class="text-center my-6">
+        <svg width="400" height="250" viewBox="-50 -20 350 250" style="background: #fff; border: 1px solid var(--color-neutral-200); border-radius: 8px;">
+          <!-- Axes -->
+          <line x1="0" y1="180" x2="300" y2="180" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <line x1="20" y1="200" x2="20" y2="0" stroke="var(--color-neutral-800)" stroke-width="2"/>
+
+          <!-- Curve -->
+          <path d="M 20 150 C 80 0, 150 0, 200 100 S 280 180, 290 80" fill="none" stroke="var(--color-primary-600)" stroke-width="3"/>
+
+          <!-- Local Max -->
+          <circle cx="115" cy="40" r="5" fill="var(--color-accent-500)"/>
+          <text x="100" y="25" font-size="14" font-weight="bold" fill="var(--color-accent-600)">Max: f'(x)=0, f''(x)&lt;0</text>
+          <line x1="85" y1="40" x2="145" y2="40" stroke="var(--color-accent-500)" stroke-width="2" stroke-dasharray="4"/>
+
+          <!-- Local Min -->
+          <circle cx="235" cy="145" r="5" fill="var(--color-accent-500)"/>
+          <text x="210" y="165" font-size="14" font-weight="bold" fill="var(--color-accent-600)">Min: f'(x)=0, f''(x)&gt;0</text>
+          <line x1="205" y1="145" x2="265" y2="145" stroke="var(--color-accent-500)" stroke-width="2" stroke-dasharray="4"/>
+
+          <!-- Labels -->
+          <text x="290" y="170" font-size="14" font-weight="bold">x</text>
+          <text x="5" y="10" font-size="14" font-weight="bold">y</text>
+        </svg>
+      </div>
+
+      <p>Finally, derivatives represent the <strong>Rate of Change</strong>. If you are given a spherical balloon inflating, the rate of change of volume with respect to time (dV/dt) can be linked to the rate of change of radius (dr/dt) using the Chain Rule. Always identify what is given and what needs to be found before differentiating the relating equation with respect to time.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Find the local maximum and minimum values of f(x) = x<sup class="sup">3</sup> - 3x + 2.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Find the first derivative to locate critical points: f'(x) = 3x<sup class="sup">2</sup> - 3.</p>
+        <p><strong>Step 2:</strong> Set f'(x) = 0: 3(x<sup class="sup">2</sup> - 1) = 0 &rArr; x = 1, x = -1.</p>
+        <p><strong>Step 3:</strong> Find the second derivative to test these points: f''(x) = 6x.</p>
+        <p><strong>Step 4:</strong> Test x = 1: f''(1) = 6(1) = 6 > 0. Since it's positive, x = 1 is a local minimum. The minimum value is f(1) = 1 - 3 + 2 = 0.</p>
+        <p><strong>Step 5:</strong> Test x = -1: f''(-1) = 6(-1) = -6 < 0. Since it's negative, x = -1 is a local maximum. The maximum value is f(-1) = -1 - 3(-1) + 2 = 4.</p>
+        <p class="mt-4"><strong>Answer:</strong> Local Max value is 4 (at x=-1), Local Min value is 0 (at x=1).</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Word problems are common. "A wire of length L is cut into two pieces, one bent into a square, the other a circle. Find the lengths to minimize total area." The trick is setting up the primary equation (Area) in terms of a single variable using the secondary equation (Length).</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Tangent slope m = f'(x). Normal slope = -1/m.</li>
+        <li>Critical points happen where f'(x) = 0.</li>
+        <li>Max: f''(x) < 0 (Concave down).</li>
+        <li>Min: f''(x) > 0 (Concave up).</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-03.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਹੈਲੋ ਸਟੂਡੈਂਟਸ! ਅੱਜ ਅਸੀਂ ਡੈਰੀਵੇਟਿਵਜ਼ ਨੂੰ ਅਸਲ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਵਰਤਣਾ ਸਿੱਖਾਂਗੇ। ਹੁਣ ਤੱਕ ਅਸੀਂ ਸਿਰਫ਼ ਸਮੀਕਰਨਾਂ ਨੂੰ ਹੱਲ ਕੀਤਾ ਹੈ, ਪਰ ਅੱਜ ਅਸੀਂ ਦੇਖਾਂਗੇ ਕਿ ਡੈਰੀਵੇਟਿਵਜ਼ ਨਾਲ ਅਸੀਂ ਕਿਵੇਂ ਵੱਧ ਤੋਂ ਵੱਧ (Maximum) ਅਤੇ ਘੱਟੋ-ਘੱਟ (Minimum) ਵੈਲਿਊਜ਼ ਲੱਭ ਸਕਦੇ ਹਾਂ। ਮਾਸਟਰ ਕਾਡਰ ਦੇ ਪੇਪਰ ਵਿੱਚ ਇਸ ਟੌਪਿਕ ਵਿੱਚੋਂ ਹਮੇਸ਼ਾ ਇੱਕ ਜਾਂ ਦੋ ਸਵਾਲ ਆਉਂਦੇ ਹਨ।</p>
+          <p>ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਗੱਲ ਕਰਦੇ ਹਾਂ ਟੈਂਜੈਂਟ (Tangent) ਅਤੇ ਨੋਰਮਲ (Normal) ਬਾਰੇ। ਟੈਂਜੈਂਟ ਇੱਕ ਅਜਿਹੀ ਲਾਈਨ ਹੈ ਜੋ ਕਿਸੇ ਕਰਵ (curve) ਨੂੰ ਸਿਰਫ਼ ਇੱਕ ਬਿੰਦੂ 'ਤੇ ਛੂੰਹਦੀ ਹੈ। ਡੈਰੀਵੇਟਿਵ, ਯਾਨੀ ਕਿ dy/dx, ਸਾਨੂੰ ਉਸ ਟੈਂਜੈਂਟ ਦਾ ਢਲਾਨ (slope) ਦੱਸਦਾ ਹੈ। ਜੇਕਰ ਸਾਨੂੰ ਢਲਾਨ (m) ਅਤੇ ਬਿੰਦੂ (x1, y1) ਪਤਾ ਹੈ, ਤਾਂ ਅਸੀਂ ਲਾਈਨ ਦੀ ਸਮੀਕਰਨ (y - y1) = m(x - x1) ਲਿਖ ਸਕਦੇ ਹਾਂ। ਨੋਰਮਲ ਲਾਈਨ, ਟੈਂਜੈਂਟ ਦੇ ਬਿਲਕੁਲ ਲੰਬਵਤ (perpendicular) ਹੁੰਦੀ ਹੈ, ਇਸਲਈ ਇਸਦਾ ਢਲਾਨ -1/m ਹੁੰਦਾ ਹੈ।</p>
+          <p>ਹੁਣ ਸਭ ਤੋਂ ਦਿਲਚਸਪ ਹਿੱਸਾ—ਮੈਕਸਿਮਾ (Maxima) ਅਤੇ ਮਿਨੀਮਾ (Minima)। ਸੋਚੋ ਕਿ ਤੁਸੀਂ ਇੱਕ ਪਹਾੜੀ 'ਤੇ ਚੜ੍ਹ ਰਹੇ ਹੋ। ਜਦੋਂ ਤੁਸੀਂ ਬਿਲਕੁਲ ਚੋਟੀ 'ਤੇ ਪਹੁੰਚਦੇ ਹੋ, ਤਾਂ ਜ਼ਮੀਨ ਬਿਲਕੁਲ ਸਿੱਧੀ ਹੋ ਜਾਂਦੀ ਹੈ, ਠੀਕ ਹੈ ਨਾ? ਇਸੇ ਤਰ੍ਹਾਂ, ਕਰਵ ਦੇ ਸਭ ਤੋਂ ਉੱਚੇ ਜਾਂ ਸਭ ਤੋਂ ਹੇਠਲੇ ਬਿੰਦੂ 'ਤੇ, ਟੈਂਜੈਂਟ ਲਾਈਨ ਸਿੱਧੀ ਲੇਟਵੀਂ (horizontal) ਹੋ ਜਾਂਦੀ ਹੈ, ਜਿਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਉੱਥੇ ਢਲਾਨ, ਯਾਨੀ ਕਿ f'(x), ਜ਼ੀਰੋ ਹੋਵੇਗਾ! ਇਨ੍ਹਾਂ ਬਿੰਦੂਆਂ ਨੂੰ ਕ੍ਰਿਟੀਕਲ ਪੁਆਇੰਟ (Critical Points) ਕਹਿੰਦੇ ਹਨ।</p>
+          <p>ਪਰ ਸਾਨੂੰ ਕਿਵੇਂ ਪਤਾ ਲੱਗੇਗਾ ਕਿ ਇਹ ਬਿੰਦੂ ਪਹਾੜੀ ਦੀ ਚੋਟੀ (Maximum) ਹੈ ਜਾਂ ਖੱਡ ਦਾ ਤਲ (Minimum)? ਇਸਦੇ ਲਈ ਅਸੀਂ ਸੈਕਿੰਡ ਡੈਰੀਵੇਟਿਵ ਟੈਸਟ (Second Derivative Test) ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਾਂ। ਅਸੀਂ f''(x) ਕੱਢਦੇ ਹਾਂ। ਜੇਕਰ f''(x) ਪਲੱਸ (Positive) ਵਿੱਚ ਆਵੇ, ਤਾਂ ਇਸਦਾ ਮਤਲਬ ਕਰਵ ਉੱਪਰ ਵੱਲ ਖੁੱਲ੍ਹ ਰਿਹਾ ਹੈ (U ਸ਼ੇਪ), ਯਾਨੀ ਕਿ ਇਹ ਇੱਕ ਮਿਨੀਮਮ ਬਿੰਦੂ ਹੈ। ਜੇਕਰ f''(x) ਮਾਈਨਸ (Negative) ਵਿੱਚ ਆਵੇ, ਤਾਂ ਕਰਵ ਹੇਠਾਂ ਵੱਲ ਖੁੱਲ੍ਹ ਰਿਹਾ ਹੈ (ਉਲਟਾ U), ਯਾਨੀ ਕਿ ਇਹ ਇੱਕ ਮੈਕਸਿਮਮ ਬਿੰਦੂ ਹੈ। ਯਾਦ ਰੱਖਣਾ, ਪਲੱਸ ਮਤਲਬ ਮਿਨੀਮਮ, ਮਾਈਨਸ ਮਤਲਬ ਮੈਕਸਿਮਮ!</p>
+          <p>ਇਸ ਤੋਂ ਇਲਾਵਾ, ਡੈਰੀਵੇਟਿਵਜ਼ ਨੂੰ "ਰੇਟ ਆਫ਼ ਚੇਂਜ" (Rate of Change) ਲੱਭਣ ਲਈ ਵੀ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ। ਮੰਨ ਲਓ ਇੱਕ ਗੁਬਾਰੇ ਵਿੱਚ ਹਵਾ ਭਰੀ ਜਾ ਰਹੀ ਹੈ। ਗੁਬਾਰੇ ਦਾ ਆਕਾਰ (Volume) ਕਿੰਨੀ ਤੇਜ਼ੀ ਨਾਲ ਵੱਧ ਰਿਹਾ ਹੈ? ਇਹ dV/dt ਹੈ। ਅਜਿਹੇ ਸਵਾਲਾਂ ਵਿੱਚ ਸਾਨੂੰ ਇੱਕ ਫਾਰਮੂਲਾ (ਜਿਵੇਂ ਕਿ ਗੋਲੇ ਦੇ ਆਕਾਰ ਦਾ ਫਾਰਮੂਲਾ) ਲੈਣਾ ਹੁੰਦਾ ਹੈ ਅਤੇ ਸਮੇਂ (t) ਦੇ ਹਿਸਾਬ ਨਾਲ ਉਸਦਾ ਡੈਰੀਵੇਟਿਵ ਕੱਢਣਾ ਹੁੰਦਾ ਹੈ, ਜਿੱਥੇ ਚੇਨ ਰੂਲ ਸਾਡੀ ਮਦਦ ਕਰਦਾ ਹੈ। ਇਨ੍ਹਾਂ ਸਵਾਲਾਂ ਦੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਪ੍ਰੈਕਟਿਸ ਕਰੋ, ਕਿਉਂਕਿ ਇਹ ਪੇਪਰ ਵਿੱਚ ਪੱਕਾ ਆਉਣਗੇ!</p>
+        <p>ਦੋਸਤੋ, ਐਪਲੀਕੇਸ਼ਨਜ਼ ਆਫ਼ ਡੈਰੀਵੇਟਿਵਜ਼ ਸਿਰਫ਼ ਇੱਕ ਚੈਪਟਰ ਨਹੀਂ ਹੈ, ਇਹ ਇੱਕ ਕਲਾ ਹੈ। ਜਦੋਂ ਅਸੀਂ ਕਿਸੇ ਚੀਜ਼ ਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਜਾਂ ਘੱਟੋ-ਘੱਟ ਵੈਲਿਊ ਲੱਭਦੇ ਹਾਂ, ਤਾਂ ਅਸੀਂ ਅਸਲ ਵਿੱਚ ਉਸ ਸਿਸਟਮ ਨੂੰ ਅਨੁਕੂਲ (optimize) ਕਰ ਰਹੇ ਹੁੰਦੇ ਹਾਂ। ਉਦਾਹਰਨ ਵਜੋਂ, ਜੇਕਰ ਤੁਸੀਂ ਇੱਕ ਕੰਪਨੀ ਚਲਾ ਰਹੇ ਹੋ ਅਤੇ ਤੁਸੀਂ ਆਪਣਾ ਮੁਨਾਫ਼ਾ (profit) ਵਧਾਉਣਾ ਚਾਹੁੰਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਨੂੰ ਮੁਨਾਫ਼ੇ ਦੀ ਸਮੀਕਰਨ ਬਣਾ ਕੇ ਉਸਦਾ ਡੈਰੀਵੇਟਿਵ ਜ਼ੀਰੋ ਦੇ ਬਰਾਬਰ ਰੱਖਣਾ ਪਵੇਗਾ। ਇਹ ਸਿੱਧਾ-ਸਿੱਧਾ ਗਣਿਤ ਦੀ ਤਾਕਤ ਹੈ! ਇਸਦੇ ਨਾਲ ਹੀ, ਇਨਕਰੀਜ਼ਿੰਗ (Increasing) ਅਤੇ ਡਿਕਰੀਜ਼ਿੰਗ (Decreasing) ਫੰਕਸ਼ਨਾਂ ਦਾ ਕੰਸੈਪਟ ਵੀ ਬਹੁਤ ਅਹਿਮ ਹੈ। ਜੇਕਰ f'(x) ਪੋਜ਼ੀਟਿਵ (positive) ਹੈ, ਤਾਂ ਗ੍ਰਾਫ਼ ਉੱਪਰ ਵੱਲ ਜਾ ਰਿਹਾ ਹੈ, ਅਤੇ ਜੇਕਰ ਨੈਗੇਟਿਵ (negative) ਹੈ, ਤਾਂ ਗ੍ਰਾਫ਼ ਹੇਠਾਂ ਵੱਲ ਆ ਰਿਹਾ ਹੈ। ਇਹ ਬਿਲਕੁਲ ਸਟਾਕ ਮਾਰਕੀਟ (stock market) ਦੀ ਤਰ੍ਹਾਂ ਹੈ! ਪੇਪਰ ਵਿੱਚ ਕਈ ਵਾਰ ਇਹ ਵੀ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਇੱਕ ਖਾਸ ਅੰਤਰਾਲ (interval) ਵਿੱਚ ਫੰਕਸ਼ਨ ਦਾ ਸੁਭਾਅ ਕਿਹੋ ਜਿਹਾ ਹੈ। ਇਸਦੇ ਲਈ, ਕ੍ਰਿਟੀਕਲ ਪੁਆਇੰਟਸ (critical points) ਲੱਭੋ ਅਤੇ ਇੱਕ ਨੰਬਰ ਲਾਈਨ (number line) ਬਣਾਓ। ਫਿਰ ਹਰ ਹਿੱਸੇ ਵਿੱਚ f'(x) ਦਾ ਨਿਸ਼ਾਨ (sign) ਚੈੱਕ ਕਰੋ। ਇਹ ਤਰੀਕਾ ਕਦੇ ਵੀ ਗਲਤ ਨਹੀਂ ਹੁੰਦਾ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਰੇਟ ਆਫ਼ ਚੇਂਜ ਦੇ ਸਵਾਲਾਂ ਵਿੱਚ, ਹਮੇਸ਼ਾ ਧਿਆਨ ਨਾਲ ਦੇਖੋ ਕਿ ਕਿਹੜੀਆਂ ਚੀਜ਼ਾਂ ਬਦਲ ਰਹੀਆਂ ਹਨ ਅਤੇ ਕਿਹੜੀਆਂ ਸਥਿਰ (constant) ਹਨ। ਜੋ ਚੀਜ਼ ਸਥਿਰ ਹੈ, ਉਸਦਾ ਡੈਰੀਵੇਟਿਵ ਜ਼ੀਰੋ ਹੋਵੇਗਾ। ਇਹ ਛੋਟੀਆਂ-ਛੋਟੀਆਂ ਗੱਲਾਂ ਹੀ ਤੁਹਾਨੂੰ ਦੂਜੇ ਬੱਚਿਆਂ ਤੋਂ ਅੱਗੇ ਲੈ ਕੇ ਜਾਣਗੀਆਂ। ਪੂਰੇ ਵਿਸ਼ਵਾਸ ਨਾਲ ਤਿਆਰੀ ਕਰੋ ਅਤੇ ਹਰ ਕੰਸੈਪਟ ਨੂੰ ਮਜ਼ਬੂਤ ਕਰੋ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-03.json');</script>
+</body></html>

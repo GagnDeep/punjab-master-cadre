@@ -1,0 +1,110 @@
+{
+  "id": "quiz-04",
+  "title": "Quiz 04: Indefinite Integrals",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Standard Forms",
+      "q": "What is the integral of sin(x) dx?",
+      "options": [
+        "cos(x) + C",
+        "-cos(x) + C",
+        "sin(x) + C",
+        "-sin(x) + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "The derivative of cos(x) is -sin(x), so the integral of sin(x) is -cos(x) + C."
+    },
+    {
+      "id": "q2",
+      "topic": "Standard Forms",
+      "q": "Evaluate the integral of (1/x) dx.",
+      "options": [
+        "x^-2 + C",
+        "ln|x| + C",
+        "e^x + C",
+        "1/x^2 + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a fundamental standard integral. The derivative of ln|x| is 1/x."
+    },
+    {
+      "id": "q3",
+      "topic": "Substitution",
+      "q": "To evaluate the integral of 2x * e^(x^2) dx, which substitution is best?",
+      "options": [
+        "u = 2x",
+        "u = e^(x^2)",
+        "u = x^2",
+        "u = e^x"
+      ],
+      "answerIndex": 2,
+      "explanation": "If u = x^2, then du = 2x dx, which perfectly matches the rest of the integrand."
+    },
+    {
+      "id": "q4",
+      "topic": "Integration by Parts",
+      "q": "In the Integration by Parts formula, integral(u dv) = uv - integral(v du). Using the ILATE rule for the integral of x * ln(x) dx, what should be chosen as 'u'?",
+      "options": [
+        "x",
+        "ln(x)",
+        "dx",
+        "x * ln(x)"
+      ],
+      "answerIndex": 1,
+      "explanation": "ILATE stands for Inverse trig, Logarithmic, Algebraic... Logarithmic (ln x) comes before Algebraic (x)."
+    },
+    {
+      "id": "q5",
+      "topic": "Special Forms",
+      "q": "Evaluate integral( e^x * (sin x + cos x) ) dx.",
+      "options": [
+        "e^x * sin x + C",
+        "e^x * cos x + C",
+        "e^x * (sin x - cos x) + C",
+        "e^x + C"
+      ],
+      "answerIndex": 0,
+      "explanation": "This follows the pattern integral( e^x * [f(x) + f'(x)] ) dx = e^x * f(x) + C. Here f(x) = sin x and f'(x) = cos x."
+    },
+    {
+      "id": "q6",
+      "topic": "Standard Forms",
+      "q": "What is the integral of sec^2(x) dx?",
+      "options": [
+        "sec(x) + C",
+        "tan(x) + C",
+        "csc(x) + C",
+        "sec(x)tan(x) + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "The derivative of tan(x) is sec^2(x)."
+    },
+    {
+      "id": "q7",
+      "topic": "Substitution",
+      "q": "Evaluate the integral of (cos(ln x) / x) dx.",
+      "options": [
+        "sin(ln x) + C",
+        "-sin(ln x) + C",
+        "cos(ln x) + C",
+        "-cos(ln x) + C"
+      ],
+      "answerIndex": 0,
+      "explanation": "Let u = ln x. Then du = (1/x) dx. The integral becomes integral(cos u) du = sin u + C = sin(ln x) + C."
+    },
+    {
+      "id": "q8",
+      "topic": "Concepts",
+      "q": "Why is the constant 'C' added to indefinite integrals?",
+      "options": [
+        "It looks mathematically rigorous",
+        "The derivative of a constant is zero",
+        "It represents the area under the curve",
+        "It is required by the Fundamental Theorem of Calculus"
+      ],
+      "answerIndex": 1,
+      "explanation": "Since the derivative of any constant is 0, multiple functions differing only by a constant have the same derivative."
+    }
+  ]
+}

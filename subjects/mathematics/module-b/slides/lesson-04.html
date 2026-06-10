@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 04 - Indefinite Integrals</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module B • Lesson 04</div>
+      <h1 class="slide-heading">Indefinite Integrals</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul>
+        <li>Understand integration as an anti-derivative.</li>
+        <li>Memorize the integrals of standard functions.</li>
+        <li>Master Integration by Substitution.</li>
+        <li>Apply the Integration by Parts formula with ILATE.</li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">The Golden Rule</h2>
+      <p class="text-center text-xl mt-4">Never forget the constant of integration!</p>
+      <div class="stat-number" style="font-size: 3rem;">+ C</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Standard Forms</h2>
+        <ul>
+            <li>&int;x<sup>n</sup> dx = x<sup>n+1</sup>/(n+1) + C</li>
+            <li>&int;(1/x) dx = ln|x| + C</li>
+            <li>&int;e<sup>x</sup> dx = e<sup>x</sup> + C</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Trig Integrals</h3>
+        <ul>
+            <li>&int;cos(x) dx = sin(x) + C</li>
+            <li>&int;sin(x) dx = -cos(x) + C</li>
+            <li>&int;sec<sup>2</sup>(x) dx = tan(x) + C</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Substitution</h2>
+        <p>Used when you see a function <strong>AND</strong> its derivative in the integrand.</p>
+        <p>Let u = inner function, find du, substitute.</p>
+      </div>
+      <div class="col">
+        <h2>Integration by Parts</h2>
+        <p>&int;u dv = uv - &int;v du</p>
+        <p>Used for products of unrelated functions.</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">The ILATE Rule</h2>
+      <p>How to choose 'u' for Integration by Parts. Choose the first one that appears in this list:</p>
+      <ul>
+        <li><strong>I</strong>nverse Trigonometric</li>
+        <li><strong>L</strong>ogarithmic</li>
+        <li><strong>A</strong>lgebraic</li>
+        <li><strong>T</strong>rigonometric</li>
+        <li><strong>E</strong>xponential</li>
+      </ul>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Evaluate &int;x cos(x<sup>2</sup>) dx</p>
+      <ul>
+        <li>Let u = x<sup>2</sup>, so du = 2x dx &rarr; x dx = du/2</li>
+        <li>Sub: &int;cos(u) (du/2) = (1/2)&int;cos(u) du</li>
+        <li>Integrate: (1/2)sin(u) + C</li>
+        <li>Sub back: (1/2)sin(x<sup>2</sup>) + C</li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Exam Trick</h2>
+      <p class="text-center text-xl mt-4">Memorize this pattern:</p>
+      <div class="stat-number" style="font-size: 1.5rem;">&int;e<sup>x</sup>[f(x) + f'(x)]dx = e<sup>x</sup>f(x) + C</div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul>
+        <li>Integration reverses differentiation.</li>
+        <li>Always add + C.</li>
+        <li>Substitution: Look for f(g(x))*g'(x).</li>
+        <li>Parts: &int;u dv = uv - &int;v du. Use ILATE.</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

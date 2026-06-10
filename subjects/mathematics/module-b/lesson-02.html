@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Differentiability & Derivative Rules - Module B - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module B</a> >
+      Lesson 02
+    </div>
+
+    <h1>Lesson 02: Differentiability & Derivative Rules</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਡੈਰੀਵੇਟਿਵ ਨਿਯਮ ਅਤੇ ਭਿੰਨਤਾ (Differentiability & Derivative Rules)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Understanding when a function can be differentiated is as crucial as knowing how to do it. The ERB exam frequently tests the product rule, quotient rule, and especially the chain rule through composite functions.</p>
+        <p class="pa mt-2">ਇਹ ਸਮਝਣਾ ਕਿ ਕਿਸੇ ਫੰਕਸ਼ਨ ਨੂੰ ਕਦੋਂ ਵੱਖਰਾ ਕੀਤਾ ਜਾ ਸਕਦਾ ਹੈ, ਓਨਾ ਹੀ ਮਹੱਤਵਪੂਰਨ ਹੈ ਜਿੰਨਾ ਇਹ ਜਾਣਨਾ ਕਿ ਇਸਨੂੰ ਕਿਵੇਂ ਕਰਨਾ ਹੈ। ERB ਇਮਤਿਹਾਨ ਅਕਸਰ ਉਤਪਾਦ ਨਿਯਮ, ਭਾਗ ਨਿਯਮ, ਅਤੇ ਖਾਸ ਤੌਰ 'ਤੇ ਚੇਨ ਨਿਯਮ ਦੀ ਜਾਂਚ ਕਰਦਾ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Understand the geometric meaning of differentiability (smoothness, no sharp corners).</li>
+        <li>Apply the Product and Quotient rules without errors.</li>
+        <li>Master the Chain Rule for complex composite functions.</li>
+        <li>Memorize the derivatives of standard trigonometric, exponential, and logarithmic functions.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>A function is <strong>differentiable</strong> at a point if its derivative exists at that point. Geometrically, this means the graph of the function has a well-defined, non-vertical tangent line at that point. The graph must be "smooth." Sharp corners (like in f(x) = |x| at x=0), cusps, and vertical tangents signify points of non-differentiability. Remember the golden rule: Differentiability implies continuity, but continuity does not imply differentiability!</p>
+
+      <p>The calculation of derivatives relies heavily on several fundamental rules:</p>
+      <ul>
+          <li><strong>Power Rule:</strong> <span class="fraction"><span>d</span><span class="bottom">dx</span></span> x<sup class="sup">n</sup> = n &middot; x<sup class="sup">n-1</sup></li>
+          <li><strong>Product Rule:</strong> (uv)' = u'v + uv'. "Derivative of the first times the second, plus the first times derivative of the second."</li>
+          <li><strong>Quotient Rule:</strong> <span class="fraction"><span>u</span><span class="bottom">v</span></span>' = <span class="fraction"><span>u'v - uv'</span><span class="bottom">v<sup class="sup">2</sup></span></span>. "Low d-high minus high d-low, square the bottom and away we go."</li>
+          <li><strong>Chain Rule:</strong> <span class="fraction"><span>dy</span><span class="bottom">dx</span></span> = <span class="fraction"><span>dy</span><span class="bottom">du</span></span> &middot; <span class="fraction"><span>du</span><span class="bottom">dx</span></span>. Used for composite functions f(g(x)). Differentiate the "outside" function, leaving the "inside" alone, then multiply by the derivative of the "inside."</li>
+      </ul>
+
+      <p>You must also have the derivatives of basic functions committed to memory. For example, the derivative of sin(x) is cos(x), while the derivative of cos(x) is -sin(x). The derivative of e<sup class="sup">x</sup> is simply e<sup class="sup">x</sup>, and the derivative of ln(x) is 1/x.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Find the derivative of y = sin(x<sup class="sup">2</sup> + 3x)</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Recognize that this is a composite function requiring the Chain Rule. The "outside" function is sin(u), and the "inside" function is u = x<sup class="sup">2</sup> + 3x.</p>
+        <p><strong>Step 2:</strong> Differentiate the outside function: The derivative of sin(u) is cos(u).</p>
+        <p><strong>Step 3:</strong> Differentiate the inside function: The derivative of x<sup class="sup">2</sup> + 3x is 2x + 3.</p>
+        <p><strong>Step 4:</strong> Multiply them together: cos(x<sup class="sup">2</sup> + 3x) &middot; (2x + 3).</p>
+        <p class="mt-4"><strong>Answer:</strong> y' = (2x + 3)cos(x<sup class="sup">2</sup> + 3x)</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Questions often combine rules. You might need to use the Product Rule where one of the terms requires the Chain Rule (e.g., differentiate y = x&middot;e<sup class="sup">2x</sup>). Keep your steps organized to avoid sign errors.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Differentiable means "smooth" curve.</li>
+        <li>Product: (uv)' = u'v + uv'</li>
+        <li>Quotient: (u/v)' = (u'v - uv')/v<sup class="sup">2</sup></li>
+        <li>Chain: Outer deriv times inner deriv.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-02.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਵਿਦਿਆਰਥੀਓ, ਅੱਜ ਅਸੀਂ ਡੈਰੀਵੇਟਿਵਜ਼ ਦੇ ਨਿਯਮਾਂ ਅਤੇ ਡਿਫਰੈਂਸ਼ੀਏਬਿਲਟੀ (Differentiability) ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ। ਪਿਛਲੀ ਕਲਾਸ ਵਿੱਚ ਅਸੀਂ ਨਿਰੰਤਰਤਾ (Continuity) ਪੜ੍ਹੀ ਸੀ। ਅੱਜ ਦਾ ਵਿਸ਼ਾ ਉਸਤੋਂ ਇੱਕ ਕਦਮ ਅੱਗੇ ਹੈ। ਜਦੋਂ ਅਸੀਂ ਕਹਿੰਦੇ ਹਾਂ ਕਿ ਕੋਈ ਫੰਕਸ਼ਨ ਡਿਫਰੈਂਸ਼ੀਏਬਲ ਹੈ, ਤਾਂ ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਅਸੀਂ ਉਸ ਬਿੰਦੂ 'ਤੇ ਇੱਕ ਸਪਸ਼ਟ ਟੈਂਜੈਂਟ (Tangent) ਲਾਈਨ ਖਿੱਚ ਸਕਦੇ ਹਾਂ।</p>
+          <p>ਇਸਨੂੰ ਗ੍ਰਾਫ਼ ਦੀ ਮਦਦ ਨਾਲ ਸਮਝੋ। ਜੇਕਰ ਗ੍ਰਾਫ਼ ਬਿਲਕੁਲ ਮੁਲਾਇਮ (smooth) ਹੈ, ਬਿਨਾਂ ਕਿਸੇ ਤਿੱਖੇ ਮੋੜ ਜਾਂ ਕੋਨੇ (sharp corners) ਦੇ, ਤਾਂ ਉਹ ਡਿਫਰੈਂਸ਼ੀਏਬਲ ਹੈ। ਮੋਡਿਊਲਸ ਫੰਕਸ਼ਨ f(x) = |x| ਦੀ ਉਦਾਹਰਨ ਯਾਦ ਹੈ? x=0 'ਤੇ ਇਸਦਾ ਇੱਕ ਤਿੱਖਾ ਕੋਨਾ ਹੁੰਦਾ ਹੈ (V ਆਕਾਰ)। ਇਸ ਲਈ, ਇਹ x=0 'ਤੇ ਨਿਰੰਤਰ ਤਾਂ ਹੈ ਪਰ ਡਿਫਰੈਂਸ਼ੀਏਬਲ ਨਹੀਂ ਹੈ! ਇਹ ਇੱਕ ਬਹੁਤ ਹੀ ਮਹੱਤਵਪੂਰਨ ਨਿਯਮ ਹੈ: ਡਿਫਰੈਂਸ਼ੀਏਬਿਲਟੀ ਦਾ ਮਤਲਬ ਹੈ ਨਿਰੰਤਰਤਾ, ਪਰ ਨਿਰੰਤਰਤਾ ਦਾ ਮਤਲਬ ਹਮੇਸ਼ਾ ਡਿਫਰੈਂਸ਼ੀਏਬਿਲਟੀ ਨਹੀਂ ਹੁੰਦਾ!</p>
+          <p>ਹੁਣ ਆਓ ਡੈਰੀਵੇਟਿਵਜ਼ ਕੱਢਣ ਦੇ ਤਰੀਕਿਆਂ 'ਤੇ। ਸਭ ਤੋਂ ਆਮ ਨਿਯਮ ਪਾਵਰ ਰੂਲ (Power Rule) ਹੈ: x ਦੀ ਘਾਤ n ਦਾ ਡੈਰੀਵੇਟਿਵ n ਗੁਣਾ x ਦੀ ਘਾਤ n-1 ਹੁੰਦਾ ਹੈ। ਪਰ ਜਦੋਂ ਸਾਡੇ ਕੋਲ ਦੋ ਫੰਕਸ਼ਨ ਗੁਣਾ ਹੋ ਰਹੇ ਹੋਣ, ਤਾਂ ਅਸੀਂ ਪ੍ਰੋਡਕਟ ਰੂਲ (Product Rule) ਲਗਾਉਂਦੇ ਹਾਂ। ਪਹਿਲੇ ਦਾ ਡੈਰੀਵੇਟਿਵ ਗੁਣਾ ਦੂਜਾ, ਜਮ੍ਹਾਂ ਪਹਿਲਾ ਗੁਣਾ ਦੂਜੇ ਦਾ ਡੈਰੀਵੇਟਿਵ।</p>
+          <p>ਜੇਕਰ ਫੰਕਸ਼ਨ ਬਟੇ (fraction) ਵਿੱਚ ਹੋਣ, ਤਾਂ ਅਸੀਂ ਕੋਸ਼ੈਂਟ ਰੂਲ (Quotient Rule) ਵਰਤਦੇ ਹਾਂ। ਇਸਨੂੰ ਯਾਦ ਰੱਖਣ ਦਾ ਇੱਕ ਵਧੀਆ ਤਰੀਕਾ ਹੈ: "Low d-high minus high d-low, square the bottom and away we go" (ਹੇਠਲਾ ਗੁਣਾ ਉੱਪਰਲੇ ਦਾ ਡੈਰੀਵੇਟਿਵ, ਘਟਾਓ ਉੱਪਰਲਾ ਗੁਣਾ ਹੇਠਲੇ ਦਾ ਡੈਰੀਵੇਟਿਵ, ਅਤੇ ਬਟੇ ਵਿੱਚ ਹੇਠਲੇ ਦਾ ਵਰਗ)।</p>
+          <p>ਅਤੇ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਹੈ ਚੇਨ ਰੂਲ (Chain Rule)। ਜਦੋਂ ਇੱਕ ਫੰਕਸ਼ਨ ਦੇ ਅੰਦਰ ਦੂਜਾ ਫੰਕਸ਼ਨ ਹੋਵੇ (ਜਿਵੇਂ ਕਿ sin ਦੇ ਅੰਦਰ ਕੋਈ ਸਮੀਕਰਨ), ਤਾਂ ਅਸੀਂ ਚੇਨ ਰੂਲ ਲਗਾਉਂਦੇ ਹਾਂ। ਪਹਿਲਾਂ ਬਾਹਰਲੇ ਫੰਕਸ਼ਨ ਦਾ ਡੈਰੀਵੇਟਿਵ ਕਰੋ, ਅੰਦਰਲੇ ਨੂੰ ਉਵੇਂ ਹੀ ਰਹਿਣ ਦਿਓ, ਅਤੇ ਫਿਰ ਉਸਨੂੰ ਅੰਦਰਲੇ ਫੰਕਸ਼ਨ ਦੇ ਡੈਰੀਵੇਟਿਵ ਨਾਲ ਗੁਣਾ ਕਰ ਦਿਓ। ਮਾਸਟਰ ਕਾਡਰ ਦੇ ਪੇਪਰ ਵਿੱਚ ਚੇਨ ਰੂਲ ਦੇ ਸਵਾਲ ਲਾਜ਼ਮੀ ਆਉਂਦੇ ਹਨ।</p>
+          <p>ਅਭਿਆਸ ਕਰਦੇ ਰਹੋ, ਕਿਉਂਕਿ ਡੈਰੀਵੇਟਿਵਜ਼ ਵਿੱਚ ਰਫ਼ਤਾਰ (speed) ਅਤੇ ਸ਼ੁੱਧਤਾ (accuracy) ਬਹੁਤ ਜ਼ਰੂਰੀ ਹਨ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਨਿਯਮ ਯਾਦ ਹਨ ਅਤੇ ਤੁਸੀਂ ਬਿਨਾਂ ਗਲਤੀ ਦੇ ਗਣਨਾ ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਤੁਸੀਂ ਬਹੁਤ ਵਧੀਆ ਸਕੋਰ ਕਰ ਸਕਦੇ ਹੋ!</p>
+        <p>ਆਓ ਹੁਣ ਇਸਨੂੰ ਥੋੜ੍ਹਾ ਹੋਰ ਡੂੰਘਾਈ ਨਾਲ ਸਮਝੀਏ। ਜਦੋਂ ਅਸੀਂ ਚੇਨ ਰੂਲ ਲਗਾਉਂਦੇ ਹਾਂ, ਤਾਂ ਕਈ ਵਾਰ ਬੱਚੇ ਅੰਦਰਲੇ ਫੰਕਸ਼ਨ ਦਾ ਡੈਰੀਵੇਟਿਵ ਕਰਨਾ ਭੁੱਲ ਜਾਂਦੇ ਹਨ। ਇਹ ਗਲਤੀ ਕਦੇ ਨਾ ਕਰੋ! ਹਮੇਸ਼ਾ ਇੱਕ ਕਦਮ ਅੱਗੇ ਸੋਚੋ। ਜਿਵੇਂ ਕਿ ਜੇਕਰ ਅਸੀਂ ਗੱਡੀ ਚਲਾ ਰਹੇ ਹਾਂ, ਤਾਂ ਸਾਨੂੰ ਸਿਰਫ਼ ਬਾਹਰਲੇ ਟ੍ਰੈਫਿਕ ਦਾ ਧਿਆਨ ਨਹੀਂ ਰੱਖਣਾ ਹੁੰਦਾ, ਬਲਕਿ ਗੱਡੀ ਦੇ ਅੰਦਰਲੇ ਕੰਟਰੋਲ (controls) ਨੂੰ ਵੀ ਸੰਭਾਲਣਾ ਹੁੰਦਾ ਹੈ। ਇਸੇ ਤਰ੍ਹਾਂ, ਬਾਹਰਲੇ ਫੰਕਸ਼ਨ ਦਾ ਡੈਰੀਵੇਟਿਵ ਕਰਨ ਤੋਂ ਬਾਅਦ ਅੰਦਰਲੇ ਫੰਕਸ਼ਨ ਨੂੰ ਕਦੇ ਵੀ ਅਣਡਿੱਠ ਨਾ ਕਰੋ। ਪ੍ਰੋਡਕਟ ਰੂਲ ਅਤੇ ਕੋਸ਼ੈਂਟ ਰੂਲ ਵਿੱਚ ਵੀ ਪਲੱਸ (+) ਅਤੇ ਮਾਈਨਸ (-) ਦੇ ਨਿਸ਼ਾਨਾਂ ਦਾ ਖਾਸ ਧਿਆਨ ਰੱਖੋ। ਕੋਸ਼ੈਂਟ ਰੂਲ ਵਿੱਚ ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖੋ ਕਿ ਪਹਿਲਾਂ ਹੇਠਲਾ ਫੰਕਸ਼ਨ ਆਉਂਦਾ ਹੈ, ਫਿਰ ਉੱਪਰਲੇ ਦਾ ਡੈਰੀਵੇਟਿਵ ਹੁੰਦਾ ਹੈ। ਜੇਕਰ ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਗਲਤੀ ਕਰ ਦਿੱਤੀ, ਤਾਂ ਪੂਰਾ ਸਵਾਲ ਗਲਤ ਹੋ ਜਾਵੇਗਾ। ਇਸਤੋਂ ਇਲਾਵਾ, ਤਿਕੋਣਮਿਤੀ (Trigonometry) ਦੇ ਸਾਰੇ ਡੈਰੀਵੇਟਿਵ ਫਾਰਮੂਲੇ ਚੰਗੀ ਤਰ੍ਹਾਂ ਯਾਦ ਕਰ ਲਓ। ਜਿਵੇਂ ਕਿ tan(x) ਦਾ ਡੈਰੀਵੇਟਿਵ sec²(x) ਹੁੰਦਾ ਹੈ। ਇਹ ਫਾਰਮੂਲੇ ਤੁਹਾਨੂੰ ਪੇਪਰ ਵਿੱਚ ਬਹੁਤ ਮਦਦ ਕਰਨਗੇ। ਹਮੇਸ਼ਾ ਸਵਾਲ ਨੂੰ ਹੱਲ ਕਰਨ ਤੋਂ ਪਹਿਲਾਂ ਸੋਚੋ ਕਿ ਕਿਹੜਾ ਨਿਯਮ ਸਭ ਤੋਂ ਆਸਾਨ ਰਹੇਗਾ। ਕਈ ਵਾਰ ਫੰਕਸ਼ਨ ਨੂੰ ਪਹਿਲਾਂ ਸੌਖਾ (simplify) ਕਰਨਾ ਬਿਹਤਰ ਹੁੰਦਾ ਹੈ। ਮੈਨੂੰ ਪੂਰਾ ਵਿਸ਼ਵਾਸ ਹੈ ਕਿ ਜੇਕਰ ਤੁਸੀਂ ਇਨ੍ਹਾਂ ਗੱਲਾਂ ਦਾ ਧਿਆਨ ਰੱਖੋਗੇ, ਤਾਂ ਡੈਰੀਵੇਟਿਵ ਦਾ ਕੋਈ ਵੀ ਸਵਾਲ ਤੁਹਾਡੇ ਲਈ ਔਖਾ ਨਹੀਂ ਹੋਵੇਗਾ। ਅਭਿਆਸ ਕਰਦੇ ਰਹੋ, ਕਿਉਂਕਿ ਗਣਿਤ ਅਭਿਆਸ ਨਾਲ ਹੀ ਆਉਂਦਾ ਹੈ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-02.json');</script>
+</body></html>

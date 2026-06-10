@@ -1,0 +1,111 @@
+{
+  "id": "quiz-01",
+  "title": "Quiz 01: Limits & Continuity",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Limits",
+      "q": "What is the value of lim(x->0) sin(x)/x?",
+      "options": [
+        "0",
+        "1",
+        "Infinity",
+        "Does not exist"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a fundamental standard limit.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q2",
+      "topic": "Limits",
+      "q": "Evaluate lim(x->3) (x^2 - 9)/(x - 3).",
+      "options": [
+        "0",
+        "3",
+        "6",
+        "9"
+      ],
+      "answerIndex": 2,
+      "explanation": "Factor the numerator to (x-3)(x+3). Cancel (x-3). The limit is lim(x->3) (x+3) = 6."
+    },
+    {
+      "id": "q3",
+      "topic": "Continuity",
+      "q": "A function has a jump discontinuity if:",
+      "options": [
+        "LHL = RHL but not equal to f(a)",
+        "LHL and RHL exist but are not equal",
+        "LHL or RHL goes to infinity",
+        "The function is not defined at x=a"
+      ],
+      "answerIndex": 1,
+      "explanation": "A jump discontinuity occurs when the limits from the left and right exist but are different values."
+    },
+    {
+      "id": "q4",
+      "topic": "Limits",
+      "q": "Evaluate lim(x->0) (e^x - 1)/x.",
+      "options": [
+        "0",
+        "1",
+        "e",
+        "Infinity"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a standard limit that evaluates to 1. You can also use L'Hopital's rule: lim(x->0) e^x / 1 = e^0 = 1."
+    },
+    {
+      "id": "q5",
+      "topic": "Continuity",
+      "q": "For f(x) = |x|/x, what is the right-hand limit as x approaches 0?",
+      "options": [
+        "0",
+        "1",
+        "-1",
+        "Does not exist"
+      ],
+      "answerIndex": 1,
+      "explanation": "For x > 0, |x| = x, so |x|/x = x/x = 1. Therefore, the RHL is 1."
+    },
+    {
+      "id": "q6",
+      "topic": "Limits",
+      "q": "When can L'Hôpital's rule be applied directly?",
+      "options": [
+        "For any limit",
+        "Only for 0/0 indeterminate form",
+        "Only for infinity/infinity indeterminate form",
+        "For 0/0 or infinity/infinity indeterminate forms"
+      ],
+      "answerIndex": 3,
+      "explanation": "L'Hôpital's rule is specifically for evaluating limits that result in 0/0 or infinity/infinity."
+    },
+    {
+      "id": "q7",
+      "topic": "Limits",
+      "q": "Evaluate lim(x->infinity) (2x^2 + 3x)/(x^2 - 1).",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "Infinity"
+      ],
+      "answerIndex": 2,
+      "explanation": "Divide numerator and denominator by x^2. The limit approaches the ratio of the leading coefficients: 2/1 = 2."
+    },
+    {
+      "id": "q8",
+      "topic": "Continuity",
+      "q": "If a function is continuous at a point, is it definitely differentiable at that point?",
+      "options": [
+        "Yes, always",
+        "No, not necessarily",
+        "Only if the limit is 0",
+        "Only if it's a polynomial"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuity does not imply differentiability (e.g., f(x) = |x| at x=0 is continuous but not differentiable)."
+    }
+  ]
+}

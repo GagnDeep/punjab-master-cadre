@@ -1,0 +1,267 @@
+{
+  "id": "math-module-b-test",
+  "title": "Module B Complete Test: Calculus",
+  "timeLimitMinutes": 45,
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Limits",
+      "q": "Evaluate lim(x->0) (sin 3x) / x.",
+      "options": [
+        "1",
+        "3",
+        "1/3",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multiply numerator and denominator by 3: 3 * (sin 3x) / (3x). As x->0, (sin 3x)/(3x) -> 1, so the limit is 3."
+    },
+    {
+      "id": "q2",
+      "topic": "Limits",
+      "q": "What is the value of lim(x->2) (x^2 - 4) / (x - 2)?",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "Undefined"
+      ],
+      "answerIndex": 2,
+      "explanation": "Factor the numerator: (x-2)(x+2) / (x-2). Cancel (x-2) to get lim(x->2) (x+2) = 4."
+    },
+    {
+      "id": "q3",
+      "topic": "Continuity",
+      "q": "If a function f(x) has a removable discontinuity at x=a, which of the following is true?",
+      "options": [
+        "lim(x->a) f(x) does not exist",
+        "LHL and RHL are unequal",
+        "lim(x->a) f(x) exists, but does not equal f(a)",
+        "The function goes to infinity at x=a"
+      ],
+      "answerIndex": 2,
+      "explanation": "A removable discontinuity means the limit exists (LHL = RHL), but the actual function value f(a) is either undefined or a different value."
+    },
+    {
+      "id": "q4",
+      "topic": "Differentiability",
+      "q": "The function f(x) = |x - 5| is not differentiable at:",
+      "options": [
+        "x = 0",
+        "x = -5",
+        "x = 5",
+        "It is differentiable everywhere"
+      ],
+      "answerIndex": 2,
+      "explanation": "The modulus function has a sharp corner (a 'V' shape) where its argument is zero, which in this case is at x = 5."
+    },
+    {
+      "id": "q5",
+      "topic": "Derivatives",
+      "q": "Find the derivative of y = x^2 * ln(x).",
+      "options": [
+        "2x * ln(x)",
+        "x + 2x*ln(x)",
+        "x",
+        "2x / x"
+      ],
+      "answerIndex": 1,
+      "explanation": "Use the product rule: (2x)(ln x) + (x^2)(1/x) = 2x*ln(x) + x."
+    },
+    {
+      "id": "q6",
+      "topic": "Derivatives",
+      "q": "If y = e^(sin x), what is dy/dx?",
+      "options": [
+        "e^(cos x)",
+        "cos(x) * e^(sin x)",
+        "sin(x) * e^(cos x)",
+        "e^(sin x)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Use the chain rule. The derivative of e^u is e^u * u'. So, e^(sin x) * derivative(sin x) = e^(sin x) * cos(x)."
+    },
+    {
+      "id": "q7",
+      "topic": "Derivatives",
+      "q": "What is the second derivative of f(x) = x^4 - 3x^3 + 2x?",
+      "options": [
+        "4x^3 - 9x^2 + 2",
+        "12x^2 - 18x",
+        "12x^2 - 18x + 2",
+        "24x - 18"
+      ],
+      "answerIndex": 1,
+      "explanation": "First derivative f'(x) = 4x^3 - 9x^2 + 2. Second derivative f''(x) = 12x^2 - 18x."
+    },
+    {
+      "id": "q8",
+      "topic": "Applications of Derivatives",
+      "q": "The slope of the tangent line to the curve y = 3x^2 - 2x at x = 1 is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 3,
+      "explanation": "f'(x) = 6x - 2. At x=1, m = f'(1) = 6(1) - 2 = 4."
+    },
+    {
+      "id": "q9",
+      "topic": "Applications of Derivatives",
+      "q": "A function f(x) has a local maximum at x=c if:",
+      "options": [
+        "f'(c) = 0 and f''(c) > 0",
+        "f'(c) = 0 and f''(c) < 0",
+        "f'(c) > 0 and f''(c) = 0",
+        "f'(c) < 0 and f''(c) = 0"
+      ],
+      "answerIndex": 1,
+      "explanation": "By the Second Derivative Test, a negative second derivative (concave down) at a critical point indicates a local maximum."
+    },
+    {
+      "id": "q10",
+      "topic": "Applications of Derivatives",
+      "q": "Find the maximum value of f(x) = -x^2 + 4x.",
+      "options": [
+        "0",
+        "2",
+        "4",
+        "8"
+      ],
+      "answerIndex": 2,
+      "explanation": "f'(x) = -2x + 4. Set to 0: -2x = -4 => x=2. Maximum value f(2) = -(2)^2 + 4(2) = -4 + 8 = 4."
+    },
+    {
+      "id": "q11",
+      "topic": "Indefinite Integrals",
+      "q": "Evaluate the integral of (2x + 1)^2 dx.",
+      "options": [
+        "(2x+1)^3 / 3 + C",
+        "(2x+1)^3 / 6 + C",
+        "2(2x+1)^3 / 3 + C",
+        "4x^2 + 4x + 1 + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Using substitution u=2x+1, du=2dx. The integral becomes (1/2) * integral(u^2 du) = (1/2)*(u^3/3) = (2x+1)^3 / 6 + C."
+    },
+    {
+      "id": "q12",
+      "topic": "Indefinite Integrals",
+      "q": "What is the integral of 1 / (1 + x^2) dx?",
+      "options": [
+        "ln(1+x^2) + C",
+        "arctan(x) + C",
+        "arcsin(x) + C",
+        "-1/(1+x^2)^2 + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is a standard integral formula. The derivative of arctan(x) is 1/(1+x^2)."
+    },
+    {
+      "id": "q13",
+      "topic": "Indefinite Integrals",
+      "q": "Evaluate integral of e^x * (tan x + sec^2 x) dx.",
+      "options": [
+        "e^x * sec^2 x + C",
+        "e^x * tan x + C",
+        "e^x * sec x + C",
+        "e^x + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "This matches the form integral( e^x * [f(x) + f'(x)] ) dx. Here f(x) = tan x and f'(x) = sec^2 x. The answer is e^x * f(x) + C."
+    },
+    {
+      "id": "q14",
+      "topic": "Definite Integrals",
+      "q": "Evaluate the definite integral of 3x^2 dx from x=0 to x=2.",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "12"
+      ],
+      "answerIndex": 2,
+      "explanation": "Antiderivative is x^3. Evaluate at bounds: 2^3 - 0^3 = 8."
+    },
+    {
+      "id": "q15",
+      "topic": "Definite Integrals",
+      "q": "Evaluate the integral of x^3 dx from x = -2 to x = 2.",
+      "options": [
+        "-8",
+        "0",
+        "8",
+        "16"
+      ],
+      "answerIndex": 1,
+      "explanation": "The function f(x) = x^3 is an odd function (f(-x) = -f(x)). The integral of an odd function over a symmetric interval [-a, a] is always 0."
+    },
+    {
+      "id": "q16",
+      "topic": "Area",
+      "q": "The area bounded by the curve y=sin(x) and the x-axis from x=0 to x=pi is:",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "pi"
+      ],
+      "answerIndex": 2,
+      "explanation": "integral from 0 to pi of sin(x) dx = [-cos(x)] from 0 to pi = -cos(pi) - (-cos(0)) = -(-1) - (-1) = 1 + 1 = 2."
+    },
+    {
+      "id": "q17",
+      "topic": "Differential Equations",
+      "q": "What is the order of the differential equation: (dy/dx)^4 + d^3y/dx^3 = 0?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "The order is the highest derivative present. Here, it is the third derivative (d^3y/dx^3), so the order is 3."
+    },
+    {
+      "id": "q18",
+      "topic": "Differential Equations",
+      "q": "The general solution of the differential equation dy/dx = y contains how many arbitrary constants?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 1,
+      "explanation": "The number of arbitrary constants in the general solution is equal to the order of the differential equation. This is a first-order D.E."
+    },
+    {
+      "id": "q19",
+      "topic": "Differential Equations",
+      "q": "Find the integrating factor for dy/dx + (2/x)y = x.",
+      "options": [
+        "x",
+        "x^2",
+        "ln(x)",
+        "2/x"
+      ],
+      "answerIndex": 1,
+      "explanation": "P(x) = 2/x. I.F. = e^(integral of 2/x dx) = e^(2 ln x) = e^(ln x^2) = x^2."
+    },
+    {
+      "id": "q20",
+      "topic": "Differential Equations",
+      "q": "Which method is best to solve the differential equation dy/dx = (x^2 + 1) / (y^2 - y)?",
+      "options": [
+        "Integrating Factor",
+        "Homogeneous Equations",
+        "Variable Separable",
+        "Exact Equations"
+      ],
+      "answerIndex": 2,
+      "explanation": "We can easily separate the variables: (y^2 - y) dy = (x^2 + 1) dx. Then integrate both sides."
+    }
+  ]
+}

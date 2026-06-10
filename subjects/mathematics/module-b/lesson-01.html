@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Limits & Continuity - Module B - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module B</a> >
+      Lesson 01
+    </div>
+
+    <h1>Lesson 01: Limits & Continuity</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਸੀਮਾਵਾਂ ਅਤੇ ਨਿਰੰਤਰਤਾ (Limits & Continuity)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Limits and continuity form the bedrock of Calculus. Standard limits, L'Hôpital's rule, and points of discontinuity are repeatedly tested. A firm grasp here guarantees quick marks and sets you up for derivatives.</p>
+        <p class="pa mt-2">ਸੀਮਾਵਾਂ ਅਤੇ ਨਿਰੰਤਰਤਾ ਕੈਲਕੂਲਸ ਦਾ ਆਧਾਰ ਹਨ। ਮਿਆਰੀ ਸੀਮਾਵਾਂ, ਐਲ-ਹੋਪਿਟਲ ਦਾ ਨਿਯਮ, ਅਤੇ ਅਸੰਤੁਲਨ ਦੇ ਬਿੰਦੂ ਵਾਰ-ਵਾਰ ਪੁੱਛੇ ਜਾਂਦੇ ਹਨ। ਇਹਨਾਂ ਨੂੰ ਸਮਝਣਾ ਤੇਜ਼ ਅੰਕ ਯਕੀਨੀ ਬਣਾਉਂਦਾ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Grasp the epsilon-delta intuition of limits intuitively.</li>
+        <li>Evaluate standard limits and use L'Hôpital's Rule effectively.</li>
+        <li>Identify removable, jump, and infinite discontinuities.</li>
+        <li>Understand continuity at a point and over an interval.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>A <strong>limit</strong> describes the value that a function approaches as the input approaches a specific value. The formal epsilon-delta definition states that for every <span style="font-family: serif;">&epsilon; &gt; 0</span>, there exists a <span style="font-family: serif;">&delta; &gt; 0</span> such that if <span style="font-family: serif;">0 &lt; |x - a| &lt; &delta;</span>, then <span style="font-family: serif;">|f(x) - L| &lt; &epsilon;</span>. Intuitively, this means we can make f(x) as close to L as we want by picking x sufficiently close to a.</p>
+
+      <p>A function f(x) is <strong>continuous</strong> at a point x = a if three conditions are met: f(a) is defined, the limit of f(x) as x approaches a exists, and the limit equals f(a). If any of these fail, we have a <strong>discontinuity</strong>. </p>
+
+      <div class="text-center my-6">
+        <svg width="400" height="300" viewBox="-50 -50 350 250" style="background: #fff; border: 1px solid var(--color-neutral-200); border-radius: 8px;">
+          <!-- Axes -->
+          <line x1="0" y1="150" x2="300" y2="150" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <line x1="20" y1="200" x2="20" y2="-20" stroke="var(--color-neutral-800)" stroke-width="2"/>
+
+          <!-- Removable Discontinuity -->
+          <path d="M 20 100 Q 60 40 100 80" fill="none" stroke="var(--color-primary-500)" stroke-width="3"/>
+          <circle cx="100" cy="80" r="4" fill="#fff" stroke="var(--color-primary-500)" stroke-width="2"/>
+          <circle cx="100" cy="50" r="4" fill="var(--color-primary-500)"/>
+          <text x="80" y="35" font-size="12" fill="var(--color-neutral-700)">Removable</text>
+
+          <!-- Jump Discontinuity -->
+          <path d="M 110 90 Q 150 120 180 80" fill="none" stroke="var(--color-accent-500)" stroke-width="3"/>
+          <circle cx="180" cy="80" r="4" fill="#fff" stroke="var(--color-accent-500)" stroke-width="2"/>
+          <circle cx="180" cy="120" r="4" fill="var(--color-accent-500)"/>
+          <path d="M 180 120 Q 220 160 260 100" fill="none" stroke="var(--color-accent-500)" stroke-width="3"/>
+          <text x="160" y="65" font-size="12" fill="var(--color-neutral-700)">Jump</text>
+
+          <!-- Labels -->
+          <text x="290" y="140" font-size="14" font-weight="bold">x</text>
+          <text x="5" y="-10" font-size="14" font-weight="bold">y</text>
+        </svg>
+      </div>
+
+      <p>Standard limits are crucial for the exam. For example, <span class="fraction"><span>lim(x&rarr;0) sin(x)</span><span class="bottom">x</span></span> = 1, and <span class="fraction"><span>lim(x&rarr;0) (e<sup class="sup">x</sup> - 1)</span><span class="bottom">x</span></span> = 1. When evaluating limits of the form 0/0 or &infin;/&infin;, <strong>L'Hôpital's Rule</strong> is your best friend: take the derivative of the numerator and denominator separately.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Evaluate the limit: lim(x&rarr;2) <span class="fraction"><span>x<sup class="sup">2</sup> - 4</span><span class="bottom">x - 2</span></span></p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Direct substitution yields <span class="fraction"><span>2<sup class="sup">2</sup> - 4</span><span class="bottom">2 - 2</span></span> = <span class="fraction"><span>0</span><span class="bottom">0</span></span> (Indeterminate form).</p>
+        <p><strong>Step 2:</strong> Factor the numerator: x<sup class="sup">2</sup> - 4 = (x - 2)(x + 2).</p>
+        <p><strong>Step 3:</strong> Rewrite the limit: lim(x&rarr;2) <span class="fraction"><span>(x - 2)(x + 2)</span><span class="bottom">x - 2</span></span></p>
+        <p><strong>Step 4:</strong> Cancel the common term (x - 2), since x &ne; 2 in the limit: lim(x&rarr;2) (x + 2).</p>
+        <p><strong>Step 5:</strong> Substitute x = 2: 2 + 2 = 4.</p>
+        <p class="mt-4"><strong>Answer:</strong> 4</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>ERB loves functions with modulus like f(x) = |x| / x. They will ask for left-hand limit (LHL) and right-hand limit (RHL) at x=0. Remember LHL = -1, RHL = 1, so the limit does not exist (Jump discontinuity).</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Limit: The value a function approaches.</li>
+        <li>Continuity: LHL = RHL = f(a).</li>
+        <li>0/0 or &infin;/&infin; forms? Use L'Hôpital's Rule.</li>
+        <li>Standard Limit: lim(x&rarr;0) sin(x)/x = 1</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-01.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਹੈਲੋ ਸਟੂਡੈਂਟਸ! ਕੈਲਕੂਲਸ ਦੀ ਇਸ ਪਹਿਲੀ ਕਲਾਸ ਵਿੱਚ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ। ਅੱਜ ਅਸੀਂ ਕੈਲਕੂਲਸ ਦੀ ਨੀਂਹ—ਸੀਮਾਵਾਂ ਅਤੇ ਨਿਰੰਤਰਤਾ (Limits and Continuity)—ਬਾਰੇ ਪੜ੍ਹਾਂਗੇ। ਕੀ ਤੁਹਾਨੂੰ ਪਤਾ ਹੈ ਕਿ ਮਾਸਟਰ ਕਾਡਰ ਦੇ ਪੇਪਰ ਵਿੱਚ ਇਹ ਕਿੰਨਾ ਜ਼ਰੂਰੀ ਹੈ? ਇਹ ਸਿਰਫ਼ ਸਵਾਲ ਹੱਲ ਕਰਨ ਬਾਰੇ ਨਹੀਂ, ਸਗੋਂ ਇਹ ਸਮਝਣ ਬਾਰੇ ਹੈ ਕਿ ਗ੍ਰਾਫ਼ ਕਿਵੇਂ ਵਿਵਹਾਰ ਕਰਦੇ ਹਨ ਜਦੋਂ ਅਸੀਂ ਕਿਸੇ ਖਾਸ ਬਿੰਦੂ ਦੇ ਬਹੁਤ ਨੇੜੇ ਜਾਂਦੇ ਹਾਂ। ਜੇਕਰ ਤੁਹਾਡੀ ਨੀਂਹ ਪੱਕੀ ਹੋਵੇਗੀ, ਤਾਂ ਡੈਰੀਵੇਟਿਵ (Derivatives) ਤੁਹਾਡੇ ਲਈ ਖੇਡ ਬਣ ਜਾਣਗੇ!</p>
+          <p>ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਲਿਮਿਟ ਕੀ ਹੈ? ਸਧਾਰਨ ਸ਼ਬਦਾਂ ਵਿੱਚ, ਜਦੋਂ x ਕਿਸੇ ਖਾਸ ਵੈਲਿਊ 'a' ਵੱਲ ਵਧਦਾ ਹੈ, ਤਾਂ ਫੰਕਸ਼ਨ f(x) ਕਿਸ ਵੈਲਿਊ ਵੱਲ ਜਾ ਰਿਹਾ ਹੈ? ਇਹੀ ਲਿਮਿਟ ਹੈ। ਇਸਨੂੰ ਸਮਝਣ ਲਈ ਐਪਸਿਲੋਨ-ਡੈਲਟਾ (epsilon-delta) ਪਰਿਭਾਸ਼ਾ ਵਰਤੀ ਜਾਂਦੀ ਹੈ। ਇਹ ਸੁਣਨ ਵਿੱਚ ਔਖੀ ਲੱਗਦੀ ਹੈ, ਪਰ ਅਸਲ ਵਿੱਚ ਇਹ ਕਹਿੰਦੀ ਹੈ ਕਿ ਜੇਕਰ ਅਸੀਂ x ਨੂੰ 'a' ਦੇ ਕਾਫ਼ੀ ਨੇੜੇ ਰੱਖੀਏ (ਡੈਲਟਾ ਦੂਰੀ ਦੇ ਅੰਦਰ), ਤਾਂ f(x) ਲਿਮਿਟ 'L' ਦੇ ਬਹੁਤ ਨੇੜੇ (ਐਪਸਿਲੋਨ ਦੂਰੀ ਦੇ ਅੰਦਰ) ਹੋਵੇਗਾ। ਇਹ ਸਿਰਫ ਨੇੜਤਾ ਦਾ ਅਹਿਸਾਸ ਹੈ!</p>
+          <p>ਹੁਣ ਨਿਰੰਤਰਤਾ (Continuity) ਬਾਰੇ ਗੱਲ ਕਰੀਏ। ਕੋਈ ਫੰਕਸ਼ਨ ਨਿਰੰਤਰ ਕਦੋਂ ਹੁੰਦਾ ਹੈ? ਸੋਚੋ ਕਿ ਤੁਸੀਂ ਇੱਕ ਪੈੱਨ ਨਾਲ ਗ੍ਰਾਫ਼ ਬਣਾ ਰਹੇ ਹੋ, ਜੇਕਰ ਤੁਹਾਨੂੰ ਗ੍ਰਾਫ਼ ਬਣਾਉਂਦੇ ਸਮੇਂ ਪੈੱਨ ਚੁੱਕਣਾ ਨਾ ਪਵੇ, ਤਾਂ ਉਹ ਫੰਕਸ਼ਨ ਨਿਰੰਤਰ ਹੈ! ਗਣਿਤ ਦੀ ਭਾਸ਼ਾ ਵਿੱਚ, ਕਿਸੇ ਬਿੰਦੂ x = a 'ਤੇ ਨਿਰੰਤਰ ਹੋਣ ਲਈ ਤਿੰਨ ਸ਼ਰਤਾਂ ਹਨ: f(a) ਦੀ ਵੈਲਿਊ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ, ਲਿਮਿਟ ਮੌਜੂਦ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ, ਅਤੇ ਲਿਮਿਟ ਦੀ ਵੈਲਿਊ f(a) ਦੇ ਬਰਾਬਰ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ (LHL = RHL = f(a))।</p>
+          <p>ਜੇਕਰ ਇਨ੍ਹਾਂ ਵਿੱਚੋਂ ਕੋਈ ਵੀ ਸ਼ਰਤ ਪੂਰੀ ਨਹੀਂ ਹੁੰਦੀ, ਤਾਂ ਅਸੀਂ ਕਹਿੰਦੇ ਹਾਂ ਕਿ ਗ੍ਰਾਫ਼ ਵਿੱਚ ਟੁੱਟ (Discontinuity) ਹੈ। ਅਸੀਂ ਗ੍ਰਾਫ਼ ਵਿੱਚ ਵੱਖ-ਵੱਖ ਤਰ੍ਹਾਂ ਦੀਆਂ ਡਿਸਕੰਟੀਨਿਊਟੀਜ਼ ਦੇਖਦੇ ਹਾਂ। ਪਹਿਲੀ ਹੈ ਰਿਮੂਵੇਬਲ ਡਿਸਕੰਟੀਨਿਊਟੀ (Removable discontinuity), ਜਿੱਥੇ ਗ੍ਰਾਫ਼ ਵਿੱਚ ਇੱਕ ਛੋਟਾ ਜਿਹਾ ਛੇਕ (hole) ਹੁੰਦਾ ਹੈ। ਦੂਜੀ ਹੈ ਜੰਪ ਡਿਸਕੰਟੀਨਿਊਟੀ (Jump discontinuity), ਜਿੱਥੇ ਗ੍ਰਾਫ਼ ਅਚਾਨਕ ਛਾਲ ਮਾਰ ਕੇ ਉੱਪਰ ਜਾਂ ਹੇਠਾਂ ਚਲਾ ਜਾਂਦਾ ਹੈ। ਅਤੇ ਤੀਜੀ ਹੈ ਇਨਫਿਨਾਈਟ ਡਿਸਕੰਟੀਨਿਊਟੀ (Infinite discontinuity), ਜਿਵੇਂ ਕਿ ਅਸਿਮਪਟੋਟ (asymptotes) ਵਾਲੇ ਗ੍ਰਾਫ਼ਾਂ ਵਿੱਚ ਹੁੰਦਾ ਹੈ।</p>
+          <p>ਪੇਪਰ ਵਿੱਚ ਤੁਹਾਨੂੰ 'Standard Limits' ਯਾਦ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਜਿਵੇਂ, ਜਦੋਂ x ਜ਼ੀਰੋ ਵੱਲ ਜਾਂਦਾ ਹੈ, ਤਾਂ sin(x)/x ਦੀ ਲਿਮਿਟ 1 ਹੁੰਦੀ ਹੈ। ਅਤੇ ਜੇਕਰ ਕਦੇ ਲਿਮਿਟ ਕੱਢਣ ਵੇਲੇ 0/0 ਜਾਂ ਇਨਫਿਨਿਟੀ/ਇਨਫਿਨਿਟੀ (infinity/infinity) ਬਣ ਜਾਵੇ, ਤਾਂ ਘਬਰਾਉਣਾ ਨਹੀਂ! ਸਾਡੇ ਕੋਲ ਐਲ-ਹੋਪਿਟਲ ਰੂਲ (L'Hôpital's Rule) ਹੈ। ਬੱਸ ਉੱਪਰਲੇ ਹਿੱਸੇ ਦਾ ਡੈਰੀਵੇਟਿਵ ਕਰੋ ਅਤੇ ਹੇਠਲੇ ਹਿੱਸੇ ਦਾ ਵੱਖਰਾ ਡੈਰੀਵੇਟਿਵ ਕਰੋ, ਅਤੇ ਫਿਰ ਵੈਲਿਊ ਭਰੋ। ਇਹ ਰੂਲ ਤੁਹਾਡਾ ਬਹੁਤ ਸਮਾਂ ਬਚਾਏਗਾ!</p>
+          <p>ਆਓ ਇਸਨੂੰ ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਮਝੀਏ ਅਤੇ ਆਪਣੇ ਅੰਕ ਪੱਕੇ ਕਰੀਏ। ਹਮੇਸ਼ਾ ਖੱਬੇ ਪਾਸੇ ਦੀ ਲਿਮਿਟ (LHL) ਅਤੇ ਸੱਜੇ ਪਾਸੇ ਦੀ ਲਿਮਿਟ (RHL) ਨੂੰ ਚੈੱਕ ਕਰਨ ਦੀ ਆਦਤ ਪਾਓ, ਖਾਸ ਕਰਕੇ ਜਦੋਂ ਮੋਡਿਊਲਸ (modulus) ਫੰਕਸ਼ਨ ਹੋਣ। ਇਸ ਨਾਲ ਤੁਸੀਂ ਕਦੇ ਵੀ ਗਲਤੀ ਨਹੀਂ ਕਰੋਗੇ। ਅੱਗੇ ਵਧੋ ਅਤੇ ਕੁਇਜ਼ ਦੇ ਸਵਾਲ ਹੱਲ ਕਰੋ!</p>
+        <p>ਪਿਆਰੇ ਵਿਦਿਆਰਥੀਓ, ਆਓ ਕੁਝ ਹੋਰ ਅਹਿਮ ਗੱਲਾਂ ਕਰੀਏ। ਜਦੋਂ ਅਸੀਂ ਲਿਮਿਟ ਕੱਢਦੇ ਹਾਂ, ਤਾਂ ਇਹ ਦੇਖਣਾ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ ਕਿ ਕੀ ਇਹ ਇੱਕ ਪਾਸਿਓਂ ਆ ਰਹੀ ਹੈ ਜਾਂ ਦੋਹਾਂ ਪਾਸਿਆਂ ਤੋਂ। ਜੇਕਰ ਖੱਬੇ ਪਾਸੇ ਦੀ ਲਿਮਿਟ (LHL) ਅਤੇ ਸੱਜੇ ਪਾਸੇ ਦੀ ਲਿਮਿਟ (RHL) ਬਰਾਬਰ ਨਹੀਂ ਹਨ, ਤਾਂ ਅਸੀਂ ਕਹਿੰਦੇ ਹਾਂ ਕਿ ਲਿਮਿਟ ਮੌਜੂਦ ਨਹੀਂ ਹੈ। ਇਹ ਬਿਲਕੁਲ ਉਸੇ ਤਰ੍ਹਾਂ ਹੈ ਜਿਵੇਂ ਕਿ ਦੋ ਦੋਸਤ ਇੱਕੋ ਜਗ੍ਹਾ 'ਤੇ ਮਿਲਣ ਲਈ ਆ ਰਹੇ ਹੋਣ ਪਰ ਵੱਖ-ਵੱਖ ਰਸਤਿਆਂ ਤੋਂ, ਅਤੇ ਉਹਨਾਂ ਦੀ ਮੰਜ਼ਿਲ ਵੀ ਵੱਖਰੀ ਹੋਵੇ। ਇਹ ਕੰਸੈਪਟ ਪੇਪਰ ਵਿੱਚ ਬਹੁਤ ਆਉਂਦਾ ਹੈ, ਖਾਸ ਕਰਕੇ ਮੋਡਿਊਲਸ (modulus) ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚ। ਐਲ-ਹੋਪਿਟਲ ਰੂਲ (L'Hôpital's Rule) ਨੂੰ ਵੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਸਮਝੋ, ਕਿਉਂਕਿ ਇਹ ਤੁਹਾਨੂੰ ਬਹੁਤ ਸਾਰੀਆਂ ਲੰਬੀਆਂ ਗਣਨਾਵਾਂ ਤੋਂ ਬਚਾਏਗਾ। ਜਦੋਂ ਵੀ ਤੁਹਾਨੂੰ 0/0 ਜਾਂ ਇਨਫਿਨਿਟੀ/ਇਨਫਿਨਿਟੀ ਨਜ਼ਰ ਆਵੇ, ਤਾਂ ਸਿੱਧਾ ਇਹ ਰੂਲ ਲਗਾਓ। ਯਾਦ ਰੱਖੋ, ਅਭਿਆਸ ਨਾਲ ਹੀ ਤੁਸੀਂ ਇਸ ਵਿੱਚ ਮਾਹਿਰ ਬਣ ਸਕਦੇ ਹੋ। ਨਿਰੰਤਰਤਾ (continuity) ਲਈ ਹਮੇਸ਼ਾ ਗ੍ਰਾਫ਼ ਨੂੰ ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ। ਜੇਕਰ ਗ੍ਰਾਫ਼ ਵਿੱਚ ਕੋਈ ਟੁੱਟ ਨਹੀਂ ਹੈ, ਤਾਂ ਇਹ ਨਿਰੰਤਰ ਹੈ। ਅਸਲ ਜ਼ਿੰਦਗੀ ਵਿੱਚ ਵੀ, ਜਿਵੇਂ ਸਮਾਂ ਲਗਾਤਾਰ ਚੱਲਦਾ ਰਹਿੰਦਾ ਹੈ, ਇਹ ਵੀ ਇੱਕ ਨਿਰੰਤਰ ਫੰਕਸ਼ਨ ਹੈ। ਇਹ ਸਾਰੀਆਂ ਗੱਲਾਂ ਤੁਹਾਨੂੰ ਮਾਸਟਰ ਕਾਡਰ ਦੇ ਪੇਪਰ ਵਿੱਚ ਉੱਚੇ ਅੰਕ ਪ੍ਰਾਪਤ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਨਗੀਆਂ। ਇਸ ਲਈ, ਹਰ ਸਵਾਲ ਨੂੰ ਧਿਆਨ ਨਾਲ ਪੜ੍ਹੋ ਅਤੇ ਸਮਝੋ। ਤੁਹਾਡੀ ਮਿਹਨਤ ਜ਼ਰੂਰ ਰੰਗ ਲਿਆਏਗੀ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-01.json');</script>
+</body></html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 02 - Differentiability & Derivative Rules</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module B • Lesson 02</div>
+      <h1 class="slide-heading">Differentiability & Derivative Rules</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul>
+        <li>Understand the geometric meaning of differentiability.</li>
+        <li>Apply the Product and Quotient rules.</li>
+        <li>Master the Chain Rule for composite functions.</li>
+        <li>Memorize standard derivatives.</li>
+      </ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Differentiability</h2>
+        <p>A function is differentiable if it has a defined, non-vertical tangent.</p>
+        <p><strong>Rule of Thumb:</strong> The graph must be "smooth".</p>
+      </div>
+      <div class="col">
+        <h3>Non-Differentiable Points</h3>
+        <ul>
+            <li>Sharp corners (e.g., |x| at x=0)</li>
+            <li>Cusps</li>
+            <li>Vertical tangents</li>
+            <li>Discontinuities</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">The Golden Rule</h2>
+      <p class="text-center text-xl mt-4">Differentiability implies Continuity.</p>
+      <div class="stat-number" style="font-size: 2rem;">Continuity &ne; Differentiability</div>
+    </div>
+    <div class="slide slide-two-column">
+        <div class="col">
+            <h2>Product Rule</h2>
+            <p>(uv)' = u'v + uv'</p>
+            <p>"Derivative of the first times the second, plus the first times derivative of the second."</p>
+        </div>
+        <div class="col">
+            <h2>Quotient Rule</h2>
+            <p>(u/v)' = (u'v - uv') / v<sup>2</sup></p>
+            <p>"Low d-high minus high d-low, square the bottom..."</p>
+        </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">The Chain Rule</h2>
+      <p>For composite functions: f(g(x))</p>
+      <ul>
+        <li>Differentiate the "outside" function f(u).</li>
+        <li>Leave the "inside" function g(x) alone.</li>
+        <li>Multiply by the derivative of the "inside" function g'(x).</li>
+        <li>Result: f'(g(x)) * g'(x)</li>
+      </ul>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Derivative of y = sin(x<sup>2</sup> + 3x)</p>
+      <p><strong>Steps:</strong></p>
+      <ul>
+        <li>Outer function: sin(u) &rarr; derivative is cos(u)</li>
+        <li>Inner function: u = x<sup>2</sup> + 3x &rarr; derivative is 2x + 3</li>
+        <li>Multiply: cos(x<sup>2</sup> + 3x) * (2x + 3)</li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number" style="font-size: 2rem;">(2x + 3)cos(x<sup>2</sup> + 3x)</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Exam Pattern</h2>
+        <p>Expect combinations of rules. E.g., Product rule where one factor needs the Chain rule.</p>
+      </div>
+      <div class="col">
+        <h3>Strategy</h3>
+        <p>Keep your work organized. Write out 'u' and 'v' explicitly before applying formulas to avoid sign errors.</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul>
+        <li>Smooth curve = Differentiable.</li>
+        <li>(uv)' = u'v + uv'</li>
+        <li>(u/v)' = (u'v - uv')/v<sup>2</sup></li>
+        <li>Chain Rule: Outer deriv * Inner deriv.</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

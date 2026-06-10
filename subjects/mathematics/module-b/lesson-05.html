@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Definite Integrals & Areas - Module B - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module B</a> >
+      Lesson 05
+    </div>
+
+    <h1>Lesson 05: Definite Integrals & Areas</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ ਅਤੇ ਖੇਤਰਫਲ (Definite Integrals & Areas)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Definite integrals are guaranteed to appear in the exam, especially questions asking for the area bounded by a curve and an axis, or between two curves. Mastering the properties of definite integrals can solve complex problems in seconds.</p>
+        <p class="pa mt-2">ਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ ਇਮਤਿਹਾਨ ਵਿੱਚ ਆਉਣ ਦੀ ਪੂਰੀ ਗਾਰੰਟੀ ਹੈ, ਖਾਸ ਕਰਕੇ ਕਰਵ ਅਤੇ ਐਕਸਿਸ ਵਿਚਕਾਰ, ਜਾਂ ਦੋ ਕਰਵਾਂ ਦੇ ਵਿਚਕਾਰਲੇ ਖੇਤਰਫਲ ਬਾਰੇ ਸਵਾਲ। ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਨੂੰ ਸਮਝ ਕੇ ਤੁਸੀਂ ਗੁੰਝਲਦਾਰ ਸਵਾਲ ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੱਲ ਕਰ ਸਕਦੇ ਹੋ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Understand the Fundamental Theorem of Calculus.</li>
+        <li>Calculate the area under a curve and between two curves.</li>
+        <li>Apply the properties of definite integrals (even/odd functions, limits).</li>
+        <li>Visualize integration as accumulation of area.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>A <strong>Definite Integral</strong> &int;<sub class="sub">a</sub><sup class="sup">b</sup> f(x)dx represents the signed area between the curve y = f(x) and the x-axis, from x = a to x = b. The <strong>Fundamental Theorem of Calculus</strong> links derivatives and integrals: if F(x) is the antiderivative of f(x), then &int;<sub class="sub">a</sub><sup class="sup">b</sup> f(x)dx = F(b) - F(a). Notice that the constant 'C' cancels out!</p>
+
+      <p>When finding the <strong>Area between two curves</strong>, f(x) and g(x), from a to b, you integrate the "upper" curve minus the "lower" curve: Area = &int;<sub class="sub">a</sub><sup class="sup">b</sup> |f(x) - g(x)| dx. Always sketch the graph first to determine which curve is on top.</p>
+
+      <div class="text-center my-6">
+        <svg width="400" height="250" viewBox="-50 -20 350 250" style="background: #fff; border: 1px solid var(--color-neutral-200); border-radius: 8px;">
+          <!-- Axes -->
+          <line x1="0" y1="180" x2="300" y2="180" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <line x1="20" y1="200" x2="20" y2="0" stroke="var(--color-neutral-800)" stroke-width="2"/>
+
+          <!-- Area Under Curve -->
+          <path d="M 50 180 L 50 100 Q 150 20 250 80 L 250 180 Z" fill="var(--color-primary-100)" stroke="none"/>
+
+          <!-- Curve -->
+          <path d="M 20 150 Q 150 -50 290 120" fill="none" stroke="var(--color-primary-600)" stroke-width="3"/>
+
+          <!-- Integration Limits -->
+          <line x1="50" y1="180" x2="50" y2="100" stroke="var(--color-neutral-600)" stroke-width="2" stroke-dasharray="4"/>
+          <line x1="250" y1="180" x2="250" y2="80" stroke="var(--color-neutral-600)" stroke-width="2" stroke-dasharray="4"/>
+          <text x="45" y="200" font-size="14" font-weight="bold">a</text>
+          <text x="245" y="200" font-size="14" font-weight="bold">b</text>
+
+          <!-- Labels -->
+          <text x="130" y="130" font-size="16" font-weight="bold" fill="var(--color-primary-800)">&int; f(x)dx</text>
+          <text x="290" y="170" font-size="14" font-weight="bold">x</text>
+          <text x="5" y="10" font-size="14" font-weight="bold">y</text>
+        </svg>
+      </div>
+
+      <p>Properties of definite integrals are major shortcuts. The most tested property is for symmetric limits: &int;<sub class="sub">-a</sub><sup class="sup">a</sup> f(x)dx. If f(x) is an <strong>odd function</strong> (meaning f(-x) = -f(x), like sin(x) or x<sup class="sup">3</sup>), the integral is exactly 0. If it is an <strong>even function</strong> (f(-x) = f(x), like cos(x) or x<sup class="sup">2</sup>), the integral is 2 * &int;<sub class="sub">0</sub><sup class="sup">a</sup> f(x)dx. Another crucial property is &int;<sub class="sub">0</sub><sup class="sup">a</sup> f(x)dx = &int;<sub class="sub">0</sub><sup class="sup">a</sup> f(a - x)dx.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Find the area bounded by the curve y = x<sup class="sup">2</sup> and the x-axis, from x = 0 to x = 3.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Set up the definite integral: &int;<sub class="sub">0</sub><sup class="sup">3</sup> x<sup class="sup">2</sup> dx.</p>
+        <p><strong>Step 2:</strong> Find the antiderivative: F(x) = x<sup class="sup">3</sup> / 3.</p>
+        <p><strong>Step 3:</strong> Apply the Fundamental Theorem of Calculus: F(b) - F(a).</p>
+        <p><strong>Step 4:</strong> Evaluate F(3): 3<sup class="sup">3</sup> / 3 = 27 / 3 = 9.</p>
+        <p><strong>Step 5:</strong> Evaluate F(0): 0<sup class="sup">3</sup> / 3 = 0.</p>
+        <p><strong>Step 6:</strong> Subtract: 9 - 0 = 9.</p>
+        <p class="mt-4"><strong>Answer:</strong> 9 square units.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Be careful when the curve crosses the x-axis. Area is always positive. If a question asks for "area", you must break the integral at the x-intercepts and take the absolute value of any negative regions. If it just asks to "evaluate the integral", then signed area is fine.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Definite Integral: F(b) - F(a). No 'C' needed.</li>
+        <li>Area between curves: &int; (Top - Bottom) dx.</li>
+        <li>Odd function from -a to a: Integral = 0.</li>
+        <li>Even function from -a to a: Integral = 2 * &int; from 0 to a.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-05.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਹੈਲੋ ਸਟੂਡੈਂਟਸ! ਪਿਛਲੀ ਕਲਾਸ ਵਿੱਚ ਅਸੀਂ ਅਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ (Indefinite Integrals) ਪੜ੍ਹੇ ਸਨ ਜਿੱਥੇ ਅਸੀਂ ਅੰਤ ਵਿੱਚ '+ C' ਲਗਾਉਂਦੇ ਸੀ। ਅੱਜ ਅਸੀਂ ਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ (Definite Integrals) ਪੜ੍ਹਾਂਗੇ। ਇੱਥੇ ਸਾਨੂੰ ਸੀਮਾਵਾਂ (limits) ਦਿੱਤੀਆਂ ਹੁੰਦੀਆਂ ਹਨ: ਇੱਕ ਹੇਠਲੀ ਸੀਮਾ 'a' ਅਤੇ ਉੱਪਰਲੀ ਸੀਮਾ 'b'। ਇਸਦਾ ਮਤਲਬ ਹੈ ਕਿ ਅਸੀਂ ਗ੍ਰਾਫ਼ ਦੇ ਹੇਠਾਂ ਵਾਲੇ ਖੇਤਰ (Area) ਦੀ ਸਹੀ ਵੈਲਿਊ ਕੱਢਣੀ ਹੈ।</p>
+          <p>ਫੰਡਾਮੈਂਟਲ ਥਿਊਰਮ ਆਫ਼ ਕੈਲਕੂਲਸ ਬਹੁਤ ਆਸਾਨ ਹੈ। ਪਹਿਲਾਂ ਫੰਕਸ਼ਨ ਦਾ ਆਮ ਤਰੀਕੇ ਨਾਲ ਇੰਟੈਗਰੇਸ਼ਨ ਕਰੋ (ਜਿਵੇਂ ਪਿਛਲੀ ਕਲਾਸ ਵਿੱਚ ਸਿੱਖਿਆ ਸੀ)। ਫਿਰ ਉਸ ਨਵੇਂ ਫੰਕਸ਼ਨ ਵਿੱਚ ਪਹਿਲਾਂ ਉੱਪਰਲੀ ਲਿਮਿਟ (b) ਭਰੋ, ਫਿਰ ਹੇਠਲੀ ਲਿਮਿਟ (a) ਭਰੋ, ਅਤੇ ਦੋਵਾਂ ਨੂੰ ਘਟਾ ਦਿਓ (F(b) - F(a))। ਕਿਉਂਕਿ ਇੱਥੇ ਇੱਕ ਪੱਕੀ ਵੈਲਿਊ ਆਉਂਦੀ ਹੈ, ਇਸਲਈ ਸਾਨੂੰ 'C' ਲਗਾਉਣ ਦੀ ਲੋੜ ਨਹੀਂ ਹੁੰਦੀ।</p>
+          <p>ਹੁਣ, ਜੇਕਰ ਸਵਾਲ ਵਿੱਚ ਦੋ ਕਰਵ ਦਿੱਤੇ ਹੋਣ ਅਤੇ ਉਨ੍ਹਾਂ ਦੇ ਵਿਚਕਾਰਲਾ ਖੇਤਰਫਲ ਪੁੱਛਿਆ ਹੋਵੇ, ਤਾਂ ਕੀ ਕਰਨਾ ਹੈ? ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਗ੍ਰਾਫ਼ ਦਾ ਇੱਕ ਛੋਟਾ ਜਿਹਾ ਚਿੱਤਰ (sketch) ਬਣਾਓ। ਦੇਖੋ ਕਿ ਕਿਹੜਾ ਕਰਵ ਉੱਪਰ ਹੈ ਅਤੇ ਕਿਹੜਾ ਹੇਠਾਂ। ਫਿਰ ਉੱਪਰ ਵਾਲੇ ਕਰਵ ਵਿੱਚੋਂ ਹੇਠਾਂ ਵਾਲੇ ਕਰਵ ਨੂੰ ਘਟਾ ਕੇ ਉਸਦਾ ਇੰਟੈਗਰੇਸ਼ਨ ਕਰ ਦਿਓ। ਬੱਸ ਇੰਨਾ ਹੀ ਸੌਖਾ ਹੈ!</p>
+          <p>ਪੇਪਰ ਵਿੱਚ ਸਮਾਂ ਬਚਾਉਣ ਲਈ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ (Properties) ਬਹੁਤ ਜ਼ਰੂਰੀ ਹਨ। ਸਭ ਤੋਂ ਖਾਸ ਵਿਸ਼ੇਸ਼ਤਾ ਹੈ: ਜੇਕਰ ਲਿਮਿਟ -a ਤੋਂ ਲੈ ਕੇ +a ਤੱਕ ਹੈ, ਤਾਂ ਫੰਕਸ਼ਨ ਨੂੰ ਧਿਆਨ ਨਾਲ ਦੇਖੋ। ਜੇਕਰ ਫੰਕਸ਼ਨ ਔਡ (Odd) ਹੈ (ਯਾਨੀ ਕਿ x ਦੀ ਜਗ੍ਹਾ -x ਰੱਖਣ ਨਾਲ ਪੂਰਾ ਫੰਕਸ਼ਨ ਮਾਈਨਸ ਹੋ ਜਾਵੇ, ਜਿਵੇਂ sin x), ਤਾਂ ਬਿਨਾਂ ਸੋਚੇ ਜਵਾਬ ਜ਼ੀਰੋ (0) ਲਿਖ ਦਿਓ! ਜੇਕਰ ਫੰਕਸ਼ਨ ਈਵਨ (Even) ਹੈ (ਮਾਈਨਸ ਰੱਖਣ ਨਾਲ ਕੋਈ ਫਰਕ ਨਾ ਪਵੇ, ਜਿਵੇਂ cos x ਜਾਂ x²), ਤਾਂ ਲਿਮਿਟ ਨੂੰ 0 ਤੋਂ 'a' ਕਰ ਦਿਓ ਅਤੇ ਇੰਟੈਗਰਲ ਨੂੰ 2 ਨਾਲ ਗੁਣਾ ਕਰ ਦਿਓ।</p>
+          <p>ਇੱਕ ਹੋਰ ਗੱਲ ਦਾ ਧਿਆਨ ਰੱਖਣਾ: "Area" ਕਦੇ ਵੀ ਮਾਈਨਸ (negative) ਨਹੀਂ ਹੁੰਦਾ। ਜੇਕਰ ਕਰਵ x-axis ਤੋਂ ਹੇਠਾਂ ਜਾ ਰਿਹਾ ਹੈ, ਤਾਂ ਉਸਦਾ ਇੰਟੈਗਰਲ ਮਾਈਨਸ ਵਿੱਚ ਆਵੇਗਾ, ਪਰ ਖੇਤਰਫਲ ਦੱਸਣ ਵੇਲੇ ਅਸੀਂ ਉਸਨੂੰ ਪਲੱਸ (positive) ਕਰ ਦੇਣਾ ਹੈ। ਇਸ ਗੱਲ ਦਾ ਖਾਸ ਧਿਆਨ ਰੱਖਿਓ, ਨਹੀਂ ਤਾਂ ERB ਦੇ ਆਸਾਨ ਸਵਾਲ ਵੀ ਗਲਤ ਹੋ ਜਾਣਗੇ!</p>
+        <p>ਦੋਸਤੋ, ਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ ਵਿੱਚ ਪ੍ਰਾਪਰਟੀਜ਼ (Properties) ਦਾ ਜਾਦੂ ਹਮੇਸ਼ਾ ਕੰਮ ਆਉਂਦਾ ਹੈ। ਜਦੋਂ ਸਾਨੂੰ 0 ਤੋਂ π/2 ਤੱਕ sin(x) ਅਤੇ cos(x) ਵਾਲੇ ਸਵਾਲ ਆਉਂਦੇ ਹਨ, ਤਾਂ ਅਸੀਂ ਅਕਸਰ x ਦੀ ਜਗ੍ਹਾ (π/2 - x) ਰੱਖਣ ਵਾਲੀ ਪ੍ਰਾਪਰਟੀ ਵਰਤਦੇ ਹਾਂ। ਇਸ ਨਾਲ ਕਈ ਵਾਰ ਦੋ ਇੰਟੈਗਰਲਜ਼ ਨੂੰ ਜੋੜ ਕੇ ਸਵਾਲ ਬਹੁਤ ਹੀ ਸੌਖਾ ਹੋ ਜਾਂਦਾ ਹੈ। ਇਹ ਟ੍ਰਿਕ (trick) ERB ਦੇ ਪੇਪਰ ਵਿੱਚ ਬਹੁਤ ਵਾਰ ਪੁੱਛੀ ਜਾਂਦੀ ਹੈ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਜਦੋਂ ਅਸੀਂ ਦੋ ਕਰਵਾਂ ਦੇ ਵਿਚਕਾਰ ਖੇਤਰਫਲ ਕੱਢਦੇ ਹਾਂ, ਤਾਂ ਇਹ ਜ਼ਰੂਰੀ ਨਹੀਂ ਕਿ ਅਸੀਂ ਹਮੇਸ਼ਾ x-axis ਦੇ ਹਿਸਾਬ ਨਾਲ ਹੀ ਚੱਲੀਏ। ਕਈ ਵਾਰ y-axis ਦੇ ਹਿਸਾਬ ਨਾਲ ਇੰਟੈਗਰੇਸ਼ਨ ਕਰਨਾ ਜ਼ਿਆਦਾ ਸੌਖਾ ਹੁੰਦਾ ਹੈ, ਖਾਸ ਕਰਕੇ ਜਦੋਂ ਗ੍ਰਾਫ਼ ਸੱਜੇ ਜਾਂ ਖੱਬੇ ਪਾਸੇ ਨੂੰ ਖੁੱਲ੍ਹ ਰਿਹਾ ਹੋਵੇ (ਜਿਵੇਂ ਕਿ x = y²)। ਅਜਿਹੇ ਸਵਾਲਾਂ ਵਿੱਚ ਸਾਨੂੰ Right ਕਰਵ ਵਿੱਚੋਂ Left ਕਰਵ ਨੂੰ ਘਟਾਉਣਾ ਹੁੰਦਾ ਹੈ (Right - Left)। ਇਹ ਛੋਟੀ ਜਿਹੀ ਤਬਦੀਲੀ ਤੁਹਾਡਾ ਬਹੁਤ ਸਾਰਾ ਸਮਾਂ ਬਚਾ ਸਕਦੀ ਹੈ। ਮੋਡਿਊਲਸ (modulus) ਵਾਲੇ ਫੰਕਸ਼ਨਾਂ ਦਾ ਖੇਤਰਫਲ ਕੱਢਣ ਲੱਗਿਆਂ ਹਮੇਸ਼ਾ ਧਿਆਨ ਰੱਖੋ ਕਿ ਕਰਵ ਕਿੱਥੇ ਟੁੱਟ ਰਿਹਾ ਹੈ। ਉਸ ਬਿੰਦੂ 'ਤੇ ਆਪਣੀ ਲਿਮਿਟ (limit) ਨੂੰ ਤੋੜੋ ਅਤੇ ਫਿਰ ਅਲੱਗ-ਅਲੱਗ ਇੰਟੈਗਰੇਸ਼ਨ ਕਰੋ। ਕਦੇ ਵੀ ਬਿਨਾਂ ਗ੍ਰਾਫ਼ ਬਣਾਏ ਖੇਤਰਫਲ ਦਾ ਸਵਾਲ ਹੱਲ ਕਰਨ ਦੀ ਕੋਸ਼ਿਸ਼ ਨਾ ਕਰੋ। ਇੱਕ ਛੋਟਾ ਜਿਹਾ ਚਿੱਤਰ (sketch) ਤੁਹਾਨੂੰ ਸਹੀ ਰਸਤਾ ਦਿਖਾਵੇਗਾ ਅਤੇ ਗਲਤੀਆਂ ਤੋਂ ਬਚਾਏਗਾ। ਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ ਸਿਰਫ਼ ਫਾਰਮੂਲੇ ਨਹੀਂ ਹਨ, ਇਹ ਸਾਡੀ ਦੁਨੀਆ ਵਿੱਚ ਛੁਪੇ ਹੋਏ ਖੇਤਰਫਲਾਂ ਅਤੇ ਆਕਾਰਾਂ ਨੂੰ ਮਾਪਣ ਦਾ ਇੱਕ ਤਰੀਕਾ ਹੈ। ਇਸਦੀ ਖੂਬਸੂਰਤੀ ਨੂੰ ਸਮਝੋ ਅਤੇ ਪੇਪਰ ਵਿੱਚ ਪੂਰੇ ਆਤਮਵਿਸ਼ਵਾਸ ਨਾਲ ਜਵਾਬ ਦਿਓ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-05.json');</script>
+</body></html>
