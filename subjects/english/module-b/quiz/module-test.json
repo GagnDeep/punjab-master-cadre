@@ -1,0 +1,166 @@
+{
+  "id": "mod-b-comprehensive",
+  "title": "Module B: Comprehensive Mock Test",
+  "questions": [
+    {
+      "id": "bmock-01",
+      "topic": "R.K. Narayan",
+      "q": "Which of the following characters is NOT associated with R.K. Narayan's Malgudi?",
+      "options": ["Swami", "Raju", "Munoo", "Nataraj"],
+      "answerIndex": 2,
+      "explanation": "Munoo is the protagonist of Mulk Raj Anand's 'Coolie'. Swami is from 'Swami and Friends', Raju from 'The Guide', and Nataraj from 'The Man-Eater of Malgudi'."
+    },
+    {
+      "id": "bmock-02",
+      "topic": "Mulk Raj Anand",
+      "q": "Mulk Raj Anand's novel 'Untouchable' describes a single day in the life of:",
+      "options": ["Gangu", "Bakha", "Munoo", "Bikhu"],
+      "answerIndex": 1,
+      "explanation": "The novel follows one day in the life of Bakha, an 18-year-old sweeper."
+    },
+    {
+      "id": "bmock-03",
+      "topic": "Raja Rao",
+      "q": "Raja Rao's 'Kanthapura' is narrated by an old woman named:",
+      "options": ["Ratna", "Kenchamma", "Achakka", "Rangamma"],
+      "answerIndex": 2,
+      "explanation": "The story is narrated by Achakka in the style of an ancient Indian Sthala-Purana."
+    },
+    {
+      "id": "bmock-04",
+      "topic": "Rabindranath Tagore",
+      "q": "Which of the following awards did Tagore return in protest against the Jallianwala Bagh massacre?",
+      "options": ["Nobel Prize", "Bharat Ratna", "Knighthood", "Sahitya Akademi Award"],
+      "answerIndex": 2,
+      "explanation": "Tagore repudiated his British Knighthood in 1919 to protest the massacre."
+    },
+    {
+      "id": "bmock-05",
+      "topic": "Sarojini Naidu",
+      "q": "In 'The Bangle Sellers', what color bangles are described as 'meet for a maiden's wrist'?",
+      "options": ["Purple and gold-flecked grey", "Silver and blue as the mountain mist", "Yellow like fields of sunlit corn", "Rich red like the fire of marriage"],
+      "answerIndex": 1,
+      "explanation": "Silver and blue bangles represent the purity and freshness of a maiden."
+    },
+    {
+      "id": "bmock-06",
+      "topic": "Anita Desai",
+      "q": "The protagonist of Anita Desai's 'Cry, the Peacock' who suffers from a haunting childhood prophecy is:",
+      "options": ["Nanda Kaul", "Bimla", "Maya", "Sita"],
+      "answerIndex": 2,
+      "explanation": "Maya is the deeply disturbed protagonist of 'Cry, the Peacock'."
+    },
+    {
+      "id": "bmock-07",
+      "topic": "Salman Rushdie",
+      "q": "Saleem Sinai, the protagonist of 'Midnight's Children', is born at the exact moment of:",
+      "options": ["Gandhi's assassination", "India's independence", "The Emergency", "The partition of Bengal"],
+      "answerIndex": 1,
+      "explanation": "He is born exactly at midnight on August 15, 1947."
+    },
+    {
+      "id": "bmock-08",
+      "topic": "Arundhati Roy",
+      "q": "The phrase 'The God of Small Things' refers primarily to which character in the novel?",
+      "options": ["Estha", "Chacko", "Velutha", "Pappachi"],
+      "answerIndex": 2,
+      "explanation": "Velutha, the untouchable carpenter who loves Ammu, is referred to as the God of Small Things."
+    },
+    {
+      "id": "bmock-09",
+      "topic": "Amitav Ghosh",
+      "q": "Amitav Ghosh's 'The Shadow Lines' focuses on the interconnected lives of two families from:",
+      "options": ["Calcutta and London", "Delhi and New York", "Bombay and Paris", "Dhaka and Toronto"],
+      "answerIndex": 0,
+      "explanation": "The novel maps the connections and events between the narrator's family in Calcutta/Dhaka and the Price family in London."
+    },
+    {
+      "id": "bmock-10",
+      "topic": "A.K. Ramanujan",
+      "q": "Which language did A.K. Ramanujan NOT extensively translate from?",
+      "options": ["Kannada", "Tamil", "Telugu", "Hindi"],
+      "answerIndex": 3,
+      "explanation": "Ramanujan is famous for translating classical Tamil and medieval Kannada poetry into English, but not Hindi."
+    },
+    {
+      "id": "bmock-11",
+      "topic": "Khushwant Singh",
+      "q": "In 'Train to Pakistan', Mano Majra is situated on the banks of which river?",
+      "options": ["Ravi", "Sutlej", "Beas", "Chenab"],
+      "answerIndex": 1,
+      "explanation": "The village is located on the banks of the Sutlej river."
+    },
+    {
+      "id": "bmock-12",
+      "topic": "Nissim Ezekiel",
+      "q": "Which poem features the line: 'My mother only said / Thank God the scorpion picked on me / And spared my children'?",
+      "options": ["Enterprise", "Poet, Lover, Birdwatcher", "Night of the Scorpion", "Background, Casually"],
+      "answerIndex": 2,
+      "explanation": "This is the famous concluding stanza of 'Night of the Scorpion'."
+    },
+    {
+      "id": "bmock-13",
+      "topic": "Kamala Das",
+      "q": "Kamala Das wrote under the pen name 'Madhavikutty' in which language?",
+      "options": ["Tamil", "Malayalam", "Kannada", "Telugu"],
+      "answerIndex": 1,
+      "explanation": "She wrote extensively in Malayalam under the pseudonym Madhavikutty."
+    },
+    {
+      "id": "bmock-14",
+      "topic": "Shashi Deshpande",
+      "q": "In 'That Long Silence', the protagonist Jaya reflects on her life when she and her husband hide in a flat in:",
+      "options": ["Dadar", "Malgudi", "Connaught Place", "Park Street"],
+      "answerIndex": 0,
+      "explanation": "They hide in a flat in Dadar, Bombay, after her husband is accused of business malpractice."
+    },
+    {
+      "id": "bmock-15",
+      "topic": "R.K. Narayan",
+      "q": "In 'The Guide', Raju transforms from a corrupt tour guide into a:",
+      "options": ["Wealthy businessman", "Spiritual guru (Swami)", "Political leader", "Famous dancer"],
+      "answerIndex": 1,
+      "explanation": "Raju inadvertently becomes a holy man and ends up undertaking a fast to end a drought."
+    },
+    {
+      "id": "bmock-16",
+      "topic": "Mulk Raj Anand",
+      "q": "Which of the following novels deals with the theme of Indian indentured labor?",
+      "options": ["The Sword and the Sickle", "Untouchable", "Coolie", "Two Leaves and a Bud"],
+      "answerIndex": 3,
+      "explanation": "'Two Leaves and a Bud' deals with the brutal exploitation of laborers in Assam tea plantations."
+    },
+    {
+      "id": "bmock-17",
+      "topic": "Raja Rao",
+      "q": "Which Indian philosophical concept forms the thematic core of 'The Serpent and the Rope'?",
+      "options": ["Ahimsa", "Advaita Vedanta", "Karma Yoga", "Bhakti"],
+      "answerIndex": 1,
+      "explanation": "The novel deeply explores the non-dualistic philosophy of Advaita Vedanta through the protagonist Ramaswamy."
+    },
+    {
+      "id": "bmock-18",
+      "topic": "Rabindranath Tagore",
+      "q": "The song 'Jana Gana Mana' was originally written in:",
+      "options": ["Sanskrit", "Hindi", "Bengali", "English"],
+      "answerIndex": 2,
+      "explanation": "Tagore originally composed it in Bengali (with heavy Sanskrit vocabulary) as 'Bharoto Bhagyo Bidhata'."
+    },
+    {
+      "id": "bmock-19",
+      "topic": "Salman Rushdie",
+      "q": "Which novel by Rushdie caused immense international controversy and led to a fatwa being issued against him?",
+      "options": ["Shame", "The Moor's Last Sigh", "The Satanic Verses", "Grimus"],
+      "answerIndex": 2,
+      "explanation": "'The Satanic Verses' (1988) led to a fatwa by the Ayatollah Khomeini."
+    },
+    {
+      "id": "bmock-20",
+      "topic": "Amitav Ghosh",
+      "q": "The 'Ibis' in Ghosh's Ibis Trilogy refers to:",
+      "options": ["A river in Bengal", "A British trade company", "A schooner ship", "A mythological bird"],
+      "answerIndex": 2,
+      "explanation": "The Ibis is a former slave ship purchased to transport opium and indentured laborers (girmitiyas)."
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "id": "mod-b-les-03",
+  "title": "Recall Quiz: Modern Novelists",
+  "questions": [
+    {
+      "id": "b-l03q01",
+      "topic": "Salman Rushdie",
+      "q": "Which novel by Salman Rushdie was awarded both the Booker Prize (1981) and the 'Booker of Bookers'?",
+      "options": [
+        "The Satanic Verses",
+        "Shame",
+        "Midnight's Children",
+        "The Moor's Last Sigh"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Midnight's Children' won the Booker in 1981, the 'Booker of Bookers' in 1993, and the 'Best of the Booker' in 2008.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "b-l03q02",
+      "topic": "Arundhati Roy",
+      "q": "The story of 'The God of Small Things' is primarily set in which Indian state?",
+      "options": [
+        "Tamil Nadu",
+        "Kerala",
+        "West Bengal",
+        "Karnataka"
+      ],
+      "answerIndex": 1,
+      "explanation": "The novel is set in the fictionalized village of Ayemenem in Kerala."
+    },
+    {
+      "id": "b-l03q03",
+      "topic": "Anita Desai",
+      "q": "Anita Desai is best known for pioneering which literary technique in Indian English fiction?",
+      "options": [
+        "Magic Realism",
+        "Stream of Consciousness",
+        "Psychological Realism",
+        "Picaresque narrative"
+      ],
+      "answerIndex": 2,
+      "explanation": "Desai focuses on the inner psychological workings of her characters, known as Psychological Realism."
+    },
+    {
+      "id": "b-l03q04",
+      "topic": "Amitav Ghosh",
+      "q": "Which of the following novels by Amitav Ghosh deals with the history of the Opium trade?",
+      "options": [
+        "The Shadow Lines",
+        "The Glass Palace",
+        "The Hungry Tide",
+        "Sea of Poppies"
+      ],
+      "answerIndex": 3,
+      "explanation": "'Sea of Poppies' is the first volume of the Ibis Trilogy, which focuses on the Opium Wars and trade.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "b-l03q05",
+      "topic": "Arundhati Roy",
+      "q": "In 'The God of Small Things', who is the 'Untouchable' character that has a forbidden affair with Ammu?",
+      "options": [
+        "Estha",
+        "Chacko",
+        "Velutha",
+        "Pappachi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Velutha is the Paravan (untouchable) carpenter whose love affair with Ammu violates the 'Love Laws'."
+    },
+    {
+      "id": "b-l03q06",
+      "topic": "Anita Desai",
+      "q": "Which novel by Anita Desai tells the story of an obsessive, neurotic woman named Maya?",
+      "options": [
+        "In Custody",
+        "Cry, the Peacock",
+        "Clear Light of Day",
+        "Fasting, Feasting"
+      ],
+      "answerIndex": 1,
+      "explanation": "'Cry, the Peacock' (1963) is a prime example of Desai's psychological realism, detailing Maya's descent into madness."
+    },
+    {
+      "id": "b-l03q07",
+      "topic": "Amitav Ghosh",
+      "q": "Amitav Ghosh's 'The Shadow Lines' won which prestigious Indian literary award?",
+      "options": [
+        "Jnanpith Award",
+        "Sahitya Akademi Award",
+        "Saraswati Samman",
+        "Vyas Samman"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The Shadow Lines' won the Sahitya Akademi Award in 1989. (Ghosh later won the Jnanpith for his overall contribution)."
+    },
+    {
+      "id": "b-l03q08",
+      "topic": "Salman Rushdie",
+      "q": "Salman Rushdie is heavily associated with which literary genre?",
+      "options": [
+        "Gothic Fiction",
+        "Social Realism",
+        "Magic Realism",
+        "Cyberpunk"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rushdie popularized Magic Realism in Indian writing, blending history with fantastical elements."
+    }
+  ]
+}

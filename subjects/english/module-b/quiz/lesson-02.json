@@ -1,0 +1,112 @@
+{
+  "id": "mod-b-les-02",
+  "title": "Recall Quiz: Tagore & Sarojini Naidu",
+  "questions": [
+    {
+      "id": "b-l02q01",
+      "topic": "Rabindranath Tagore",
+      "q": "In which year was Rabindranath Tagore awarded the Nobel Prize in Literature?",
+      "options": [
+        "1910",
+        "1912",
+        "1913",
+        "1915"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tagore won the Nobel Prize in Literature in 1913, primarily for the English translation of 'Gitanjali'.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "b-l02q02",
+      "topic": "Rabindranath Tagore",
+      "q": "Who wrote the introduction to the English edition of Tagore's 'Gitanjali'?",
+      "options": [
+        "T.S. Eliot",
+        "W.B. Yeats",
+        "Ezra Pound",
+        "Edmund Gosse"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Irish poet W.B. Yeats wrote the famous introduction to the 1912 English publication of 'Gitanjali'."
+    },
+    {
+      "id": "b-l02q03",
+      "topic": "Sarojini Naidu",
+      "q": "Sarojini Naidu is commonly known by which sobriquet?",
+      "options": [
+        "The Iron Lady of India",
+        "The Nightingale of India",
+        "The Mother of the Nation",
+        "The Jewel of India"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mahatma Gandhi gave her the title 'Bharat Kokila' or the Nightingale of India."
+    },
+    {
+      "id": "b-l02q04",
+      "topic": "Sarojini Naidu",
+      "q": "Which of the following is the first poetry collection published by Sarojini Naidu?",
+      "options": [
+        "The Bird of Time",
+        "The Broken Wing",
+        "The Golden Threshold",
+        "The Sceptered Flute"
+      ],
+      "answerIndex": 2,
+      "explanation": "Her first collection of poems, 'The Golden Threshold', was published in 1905.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "b-l02q05",
+      "topic": "Sarojini Naidu",
+      "q": "Who advised Sarojini Naidu to stop writing about English themes like robins and skylarks and write about Indian themes?",
+      "options": [
+        "Arthur Symons",
+        "Edmund Gosse",
+        "W.B. Yeats",
+        "Mahatma Gandhi"
+      ],
+      "answerIndex": 1,
+      "explanation": "The British poet and critic Sir Edmund Gosse gave her this pivotal advice early in her career."
+    },
+    {
+      "id": "b-l02q06",
+      "topic": "Rabindranath Tagore",
+      "q": "Which of the following is a famous play written by Rabindranath Tagore?",
+      "options": [
+        "The Post Office",
+        "Tughlaq",
+        "Hayavadana",
+        "Silence! The Court is in Session"
+      ],
+      "answerIndex": 0,
+      "explanation": "'The Post Office' (Dak Ghar) is a renowned 1912 play by Tagore. The others are by Karnad and Tendulkar."
+    },
+    {
+      "id": "b-l02q07",
+      "topic": "Sarojini Naidu",
+      "q": "The poem 'The Bangle Sellers' by Sarojini Naidu correlates the color of bangles with:",
+      "options": [
+        "The seasons of the year",
+        "The different castes in Indian society",
+        "The stages of an Indian woman's life",
+        "The festivals of India"
+      ],
+      "answerIndex": 2,
+      "explanation": "The poem beautifully matches the colors of the bangles to the different stages of a woman's life: maiden, bride, and mature matron."
+    },
+    {
+      "id": "b-l02q08",
+      "topic": "Rabindranath Tagore",
+      "q": "The core theme of Tagore's 'Gitanjali' is predominantly:",
+      "options": [
+        "Political satire",
+        "Romantic love for a human partner",
+        "Mysticism and devotion to God",
+        "Social realism"
+      ],
+      "answerIndex": 2,
+      "explanation": "The poems are deeply spiritual, dealing with the soul's yearning for union with the Divine."
+    }
+  ]
+}

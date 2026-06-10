@@ -1,0 +1,112 @@
+{
+  "id": "mod-b-les-04",
+  "title": "Recall Quiz: Ramanujan, Singh & Others",
+  "questions": [
+    {
+      "id": "b-l04q01",
+      "topic": "Khushwant Singh",
+      "q": "The story of Khushwant Singh's 'Train to Pakistan' is set in the fictional village of:",
+      "options": [
+        "Malgudi",
+        "Mano Majra",
+        "Kanthapura",
+        "Ayemenem"
+      ],
+      "answerIndex": 1,
+      "explanation": "Mano Majra is the fictional border village where the events of 'Train to Pakistan' unfold.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "b-l04q02",
+      "topic": "A.K. Ramanujan",
+      "q": "Which poem by A.K. Ramanujan critiques the insensitivity of old and new poets towards the human tragedy of floods?",
+      "options": [
+        "Obituary",
+        "Ecology",
+        "A River",
+        "Love Poem for a Wife 1"
+      ],
+      "answerIndex": 2,
+      "explanation": "In 'A River', Ramanujan notes that the poets only sang of the river's beauty, ignoring the pregnant woman and the cows that drowned."
+    },
+    {
+      "id": "b-l04q03",
+      "topic": "Nissim Ezekiel",
+      "q": "Who is often considered the 'Father of Post-Independence Indian English Poetry'?",
+      "options": [
+        "Rabindranath Tagore",
+        "A.K. Ramanujan",
+        "Nissim Ezekiel",
+        "Dom Moraes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nissim Ezekiel ushered in a modern, ironic, and urban voice in Indian English poetry, distinguishing him as the father of modern Indian English poetry."
+    },
+    {
+      "id": "b-l04q04",
+      "topic": "Kamala Das",
+      "q": "What is the title of Kamala Das's highly controversial and sensational autobiography?",
+      "options": [
+        "My Story",
+        "An Introduction",
+        "The Descendants",
+        "Summer in Calcutta"
+      ],
+      "answerIndex": 0,
+      "explanation": "'My Story' (Ente Katha in Malayalam) was her bold, confessional autobiography.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "b-l04q05",
+      "topic": "Shashi Deshpande",
+      "q": "Which novel by Shashi Deshpande, detailing the suffocating life of a middle-class wife named Jaya, won the Sahitya Akademi Award?",
+      "options": [
+        "The Dark Holds No Terrors",
+        "Roots and Shadows",
+        "That Long Silence",
+        "Small Remedies"
+      ],
+      "answerIndex": 2,
+      "explanation": "'That Long Silence' (1988) is her most famous novel and won the Sahitya Akademi Award in 1990."
+    },
+    {
+      "id": "b-l04q06",
+      "topic": "Khushwant Singh",
+      "q": "In 'Train to Pakistan', which character ultimately sacrifices his life to save the train carrying Muslim refugees?",
+      "options": [
+        "Iqbal",
+        "Hukum Chand",
+        "Meet Singh",
+        "Juggut Singh (Jugga)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Jugga, the local bad boy/dacoit, sacrifices himself by cutting the rope stretched across the bridge to derail the train."
+    },
+    {
+      "id": "b-l04q07",
+      "topic": "Nissim Ezekiel",
+      "q": "In Ezekiel's 'Night of the Scorpion', the mother's reaction after suffering the scorpion sting for twenty hours is to:",
+      "options": [
+        "Curse the villagers for their superstitions",
+        "Thank God the scorpion picked her and spared her children",
+        "Swear vengeance on the scorpion",
+        "Renounce her faith"
+      ],
+      "answerIndex": 1,
+      "explanation": "The poem ends with the mother's selfless statement: 'Thank God the scorpion picked on me / And spared my children'."
+    },
+    {
+      "id": "b-l04q08",
+      "topic": "A.K. Ramanujan",
+      "q": "A dominant theme in the poetry of A.K. Ramanujan is:",
+      "options": [
+        "Radical feminism",
+        "Romantic love and courtship",
+        "Nostalgia and family history",
+        "Marxist revolution"
+      ],
+      "answerIndex": 2,
+      "explanation": "Living in America, his poetry frequently looks back to his South Indian roots, family history, and Hindu traditions."
+    }
+  ]
+}

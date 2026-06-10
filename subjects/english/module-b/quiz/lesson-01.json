@@ -1,0 +1,113 @@
+{
+  "id": "mod-b-les-01",
+  "title": "Recall Quiz: The Founding Trio",
+  "questions": [
+    {
+      "id": "b-l01q01",
+      "topic": "R.K. Narayan",
+      "q": "Which fictional town serves as the setting for most of R.K. Narayan's novels?",
+      "options": [
+        "Malgudi",
+        "Kanthapura",
+        "Macondo",
+        "Wessex"
+      ],
+      "answerIndex": 0,
+      "explanation": "Malgudi is the fictional South Indian town created by R.K. Narayan, comparable to Hardy's Wessex.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "b-l01q02",
+      "topic": "Mulk Raj Anand",
+      "q": "Who wrote the preface to Mulk Raj Anand's novel 'Untouchable'?",
+      "options": [
+        "W.B. Yeats",
+        "E.M. Forster",
+        "T.S. Eliot",
+        "George Orwell"
+      ],
+      "answerIndex": 1,
+      "explanation": "E.M. Forster wrote the highly influential preface to 'Untouchable' (1935).",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "b-l01q03",
+      "topic": "Raja Rao",
+      "q": "Which novel by Raja Rao deals extensively with the impact of Gandhian philosophy on a South Indian village?",
+      "options": [
+        "The Serpent and the Rope",
+        "The Cat and Shakespeare",
+        "Kanthapura",
+        "Comrade Kirillov"
+      ],
+      "answerIndex": 2,
+      "explanation": "'Kanthapura' (1938) is the story of how Gandhi's struggle for independence came to a typical South Indian village."
+    },
+    {
+      "id": "b-l01q04",
+      "topic": "R.K. Narayan",
+      "q": "For which novel did R.K. Narayan win the Sahitya Akademi Award?",
+      "options": [
+        "Swami and Friends",
+        "The Guide",
+        "The Vendor of Sweets",
+        "The English Teacher"
+      ],
+      "answerIndex": 1,
+      "explanation": "Narayan won the Sahitya Akademi Award in 1960 for his 1958 novel 'The Guide'.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "b-l01q05",
+      "topic": "Mulk Raj Anand",
+      "q": "The protagonist of Mulk Raj Anand's 'Untouchable' is named:",
+      "options": [
+        "Munoo",
+        "Bakha",
+        "Raju",
+        "Moorthy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bakha is the young sweeper who is the protagonist of 'Untouchable'. Munoo is from 'Coolie', Raju from 'The Guide', and Moorthy from 'Kanthapura'."
+    },
+    {
+      "id": "b-l01q06",
+      "topic": "Mulk Raj Anand",
+      "q": "Which novel by Anand highlights the miserable condition of workers in the Assam tea plantations?",
+      "options": [
+        "Coolie",
+        "Untouchable",
+        "The Village",
+        "Two Leaves and a Bud"
+      ],
+      "answerIndex": 3,
+      "explanation": "'Two Leaves and a Bud' (1937) deals with the exploitation of peasants who are lured to work in the tea estates of Assam."
+    },
+    {
+      "id": "b-l01q07",
+      "topic": "Raja Rao",
+      "q": "Raja Rao's 'The Serpent and the Rope' heavily incorporates concepts from:",
+      "options": [
+        "Marxism",
+        "Advaita Vedanta",
+        "Existentialism",
+        "Psychoanalysis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The novel is deeply philosophical and draws heavily on the non-dualistic philosophy of Advaita Vedanta."
+    },
+    {
+      "id": "b-l01q08",
+      "topic": "Founding Trio",
+      "q": "Who among the following is NOT part of the recognized 'Founding Trio' of the Indian English novel?",
+      "options": [
+        "R.K. Narayan",
+        "Raja Rao",
+        "Mulk Raj Anand",
+        "Khushwant Singh"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Founding Trio consists of Narayan, Rao, and Anand. Khushwant Singh belongs to a slightly later generation of writers."
+    }
+  ]
+}
