@@ -1,0 +1,110 @@
+{
+  "id": "dpe-l15",
+  "title": "Recall Quiz: Lesson 15",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Training Methods",
+      "q": "Which training method involves alternating periods of intense work and active recovery?",
+      "options": [
+        "Fartlek Training",
+        "Continuous Training",
+        "Interval Training",
+        "Circuit Training"
+      ],
+      "answerIndex": 2,
+      "explanation": "Interval training uses strict work-to-rest ratios."
+    },
+    {
+      "id": "q2",
+      "topic": "Training Methods",
+      "q": "The Swedish term 'Fartlek' translates to:",
+      "options": [
+        "Hard work",
+        "Speed play",
+        "Long distance",
+        "Interval run"
+      ],
+      "answerIndex": 1,
+      "explanation": "It involves playing with speed based on feel."
+    },
+    {
+      "id": "q3",
+      "topic": "Warm-up",
+      "q": "What is the primary physiological purpose of a warm-up?",
+      "options": [
+        "To tire the muscles",
+        "To decrease blood flow",
+        "To increase core body temperature and blood flow",
+        "To build muscle mass"
+      ],
+      "answerIndex": 2,
+      "explanation": "Warm muscles perform better and are less prone to injury."
+    },
+    {
+      "id": "q4",
+      "topic": "Cool-down",
+      "q": "A proper cool-down helps to:",
+      "options": [
+        "Increase heart rate",
+        "Build lactic acid",
+        "Clear lactic acid and prevent blood pooling",
+        "Increase adrenaline"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cooling down helps the body return to its resting state safely."
+    },
+    {
+      "id": "q5",
+      "topic": "Training Methods",
+      "q": "Running at a steady, moderate pace for 45 minutes without stopping is an example of:",
+      "options": [
+        "Interval Training",
+        "Continuous Training",
+        "Fartlek Training",
+        "Plyometrics"
+      ],
+      "answerIndex": 1,
+      "explanation": "Continuous training has no rest breaks."
+    },
+    {
+      "id": "q6",
+      "topic": "Principles",
+      "q": "The principle of 'Overload' states that to improve fitness, an athlete must:",
+      "options": [
+        "Rest completely",
+        "Train exactly the same way every day",
+        "Work harder than their body is accustomed to",
+        "Only train one muscle group"
+      ],
+      "answerIndex": 2,
+      "explanation": "Adaptation occurs when the body is stressed beyond normal limits."
+    },
+    {
+      "id": "q7",
+      "topic": "Principles",
+      "q": "The principle of 'Reversibility' is often summarized as:",
+      "options": [
+        "No pain, no gain",
+        "Use it or lose it",
+        "Practice makes perfect",
+        "Slow and steady wins the race"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fitness gains are lost if training stops."
+    },
+    {
+      "id": "q8",
+      "topic": "Training Methods",
+      "q": "Performing a series of different exercises at stations with minimal rest between them is called:",
+      "options": [
+        "Circuit Training",
+        "Continuous Training",
+        "Fartlek",
+        "Isometrics"
+      ],
+      "answerIndex": 0,
+      "explanation": "Circuits train multiple systems in a structured loop."
+    }
+  ]
+}

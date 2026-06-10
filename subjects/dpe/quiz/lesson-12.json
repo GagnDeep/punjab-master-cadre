@@ -1,0 +1,110 @@
+{
+  "id": "dpe-l12",
+  "title": "Recall Quiz: Lesson 12",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Concepts",
+      "q": "Which of the following is a characteristic of 'Development' rather than 'Growth'?",
+      "options": [
+        "Increase in height",
+        "Increase in weight",
+        "Improvement in problem-solving skills",
+        "Increase in muscle mass"
+      ],
+      "answerIndex": 2,
+      "explanation": "Development is qualitative and functional."
+    },
+    {
+      "id": "q2",
+      "topic": "Definitions",
+      "q": "Growth is best described as:",
+      "options": [
+        "Qualitative changes",
+        "Quantitative changes",
+        "Emotional maturation",
+        "Lifelong process"
+      ],
+      "answerIndex": 1,
+      "explanation": "Growth involves measurable, physical changes like size."
+    },
+    {
+      "id": "q3",
+      "topic": "Stages",
+      "q": "The period characterized by rapid physical changes, puberty, and identity formation is:",
+      "options": [
+        "Infancy",
+        "Early Childhood",
+        "Later Childhood",
+        "Adolescence"
+      ],
+      "answerIndex": 3,
+      "explanation": "Adolescence (12-18 years) is marked by these major changes."
+    },
+    {
+      "id": "q4",
+      "topic": "Principles",
+      "q": "The principle that development proceeds from the head downward is known as:",
+      "options": [
+        "Proximodistal",
+        "Cephalocaudal",
+        "Integration",
+        "Differentiation"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cephalo = head, caudal = tail."
+    },
+    {
+      "id": "q5",
+      "topic": "Principles",
+      "q": "The principle that development proceeds from the center of the body outward is:",
+      "options": [
+        "Proximodistal",
+        "Cephalocaudal",
+        "Continuous",
+        "Sequential"
+      ],
+      "answerIndex": 0,
+      "explanation": "Proximo = near (center), distal = far (extremities)."
+    },
+    {
+      "id": "q6",
+      "topic": "Concepts",
+      "q": "When does physical 'Growth' typically stop?",
+      "options": [
+        "At age 5",
+        "At the onset of puberty",
+        "At physical maturity (late teens/early 20s)",
+        "It never stops"
+      ],
+      "answerIndex": 2,
+      "explanation": "Unlike development, growth stops when the skeleton reaches maturity."
+    },
+    {
+      "id": "q7",
+      "topic": "Stages",
+      "q": "During which stage is sensory exploration and basic motor skill acquisition most rapid?",
+      "options": [
+        "Infancy (0-2)",
+        "Adolescence",
+        "Later Childhood",
+        "Adulthood"
+      ],
+      "answerIndex": 0,
+      "explanation": "Infants learn primarily through their senses and basic movement."
+    },
+    {
+      "id": "q8",
+      "topic": "Definitions",
+      "q": "Learning to walk is an example of:",
+      "options": [
+        "Purely physical growth",
+        "Motor development",
+        "Cognitive growth",
+        "Social development"
+      ],
+      "answerIndex": 1,
+      "explanation": "It involves the qualitative maturation of the nervous and muscular systems."
+    }
+  ]
+}
