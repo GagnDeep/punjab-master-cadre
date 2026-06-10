@@ -1,0 +1,119 @@
+{
+  "id": "sst-b-03",
+  "title": "Hydrosphere: Oceans, Currents, and Tides Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Oceans",
+      "q": "Which is the largest and deepest ocean on Earth?",
+      "qPa": "\u0a27\u0a30\u0a24\u0a40 '\u0a24\u0a47 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a21\u0a3e \u0a05\u0a24\u0a47 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a21\u0a42\u0a70\u0a18\u0a3e \u0a2e\u0a39\u0a3e\u0a02\u0a38\u0a3e\u0a17\u0a30 \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Atlantic Ocean",
+        "Indian Ocean",
+        "Arctic Ocean",
+        "Pacific Ocean"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Pacific Ocean covers more than 30% of the Earth's surface and contains the Mariana Trench."
+    },
+    {
+      "id": "q2",
+      "topic": "Ocean Currents",
+      "q": "Which of the following is a warm ocean current?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a07\u0a71\u0a15 \u0a17\u0a30\u0a2e \u0a38\u0a2e\u0a41\u0a70\u0a26\u0a30\u0a40 \u0a27\u0a3e\u0a30\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Labrador Current",
+        "Canary Current",
+        "Gulf Stream",
+        "Benguela Current"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Gulf Stream originates in the Gulf of Mexico and carries warm water up the eastern coast of the US.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "q3",
+      "topic": "Ocean Currents",
+      "q": "The Agulhas current flows in which ocean?",
+      "qPa": "\u0a05\u0a17\u0a41\u0a32\u0a39\u0a3e\u0a38 (Agulhas) \u0a27\u0a3e\u0a30\u0a3e \u0a15\u0a3f\u0a38 \u0a2e\u0a39\u0a3e\u0a02\u0a38\u0a3e\u0a17\u0a30 \u0a35\u0a3f\u0a71\u0a1a \u0a35\u0a17\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Pacific",
+        "Atlantic",
+        "Indian",
+        "Arctic"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Agulhas current is a warm western boundary current of the southwest Indian Ocean."
+    },
+    {
+      "id": "q4",
+      "topic": "Ocean Currents",
+      "q": "Areas where warm and cold ocean currents meet are known for:",
+      "qPa": "\u0a09\u0a39 \u0a16\u0a47\u0a24\u0a30 \u0a1c\u0a3f\u0a71\u0a25\u0a47 \u0a17\u0a30\u0a2e \u0a05\u0a24\u0a47 \u0a20\u0a70\u0a21\u0a40\u0a06\u0a02 \u0a38\u0a2e\u0a41\u0a70\u0a26\u0a30\u0a40 \u0a27\u0a3e\u0a30\u0a3e\u0a35\u0a3e\u0a02 \u0a2e\u0a3f\u0a32\u0a26\u0a40\u0a06\u0a02 \u0a39\u0a28, \u0a15\u0a3f\u0a38 \u0a32\u0a08 \u0a1c\u0a3e\u0a23\u0a47 \u0a1c\u0a3e\u0a02\u0a26\u0a47 \u0a39\u0a28?",
+      "options": [
+        "Clear skies",
+        "Severe earthquakes",
+        "Excellent fishing grounds",
+        "High salinity"
+      ],
+      "answerIndex": 2,
+      "explanation": "The mixing brings nutrients to the surface, creating ideal conditions for plankton and, subsequently, large fish populations."
+    },
+    {
+      "id": "q5",
+      "topic": "Tides",
+      "q": "Tides are primarily caused by the gravitational pull of:",
+      "qPa": "\u0a1c\u0a35\u0a3e\u0a30\u0a2d\u0a3e\u0a1f\u0a3e \u0a2e\u0a41\u0a71\u0a16 \u0a24\u0a4c\u0a30 '\u0a24\u0a47 \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a16\u0a3f\u0a71\u0a1a \u0a38\u0a3c\u0a15\u0a24\u0a40 \u0a15\u0a3e\u0a30\u0a28 \u0a06\u0a09\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Earth's rotation only",
+        "The Moon and the Sun",
+        "Mars and Venus",
+        "Ocean winds"
+      ],
+      "answerIndex": 1,
+      "explanation": "The gravitational forces exerted by the Moon and the Sun, along with Earth's rotation, cause the tides."
+    },
+    {
+      "id": "q6",
+      "topic": "Tides",
+      "q": "When do Spring Tides occur?",
+      "qPa": "\u0a38\u0a2a\u0a30\u0a3f\u0a70\u0a17 \u0a1f\u0a3e\u0a08\u0a21 (\u0a35\u0a71\u0a21\u0a3e \u0a1c\u0a35\u0a3e\u0a30\u0a2d\u0a3e\u0a1f\u0a3e) \u0a15\u0a26\u0a4b\u0a02 \u0a06\u0a09\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "During quarter moons",
+        "Only in the spring season",
+        "During full moon and new moon",
+        "When the sun is farthest from earth"
+      ],
+      "answerIndex": 2,
+      "explanation": "When the Earth, Moon, and Sun are aligned, their combined gravitational pull creates the highest high tides (Spring Tides)."
+    },
+    {
+      "id": "q7",
+      "topic": "Tides",
+      "q": "What characterizes a Neap Tide?",
+      "qPa": "\u0a28\u0a40\u0a2a \u0a1f\u0a3e\u0a08\u0a21 (\u0a1b\u0a4b\u0a1f\u0a3e \u0a1c\u0a35\u0a3e\u0a30\u0a2d\u0a3e\u0a1f\u0a3e) \u0a26\u0a40 \u0a15\u0a40 \u0a35\u0a3f\u0a38\u0a3c\u0a47\u0a38\u0a3c\u0a24\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Higher than normal high tides",
+        "Lower high tides and higher low tides (less variation)",
+        "Occurs only once a month",
+        "Caused by tsunamis"
+      ],
+      "answerIndex": 1,
+      "explanation": "During quarter moons, the Sun and Moon pull at right angles, partially cancelling each other out, resulting in moderate tides."
+    },
+    {
+      "id": "q8",
+      "topic": "Ocean Relief",
+      "q": "The shallowest part of the ocean floor, bordering the continents, is the:",
+      "qPa": "\u0a2e\u0a39\u0a3e\u0a02\u0a26\u0a40\u0a2a\u0a3e\u0a02 \u0a26\u0a47 \u0a28\u0a3e\u0a32 \u0a32\u0a71\u0a17\u0a26\u0a3e \u0a38\u0a2e\u0a41\u0a70\u0a26\u0a30\u0a40 \u0a24\u0a32 \u0a26\u0a3e \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a18\u0a71\u0a1f \u0a21\u0a42\u0a70\u0a18\u0a3e \u0a39\u0a3f\u0a71\u0a38\u0a3e \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Continental Slope",
+        "Abyssal Plain",
+        "Oceanic Trench",
+        "Continental Shelf"
+      ],
+      "answerIndex": 3,
+      "explanation": "The continental shelf is the gently sloping, submerged part of the continent."
+    }
+  ]
+}

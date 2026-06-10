@@ -1,0 +1,119 @@
+{
+  "id": "sst-b-05",
+  "title": "India: Climate, Soils, and Agriculture Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Climate",
+      "q": "The Indian monsoon is driven primarily by the differential heating of:",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24\u0a40 \u0a2e\u0a3e\u0a28\u0a38\u0a42\u0a28 \u0a2e\u0a41\u0a71\u0a16 \u0a24\u0a4c\u0a30 '\u0a24\u0a47 \u0a15\u0a3f\u0a38\u0a26\u0a47 \u0a35\u0a71\u0a16\u0a4b-\u0a35\u0a71\u0a16\u0a30\u0a47 \u0a24\u0a3e\u0a2a\u0a2e\u0a3e\u0a28 \u0a15\u0a3e\u0a30\u0a28 \u0a1a\u0a71\u0a32\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "The Himalayas and the Indian Ocean",
+        "Land and Water",
+        "The Eastern and Western Ghats",
+        "The Equator and the Poles"
+      ],
+      "answerIndex": 1,
+      "explanation": "The intense heating of the Indian landmass in summer relative to the Indian Ocean creates a low-pressure area that draws in the moisture-laden winds."
+    },
+    {
+      "id": "q2",
+      "topic": "Climate",
+      "q": "Which region receives rainfall from the North-East Monsoon (Retreating Monsoon) during winter?",
+      "qPa": "\u0a38\u0a30\u0a26\u0a40\u0a06\u0a02 \u0a26\u0a4c\u0a30\u0a3e\u0a28 \u0a09\u0a71\u0a24\u0a30-\u0a2a\u0a42\u0a30\u0a2c\u0a40 \u0a2e\u0a3e\u0a28\u0a38\u0a42\u0a28 (\u0a2e\u0a41\u0a5c\u0a26\u0a40 \u0a2e\u0a3e\u0a28\u0a38\u0a42\u0a28) \u0a24\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a47 \u0a16\u0a47\u0a24\u0a30 \u0a35\u0a3f\u0a71\u0a1a \u0a2e\u0a40\u0a02\u0a39 \u0a2a\u0a48\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Punjab",
+        "Kerala",
+        "Coromandel Coast (Tamil Nadu)",
+        "Gujarat"
+      ],
+      "answerIndex": 2,
+      "explanation": "As the monsoon winds retreat over the Bay of Bengal, they pick up moisture and bring rain to the Coromandel coast in winter.",
+      "pyq": "ERB 2016"
+    },
+    {
+      "id": "q3",
+      "topic": "Climate",
+      "q": "Winter rainfall in North-Western India (like Punjab) is crucial for Rabi crops. It is caused by:",
+      "qPa": "\u0a09\u0a71\u0a24\u0a30-\u0a2a\u0a71\u0a1b\u0a2e\u0a40 \u0a2d\u0a3e\u0a30\u0a24 (\u0a1c\u0a3f\u0a35\u0a47\u0a02 \u0a2a\u0a70\u0a1c\u0a3e\u0a2c) \u0a35\u0a3f\u0a71\u0a1a \u0a38\u0a30\u0a26\u0a40\u0a06\u0a02 \u0a26\u0a40 \u0a2c\u0a3e\u0a30\u0a38\u0a3c \u0a39\u0a3e\u0a5c\u0a4d\u0a39\u0a40 \u0a26\u0a40\u0a06\u0a02 \u0a2b\u0a38\u0a32\u0a3e\u0a02 \u0a32\u0a08 \u0a2c\u0a39\u0a41\u0a24 \u0a1c\u0a3c\u0a30\u0a42\u0a30\u0a40 \u0a39\u0a48\u0964 \u0a07\u0a39 \u0a15\u0a3f\u0a38 \u0a15\u0a3e\u0a30\u0a28 \u0a39\u0a41\u0a70\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "South-West Monsoon",
+        "Western Disturbances",
+        "Tropical Cyclones",
+        "Local Winds"
+      ],
+      "answerIndex": 1,
+      "explanation": "Western Disturbances originating in the Mediterranean Sea bring winter precipitation to the northwest."
+    },
+    {
+      "id": "q4",
+      "topic": "Soils",
+      "q": "Which soil type is most widely spread in India and is highly fertile?",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2e\u0a3f\u0a71\u0a1f\u0a40 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a27 \u0a2b\u0a48\u0a32\u0a40 \u0a39\u0a4b\u0a08 \u0a39\u0a48 \u0a05\u0a24\u0a47 \u0a2c\u0a39\u0a41\u0a24 \u0a09\u0a2a\u0a1c\u0a3e\u0a0a \u0a39\u0a48?",
+      "options": [
+        "Black Soil",
+        "Red Soil",
+        "Laterite Soil",
+        "Alluvial Soil"
+      ],
+      "answerIndex": 3,
+      "explanation": "Alluvial soil, deposited by major river systems, covers the entire northern plains and is highly productive."
+    },
+    {
+      "id": "q5",
+      "topic": "Soils",
+      "q": "Regur soil is another name for:",
+      "qPa": "\u0a30\u0a47\u0a17\u0a41\u0a30 \u0a2e\u0a3f\u0a71\u0a1f\u0a40 \u0a15\u0a3f\u0a38\u0a26\u0a3e \u0a26\u0a42\u0a1c\u0a3e \u0a28\u0a3e\u0a2e \u0a39\u0a48?",
+      "options": [
+        "Alluvial Soil",
+        "Black Soil",
+        "Laterite Soil",
+        "Arid Soil"
+      ],
+      "answerIndex": 1,
+      "explanation": "Black soil is locally known as Regur, famous for cotton cultivation."
+    },
+    {
+      "id": "q6",
+      "topic": "Soils",
+      "q": "Which soil develops in areas with high temperature and heavy rainfall, undergoing intense leaching?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2e\u0a3f\u0a71\u0a1f\u0a40 \u0a09\u0a71\u0a1a \u0a24\u0a3e\u0a2a\u0a2e\u0a3e\u0a28 \u0a05\u0a24\u0a47 \u0a2d\u0a3e\u0a30\u0a40 \u0a2c\u0a3e\u0a30\u0a38\u0a3c \u0a35\u0a3e\u0a32\u0a47 \u0a16\u0a47\u0a24\u0a30\u0a3e\u0a02 \u0a35\u0a3f\u0a71\u0a1a \u0a2c\u0a23\u0a26\u0a40 \u0a39\u0a48, \u0a1c\u0a3f\u0a71\u0a25\u0a47 \u0a2c\u0a39\u0a41\u0a24 \u0a1c\u0a3c\u0a3f\u0a06\u0a26\u0a3e \u0a32\u0a40\u0a1a\u0a3f\u0a70\u0a17 (leaching) \u0a39\u0a41\u0a70\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Black Soil",
+        "Alluvial Soil",
+        "Laterite Soil",
+        "Red Soil"
+      ],
+      "answerIndex": 2,
+      "explanation": "Laterite soils are formed under tropical conditions with heavy rainfall, which washes away silica, leaving iron and aluminum."
+    },
+    {
+      "id": "q7",
+      "topic": "Agriculture",
+      "q": "Which of the following is a Kharif crop?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a38\u0a3e\u0a09\u0a23\u0a40 (Kharif) \u0a26\u0a40 \u0a2b\u0a38\u0a32 \u0a39\u0a48?",
+      "options": [
+        "Wheat",
+        "Gram",
+        "Rice",
+        "Mustard"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rice is a Kharif crop sown with the onset of the monsoon. Wheat, gram, and mustard are winter (Rabi) crops."
+    },
+    {
+      "id": "q8",
+      "topic": "Agriculture",
+      "q": "Which state is the largest producer of wheat in India?",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a23\u0a15 \u0a26\u0a3e \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a21\u0a3e \u0a09\u0a24\u0a2a\u0a3e\u0a26\u0a15 \u0a30\u0a3e\u0a1c \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Punjab",
+        "Uttar Pradesh",
+        "Madhya Pradesh",
+        "Haryana"
+      ],
+      "answerIndex": 1,
+      "explanation": "While Punjab has very high yield per hectare, Uttar Pradesh produces the largest total volume of wheat."
+    }
+  ]
+}

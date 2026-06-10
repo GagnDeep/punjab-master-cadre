@@ -1,0 +1,119 @@
+{
+  "id": "sst-b-06",
+  "title": "Resources & Environment: Minerals, Energy, Conservation Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Minerals",
+      "q": "Which of the following is a non-metallic mineral?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a05\u0a27\u0a3e\u0a24\u0a35\u0a40 \u0a16\u0a23\u0a3f\u0a1c (non-metallic mineral) \u0a39\u0a48?",
+      "options": [
+        "Iron Ore",
+        "Bauxite",
+        "Copper",
+        "Mica"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mica is a non-metallic mineral, widely used in the electrical industry."
+    },
+    {
+      "id": "q2",
+      "topic": "Minerals",
+      "q": "Bauxite is the ore from which which metal is extracted?",
+      "qPa": "\u0a2c\u0a3e\u0a15\u0a38\u0a3e\u0a08\u0a1f \u0a09\u0a39 \u0a15\u0a71\u0a1a\u0a40 \u0a27\u0a3e\u0a24 \u0a39\u0a48 \u0a1c\u0a3f\u0a38 \u0a24\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a27\u0a3e\u0a24 \u0a15\u0a71\u0a22\u0a40 \u0a1c\u0a3e\u0a02\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Iron",
+        "Aluminum",
+        "Copper",
+        "Gold"
+      ],
+      "answerIndex": 1,
+      "explanation": "Aluminum is obtained from bauxite ore."
+    },
+    {
+      "id": "q3",
+      "topic": "Minerals",
+      "q": "Which state in India is the leading producer of Iron Ore?",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a32\u0a4b\u0a39\u0a47 \u0a26\u0a40 \u0a15\u0a71\u0a1a\u0a40 \u0a27\u0a3e\u0a24 \u0a26\u0a3e \u0a2e\u0a4b\u0a39\u0a30\u0a40 \u0a09\u0a24\u0a2a\u0a3e\u0a26\u0a15 \u0a30\u0a3e\u0a1c \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Odisha",
+        "Gujarat",
+        "Punjab",
+        "Kerala"
+      ],
+      "answerIndex": 0,
+      "explanation": "Odisha consistently holds the largest reserves and is the leading producer of iron ore in India.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "q4",
+      "topic": "Energy",
+      "q": "Which is the most abundantly available fossil fuel in India?",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a27 \u0a2e\u0a3e\u0a24\u0a30\u0a3e \u0a35\u0a3f\u0a71\u0a1a \u0a09\u0a2a\u0a32\u0a2c\u0a27 \u0a2a\u0a25\u0a30\u0a3e\u0a1f \u0a2c\u0a3e\u0a32\u0a23 (fossil fuel) \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Petroleum",
+        "Natural Gas",
+        "Coal",
+        "Uranium"
+      ],
+      "answerIndex": 2,
+      "explanation": "Coal provides the bulk of commercial energy needs in India."
+    },
+    {
+      "id": "q5",
+      "topic": "Energy",
+      "q": "Which of the following is a non-conventional source of energy?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a0a\u0a30\u0a1c\u0a3e \u0a26\u0a3e \u0a17\u0a48\u0a30-\u0a30\u0a35\u0a3e\u0a07\u0a24\u0a40 \u0a38\u0a30\u0a4b\u0a24 \u0a39\u0a48?",
+      "options": [
+        "Coal",
+        "Firewood",
+        "Petroleum",
+        "Solar Energy"
+      ],
+      "answerIndex": 3,
+      "explanation": "Solar energy is renewable and non-conventional, unlike fossil fuels."
+    },
+    {
+      "id": "q6",
+      "topic": "Energy",
+      "q": "Digboi in Assam is famous for:",
+      "qPa": "\u0a06\u0a38\u0a3e\u0a2e \u0a35\u0a3f\u0a71\u0a1a \u0a21\u0a3f\u0a17\u0a2c\u0a4b\u0a08 (Digboi) \u0a15\u0a3f\u0a38 \u0a32\u0a08 \u0a2e\u0a38\u0a3c\u0a39\u0a42\u0a30 \u0a39\u0a48?",
+      "options": [
+        "Gold mines",
+        "Oldest oil field in India",
+        "Coal reserves",
+        "Uranium deposits"
+      ],
+      "answerIndex": 1,
+      "explanation": "Digboi is the oldest operating oil well in India."
+    },
+    {
+      "id": "q7",
+      "topic": "Environment",
+      "q": "Sustainable development refers to:",
+      "qPa": "\u0a1f\u0a3f\u0a15\u0a3e\u0a0a \u0a35\u0a3f\u0a15\u0a3e\u0a38 (Sustainable development) \u0a26\u0a3e \u0a15\u0a40 \u0a05\u0a30\u0a25 \u0a39\u0a48?",
+      "options": [
+        "Maximum exploitation of resources",
+        "Development without damaging the environment and compromising future needs",
+        "Stopping all industrial activity",
+        "Only using non-renewable resources"
+      ],
+      "answerIndex": 1,
+      "explanation": "It balances current developmental needs with environmental preservation for future generations."
+    },
+    {
+      "id": "q8",
+      "topic": "Conservation",
+      "q": "Which practice helps in the conservation of minerals?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a05\u0a2d\u0a3f\u0a06\u0a38 \u0a16\u0a23\u0a3f\u0a1c\u0a3e\u0a02 \u0a26\u0a40 \u0a38\u0a70\u0a2d\u0a3e\u0a32 \u0a35\u0a3f\u0a71\u0a1a \u0a2e\u0a26\u0a26 \u0a15\u0a30\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Increasing exports",
+        "Using resources rapidly",
+        "Recycling of metals",
+        "Abandoning mines"
+      ],
+      "answerIndex": 2,
+      "explanation": "Recycling metals like scrap iron or aluminum reduces the need to mine new ore."
+    }
+  ]
+}
