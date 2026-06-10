@@ -1,0 +1,119 @@
+{
+  "id": "sst-b-02",
+  "title": "Atmosphere: Weather, Climate, Pressure Belts & Winds Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Atmosphere Layers",
+      "q": "In which layer of the atmosphere do almost all weather phenomena occur?",
+      "qPa": "\u0a35\u0a3e\u0a2f\u0a42\u0a2e\u0a70\u0a21\u0a32 \u0a26\u0a40 \u0a15\u0a3f\u0a38 \u0a2a\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a32\u0a17\u0a2d\u0a17 \u0a38\u0a3e\u0a30\u0a40\u0a06\u0a02 \u0a2e\u0a4c\u0a38\u0a2e\u0a40 \u0a18\u0a1f\u0a28\u0a3e\u0a35\u0a3e\u0a02 \u0a35\u0a3e\u0a2a\u0a30\u0a26\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "Stratosphere",
+        "Troposphere",
+        "Mesosphere",
+        "Thermosphere"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Troposphere is the lowest layer and contains 99% of the water vapor and aerosols, driving weather."
+    },
+    {
+      "id": "q2",
+      "topic": "Atmosphere Layers",
+      "q": "The ozone layer, which protects us from harmful UV rays, is located in the:",
+      "qPa": "\u0a13\u0a1c\u0a3c\u0a4b\u0a28 \u0a2a\u0a30\u0a24, \u0a1c\u0a4b \u0a38\u0a3e\u0a28\u0a42\u0a70 \u0a39\u0a3e\u0a28\u0a40\u0a15\u0a3e\u0a30\u0a15 \u0a2f\u0a42\u0a35\u0a40 (UV) \u0a15\u0a3f\u0a30\u0a28\u0a3e\u0a02 \u0a24\u0a4b\u0a02 \u0a2c\u0a1a\u0a3e\u0a09\u0a02\u0a26\u0a40 \u0a39\u0a48, \u0a15\u0a3f\u0a71\u0a25\u0a47 \u0a38\u0a25\u0a3f\u0a24 \u0a39\u0a48?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Mesosphere",
+        "Exosphere"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Stratosphere contains the ozone layer.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "q3",
+      "topic": "Atmosphere Layers",
+      "q": "Which layer is crucial for reflecting radio waves back to Earth?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2a\u0a30\u0a24 \u0a30\u0a47\u0a21\u0a40\u0a13 \u0a24\u0a30\u0a70\u0a17\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a27\u0a30\u0a24\u0a40 '\u0a24\u0a47 \u0a35\u0a3e\u0a2a\u0a38 \u0a2d\u0a47\u0a1c\u0a23 \u0a32\u0a08 \u0a2e\u0a39\u0a71\u0a24\u0a35\u0a2a\u0a42\u0a30\u0a28 \u0a39\u0a48?",
+      "options": [
+        "Troposphere",
+        "Stratosphere",
+        "Ionosphere (part of Thermosphere)",
+        "Exosphere"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Ionosphere contains electrically charged particles that reflect radio waves, enabling long-distance communication."
+    },
+    {
+      "id": "q4",
+      "topic": "Pressure Belts",
+      "q": "The Equatorial Low-Pressure Belt is also known as:",
+      "qPa": "\u0a2d\u0a42\u0a2e\u0a71\u0a27 \u0a30\u0a47\u0a16\u0a40 \u0a18\u0a71\u0a1f \u0a26\u0a2c\u0a3e\u0a05 \u0a2a\u0a47\u0a1f\u0a40 \u0a28\u0a42\u0a70 \u0a39\u0a4b\u0a30 \u0a15\u0a3f\u0a38 \u0a28\u0a3e\u0a2e \u0a28\u0a3e\u0a32 \u0a1c\u0a3e\u0a23\u0a3f\u0a06 \u0a1c\u0a3e\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Horse Latitudes",
+        "Doldrums",
+        "Roaring Forties",
+        "Trade Winds"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Doldrums is an area near the equator characterized by calm, light winds and low pressure."
+    },
+    {
+      "id": "q5",
+      "topic": "Winds",
+      "q": "Winds blow from regions of:",
+      "qPa": "\u0a2a\u0a4c\u0a23\u0a3e\u0a02 \u0a15\u0a3f\u0a38 \u0a16\u0a47\u0a24\u0a30 \u0a24\u0a4b\u0a02 \u0a1a\u0a71\u0a32\u0a26\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "Low pressure to high pressure",
+        "High pressure to low pressure",
+        "High temperature to low temperature",
+        "Low temperature to high temperature"
+      ],
+      "answerIndex": 1,
+      "explanation": "Air naturally moves from areas of high pressure to areas of low pressure to equalize the difference."
+    },
+    {
+      "id": "q6",
+      "topic": "Winds",
+      "q": "The deflection of winds to the right in the Northern Hemisphere is caused by:",
+      "qPa": "\u0a09\u0a71\u0a24\u0a30\u0a40 \u0a05\u0a30\u0a27 \u0a17\u0a4b\u0a32\u0a47 \u0a35\u0a3f\u0a71\u0a1a \u0a2a\u0a4c\u0a23\u0a3e\u0a02 \u0a26\u0a3e \u0a38\u0a71\u0a1c\u0a47 \u0a2a\u0a3e\u0a38\u0a47 \u0a2e\u0a41\u0a5c \u0a1c\u0a3e\u0a23\u0a3e \u0a15\u0a3f\u0a38 \u0a15\u0a3e\u0a30\u0a28 \u0a39\u0a41\u0a70\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Gravity",
+        "Centrifugal force",
+        "The Coriolis Effect",
+        "Friction"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Coriolis Effect, caused by Earth's rotation, deflects moving air."
+    },
+    {
+      "id": "q7",
+      "topic": "Planetary Winds",
+      "q": "Which permanent winds blow from the subtropical high-pressure belts to the equatorial low-pressure belt?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a40\u0a06\u0a02 \u0a2a\u0a71\u0a15\u0a40\u0a06\u0a02 \u0a2a\u0a4c\u0a23\u0a3e\u0a02 \u0a09\u0a2a-\u0a0a\u0a38\u0a3c\u0a23 \u0a09\u0a71\u0a1a \u0a26\u0a2c\u0a3e\u0a05 \u0a2a\u0a47\u0a1f\u0a40\u0a06\u0a02 \u0a24\u0a4b\u0a02 \u0a2d\u0a42\u0a2e\u0a71\u0a27 \u0a30\u0a47\u0a16\u0a40 \u0a18\u0a71\u0a1f \u0a26\u0a2c\u0a3e\u0a05 \u0a2a\u0a47\u0a1f\u0a40 \u0a35\u0a71\u0a32 \u0a1a\u0a71\u0a32\u0a26\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "Westerlies",
+        "Trade Winds",
+        "Polar Easterlies",
+        "Monsoons"
+      ],
+      "answerIndex": 1,
+      "explanation": "Trade winds are reliable easterly winds found in the tropics."
+    },
+    {
+      "id": "q8",
+      "topic": "Local Winds",
+      "q": "Which of the following is a hot, dry local wind blowing in the northern plains of India during summer?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a17\u0a30\u0a2e\u0a40\u0a06\u0a02 \u0a26\u0a4c\u0a30\u0a3e\u0a28 \u0a2d\u0a3e\u0a30\u0a24 \u0a26\u0a47 \u0a09\u0a71\u0a24\u0a30\u0a40 \u0a2e\u0a48\u0a26\u0a3e\u0a28\u0a3e\u0a02 \u0a35\u0a3f\u0a71\u0a1a \u0a1a\u0a71\u0a32\u0a23 \u0a35\u0a3e\u0a32\u0a40 \u0a17\u0a30\u0a2e, \u0a16\u0a41\u0a38\u0a3c\u0a15 \u0a38\u0a25\u0a3e\u0a28\u0a15 \u0a2a\u0a4c\u0a23 \u0a39\u0a48?",
+      "options": [
+        "Chinook",
+        "Foehn",
+        "Loo",
+        "Mistral"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 'Loo' is a strong, dusty, gusty, hot and dry summer wind from the west which blows over the Indo-Gangetic Plain."
+    }
+  ]
+}

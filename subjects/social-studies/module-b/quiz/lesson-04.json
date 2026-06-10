@@ -1,0 +1,119 @@
+{
+  "id": "sst-b-04",
+  "title": "Geography of India: Physiography & Drainage Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Physiography",
+      "q": "Which is the oldest landmass of India?",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a26\u0a3e \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a2a\u0a41\u0a30\u0a3e\u0a23\u0a3e \u0a2d\u0a42-\u0a2d\u0a3e\u0a17 \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "The Himalayas",
+        "The Northern Plains",
+        "The Peninsular Plateau",
+        "The Coastal Plains"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Peninsular Plateau is part of the ancient Gondwanaland and is the oldest and most stable landmass in India."
+    },
+    {
+      "id": "q2",
+      "topic": "Physiography",
+      "q": "The outermost range of the Himalayas is called:",
+      "qPa": "\u0a39\u0a3f\u0a2e\u0a3e\u0a32\u0a3f\u0a06 \u0a26\u0a40 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a2c\u0a3e\u0a39\u0a30\u0a40 (\u0a26\u0a71\u0a16\u0a23\u0a40) \u0a32\u0a5c\u0a40 \u0a28\u0a42\u0a70 \u0a15\u0a40 \u0a15\u0a3f\u0a39\u0a3e \u0a1c\u0a3e\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Himadri",
+        "Himachal",
+        "Shiwaliks",
+        "Karakoram"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Shiwaliks are the southernmost, youngest, and lowest range of the Himalayas."
+    },
+    {
+      "id": "q3",
+      "topic": "Physiography",
+      "q": "The highest peak of the Himalayas in India is:",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a39\u0a3f\u0a2e\u0a3e\u0a32\u0a3f\u0a06 \u0a26\u0a40 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a09\u0a71\u0a1a\u0a40 \u0a1a\u0a4b\u0a1f\u0a40 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Mount Everest",
+        "Kanchenjunga",
+        "Nanda Devi",
+        "Doda Betta"
+      ],
+      "answerIndex": 1,
+      "explanation": "While Mount Everest is the highest globally (in Nepal), Kanchenjunga is the highest Himalayan peak within India's borders."
+    },
+    {
+      "id": "q4",
+      "topic": "Drainage",
+      "q": "Which of the following is a west-flowing river that falls into the Arabian Sea?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2a\u0a71\u0a1b\u0a2e \u0a35\u0a71\u0a32 \u0a35\u0a17\u0a23 \u0a35\u0a3e\u0a32\u0a40 \u0a28\u0a26\u0a40 \u0a39\u0a48 \u0a1c\u0a4b \u0a05\u0a30\u0a2c \u0a38\u0a3e\u0a17\u0a30 \u0a35\u0a3f\u0a71\u0a1a \u0a21\u0a3f\u0a71\u0a17\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Godavari",
+        "Krishna",
+        "Narmada",
+        "Mahanadi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Narmada and Tapi are the major west-flowing peninsular rivers.",
+      "pyq": "ERB 2018, 2022"
+    },
+    {
+      "id": "q5",
+      "topic": "Drainage",
+      "q": "The river Godavari is often referred to as:",
+      "qPa": "\u0a17\u0a4b\u0a26\u0a3e\u0a35\u0a30\u0a40 \u0a28\u0a26\u0a40 \u0a28\u0a42\u0a70 \u0a05\u0a15\u0a38\u0a30 \u0a15\u0a40 \u0a15\u0a3f\u0a39\u0a3e \u0a1c\u0a3e\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Sorrow of Bengal",
+        "Dakshin Ganga",
+        "Singi Khamban",
+        "Tsangpo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due to its length and the area it covers in South India, the Godavari is known as the Dakshin (South) Ganga."
+    },
+    {
+      "id": "q6",
+      "topic": "Drainage",
+      "q": "Which two rivers combine to form the Ganga at Devprayag?",
+      "qPa": "\u0a26\u0a47\u0a35\u0a2a\u0a4d\u0a30\u0a2f\u0a3e\u0a17 \u0a35\u0a3f\u0a16\u0a47 \u0a15\u0a3f\u0a39\u0a5c\u0a40\u0a06\u0a02 \u0a26\u0a4b \u0a28\u0a26\u0a40\u0a06\u0a02 \u0a2e\u0a3f\u0a32 \u0a15\u0a47 \u0a17\u0a70\u0a17\u0a3e \u0a2c\u0a23\u0a3e\u0a09\u0a02\u0a26\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "Alaknanda and Mandakini",
+        "Bhagirathi and Alaknanda",
+        "Yamuna and Ganga",
+        "Ravi and Beas"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Bhagirathi and Alaknanda rivers meet at Devprayag to form the mainstream of the Ganga."
+    },
+    {
+      "id": "q7",
+      "topic": "Islands",
+      "q": "Which water body separates the Andaman Islands from the Nicobar Islands?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a1c\u0a32 \u0a16\u0a47\u0a24\u0a30 \u0a05\u0a70\u0a21\u0a47\u0a2e\u0a3e\u0a28 \u0a1f\u0a3e\u0a2a\u0a42\u0a06\u0a02 \u0a28\u0a42\u0a70 \u0a28\u0a3f\u0a15\u0a4b\u0a2c\u0a3e\u0a30 \u0a1f\u0a3e\u0a2a\u0a42\u0a06\u0a02 \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a16 \u0a15\u0a30\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Palk Strait",
+        "Gulf of Mannar",
+        "Ten Degree Channel",
+        "Eight Degree Channel"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Ten Degree Channel separates the Andaman group (north) from the Nicobar group (south)."
+    },
+    {
+      "id": "q8",
+      "topic": "Drainage",
+      "q": "A river that does NOT form a delta is:",
+      "qPa": "\u0a09\u0a39 \u0a28\u0a26\u0a40 \u0a1c\u0a4b \u0a21\u0a48\u0a32\u0a1f\u0a3e \u0a28\u0a39\u0a40\u0a02 \u0a2c\u0a23\u0a3e\u0a09\u0a02\u0a26\u0a40:",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Godavari",
+        "Tapi"
+      ],
+      "answerIndex": 3,
+      "explanation": "West-flowing rivers like Narmada and Tapi flow through hard rocks, carry less sediment, and form estuaries instead of deltas."
+    }
+  ]
+}

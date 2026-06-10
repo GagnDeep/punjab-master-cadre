@@ -1,0 +1,287 @@
+{
+  "id": "sst-b-module-test",
+  "title": "Geography Module B Full Test",
+  "timeLimitMinutes": 20,
+  "questions": [
+    {
+      "id": "mq1",
+      "topic": "Earth's Interior",
+      "q": "The core of the earth is mostly made up of:",
+      "qPa": "\u0a27\u0a30\u0a24\u0a40 \u0a26\u0a3e \u0a15\u0a47\u0a02\u0a26\u0a30 \u0a2e\u0a41\u0a71\u0a16 \u0a24\u0a4c\u0a30 '\u0a24\u0a47 \u0a15\u0a3f\u0a38\u0a26\u0a3e \u0a2c\u0a23\u0a3f\u0a06 \u0a39\u0a48?",
+      "options": [
+        "Silica and Aluminum",
+        "Silica and Magnesium",
+        "Nickel and Iron",
+        "Copper and Zinc"
+      ],
+      "answerIndex": 2,
+      "explanation": "The core is known as NiFe (Nickel and Iron)."
+    },
+    {
+      "id": "mq2",
+      "topic": "Rocks",
+      "q": "Sandstone is an example of which type of rock?",
+      "qPa": "\u0a30\u0a47\u0a24\u0a32\u0a3e \u0a2a\u0a71\u0a25\u0a30 \u0a15\u0a3f\u0a38 \u0a15\u0a3f\u0a38\u0a2e \u0a26\u0a40 \u0a1a\u0a71\u0a1f\u0a3e\u0a28 \u0a26\u0a40 \u0a09\u0a26\u0a3e\u0a39\u0a30\u0a23 \u0a39\u0a48?",
+      "options": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Extrusive"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is formed by the accumulation of sand grains."
+    },
+    {
+      "id": "mq3",
+      "topic": "Atmosphere",
+      "q": "Which gas is most abundant in the Earth's atmosphere?",
+      "qPa": "\u0a27\u0a30\u0a24\u0a40 \u0a26\u0a47 \u0a35\u0a3e\u0a2f\u0a42\u0a2e\u0a70\u0a21\u0a32 \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a17\u0a48\u0a38 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a27 \u0a2e\u0a3e\u0a24\u0a30\u0a3e \u0a35\u0a3f\u0a71\u0a1a \u0a39\u0a48?",
+      "options": [
+        "Oxygen",
+        "Carbon Dioxide",
+        "Nitrogen",
+        "Argon"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nitrogen makes up about 78% of the atmosphere."
+    },
+    {
+      "id": "mq4",
+      "topic": "Winds",
+      "q": "Monsoons are an example of:",
+      "qPa": "\u0a2e\u0a3e\u0a28\u0a38\u0a42\u0a28 \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a09\u0a26\u0a3e\u0a39\u0a30\u0a23 \u0a39\u0a48?",
+      "options": [
+        "Local winds",
+        "Seasonal winds",
+        "Planetary winds",
+        "Trade winds"
+      ],
+      "answerIndex": 1,
+      "explanation": "Monsoons change direction with the seasons."
+    },
+    {
+      "id": "mq5",
+      "topic": "Ocean Currents",
+      "q": "The Gulf Stream is a:",
+      "qPa": "\u0a17\u0a32\u0a2b \u0a38\u0a1f\u0a4d\u0a30\u0a40\u0a2e \u0a07\u0a71\u0a15:",
+      "options": [
+        "Cold current in the Pacific",
+        "Warm current in the Atlantic",
+        "Cold current in the Atlantic",
+        "Warm current in the Pacific"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is a major warm current in the North Atlantic."
+    },
+    {
+      "id": "mq6",
+      "topic": "Tides",
+      "q": "Neap tides occur during which moon phase?",
+      "qPa": "\u0a28\u0a40\u0a2a \u0a1f\u0a3e\u0a08\u0a21 \u0a1a\u0a70\u0a26\u0a30\u0a2e\u0a3e \u0a26\u0a47 \u0a15\u0a3f\u0a38 \u0a2a\u0a5c\u0a3e\u0a05 \u0a26\u0a4c\u0a30\u0a3e\u0a28 \u0a06\u0a09\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Full moon",
+        "New moon",
+        "Quarter moon",
+        "Lunar eclipse"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sun and Moon pull at 90-degree angles during quarter phases."
+    },
+    {
+      "id": "mq7",
+      "topic": "Physiography",
+      "q": "The Eastern Ghats and Western Ghats meet at the:",
+      "qPa": "\u0a2a\u0a42\u0a30\u0a2c\u0a40 \u0a18\u0a3e\u0a1f \u0a05\u0a24\u0a47 \u0a2a\u0a71\u0a1b\u0a2e\u0a40 \u0a18\u0a3e\u0a1f \u0a15\u0a3f\u0a71\u0a25\u0a47 \u0a2e\u0a3f\u0a32\u0a26\u0a47 \u0a39\u0a28?",
+      "options": [
+        "Cardamom Hills",
+        "Annamalai Hills",
+        "Nilgiri Hills",
+        "Palani Hills"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Nilgiri Hills form the junction."
+    },
+    {
+      "id": "mq8",
+      "topic": "Drainage",
+      "q": "Which river flows through a rift valley?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a28\u0a26\u0a40 \u0a07\u0a71\u0a15 \u0a30\u0a3f\u0a2b\u0a1f \u0a18\u0a3e\u0a1f\u0a40 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a35\u0a17\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Ganga",
+        "Brahmaputra",
+        "Narmada",
+        "Krishna"
+      ],
+      "answerIndex": 2,
+      "explanation": "Narmada flows in a rift valley between the Vindhya and Satpura ranges."
+    },
+    {
+      "id": "mq9",
+      "topic": "Climate",
+      "q": "Most of the rainfall in India is received from:",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a1c\u0a3c\u0a3f\u0a06\u0a26\u0a3e\u0a24\u0a30 \u0a2c\u0a3e\u0a30\u0a38\u0a3c \u0a15\u0a3f\u0a38 \u0a24\u0a4b\u0a02 \u0a2a\u0a4d\u0a30\u0a3e\u0a2a\u0a24 \u0a39\u0a41\u0a70\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "North-East Monsoon",
+        "South-West Monsoon",
+        "Western Disturbances",
+        "Cyclones"
+      ],
+      "answerIndex": 1,
+      "explanation": "The South-West monsoon brings about 75% of India's annual rain."
+    },
+    {
+      "id": "mq10",
+      "topic": "Soils",
+      "q": "Laterite soil is very useful for growing:",
+      "qPa": "\u0a32\u0a48\u0a1f\u0a47\u0a30\u0a3e\u0a08\u0a1f \u0a2e\u0a3f\u0a71\u0a1f\u0a40 \u0a15\u0a40 \u0a09\u0a17\u0a3e\u0a09\u0a23 \u0a32\u0a08 \u0a2c\u0a39\u0a41\u0a24 \u0a32\u0a3e\u0a2d\u0a26\u0a3e\u0a07\u0a15 \u0a39\u0a48?",
+      "options": [
+        "Cotton",
+        "Wheat",
+        "Tea and Coffee",
+        "Rice"
+      ],
+      "answerIndex": 2,
+      "explanation": "It supports plantation crops in hilly areas with heavy rain."
+    },
+    {
+      "id": "mq11",
+      "topic": "Agriculture",
+      "q": "Which of the following is a Rabi crop?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a39\u0a3e\u0a5c\u0a4d\u0a39\u0a40 (Rabi) \u0a26\u0a40 \u0a2b\u0a38\u0a32 \u0a39\u0a48?",
+      "options": [
+        "Cotton",
+        "Maize",
+        "Arhar",
+        "Mustard"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mustard is sown in winter."
+    },
+    {
+      "id": "mq12",
+      "topic": "Minerals",
+      "q": "Khetri in Rajasthan is famous for:",
+      "qPa": "\u0a30\u0a3e\u0a1c\u0a38\u0a25\u0a3e\u0a28 \u0a35\u0a3f\u0a71\u0a1a \u0a16\u0a47\u0a24\u0a5c\u0a40 (Khetri) \u0a15\u0a3f\u0a38 \u0a32\u0a08 \u0a2e\u0a38\u0a3c\u0a39\u0a42\u0a30 \u0a39\u0a48?",
+      "options": [
+        "Iron Ore",
+        "Copper",
+        "Mica",
+        "Bauxite"
+      ],
+      "answerIndex": 1,
+      "explanation": "Khetri mines are historically famous for copper."
+    },
+    {
+      "id": "mq13",
+      "topic": "Energy",
+      "q": "Which state is the leading producer of wind energy in India?",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a \u0a2a\u0a4c\u0a23 \u0a0a\u0a30\u0a1c\u0a3e \u0a26\u0a3e \u0a2e\u0a4b\u0a39\u0a30\u0a40 \u0a09\u0a24\u0a2a\u0a3e\u0a26\u0a15 \u0a30\u0a3e\u0a1c \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Punjab",
+        "Tamil Nadu",
+        "Odisha",
+        "Bihar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tamil Nadu has the largest installed wind capacity."
+    },
+    {
+      "id": "mq14",
+      "topic": "Physiography",
+      "q": "The Lakshadweep Islands are made up of:",
+      "qPa": "\u0a32\u0a15\u0a38\u0a3c\u0a26\u0a40\u0a2a \u0a1f\u0a3e\u0a2a\u0a42 \u0a15\u0a3f\u0a38\u0a26\u0a47 \u0a2c\u0a23\u0a47 \u0a39\u0a4b\u0a0f \u0a39\u0a28?",
+      "options": [
+        "Volcanic rocks",
+        "Coral deposits",
+        "Tectonic uplift",
+        "Alluvial deposits"
+      ],
+      "answerIndex": 1,
+      "explanation": "They are coral islands."
+    },
+    {
+      "id": "mq15",
+      "topic": "Drainage",
+      "q": "Which river is known as the 'Sorrow of Bihar'?",
+      "qPa": "\u0a15\u0a3f\u0a38 \u0a28\u0a26\u0a40 \u0a28\u0a42\u0a70 '\u0a2c\u0a3f\u0a39\u0a3e\u0a30 \u0a26\u0a3e \u0a38\u0a4b\u0a17' \u0a15\u0a3f\u0a39\u0a3e \u0a1c\u0a3e\u0a02\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Ganga",
+        "Kosi",
+        "Son",
+        "Damodar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Due to its frequent devastating floods."
+    },
+    {
+      "id": "mq16",
+      "topic": "Climate",
+      "q": "Mango showers are pre-monsoon showers common in:",
+      "qPa": "\u0a2e\u0a48\u0a02\u0a17\u0a4b \u0a38\u0a3c\u0a3e\u0a35\u0a30\u0a1c\u0a3c (\u0a05\u0a70\u0a2c\u0a3e\u0a02 \u0a26\u0a40 \u0a35\u0a3e\u0a1b\u0a5c) \u0a2a\u0a4d\u0a30\u0a40-\u0a2e\u0a3e\u0a28\u0a38\u0a42\u0a28 \u0a2c\u0a3e\u0a30\u0a38\u0a3c\u0a3e\u0a02 \u0a39\u0a28 \u0a1c\u0a4b \u0a06\u0a2e \u0a39\u0a28:",
+      "options": [
+        "Punjab and Haryana",
+        "Kerala and Karnataka",
+        "Bengal and Assam",
+        "Gujarat"
+      ],
+      "answerIndex": 1,
+      "explanation": "They help in the early ripening of mangoes in these southern states."
+    },
+    {
+      "id": "mq17",
+      "topic": "Soils",
+      "q": "Khadar and Bhangar are terms associated with which soil?",
+      "qPa": "\u0a16\u0a3e\u0a26\u0a30 \u0a05\u0a24\u0a47 \u0a2c\u0a3e\u0a02\u0a17\u0a30 \u0a38\u0a3c\u0a2c\u0a26 \u0a15\u0a3f\u0a38 \u0a2e\u0a3f\u0a71\u0a1f\u0a40 \u0a28\u0a3e\u0a32 \u0a38\u0a2c\u0a70\u0a27\u0a24 \u0a39\u0a28?",
+      "options": [
+        "Black",
+        "Laterite",
+        "Alluvial",
+        "Red"
+      ],
+      "answerIndex": 2,
+      "explanation": "Khadar is new alluvium, Bhangar is old alluvium."
+    },
+    {
+      "id": "mq18",
+      "topic": "Agriculture",
+      "q": "Green Revolution was most successful in the production of:",
+      "qPa": "\u0a39\u0a30\u0a40 \u0a15\u0a4d\u0a30\u0a3e\u0a02\u0a24\u0a40 \u0a15\u0a3f\u0a38\u0a26\u0a47 \u0a09\u0a24\u0a2a\u0a3e\u0a26\u0a28 \u0a35\u0a3f\u0a71\u0a1a \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a35\u0a71\u0a27 \u0a38\u0a2b\u0a32 \u0a30\u0a39\u0a40?",
+      "options": [
+        "Rice and Wheat",
+        "Pulses",
+        "Oilseeds",
+        "Cotton"
+      ],
+      "answerIndex": 0,
+      "explanation": "Especially wheat in Punjab and Haryana."
+    },
+    {
+      "id": "mq19",
+      "topic": "Minerals",
+      "q": "Which is the highest quality of coal?",
+      "qPa": "\u0a15\u0a4b\u0a32\u0a47 \u0a26\u0a40 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a09\u0a71\u0a1a \u0a17\u0a41\u0a23\u0a35\u0a71\u0a24\u0a3e \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Peat",
+        "Lignite",
+        "Bituminous",
+        "Anthracite"
+      ],
+      "answerIndex": 3,
+      "explanation": "Anthracite has the highest carbon content."
+    },
+    {
+      "id": "mq20",
+      "topic": "Environment",
+      "q": "Project Tiger was launched in India in the year:",
+      "qPa": "\u0a2d\u0a3e\u0a30\u0a24 \u0a35\u0a3f\u0a71\u0a1a '\u0a2a\u0a4d\u0a30\u0a4b\u0a1c\u0a48\u0a15\u0a1f \u0a1f\u0a3e\u0a08\u0a17\u0a30' \u0a15\u0a3f\u0a38 \u0a38\u0a3e\u0a32 \u0a38\u0a3c\u0a41\u0a30\u0a42 \u0a15\u0a40\u0a24\u0a3e \u0a17\u0a3f\u0a06 \u0a38\u0a40?",
+      "options": [
+        "1973",
+        "1980",
+        "1992",
+        "2001"
+      ],
+      "answerIndex": 0,
+      "explanation": "To protect the endangered Bengal tiger."
+    }
+  ]
+}

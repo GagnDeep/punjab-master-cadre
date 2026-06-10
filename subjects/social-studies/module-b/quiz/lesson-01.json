@@ -1,0 +1,120 @@
+{
+  "id": "sst-b-01",
+  "title": "Earth: Interior, Rocks, and Landforms Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Earth's Interior",
+      "q": "Which of the following is the thinnest layer of the Earth?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a27\u0a30\u0a24\u0a40 \u0a26\u0a40 \u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a2a\u0a24\u0a32\u0a40 \u0a2a\u0a30\u0a24 \u0a39\u0a48?",
+      "options": [
+        "Crust",
+        "Mantle",
+        "Outer Core",
+        "Inner Core"
+      ],
+      "answerIndex": 0,
+      "explanation": "The crust is the outermost and thinnest layer, ranging from 5 to 70 km in thickness."
+    },
+    {
+      "id": "q2",
+      "topic": "Earth's Interior",
+      "q": "What elements primarily make up the core of the Earth?",
+      "qPa": "\u0a27\u0a30\u0a24\u0a40 \u0a26\u0a3e \u0a15\u0a47\u0a02\u0a26\u0a30 (\u0a15\u0a4b\u0a30) \u0a2e\u0a41\u0a71\u0a16 \u0a24\u0a4c\u0a30 '\u0a24\u0a47 \u0a15\u0a3f\u0a39\u0a5c\u0a47 \u0a24\u0a71\u0a24\u0a3e\u0a02 \u0a26\u0a3e \u0a2c\u0a23\u0a3f\u0a06 \u0a39\u0a48?",
+      "options": [
+        "Silicon and Aluminum (SiAl)",
+        "Silicon and Magnesium (SiMa)",
+        "Nickel and Iron (NiFe)",
+        "Oxygen and Carbon"
+      ],
+      "answerIndex": 2,
+      "explanation": "The core is mostly made of Nickel and Iron, hence the acronym NiFe.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q3",
+      "topic": "Discontinuities",
+      "q": "The Mohorovi\u010di\u0107 (Moho) discontinuity separates which two layers?",
+      "qPa": "\u0a2e\u0a4b\u0a39\u0a4b\u0a30\u0a4b\u0a35\u0a3f\u0a1a\u0a3f\u0a15 (\u0a2e\u0a4b\u0a39\u0a4b) \u0a05\u0a38\u0a2e\u0a3e\u0a28\u0a24\u0a3e \u0a15\u0a3f\u0a39\u0a5c\u0a40\u0a06\u0a02 \u0a26\u0a4b \u0a2a\u0a30\u0a24\u0a3e\u0a02 \u0a28\u0a42\u0a70 \u0a35\u0a71\u0a16 \u0a15\u0a30\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Outer Core and Inner Core",
+        "Mantle and Outer Core",
+        "Crust and Mantle",
+        "Lithosphere and Asthenosphere"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Moho discontinuity forms the boundary between the crust and the mantle."
+    },
+    {
+      "id": "q4",
+      "topic": "Rocks",
+      "q": "Which type of rock is formed by the cooling and solidification of magma?",
+      "qPa": "\u0a2e\u0a48\u0a17\u0a2e\u0a3e \u0a26\u0a47 \u0a20\u0a70\u0a21\u0a47 \u0a05\u0a24\u0a47 \u0a20\u0a4b\u0a38 \u0a39\u0a4b\u0a23 \u0a28\u0a3e\u0a32 \u0a15\u0a3f\u0a38 \u0a15\u0a3f\u0a38\u0a2e \u0a26\u0a40 \u0a1a\u0a71\u0a1f\u0a3e\u0a28 \u0a2c\u0a23\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Sedimentary",
+        "Metamorphic",
+        "Igneous",
+        "Fossiliferous"
+      ],
+      "answerIndex": 2,
+      "explanation": "Igneous rocks are primary rocks formed directly from magma or lava."
+    },
+    {
+      "id": "q5",
+      "topic": "Rocks",
+      "q": "Fossils are most commonly found in which type of rock?",
+      "qPa": "\u0a2a\u0a25\u0a30\u0a3e\u0a1f (\u0a2b\u0a3e\u0a38\u0a3f\u0a32) \u0a06\u0a2e \u0a24\u0a4c\u0a30 '\u0a24\u0a47 \u0a15\u0a3f\u0a38 \u0a15\u0a3f\u0a38\u0a2e \u0a26\u0a40 \u0a1a\u0a71\u0a1f\u0a3e\u0a28 \u0a35\u0a3f\u0a71\u0a1a \u0a2a\u0a3e\u0a0f \u0a1c\u0a3e\u0a02\u0a26\u0a47 \u0a39\u0a28?",
+      "options": [
+        "Igneous",
+        "Sedimentary",
+        "Metamorphic",
+        "Plutonic"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sedimentary rocks form by the deposition of material over time, trapping plant and animal remains (fossils)."
+    },
+    {
+      "id": "q6",
+      "topic": "Rocks",
+      "q": "Marble is a metamorphic rock formed from which original rock?",
+      "qPa": "\u0a38\u0a70\u0a17\u0a2e\u0a30\u0a2e\u0a30 \u0a07\u0a71\u0a15 \u0a30\u0a42\u0a2a\u0a3e\u0a02\u0a24\u0a30\u0a3f\u0a24 \u0a1a\u0a71\u0a1f\u0a3e\u0a28 \u0a39\u0a48, \u0a07\u0a39 \u0a15\u0a3f\u0a38 \u0a2e\u0a42\u0a32 \u0a1a\u0a71\u0a1f\u0a3e\u0a28 \u0a24\u0a4b\u0a02 \u0a2c\u0a23\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Granite",
+        "Sandstone",
+        "Limestone",
+        "Basalt"
+      ],
+      "answerIndex": 2,
+      "explanation": "Under intense heat and pressure, limestone metamorphoses into marble.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q7",
+      "topic": "Landforms",
+      "q": "Which of the following is an exogenic force?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2c\u0a3e\u0a39\u0a30\u0a40 \u0a24\u0a3e\u0a15\u0a24 (exogenic force) \u0a39\u0a48?",
+      "options": [
+        "Volcanism",
+        "Earthquake",
+        "Erosion by a river",
+        "Tectonic plate movement"
+      ],
+      "answerIndex": 2,
+      "explanation": "Exogenic forces operate on the surface of the Earth, such as erosion by water, wind, or ice."
+    },
+    {
+      "id": "q8",
+      "topic": "Landforms",
+      "q": "A V-shaped valley is a typical landform created by:",
+      "qPa": "\u0a35\u0a40-\u0a06\u0a15\u0a3e\u0a30 (V-shaped) \u0a26\u0a40 \u0a18\u0a3e\u0a1f\u0a40 \u0a15\u0a3f\u0a38 \u0a26\u0a41\u0a06\u0a30\u0a3e \u0a2c\u0a23\u0a3e\u0a08 \u0a17\u0a08 \u0a06\u0a2e \u0a2d\u0a42-\u0a06\u0a15\u0a4d\u0a30\u0a3f\u0a24\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Glaciers",
+        "Wind",
+        "A youthful river",
+        "Ocean waves"
+      ],
+      "answerIndex": 2,
+      "explanation": "Young rivers erode rapidly downwards, creating steep, V-shaped valleys."
+    }
+  ]
+}
