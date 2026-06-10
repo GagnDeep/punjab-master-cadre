@@ -1,0 +1,94 @@
+{
+  "title": "Quiz: Orientation & Strategy",
+  "time_limit_minutes": 15,
+  "questions": [
+    {
+      "q": "What is the total marks for the Qualifying Paper?",
+      "opts": [
+        "50",
+        "100",
+        "150",
+        "200"
+      ],
+      "ans": 0,
+      "exp": "The paper consists of 50 objective questions worth 50 marks."
+    },
+    {
+      "q": "Is there negative marking in the qualifying paper?",
+      "opts": [
+        "No",
+        "Yes, 0.25 marks",
+        "Yes, 0.5 marks",
+        "Yes, 1 mark"
+      ],
+      "ans": 0,
+      "exp": "There is no negative marking, so candidates should attempt all questions."
+    },
+    {
+      "q": "What is the minimum passing score required?",
+      "opts": [
+        "25 marks",
+        "20 marks",
+        "30 marks",
+        "35 marks"
+      ],
+      "ans": 0,
+      "exp": "A minimum of 25 marks (50%) is required to qualify."
+    },
+    {
+      "q": "The syllabus is based on which standard's level?",
+      "opts": [
+        "10th-standard PSEB",
+        "12th-standard PSEB",
+        "Graduation level",
+        "Post-Graduation level"
+      ],
+      "ans": 0,
+      "exp": "The syllabus is anchored to the 10th-standard level of the Punjab School Education Board (PSEB)."
+    },
+    {
+      "q": "Are the marks from this paper added to the final merit list?",
+      "opts": [
+        "No, it is strictly qualifying",
+        "Yes, all marks are added",
+        "Yes, half the marks are added",
+        "Only if you score above 40"
+      ],
+      "ans": 0,
+      "exp": "This paper is strictly qualifying; marks obtained here are not added to the final merit list."
+    },
+    {
+      "q": "What happens if a candidate fails to get 25 marks in this paper?",
+      "opts": [
+        "Immediate disqualification",
+        "Allowed to retake it",
+        "Subject marks are reduced",
+        "Given a warning"
+      ],
+      "ans": 0,
+      "exp": "Failure to secure a minimum of 25 marks results in immediate disqualification."
+    },
+    {
+      "q": "Which of these topics is a key focus area?",
+      "opts": [
+        "Functional grammar and spelling",
+        "Modern Punjabi poetry",
+        "History of Punjabi literature",
+        "Sufi literature"
+      ],
+      "ans": 0,
+      "exp": "The exam heavily favors functional grammar over literary history."
+    },
+    {
+      "q": "How many questions are there in the exam?",
+      "opts": [
+        "50",
+        "75",
+        "100",
+        "150"
+      ],
+      "ans": 0,
+      "exp": "It consists of 50 objective questions."
+    }
+  ]
+}

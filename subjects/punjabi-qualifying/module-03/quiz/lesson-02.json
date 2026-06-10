@@ -1,0 +1,94 @@
+{
+  "title": "Quiz: Lagaakhar Rules",
+  "time_limit_minutes": 15,
+  "questions": [
+    {
+      "q": "How many Lagaakhar are there in Gurmukhi?",
+      "opts": [
+        "3",
+        "10",
+        "5",
+        "4"
+      ],
+      "ans": 0,
+      "exp": "There are three Lagaakhar: Bindi, Tippi, and Adhak."
+    },
+    {
+      "q": "Which of the following is NOT a Lagaakhar?",
+      "opts": [
+        "Sihari",
+        "Bindi",
+        "Tippi",
+        "Adhak"
+      ],
+      "ans": 0,
+      "exp": "Sihari is a Lagaan (vowel symbol), not a Lagaakhar."
+    },
+    {
+      "q": "Bindi is used with how many Lagaan?",
+      "opts": [
+        "6",
+        "4",
+        "3",
+        "10"
+      ],
+      "ans": 0,
+      "exp": "Bindi is used with 6 Lagaan."
+    },
+    {
+      "q": "Which symbol is used to represent a stressed or doubled consonant sound?",
+      "opts": [
+        "Adhak",
+        "Bindi",
+        "Tippi",
+        "Mukta"
+      ],
+      "ans": 0,
+      "exp": "Adhak is used to double the sound of the following consonant."
+    },
+    {
+      "q": "Tippi is used with which of the following Lagaan?",
+      "opts": [
+        "Mukta, Sihari, Aunkar, Dulankar",
+        "Kanna, Bihari, Lavan",
+        "Hora, Kanaura",
+        "Dulavan, Lavan"
+      ],
+      "ans": 0,
+      "exp": "Tippi is used with Mukta, Sihari, Aunkar, and Dulankar."
+    },
+    {
+      "q": "Which is the correct spelling?",
+      "opts": [
+        "ਗਾਂ (with Bindi)",
+        "ਗੰਾ (with Tippi)",
+        "ਗੱਾ (with Adhak)",
+        "None of these"
+      ],
+      "ans": 0,
+      "exp": "Kanna takes a Bindi, so ਗਾਂ is correct."
+    },
+    {
+      "q": "Which is the correct spelling for 'color'?",
+      "opts": [
+        "ਰੰਗ (with Tippi)",
+        "ਰਾਂਗ (with Bindi)",
+        "ਰੱਗ (with Adhak)",
+        "ਰਂਗ (with Bindi on Mukta)"
+      ],
+      "ans": 0,
+      "exp": "Mukta takes a Tippi for nasal sound, so ਰੰਗ is correct."
+    },
+    {
+      "q": "Which Lagaan takes an Adhak?",
+      "opts": [
+        "Mukta, Sihari, Aunkar",
+        "Kanna, Bihari, Lavan",
+        "Hora, Kanaura, Dulavan",
+        "All of the above"
+      ],
+      "ans": 0,
+      "exp": "Adhak is generally used with Mukta, Sihari, and Aunkar."
+    }
+  ]
+}
