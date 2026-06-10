@@ -1,0 +1,50 @@
+{
+  "id": "sample-quiz-01",
+  "title": "Mock Test: English Literature",
+  "timeLimitMinutes": 5,
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Elizabethan Age",
+      "q": "Who wrote 'The Faerie Queene'?",
+      "qPa": "'ਦ ਫੇਰੀ ਕੁਈਨ' (The Faerie Queene) ਕਿਸਨੇ ਲਿਖੀ ਸੀ?",
+      "options": [
+        "William Shakespeare",
+        "Edmund Spenser",
+        "Christopher Marlowe",
+        "Philip Sidney"
+      ],
+      "answerIndex": 1,
+      "explanation": "Edmund Spenser wrote 'The Faerie Queene', an epic poem and fantastical allegory celebrating the Tudor dynasty and Elizabeth I.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "q2",
+      "topic": "Grammar",
+      "q": "Identify the figure of speech: 'The camel is the ship of the desert.'",
+      "qPa": "ਅਲੰਕਾਰ ਦੀ ਪਛਾਣ ਕਰੋ: 'ਊਠ ਮਾਰੂਥਲ ਦਾ ਜਹਾਜ਼ ਹੈ।' (The camel is the ship of the desert)",
+      "options": [
+        "Simile",
+        "Metaphor",
+        "Personification",
+        "Hyperbole"
+      ],
+      "answerIndex": 1,
+      "explanation": "It's a metaphor because it directly compares the camel to a ship without using 'like' or 'as'.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q3",
+      "topic": "Pedagogy",
+      "q": "Which of the following is not a principle of language teaching?",
+      "options": [
+        "Principle of Motivation",
+        "Principle of Imitation",
+        "Principle of Dictation",
+        "Principle of Practice"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dictation is a technique or activity, not a fundamental principle of language teaching like motivation, imitation, or practice."
+    }
+  ]
+}

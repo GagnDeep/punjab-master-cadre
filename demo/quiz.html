@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Engine Demo - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../assets/css/design-system.css">
+</head>
+<body class="bg-neutral-100">
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../courses.html">Courses</a>
+        <a href="lesson.html" style="color: white; border-bottom: 2px solid var(--color-accent-400);">Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8" style="max-width: 800px; padding-bottom: var(--space-16);">
+
+    <div class="mb-8">
+      <h1>Quiz Engine Demo</h1>
+      <p class="text-neutral-600">This page demonstrates the standalone interactive quiz engine. It fetches <code>sample-quiz.json</code>, handles state, timing, and local storage persistence.</p>
+    </div>
+
+    <!-- The container where the quiz engine mounts -->
+    <div id="quiz-container"></div>
+
+  </main>
+
+  <script src="../assets/js/quiz-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new QuizEngine('quiz-container', '../assets/data/sample-quiz.json');
+    });
+  </script>
+</body>
+</html>
