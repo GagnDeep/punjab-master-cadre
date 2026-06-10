@@ -1,0 +1,136 @@
+{
+  "id": "mod-d-les-05",
+  "title": "Recall Quiz: Chomsky's Transformational Generative Grammar",
+  "questions": [
+    {
+      "id": "l5q1",
+      "topic": "TGG",
+      "q": "Who is the father of Transformational Generative Grammar?",
+      "options": [
+        "Ferdinand de Saussure",
+        "Noam Chomsky",
+        "B.F. Skinner",
+        "Leonard Bloomfield"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chomsky introduced TGG in 1957 with 'Syntactic Structures'."
+    },
+    {
+      "id": "l5q2",
+      "topic": "TGG Concepts",
+      "q": "According to Chomsky, our innate, unconscious knowledge of grammar is called:",
+      "options": [
+        "Performance",
+        "Competence",
+        "Deep Structure",
+        "Language Acquisition Device"
+      ],
+      "answerIndex": 1,
+      "explanation": "Competence refers to the idealized inner knowledge of a language."
+    },
+    {
+      "id": "l5q3",
+      "topic": "TGG Concepts",
+      "q": "The actual use of language in concrete situations, including errors, is:",
+      "options": [
+        "Competence",
+        "Performance",
+        "Surface Structure",
+        "Transformations"
+      ],
+      "answerIndex": 1,
+      "explanation": "Performance is how we actually speak in real-time."
+    },
+    {
+      "id": "l5q4",
+      "topic": "Structure",
+      "q": "The abstract, underlying meaning of a sentence is its:",
+      "options": [
+        "Surface Structure",
+        "Deep Structure",
+        "Competence",
+        "Universal Grammar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Deep Structure holds the core semantic relations."
+    },
+    {
+      "id": "l5q5",
+      "topic": "Structure",
+      "q": "The active and passive forms of a sentence have:",
+      "options": [
+        "Different deep structures",
+        "The same surface structure",
+        "The same deep structure",
+        "No relation"
+      ],
+      "answerIndex": 2,
+      "explanation": "They mean the same thing, so they share a Deep Structure, but different Surface Structures."
+    },
+    {
+      "id": "l5q6",
+      "topic": "TGG",
+      "q": "What rule changes Deep Structure into Surface Structure?",
+      "options": [
+        "Phrase Structure Rules",
+        "Transformational Rules",
+        "Morphological Rules",
+        "Phonological Rules"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transformational rules move, add, or delete elements to create the spoken sentence."
+    },
+    {
+      "id": "l5q7",
+      "topic": "Chomsky",
+      "q": "Universal Grammar (UG) suggests that:",
+      "options": [
+        "All languages use the same words",
+        "Humans have an innate genetic capacity for language",
+        "Language is learned purely through imitation",
+        "Grammar rules are invented by societies"
+      ],
+      "answerIndex": 1,
+      "explanation": "UG posits that the basic blueprint for language is hardwired in the human brain."
+    },
+    {
+      "id": "l5q8",
+      "topic": "Structure",
+      "q": "Which sentence has a different deep structure from the others?",
+      "options": [
+        "John hit the ball.",
+        "The ball was hit by John.",
+        "It was John who hit the ball.",
+        "The ball hit John."
+      ],
+      "answerIndex": 3,
+      "explanation": "'The ball hit John' describes a completely different action and thus a different deep structure."
+    },
+    {
+      "id": "l5q9",
+      "topic": "TGG Concepts",
+      "q": "Saussure's 'Langue' and 'Parole' are roughly equivalent to Chomsky's:",
+      "options": [
+        "Deep and Surface Structure",
+        "Competence and Performance",
+        "Syntax and Semantics",
+        "Phonetics and Phonology"
+      ],
+      "answerIndex": 1,
+      "explanation": "Langue (system) ~ Competence; Parole (speech) ~ Performance."
+    },
+    {
+      "id": "l5q10",
+      "topic": "TGG",
+      "q": "A sentence can be grammatically correct but semantically nonsensical. Chomsky's famous example is:",
+      "options": [
+        "Colorless green ideas sleep furiously.",
+        "The cat sat on the mat.",
+        "Flying planes are dangerous.",
+        "I saw the man with the telescope."
+      ],
+      "answerIndex": 0,
+      "explanation": "This sentence demonstrates that syntax (grammar) is independent of semantics (meaning)."
+    }
+  ]
+}

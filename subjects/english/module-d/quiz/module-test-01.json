@@ -1,0 +1,266 @@
+{
+  "id": "mod-d-test-01",
+  "title": "Module D Comprehensive Mock Test",
+  "questions": [
+    {
+      "id": "mt1",
+      "topic": "Phonetics",
+      "q": "Which part of the mouth is involved in making 'velar' sounds?",
+      "options": [
+        "Hard palate",
+        "Soft palate",
+        "Teeth",
+        "Lips"
+      ],
+      "answerIndex": 1,
+      "explanation": "Velar sounds (like /k/ and /g/) are produced at the soft palate (velum)."
+    },
+    {
+      "id": "mt2",
+      "topic": "Phonetics",
+      "q": "Sounds like /f/ and /v/ are classified as:",
+      "options": [
+        "Stops",
+        "Fricatives",
+        "Nasals",
+        "Affricates"
+      ],
+      "answerIndex": 1,
+      "explanation": "They involve a continuous release of air through a narrow passage, creating friction."
+    },
+    {
+      "id": "mt3",
+      "topic": "Phonology",
+      "q": "What is an allophone?",
+      "options": [
+        "A different language",
+        "A variation of a phoneme that doesn't change meaning",
+        "A minimal pair",
+        "A stressed syllable"
+      ],
+      "answerIndex": 1,
+      "explanation": "Allophones are variations of phonemes."
+    },
+    {
+      "id": "mt4",
+      "topic": "Phonology",
+      "q": "Which word is a minimal pair with 'sip'?",
+      "options": [
+        "Slip",
+        "Zip",
+        "Ship",
+        "Saps"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sip and Zip differ only in the initial consonant (/s/ vs /z/)."
+    },
+    {
+      "id": "mt5",
+      "topic": "Morphology",
+      "q": "The morpheme '-ing' is:",
+      "options": [
+        "Derivational",
+        "Inflectional",
+        "Free",
+        "Root"
+      ],
+      "answerIndex": 1,
+      "explanation": "It indicates tense (progressive) without changing the word class."
+    },
+    {
+      "id": "mt6",
+      "topic": "Word Formation",
+      "q": "'Motel' is formed by combining 'motor' and 'hotel'. This process is:",
+      "options": [
+        "Compounding",
+        "Clipping",
+        "Blending",
+        "Derivation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Blending combines parts of words."
+    },
+    {
+      "id": "mt7",
+      "topic": "Syntax",
+      "q": "What constitutes a basic Noun Phrase?",
+      "options": [
+        "Noun + Verb",
+        "Determiner + Noun",
+        "Preposition + Noun",
+        "Adverb + Noun"
+      ],
+      "answerIndex": 1,
+      "explanation": "A determiner followed by a noun is a standard NP."
+    },
+    {
+      "id": "mt8",
+      "topic": "Syntax",
+      "q": "A tree diagram in syntax represents:",
+      "options": [
+        "Phonemes",
+        "Hierarchical phrase structure",
+        "Historical origins of words",
+        "Social dialects"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tree diagrams visually represent how sentences break down into phrases."
+    },
+    {
+      "id": "mt9",
+      "topic": "TGG",
+      "q": "According to Chomsky, 'Competence' is:",
+      "options": [
+        "A speaker's actual utterance",
+        "A speaker's grammatical knowledge",
+        "The social context of language",
+        "Vocabulary size"
+      ],
+      "answerIndex": 1,
+      "explanation": "Competence is the internalized, perfect knowledge of grammar rules."
+    },
+    {
+      "id": "mt10",
+      "topic": "TGG",
+      "q": "Which of the following transform Deep Structure into Surface Structure?",
+      "options": [
+        "Lexical insertions",
+        "Phrase Structure Rules",
+        "Transformational Rules",
+        "Morphological Rules"
+      ],
+      "answerIndex": 2,
+      "explanation": "Transformations change the underlying form into the spoken sentence."
+    },
+    {
+      "id": "mt11",
+      "topic": "Sociolinguistics",
+      "q": "A language variety used only in specific social settings (like legal documents) is a:",
+      "options": [
+        "Dialect",
+        "Creole",
+        "Register",
+        "Pidgin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Register is a functional variety of language."
+    },
+    {
+      "id": "mt12",
+      "topic": "Sociolinguistics",
+      "q": "A pidgin language differs from a creole because a pidgin:",
+      "options": [
+        "Has native speakers",
+        "Has no native speakers",
+        "Is highly complex",
+        "Is only used for literature"
+      ],
+      "answerIndex": 1,
+      "explanation": "Pidgins are contact languages with no native speakers. When children learn it as a mother tongue, it becomes a creole."
+    },
+    {
+      "id": "mt13",
+      "topic": "Psycholinguistics",
+      "q": "What does LAD stand for?",
+      "options": [
+        "Language Assessment Data",
+        "Linguistic Awareness Device",
+        "Language Acquisition Device",
+        "Learning Aptitude Diagnosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Chomsky proposed the LAD to explain rapid childhood language learning."
+    },
+    {
+      "id": "mt14",
+      "topic": "Psycholinguistics",
+      "q": "The idea that the structure of a language influences the speaker's cognition is the:",
+      "options": [
+        "Chomsky Hierarchy",
+        "Critical Period Hypothesis",
+        "Sapir-Whorf Hypothesis",
+        "Behaviorist Theory"
+      ],
+      "answerIndex": 2,
+      "explanation": "Also known as linguistic relativity."
+    },
+    {
+      "id": "mt15",
+      "topic": "Word Formation",
+      "q": "Creating 'gym' from 'gymnasium' is an example of:",
+      "options": [
+        "Clipping",
+        "Blending",
+        "Backformation",
+        "Compounding"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clipping is shortening a word."
+    },
+    {
+      "id": "mt16",
+      "topic": "Phonetics",
+      "q": "Which of the following is a voiced stop?",
+      "options": [
+        "/p/",
+        "/t/",
+        "/k/",
+        "/b/"
+      ],
+      "answerIndex": 3,
+      "explanation": "/b/ involves vocal cord vibration and completely stops airflow."
+    },
+    {
+      "id": "mt17",
+      "topic": "Morphology",
+      "q": "The word 'unhappiness' contains how many morphemes?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "un- + happy + -ness = 3 morphemes."
+    },
+    {
+      "id": "mt18",
+      "topic": "Syntax",
+      "q": "Which rule represents a Verb Phrase?",
+      "options": [
+        "VP -> V (NP) (PP)",
+        "VP -> NP P",
+        "VP -> Adj N",
+        "VP -> S VP"
+      ],
+      "answerIndex": 0,
+      "explanation": "A VP consists of a Verb, optionally followed by an NP and/or PP."
+    },
+    {
+      "id": "mt19",
+      "topic": "TGG",
+      "q": "Two sentences with the same meaning but different grammatical forms share the same:",
+      "options": [
+        "Surface structure",
+        "Deep structure",
+        "Transformational rule",
+        "Phrase structure"
+      ],
+      "answerIndex": 1,
+      "explanation": "Meaning relies on Deep Structure."
+    },
+    {
+      "id": "mt20",
+      "topic": "General Linguistics",
+      "q": "The study of meaning in language is called:",
+      "options": [
+        "Syntax",
+        "Morphology",
+        "Semantics",
+        "Phonology"
+      ],
+      "answerIndex": 2,
+      "explanation": "Semantics deals with the meaning of words and sentences."
+    }
+  ]
+}

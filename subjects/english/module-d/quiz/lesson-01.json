@@ -1,0 +1,136 @@
+{
+  "id": "mod-d-les-01",
+  "title": "Recall Quiz: Phonetics: Organs of Speech & Sounds",
+  "questions": [
+    {
+      "id": "l1q1",
+      "topic": "Organs of Speech",
+      "q": "Which organ is known as the soft palate?",
+      "options": [
+        "Alveolar ridge",
+        "Velum",
+        "Hard palate",
+        "Glottis"
+      ],
+      "answerIndex": 1,
+      "explanation": "The velum is another name for the soft palate, responsible for nasal/oral sound distinction."
+    },
+    {
+      "id": "l1q2",
+      "topic": "Consonants",
+      "q": "What type of sound is produced when the vocal cords vibrate?",
+      "options": [
+        "Voiceless",
+        "Voiced",
+        "Nasal",
+        "Fricative"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vibration of vocal cords produces voiced sounds."
+    },
+    {
+      "id": "l1q3",
+      "topic": "Organs",
+      "q": "Which of the following is an active articulator?",
+      "options": [
+        "Upper teeth",
+        "Hard palate",
+        "Tongue",
+        "Alveolar ridge"
+      ],
+      "answerIndex": 2,
+      "explanation": "The tongue moves to create sounds, making it an active articulator."
+    },
+    {
+      "id": "l1q4",
+      "topic": "Sounds",
+      "q": "During the production of nasal sounds, the velum is:",
+      "options": [
+        "Raised",
+        "Lowered",
+        "Closed tightly",
+        "Vibrating"
+      ],
+      "answerIndex": 1,
+      "explanation": "When the velum is lowered, air escapes through the nose, creating nasal sounds."
+    },
+    {
+      "id": "l1q5",
+      "topic": "Glottis",
+      "q": "The opening between the vocal cords is called the:",
+      "options": [
+        "Uvula",
+        "Pharynx",
+        "Glottis",
+        "Epiglottis"
+      ],
+      "answerIndex": 2,
+      "explanation": "The glottis is the space between the vocal cords."
+    },
+    {
+      "id": "l1q6",
+      "topic": "Organs",
+      "q": "Which organ is a small, fleshy flap hanging at the back of the soft palate?",
+      "options": [
+        "Uvula",
+        "Epiglottis",
+        "Larynx",
+        "Pharynx"
+      ],
+      "answerIndex": 0,
+      "explanation": "The uvula hangs from the end of the velum."
+    },
+    {
+      "id": "l1q7",
+      "topic": "Sounds",
+      "q": "Which of these is a bilabial sound?",
+      "options": [
+        "/t/",
+        "/k/",
+        "/m/",
+        "/s/"
+      ],
+      "answerIndex": 2,
+      "explanation": "/m/ is produced using both lips (bilabial)."
+    },
+    {
+      "id": "l1q8",
+      "topic": "Organs",
+      "q": "Where is the alveolar ridge located?",
+      "options": [
+        "Behind the upper teeth",
+        "At the back of the throat",
+        "On the roof of the mouth",
+        "Behind the lower teeth"
+      ],
+      "answerIndex": 0,
+      "explanation": "The alveolar ridge is the bumpy area just behind the upper front teeth."
+    },
+    {
+      "id": "l1q9",
+      "topic": "Consonants",
+      "q": "A sound made by completely blocking the airflow and then releasing it suddenly is a:",
+      "options": [
+        "Fricative",
+        "Affricate",
+        "Stop/Plosive",
+        "Nasal"
+      ],
+      "answerIndex": 2,
+      "explanation": "Plosives involve a complete stoppage of air followed by a sudden release."
+    },
+    {
+      "id": "l1q10",
+      "topic": "Classification",
+      "q": "How many consonant sounds are there in Standard English?",
+      "options": [
+        "20",
+        "24",
+        "26",
+        "44"
+      ],
+      "answerIndex": 1,
+      "explanation": "There are 24 consonant phonemes in English."
+    }
+  ]
+}

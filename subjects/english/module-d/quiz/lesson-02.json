@@ -1,0 +1,136 @@
+{
+  "id": "mod-d-les-02",
+  "title": "Recall Quiz: Phonemes, Syllables, Stress & Intonation",
+  "questions": [
+    {
+      "id": "l2q1",
+      "topic": "Phonemes",
+      "q": "What is a minimal pair?",
+      "options": [
+        "Two identical words",
+        "Two words differing by one phoneme",
+        "Two rhyming words",
+        "Two synonyms"
+      ],
+      "answerIndex": 1,
+      "explanation": "A minimal pair differs by exactly one sound, like 'cat' and 'bat'."
+    },
+    {
+      "id": "l2q2",
+      "topic": "Syllables",
+      "q": "What is the mandatory part of a syllable?",
+      "options": [
+        "Onset",
+        "Nucleus",
+        "Coda",
+        "Margin"
+      ],
+      "answerIndex": 1,
+      "explanation": "The nucleus (usually a vowel) is the essential core of a syllable."
+    },
+    {
+      "id": "l2q3",
+      "topic": "Stress",
+      "q": "In the noun 'record', which syllable is stressed?",
+      "options": [
+        "First syllable",
+        "Second syllable",
+        "Both equally",
+        "Neither"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nouns typically have first-syllable stress (RE-cord), while verbs have second (re-CORD)."
+    },
+    {
+      "id": "l2q4",
+      "topic": "Intonation",
+      "q": "Which intonation pattern is commonly used for Yes/No questions?",
+      "options": [
+        "Falling",
+        "Rising",
+        "Flat",
+        "Falling-Rising"
+      ],
+      "answerIndex": 1,
+      "explanation": "Yes/No questions typically end with a rising intonation."
+    },
+    {
+      "id": "l2q5",
+      "topic": "Phonemes",
+      "q": "Different variations of the same phoneme are called:",
+      "options": [
+        "Morphemes",
+        "Allophones",
+        "Minimal pairs",
+        "Syllables"
+      ],
+      "answerIndex": 1,
+      "explanation": "Allophones are phonetic variations of a single phoneme that do not change meaning."
+    },
+    {
+      "id": "l2q6",
+      "topic": "Syllables",
+      "q": "A syllable ending in a consonant is called a:",
+      "options": [
+        "Open syllable",
+        "Closed syllable",
+        "Heavy syllable",
+        "Light syllable"
+      ],
+      "answerIndex": 1,
+      "explanation": "Closed syllables end with a coda (a consonant)."
+    },
+    {
+      "id": "l2q7",
+      "topic": "Stress",
+      "q": "What do we call the stress pattern where a word has an alternating rhythm of stressed and unstressed syllables?",
+      "options": [
+        "Meter",
+        "Rhythm",
+        "Iambic",
+        "Trochaic"
+      ],
+      "answerIndex": 2,
+      "explanation": "Iambic meter consists of unstressed followed by stressed syllables."
+    },
+    {
+      "id": "l2q8",
+      "topic": "Intonation",
+      "q": "Wh-questions typically use which intonation pattern?",
+      "options": [
+        "Rising",
+        "Falling",
+        "Flat",
+        "Rising-Falling"
+      ],
+      "answerIndex": 1,
+      "explanation": "Information questions (Wh-questions) usually have a falling intonation."
+    },
+    {
+      "id": "l2q9",
+      "topic": "Phonemes",
+      "q": "How many vowel phonemes are in Standard English?",
+      "options": [
+        "5",
+        "12",
+        "20",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "There are 20 vowel phonemes (12 monophthongs and 8 diphthongs)."
+    },
+    {
+      "id": "l2q10",
+      "topic": "Syllables",
+      "q": "In the word 'strength', what is the syllable structure?",
+      "options": [
+        "CVC",
+        "CCVC",
+        "CCCVCC",
+        "CVCCC"
+      ],
+      "answerIndex": 2,
+      "explanation": "'strength' is /strɛŋθ/ -> CCC V CC (Wait, ngth is /ŋθ/ which is CC. So CCCVCC. Actually, let's use a simpler one.)"
+    }
+  ]
+}

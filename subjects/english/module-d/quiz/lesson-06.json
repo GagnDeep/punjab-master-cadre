@@ -1,0 +1,136 @@
+{
+  "id": "mod-d-les-06",
+  "title": "Recall Quiz: Socio- & Psycholinguistics",
+  "questions": [
+    {
+      "id": "l6q1",
+      "topic": "Sociolinguistics",
+      "q": "A variety of language that is characteristic of a particular group of the language's speakers is a:",
+      "options": [
+        "Register",
+        "Dialect",
+        "Pidgin",
+        "Creole"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dialects involve differences in vocabulary, grammar, and pronunciation based on region or social class."
+    },
+    {
+      "id": "l6q2",
+      "topic": "Sociolinguistics",
+      "q": "Language variation based on the context or level of formality is called:",
+      "options": [
+        "Dialect",
+        "Register",
+        "Jargon",
+        "Slang"
+      ],
+      "answerIndex": 1,
+      "explanation": "Register changes depending on who you are talking to and the setting (e.g., formal vs. informal)."
+    },
+    {
+      "id": "l6q3",
+      "topic": "Sociolinguistics",
+      "q": "A simplified language used for communication between groups who do not share a common language is a:",
+      "options": [
+        "Creole",
+        "Pidgin",
+        "Dialect",
+        "Lingua Franca"
+      ],
+      "answerIndex": 1,
+      "explanation": "A pidgin has no native speakers and a simplified grammar."
+    },
+    {
+      "id": "l6q4",
+      "topic": "Sociolinguistics",
+      "q": "When a pidgin becomes the native language of a new generation, it is known as a:",
+      "options": [
+        "Dialect",
+        "Register",
+        "Creole",
+        "Standard Language"
+      ],
+      "answerIndex": 2,
+      "explanation": "Creoles have native speakers and more complex grammatical rules than pidgins."
+    },
+    {
+      "id": "l6q5",
+      "topic": "Psycholinguistics",
+      "q": "The hypothetical brain mechanism proposed by Chomsky that explains human ability to learn language is:",
+      "options": [
+        "Universal Grammar",
+        "Language Acquisition Device (LAD)",
+        "Broca's Area",
+        "Wernicke's Area"
+      ],
+      "answerIndex": 1,
+      "explanation": "The LAD is a theoretical module in the brain responsible for language acquisition."
+    },
+    {
+      "id": "l6q6",
+      "topic": "Psycholinguistics",
+      "q": "Which theory argues that language is learned through reinforcement and imitation?",
+      "options": [
+        "Innatism",
+        "Behaviorism",
+        "Cognitivism",
+        "Constructivism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Behaviorist B.F. Skinner argued language is learned via conditioning."
+    },
+    {
+      "id": "l6q7",
+      "topic": "Sociolinguistics",
+      "q": "Specialized vocabulary used by a specific profession or group is called:",
+      "options": [
+        "Slang",
+        "Jargon",
+        "Dialect",
+        "Register"
+      ],
+      "answerIndex": 1,
+      "explanation": "Jargon refers to technical terms used by specialists (e.g., legal or medical jargon)."
+    },
+    {
+      "id": "l6q8",
+      "topic": "Psycholinguistics",
+      "q": "The critical period hypothesis suggests that:",
+      "options": [
+        "Language learning is easiest during early childhood.",
+        "Adults learn languages faster than children.",
+        "Language is fully learned by age 2.",
+        "Second languages cannot be learned."
+      ],
+      "answerIndex": 0,
+      "explanation": "The hypothesis posits a biological window in childhood where language acquisition is most efficient."
+    },
+    {
+      "id": "l6q9",
+      "topic": "Sociolinguistics",
+      "q": "English is widely used globally for trade and communication among people of different native languages. It serves as a:",
+      "options": [
+        "Pidgin",
+        "Lingua Franca",
+        "Creole",
+        "Jargon"
+      ],
+      "answerIndex": 1,
+      "explanation": "A Lingua Franca is a common bridge language."
+    },
+    {
+      "id": "l6q10",
+      "topic": "Sociolinguistics",
+      "q": "The study of how language affects thought and perception is related to:",
+      "options": [
+        "Sapir-Whorf Hypothesis",
+        "Chomsky's UG",
+        "Skinner's Behaviorism",
+        "Krashen's Monitor Model"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Sapir-Whorf hypothesis (linguistic relativity) suggests our language shapes our worldview."
+    }
+  ]
+}
