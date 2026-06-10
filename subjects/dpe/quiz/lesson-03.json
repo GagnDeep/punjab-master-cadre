@@ -1,0 +1,115 @@
+{
+  "id": "dpe-l03",
+  "title": "Recall Quiz: Indian Institutions",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Institutions",
+      "q": "Who is known as the father of modern physical education in India?",
+      "qPa": "ਭਾਰਤ ਵਿੱਚ ਆਧੁਨਿਕ ਸਰੀਰਕ ਸਿੱਖਿਆ ਦਾ ਪਿਤਾਮਾ ਕਿਸਨੂੰ ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+      "options": [
+        "Dr. P.M. Joseph",
+        "H.C. Buck",
+        "Sir Dorabji Tata",
+        "Baron Pierre de Coubertin"
+      ],
+      "answerIndex": 1,
+      "explanation": "H.C. Buck founded the YMCA College in Madras in 1920, pioneering the movement.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "q2",
+      "topic": "Institutions",
+      "q": "In which year was the Lakshmibai National College of Physical Education (LNIPE) established?",
+      "options": [
+        "1920",
+        "1948",
+        "1957",
+        "1961"
+      ],
+      "answerIndex": 2,
+      "explanation": "LNIPE was established in Gwalior in 1957, the centenary year of the 1857 revolt."
+    },
+    {
+      "id": "q3",
+      "topic": "Committees",
+      "q": "Which of the following was the first systematic sports coaching scheme in India, introduced in 1953?",
+      "options": [
+        "Tara Chand Scheme",
+        "Rajkumari Amrit Kaur Coaching Scheme",
+        "SAI Coaching Plan",
+        "National Fitness Corps"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Rajkumari Amrit Kaur Coaching Scheme was introduced by the Health Minister to provide expert coaching."
+    },
+    {
+      "id": "q4",
+      "topic": "Institutions",
+      "q": "Who was the first President of the Indian Olympic Association (IOA) formed in 1927?",
+      "qPa": "1927 ਵਿੱਚ ਬਣੀ ਭਾਰਤੀ ਓਲੰਪਿਕ ਐਸੋਸੀਏਸ਼ਨ (IOA) ਦੇ ਪਹਿਲੇ ਪ੍ਰਧਾਨ ਕੌਣ ਸਨ?",
+      "options": [
+        "Maharaja Bhupinder Singh",
+        "Jawaharlal Nehru",
+        "Sir Dorabji Tata",
+        "Dr. A.G. Noehren"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sir Dorabji Tata was the first president, and Dr. Noehren was the secretary."
+    },
+    {
+      "id": "q5",
+      "topic": "Institutions",
+      "q": "Where is the Netaji Subhas National Institute of Sports (NSNIS) located?",
+      "options": [
+        "New Delhi",
+        "Gwalior",
+        "Patiala",
+        "Bengaluru"
+      ],
+      "answerIndex": 2,
+      "explanation": "NSNIS was established in Patiala in 1961 to train high-caliber coaches."
+    },
+    {
+      "id": "q6",
+      "topic": "Committees",
+      "q": "The Tara Chand Committee was formed in which year?",
+      "options": [
+        "1948",
+        "1950",
+        "1954",
+        "1961"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Tara Chand Committee was set up immediately after independence in 1948."
+    },
+    {
+      "id": "q7",
+      "topic": "Institutions",
+      "q": "Who served as the first principal of LNIPE, Gwalior?",
+      "options": [
+        "H.C. Buck",
+        "Dr. P.M. Joseph",
+        "Gen. K.M. Cariappa",
+        "Milkha Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dr. P.M. Joseph was the pioneering first principal of the institute."
+    },
+    {
+      "id": "q8",
+      "topic": "Institutions",
+      "q": "The Sports Authority of India (SAI) was established in:",
+      "qPa": "ਸਪੋਰਟਸ ਅਥਾਰਟੀ ਆਫ ਇੰਡੀਆ (SAI) ਦੀ ਸਥਾਪਨਾ ਕਦੋਂ ਹੋਈ ਸੀ?",
+      "options": [
+        "1974",
+        "1982",
+        "1984",
+        "1987"
+      ],
+      "answerIndex": 2,
+      "explanation": "SAI was established in 1984, primarily to manage the infrastructure created for the 1982 Asian Games.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

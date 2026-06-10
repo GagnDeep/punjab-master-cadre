@@ -1,0 +1,113 @@
+{
+  "id": "dpe-l02",
+  "title": "Recall Quiz: History & Philosophies",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "History",
+      "q": "In ancient Greece, the wrestling school was called:",
+      "qPa": "ਪ੍ਰਾਚੀਨ ਯੂਨਾਨ ਵਿੱਚ ਕੁਸ਼ਤੀ ਦੇ ਸਕੂਲ ਨੂੰ ਕੀ ਕਿਹਾ ਜਾਂਦਾ ਸੀ?",
+      "options": [
+        "Gymnasiarch",
+        "Paidotribe",
+        "Palaestra",
+        "Agoge"
+      ],
+      "answerIndex": 2,
+      "explanation": "Palaestra was the physical training area, specifically for wrestling.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q2",
+      "topic": "History",
+      "q": "What was the primary aim of physical education in ancient Sparta?",
+      "options": [
+        "Holistic development",
+        "Military preparation",
+        "Aesthetic beauty",
+        "Intellectual superiority"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sparta's entire societal structure was focused on creating fierce warriors."
+    },
+    {
+      "id": "q3",
+      "topic": "History",
+      "q": "A physical education teacher in ancient Greece was known as a:",
+      "options": [
+        "Paidotribe",
+        "Philosopher",
+        "Spartiate",
+        "Palaestra"
+      ],
+      "answerIndex": 0,
+      "explanation": "Paidotribe translates roughly to 'boy rubber' or trainer."
+    },
+    {
+      "id": "q4",
+      "topic": "Philosophy",
+      "q": "Which educational philosophy emphasizes 'learning by doing' and practical experience?",
+      "qPa": "ਕਿਹੜਾ ਵਿਦਿਅਕ ਫਲਸਫਾ 'ਕਰ ਕੇ ਸਿੱਖਣ' ਅਤੇ ਵਿਹਾਰਕ ਅਨੁਭਵ 'ਤੇ ਜ਼ੋਰ ਦਿੰਦਾ ਹੈ?",
+      "options": [
+        "Idealism",
+        "Realism",
+        "Pragmatism",
+        "Naturalism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pragmatism, associated heavily with John Dewey, centers on experiential learning."
+    },
+    {
+      "id": "q5",
+      "topic": "Philosophy",
+      "q": "Rousseau is considered the father of which philosophy?",
+      "options": [
+        "Naturalism",
+        "Idealism",
+        "Pragmatism",
+        "Existentialism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jean-Jacques Rousseau championed Naturalism, advocating that education should follow the natural development of the child."
+    },
+    {
+      "id": "q6",
+      "topic": "History",
+      "q": "Which city-state focused on the harmonious development of both mind and body?",
+      "options": [
+        "Sparta",
+        "Rome",
+        "Athens",
+        "Corinth"
+      ],
+      "answerIndex": 2,
+      "explanation": "Athens sought to create well-rounded citizens, balancing intellectual and physical pursuits."
+    },
+    {
+      "id": "q7",
+      "topic": "Philosophy",
+      "q": "Which philosophy holds that winning is secondary to character building and sportsmanship?",
+      "options": [
+        "Realism",
+        "Idealism",
+        "Pragmatism",
+        "Naturalism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Idealism focuses on mind, values, and character development above material outcomes like winning."
+    },
+    {
+      "id": "q8",
+      "topic": "History",
+      "q": "The Spartan education system for boys was called:",
+      "options": [
+        "Didascaleum",
+        "Palaestra",
+        "Agoge",
+        "Ephors"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Agoge was the rigorous education and training program mandated for all male Spartan citizens."
+    }
+  ]
+}

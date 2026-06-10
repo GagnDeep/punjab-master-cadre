@@ -1,0 +1,115 @@
+{
+  "id": "dpe-l01",
+  "title": "Recall Quiz: Meaning & Scope of PE",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Definitions",
+      "q": "Who defined Physical Education as 'the sum of changes in the individual caused by experiences centering in motor activity'?",
+      "qPa": "ਕਿਸਨੇ ਸਰੀਰਕ ਸਿੱਖਿਆ ਨੂੰ 'ਮੋਟਰ ਗਤੀਵਿਧੀ ਵਿੱਚ ਕੇਂਦਰਿਤ ਅਨੁਭਵਾਂ ਕਾਰਨ ਵਿਅਕਤੀ ਵਿੱਚ ਹੋਣ ਵਾਲੀਆਂ ਤਬਦੀਲੀਆਂ ਦਾ ਜੋੜ' ਵਜੋਂ ਪਰਿਭਾਸ਼ਤ ਕੀਤਾ ਹੈ?",
+      "options": [
+        "Voltmer and Esslinger",
+        "J.B. Nash",
+        "Rosalind Cassidy",
+        "H. Clark"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rosalind Cassidy's definition focuses on the 'sum of changes' resulting from 'motor activity'.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q2",
+      "topic": "Concepts",
+      "q": "Which of the following best describes the modern concept of Physical Education?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਸਰੀਰਕ ਸਿੱਖਿਆ ਦੇ ਆਧੁਨਿਕ ਸੰਕਲਪ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਵਰਣਨ ਕਰਦਾ ਹੈ?",
+      "options": [
+        "Building large muscles",
+        "Rigid disciplinary drills",
+        "Holistic development of the individual",
+        "Learning the rules of sports"
+      ],
+      "answerIndex": 2,
+      "explanation": "Modern PE views the human as a unified whole and aims for holistic (physical, mental, social) development."
+    },
+    {
+      "id": "q3",
+      "topic": "Definitions",
+      "q": "The phrase 'big muscle activities and their related responses' is strongly associated with the definition given by:",
+      "options": [
+        "H. Clark",
+        "Voltmer and Esslinger",
+        "Plato",
+        "John Dewey"
+      ],
+      "answerIndex": 1,
+      "explanation": "Voltmer and Esslinger defined PE as the phase dealing with 'big muscle activities'."
+    },
+    {
+      "id": "q4",
+      "topic": "Objectives",
+      "q": "According to H. Clark, which of the following is NOT an objective of Physical Education?",
+      "options": [
+        "Physical Fitness",
+        "Social Efficiency",
+        "Culture",
+        "Economic Independence"
+      ],
+      "answerIndex": 3,
+      "explanation": "H. Clark's three objectives are Physical Fitness, Social Efficiency, and Culture. Economic Independence is not one."
+    },
+    {
+      "id": "q5",
+      "topic": "Concepts",
+      "q": "What is the primary difference between Physical Training (PT) and Physical Education (PE)?",
+      "options": [
+        "PT uses equipment, PE does not",
+        "PT focuses only on physical fitness, PE focuses on holistic development",
+        "PT is for adults, PE is for children",
+        "There is no difference"
+      ],
+      "answerIndex": 1,
+      "explanation": "PT is narrowly focused on bodily fitness and discipline, while PE uses physical activity to educate the whole person."
+    },
+    {
+      "id": "q6",
+      "topic": "Concepts",
+      "q": "The ultimate aim of Physical Education is:",
+      "qPa": "ਸਰੀਰਕ ਸਿੱਖਿਆ ਦਾ ਅੰਤਮ ਉਦੇਸ਼ ਕੀ ਹੈ?",
+      "options": [
+        "To win Olympic medals",
+        "Wholesome development of an individual",
+        "To pass the fitness test",
+        "To become a professional athlete"
+      ],
+      "answerIndex": 1,
+      "explanation": "The ultimate aim is always the wholesome or total development of the individual to live a happy, vigorous life.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "q7",
+      "topic": "Objectives",
+      "q": "Learning teamwork and sportsmanship falls under which objective?",
+      "options": [
+        "Physical Fitness",
+        "Culture",
+        "Social Efficiency",
+        "Motor Development"
+      ],
+      "answerIndex": 2,
+      "explanation": "Interacting with others, cooperation, and sportsmanship are part of Social Efficiency."
+    },
+    {
+      "id": "q8",
+      "topic": "Definitions",
+      "q": "Which scholar's definition is very similar to Voltmer's but often emphasizes psychological 'responses'?",
+      "options": [
+        "J.B. Nash",
+        "Rosalind Cassidy",
+        "H. Clark",
+        "Aristotle"
+      ],
+      "answerIndex": 0,
+      "explanation": "J.B. Nash also uses 'big muscle activities' but expands slightly on the psychological and related responses."
+    }
+  ]
+}
