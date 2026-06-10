@@ -1,0 +1,115 @@
+{
+  "id": "sst-a-01",
+  "title": "The Sikh Gurus (Part 1) Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Guru Nanak Dev Ji",
+      "q": "Where did Guru Nanak Dev Ji settle during the final years of his life?",
+      "qPa": "ਗੁਰੂ ਨਾਨਕ ਦੇਵ ਜੀ ਨੇ ਆਪਣੇ ਜੀਵਨ ਦੇ ਆਖਰੀ ਸਾਲ ਕਿੱਥੇ ਬਿਤਾਏ?",
+      "options": [
+        "Amritsar",
+        "Khadur Sahib",
+        "Kartarpur",
+        "Goindwal"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Nanak Dev Ji settled in Kartarpur (now in Pakistan) on the banks of the river Ravi after his Udasis."
+    },
+    {
+      "id": "q2",
+      "topic": "Guru Angad Dev Ji",
+      "q": "Which Guru is credited with standardizing the Gurmukhi script?",
+      "qPa": "ਗੁਰਮੁਖੀ ਲਿਪੀ ਨੂੰ ਮਿਆਰੀ ਬਣਾਉਣ ਦਾ ਸਿਹਰਾ ਕਿਸ ਗੁਰੂ ਨੂੰ ਜਾਂਦਾ ਹੈ?",
+      "options": [
+        "Guru Nanak Dev Ji",
+        "Guru Angad Dev Ji",
+        "Guru Ram Das Ji",
+        "Guru Arjan Dev Ji"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Angad Dev Ji standardized the Gurmukhi script to make religious texts accessible to the common people.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q3",
+      "topic": "Institutions",
+      "q": "The Manji system was established by which Guru to effectively preach Sikhism?",
+      "options": [
+        "Guru Amar Das Ji",
+        "Guru Ram Das Ji",
+        "Guru Arjan Dev Ji",
+        "Guru Hargobind Ji"
+      ],
+      "answerIndex": 0,
+      "explanation": "Guru Amar Das Ji established the Manji system (22 dioceses) to manage the growing Sikh community."
+    },
+    {
+      "id": "q4",
+      "topic": "City Foundations",
+      "q": "Match the Guru with the city founded: Guru Ram Das Ji.",
+      "options": [
+        "Goindwal Sahib",
+        "Khadur Sahib",
+        "Tarn Taran",
+        "Amritsar (Ramdaspur)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guru Ram Das Ji founded the city of Ramdaspur, which later became known as Amritsar."
+    },
+    {
+      "id": "q5",
+      "topic": "Institutions",
+      "q": "What was the primary purpose of the Masand system?",
+      "options": [
+        "To fight against the Mughals",
+        "To collect funds (Dasvandh) for community projects",
+        "To translate Sanskrit texts",
+        "To train wrestlers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Introduced by Guru Ram Das Ji, the Masand system's purpose was to collect offerings and funds from distant congregations for construction work."
+    },
+    {
+      "id": "q6",
+      "topic": "Guru Arjan Dev Ji",
+      "q": "In which year was the compilation of the Adi Granth completed?",
+      "qPa": "ਆਦਿ ਗ੍ਰੰਥ ਸਾਹਿਬ ਦੀ ਸੰਪਾਦਨਾ ਕਿਸ ਸਾਲ ਪੂਰੀ ਹੋਈ?",
+      "options": [
+        "1599",
+        "1604",
+        "1606",
+        "1699"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Arjan Dev Ji completed the compilation of the Adi Granth in the year 1604.",
+      "pyq": "ERB 2017, 2022"
+    },
+    {
+      "id": "q7",
+      "topic": "Guru Arjan Dev Ji",
+      "q": "Who laid the foundation stone of Harmandir Sahib?",
+      "options": [
+        "Guru Arjan Dev Ji",
+        "Baba Buddha Ji",
+        "Mian Mir",
+        "Bhai Gurdas"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Sufi saint Mian Mir laid the foundation stone of Harmandir Sahib at the request of Guru Arjan Dev Ji."
+    },
+    {
+      "id": "q8",
+      "topic": "City Foundations",
+      "q": "Who constructed the Baoli (stepwell) with 84 steps at Goindwal Sahib?",
+      "options": [
+        "Guru Nanak Dev Ji",
+        "Guru Angad Dev Ji",
+        "Guru Amar Das Ji",
+        "Guru Ram Das Ji"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Amar Das Ji constructed the Baoli at Goindwal Sahib."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "sst-a-05",
+  "title": "Anglo-Sikh Wars & Annexation Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Treaties",
+      "q": "Under which treaty was Kashmir sold to Gulab Singh Dogra?",
+      "qPa": "ਕਿਹੜੀ ਸੰਧੀ ਤਹਿਤ ਕਸ਼ਮੀਰ ਗੁਲਾਬ ਸਿੰਘ ਡੋਗਰਾ ਨੂੰ ਵੇਚਿਆ ਗਿਆ ਸੀ?",
+      "options": [
+        "Treaty of Bhairowal",
+        "Treaty of Amritsar (1809)",
+        "Treaty of Lahore (1846)",
+        "Treaty of Gujrat"
+      ],
+      "answerIndex": 2,
+      "explanation": "According to the Treaty of Lahore (March 1846), Kashmir was sold to Gulab Singh to pay the war indemnity demanded by the British."
+    },
+    {
+      "id": "q2",
+      "topic": "First Anglo-Sikh War",
+      "q": "Which Sikh general fought to the death at the Battle of Sobraon in 1846?",
+      "options": [
+        "Lal Singh",
+        "Tej Singh",
+        "Hari Singh Nalwa",
+        "Sham Singh Attariwala"
+      ],
+      "answerIndex": 3,
+      "explanation": "General Sham Singh Attariwala fought valiantly and achieved martyrdom at the Battle of Sobraon."
+    },
+    {
+      "id": "q3",
+      "topic": "Treaties",
+      "q": "Which treaty resulted in the establishment of a British Resident in Lahore and the removal of Maharani Jindan's powers?",
+      "qPa": "ਕਿਸ ਸੰਧੀ ਦੇ ਸਿੱਟੇ ਵਜੋਂ ਲਾਹੌਰ ਵਿੱਚ ਇੱਕ ਬ੍ਰਿਟਿਸ਼ ਰੈਜ਼ੀਡੈਂਟ ਸਥਾਪਤ ਕੀਤਾ ਗਿਆ ਅਤੇ ਮਹਾਰਾਣੀ ਜਿੰਦਾਂ ਦੀਆਂ ਸ਼ਕਤੀਆਂ ਖੋਹ ਲਈਆਂ ਗਈਆਂ?",
+      "options": [
+        "Treaty of Lahore",
+        "Treaty of Bhairowal",
+        "Treaty of Amritsar",
+        "Treaty of Multan"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Treaty of Bhairowal (Dec 1846) established a Council of Regency headed by a British Resident.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "q4",
+      "topic": "Second Anglo-Sikh War",
+      "q": "Which battle of the Second Anglo-Sikh War is famously known as the 'Battle of Guns'?",
+      "options": [
+        "Battle of Ramnagar",
+        "Battle of Chillianwala",
+        "Battle of Gujrat",
+        "Battle of Multan"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Battle of Gujrat (1849) is known as the Battle of Guns due to the heavy and decisive use of artillery by the British."
+    },
+    {
+      "id": "q5",
+      "topic": "Annexation",
+      "q": "Who was the Governor-General of India when Punjab was annexed?",
+      "qPa": "ਜਦੋਂ ਪੰਜਾਬ ਨੂੰ ਬ੍ਰਿਟਿਸ਼ ਸਾਮਰਾਜ ਵਿੱਚ ਮਿਲਾਇਆ ਗਿਆ, ਉਸ ਸਮੇਂ ਭਾਰਤ ਦਾ ਗਵਰਨਰ-ਜਨਰਲ ਕੌਣ ਸੀ?",
+      "options": [
+        "Lord Hardinge",
+        "Lord Cornwallis",
+        "Lord Dalhousie",
+        "Lord Wellesley"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lord Dalhousie was the Governor-General who formally annexed Punjab on March 29, 1849.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q6",
+      "topic": "Second Anglo-Sikh War",
+      "q": "In which battle of the Second Anglo-Sikh War did the British suffer extremely heavy casualties, making it practically a Sikh victory?",
+      "options": [
+        "Battle of Gujrat",
+        "Battle of Chillianwala",
+        "Battle of Ramnagar",
+        "Battle of Sobraon"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Battle of Chillianwala was fiercely fought, and the Sikhs inflicted severe damage on the British forces."
+    },
+    {
+      "id": "q7",
+      "topic": "People",
+      "q": "Who was the British Resident appointed in Lahore after the Treaty of Bhairowal?",
+      "options": [
+        "Lord Gough",
+        "Charles Metcalfe",
+        "John Lawrence",
+        "Henry Lawrence"
+      ],
+      "answerIndex": 3,
+      "explanation": "Henry Lawrence was appointed as the first British Resident in Lahore."
+    },
+    {
+      "id": "q8",
+      "topic": "Annexation",
+      "q": "What was the exact date of the annexation of Punjab by the British?",
+      "options": [
+        "14 March 1846",
+        "29 March 1849",
+        "13 April 1849",
+        "29 December 1846"
+      ],
+      "answerIndex": 1,
+      "explanation": "Punjab was formally annexed into the British Empire on 29 March 1849."
+    }
+  ]
+}

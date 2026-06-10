@@ -1,0 +1,115 @@
+{
+  "id": "sst-a-06",
+  "title": "Freedom Movement in Punjab Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Namdhari Movement",
+      "q": "Who was the founder of the Namdhari (Kuka) Movement?",
+      "qPa": "ਨਾਮਧਾਰੀ (ਕੂਕਾ) ਲਹਿਰ ਦੇ ਮੋਢੀ ਕੌਣ ਸਨ?",
+      "options": [
+        "Baba Balak Singh",
+        "Baba Ram Singh",
+        "Baba Gurdit Singh",
+        "Sohan Singh Bhakna"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baba Ram Singh founded the Namdhari movement at Bhaini Sahib."
+    },
+    {
+      "id": "q2",
+      "topic": "Namdhari Movement",
+      "q": "In which town were 66 Kukas blown away from cannons in 1872?",
+      "options": [
+        "Ludhiana",
+        "Amritsar",
+        "Malerkotla",
+        "Jalandhar"
+      ],
+      "answerIndex": 2,
+      "explanation": "66 Kukas were brutally executed by the British at Malerkotla."
+    },
+    {
+      "id": "q3",
+      "topic": "Ghadar Party",
+      "q": "Where was the Ghadar Party founded in 1913?",
+      "qPa": "1913 ਵਿੱਚ ਗ਼ਦਰ ਪਾਰਟੀ ਦੀ ਸਥਾਪਨਾ ਕਿੱਥੇ ਹੋਈ ਸੀ?",
+      "options": [
+        "London, UK",
+        "Vancouver, Canada",
+        "San Francisco, USA",
+        "Tokyo, Japan"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Ghadar Party was founded in San Francisco, USA.",
+      "pyq": "ERB 2017, 2021"
+    },
+    {
+      "id": "q4",
+      "topic": "Ghadar Party",
+      "q": "Who was the founding President of the Ghadar Party?",
+      "options": [
+        "Lala Hardayal",
+        "Sohan Singh Bhakna",
+        "Kartar Singh Sarabha",
+        "Bhagat Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baba Sohan Singh Bhakna was the founding President, while Lala Hardayal was the General Secretary/key intellectual leader."
+    },
+    {
+      "id": "q5",
+      "topic": "Komagata Maru",
+      "q": "Who chartered the Japanese ship Komagata Maru in 1914?",
+      "options": [
+        "Baba Ram Singh",
+        "Baba Gurdit Singh",
+        "Udham Singh",
+        "Sohan Singh Bhakna"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baba Gurdit Singh, a Singapore-based businessman, chartered the ship to take Indians to Canada."
+    },
+    {
+      "id": "q6",
+      "topic": "Jallianwala Bagh",
+      "q": "What was the exact date of the Jallianwala Bagh Massacre?",
+      "qPa": "ਜਲ੍ਹਿਆਂਵਾਲਾ ਬਾਗ ਦੇ ਸਾਕੇ ਦੀ ਸਹੀ ਮਿਤੀ ਕੀ ਸੀ?",
+      "options": [
+        "13 April 1919",
+        "13 March 1919",
+        "23 March 1931",
+        "13 April 1914"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Jallianwala Bagh Massacre took place on the day of Baisakhi, 13 April 1919.",
+      "pyq": "ERB 2016"
+    },
+    {
+      "id": "q7",
+      "topic": "Jallianwala Bagh",
+      "q": "The people at Jallianwala Bagh had gathered to protest against the arrest of which leaders?",
+      "options": [
+        "Bhagat Singh and Rajguru",
+        "Lala Lajpat Rai and Ajit Singh",
+        "Dr. Saifuddin Kitchlew and Dr. Satyapal",
+        "Sohan Singh Bhakna and Lala Hardayal"
+      ],
+      "answerIndex": 2,
+      "explanation": "The gathering was protesting the Rowlatt Act and the arrests of local leaders Dr. Saifuddin Kitchlew and Dr. Satyapal."
+    },
+    {
+      "id": "q8",
+      "topic": "Bhagat Singh",
+      "q": "Which organization was founded by Bhagat Singh in 1926?",
+      "options": [
+        "Ghadar Party",
+        "Naujawan Bharat Sabha",
+        "Indian National Army",
+        "Hindustan Socialist Republican Association"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bhagat Singh founded the Naujawan Bharat Sabha in 1926 to encourage the youth to join the freedom struggle."
+    }
+  ]
+}

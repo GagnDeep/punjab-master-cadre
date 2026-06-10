@@ -1,0 +1,115 @@
+{
+  "id": "sst-a-03",
+  "title": "Banda Singh Bahadur & Misls Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Banda Singh Bahadur",
+      "q": "What was the capital of the first sovereign Sikh state established by Banda Singh Bahadur?",
+      "qPa": "ਬੰਦਾ ਸਿੰਘ ਬਹਾਦਰ ਦੁਆਰਾ ਸਥਾਪਿਤ ਪਹਿਲੇ ਸੁਤੰਤਰ ਸਿੱਖ ਰਾਜ ਦੀ ਰਾਜਧਾਨੀ ਕਿਹੜੀ ਸੀ?",
+      "options": [
+        "Amritsar",
+        "Lahore",
+        "Lohgarh",
+        "Sirhind"
+      ],
+      "answerIndex": 2,
+      "explanation": "Banda Singh Bahadur made Lohgarh (formerly Mukhlisgarh) his capital."
+    },
+    {
+      "id": "q2",
+      "topic": "Battles",
+      "q": "In which battle did Banda Singh Bahadur defeat and kill Wazir Khan?",
+      "options": [
+        "Battle of Gurdas Nangal",
+        "Battle of Chappar Chiri",
+        "Battle of Chamkaur",
+        "Battle of Bhangani"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Battle of Chappar Chiri in 1710 resulted in the defeat and death of Wazir Khan of Sirhind."
+    },
+    {
+      "id": "q3",
+      "topic": "Banda Singh Bahadur",
+      "q": "Who abolished the Zamindari system and gave land rights to the tillers in Punjab?",
+      "qPa": "ਪੰਜਾਬ ਵਿੱਚ ਜ਼ਿਮੀਂਦਾਰੀ ਪ੍ਰਥਾ ਨੂੰ ਕਿਸਨੇ ਖਤਮ ਕੀਤਾ ਅਤੇ ਕਿਸਾਨਾਂ ਨੂੰ ਜ਼ਮੀਨ ਦੇ ਹੱਕ ਦਿੱਤੇ?",
+      "options": [
+        "Maharaja Ranjit Singh",
+        "Banda Singh Bahadur",
+        "Nawab Kapur Singh",
+        "Jassa Singh Ahluwalia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Banda Singh Bahadur enacted historic land reforms by abolishing the Zamindari system.",
+      "pyq": "ERB 2017, 2021"
+    },
+    {
+      "id": "q4",
+      "topic": "Dal Khalsa",
+      "q": "Who organized the fragmented Sikh forces into the Dal Khalsa in 1748?",
+      "options": [
+        "Jassa Singh Ramgarhia",
+        "Charat Singh",
+        "Nawab Kapur Singh",
+        "Hari Singh Nalwa"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nawab Kapur Singh organized the Dal Khalsa in 1748, dividing it into Buddha Dal and Taruna Dal."
+    },
+    {
+      "id": "q5",
+      "topic": "Sikh Misls",
+      "q": "Which of the following Misls was initially the most powerful in the 18th century?",
+      "options": [
+        "Sukerchakia Misl",
+        "Bhangi Misl",
+        "Kanhiya Misl",
+        "Ramgarhia Misl"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Bhangi Misl, founded by Chhajja Singh, was initially the most powerful and controlled Lahore and Amritsar."
+    },
+    {
+      "id": "q6",
+      "topic": "Sikh Misls",
+      "q": "Who was the founder of the Sukerchakia Misl?",
+      "qPa": "ਸ਼ੁਕਰਚੱਕੀਆ ਮਿਸਲ ਦਾ ਮੋਢੀ ਕੌਣ ਸੀ?",
+      "options": [
+        "Maha Singh",
+        "Charat Singh",
+        "Ranjit Singh",
+        "Jai Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "Charat Singh, the grandfather of Maharaja Ranjit Singh, founded the Sukerchakia Misl.",
+      "pyq": "ERB 2016"
+    },
+    {
+      "id": "q7",
+      "topic": "Dal Khalsa",
+      "q": "The Taruna Dal primarily consisted of:",
+      "options": [
+        "Elderly veterans",
+        "Priests and Granthis",
+        "Young Sikh warriors",
+        "Women and children"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Taruna Dal consisted of young soldiers who were responsible for offensive operations."
+    },
+    {
+      "id": "q8",
+      "topic": "Sikh Misls",
+      "q": "The Phulkian Misl included which of the following states?",
+      "options": [
+        "Lahore and Multan",
+        "Patiala, Nabha, and Jind",
+        "Amritsar and Tarn Taran",
+        "Kapurthala and Jalandhar"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Phulkian Misl comprised the territories that later became the princely states of Patiala, Nabha, and Jind."
+    }
+  ]
+}
