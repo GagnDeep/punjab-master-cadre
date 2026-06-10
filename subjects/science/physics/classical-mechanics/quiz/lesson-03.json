@@ -1,0 +1,59 @@
+{
+  "id": "phys-mech-l03",
+  "title": "Rigid Body Dynamics Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Rolling on Incline",
+      "q": "A solid sphere, a solid cylinder, and a ring of the same mass and radius are released from the top of an incline simultaneously. In what order will they reach the bottom?",
+      "qPa": "ਇੱਕ ਠੋਸ ਗੋਲਾ, ਇੱਕ ਠੋਸ ਸਿਲੰਡਰ, ਅਤੇ ਇੱਕ ਰਿੰਗ, ਜਿਨ੍ਹਾਂ ਦਾ ਪੁੰਜ ਅਤੇ ਅਰਧ-ਵਿਆਸ ਬਰਾਬਰ ਹੈ, ਨੂੰ ਇੱਕ ਢਲਾਨ ਦੇ ਸਿਖਰ ਤੋਂ ਇਕੱਠੇ ਛੱਡਿਆ ਜਾਂਦਾ ਹੈ। ਉਹ ਹੇਠਾਂ ਕਿਸ ਕ੍ਰਮ ਵਿੱਚ ਪਹੁੰਚਣਗੇ?",
+      "options": [
+        "Ring, Cylinder, Sphere",
+        "Sphere, Cylinder, Ring",
+        "Cylinder, Sphere, Ring",
+        "All will reach simultaneously"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acceleration is inversely proportional to (1 + k\u00b2/R\u00b2). The solid sphere has the smallest k\u00b2/R\u00b2 (2/5), so it accelerates the fastest. The ring has the largest (1), so it is slowest."
+    },
+    {
+      "id": "q2",
+      "topic": "Moment of Inertia",
+      "q": "What is the moment of inertia of a solid cylinder of mass M and radius R about its central geometrical axis?",
+      "options": [
+        "MR\u00b2",
+        "2/5 MR\u00b2",
+        "1/2 MR\u00b2",
+        "2/3 MR\u00b2"
+      ],
+      "answerIndex": 2,
+      "explanation": "The moment of inertia of a solid cylinder (or a uniform disc) about its central axis is 1/2 MR\u00b2."
+    },
+    {
+      "id": "q3",
+      "topic": "Pure Rolling",
+      "q": "For an object in pure rolling motion, the velocity of the point of contact with the surface is:",
+      "options": [
+        "v = \u03c9R",
+        "v = 2\u03c9R",
+        "Zero",
+        "Depends on the shape"
+      ],
+      "answerIndex": 2,
+      "explanation": "In pure rolling (rolling without slipping), the instantaneous velocity of the point of contact with the ground is zero."
+    },
+    {
+      "id": "q4",
+      "topic": "Parallel Axis Theorem",
+      "q": "The moment of inertia of a uniform rod of mass M and length L about an axis passing through its center and perpendicular to its length is ML\u00b2/12. What is its moment of inertia about an axis passing through one of its ends and perpendicular to its length?",
+      "options": [
+        "ML\u00b2/3",
+        "ML\u00b2/4",
+        "ML\u00b2/6",
+        "ML\u00b2/24"
+      ],
+      "answerIndex": 0,
+      "explanation": "Using Parallel Axis Theorem: I = I_cm + Md\u00b2. Here, d = L/2. So, I = ML\u00b2/12 + M(L/2)\u00b2 = ML\u00b2/12 + ML\u00b2/4 = ML\u00b2/3."
+    }
+  ]
+}

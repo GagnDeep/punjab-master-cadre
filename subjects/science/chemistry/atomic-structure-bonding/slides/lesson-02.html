@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Electronic Configuration Rules - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .orbital-box {
+      fill: none;
+      stroke: var(--color-neutral-800);
+      stroke-width: 3;
+    }
+    .electron-arrow {
+      stroke: var(--color-primary-600);
+      stroke-width: 4;
+      marker-end: url(#arrowhead-primary);
+    }
+    .electron-arrow-down {
+      stroke: var(--color-accent-600);
+      stroke-width: 4;
+      marker-end: url(#arrowhead-accent);
+    }
+    .label-text {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 600;
+      fill: var(--color-neutral-800);
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <svg style="display: none;">
+    <defs>
+      <marker id="arrowhead-primary" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="var(--color-primary-600)" />
+      </marker>
+      <marker id="arrowhead-accent" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="var(--color-accent-600)" />
+      </marker>
+    </defs>
+  </svg>
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Electronic Configuration Rules</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਇਲੈਕਟ੍ਰਾਨਿਕ ਸੰਰਚਨਾ ਦੇ ਨਿਯਮ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Chemistry Module: Atomic Structure & Bonding</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: Three Rules -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>The Three Golden Rules</h2>
+          <ul>
+            <li><strong>Aufbau Principle:</strong> Fill lowest energy first (use $n+l$ rule).</li>
+            <li><strong>Pauli Exclusion:</strong> Max 2 electrons per orbital, opposite spins.</li>
+            <li><strong>Hund's Rule:</strong> For degenerate orbitals (same energy), fill singly first before pairing.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: Hund's Rule Diagram -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Hund's Rule: $p^3$ configuration</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 600 200" class="svg-diagram">
+              <!-- Correct Way -->
+              <text x="50" y="50" class="label-text" fill="var(--color-success)">Correct:</text>
+              <rect x="50" y="80" width="60" height="60" class="orbital-box"/>
+              <line x1="80" y1="130" x2="80" y2="90" class="electron-arrow"/>
+              <rect x="110" y="80" width="60" height="60" class="orbital-box"/>
+              <line x1="140" y1="130" x2="140" y2="90" class="electron-arrow"/>
+              <rect x="170" y="80" width="60" height="60" class="orbital-box"/>
+              <line x1="200" y1="130" x2="200" y2="90" class="electron-arrow"/>
+
+              <!-- Incorrect Way -->
+              <text x="350" y="50" class="label-text" fill="var(--color-danger)">Incorrect:</text>
+              <rect x="350" y="80" width="60" height="60" class="orbital-box"/>
+              <line x1="370" y1="130" x2="370" y2="90" class="electron-arrow"/>
+              <line x1="390" y1="90" x2="390" y2="130" class="electron-arrow-down"/>
+              <rect x="410" y="80" width="60" height="60" class="orbital-box"/>
+              <line x1="440" y1="130" x2="440" y2="90" class="electron-arrow"/>
+              <rect x="470" y="80" width="60" height="60" class="orbital-box"/>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Exceptions -->
+      <div class="slide slide-two-col">
+        <div class="slide-content">
+          <h2 class="mb-8">The Exceptions: Extra Stability</h2>
+          <div class="col-container">
+            <div class="col card bg-primary-50">
+              <h3>Chromium (Z=24)</h3>
+              <p>Expected: $4s^2 \, 3d^4$</p>
+              <p class="font-bold text-success mt-4">Actual: $4s^1 \, 3d^5$</p>
+              <p class="text-sm mt-2">(Half-filled stability)</p>
+            </div>
+            <div class="col card bg-accent-50">
+              <h3>Copper (Z=29)</h3>
+              <p>Expected: $4s^2 \, 3d^9$</p>
+              <p class="font-bold text-success mt-4">Actual: $4s^1 \, 3d^{10}$</p>
+              <p class="text-sm mt-2">(Fully-filled stability)</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Making Cations -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>Forming Cations</h2>
+          <div class="stat-number my-8" style="font-size: 3rem;">Remove from highest $n$ first!</div>
+          <p class="text-2xl text-danger">For transition metals: Remove 4s electrons BEFORE 3d electrons.</p>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>$n+l$ rule determines orbital energy order.</li>
+            <li>Hund's rule: Singly occupy before pairing.</li>
+            <li>Symmetrical $d^5$ and $d^{10}$ configurations are extra stable (Exchange energy).</li>
+            <li>Cu is $[Ar] 4s^1 3d^{10}$ and Cr is $[Ar] 4s^1 3d^5$.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

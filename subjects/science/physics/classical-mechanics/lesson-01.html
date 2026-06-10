@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Title -->
+  <title>Lesson 1: Newton's Laws and Constraints - Classical Mechanics - Physics - Punjab Master Cadre 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+
+  <!-- Component Specific CSS (if embedding slides or quizzes) -->
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../../../../courses.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8 mb-8" style="max-width: 800px;"> <!-- Narrower column for optimal reading -->
+
+    <!-- Breadcrumbs -->
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../../index.html" class="text-neutral-500">Physics</a> >
+      <a href="index.html" class="text-neutral-500">Classical Mechanics</a> >
+      Lesson 1
+    </div>
+
+    <h1 class="mb-2">Newton's Laws and Constraints</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਨਿਊਟਨ ਦੇ ਨਿਯਮ ਅਤੇ ਪਾਬੰਦੀਆਂ (Constraints)</p>
+
+    <!-- BEAT 1: The Hook (PYQ or Relevance) -->
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2021 & 2022)</div>
+        <p>Questions involving pulleys and wedge constraints appear consistently. In 2022, a direct application of pseudo-force in an accelerating elevator was asked. You must master free-body diagrams (FBDs) to solve these under 60 seconds.</p>
+        <p class="pa mt-2">ਪੁਲੀ (pulley) ਅਤੇ ਵੇਜ (wedge) ਦੀਆਂ ਸਮੱਸਿਆਵਾਂ ਹਰ ਸਾਲ ਆਉਂਦੀਆਂ ਹਨ। ਤੁਹਾਨੂੰ 60 ਸਕਿੰਟਾਂ ਦੇ ਅੰਦਰ ਇਹਨਾਂ ਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਫ੍ਰੀ-ਬਾਡੀ ਡਾਇਗ੍ਰਾਮਸ (FBDs) ਵਿੱਚ ਮੁਹਾਰਤ ਹਾਸਲ ਕਰਨੀ ਪਵੇਗੀ।</p>
+      </div>
+    </section>
+
+    <!-- BEAT 2: Objectives -->
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Identify inertial and non-inertial frames of reference.</li>
+        <li>Correctly apply pseudo-forces in accelerating frames.</li>
+        <li>Write and solve constraint equations for string-pulley systems quickly.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 3: Concept Sections (The Core Material) -->
+    <section id="concept-1" class="mb-8">
+      <h2>1. Inertial vs Non-Inertial Frames</h2>
+      <p>An <strong>inertial frame</strong> is either at rest or moving with a constant velocity. Newton's laws are directly applicable here. A <strong>non-inertial frame</strong> is accelerating. To apply Newton's laws in a non-inertial frame, we must introduce a fictional force called a <strong>pseudo-force</strong>.</p>
+      <p>The pseudo-force \( \vec{F}_p \) on a mass \( m \) in a frame accelerating with \( \vec{a}_0 \) is:</p>
+      <div class="card bg-neutral-50 text-center font-bold text-lg mb-4">
+        $$ \vec{F}_p = -m\vec{a}_0 $$
+      </div>
+
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>Students often apply the pseudo-force in the <em>same</em> direction as the frame's acceleration. Always remember the negative sign: it acts <strong>opposite</strong> to the frame's acceleration.</p>
+      </div>
+    </section>
+
+    <section id="concept-2" class="mb-8">
+      <h2>2. Constraint Equations (String and Pulley)</h2>
+      <p>When bodies are connected by an inextensible string, their motions are constrained. The length of the string \( L \) remains constant.</p>
+      <p><strong>Trick for Virtual Work Method:</strong> The net work done by internal tension forces on the system is zero. $$ \sum \vec{T} \cdot \vec{v} = 0 \quad \text{and} \quad \sum \vec{T} \cdot \vec{a} = 0 $$</p>
+      <p>If tension \( T \) pulls mass \( A \) with acceleration \( a_A \) and \( 2T \) pulls mass \( B \) with acceleration \( a_B \), then \( T a_A + 2T (-a_B) = 0 \implies a_A = 2a_B \).</p>
+    </section>
+
+    <!-- BEAT 4: Worked Examples -->
+    <section id="examples" class="mb-8">
+      <h2>Worked Example: Accelerating Elevator</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> A mass of 5 kg is hanging from a spring balance in an elevator accelerating upwards at \( 2 \, \text{m/s}^2 \). What is the reading of the balance? (Take \( g = 10 \, \text{m/s}^2 \))</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Frame is non-inertial (accelerating up at \( a_0 = 2 \)).</p>
+        <p><strong>Step 2:</strong> Draw FBD with respect to elevator. Forces acting on mass: Tension \( T \) (up), Gravity \( mg \) (down), Pseudo-force \( ma_0 \) (down, opposite to elevator).</p>
+        <p><strong>Step 3:</strong> Since mass is at rest <em>relative to the elevator</em>: $$ T = mg + ma_0 = m(g + a_0) $$</p>
+        <p><strong>Answer:</strong> \( T = 5(10 + 2) = 60 \, \text{N} \). Reading = 6 kg-wt.</p>
+      </div>
+    </section>
+
+    <!-- BEAT 5: "How ERB Asks It" Box -->
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>The examiner will ask for the <em>apparent weight</em> in an elevator accelerating downwards with \( a = g \). In this free-fall case, \( T = m(g - g) = 0 \). They often hide the "downward acceleration" in a complex word problem. Always isolate the direction of acceleration first.</p>
+      </div>
+    </section>
+
+    <!-- BEAT 6: Recap Bullets -->
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Pseudo-force is \( -m\vec{a}_0 \), applied opposite to frame acceleration.</li>
+        <li>For inextensible strings, \( \sum \vec{T} \cdot \vec{a} = 0 \).</li>
+        <li>Apparent weight in elevator moving up is \( m(g+a) \), and moving down is \( m(g-a) \).</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 7: Embedded Recall Quiz -->
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <!-- The quiz engine will render into this div -->
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <!-- Optional: Embedded Slides -->
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the visual diagrams and quick points from the lecture:</p>
+      <a href="slides/lesson-01.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <!-- Optional: Punjabi Voiceover / Transcript -->
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4 text-neutral-800 leading-relaxed">
+          <p>ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੋਸਤੋ! ਅੱਜ ਆਪਾਂ ਫਿਜ਼ਿਕਸ ਦੇ ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਟੌਪਿਕ - ਨਿਊਟਨ ਦੇ ਨਿਯਮਾਂ ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ। ਜੇ ਤੁਸੀਂ ਪਿਛਲੇ ਸਾਲਾਂ ਦੇ ਪੇਪਰ ਦੇਖੋਗੇ, ਤਾਂ ਪਤਾ ਲੱਗੇਗਾ ਕਿ ERB ਵਾਲੇ ਪੁਲੀ (pulley) ਵਾਲੇ ਸਵਾਲ ਜ਼ਰੂਰ ਪੁੱਛਦੇ ਨੇ। ਕੀ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਇੱਕ ਮਿੰਟ ਤੋਂ ਪਹਿਲਾਂ ਹੱਲ ਕਰ ਸਕਦੇ ਹੋ? ਅੱਜ ਆਪਾਂ ਉਹੀ ਸਿੱਖਣਾ ਹੈ।</p>
+          <p>ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਸੂਡੋ-ਫੋਰਸ (Pseudo-force) ਕੀ ਹੁੰਦੀ ਹੈ? ਸੋਚੋ ਤੁਸੀਂ ਇੱਕ ਤੇਜ਼ ਚੱਲਦੀ ਬੱਸ ਵਿੱਚ ਖੜ੍ਹੇ ਹੋ, ਜਦੋਂ ਬੱਸ ਅਚਾਨਕ ਬ੍ਰੇਕ ਮਾਰਦੀ ਹੈ ਤਾਂ ਤੁਸੀਂ ਅੱਗੇ ਵੱਲ ਡਿੱਗਦੇ ਹੋ। ਇਹ ਕਿਉਂ ਹੁੰਦਾ ਹੈ? ਕਿਉਂਕਿ ਬੱਸ ਇੱਕ non-inertial frame ਬਣ ਗਈ ਹੈ। ਜਦੋਂ ਵੀ frame ਪ੍ਰਵੇਗ (accelerate) ਕਰਦਾ ਹੈ, ਤਾਂ ਸਾਨੂੰ ਇੱਕ ਉਲਟ ਦਿਸ਼ਾ ਵਿੱਚ ਫੋਰਸ ਲਗਾਉਣੀ ਪੈਂਦੀ ਹੈ, ਜਿਸਨੂੰ pseudo-force ਕਹਿੰਦੇ ਹਨ। ਇਸਦਾ ਫਾਰਮੂਲਾ ਬਹੁਤ ਸੌਖਾ ਹੈ: \( -ma \)। ਯਾਦ ਰੱਖਿਓ, ਮਾਈਨਸ ਦਾ ਮਤਲਬ ਹੈ ਦਿਸ਼ਾ ਉਲਟ ਹੋਣੀ ਚਾਹੀਦੀ ਹੈ।</p>
+          <p>ਦੂਜੀ ਗੱਲ, ਲਿਫਟ ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚ ਬਹੁਤ ਬੱਚੇ ਉਲਝਦੇ ਨੇ। ਜਦੋਂ ਲਿਫਟ ਉੱਪਰ ਜਾ ਰਹੀ ਹੁੰਦੀ ਹੈ ਤਾਂ ਭਾਰ ਵਧਿਆ ਹੋਇਆ ਲੱਗਦਾ ਹੈ (\( m(g+a) \)), ਤੇ ਜਦੋਂ ਹੇਠਾਂ ਆਉਂਦੀ ਹੈ ਤਾਂ ਭਾਰ ਘਟਿਆ ਹੋਇਆ ਲੱਗਦਾ ਹੈ (\( m(g-a) \))। ਇਹ ਸਿੱਧਾ ਸੂਡੋ-ਫੋਰਸ ਦਾ ਕਮਾਲ ਹੈ।</p>
+          <p>ਹੁਣ, ਕੀ ਤੁਸੀਂ ਤਿਆਰ ਹੋ ਇਹਨਾਂ ਟ੍ਰਿਕਸ ਨੂੰ ਵਰਤਣ ਲਈ? ਥੱਲੇ ਦਿੱਤੇ ਕੁਇਜ਼ ਨੂੰ ਹੱਲ ਕਰੋ ਅਤੇ ਦੇਖੋ ਕਿ ਤੁਸੀਂ ਕਿੰਨੀ ਜਲਦੀ ਸਹੀ ਜਵਾਬ ਲੱਭ ਸਕਦੇ ਹੋ!</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Navigation -->
+    <div style="display: flex; justify-content: space-between; border-top: 1px solid var(--color-neutral-200); padding-top: var(--space-4);">
+      <a href="index.html" class="btn btn-ghost">&larr; Back to Module</a>
+      <a href="lesson-02.html" class="btn btn-primary">Next Lesson &rarr;</a>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../../../assets/js/quiz-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new QuizEngine('lesson-quiz-container', 'quiz/lesson-01.json');
+    });
+  </script>
+</body>
+</html>

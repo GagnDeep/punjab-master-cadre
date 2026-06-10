@@ -1,0 +1,59 @@
+{
+  "id": "bio-cell-l02",
+  "title": "Mendelian Genetics Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Universal Law",
+      "q": "Which of Mendel's laws is universally accepted without any exceptions?",
+      "qPa": "ਮੈਂਡਲ ਦੇ ਕਿਹੜੇ ਨਿਯਮ ਨੂੰ ਬਿਨਾਂ ਕਿਸੇ ਅਪਵਾਦ (exception) ਦੇ ਵਿਆਪਕ ਤੌਰ 'ਤੇ ਸਵੀਕਾਰ ਕੀਤਾ ਜਾਂਦਾ ਹੈ?",
+      "options": [
+        "Law of Dominance",
+        "Law of Segregation",
+        "Law of Independent Assortment",
+        "Law of Incomplete Dominance"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Law of Segregation states that alleles for a trait separate when gametes are formed. This occurs during meiosis and is universally true for all sexually reproducing organisms."
+    },
+    {
+      "id": "q2",
+      "topic": "Test Cross",
+      "q": "What is the phenotypic ratio of a dihybrid test cross (e.g., RrYy x rryy)?",
+      "options": [
+        "9:3:3:1",
+        "1:2:1",
+        "1:1",
+        "1:1:1:1"
+      ],
+      "answerIndex": 3,
+      "explanation": "A test cross involves crossing with a homozygous recessive organism. A dihybrid test cross always yields a 1:1:1:1 ratio for the four possible phenotypes."
+    },
+    {
+      "id": "q3",
+      "topic": "Incomplete Dominance",
+      "q": "In snapdragon flowers, crossing a red flower (RR) with a white flower (rr) produces pink flowers (Rr). What will be the phenotypic ratio in the F2 generation if two pink flowers are crossed?",
+      "options": [
+        "3:1 Red:White",
+        "1:2:1 Red:Pink:White",
+        "1:1 Red:Pink",
+        "9:3:3:1 Red:Pink:White:Other"
+      ],
+      "answerIndex": 1,
+      "explanation": "In incomplete dominance, the F2 generation (Rr x Rr) yields 1 RR (Red), 2 Rr (Pink), and 1 rr (White). So the ratio is 1:2:1."
+    },
+    {
+      "id": "q4",
+      "topic": "Blood Groups",
+      "q": "A child has blood group O. If the father has blood group A and mother has blood group B, what must be the genotypes of the parents?",
+      "options": [
+        "Father I^AI^A, Mother I^BI^B",
+        "Father I^Ai, Mother I^BI^B",
+        "Father I^Ai, Mother I^Bi",
+        "Father I^AI^A, Mother I^Bi"
+      ],
+      "answerIndex": 2,
+      "explanation": "To have a child with blood group O (genotype ii), the child must receive an 'i' allele from BOTH parents. Therefore, both the A and B parents must be heterozygous carriers of the 'i' allele (I^Ai and I^Bi)."
+    }
+  ]
+}

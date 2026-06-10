@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: VSEPR & Hybridization - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .atom-central {
+      fill: var(--color-primary-600);
+    }
+    .atom-surround {
+      fill: var(--color-accent-500);
+    }
+    .bond {
+      stroke: var(--color-neutral-800);
+      stroke-width: 6;
+      stroke-linecap: round;
+    }
+    .lone-pair {
+      fill: var(--color-warning-bg);
+      stroke: var(--color-warning);
+      stroke-width: 2;
+    }
+    .label {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: bold;
+      fill: var(--color-neutral-800);
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">VSEPR Theory & Hybridization</h1>
+          <h2 class="text-2xl text-primary-600 pa">VSEPR ਥਿਊਰੀ ਅਤੇ ਹਾਈਬ੍ਰਿਡਾਈਜ਼ੇਸ਼ਨ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Chemistry Module: Atomic Structure & Bonding</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: The Formula -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>The Steric Number Shortcut</h2>
+          <div class="stat-number my-8" style="font-size: 3.5rem;">$ SN = \frac{1}{2}(V + M - C + A) $</div>
+          <p class="text-xl text-left mx-auto" style="max-width: 600px;">
+            <strong>V:</strong> Valence $e^-$ on Central Atom<br>
+            <strong>M:</strong> Monovalent atoms (H, F, Cl, Br, I). <em>Ignore O!</em><br>
+            <strong>C:</strong> Cation Charge (-)<br>
+            <strong>A:</strong> Anion Charge (+)
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 3: SN to Hybridization -->
+      <div class="slide slide-two-col">
+        <div class="slide-content">
+          <h2 class="mb-8">SN $\rightarrow$ Hybridization $\rightarrow$ Geometry</h2>
+          <div class="col-container">
+            <div class="col">
+              <ul class="text-xl">
+                <li class="mb-4"><strong>SN = 2:</strong> $sp$ (Linear)</li>
+                <li class="mb-4"><strong>SN = 3:</strong> $sp^2$ (Trigonal Planar)</li>
+                <li class="mb-4"><strong>SN = 4:</strong> $sp^3$ (Tetrahedral)</li>
+              </ul>
+            </div>
+            <div class="col">
+              <ul class="text-xl">
+                <li class="mb-4"><strong>SN = 5:</strong> $sp^3d$ (Trigonal Bipyramidal)</li>
+                <li class="mb-4"><strong>SN = 6:</strong> $sp^3d^2$ (Octahedral)</li>
+                <li class="mb-4"><strong>LP = SN - Surrounding Atoms</strong></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Water Molecule Diagram -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Shape of $H_2O$ (Water)</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 400 400" class="svg-diagram">
+              <!-- Central Oxygen -->
+              <circle cx="200" cy="180" r="40" class="atom-central"/>
+              <text x="200" y="190" class="label" fill="white" text-anchor="middle">O</text>
+
+              <!-- Bonds -->
+              <line x1="200" y1="180" x2="120" y2="280" class="bond"/>
+              <line x1="200" y1="180" x2="280" y2="280" class="bond"/>
+
+              <!-- Hydrogen Atoms -->
+              <circle cx="120" cy="280" r="25" class="atom-surround"/>
+              <text x="120" y="288" class="label" fill="white" text-anchor="middle">H</text>
+              <circle cx="280" cy="280" r="25" class="atom-surround"/>
+              <text x="280" y="288" class="label" fill="white" text-anchor="middle">H</text>
+
+              <!-- Lone Pairs -->
+              <ellipse cx="140" cy="110" rx="30" ry="15" class="lone-pair" transform="rotate(-30 140 110)"/>
+              <circle cx="130" cy="110" r="4" fill="var(--color-warning)"/>
+              <circle cx="150" cy="110" r="4" fill="var(--color-warning)"/>
+
+              <ellipse cx="260" cy="110" rx="30" ry="15" class="lone-pair" transform="rotate(30 260 110)"/>
+              <circle cx="250" cy="110" r="4" fill="var(--color-warning)"/>
+              <circle cx="270" cy="110" r="4" fill="var(--color-warning)"/>
+
+              <!-- Note -->
+              <text x="200" y="360" class="label" text-anchor="middle">SN=4, LP=2 $\rightarrow$ Bent / V-Shape</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: The I3- Trick -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>The Classic Trick: $I_3^-$</h2>
+          <ul>
+            <li>Think of it as $I$ attached to two other $I$'s.</li>
+            <li>Central I: $V=7$. Surrounding: $M=2$. Anion: $A=1$.</li>
+            <li>$SN = \frac{1}{2}(7 + 2 - 0 + 1) = 5$ $\implies sp^3d$.</li>
+            <li>Lone Pairs = $5 - 2 = 3$.</li>
+            <li><strong>Shape:</strong> The 3 lone pairs sit on the equator. Shape is strictly <strong>Linear</strong>!</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>Calculate SN to find hybridization ($sp^3, sp^3d$, etc).</li>
+            <li>Ignore Oxygen when counting 'M' for SN.</li>
+            <li>Geometry = Electron arrangement (includes LPs).</li>
+            <li>Shape = What the atoms look like (ignores LPs visually).</li>
+            <li>Repulsion: LP-LP > LP-BP > BP-BP.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

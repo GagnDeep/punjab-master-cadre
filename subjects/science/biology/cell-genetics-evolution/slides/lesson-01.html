@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Cell Division - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .chromatid-1 {
+      stroke: var(--color-primary-600);
+      stroke-width: 12;
+      stroke-linecap: round;
+    }
+    .chromatid-2 {
+      stroke: var(--color-accent-500);
+      stroke-width: 12;
+      stroke-linecap: round;
+    }
+    .centromere {
+      fill: var(--color-neutral-800);
+    }
+    .label {
+      font-family: var(--font-display);
+      font-size: 20px;
+      fill: var(--color-neutral-800);
+      text-anchor: middle;
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Cell Division: Mitosis & Meiosis</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਸੈੱਲ ਵੰਡ: ਮਾਈਟੋਸਿਸ ਅਤੇ ਮਿਓਸਿਸ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Biology Module: Cell Biology & Genetics</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: The S Phase -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>The Cell Cycle: Focus on S Phase</h2>
+          <ul>
+            <li>$G_1$ $\rightarrow$ Growth.</li>
+            <li><strong class="text-primary-700">S (Synthesis):</strong> DNA Replication!</li>
+            <li>DNA content DOUBLES ($2C \rightarrow 4C$).</li>
+            <li>Chromosome number remains the SAME ($2n \rightarrow 2n$).</li>
+            <li>$G_2$ $\rightarrow$ Preparation for division.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: Crossing Over Diagram -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Prophase I: Pachytene (Crossing Over)</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 500 300" class="svg-diagram">
+              <!-- Homologous Chromosome 1 -->
+              <line x1="150" y1="50" x2="150" y2="250" class="chromatid-1"/>
+              <line x1="180" y1="50" x2="180" y2="150" class="chromatid-1"/>
+              <circle cx="165" cy="150" r="10" class="centromere"/>
+
+              <!-- Homologous Chromosome 2 -->
+              <line x1="240" y1="50" x2="240" y2="150" class="chromatid-2"/>
+              <line x1="270" y1="50" x2="270" y2="250" class="chromatid-2"/>
+              <circle cx="255" cy="150" r="10" class="centromere"/>
+
+              <!-- The Cross (Chiasma forming) -->
+              <line x1="180" y1="150" x2="240" y2="250" class="chromatid-1"/>
+              <line x1="240" y1="150" x2="180" y2="250" class="chromatid-2"/>
+
+              <text x="210" y="280" class="label">Non-sister chromatids exchanging DNA</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Prophase I Mnemonic -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>Prophase I Sub-stages</h2>
+          <div class="stat-number my-8" style="font-size: 3rem;">L Z P D D</div>
+          <p class="text-xl text-left mx-auto" style="max-width: 500px;">
+            <strong>L</strong>eptotene (Visible)<br>
+            <strong>Z</strong>ygotene (Synapsis)<br>
+            <strong class="text-primary-600">P</strong>achytene (Crossing Over)<br>
+            <strong>D</strong>iplotene (Chiasmata visible)<br>
+            <strong>D</strong>iakinesis (Terminalization)
+          </p>
+        </div>
+      </div>
+
+      <!-- Slide 5: Anaphase I vs II -->
+      <div class="slide slide-two-col">
+        <div class="slide-content">
+          <h2 class="mb-8">The Split: Anaphase I vs II</h2>
+          <div class="col-container">
+            <div class="col card bg-primary-50">
+              <h3>Anaphase I</h3>
+              <p class="text-lg"><strong>Homologous Chromosomes</strong> separate.</p>
+              <p class="text-lg text-danger font-bold">Centromeres DO NOT split.</p>
+              <p>Reduces ploidy ($2n \rightarrow n$).</p>
+            </div>
+            <div class="col card bg-accent-50">
+              <h3>Anaphase II (and Mitosis)</h3>
+              <p class="text-lg"><strong>Sister Chromatids</strong> separate.</p>
+              <p class="text-lg text-success font-bold">Centromeres SPLIT.</p>
+              <p>Maintains ploidy.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>S Phase: DNA doubles (4C), Chromosomes stay same (2n).</li>
+            <li>Crossing over occurs in <strong>Pachytene</strong>.</li>
+            <li>Chiasmata are clearly visible in <strong>Diplotene</strong>.</li>
+            <li>Mitosis = Equational. Meiosis = Reductional.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

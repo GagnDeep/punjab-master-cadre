@@ -1,0 +1,59 @@
+{
+  "id": "chem-atomic-l03",
+  "title": "VSEPR Theory & Hybridization Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "VSEPR Shape",
+      "q": "What is the molecular shape of Xenon Tetrafluoride (XeF\u2084)?",
+      "qPa": "Xenon Tetrafluoride (XeF\u2084) ਦੀ ਅਣੂ ਸ਼ਕਲ (molecular shape) ਕੀ ਹੈ?",
+      "options": [
+        "Tetrahedral",
+        "Square Planar",
+        "See-saw",
+        "Octahedral"
+      ],
+      "answerIndex": 1,
+      "explanation": "Xe has 8 valence electrons. SN = 1/2(8 + 4) = 6. This means sp\u00b3d\u00b2 hybridization (Octahedral geometry). Since there are 4 F atoms, LP = 6 - 4 = 2. Two lone pairs on an octahedral geometry result in a Square Planar shape."
+    },
+    {
+      "id": "q2",
+      "topic": "Hybridization",
+      "q": "What is the hybridization of the central atom in the Triiodide ion (I\u2083\u207b)?",
+      "options": [
+        "sp\u00b3",
+        "sp\u00b3d",
+        "sp\u00b3d\u00b2",
+        "sp\u00b2"
+      ],
+      "answerIndex": 1,
+      "explanation": "Treat one I as central. Valence e- = 7. Monovalent surrounding atoms = 2. Anion charge = +1. SN = 1/2(7 + 2 + 1) = 5. SN=5 corresponds to sp\u00b3d hybridization."
+    },
+    {
+      "id": "q3",
+      "topic": "Repulsion",
+      "q": "According to VSEPR theory, which of the following repulsive interactions is the strongest?",
+      "options": [
+        "Bond Pair - Bond Pair",
+        "Lone Pair - Bond Pair",
+        "Lone Pair - Lone Pair",
+        "They are all equal"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lone pairs occupy more space around the central atom than bond pairs. Therefore, the repulsion between two lone pairs is the strongest (LP-LP > LP-BP > BP-BP)."
+    },
+    {
+      "id": "q4",
+      "topic": "Calculating SN",
+      "q": "What is the Steric Number (SN) and the resulting geometry for the Sulfate ion (SO\u2084\u00b2\u207b)?",
+      "options": [
+        "SN = 4, Tetrahedral",
+        "SN = 6, Octahedral",
+        "SN = 5, Trigonal Bipyramidal",
+        "SN = 3, Trigonal Planar"
+      ],
+      "answerIndex": 0,
+      "explanation": "Central atom S has 6 valence e-. Oxygen is bivalent, so M=0. Charge is -2, so A=2. SN = 1/2(6 + 0 + 2) = 8/2 = 4. SN=4 means Tetrahedral geometry."
+    }
+  ]
+}

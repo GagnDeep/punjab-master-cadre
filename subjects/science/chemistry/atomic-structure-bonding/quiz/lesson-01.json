@@ -1,0 +1,60 @@
+{
+  "id": "chem-atomic-l01",
+  "title": "Quantum Numbers Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Valid Quantum Numbers",
+      "q": "Which of the following sets of quantum numbers is NOT allowed for an electron in an atom?",
+      "qPa": "ਪਰਮਾਣੂ ਵਿੱਚ ਇੱਕ ਇਲੈਕਟ੍ਰੋਨ ਲਈ ਹੇਠਾਂ ਦਿੱਤੇ ਕੁਆਂਟਮ ਨੰਬਰਾਂ ਦੇ ਸੈੱਟਾਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਸੰਭਵ ਨਹੀਂ ਹੈ?",
+      "options": [
+        "n=3, l=2, ml=-1, ms=+1/2",
+        "n=4, l=0, ml=0, ms=-1/2",
+        "n=3, l=3, ml=0, ms=+1/2",
+        "n=5, l=1, ml=-1, ms=-1/2"
+      ],
+      "answerIndex": 2,
+      "explanation": "The azimuthal quantum number 'l' must always be strictly less than 'n'. In option C, n=3 and l=3, which is not allowed. (It implies a 3f orbital, which does not exist).",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q2",
+      "topic": "Radial Nodes",
+      "q": "How many radial nodes are present in a 4p orbital?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "The formula for radial nodes is n - l - 1. For a 4p orbital, n = 4 and l = 1 (since p is l=1). So, 4 - 1 - 1 = 2 radial nodes."
+    },
+    {
+      "id": "q3",
+      "topic": "Magnetic Quantum Number",
+      "q": "For a given value of azimuthal quantum number 'l', what is the total number of possible values for the magnetic quantum number 'ml'?",
+      "options": [
+        "l + 1",
+        "2l + 1",
+        "2l - 1",
+        "l\u00b2"
+      ],
+      "answerIndex": 1,
+      "explanation": "The magnetic quantum number ml takes values from -l to +l, including zero. Therefore, there are exactly 2l + 1 possible values."
+    },
+    {
+      "id": "q4",
+      "topic": "Orbital Shapes",
+      "q": "Which of the following subshells has a spherical shape?",
+      "options": [
+        "s",
+        "p",
+        "d",
+        "f"
+      ],
+      "answerIndex": 0,
+      "explanation": "The s-orbital (l=0) has a spherically symmetrical shape around the nucleus."
+    }
+  ]
+}

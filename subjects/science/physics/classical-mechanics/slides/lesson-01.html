@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Newton's Laws & Constraints - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    /* Specific styling for SVG diagrams */
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 80%;
+      max-height: 400px;
+    }
+    .fbd-arrow {
+      stroke: var(--color-primary-600);
+      stroke-width: 4;
+      marker-end: url(#arrowhead-primary);
+    }
+    .fbd-arrow-pseudo {
+      stroke: var(--color-danger);
+      stroke-width: 4;
+      marker-end: url(#arrowhead-danger);
+      stroke-dasharray: 5, 5;
+    }
+    .fbd-text {
+      font-family: var(--font-body);
+      font-size: 24px;
+      font-weight: 600;
+      fill: var(--color-neutral-800);
+    }
+    .fbd-text-danger {
+      fill: var(--color-danger);
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <!-- Reusable SVG definitions -->
+  <svg style="display: none;">
+    <defs>
+      <marker id="arrowhead-primary" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="var(--color-primary-600)" />
+      </marker>
+      <marker id="arrowhead-danger" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="var(--color-danger)" />
+      </marker>
+    </defs>
+  </svg>
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Newton's Laws & Constraints</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਨਿਊਟਨ ਦੇ ਨਿਯਮ ਅਤੇ ਪਾਬੰਦੀਆਂ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Physics Module: Classical Mechanics</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: Inertial vs Non-Inertial -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>Frames of Reference</h2>
+          <ul>
+            <li><strong>Inertial Frame:</strong> At rest or constant velocity ($a = 0$). Newton's laws apply directly.</li>
+            <li><strong>Non-Inertial Frame:</strong> Accelerating ($a \neq 0$). Newton's laws FAIL without adjustment.</li>
+            <li><strong>The Fix:</strong> Introduce a <em>Pseudo-force</em>.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: Pseudo-Force Definition -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>The Pseudo-Force</h2>
+          <div class="stat-number my-8" style="font-size: 5rem;">$ \vec{F}_p = -m\vec{a}_0 $</div>
+          <p class="text-2xl">Always applied <strong>opposite</strong> to the frame's acceleration.</p>
+        </div>
+      </div>
+
+      <!-- Slide 4: FBD Diagram -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>FBD: Elevator Accelerating Upwards</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 400 400" class="svg-diagram">
+              <!-- Elevator Box -->
+              <rect x="50" y="50" width="300" height="300" fill="none" stroke="var(--color-neutral-300)" stroke-width="4" stroke-dasharray="10, 10"/>
+              <text x="200" y="40" class="fbd-text" text-anchor="middle">Elevator ($a_0$ &uarr;)</text>
+
+              <!-- Mass -->
+              <rect x="150" y="150" width="100" height="100" fill="var(--color-primary-100)" stroke="var(--color-primary-800)" stroke-width="4"/>
+              <text x="200" y="205" class="fbd-text" text-anchor="middle">Mass $m$</text>
+
+              <!-- Tension -->
+              <line x1="200" y1="150" x2="200" y2="70" class="fbd-arrow"/>
+              <text x="220" y="100" class="fbd-text">Tension ($T$)</text>
+
+              <!-- Gravity -->
+              <line x1="180" y1="250" x2="180" y2="330" class="fbd-arrow"/>
+              <text x="100" y="310" class="fbd-text">Gravity ($mg$)</text>
+
+              <!-- Pseudo Force -->
+              <line x1="220" y1="250" x2="220" y2="330" class="fbd-arrow-pseudo"/>
+              <text x="240" y="310" class="fbd-text fbd-text-danger">Pseudo ($ma_0$)</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Virtual Work Method -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>Virtual Work Method (Pulleys)</h2>
+          <p class="mb-4">Net work done by internal tension is zero:</p>
+          <div class="card bg-neutral-50 text-center text-2xl mb-8">
+            $ \sum \vec{T} \cdot \vec{a} = 0 $
+          </div>
+          <ul>
+            <li>If $T$ pulls mass $A$ with acceleration $a_A$...</li>
+            <li>And $2T$ pulls mass $B$ with acceleration $a_B$...</li>
+            <li>Then $T(a_A) + 2T(-a_B) = 0 \implies a_A = 2a_B$.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>Non-inertial frame = requires Pseudo-force.</li>
+            <li>Pseudo-force = $-m\vec{a}_0$ (Opposite to frame).</li>
+            <li>Apparent weight (Upward accel) = $m(g+a)$.</li>
+            <li>Apparent weight (Downward accel) = $m(g-a)$.</li>
+            <li>Free fall = Weightlessness ($T=0$).</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

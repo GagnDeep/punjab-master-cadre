@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Molecular Basis - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .dna-strand {
+      stroke: var(--color-primary-600);
+      stroke-width: 6;
+      fill: none;
+    }
+    .rna-strand {
+      stroke: var(--color-accent-500);
+      stroke-width: 6;
+      fill: none;
+    }
+    .protein {
+      fill: var(--color-success);
+    }
+    .dogma-arrow {
+      stroke: var(--color-neutral-800);
+      stroke-width: 4;
+      marker-end: url(#arrowhead-dark);
+    }
+    .label-text {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: bold;
+      fill: var(--color-neutral-800);
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <svg style="display: none;">
+    <defs>
+      <marker id="arrowhead-dark" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+        <polygon points="0 0, 10 3.5, 0 7" fill="var(--color-neutral-800)" />
+      </marker>
+    </defs>
+  </svg>
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Molecular Basis of Inheritance</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਵਿਰਾਸਤ ਦਾ ਅਣੂ ਆਧਾਰ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Biology Module: Cell Biology & Genetics</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: Chargaff -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>Chargaff's Rules (Double-Stranded DNA)</h2>
+          <ul>
+            <li>Amount of Adenine = Thymine ($A = T$).</li>
+            <li>Amount of Guanine = Cytosine ($G = C$).</li>
+            <li>Therefore, $A + G = T + C$ (Purines = Pyrimidines).</li>
+            <li><strong>Example:</strong> If $C = 20\%$, then $G = 20\%$. Remaining $60\%$ is $A+T$. So $A = 30\%$, $T = 30\%$.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: Central Dogma Diagram -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>The Central Dogma</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 600 250" class="svg-diagram">
+              <!-- DNA -->
+              <path d="M 50 100 Q 75 50, 100 100 T 150 100 T 200 100" class="dna-strand"/>
+              <path d="M 50 120 Q 75 170, 100 120 T 150 120 T 200 120" class="dna-strand"/>
+              <text x="125" y="160" class="label-text" text-anchor="middle">DNA</text>
+
+              <!-- Replication Arrow -->
+              <path d="M 100 70 C 100 20, 150 20, 150 70" class="dogma-arrow" fill="none"/>
+              <text x="125" y="15" class="label-text" text-anchor="middle" style="font-size: 16px;">Replication</text>
+
+              <!-- Transcription Arrow -->
+              <line x1="220" y1="110" x2="280" y2="110" class="dogma-arrow"/>
+              <text x="250" y="90" class="label-text" text-anchor="middle" style="font-size: 16px;">Transcription</text>
+
+              <!-- RNA -->
+              <path d="M 300 110 Q 325 80, 350 110 T 400 110" class="rna-strand"/>
+              <text x="350" y="150" class="label-text" text-anchor="middle">mRNA</text>
+
+              <!-- Translation Arrow -->
+              <line x1="420" y1="110" x2="480" y2="110" class="dogma-arrow"/>
+              <text x="450" y="90" class="label-text" text-anchor="middle" style="font-size: 16px;">Translation</text>
+
+              <!-- Protein -->
+              <circle cx="510" cy="110" r="10" class="protein"/>
+              <circle cx="525" cy="95" r="10" class="protein"/>
+              <circle cx="540" cy="110" r="10" class="protein"/>
+              <circle cx="555" cy="125" r="10" class="protein"/>
+              <circle cx="570" cy="110" r="10" class="protein"/>
+              <text x="540" y="160" class="label-text" text-anchor="middle">Protein</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Directionality -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>The Golden Rule of Direction</h2>
+          <p class="text-2xl mb-8">All polymerases build new strands ONLY in the:</p>
+          <div class="stat-number my-8 text-primary-600" style="font-size: 5rem;">$5' \rightarrow 3'$</div>
+          <p class="text-2xl mt-4">direction!</p>
+        </div>
+      </div>
+
+      <!-- Slide 5: The 3 RNAs -->
+      <div class="slide slide-two-col">
+        <div class="slide-content">
+          <h2 class="mb-8">The Three RNAs in Translation</h2>
+          <div class="col-container">
+            <div class="col card bg-primary-50">
+              <h3>mRNA (Messenger)</h3>
+              <p>Carries the genetic code (codons) from DNA to the ribosome.</p>
+            </div>
+            <div class="col card bg-accent-50">
+              <h3>tRNA (Transfer)</h3>
+              <p>Brings specific amino acids. Contains the <strong>anticodon</strong>.</p>
+            </div>
+            <div class="col card bg-success-bg mt-4" style="grid-column: span 2;">
+              <h3>rRNA (Ribosomal)</h3>
+              <p>Forms the core of the ribosome. Acts as a catalyst (ribozyme) to form peptide bonds.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>$A+G = T+C$ in dsDNA.</li>
+            <li>DNA is read $3' \rightarrow 5'$, but built $5' \rightarrow 3'$.</li>
+            <li>RNA uses Uracil (U) instead of Thymine (T).</li>
+            <li>Transcription = Nucleus. Translation = Cytoplasm.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

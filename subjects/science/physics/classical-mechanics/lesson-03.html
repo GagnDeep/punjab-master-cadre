@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Title -->
+  <title>Lesson 3: Rigid Body Dynamics - Classical Mechanics - Physics - Punjab Master Cadre 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+
+  <!-- Component Specific CSS (if embedding slides or quizzes) -->
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../../../../courses.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8 mb-8" style="max-width: 800px;"> <!-- Narrower column for optimal reading -->
+
+    <!-- Breadcrumbs -->
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../../index.html" class="text-neutral-500">Physics</a> >
+      <a href="index.html" class="text-neutral-500">Classical Mechanics</a> >
+      Lesson 3
+    </div>
+
+    <h1 class="mb-2">Rigid Body Dynamics</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਸਖ਼ਤ ਸਰੀਰ ਗਤੀਸ਼ੀਲਤਾ (Rigid Body Dynamics)</p>
+
+    <!-- BEAT 1: The Hook (PYQ or Relevance) -->
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Favorite)</div>
+        <p>Questions comparing the acceleration of rings, solid cylinders, and spheres rolling down an incline are guaranteed. If you don't know the standard moments of inertia, you will lose easy marks.</p>
+        <p class="pa mt-2">ਢਲਾਨ (incline) 'ਤੇ ਰੋਲ ਕਰਦੀਆਂ ਵਸਤੂਆਂ ਦੇ ਪ੍ਰਵੇਗ (acceleration) ਦੀ ਤੁਲਨਾ ਵਾਲੇ ਸਵਾਲ ਪੱਕੇ ਆਉਂਦੇ ਹਨ। ਤੁਹਾਨੂੰ ਇਹਨਾਂ ਦੇ moment of inertia ਜ਼ੁਬਾਨੀ ਯਾਦ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ।</p>
+      </div>
+    </section>
+
+    <!-- BEAT 2: Objectives -->
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Memorize the Moment of Inertia for standard shapes.</li>
+        <li>Apply the Parallel and Perpendicular Axis Theorems.</li>
+        <li>Calculate acceleration and velocity for objects in pure rolling on an incline.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 3: Concept Sections (The Core Material) -->
+    <section id="concept-1" class="mb-8">
+      <h2>1. Moment of Inertia (I)</h2>
+      <p>The rotational equivalent of mass. It depends not just on mass, but how it is <strong>distributed</strong> around the axis.</p>
+      <ul>
+        <li><strong>Ring:</strong> \( I = MR^2 \)</li>
+        <li><strong>Solid Cylinder / Disc:</strong> \( I = \frac{1}{2}MR^2 \)</li>
+        <li><strong>Hollow Sphere:</strong> \( I = \frac{2}{3}MR^2 \)</li>
+        <li><strong>Solid Sphere:</strong> \( I = \frac{2}{5}MR^2 \)</li>
+      </ul>
+      <p>The factor multiplying \( MR^2 \) is often called \( k^2/R^2 \), where \( k \) is the radius of gyration. Smaller \( k^2/R^2 \) means the mass is closer to the center, making it easier to rotate.</p>
+    </section>
+
+    <section id="concept-2" class="mb-8">
+      <h2>2. Pure Rolling on an Incline</h2>
+      <p>In pure rolling (\( v = \omega R \)), friction does no work, so mechanical energy is conserved.</p>
+      <p>The acceleration of an object rolling down an incline of angle \( \theta \) is:</p>
+      <div class="card bg-neutral-50 text-center font-bold text-lg mb-4">
+        $$ a = \frac{g \sin\theta}{1 + \frac{k^2}{R^2}} $$
+      </div>
+      <p>Notice the denominator. An object with a <strong>smaller</strong> \( I \) (smaller \( k^2/R^2 \)) will have a <strong>larger</strong> acceleration and reach the bottom first.</p>
+    </section>
+
+    <!-- BEAT 4: Worked Examples -->
+    <section id="examples" class="mb-8">
+      <h2>Worked Example: Racing Shapes</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> A solid sphere and a solid cylinder of the same mass and radius are released from rest at the top of an inclined plane. Which reaches the bottom first?</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the \( k^2/R^2 \) values.</p>
+        <p>Solid Sphere: \( \frac{2}{5} = 0.4 \)</p>
+        <p>Solid Cylinder: \( \frac{1}{2} = 0.5 \)</p>
+        <p><strong>Step 2:</strong> Compare accelerations. \( a \propto \frac{1}{1 + k^2/R^2} \). The sphere has a smaller denominator, so it has a larger acceleration.</p>
+        <p><strong>Answer:</strong> The solid sphere reaches the bottom first.</p>
+      </div>
+    </section>
+
+    <!-- BEAT 5: "How ERB Asks It" Box -->
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>ERB will try to trick you by saying "A sphere of mass 10kg and a cylinder of mass 2kg". <strong>Mass and radius DO NOT MATTER</strong> in the race. Acceleration only depends on the <em>shape</em> factor (\( k^2/R^2 \)).</p>
+      </div>
+    </section>
+
+    <!-- BEAT 6: Recap Bullets -->
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Ring (\( 1 \)) > Hollow Sphere (\( 2/3 \)) > Solid Cylinder (\( 1/2 \)) > Solid Sphere (\( 2/5 \)).</li>
+        <li>Smaller \( I \) = Faster acceleration down the incline.</li>
+        <li>Pure rolling means \( v_{cm} = \omega R \).</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 7: Embedded Recall Quiz -->
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <!-- Optional: Embedded Slides -->
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-03.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <!-- Optional: Punjabi Voiceover / Transcript -->
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4 text-neutral-800 leading-relaxed">
+          <p>ਹੈਲੋ ਦੋਸਤੋ! ਅੱਜ ਦਾ ਟੌਪਿਕ ਹੈ Rigid Body Dynamics. ਬਹੁਤ ਬੱਚਿਆਂ ਨੂੰ ਇਹ ਔਖਾ ਲੱਗਦਾ ਹੈ, ਪਰ ERB ਵਿੱਚ ਇਸਦੇ ਸਵਾਲ ਬਹੁਤ ਸਿੱਧੇ ਹੁੰਦੇ ਨੇ। ਜੇ ਤੁਹਾਨੂੰ Moment of Inertia ਯਾਦ ਹੈ, ਤਾਂ ਤੁਹਾਡੇ ਨੰਬਰ ਪੱਕੇ!</p>
+          <p>ਸਭ ਤੋਂ ਮਸ਼ਹੂਰ ਸਵਾਲ: ਇੱਕ ਢਲਾਨ ਤੋਂ ਇੱਕ ਗੋਲਾ (Solid Sphere) ਅਤੇ ਇੱਕ ਸਿਲੰਡਰ (Solid Cylinder) ਇਕੱਠੇ ਛੱਡੇ ਗਏ। ਥੱਲੇ ਪਹਿਲਾਂ ਕੌਣ ਪਹੁੰਚੇਗਾ? ਧਿਆਨ ਦਿਓ, ਇੱਥੇ ਭਾਰ (mass) ਜਾਂ ਸਾਈਜ਼ ਦਾ ਕੋਈ ਫਰਕ ਨਹੀਂ ਪੈਂਦਾ। ਫਰਕ ਪੈਂਦਾ ਹੈ ਸ਼ੇਪ ਦਾ, ਯਾਨੀ \( k^2/R^2 \) factor ਦਾ। ਜਿਸਦੀ ਇਹ ਵੈਲਿਊ ਘੱਟ ਹੋਵੇਗੀ, ਉਹ ਤੇਜ਼ ਦੌੜੇਗਾ।</p>
+          <p>ਗੋਲੇ (Solid Sphere) ਲਈ ਇਹ 2/5 (ਯਾਨੀ 0.4) ਹੁੰਦਾ ਹੈ। ਸਿਲੰਡਰ ਲਈ 1/2 (ਯਾਨੀ 0.5) ਹੁੰਦਾ ਹੈ। ਕਿਉਂਕਿ ਗੋਲੇ ਦੀ ਵੈਲਿਊ ਘੱਟ ਹੈ, ਇਸ ਲਈ ਉਹ ਪਹਿਲਾਂ ਪਹੁੰਚੇਗਾ।</p>
+          <p>ਇੱਕ ਟ੍ਰਿਕ ਯਾਦ ਰੱਖਿਓ: ਜੋ ਅੰਦਰੋਂ ਜਿੰਨਾ ਜ਼ਿਆਦਾ ਭਰਿਆ ਹੋਵੇਗਾ (Solid), ਉਹ ਓਨਾ ਤੇਜ਼ ਚੱਲੇਗਾ। ਖਾਲੀ (Hollow) ਚੀਜ਼ਾਂ ਹੌਲੀ ਚੱਲਦੀਆਂ ਹਨ।</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Navigation -->
+    <div style="display: flex; justify-content: space-between; border-top: 1px solid var(--color-neutral-200); padding-top: var(--space-4);">
+      <a href="lesson-02.html" class="btn btn-ghost">&larr; Previous Lesson</a>
+      <a href="index.html" class="btn btn-primary">Back to Module &rarr;</a>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../../../assets/js/quiz-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new QuizEngine('lesson-quiz-container', 'quiz/lesson-03.json');
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Quantum Numbers & Orbitals - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .orbital-s {
+      fill: var(--color-primary-100);
+      stroke: var(--color-primary-600);
+      stroke-width: 4;
+    }
+    .orbital-p {
+      fill: var(--color-accent-100);
+      stroke: var(--color-accent-600);
+      stroke-width: 4;
+    }
+    .axis {
+      stroke: var(--color-neutral-800);
+      stroke-width: 2;
+      stroke-dasharray: 4, 4;
+    }
+    .label {
+      font-family: var(--font-display);
+      font-size: 24px;
+      font-weight: 600;
+      fill: var(--color-neutral-800);
+      text-anchor: middle;
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Quantum Numbers & Orbitals</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਕੁਆਂਟਮ ਨੰਬਰ ਅਤੇ ਔਰਬਿਟਲ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Chemistry Module: Atomic Structure & Bonding</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: Address of Electron -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>The "Address" of an Electron</h2>
+          <ul>
+            <li><strong>n (Principal):</strong> Shell (Size/Energy) $\rightarrow 1, 2, 3...$</li>
+            <li><strong>l (Azimuthal):</strong> Subshell (Shape) $\rightarrow 0, 1, 2...(n-1)$</li>
+            <li><strong>m$_l$ (Magnetic):</strong> Orbital (Orientation) $\rightarrow -l$ to $+l$</li>
+            <li><strong>m$_s$ (Spin):</strong> Spin direction $\rightarrow +\frac{1}{2}, -\frac{1}{2}$</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: Shapes -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Shapes of Orbitals</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 600 300" class="svg-diagram">
+              <!-- s-orbital -->
+              <circle cx="150" cy="150" r="60" class="orbital-s"/>
+              <line x1="150" y1="50" x2="150" y2="250" class="axis"/>
+              <line x1="50" y1="150" x2="250" y2="150" class="axis"/>
+              <text x="150" y="250" class="label">s-orbital ($l=0$)</text>
+              <text x="150" y="280" class="label" style="font-size:16px;">Spherical</text>
+
+              <!-- p-orbital -->
+              <path d="M 450 150 C 500 50, 500 50, 450 50 C 400 50, 400 50, 450 150 C 500 250, 500 250, 450 250 C 400 250, 400 250, 450 150" class="orbital-p"/>
+              <line x1="450" y1="30" x2="450" y2="270" class="axis"/>
+              <line x1="350" y1="150" x2="550" y2="150" class="axis"/>
+              <text x="450" y="250" class="label">p-orbital ($l=1$)</text>
+              <text x="450" y="280" class="label" style="font-size:16px;">Dumbbell</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 4: Rule Breaker -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>The Golden Rule</h2>
+          <div class="stat-number my-8" style="font-size: 4rem; color: var(--color-danger);">$ l < n $</div>
+          <p class="text-2xl">If $n=2$, $l$ CANNOT be 2.<br>Thus, "2d" orbitals do not exist!</p>
+        </div>
+      </div>
+
+      <!-- Slide 5: Nodes -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>Counting Nodes (Zero Probability)</h2>
+          <ul>
+            <li><strong>Angular Nodes:</strong> $l$</li>
+            <li><strong>Radial Nodes:</strong> $n - l - 1$</li>
+            <li><strong>Total Nodes:</strong> $(n - 1)$</li>
+          </ul>
+          <p class="mt-8 text-xl" style="color: var(--color-primary-700);">Example: For a 3p orbital ($n=3, l=1$):<br>Angular = 1, Radial = 3-1-1 = 1. Total = 2.</p>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Check for Invalid Sets</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>Is $l$ strictly less than $n$?</li>
+            <li>Is $m_l$ between $-l$ and $+l$?</li>
+            <li>Is $m_s$ exactly $+1/2$ or $-1/2$?</li>
+            <li>If YES to all $\rightarrow$ Valid Set!</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

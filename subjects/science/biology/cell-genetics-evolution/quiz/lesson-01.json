@@ -1,0 +1,60 @@
+{
+  "id": "bio-cell-l01",
+  "title": "Cell Division Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Prophase I",
+      "q": "During which stage of Prophase I does crossing over occur?",
+      "qPa": "Prophase I ਦੇ ਕਿਸ ਪੜਾਅ ਦੌਰਾਨ crossing over ਹੁੰਦੀ ਹੈ?",
+      "options": [
+        "Zygotene",
+        "Pachytene",
+        "Diplotene",
+        "Diakinesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "Crossing over (exchange of genetic material between non-sister chromatids) occurs during the Pachytene stage, facilitated by recombination nodules.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q2",
+      "topic": "S Phase",
+      "q": "A cell has 14 chromosomes and 2C amount of DNA in G1 phase. What will be the number of chromosomes and the amount of DNA after the S phase?",
+      "options": [
+        "14 chromosomes, 4C DNA",
+        "28 chromosomes, 4C DNA",
+        "14 chromosomes, 2C DNA",
+        "28 chromosomes, 2C DNA"
+      ],
+      "answerIndex": 0,
+      "explanation": "In the S phase, DNA replicates so the amount doubles (2C to 4C). However, the sister chromatids remain attached to the same centromere, so the chromosome number remains the same (14)."
+    },
+    {
+      "id": "q3",
+      "topic": "Meiosis Anaphase",
+      "q": "Which of the following events occurs during Anaphase I of meiosis?",
+      "options": [
+        "Splitting of centromeres",
+        "Separation of sister chromatids",
+        "Separation of homologous chromosomes",
+        "Formation of synaptonemal complex"
+      ],
+      "answerIndex": 2,
+      "explanation": "In Anaphase I, homologous chromosomes separate and move to opposite poles. The centromeres do NOT split (that happens in Anaphase II)."
+    },
+    {
+      "id": "q4",
+      "topic": "Prophase I",
+      "q": "The X-shaped structures representing the sites of crossing over are called Chiasmata. In which stage do they become clearly visible?",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diplotene"
+      ],
+      "answerIndex": 3,
+      "explanation": "As the synaptonemal complex dissolves in Diplotene, the homologous chromosomes separate except at the sites of crossover, making the X-shaped chiasmata clearly visible."
+    }
+  ]
+}
