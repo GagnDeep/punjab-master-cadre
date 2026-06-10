@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Course Catalog - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="assets/css/design-system.css">
+  <style>
+    .courses-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: var(--space-6);
+    }
+  </style>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="courses.html" style="color: white; border-bottom: 2px solid var(--color-accent-400);">Courses</a>
+        <a href="demo/lesson.html">Demo</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8">
+    <h1 class="mb-2">Course Catalog</h1>
+    <p class="mb-8" style="color: var(--color-neutral-600);">Select your subject to begin preparation.</p>
+
+    <div id="loading" class="text-center p-8">Loading catalog...</div>
+    <div id="courses-grid" class="courses-grid" style="display: none;"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    async function loadCatalog() {
+      const grid = document.getElementById('courses-grid');
+      const loader = document.getElementById('loading');
+
+      try {
+        const response = await fetch('assets/data/course.json');
+        if (!response.ok) throw new Error('Network response was not ok');
+        const data = await response.json();
+
+        loader.style.display = 'none';
+        grid.style.display = 'grid';
+
+        data.subjects.forEach(subject => {
+          const totalModules = subject.modules.length;
+          const availableModules = subject.modules.filter(m => m.status === 'available').length;
+          const progressPercent = totalModules > 0 ? Math.round((availableModules / totalModules) * 100) : 0;
+
+          const card = document.createElement('div');
+          card.className = 'card';
+          card.innerHTML = `
+            <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: var(--space-2);">
+              <h3 style="margin-bottom: 0;">${subject.name}</h3>
+              <span class="badge badge-neutral">${subject.paperInfo}</span>
+            </div>
+            <p class="pa mb-4" style="color: var(--color-primary-600); font-weight: 600;">${subject.namePa}</p>
+
+            <p class="text-sm mb-2 text-neutral-600">${totalModules} Modules Total</p>
+
+            <div class="progress-container mb-2">
+              <div class="progress-bar" style="width: ${progressPercent}%"></div>
+            </div>
+            <p class="text-xs mb-4 text-neutral-500">${availableModules} of ${totalModules} available</p>
+
+            <a href="subjects/${subject.slug}/index.html" class="btn btn-primary btn-block ${availableModules === 0 ? 'disabled' : ''}" ${availableModules === 0 ? 'onclick="event.preventDefault();"' : ''}>
+               ${availableModules === 0 ? 'Coming Soon' : 'View Subject'}
+            </a>
+          `;
+          grid.appendChild(card);
+        });
+
+      } catch (error) {
+        console.error("Failed to load catalog:", error);
+        loader.innerHTML = `<div class="callout callout-warning"><p>Failed to load course catalog. Are you running a local web server?</p></div>`;
+      }
+    }
+
+    document.addEventListener('DOMContentLoaded', loadCatalog);
+  </script>
+</body>
+</html>

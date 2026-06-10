@@ -1,0 +1,131 @@
+{
+  "tracks": ["A", "B", "C", "D"],
+  "subjects": [
+    {
+      "slug": "punjabi-qualifying",
+      "name": "Punjabi Qualifying",
+      "namePa": "ਪੰਜਾਬੀ (ਕੁਆਲੀਫਾਇੰਗ)",
+      "paperInfo": "Mandatory qualifying paper",
+      "modules": [
+        { "id": "pbi-q-01", "title": "Orientation", "estVideos": 1, "status": "available" },
+        { "id": "pbi-q-02", "title": "Lipi & Varnmala", "estVideos": 2, "status": "available" },
+        { "id": "pbi-q-03", "title": "Shabad-Jorh", "estVideos": 1, "status": "coming-soon" },
+        { "id": "pbi-q-04", "title": "Grammar: Gender, Number, Tense", "estVideos": 3, "status": "coming-soon" },
+        { "id": "pbi-q-05", "title": "Muhavare & Akhan", "estVideos": 2, "status": "coming-soon" },
+        { "id": "pbi-q-06", "title": "Vocabulary", "estVideos": 2, "status": "coming-soon" },
+        { "id": "pbi-q-07", "title": "Comprehension", "estVideos": 1, "status": "coming-soon" },
+        { "id": "pbi-q-08", "title": "Translation", "estVideos": 1, "status": "coming-soon" },
+        { "id": "pbi-q-09", "title": "Composition", "estVideos": 1, "status": "coming-soon" },
+        { "id": "pbi-q-10", "title": "Mock Papers", "estVideos": 1, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "english",
+      "name": "English",
+      "namePa": "ਅੰਗਰੇਜ਼ੀ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "eng-01", "title": "Literature by Age (Elizabethan to Contemporary)", "estVideos": 15, "status": "coming-soon" },
+        { "id": "eng-02", "title": "Indian English Writers", "estVideos": 5, "status": "coming-soon" },
+        { "id": "eng-03", "title": "Literary Terms & Criticism", "estVideos": 5, "status": "coming-soon" },
+        { "id": "eng-04", "title": "Grammar & Linguistics (Phonetics, Morphology, Syntax, TGG, Socio/Psycholinguistics)", "estVideos": 10, "status": "coming-soon" },
+        { "id": "eng-05", "title": "Pedagogy", "estVideos": 5, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "punjabi",
+      "name": "Punjabi",
+      "namePa": "ਪੰਜਾਬੀ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "pbi-01", "title": "Gurmat, Sufi, Kissa, Beer & Modern Poetry", "estVideos": 10, "status": "coming-soon" },
+        { "id": "pbi-02", "title": "Vaartak", "estVideos": 5, "status": "coming-soon" },
+        { "id": "pbi-03", "title": "Fiction & Drama", "estVideos": 5, "status": "coming-soon" },
+        { "id": "pbi-04", "title": "Autobiography & Forms", "estVideos": 5, "status": "coming-soon" },
+        { "id": "pbi-05", "title": "Folk Literature", "estVideos": 5, "status": "coming-soon" },
+        { "id": "pbi-06", "title": "Vyakaran", "estVideos": 5, "status": "coming-soon" },
+        { "id": "pbi-07", "title": "Pedagogy", "estVideos": 5, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "hindi",
+      "name": "Hindi",
+      "namePa": "ਹਿੰਦੀ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "hin-01", "title": "Aadikaal – Reetikaal", "estVideos": 8, "status": "coming-soon" },
+        { "id": "hin-02", "title": "Adhunik Kaal", "estVideos": 8, "status": "coming-soon" },
+        { "id": "hin-03", "title": "Gadya", "estVideos": 8, "status": "coming-soon" },
+        { "id": "hin-04", "title": "Sameeksha Siddhant", "estVideos": 6, "status": "coming-soon" },
+        { "id": "hin-05", "title": "Vyakaran", "estVideos": 5, "status": "coming-soon" },
+        { "id": "hin-06", "title": "Pedagogy", "estVideos": 5, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "mathematics",
+      "name": "Mathematics",
+      "namePa": "ਗਣਿਤ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "math-01", "title": "Algebra", "estVideos": 8, "status": "coming-soon" },
+        { "id": "math-02", "title": "Calculus", "estVideos": 10, "status": "coming-soon" },
+        { "id": "math-03", "title": "Trigonometry", "estVideos": 5, "status": "coming-soon" },
+        { "id": "math-04", "title": "Coordinate & 3D Geometry", "estVideos": 8, "status": "coming-soon" },
+        { "id": "math-05", "title": "Linear Algebra", "estVideos": 6, "status": "coming-soon" },
+        { "id": "math-06", "title": "Statistics & Probability", "estVideos": 7, "status": "coming-soon" },
+        { "id": "math-07", "title": "Pedagogy + Speed Techniques", "estVideos": 6, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "science",
+      "name": "Science",
+      "namePa": "ਵਿਗਿਆਨ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "sci-01", "title": "Physics (11 Modules)", "estVideos": 30, "status": "coming-soon" },
+        { "id": "sci-02", "title": "Chemistry (Physical, Inorganic, Organic)", "estVideos": 30, "status": "coming-soon" },
+        { "id": "sci-03", "title": "Biology (8 Areas)", "estVideos": 25, "status": "coming-soon" },
+        { "id": "sci-04", "title": "Pedagogy", "estVideos": 5, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "social-studies",
+      "name": "Social Studies",
+      "namePa": "ਸਮਾਜਿਕ ਸਿੱਖਿਆ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "sst-01", "title": "Punjab History", "estVideos": 8, "status": "coming-soon" },
+        { "id": "sst-02", "title": "India History", "estVideos": 10, "status": "coming-soon" },
+        { "id": "sst-03", "title": "World History", "estVideos": 5, "status": "coming-soon" },
+        { "id": "sst-04", "title": "Geography", "estVideos": 8, "status": "coming-soon" },
+        { "id": "sst-05", "title": "Polity", "estVideos": 8, "status": "coming-soon" },
+        { "id": "sst-06", "title": "Economics", "estVideos": 5, "status": "coming-soon" },
+        { "id": "sst-07", "title": "Punjab GK", "estVideos": 3, "status": "coming-soon" },
+        { "id": "sst-08", "title": "Pedagogy", "estVideos": 3, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "dpe",
+      "name": "DPE",
+      "namePa": "ਡੀ.ਪੀ.ਈ.",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "dpe-01", "title": "15 Modules per Standard PE Syllabus", "estVideos": 30, "status": "coming-soon" }
+      ]
+    },
+    {
+      "slug": "art-and-craft",
+      "name": "Art and Craft",
+      "namePa": "ਆਰਟ ਐਂਡ ਕਰਾਫਟ",
+      "paperInfo": "150 MCQs / 150 Mins",
+      "modules": [
+        { "id": "art-01", "title": "Indian & Western Art History", "estVideos": 4, "status": "coming-soon" },
+        { "id": "art-02", "title": "Painting Schools", "estVideos": 3, "status": "coming-soon" },
+        { "id": "art-03", "title": "Design & Colour", "estVideos": 3, "status": "coming-soon" },
+        { "id": "art-04", "title": "Drawing & Sculpture", "estVideos": 4, "status": "coming-soon" },
+        { "id": "art-05", "title": "Crafts", "estVideos": 3, "status": "coming-soon" },
+        { "id": "art-06", "title": "Methodology", "estVideos": 3, "status": "coming-soon" }
+      ]
+    }
+  ]
+}
