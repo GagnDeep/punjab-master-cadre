@@ -110,7 +110,21 @@
       "namePa": "ਡੀ.ਪੀ.ਈ.",
       "paperInfo": "150 MCQs / 150 Mins",
       "modules": [
-        { "id": "dpe-01", "title": "15 Modules per Standard PE Syllabus", "estVideos": 30, "status": "coming-soon" }
+        { "id": "dpe-01", "title": "Introduction, History, Aims & Importance of PE", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-02", "title": "Development of PE in India", "estVideos": 1, "status": "coming-soon" },
+        { "id": "dpe-03", "title": "Human Body Systems \u2014 circulatory, muscular, respiratory, nervous, digestive, excretory", "estVideos": 4, "status": "coming-soon" },
+        { "id": "dpe-04", "title": "Sports & General Psychology, Social Aspects of PE", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-05", "title": "Health Science & Communicable Diseases", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-06", "title": "Growth & Development, Intoxicants, Balanced Diet", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-07", "title": "Physical Fitness, Training Methods, Warm-up/Cool-down", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-08", "title": "Injuries & First Aid", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-09", "title": "Kinesiology \u2014 Levers, Equilibrium, Motion", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-10", "title": "Major Events \u2014 Olympics, Asian, Commonwealth, Awards, Punjab Sports Bodies", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-11", "title": "Yoga, Pranayam, Asana", "estVideos": 2, "status": "coming-soon" },
+        { "id": "dpe-12", "title": "Athletics & Playground Measurements", "estVideos": 3, "status": "coming-soon" },
+        { "id": "dpe-13", "title": "Computer Basics", "estVideos": 1, "status": "coming-soon" },
+        { "id": "dpe-14", "title": "Recreation, Massage, Sports Management, Fixtures", "estVideos": 1, "status": "coming-soon" },
+        { "id": "dpe-15", "title": "Pedagogy of PE + PYQ", "estVideos": 2, "status": "coming-soon" }
       ]
     },
     {
