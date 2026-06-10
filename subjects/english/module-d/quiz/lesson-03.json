@@ -1,0 +1,136 @@
+{
+  "id": "mod-d-les-03",
+  "title": "Recall Quiz: Morphology & Word Formation",
+  "questions": [
+    {
+      "id": "l3q1",
+      "topic": "Morphemes",
+      "q": "Which of the following is a bound morpheme?",
+      "options": [
+        "Dog",
+        "Unhappy",
+        "-ness",
+        "Quick"
+      ],
+      "answerIndex": 2,
+      "explanation": "'-ness' cannot stand alone and must be attached to a root."
+    },
+    {
+      "id": "l3q2",
+      "topic": "Word Formation",
+      "q": "The word 'brunch' is an example of:",
+      "options": [
+        "Compounding",
+        "Blending",
+        "Clipping",
+        "Acronym"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blending combines parts of two words (breakfast + lunch)."
+    },
+    {
+      "id": "l3q3",
+      "topic": "Morphemes",
+      "q": "What type of morpheme changes the grammatical category of a word?",
+      "options": [
+        "Inflectional",
+        "Derivational",
+        "Free",
+        "Root"
+      ],
+      "answerIndex": 1,
+      "explanation": "Derivational morphemes change the word class (e.g., happy -> happiness)."
+    },
+    {
+      "id": "l3q4",
+      "topic": "Word Formation",
+      "q": "Creating 'ad' from 'advertisement' is called:",
+      "options": [
+        "Clipping",
+        "Blending",
+        "Acronym",
+        "Backformation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Clipping is shortening a longer word without changing its meaning."
+    },
+    {
+      "id": "l3q5",
+      "topic": "Morphemes",
+      "q": "The '-ed' in 'walked' is an example of what kind of morpheme?",
+      "options": [
+        "Derivational",
+        "Inflectional",
+        "Free",
+        "Prefix"
+      ],
+      "answerIndex": 1,
+      "explanation": "'-ed' shows tense and is therefore an inflectional morpheme."
+    },
+    {
+      "id": "l3q6",
+      "topic": "Word Formation",
+      "q": "Words like 'NASA' and 'laser' are:",
+      "options": [
+        "Initialisms",
+        "Acronyms",
+        "Blends",
+        "Compounds"
+      ],
+      "answerIndex": 1,
+      "explanation": "Acronyms are formed from initial letters and pronounced as a single word."
+    },
+    {
+      "id": "l3q7",
+      "topic": "Word Formation",
+      "q": "Combining 'black' and 'board' to make 'blackboard' is:",
+      "options": [
+        "Blending",
+        "Clipping",
+        "Compounding",
+        "Derivation"
+      ],
+      "answerIndex": 2,
+      "explanation": "Compounding joins two free morphemes together."
+    },
+    {
+      "id": "l3q8",
+      "topic": "Morphemes",
+      "q": "How many morphemes are in the word 'unbelievable'?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "un- + believe + -able = 3 morphemes."
+    },
+    {
+      "id": "l3q9",
+      "topic": "Word Formation",
+      "q": "Creating the verb 'edit' from the noun 'editor' is an example of:",
+      "options": [
+        "Backformation",
+        "Clipping",
+        "Derivation",
+        "Conversion"
+      ],
+      "answerIndex": 0,
+      "explanation": "Backformation removes an apparent affix to create a new word."
+    },
+    {
+      "id": "l3q10",
+      "topic": "Word Formation",
+      "q": "Using 'google' as a verb ('I will google it') is an example of:",
+      "options": [
+        "Compounding",
+        "Conversion/Zero Derivation",
+        "Blending",
+        "Coinage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Conversion changes a word's class without adding any affixes."
+    }
+  ]
+}

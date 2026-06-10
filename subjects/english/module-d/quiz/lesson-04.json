@@ -1,0 +1,136 @@
+{
+  "id": "mod-d-les-04",
+  "title": "Recall Quiz: Syntax & Phrase Structure Rules",
+  "questions": [
+    {
+      "id": "l4q1",
+      "topic": "Syntax",
+      "q": "What does the phrase structure rule S -> NP VP mean?",
+      "options": [
+        "A sentence becomes a noun phrase.",
+        "A noun phrase and a verb phrase are interchangeable.",
+        "A sentence consists of a Noun Phrase and a Verb Phrase.",
+        "Syntax relies on Nouns and Verbs."
+      ],
+      "answerIndex": 2,
+      "explanation": "It dictates the fundamental structure of an English sentence."
+    },
+    {
+      "id": "l4q2",
+      "topic": "Syntax",
+      "q": "In the sentence 'The cat slept', what is 'The cat'?",
+      "options": [
+        "Verb Phrase",
+        "Noun Phrase",
+        "Prepositional Phrase",
+        "Adjective Phrase"
+      ],
+      "answerIndex": 1,
+      "explanation": "It functions as the subject, forming a Noun Phrase (Det + N)."
+    },
+    {
+      "id": "l4q3",
+      "topic": "Ambiguity",
+      "q": "A sentence that has two or more distinct underlying structural interpretations has:",
+      "options": [
+        "Lexical ambiguity",
+        "Structural ambiguity",
+        "Semantic ambiguity",
+        "Phonological ambiguity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Structural ambiguity occurs when a sentence can be parsed in multiple ways."
+    },
+    {
+      "id": "l4q4",
+      "topic": "Syntax",
+      "q": "Which rule describes an NP?",
+      "options": [
+        "NP -> V NP",
+        "NP -> P NP",
+        "NP -> (Det) (Adj) N",
+        "NP -> N V"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Noun Phrase centers around a noun, optionally preceded by determiners and adjectives."
+    },
+    {
+      "id": "l4q5",
+      "topic": "Syntax",
+      "q": "What is the head of a Verb Phrase (VP)?",
+      "options": [
+        "Noun",
+        "Verb",
+        "Preposition",
+        "Adverb"
+      ],
+      "answerIndex": 1,
+      "explanation": "The head (core word) of a VP is always a verb."
+    },
+    {
+      "id": "l4q6",
+      "topic": "Syntax Trees",
+      "q": "In a syntax tree, words themselves are at the:",
+      "options": [
+        "Root",
+        "Nodes",
+        "Leaves/Terminal nodes",
+        "Branches"
+      ],
+      "answerIndex": 2,
+      "explanation": "The words are the final elements, represented as leaves at the bottom of the tree."
+    },
+    {
+      "id": "l4q7",
+      "topic": "Syntax",
+      "q": "A Prepositional Phrase (PP) typically consists of:",
+      "options": [
+        "P + VP",
+        "P + NP",
+        "NP + P",
+        "V + PP"
+      ],
+      "answerIndex": 1,
+      "explanation": "A preposition must be followed by its object, which is a Noun Phrase."
+    },
+    {
+      "id": "l4q8",
+      "topic": "Syntax",
+      "q": "What kind of grammar was developed by Noam Chomsky?",
+      "options": [
+        "Traditional Grammar",
+        "Descriptive Grammar",
+        "Transformational Generative Grammar",
+        "Prescriptive Grammar"
+      ],
+      "answerIndex": 2,
+      "explanation": "TGG is Chomsky's foundational contribution to syntax."
+    },
+    {
+      "id": "l4q9",
+      "topic": "Syntax",
+      "q": "Which of these is NOT a phrase type?",
+      "options": [
+        "NP",
+        "VP",
+        "PP",
+        "DP (Determiner Phrase)"
+      ],
+      "answerIndex": 3,
+      "explanation": "While DP exists in advanced theory, standard basic PS rules focus on NP, VP, PP, AP."
+    },
+    {
+      "id": "l4q10",
+      "topic": "Ambiguity",
+      "q": "'Flying planes can be dangerous.' This is an example of:",
+      "options": [
+        "Lexical Ambiguity",
+        "Structural Ambiguity",
+        "Morphological Ambiguity",
+        "Semantic Ambiguity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Is the act of flying dangerous, or are the planes themselves dangerous? The structure is ambiguous."
+    }
+  ]
+}

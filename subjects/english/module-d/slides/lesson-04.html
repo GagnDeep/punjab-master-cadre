@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 4 - Syntax & Phrase Structure Rules</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Outfit:wght@600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slide-stage" id="stage">
+    <div class="slide active slide-title" id="slide-1">
+      <div class="slide-content">
+        <div class="kicker">Module D • Lesson 4</div>
+        <h1>Syntax & Phrase Structure Rules</h1>
+      </div>
+    </div
+    <div class="slide slide-bullet" id="slide-2">
+      <div class="slide-content">
+        <h2>Syntax Basics</h2>
+        <ul><li>The study of the rules governing sentence structure.</li><li>How words combine to form phrases and sentences.</li><li>Ensures grammatical correctness independent of meaning.</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-3">
+      <div class="slide-content">
+        <h2>Phrase Structure Rules</h2>
+        <ul><li>Rules that describe the internal structure of sentences.</li><li>S -> NP VP (A sentence consists of a Noun Phrase and a Verb Phrase).</li><li>Generates the hierarchical structure of language.</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-diagram" id="slide-4">
+      <div class="slide-content">
+        <h2>Syntax Tree Diagram</h2>
+        <div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+          <svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+            <text x="200" y="40" fill="var(--color-primary-600)" font-family="Outfit" font-weight="bold" font-size="20" text-anchor="middle">S</text>
+            <path d="M 200 50 L 100 100" stroke="var(--color-neutral-400)" stroke-width="2"/>
+            <path d="M 200 50 L 300 100" stroke="var(--color-neutral-400)" stroke-width="2"/>
+            <text x="100" y="130" fill="var(--color-accent-600)" font-family="Outfit" font-weight="bold" font-size="18" text-anchor="middle">NP</text>
+            <text x="300" y="130" fill="var(--color-accent-600)" font-family="Outfit" font-weight="bold" font-size="18" text-anchor="middle">VP</text>
+            <path d="M 100 140 L 50 200" stroke="var(--color-neutral-400)" stroke-width="2"/>
+            <path d="M 100 140 L 150 200" stroke="var(--color-neutral-400)" stroke-width="2"/>
+            <path d="M 300 140 L 250 200" stroke="var(--color-neutral-400)" stroke-width="2"/>
+            <path d="M 300 140 L 350 200" stroke="var(--color-neutral-400)" stroke-width="2"/>
+            <text x="50" y="230" fill="var(--color-neutral-700)" font-family="Inter" font-size="16" text-anchor="middle">Det</text>
+            <text x="50" y="260" fill="var(--color-neutral-500)" font-family="Inter" font-size="14" text-anchor="middle">The</text>
+            <text x="150" y="230" fill="var(--color-neutral-700)" font-family="Inter" font-size="16" text-anchor="middle">N</text>
+            <text x="150" y="260" fill="var(--color-neutral-500)" font-family="Inter" font-size="14" text-anchor="middle">cat</text>
+            <text x="250" y="230" fill="var(--color-neutral-700)" font-family="Inter" font-size="16" text-anchor="middle">V</text>
+            <text x="250" y="260" fill="var(--color-neutral-500)" font-family="Inter" font-size="14" text-anchor="middle">slept</text>
+            <text x="350" y="230" fill="var(--color-neutral-700)" font-family="Inter" font-size="16" text-anchor="middle">PP</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-5">
+      <div class="slide-content">
+        <h2>Noun Phrase (NP)</h2>
+        <ul><li>A phrase built around a Noun head.</li><li>Rule: NP -> (Det) (Adj) N (PP).</li><li>Example: 'The quick brown fox'.</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-6">
+      <div class="slide-content">
+        <h2>Verb Phrase (VP)</h2>
+        <ul><li>A phrase built around a Verb head.</li><li>Rule: VP -> V (NP) (PP).</li><li>Example: 'slept under the tree'.</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-7">
+      <div class="slide-content">
+        <h2>Prepositional Phrase (PP)</h2>
+        <ul><li>A phrase consisting of a Preposition and a Noun Phrase.</li><li>Rule: PP -> P NP.</li><li>Example: 'in the house', 'on the table'.</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-8">
+      <div class="slide-content">
+        <h2>Structural Ambiguity</h2>
+        <ul><li>When a single sentence has multiple valid underlying structures.</li><li>Results in two or more distinct meanings.</li><li>Example: 'I saw the man with the telescope.'</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-9">
+      <div class="slide-content">
+        <h2>Recursion</h2>
+        <ul><li>The ability to embed phrases within phrases indefinitely.</li><li>Allows human language to express infinite ideas.</li><li>Example: 'The cat that chased the mouse that ate the cheese...'</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-10">
+      <div class="slide-content">
+        <h2>Deep vs. Surface Structure</h2>
+        <ul><li><b>Deep Structure:</b> The abstract, underlying semantic meaning.</li><li><b>Surface Structure:</b> The actual syntactic form that is spoken.</li><li>Transformations map deep to surface.</li></ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet" id="slide-11">
+      <div class="slide-content">
+        <h2>Exam Tips</h2>
+        <ul><li>Know S -> NP VP by heart.</li><li>Be able to identify phrase types within a sentence.</li><li>Understand how ambiguity relates to tree structures.</li></ul>
+      </div>
+    </div>
+
+  </div>
+  <div class="controls">
+    <button id="btn-prev" class="btn btn-ghost" disabled>Prev</button>
+    <div class="progress-indicator"><span id="current-slide">1</span> / <span id="total-slides">11</span></div>
+    <button id="btn-next" class="btn btn-primary">Next</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>
