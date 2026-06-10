@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-16",
+  "title": "Recall Quiz: Contemporary Age: Larkin, Heaney, Orwell, Golding, Rushdie, Naipaul",
+  "questions": [
+    {
+      "id": "l16q01",
+      "topic": "Quotes",
+      "q": "The famous line 'All animals are equal, but some animals are more equal than others' appears in which work?",
+      "options": [
+        "Lord of the Flies",
+        "1984",
+        "Animal Farm",
+        "Midnight's Children"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is the ultimate corrupted commandment in Orwell's 'Animal Farm'.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "l16q02",
+      "topic": "Works",
+      "q": "George Orwell's novel '1984', which introduced concepts like 'Big Brother' and 'Thought Police', belongs to which literary genre?",
+      "options": [
+        "Utopia",
+        "Magic Realism",
+        "Dystopia",
+        "Picaresque"
+      ],
+      "answerIndex": 2,
+      "explanation": "A dystopia is an imagined state or society in which there is great suffering or injustice, typically totalitarian."
+    },
+    {
+      "id": "l16q03",
+      "topic": "Themes",
+      "q": "William Golding's 'Lord of the Flies' primarily argues that:",
+      "options": [
+        "Children are inherently pure and innocent.",
+        "British culture is superior to others.",
+        "There is an inherent darkness and savagery in human nature.",
+        "Proper education can solve all social problems."
+      ],
+      "answerIndex": 2,
+      "explanation": "The boys quickly shed civilization and resort to murder, proving humanity's inherent darkness."
+    },
+    {
+      "id": "l16q04",
+      "topic": "Authors",
+      "q": "Philip Larkin was a leading figure of which 1950s British poetry group that favored colloquial language and traditional forms over Modernist complexity?",
+      "options": [
+        "The Pre-Raphaelites",
+        "The Bloomsbury Group",
+        "The Movement",
+        "The Imagists"
+      ],
+      "answerIndex": 2,
+      "explanation": "Larkin and 'The Movement' reacted against the excesses of Dylan Thomas and T.S. Eliot."
+    },
+    {
+      "id": "l16q05",
+      "topic": "Works",
+      "q": "Which novel by Salman Rushdie uses 'Magic Realism' to tell the story of children born at the exact moment of India's independence?",
+      "options": [
+        "The Satanic Verses",
+        "A House for Mr Biswas",
+        "The God of Small Things",
+        "Midnight's Children"
+      ],
+      "answerIndex": 3,
+      "explanation": "Midnight's Children links the protagonist Saleem Sinai's life directly to the history of India."
+    },
+    {
+      "id": "l16q06",
+      "topic": "Terminology",
+      "q": "The literary style that seamlessly blends fantastical or magical elements with an otherwise realistic, mundane environment is known as:",
+      "options": [
+        "Stream of Consciousness",
+        "Social Realism",
+        "Magic Realism",
+        "Theatre of the Absurd"
+      ],
+      "answerIndex": 2,
+      "explanation": "Magic Realism is heavily associated with Salman Rushdie and Latin American authors."
+    },
+    {
+      "id": "l16q07",
+      "topic": "Authors",
+      "q": "Which post-colonial author, born in Trinidad to Indian descendants, wrote 'A House for Mr Biswas'?",
+      "options": [
+        "Salman Rushdie",
+        "V.S. Naipaul",
+        "Chinua Achebe",
+        "Derek Walcott"
+      ],
+      "answerIndex": 1,
+      "explanation": "Naipaul's works often deal with alienation and the lingering effects of colonialism."
+    },
+    {
+      "id": "l16q08",
+      "topic": "Authors",
+      "q": "Seamus Heaney, the Nobel Prize-winning poet famous for his poems about bogs and rural landscapes, is from which country?",
+      "options": [
+        "Scotland",
+        "Wales",
+        "Ireland",
+        "England"
+      ],
+      "answerIndex": 2,
+      "explanation": "Heaney is one of Ireland's greatest modern poets."
+    }
+  ]
+}

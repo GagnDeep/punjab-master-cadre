@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-01",
+  "title": "Recall Quiz: The Elizabethan Age & Christopher Marlowe",
+  "questions": [
+    {
+      "id": "l01q01",
+      "topic": "University Wits",
+      "q": "Who among the following is generally NOT considered one of the 'University Wits'?",
+      "options": [
+        "Christopher Marlowe",
+        "Robert Greene",
+        "Ben Jonson",
+        "Thomas Nashe"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ben Jonson belongs to the later Jacobean era and was not part of the University Wits.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "l01q02",
+      "topic": "Marlowe",
+      "q": "The phrase 'Marlowe's mighty line' was coined by:",
+      "options": [
+        "William Shakespeare",
+        "Ben Jonson",
+        "Thomas Kyd",
+        "Philip Sidney"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ben Jonson used this phrase in his tribute to Shakespeare to praise Marlowe's powerful use of blank verse."
+    },
+    {
+      "id": "l01q03",
+      "topic": "Works",
+      "q": "In which play does the protagonist sell his soul to the devil in exchange for 24 years of absolute knowledge?",
+      "options": [
+        "The Jew of Malta",
+        "Tamburlaine the Great",
+        "Edward II",
+        "Doctor Faustus"
+      ],
+      "answerIndex": 3,
+      "explanation": "Doctor Faustus is Marlowe's tragic masterpiece about a scholar's pact with the devil."
+    },
+    {
+      "id": "l01q04",
+      "topic": "Characteristics",
+      "q": "What is 'blank verse'?",
+      "options": [
+        "Rhymed iambic pentameter",
+        "Unrhymed iambic pentameter",
+        "Free verse with no meter",
+        "Unrhymed trochaic tetrameter"
+      ],
+      "answerIndex": 1,
+      "explanation": "Blank verse consists of unrhymed lines in iambic pentameter, heavily popularized by Marlowe."
+    },
+    {
+      "id": "l01q05",
+      "topic": "Context",
+      "q": "The Elizabethan age coincided with which major cultural movement spreading through Europe?",
+      "options": [
+        "The Enlightenment",
+        "The Renaissance",
+        "Romanticism",
+        "Neo-Classicism"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Renaissance, with its focus on humanism, deeply influenced Elizabethan literature."
+    },
+    {
+      "id": "l01q06",
+      "topic": "Works",
+      "q": "Which play by Marlowe heavily influenced Shakespeare's 'The Merchant of Venice'?",
+      "options": [
+        "Doctor Faustus",
+        "The Jew of Malta",
+        "Edward II",
+        "Dido, Queen of Carthage"
+      ],
+      "answerIndex": 1,
+      "explanation": "Marlowe's character Barabas in The Jew of Malta is a clear precursor to Shakespeare's Shylock."
+    },
+    {
+      "id": "l01q07",
+      "topic": "University Wits",
+      "q": "Which of the following playwrights is grouped with the University Wits despite not having attended a university?",
+      "options": [
+        "John Lyly",
+        "George Peele",
+        "Thomas Kyd",
+        "Thomas Lodge"
+      ],
+      "answerIndex": 2,
+      "explanation": "Thomas Kyd, author of The Spanish Tragedy, is grouped with them due to his style and association, despite lacking a university degree."
+    },
+    {
+      "id": "l01q08",
+      "topic": "Marlowe",
+      "q": "Marlowe's tragic heroes are typically characterized by:",
+      "options": [
+        "A fatal flaw of indecision",
+        "An overreaching, insatiable ambition",
+        "A desire for peaceful retirement",
+        "Strict adherence to religious dogma"
+      ],
+      "answerIndex": 1,
+      "explanation": "Marlovian heroes like Faustus and Tamburlaine are driven by an overwhelming lust for power, knowledge, or wealth."
+    }
+  ]
+}

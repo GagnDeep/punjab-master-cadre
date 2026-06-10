@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-15",
+  "title": "Recall Quiz: Modern Age II: Yeats, Shaw, Beckett",
+  "questions": [
+    {
+      "id": "l15q01",
+      "topic": "Works",
+      "q": "The famous lines 'Things fall apart; the centre cannot hold' appear in which prophetic poem by W.B. Yeats?",
+      "options": [
+        "Sailing to Byzantium",
+        "Easter, 1916",
+        "The Second Coming",
+        "Leda and the Swan"
+      ],
+      "answerIndex": 2,
+      "explanation": "This poem envisions the breakdown of society after WWI.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "l15q02",
+      "topic": "Genres",
+      "q": "George Bernard Shaw revolutionized the English stage by creating which type of play, focused on intellectual debate and social critique?",
+      "options": [
+        "The Revenge Tragedy",
+        "The Drama of Ideas (Problem Play)",
+        "The Comedy of Humours",
+        "The Closet Drama"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shaw despised melodrama and used the stage as a platform for debate."
+    },
+    {
+      "id": "l15q03",
+      "topic": "Works",
+      "q": "In Shaw's 'Pygmalion', Professor Henry Higgins wagers that he can pass off a flower girl as a duchess simply by doing what?",
+      "options": [
+        "Buying her expensive clothes",
+        "Teaching her upper-class English pronunciation",
+        "Faking an aristocratic family tree",
+        "Marrying her to a Duke"
+      ],
+      "answerIndex": 1,
+      "explanation": "The play is a satire on how the British class system judges people primarily on their accents."
+    },
+    {
+      "id": "l15q04",
+      "topic": "Movements",
+      "q": "Samuel Beckett's 'Waiting for Godot' is the defining masterpiece of which post-WWII theatrical movement?",
+      "options": [
+        "The Theatre of Cruelty",
+        "Epic Theatre",
+        "The Theatre of the Absurd",
+        "Kitchen Sink Realism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Absurdist theatre strips away traditional plot to reflect the existential meaninglessness of life."
+    },
+    {
+      "id": "l15q05",
+      "topic": "Plot",
+      "q": "Which of the following best describes the plot of 'Waiting for Godot'?",
+      "options": [
+        "A political assassination gone wrong",
+        "Two tramps waiting endlessly on a barren road for a man who never arrives",
+        "A complex murder mystery solved by a detective",
+        "A family dispute over a large inheritance"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is famously known as a play where 'nothing happens, twice'."
+    },
+    {
+      "id": "l15q06",
+      "topic": "Works",
+      "q": "Which poem by Yeats deals with the theme of aging and the desire to escape the physical body into the eternal world of art?",
+      "options": [
+        "Sailing to Byzantium",
+        "The Lake Isle of Innisfree",
+        "The Second Coming",
+        "Among School Children"
+      ],
+      "answerIndex": 0,
+      "explanation": "Byzantium represents an eternal, artificial world of perfect art."
+    },
+    {
+      "id": "l15q07",
+      "topic": "Works",
+      "q": "Shaw's play 'Arms and the Man' is primarily a satire targeting:",
+      "options": [
+        "The education system",
+        "The romanticized, glorious view of war and soldiers",
+        "Religious hypocrisy",
+        "The institution of marriage"
+      ],
+      "answerIndex": 1,
+      "explanation": "It contrasts the romantic ideals of war with the unheroic reality of actual soldiers."
+    },
+    {
+      "id": "l15q08",
+      "topic": "Authors",
+      "q": "Which of these three Irish writers was a central figure in the 'Irish Literary Revival' and a founder of the Abbey Theatre?",
+      "options": [
+        "James Joyce",
+        "George Bernard Shaw",
+        "W.B. Yeats",
+        "Samuel Beckett"
+      ],
+      "answerIndex": 2,
+      "explanation": "Yeats was deeply committed to reviving Irish mythology and cultural identity."
+    }
+  ]
+}

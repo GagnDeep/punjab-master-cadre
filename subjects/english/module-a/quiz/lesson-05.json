@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-05",
+  "title": "Recall Quiz: John Milton",
+  "questions": [
+    {
+      "id": "l05q01",
+      "topic": "Works",
+      "q": "What is the stated purpose of Milton's Paradise Lost?",
+      "options": [
+        "To chronicle the English Civil War",
+        "To justify the ways of God to men",
+        "To praise the reign of Oliver Cromwell",
+        "To explain the origins of the universe"
+      ],
+      "answerIndex": 1,
+      "explanation": "Milton states this explicitly in the opening lines of Book 1.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "l05q02",
+      "topic": "Structure",
+      "q": "How many books did the second edition (1674) of Paradise Lost contain?",
+      "options": [
+        "10",
+        "12",
+        "14",
+        "24"
+      ],
+      "answerIndex": 1,
+      "explanation": "The original 1667 edition had 10 books, but it was reorganized into 12 for the second edition."
+    },
+    {
+      "id": "l05q03",
+      "topic": "Quotes",
+      "q": "Who speaks the line 'Better to reign in Hell, than serve in Heaven' in Paradise Lost?",
+      "options": [
+        "Adam",
+        "God",
+        "Beelzebub",
+        "Satan"
+      ],
+      "answerIndex": 3,
+      "explanation": "Satan says this in Book 1, establishing his rebellious character."
+    },
+    {
+      "id": "l05q04",
+      "topic": "Prose",
+      "q": "Milton's 'Areopagitica' is a passionate defense of:",
+      "options": [
+        "The Monarchy",
+        "Divorce",
+        "Freedom of the Press",
+        "Puritan Theology"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is a famous prose polemic against licensing and censorship."
+    },
+    {
+      "id": "l05q05",
+      "topic": "Biography",
+      "q": "Which major physical disability afflicted Milton during the writing of his greatest works?",
+      "options": [
+        "Deafness",
+        "Paralysis",
+        "Blindness",
+        "Leprosy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Milton went completely blind in 1652 and had to dictate his late masterpieces."
+    },
+    {
+      "id": "l05q06",
+      "topic": "Works",
+      "q": "Which of Milton's works is a 'closet drama' about a blind biblical hero?",
+      "options": [
+        "Lycidas",
+        "Samson Agonistes",
+        "Comus",
+        "Paradise Regained"
+      ],
+      "answerIndex": 1,
+      "explanation": "Samson Agonistes tells the story of the blinded Samson and parallels Milton's own life."
+    },
+    {
+      "id": "l05q07",
+      "topic": "Form",
+      "q": "In what poetic form is Paradise Lost written?",
+      "options": [
+        "Heroic Couplets",
+        "Spenserian Stanzas",
+        "Blank Verse",
+        "Free Verse"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is written in unrhymed iambic pentameter, or blank verse."
+    },
+    {
+      "id": "l05q08",
+      "topic": "Works",
+      "q": "Milton's 'Lycidas' is a pastoral elegy written to mourn the death of:",
+      "options": [
+        "His wife",
+        "Oliver Cromwell",
+        "Edward King",
+        "William Shakespeare"
+      ],
+      "answerIndex": 2,
+      "explanation": "He wrote it to commemorate his Cambridge friend, Edward King."
+    }
+  ]
+}

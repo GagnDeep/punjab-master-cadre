@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-09",
+  "title": "Recall Quiz: Rise of the Novel: Addison & Fielding",
+  "questions": [
+    {
+      "id": "l09q01",
+      "topic": "Essays",
+      "q": "Which two writers famously collaborated on the periodical 'The Spectator'?",
+      "options": [
+        "Alexander Pope and Jonathan Swift",
+        "Joseph Addison and Richard Steele",
+        "Daniel Defoe and Henry Fielding",
+        "Samuel Johnson and James Boswell"
+      ],
+      "answerIndex": 1,
+      "explanation": "Addison and Steele were the leading figures of the periodical essay movement.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "l09q02",
+      "topic": "Terms",
+      "q": "A novel written entirely as a series of documents or letters is known as:",
+      "options": [
+        "A picaresque novel",
+        "A Gothic novel",
+        "An epistolary novel",
+        "A Bildungsroman"
+      ],
+      "answerIndex": 2,
+      "explanation": "Epistolary novels, popularized by Richardson, are composed of letters."
+    },
+    {
+      "id": "l09q03",
+      "topic": "Works",
+      "q": "Which novel, often considered the first true English novel, details the 28-year survival of a castaway on an island?",
+      "options": [
+        "Gulliver's Travels",
+        "Tom Jones",
+        "Robinson Crusoe",
+        "Moll Flanders"
+      ],
+      "answerIndex": 2,
+      "explanation": "Daniel Defoe's Robinson Crusoe (1719) is a landmark in literary realism."
+    },
+    {
+      "id": "l09q04",
+      "topic": "Terms",
+      "q": "Henry Fielding's 'Tom Jones' follows the episodic adventures of a wandering, lovable rogue. This genre is called:",
+      "options": [
+        "Epistolary",
+        "Picaresque",
+        "Utopian",
+        "Pastoral"
+      ],
+      "answerIndex": 1,
+      "explanation": "The picaresque novel (from the Spanish 'picaro' meaning rogue) details the episodic journey of a lower-class hero."
+    },
+    {
+      "id": "l09q05",
+      "topic": "Rivalries",
+      "q": "Henry Fielding wrote 'Shamela' as a direct, mocking parody of which highly moralistic novel?",
+      "options": [
+        "Moll Flanders",
+        "Clarissa",
+        "Robinson Crusoe",
+        "Pamela"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fielding found Richardson's 'Pamela' hypocritical and parodied it with 'Shamela'."
+    },
+    {
+      "id": "l09q06",
+      "topic": "Context",
+      "q": "The rise of the English novel in the 18th century was closely linked to the growth of which social class?",
+      "options": [
+        "The Aristocracy",
+        "The Clergy",
+        "The Middle Class",
+        "The Peasantry"
+      ],
+      "answerIndex": 2,
+      "explanation": "The growing middle class (bourgeoisie) desired realistic literature reflecting their own lives."
+    },
+    {
+      "id": "l09q07",
+      "topic": "Authors",
+      "q": "Who among the following is NOT considered one of the 'Four Wheels of the English Novel'?",
+      "options": [
+        "Daniel Defoe",
+        "Jonathan Swift",
+        "Samuel Richardson",
+        "Tobias Smollett"
+      ],
+      "answerIndex": 1,
+      "explanation": "While Swift wrote Gulliver's Travels (a satire), the 'Four Wheels' are Defoe, Richardson, Fielding, and Smollett."
+    },
+    {
+      "id": "l09q08",
+      "topic": "Characters",
+      "q": "Sir Roger de Coverley is a famous fictional character associated with which publication?",
+      "options": [
+        "The Tatler",
+        "The Rambler",
+        "The Spectator",
+        "The Review"
+      ],
+      "answerIndex": 2,
+      "explanation": "He was a prominent member of the fictional club in Addison and Steele's 'The Spectator'."
+    }
+  ]
+}

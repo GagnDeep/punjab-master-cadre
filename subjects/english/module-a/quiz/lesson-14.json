@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-14",
+  "title": "Recall Quiz: Modern Age I: T.S. Eliot, Woolf, Joyce",
+  "questions": [
+    {
+      "id": "l14q01",
+      "topic": "Context & Dates",
+      "q": "In what year were both T.S. Eliot's 'The Waste Land' and James Joyce's 'Ulysses' published, marking a high point of literary Modernism?",
+      "options": [
+        "1914",
+        "1918",
+        "1922",
+        "1929"
+      ],
+      "answerIndex": 2,
+      "explanation": "1922 is famously considered the 'miracle year' of Modernism.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "l14q02",
+      "topic": "Techniques",
+      "q": "The narrative technique used by Woolf and Joyce to represent the unfiltered, continuous flow of a character's internal thoughts is called:",
+      "options": [
+        "Dramatic Monologue",
+        "Free Indirect Discourse",
+        "Stream of Consciousness",
+        "Magic Realism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stream of Consciousness breaks traditional syntax to mimic raw thought."
+    },
+    {
+      "id": "l14q03",
+      "topic": "Quotes",
+      "q": "What is the famous opening line of T.S. Eliot's 'The Waste Land'?",
+      "options": [
+        "It was the best of times, it was the worst of times",
+        "April is the cruellest month",
+        "Things fall apart; the centre cannot hold",
+        "I wandered lonely as a cloud"
+      ],
+      "answerIndex": 1,
+      "explanation": "Eliot reverses the traditional poetic celebration of spring by calling April the cruellest month."
+    },
+    {
+      "id": "l14q04",
+      "topic": "Criticism",
+      "q": "T.S. Eliot coined which critical term to describe a set of objects or a situation that serves as the formula for a particular emotion?",
+      "options": [
+        "Negative Capability",
+        "Willing Suspension of Disbelief",
+        "Objective Correlative",
+        "Pathetic Fallacy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Eliot introduced the Objective Correlative in his essay on Hamlet."
+    },
+    {
+      "id": "l14q05",
+      "topic": "Works",
+      "q": "Virginia Woolf's essay arguing that a woman must have money and her own private space in order to write fiction is titled:",
+      "options": [
+        "The Second Sex",
+        "A Vindication of the Rights of Woman",
+        "A Room of One's Own",
+        "The Madwoman in the Attic"
+      ],
+      "answerIndex": 2,
+      "explanation": "A Room of One's Own (1929) is a foundational text of feminist literary criticism."
+    },
+    {
+      "id": "l14q06",
+      "topic": "Works",
+      "q": "James Joyce's 'Ulysses' chronicles a single day in the life of Leopold Bloom. It is structurally modeled after which ancient text?",
+      "options": [
+        "The Bible",
+        "Homer's The Odyssey",
+        "Virgil's The Aeneid",
+        "Dante's Inferno"
+      ],
+      "answerIndex": 1,
+      "explanation": "Joyce patterned the everyday events of Dublin after the epic journey of Odysseus (Ulysses)."
+    },
+    {
+      "id": "l14q07",
+      "topic": "Structure",
+      "q": "Into how many distinct sections is T.S. Eliot's 'The Waste Land' divided?",
+      "options": [
+        "Three",
+        "Four",
+        "Five",
+        "Twelve"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is divided into 5 sections: The Burial of the Dead, A Game of Chess, The Fire Sermon, Death by Water, and What the Thunder Said."
+    },
+    {
+      "id": "l14q08",
+      "topic": "Works",
+      "q": "Which novel by Virginia Woolf focuses on a single day in the life of a high-society woman preparing for a party, juxtaposed with the experiences of a shell-shocked veteran?",
+      "options": [
+        "To the Lighthouse",
+        "Orlando",
+        "The Waves",
+        "Mrs. Dalloway"
+      ],
+      "answerIndex": 3,
+      "explanation": "Mrs. Dalloway explores the internal lives of Clarissa Dalloway and Septimus Smith on a June day in London."
+    }
+  ]
+}

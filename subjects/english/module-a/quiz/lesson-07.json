@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-07",
+  "title": "Recall Quiz: Restoration Age & John Dryden",
+  "questions": [
+    {
+      "id": "l07q01",
+      "topic": "Context",
+      "q": "The Restoration period in English literature begins in the year 1660, which marks:",
+      "options": [
+        "The publication of Shakespeare's First Folio",
+        "The beginning of the English Civil War",
+        "The return of the monarchy under King Charles II",
+        "The signing of the Magna Carta"
+      ],
+      "answerIndex": 2,
+      "explanation": "The monarchy was restored in 1660 after the Puritan Commonwealth.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "l07q02",
+      "topic": "Authors",
+      "q": "Who was appointed as England's first official Poet Laureate in 1668?",
+      "options": [
+        "William Wordsworth",
+        "Ben Jonson",
+        "Alexander Pope",
+        "John Dryden"
+      ],
+      "answerIndex": 3,
+      "explanation": "While Ben Jonson was the unofficial first, John Dryden received the first official royal patent."
+    },
+    {
+      "id": "l07q03",
+      "topic": "Works",
+      "q": "Dryden's 'Mac Flecknoe' is a mock-heroic satire attacking which rival poet?",
+      "options": [
+        "John Milton",
+        "Thomas Shadwell",
+        "Alexander Pope",
+        "Lord Byron"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dryden relentlessly mocks Thomas Shadwell, crowning him the ruler of the realm of Nonsense."
+    },
+    {
+      "id": "l07q04",
+      "topic": "Works",
+      "q": "Which of Dryden's plays is an adaptation of Shakespeare's 'Antony and Cleopatra'?",
+      "options": [
+        "The Way of the World",
+        "The Country Wife",
+        "All for Love",
+        "The Spanish Tragedy"
+      ],
+      "answerIndex": 2,
+      "explanation": "All for Love is Dryden's version, written to conform to classical dramatic unities."
+    },
+    {
+      "id": "l07q05",
+      "topic": "Genres",
+      "q": "The 'Comedy of Manners', popular during the Restoration, primarily satirized:",
+      "options": [
+        "Religious institutions",
+        "The rural peasantry",
+        "The affectations of the upper-class society",
+        "The monarchy directly"
+      ],
+      "answerIndex": 2,
+      "explanation": "These plays focused on the witty, often immoral behavior of high society."
+    },
+    {
+      "id": "l07q06",
+      "topic": "Works",
+      "q": "Which play is considered the masterpiece of the Restoration Comedy of Manners?",
+      "options": [
+        "Every Man in His Humour",
+        "The Way of the World",
+        "The Alchemist",
+        "Volpone"
+      ],
+      "answerIndex": 1,
+      "explanation": "William Congreve's 'The Way of the World' (1700) is the pinnacle of the genre."
+    },
+    {
+      "id": "l07q07",
+      "topic": "Authors",
+      "q": "Who is recognized as the first English woman to earn her living as a professional writer?",
+      "options": [
+        "Jane Austen",
+        "Mary Shelley",
+        "Aphra Behn",
+        "Virginia Woolf"
+      ],
+      "answerIndex": 2,
+      "explanation": "Aphra Behn broke barriers for female writers in the 17th century."
+    },
+    {
+      "id": "l07q08",
+      "topic": "Form",
+      "q": "John Dryden perfected which poetic form, heavily using it for his satires?",
+      "options": [
+        "The Spenserian Stanza",
+        "Blank Verse",
+        "The Heroic Couplet",
+        "The Sonnet"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dryden mastered the Heroic Couplet (rhyming pairs of iambic pentameter)."
+    }
+  ]
+}
