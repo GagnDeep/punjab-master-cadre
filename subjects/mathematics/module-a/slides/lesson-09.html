@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 09</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 09</div>
+      <h1 class="slide-heading">Permutations & Combinations</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Differentiate between Permutations (arrangements) and Combinations (selections).</li><li>Calculate nPr and nCr efficiently.</li><li>Solve linear arrangement problems with repeated items and restrictions.</li><li>Calculate circular permutations correctly.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>The fundamental principle of counting states that if one task can be done in 'm' ways and another in 'n' ways, both can be done in m &times; n ways. A <strong>Permutation</strong> is an arrangement where order matters. The number of ways to arrange r objects from n distinct objects is nPr = n! / (n-r)!. If objects are repeated (e.g., 'p' of one type), you divide the total arrangements by p!. A <strong>Combination</strong> is a selection where order does not matter. The number of ways to choose r objects from n is nCr = n! / [r!(n-r)!]. A crucial property for speed is nCr = nC(n-r). For <strong>circular permutations</strong>, the number of ways to arrange n distinct objects in a circle is (n-1)!, because there is no fixed starting point.</p></div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display:flex; justify-content:center; margin-top:var(--space-6);">
+        <div style="display:flex; align-items:center; gap:var(--space-2); background:var(--color-neutral-100); padding:var(--space-4); border-radius:0.5rem; border:2px dashed var(--color-primary-500);">
+            <div style="width:40px; height:40px; background:var(--color-accent-400); color:var(--color-neutral-900); display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:bold;">A</div>
+            <div style="width:40px; height:40px; background:var(--color-accent-400); color:var(--color-neutral-900); display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:bold;">B</div>
+            <div style="width:40px; height:40px; background:var(--color-accent-400); color:var(--color-neutral-900); display:flex; align-items:center; justify-content:center; border-radius:50%; font-weight:bold;">C</div>
+        </div>
+    </div>
+    <p class="text-center text-sm text-neutral-500 mt-2">Grouped unit visualization for restricted permutations</p>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Concept</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number" style="font-size:3rem; line-height:1.2;">Apply logic before formula.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>Applying the linear arrangement formula (n!) to a circular table problem. Always use (n-1)! for circles unless the positions are numbered or distinguishable.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> In how many ways can 5 boys and 4 girls sit in a row such that all girls sit together?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Treat the 4 girls as a single unit.</li><li>Total units to arrange = 5 boys + 1 (girls unit) = 6 units.</li><li>Arrange these 6 units: 6! = 720 ways.</li><li>The 4 girls can be arranged among themselves inside their unit in 4! = 24 ways.</li><li>Total arrangements = 720 &times; 24 = 17,280.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number" style="font-size:4rem;">17,280 ways.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Derangement problems (where no item occupies its original position) sometimes appear as hard questions. The formula for deranging n objects is D_n = n! * (1 - 1/1! + 1/2! - 1/3! ... + (-1)^n/n!). Memorize D_3 = 2, D_4 = 9, D_5 = 44.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Arrangement problems with specific restrictions (like vowels always together) and circular arrangements are extremely common. Understanding the difference between choosing (nCr) and arranging (nPr) is fundamental.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Permutation (Order matters): nPr = n! / (n-r)!</li><li>Combination (Order does not matter): nCr = n! / [r!(n-r)!]</li><li>Circular arrangements: (n-1)!</li><li>Repeated items: Divide by factorial of repetitions.</li><li>Grouping restriction: Treat as one unit, then multiply by internal arrangements.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 11</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 11</div>
+      <h1 class="slide-heading">Number Theory (Divisibility & Primes)</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Apply divisibility rules rapidly.</li><li>Calculate GCD and LCM using prime factorization and the Euclidean algorithm.</li><li>Understand the relationship: a &times; b = GCD(a,b) &times; LCM(a,b).</li><li>Identify prime numbers and understand the Fundamental Theorem of Arithmetic.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p><strong>Number Theory</strong> deals with the properties of integers. The <strong>Fundamental Theorem of Arithmetic</strong> states that every integer greater than 1 can be represented uniquely as a product of prime numbers. This prime factorization is the key to finding the Greatest Common Divisor (GCD) and Least Common Multiple (LCM). To find the GCD, take the lowest power of all common prime factors. To find the LCM, take the highest power of all prime factors present. A fundamental property linking two numbers is that their product equals the product of their GCD and LCM: a &times; b = GCD(a, b) &times; LCM(a, b). The <strong>Euclidean Algorithm</strong> is an efficient method for computing the GCD of two larger numbers by repeatedly dividing and finding remainders until the remainder is zero.</p></div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display:flex; flex-direction:column; align-items:center; margin-top:var(--space-4);">
+        <div style="padding:var(--space-2) var(--space-4); background:var(--color-primary-100); border-radius:0.25rem;">120</div>
+        <div style="display:flex; justify-content:space-between; width:120px; margin-top:var(--space-2);">
+            <div style="padding:var(--space-2); background:var(--color-accent-100); border-radius:50%;">12</div>
+            <div style="padding:var(--space-2); background:var(--color-accent-100); border-radius:50%;">10</div>
+        </div>
+        <div style="display:flex; justify-content:space-between; width:200px; margin-top:var(--space-2);">
+            <div style="padding:var(--space-2); background:var(--color-neutral-200); border-radius:50%;">4</div>
+            <div style="padding:var(--space-2); background:var(--color-neutral-200); border-radius:50%;">3</div>
+            <div style="padding:var(--space-2); background:var(--color-neutral-200); border-radius:50%;">2</div>
+            <div style="padding:var(--space-2); background:var(--color-neutral-200); border-radius:50%;">5</div>
+        </div>
+    </div>
+    <p class="text-center text-sm text-neutral-500 mt-2">Factor tree visualization</p>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Concept</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number" style="font-size:3rem; line-height:1.2;">Apply logic before formula.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>Applying the formula a &times; b = GCD &times; LCM to three or more numbers. This formula is STRICTLY for two numbers only. For three numbers, a &times; b &times; c &ne; GCD(a,b,c) &times; LCM(a,b,c).</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> The LCM of two numbers is 120 and their GCD is 10. If one of the numbers is 30, what is the other number?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Recall the formula: Number1 &times; Number2 = GCD &times; LCM.</li><li>Substitute the known values: 30 &times; Number2 = 10 &times; 120.</li><li>Simplify the right side: 30 &times; Number2 = 1200.</li><li>Solve for Number2: Number2 = 1200 / 30 = 40.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number" style="font-size:4rem;">The other number is 40.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Questions involving finding the number of trailing zeros in a factorial (like 100!) are essentially prime factorization questions. You just need to count the number of 5s in the prime factorization, as there are always more 2s than 5s.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Finding the GCD/HCF using the Euclidean algorithm and solving problems based on the fundamental theorem of arithmetic are common. These require quick mental math.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Every integer has a unique prime factorization.</li><li>GCD = lowest powers of common primes.</li><li>LCM = highest powers of all primes.</li><li>a &times; b = GCD(a, b) &times; LCM(a, b) (for TWO numbers only).</li><li>Consecutive integers are always co-prime.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

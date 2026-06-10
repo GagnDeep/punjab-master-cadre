@@ -1,0 +1,110 @@
+{
+  "id": "quiz-10",
+  "title": "Quiz 10",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Inequalities",
+      "q": "The solution set for -2x > 6 is:",
+      "options": [
+        "x > -3",
+        "x < -3",
+        "x > 3",
+        "x < 3"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dividing by a negative flips the sign. x < -3."
+    },
+    {
+      "id": "q2",
+      "topic": "Inequalities",
+      "q": "If |x| < 4, then x lies in:",
+      "options": [
+        "[-4, 4]",
+        "(-4, 4)",
+        "(-infinity, 4)",
+        "(-4, infinity)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Strict inequality means open intervals between -4 and 4."
+    },
+    {
+      "id": "q3",
+      "topic": "Reasoning",
+      "q": "The contrapositive of 'p implies q' is:",
+      "options": [
+        "q implies p",
+        "not q implies not p",
+        "not p implies not q",
+        "p and not q"
+      ],
+      "answerIndex": 1,
+      "explanation": "Contrapositive flips and negates both statements."
+    },
+    {
+      "id": "q4",
+      "topic": "Reasoning",
+      "q": "A statement that is always true is called a:",
+      "options": [
+        "Contradiction",
+        "Fallacy",
+        "Tautology",
+        "Converse"
+      ],
+      "answerIndex": 2,
+      "explanation": "Tautologies are universally true statements."
+    },
+    {
+      "id": "q5",
+      "topic": "Inequalities",
+      "q": "The graphical solution of y >= 2x + 1 is the region:",
+      "options": [
+        "Below the solid line",
+        "Above the solid line",
+        "Above the dashed line",
+        "Below the dashed line"
+      ],
+      "answerIndex": 1,
+      "explanation": ">= means solid line, and shading is 'above' or contains a test point."
+    },
+    {
+      "id": "q6",
+      "topic": "Reasoning",
+      "q": "Negation of 'All cats are black' is:",
+      "options": [
+        "No cats are black",
+        "Some cats are not black",
+        "Some cats are black",
+        "All cats are white"
+      ],
+      "answerIndex": 1,
+      "explanation": "The negation of 'For all x, P(x)' is 'There exists an x such that not P(x)'."
+    },
+    {
+      "id": "q7",
+      "topic": "Inequalities",
+      "q": "If x < y and c < 0, then:",
+      "options": [
+        "cx < cy",
+        "cx > cy",
+        "cx = cy",
+        "Cannot say"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multiplying by a negative number reverses the inequality."
+    },
+    {
+      "id": "q8",
+      "topic": "Reasoning",
+      "q": "If 'p implies q' is true, and p is true, then q must be:",
+      "options": [
+        "False",
+        "True",
+        "Unknown",
+        "A fallacy"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is Modus Ponens. If the implication and hypothesis are true, the conclusion is true."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Permutations & Combinations - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 09
+    </div>
+
+    <h1>Lesson 09: Permutations & Combinations</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਕ੍ਰਮਚਾਰ ਅਤੇ ਸੰਜੋਗ (Permutations & Combinations)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Arrangement problems with specific restrictions (like vowels always together) and circular arrangements are extremely common. Understanding the difference between choosing (nCr) and arranging (nPr) is fundamental.</p>
+        <p class="pa mt-2">ਸ਼ਬਦਾਂ ਨੂੰ ਤਰਤੀਬ ਦੇਣ ਵਾਲੇ ਸਵਾਲ (ਜਿਵੇਂ ਸਵਰ ਅੱਖਰ ਇਕੱਠੇ ਹੋਣ) ਬਹੁਤ ਆਮ ਹਨ। ਚੋਣ ਕਰਨ (nCr) ਅਤੇ ਤਰਤੀਬ ਦੇਣ (nPr) ਵਿਚਕਾਰ ਫਰਕ ਸਮਝਣਾ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Differentiate between Permutations (arrangements) and Combinations (selections).</li><li>Calculate nPr and nCr efficiently.</li><li>Solve linear arrangement problems with repeated items and restrictions.</li><li>Calculate circular permutations correctly.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Arrangements and Selections</h2>
+      <p>The fundamental principle of counting states that if one task can be done in 'm' ways and another in 'n' ways, both can be done in m &times; n ways. A <strong>Permutation</strong> is an arrangement where order matters. The number of ways to arrange r objects from n distinct objects is nPr = n! / (n-r)!. If objects are repeated (e.g., 'p' of one type), you divide the total arrangements by p!. A <strong>Combination</strong> is a selection where order does not matter. The number of ways to choose r objects from n is nCr = n! / [r!(n-r)!]. A crucial property for speed is nCr = nC(n-r). For <strong>circular permutations</strong>, the number of ways to arrange n distinct objects in a circle is (n-1)!, because there is no fixed starting point.</p>
+      <p>When dealing with restrictions, such as 'vowels must always be together', treat the restricted group as a single super-entity. Calculate the arrangements of the remaining entities plus the super-entity, and then multiply by the internal arrangements of the super-entity itself. For example, arranging the word 'APPLE' where 'P's are together: treat 'PP' as one unit. The units are A, L, E, and (PP). That is 4 units arranged in 4! ways. Since the 'P's are identical, their internal arrangement is 2!/2! = 1. Therefore, the total is 24. This grouping method is the most efficient way to tackle these common exam questions without getting bogged down in complex combinatorial logic.</p>
+      <p>Another high-yield area is calculating the number of straight lines or triangles that can be formed from a set of 'n' points on a plane. To form a line, you need exactly 2 points, so the number of lines is nC2. To form a triangle, you need 3 points, so the number of triangles is nC3. However, the examiner will often add a twist: what if 'm' of those points are collinear (lie on the same straight line)? For lines, you subtract the lines those collinear points would have formed and add back the single line they actually form: nC2 - mC2 + 1. For triangles, the collinear points cannot form any triangles, so you simply subtract them: nC3 - mC3. Memorizing these specific geometric combinatorics formulas will save you crucial minutes.</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>Applying the linear arrangement formula (n!) to a circular table problem. Always use (n-1)! for circles unless the positions are numbered or distinguishable.</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> In how many ways can 5 boys and 4 girls sit in a row such that all girls sit together?</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Treat the 4 girls as a single unit.</p><p><strong>Step 2:</strong> Total units to arrange = 5 boys + 1 (girls unit) = 6 units.</p><p><strong>Step 3:</strong> Arrange these 6 units: 6! = 720 ways.</p><p><strong>Step 4:</strong> The 4 girls can be arranged among themselves inside their unit in 4! = 24 ways.</p><p><strong>Step 5:</strong> Total arrangements = 720 &times; 24 = 17,280.</p>
+        <p class="mt-4"><strong>Answer:</strong> 17,280 ways.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Derangement problems (where no item occupies its original position) sometimes appear as hard questions. The formula for deranging n objects is D_n = n! * (1 - 1/1! + 1/2! - 1/3! ... + (-1)^n/n!). Memorize D_3 = 2, D_4 = 9, D_5 = 44.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Permutation (Order matters): nPr = n! / (n-r)!</li><li>Combination (Order does not matter): nCr = n! / [r!(n-r)!]</li><li>Circular arrangements: (n-1)!</li><li>Repeated items: Divide by factorial of repetitions.</li><li>Grouping restriction: Treat as one unit, then multiply by internal arrangements.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-09.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ ਜੀ! ਅੱਜ ਦਾ ਸਾਡਾ ਵਿਸ਼ਾ ਹੈ Permutations ਅਤੇ Combinations. ਗਣਿਤ ਦਾ ਇਹ ਹਿੱਸਾ ਬਹੁਤ ਹੀ ਦਿਲਚਸਪ ਹੈ ਕਿਉਂਕਿ ਇਹ ਸਾਨੂੰ ਚੀਜ਼ਾਂ ਨੂੰ ਗਿਣਨ ਅਤੇ ਤਰਤੀਬ ਦੇਣ ਦੇ ਤਰੀਕੇ ਸਿਖਾਉਂਦਾ ਹੈ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਸਾਨੂੰ Permutation ਯਾਨੀ ਕਿ 'ਤਰਤੀਬ' ਅਤੇ Combination ਯਾਨੀ ਕਿ 'ਚੋਣ' ਵਿਚਲਾ ਫਰਕ ਸਮਝਣਾ ਪਵੇਗਾ। </p><p>ਜਦੋਂ ਅਸੀਂ ਚੀਜ਼ਾਂ ਨੂੰ ਇੱਕ ਲਾਈਨ ਵਿੱਚ ਰੱਖਦੇ ਹਾਂ, ਤਾਂ ਪਹਿਲਾਂ ਕੌਣ ਆਇਆ ਅਤੇ ਬਾਅਦ ਵਿੱਚ ਕੌਣ, ਇਹ ਬਹੁਤ ਮਾਇਨੇ ਰੱਖਦਾ ਹੈ। ਇਸਨੂੰ ਅਸੀਂ Permutation ਕਹਿੰਦੇ ਹਾਂ, ਅਤੇ ਇਸਦਾ ਫਾਰਮੂਲਾ nPr ਹੁੰਦਾ ਹੈ। ਪਰ ਜਦੋਂ ਅਸੀਂ ਸਿਰਫ਼ ਇੱਕ ਟੀਮ ਬਣਾਉਣੀ ਹੈ, ਜਿਵੇਂ ਕਿ 11 ਖਿਡਾਰੀਆਂ ਦੀ ਕ੍ਰਿਕਟ ਟੀਮ, ਤਾਂ ਖਿਡਾਰੀਆਂ ਦਾ ਨਾਮ ਕਿਸੇ ਵੀ ਕ੍ਰਮ ਵਿੱਚ ਬੋਲਿਆ ਜਾਵੇ, ਟੀਮ ਉਹੀ ਰਹਿੰਦੀ ਹੈ। ਇੱਥੇ ਅਸੀਂ Combination (nCr) ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹਾਂ।</p><p>ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਸਭ ਤੋਂ ਵੱਧ ਸਵਾਲ 'ਸ਼ਰਤਾਂ' (restrictions) ਵਾਲੇ ਆਉਂਦੇ ਹਨ। ਜਿਵੇਂ ਕਿ ਇੱਕ ਸ਼ਬਦ ਦਿੱਤਾ ਹੁੰਦਾ ਹੈ ਅਤੇ ਕਿਹਾ ਜਾਂਦਾ ਹੈ ਕਿ ਸਾਰੇ ਸਵਰ (vowels) ਇਕੱਠੇ ਆਉਣੇ ਚਾਹੀਦੇ ਹਨ। ਅਜਿਹੇ ਸਵਾਲਾਂ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਸ਼ਾਰਟਕੱਟ ਹੈ - ਉਹਨਾਂ ਸਾਰੇ ਸਵਰਾਂ ਨੂੰ ਇੱਕ ਬਕਸੇ (box) ਵਿੱਚ ਬੰਦ ਕਰ ਦਿਓ ਅਤੇ ਉਸ ਬਕਸੇ ਨੂੰ ਇੱਕ ਅੱਖਰ ਮੰਨ ਲਓ। ਫਿਰ ਬਾਕੀ ਅੱਖਰਾਂ ਨਾਲ ਉਸ ਬਕਸੇ ਦੀ ਤਰਤੀਬ ਬਣਾਓ। ਅਖੀਰ ਵਿੱਚ ਬਕਸੇ ਦੇ ਅੰਦਰ ਵਾਲੇ ਅੱਖਰਾਂ ਦੀ ਆਪਸੀ ਤਰਤੀਬ ਨੂੰ ਗੁਣਾ ਕਰ ਦਿਓ। ਤੁਹਾਡਾ ਜਵਾਬ ਬਿਲਕੁਲ ਸਹੀ ਆਵੇਗਾ।</p><p>ਦੂਜੀ ਵੱਡੀ ਗਲਤੀ ਬੱਚੇ ਗੋਲ ਮੇਜ਼ (Circular table) ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚ ਕਰਦੇ ਹਨ। ਜਦੋਂ ਅਸੀਂ ਇੱਕ ਲਾਈਨ ਵਿੱਚ ਬਿਠਾਉਂਦੇ ਹਾਂ ਤਾਂ ਫਾਰਮੂਲਾ n! ਹੁੰਦਾ ਹੈ, ਪਰ ਜਦੋਂ ਗੋਲ ਮੇਜ਼ ਦੇ ਦੁਆਲੇ ਬਿਠਾਉਂਦੇ ਹਾਂ, ਤਾਂ ਕੋਈ ਸ਼ੁਰੂਆਤੀ ਬਿੰਦੂ ਨਹੀਂ ਹੁੰਦਾ। ਇਸ ਲਈ ਇੱਕ ਵਿਅਕਤੀ ਨੂੰ ਪੱਕਾ (fix) ਕਰਨਾ ਪੈਂਦਾ ਹੈ, ਜਿਸ ਕਾਰਨ ਫਾਰਮੂਲਾ (n-1)! ਬਣ ਜਾਂਦਾ ਹੈ। ਇਹ ਗੱਲ ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖਣੀ ਹੈ!</p>
+          <p>ਬੱਚਿਓ, ਜਦੋਂ ਅਸੀਂ Permutations ਅਤੇ Combinations ਦੇ ਸਵਾਲ ਕਰਦੇ ਹਾਂ, ਤਾਂ ਸਭ ਤੋਂ ਵੱਡੀ ਉਲਝਣ ਇਹ ਹੁੰਦੀ ਹੈ ਕਿ ਕਿੱਥੇ nPr ਲਗਾਉਣਾ ਹੈ ਅਤੇ ਕਿੱਥੇ nCr. ਯਾਦ ਰੱਖੋ, ਜਦੋਂ ਤੁਸੀਂ ਸਿਰਫ਼ ਚੋਣ ਕਰਨੀ ਹੈ, ਜਿਵੇਂ ਕਮੇਟੀ ਬਣਾਉਣਾ, ਤਾਂ nCr ਵਰਤੋ। ਪਰ ਜਦੋਂ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਕੁਰਸੀਆਂ 'ਤੇ ਬਿਠਾਉਣਾ ਹੈ ਜਾਂ ਪਾਸਵਰਡ ਬਣਾਉਣਾ ਹੈ, ਜਿੱਥੇ ਕ੍ਰਮ (order) ਬਦਲਣ ਨਾਲ ਨਤੀਜਾ ਬਦਲ ਜਾਂਦਾ ਹੈ, ਉੱਥੇ nPr ਦੀ ਵਰਤੋਂ ਕਰੋ। ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਅਕਸਰ ਤਾਸ਼ ਦੇ ਪੱਤਿਆਂ (playing cards) ਵਾਲੇ ਸਵਾਲ ਆਉਂਦੇ ਹਨ। ਤੁਹਾਨੂੰ ਪਤਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਕਿ 52 ਪੱਤਿਆਂ ਵਿੱਚੋਂ ਕਿੰਨੇ ਲਾਲ ਹਨ, ਕਿੰਨੇ ਕਾਲੇ, ਕਿੰਨੇ ਇੱਟ (diamonds) ਦੇ ਅਤੇ ਕਿੰਨੇ ਹੁਕਮ (spades) ਦੇ। ਜੇਕਰ ਉਹ ਪੁੱਛਦੇ ਹਨ ਕਿ 4 ਪੱਤੇ ਕੱਢਣ 'ਤੇ ਘੱਟੋ-ਘੱਟ ਇੱਕ ਪੱਤਾ ਬਾਦਸ਼ਾਹ (King) ਹੋਣ ਦੀ ਕੀ ਸੰਭਾਵਨਾ ਹੈ, ਤਾਂ ਇਸਨੂੰ ਸਿੱਧਾ ਕਰਨ ਦੀ ਬਜਾਏ, ਇਹ ਲੱਭੋ ਕਿ 'ਕੋਈ ਵੀ ਬਾਦਸ਼ਾਹ ਨਾ ਹੋਣ' ਦੀ ਕੀ ਸੰਭਾਵਨਾ ਹੈ (ਯਾਨੀ ਕਿ ਬਾਕੀ 48 ਪੱਤਿਆਂ ਵਿੱਚੋਂ 4 ਚੁਣਨਾ, 48C4) ਅਤੇ ਉਸਨੂੰ ਕੁੱਲ ਤਰੀਕਿਆਂ (52C4) ਵਿੱਚੋਂ ਘਟਾ ਦਿਓ। ਇਹ ਤਰੀਕਾ ਤੁਹਾਡਾ ਬਹੁਤ ਸਾਰਾ ਸਮਾਂ ਬਚਾਏਗਾ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-09.json');</script>
+</body></html>

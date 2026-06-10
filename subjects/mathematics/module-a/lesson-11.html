@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Theory (Divisibility & Primes) - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 11
+    </div>
+
+    <h1>Lesson 11: Number Theory (Divisibility & Primes)</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਨੰਬਰ ਥਿਊਰੀ (ਭਾਜਯੋਗਤਾ ਅਤੇ ਅਭਾਜ ਸੰਖਿਆਵਾਂ)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Finding the GCD/HCF using the Euclidean algorithm and solving problems based on the fundamental theorem of arithmetic are common. These require quick mental math.</p>
+        <p class="pa mt-2">ਯੂਕਲਿਡਿਅਨ ਐਲਗੋਰਿਦਮ ਦੀ ਵਰਤੋਂ ਕਰਕੇ HCF/LCM ਲੱਭਣ ਦੇ ਸਵਾਲ ਆਮ ਹਨ। ਇਹਨਾਂ ਲਈ ਤੇਜ਼ ਮਾਨਸਿਕ ਗਣਨਾ (mental math) ਦੀ ਲੋੜ ਹੁੰਦੀ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Apply divisibility rules rapidly.</li><li>Calculate GCD and LCM using prime factorization and the Euclidean algorithm.</li><li>Understand the relationship: a &times; b = GCD(a,b) &times; LCM(a,b).</li><li>Identify prime numbers and understand the Fundamental Theorem of Arithmetic.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Primes, GCD, and LCM</h2>
+      <p><strong>Number Theory</strong> deals with the properties of integers. The <strong>Fundamental Theorem of Arithmetic</strong> states that every integer greater than 1 can be represented uniquely as a product of prime numbers. This prime factorization is the key to finding the Greatest Common Divisor (GCD) and Least Common Multiple (LCM). To find the GCD, take the lowest power of all common prime factors. To find the LCM, take the highest power of all prime factors present. A fundamental property linking two numbers is that their product equals the product of their GCD and LCM: a &times; b = GCD(a, b) &times; LCM(a, b). The <strong>Euclidean Algorithm</strong> is an efficient method for computing the GCD of two larger numbers by repeatedly dividing and finding remainders until the remainder is zero.</p>
+      <p>Divisibility rules are your best friends for speed. A number is divisible by 3 if the sum of its digits is divisible by 3; divisible by 4 if the last two digits form a number divisible by 4; and divisible by 9 if the sum of its digits is divisible by 9. The rule for 11 is particularly tested: a number is divisible by 11 if the difference between the sum of the digits in odd positions and the sum of the digits in even positions is either 0 or a multiple of 11. Knowing these rules allows you to quickly break down large numbers into their prime factors without tedious long division.</p>
+      <p>When dealing with fractions, it is vital to know that two numbers are considered 'co-prime' or 'relatively prime' if their GCD is exactly 1. They do not have to be prime numbers themselves (e.g., 8 and 15 are co-prime). If two numbers are co-prime, their LCM is simply their product. Exam questions often exploit this by asking for the LCM of two consecutive integers. Since consecutive integers are always co-prime, their LCM is invariably their product. Recognizing this instantly saves calculation time.</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>Applying the formula a &times; b = GCD &times; LCM to three or more numbers. This formula is STRICTLY for two numbers only. For three numbers, a &times; b &times; c &ne; GCD(a,b,c) &times; LCM(a,b,c).</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> The LCM of two numbers is 120 and their GCD is 10. If one of the numbers is 30, what is the other number?</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Recall the formula: Number1 &times; Number2 = GCD &times; LCM.</p><p><strong>Step 2:</strong> Substitute the known values: 30 &times; Number2 = 10 &times; 120.</p><p><strong>Step 3:</strong> Simplify the right side: 30 &times; Number2 = 1200.</p><p><strong>Step 4:</strong> Solve for Number2: Number2 = 1200 / 30 = 40.</p>
+        <p class="mt-4"><strong>Answer:</strong> The other number is 40.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Questions involving finding the number of trailing zeros in a factorial (like 100!) are essentially prime factorization questions. You just need to count the number of 5s in the prime factorization, as there are always more 2s than 5s.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Every integer has a unique prime factorization.</li><li>GCD = lowest powers of common primes.</li><li>LCM = highest powers of all primes.</li><li>a &times; b = GCD(a, b) &times; LCM(a, b) (for TWO numbers only).</li><li>Consecutive integers are always co-prime.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-11.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਵਿਦਿਆਰਥੀਓ, ਅੱਜ ਅਸੀਂ ਨੰਬਰ ਥਿਊਰੀ (Number Theory) ਦਾ ਪਹਿਲਾ ਹਿੱਸਾ ਸ਼ੁਰੂ ਕਰਾਂਗੇ। ਇਹ ਗਣਿਤ ਦੀ ਸਭ ਤੋਂ ਪੁਰਾਣੀ ਅਤੇ ਦਿਲਚਸਪ ਸ਼ਾਖਾ ਹੈ। ਅੱਜ ਅਸੀਂ ਭਾਜਯੋਗਤਾ (Divisibility) ਅਤੇ ਅਭਾਜ ਸੰਖਿਆਵਾਂ (Prime Numbers) ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ।</p><p>ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਤੁਹਾਨੂੰ ਭਾਗ ਕਰਨ ਦੇ ਨਿਯਮ (divisibility rules) ਜ਼ਬਾਨੀ ਯਾਦ ਹੋਣੇ ਚਾਹੀਦੇ ਹਨ। ਜਿਵੇਂ ਕਿ 3 ਦਾ ਨਿਯਮ: ਜੇਕਰ ਅੰਕਾਂ ਦਾ ਜੋੜ 3 ਨਾਲ ਭਾਗ ਹੁੰਦਾ ਹੈ, ਤਾਂ ਪੂਰੀ ਰਕਮ 3 ਨਾਲ ਭਾਗ ਹੋਵੇਗੀ। ਸਭ ਤੋਂ ਜ਼ਿਆਦਾ ਸਵਾਲ 11 ਦੇ ਨਿਯਮ 'ਤੇ ਆਉਂਦੇ ਹਨ। ਇਸਦੇ ਲਈ, ਪਹਿਲੇ, ਤੀਜੇ, ਪੰਜਵੇਂ ਅੰਕ ਨੂੰ ਜੋੜੋ, ਅਤੇ ਦੂਜੇ, ਚੌਥੇ ਅੰਕ ਨੂੰ ਵੱਖਰਾ ਜੋੜੋ। ਫਿਰ ਉਹਨਾਂ ਦਾ ਅੰਤਰ (difference) ਕੱਢੋ। ਜੇਕਰ ਅੰਤਰ 0 ਜਾਂ 11 ਹੈ, ਤਾਂ ਰਕਮ 11 ਨਾਲ ਭਾਗ ਹੋਵੇਗੀ!</p><p>ਹੁਣ ਗੱਲ ਕਰਦੇ ਹਾਂ GCD (ਜਿਸਨੂੰ HCF ਵੀ ਕਹਿੰਦੇ ਹਨ) ਅਤੇ LCM ਦੀ। ਇਹਨਾਂ ਦਾ ਇੱਕ ਬਹੁਤ ਹੀ ਮਸ਼ਹੂਰ ਫਾਰਮੂਲਾ ਹੈ ਜੋ ਪੇਪਰ ਵਿੱਚ ਵਾਰ-ਵਾਰ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ: ਦੋ ਸੰਖਿਆਵਾਂ ਦੀ ਗੁਣਾ ਹਮੇਸ਼ਾ ਉਹਨਾਂ ਦੇ GCD ਅਤੇ LCM ਦੀ ਗੁਣਾ ਦੇ ਬਰਾਬਰ ਹੁੰਦੀ ਹੈ (a * b = GCD * LCM)। ਪਰ ਮੇਰੀ ਇੱਕ ਗੱਲ ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖਣਾ - ਇਹ ਫਾਰਮੂਲਾ ਸਿਰਫ਼ ਅਤੇ ਸਿਰਫ਼ ਦੋ ਸੰਖਿਆਵਾਂ ਲਈ ਕੰਮ ਕਰਦਾ ਹੈ! ਜੇਕਰ ਪੇਪਰ ਵਿੱਚ ਤਿੰਨ ਸੰਖਿਆਵਾਂ ਦਿੱਤੀਆਂ ਹੋਣ, ਤਾਂ ਇਹ ਫਾਰਮੂਲਾ ਕਦੇ ਨਾ ਲਗਾਉਣਾ।</p><p>ਇੱਕ ਹੋਰ ਛੋਟੀ ਜਿਹੀ ਗੱਲ: Co-prime ਸੰਖਿਆਵਾਂ ਕੀ ਹੁੰਦੀਆਂ ਹਨ? ਜਿਨ੍ਹਾਂ ਦਾ GCD ਸਿਰਫ਼ 1 ਹੋਵੇ। ਇਹ ਜ਼ਰੂਰੀ ਨਹੀਂ ਕਿ ਉਹ ਆਪ ਪ੍ਰਾਈਮ (Prime) ਹੋਣ। ਜਿਵੇਂ 8 ਅਤੇ 15। ਇਹਨਾਂ ਦਾ ਕੋਈ ਸਾਂਝਾ ਪਹਾੜਾ ਨਹੀਂ ਹੈ, ਇਸ ਲਈ ਇਹ Co-prime ਹਨ। ਅਤੇ Co-prime ਸੰਖਿਆਵਾਂ ਦਾ LCM ਹਮੇਸ਼ਾ ਉਹਨਾਂ ਦੀ ਸਿੱਧੀ ਗੁਣਾ ਕਰਨ ਨਾਲ ਆਉਂਦਾ ਹੈ। ਇਹ ਛੋਟੀਆਂ ਗੱਲਾਂ ਹੀ ਤੁਹਾਡੀ ਰਫ਼ਤਾਰ ਵਧਾਉਣਗੀਆਂ।</p>
+          <p>ਨੰਬਰ ਥਿਊਰੀ ਦੇ ਸਵਾਲਾਂ ਵਿੱਚ ਯੂਕਲਿਡਿਅਨ ਐਲਗੋਰਿਦਮ (Euclidean Algorithm) ਬਹੁਤ ਕੰਮ ਆਉਂਦਾ ਹੈ, ਖਾਸ ਕਰਕੇ ਜਦੋਂ ਵੱਡੀਆਂ ਸੰਖਿਆਵਾਂ ਦਾ HCF ਕੱਢਣਾ ਹੋਵੇ। ਪਰ ਜੇਕਰ ਤੁਹਾਨੂੰ ਪ੍ਰਾਈਮ ਫੈਕਟਰਾਈਜ਼ੇਸ਼ਨ (Prime Factorization) ਜਲਦੀ ਕਰਨੀ ਆਉਂਦੀ ਹੈ, ਤਾਂ ਉਹ ਵੀ ਬਹੁਤ ਵਧੀਆ ਤਰੀਕਾ ਹੈ। ਇੱਕ ਗੱਲ ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖੋ, 1 ਨਾ ਤਾਂ ਪ੍ਰਾਈਮ (Prime) ਹੈ ਅਤੇ ਨਾ ਹੀ ਕੰਪੋਜ਼ਿਟ (Composite)। ਇਹ ਸਭ ਤੋਂ ਛੋਟੀ ਅਭਾਜ ਸੰਖਿਆ ਨਹੀਂ ਹੈ, ਸਭ ਤੋਂ ਛੋਟੀ ਅਭਾਜ ਸੰਖਿਆ 2 ਹੈ, ਜੋ ਕਿ ਇਕਲੌਤੀ ਜਿਸਤ (Even) ਅਭਾਜ ਸੰਖਿਆ ਵੀ ਹੈ। ਕਈ ਵਾਰ ਪੇਪਰ ਵਿੱਚ ਸਿੱਧਾ ਪੁੱਛ ਲਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਪਹਿਲੀਆਂ 10 ਅਭਾਜ ਸੰਖਿਆਵਾਂ ਦਾ ਜੋੜ ਕੀ ਹੈ। ਅਜਿਹੇ ਸਵਾਲਾਂ ਲਈ ਤੁਹਾਨੂੰ ਘੱਟੋ-ਘੱਟ 100 ਤੱਕ ਦੀਆਂ ਸਾਰੀਆਂ ਅਭਾਜ ਸੰਖਿਆਵਾਂ ਜ਼ਬਾਨੀ ਯਾਦ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਇਸਦੇ ਨਾਲ ਹੀ ਭਾਜਯੋਗਤਾ (Divisibility) ਦੇ ਨਿਯਮ ਤੁਹਾਨੂੰ ਵੱਡੀਆਂ ਕੈਲਕੁਲੇਸ਼ਨਾਂ ਤੋਂ ਬਚਾਉਂਦੇ ਹਨ। ਇਹਨਾਂ ਦੀ ਰੋਜ਼ਾਨਾ ਪ੍ਰੈਕਟਿਸ ਕਰੋ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-11.json');</script>
+</body></html>
