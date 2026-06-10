@@ -1,0 +1,115 @@
+{
+  "id": "dpe-l07",
+  "title": "Recall Quiz: Digestive & Excretory Systems",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Digestive System",
+      "q": "In which part of the digestive system does the maximum absorption of nutrients occur?",
+      "qPa": "ਪਾਚਨ ਪ੍ਰਣਾਲੀ ਦੇ ਕਿਸ ਹਿੱਸੇ ਵਿੱਚ ਪੌਸ਼ਟਿਕ ਤੱਤਾਂ ਦੀ ਸਭ ਤੋਂ ਵੱਧ ਸਮਾਈ (absorption) ਹੁੰਦੀ ਹੈ?",
+      "options": [
+        "Stomach",
+        "Small Intestine",
+        "Large Intestine",
+        "Esophagus"
+      ],
+      "answerIndex": 1,
+      "explanation": "The small intestine is highly adapted for absorbing nutrients into the bloodstream.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "q2",
+      "topic": "Digestive System",
+      "q": "Which organ produces bile, a fluid that helps in the digestion of fats?",
+      "qPa": "ਕਿਹੜਾ ਅੰਗ ਪਿੱਤ (Bile) ਬਣਾਉਂਦਾ ਹੈ ਜੋ ਚਰਬੀ ਨੂੰ ਹਜ਼ਮ ਕਰਨ ਵਿੱਚ ਮਦਦ ਕਰਦਾ ਹੈ?",
+      "options": [
+        "Gallbladder",
+        "Pancreas",
+        "Liver",
+        "Stomach"
+      ],
+      "answerIndex": 2,
+      "explanation": "The liver produces bile, which is then sent to the gallbladder for storage."
+    },
+    {
+      "id": "q3",
+      "topic": "Digestive System",
+      "q": "What is the primary function of the large intestine?",
+      "options": [
+        "Protein digestion",
+        "Fat absorption",
+        "Water absorption",
+        "Producing insulin"
+      ],
+      "answerIndex": 2,
+      "explanation": "The large intestine mainly absorbs water from the remaining indigestible food matter."
+    },
+    {
+      "id": "q4",
+      "topic": "Digestive System",
+      "q": "Where is bile stored before it is released into the small intestine?",
+      "options": [
+        "Liver",
+        "Gallbladder",
+        "Pancreas",
+        "Spleen"
+      ],
+      "answerIndex": 1,
+      "explanation": "The gallbladder stores and concentrates bile produced by the liver."
+    },
+    {
+      "id": "q5",
+      "topic": "Excretory System",
+      "q": "What is the basic structural and functional filtering unit of the kidney?",
+      "qPa": "ਗੁਰਦੇ ਦੀ ਮੁੱਢਲੀ ਢਾਂਚਾਗਤ ਅਤੇ ਕਾਰਜਸ਼ੀਲ ਫਿਲਟਰਿੰਗ ਇਕਾਈ ਕੀ ਹੈ?",
+      "options": [
+        "Neuron",
+        "Alveolus",
+        "Nephron",
+        "Villus"
+      ],
+      "answerIndex": 2,
+      "explanation": "The nephron is the microscopic unit in the kidney that filters blood.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q6",
+      "topic": "Excretory System",
+      "q": "The primary function of the human kidneys is to:",
+      "options": [
+        "Produce red blood cells",
+        "Filter blood and produce urine",
+        "Digest proteins",
+        "Store bile"
+      ],
+      "answerIndex": 1,
+      "explanation": "Kidneys filter waste products and excess water from the blood to form urine."
+    },
+    {
+      "id": "q7",
+      "topic": "Digestive System",
+      "q": "Which enzyme, found in saliva, begins the chemical digestion of carbohydrates in the mouth?",
+      "options": [
+        "Pepsin",
+        "Lipase",
+        "Amylase",
+        "Trypsin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Salivary amylase breaks down starches into simpler sugars."
+    },
+    {
+      "id": "q8",
+      "topic": "Excretory System",
+      "q": "Besides the kidneys, which other organ plays a significant role in excreting waste (water and salts) from the body?",
+      "options": [
+        "Heart",
+        "Skin",
+        "Spleen",
+        "Pancreas"
+      ],
+      "answerIndex": 1,
+      "explanation": "The skin excretes water, salts, and small amounts of urea through sweat."
+    }
+  ]
+}

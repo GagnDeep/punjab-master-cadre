@@ -1,0 +1,114 @@
+{
+  "id": "dpe-l04",
+  "title": "Recall Quiz: Skeletal & Muscular Systems",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Skeletal System",
+      "q": "Which is the longest and strongest bone in the human body?",
+      "qPa": "ਮਨੁੱਖੀ ਸਰੀਰ ਵਿੱਚ ਸਭ ਤੋਂ ਲੰਬੀ ਅਤੇ ਮਜ਼ਬੂਤ ਹੱਡੀ ਕਿਹੜੀ ਹੈ?",
+      "options": [
+        "Humerus",
+        "Tibia",
+        "Femur",
+        "Fibula"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Femur (thigh bone) is the longest and strongest.",
+      "pyq": "ERB 2016"
+    },
+    {
+      "id": "q2",
+      "topic": "Muscular System",
+      "q": "A muscle contraction where tension is developed but the length of the muscle does NOT change is called:",
+      "qPa": "ਉਹ ਮਾਸਪੇਸ਼ੀ ਸੁੰਗੜਨ ਜਿਸ ਵਿੱਚ ਤਣਾਅ ਪੈਦਾ ਹੁੰਦਾ ਹੈ ਪਰ ਮਾਸਪੇਸ਼ੀ ਦੀ ਲੰਬਾਈ ਨਹੀਂ ਬਦਲਦੀ, ਉਸਨੂੰ ਕੀ ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+      "options": [
+        "Isotonic",
+        "Isokinetic",
+        "Eccentric",
+        "Isometric"
+      ],
+      "answerIndex": 3,
+      "explanation": "Isometric ('iso' = same, 'metric' = length) contractions involve no visible movement.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "q3",
+      "topic": "Skeletal System",
+      "q": "How many bones make up the axial skeleton in an adult human?",
+      "options": [
+        "126",
+        "80",
+        "206",
+        "64"
+      ],
+      "answerIndex": 1,
+      "explanation": "The axial skeleton (skull, spine, ribs) consists of 80 bones."
+    },
+    {
+      "id": "q4",
+      "topic": "Skeletal System",
+      "q": "The knee joint is an example of which type of joint?",
+      "options": [
+        "Ball and Socket",
+        "Pivot",
+        "Hinge",
+        "Gliding"
+      ],
+      "answerIndex": 2,
+      "explanation": "The knee and elbow are hinge joints, allowing movement primarily in one plane."
+    },
+    {
+      "id": "q5",
+      "topic": "Muscular System",
+      "q": "Which type of muscle tissue is voluntary and used primarily for sports movements?",
+      "options": [
+        "Cardiac muscle",
+        "Smooth muscle",
+        "Skeletal muscle",
+        "Involuntary muscle"
+      ],
+      "answerIndex": 2,
+      "explanation": "Skeletal muscles are attached to the skeleton and are under conscious (voluntary) control."
+    },
+    {
+      "id": "q6",
+      "topic": "Muscular System",
+      "q": "During a bicep curl, when you lower the dumbbell slowly back down, the bicep muscle lengthens under tension. This is an example of:",
+      "options": [
+        "Concentric contraction",
+        "Eccentric contraction",
+        "Isometric contraction",
+        "Isokinetic contraction"
+      ],
+      "answerIndex": 1,
+      "explanation": "An eccentric contraction is a type of isotonic contraction where the muscle lengthens while producing force."
+    },
+    {
+      "id": "q7",
+      "topic": "Skeletal System",
+      "q": "The shoulder blade is anatomically known as the:",
+      "options": [
+        "Clavicle",
+        "Sternum",
+        "Patella",
+        "Scapula"
+      ],
+      "answerIndex": 3,
+      "explanation": "The scapula is the shoulder blade."
+    },
+    {
+      "id": "q8",
+      "topic": "Muscular System",
+      "q": "Cardiac muscle is found exclusively in which organ?",
+      "options": [
+        "Stomach",
+        "Lungs",
+        "Heart",
+        "Liver"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cardiac muscle is specialized tissue found only in the heart."
+    }
+  ]
+}

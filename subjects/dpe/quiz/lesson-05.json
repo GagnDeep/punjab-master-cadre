@@ -1,0 +1,115 @@
+{
+  "id": "dpe-l05",
+  "title": "Recall Quiz: Circulatory & Respiratory Systems",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Circulatory System",
+      "q": "Which of the following blood vessels carry blood away from the heart?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜੀਆਂ ਖੂਨ ਦੀਆਂ ਨਾੜਾਂ ਖੂਨ ਨੂੰ ਦਿਲ ਤੋਂ ਦੂਰ ਲੈ ਜਾਂਦੀਆਂ ਹਨ?",
+      "options": [
+        "Veins",
+        "Capillaries",
+        "Arteries",
+        "Venules"
+      ],
+      "answerIndex": 2,
+      "explanation": "Arteries carry blood away from the heart, while veins bring it back.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "q2",
+      "topic": "Circulatory System",
+      "q": "What is the only artery in the human body that carries deoxygenated blood?",
+      "qPa": "ਮਨੁੱਖੀ ਸਰੀਰ ਵਿੱਚ ਇੱਕੋ-ਇੱਕ ਕਿਹੜੀ ਧਮਨੀ ਹੈ ਜੋ ਆਕਸੀਜਨ ਰਹਿਤ ਖੂਨ ਲੈ ਕੇ ਜਾਂਦੀ ਹੈ?",
+      "options": [
+        "Aorta",
+        "Pulmonary Artery",
+        "Carotid Artery",
+        "Coronary Artery"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Pulmonary Artery carries deoxygenated blood from the right ventricle to the lungs."
+    },
+    {
+      "id": "q3",
+      "topic": "Circulatory System",
+      "q": "The amount of blood pumped by the heart in one minute is called:",
+      "options": [
+        "Stroke Volume",
+        "Tidal Volume",
+        "Cardiac Output",
+        "Heart Rate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Cardiac Output is the total volume of blood pumped per minute (Heart Rate x Stroke Volume)."
+    },
+    {
+      "id": "q4",
+      "topic": "Respiratory System",
+      "q": "The tiny air sacs in the lungs where gas exchange occurs are called:",
+      "options": [
+        "Bronchi",
+        "Trachea",
+        "Alveoli",
+        "Diaphragm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alveoli are the microscopic sacs surrounded by capillaries where O2 enters the blood and CO2 leaves."
+    },
+    {
+      "id": "q5",
+      "topic": "Respiratory System",
+      "q": "The maximum volume of air a person can exhale after a maximal inhalation is known as:",
+      "qPa": "ਪੂਰੀ ਤਰ੍ਹਾਂ ਸਾਹ ਲੈਣ ਤੋਂ ਬਾਅਦ ਕੋਈ ਵਿਅਕਤੀ ਵੱਧ ਤੋਂ ਵੱਧ ਜਿੰਨੀ ਹਵਾ ਬਾਹਰ ਕੱਢ ਸਕਦਾ ਹੈ, ਉਸਨੂੰ ਕੀ ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+      "options": [
+        "Tidal Volume",
+        "Residual Volume",
+        "Vital Capacity",
+        "Total Lung Capacity"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vital Capacity is a key indicator of respiratory health and fitness.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q6",
+      "topic": "Circulatory System",
+      "q": "A normal resting blood pressure reading is approximately:",
+      "options": [
+        "140/90 mmHg",
+        "120/80 mmHg",
+        "100/60 mmHg",
+        "160/100 mmHg"
+      ],
+      "answerIndex": 1,
+      "explanation": "120/80 mmHg is considered the standard normal resting blood pressure."
+    },
+    {
+      "id": "q7",
+      "topic": "Respiratory System",
+      "q": "The phenomenon where an athlete suddenly feels easier breathing and relief from fatigue during prolonged exercise is called:",
+      "options": [
+        "Oxygen Debt",
+        "Second Wind",
+        "Hyperventilation",
+        "Anaerobic Threshold"
+      ],
+      "answerIndex": 1,
+      "explanation": "Second Wind occurs when the body's aerobic system fully catches up to the exercise demands."
+    },
+    {
+      "id": "q8",
+      "topic": "Circulatory System",
+      "q": "Which blood vessels contain valves to prevent the backflow of blood?",
+      "options": [
+        "Arteries",
+        "Capillaries",
+        "Aorta",
+        "Veins"
+      ],
+      "answerIndex": 3,
+      "explanation": "Veins have one-way valves because blood is returning to the heart under lower pressure, often fighting gravity."
+    }
+  ]
+}

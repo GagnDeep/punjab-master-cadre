@@ -1,0 +1,113 @@
+{
+  "id": "dpe-l09",
+  "title": "Recall Quiz: Social Aspects & Group Dynamics",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Leadership",
+      "q": "Which leadership style involves the coach making all the decisions without asking for input from the athletes?",
+      "qPa": "ਕਿਸ ਲੀਡਰਸ਼ਿਪ ਸ਼ੈਲੀ ਵਿੱਚ ਕੋਚ ਖਿਡਾਰੀਆਂ ਦੀ ਸਲਾਹ ਲਏ ਬਿਨਾਂ ਸਾਰੇ ਫੈਸਲੇ ਲੈਂਦਾ ਹੈ?",
+      "options": [
+        "Democratic",
+        "Laissez-Faire",
+        "Autocratic",
+        "Participative"
+      ],
+      "answerIndex": 2,
+      "explanation": "Autocratic (or dictatorial) leaders retain all decision-making power.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "q2",
+      "topic": "Socialization",
+      "q": "The process by which individuals learn the values, beliefs, and norms of a society through sports is known as:",
+      "options": [
+        "Socialization",
+        "Group Cohesion",
+        "Motor Learning",
+        "Extrinsic Motivation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Socialization is the sociological process of learning to participate in group life."
+    },
+    {
+      "id": "q3",
+      "topic": "Group Dynamics",
+      "q": "When a team works effectively together on the field to win a match, even if they don't socialize off the field, they are demonstrating high:",
+      "qPa": "ਜਦੋਂ ਇੱਕ ਟੀਮ ਮੈਚ ਜਿੱਤਣ ਲਈ ਮੈਦਾਨ ਵਿੱਚ ਮਿਲ ਕੇ ਕੰਮ ਕਰਦੀ ਹੈ, ਭਾਵੇਂ ਉਹ ਮੈਦਾਨ ਤੋਂ ਬਾਹਰ ਦੋਸਤ ਨਾ ਹੋਣ, ਉਹ ਕੀ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਹੇ ਹਨ?",
+      "options": [
+        "Social Cohesion",
+        "Task Cohesion",
+        "Autocratic Leadership",
+        "Laissez-Faire Cohesion"
+      ],
+      "answerIndex": 1,
+      "explanation": "Task cohesion refers to the degree to which members work together to achieve a specific, performance-related goal."
+    },
+    {
+      "id": "q4",
+      "topic": "Leadership",
+      "q": "A coach who acts as a facilitator and allows the team to make almost all decisions with minimal interference is using which leadership style?",
+      "options": [
+        "Autocratic",
+        "Democratic",
+        "Laissez-Faire",
+        "Dictatorial"
+      ],
+      "answerIndex": 2,
+      "explanation": "Laissez-Faire literally means 'let them do', characterized by a hands-off approach."
+    },
+    {
+      "id": "q5",
+      "topic": "Leadership",
+      "q": "Which leadership style is generally considered best for building trust, intrinsic motivation, and team morale in experienced athletes?",
+      "options": [
+        "Autocratic",
+        "Democratic",
+        "Laissez-Faire",
+        "Authoritarian"
+      ],
+      "answerIndex": 1,
+      "explanation": "Democratic leadership involves athletes in decision-making, increasing their investment and morale."
+    },
+    {
+      "id": "q6",
+      "topic": "Group Dynamics",
+      "q": "Which of the following is NOT a typical social benefit derived from participating in team sports?",
+      "options": [
+        "Learning fair play",
+        "Developing teamwork skills",
+        "Increasing social isolation",
+        "Understanding rule conformity"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sports generally decrease social isolation by integrating individuals into a group."
+    },
+    {
+      "id": "q7",
+      "topic": "Socialization",
+      "q": "In the context of sports, respecting the referee's decision even when you disagree is an example of:",
+      "options": [
+        "Task cohesion",
+        "Sportsmanship and fair play",
+        "Autocratic behavior",
+        "Physical fitness"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sportsmanship involves respecting the rules, officials, and opponents."
+    },
+    {
+      "id": "q8",
+      "topic": "Group Dynamics",
+      "q": "For a newly formed team of very young, inexperienced children, which leadership style might a coach need to rely on initially to establish basic order and safety?",
+      "options": [
+        "Laissez-Faire",
+        "Highly Democratic",
+        "Autocratic (Directive)",
+        "Passive"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inexperienced groups or dangerous situations often require strict, autocratic direction initially for safety and order."
+    }
+  ]
+}

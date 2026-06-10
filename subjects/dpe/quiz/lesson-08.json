@@ -1,0 +1,114 @@
+{
+  "id": "dpe-l08",
+  "title": "Recall Quiz: Foundations of Psychology",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Psychology Basics",
+      "q": "Modern psychology is most accurately defined as the scientific study of:",
+      "qPa": "ਆਧੁਨਿਕ ਮਨੋਵਿਗਿਆਨ ਨੂੰ ਸਭ ਤੋਂ ਸਹੀ ਰੂਪ ਵਿੱਚ ਕਿਸ ਦੇ ਵਿਗਿਆਨਕ ਅਧਿਐਨ ਵਜੋਂ ਪਰਿਭਾਸ਼ਤ ਕੀਤਾ ਗਿਆ ਹੈ?",
+      "options": [
+        "The soul and spirit",
+        "Behavior and mental processes",
+        "Conscious thought only",
+        "Brain anatomy"
+      ],
+      "answerIndex": 1,
+      "explanation": "Modern psychology has moved away from studying the 'soul' to studying observable behavior and mental processes.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q2",
+      "topic": "Laws of Learning",
+      "q": "According to Thorndike's Law of Effect, a behavior is strengthened if it is followed by:",
+      "options": [
+        "A satisfying result or reward",
+        "A frustrating delay",
+        "A physical punishment",
+        "A period of rest"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Law of Effect states that actions followed by positive outcomes are likely to be repeated."
+    },
+    {
+      "id": "q3",
+      "topic": "Motivation",
+      "q": "An athlete training hard primarily to win a cash prize is exhibiting:",
+      "qPa": "ਇੱਕ ਐਥਲੀਟ ਜੋ ਮੁੱਖ ਤੌਰ 'ਤੇ ਨਕਦ ਇਨਾਮ ਜਿੱਤਣ ਲਈ ਸਖ਼ਤ ਟ੍ਰੇਨਿੰਗ ਕਰਦਾ ਹੈ, ਉਹ ਕੀ ਪ੍ਰਦਰਸ਼ਿਤ ਕਰ ਰਿਹਾ ਹੈ?",
+      "options": [
+        "Intrinsic motivation",
+        "Extrinsic motivation",
+        "Intrinsic drive",
+        "Unconscious conditioning"
+      ],
+      "answerIndex": 1,
+      "explanation": "Cash is an external reward, making this extrinsic motivation.",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "q4",
+      "topic": "Laws of Learning",
+      "q": "Which of Thorndike's laws emphasizes the importance of 'practice making perfect'?",
+      "options": [
+        "Law of Readiness",
+        "Law of Effect",
+        "Law of Exercise",
+        "Law of Gravity"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Law of Exercise (or Use/Disuse) states that repeating an action strengthens the learning."
+    },
+    {
+      "id": "q5",
+      "topic": "Personality",
+      "q": "According to Carl Jung, athletes who are generally quiet, internally focused, and often prefer individual sports like archery are classified as:",
+      "options": [
+        "Extroverts",
+        "Introverts",
+        "Ambiverts",
+        "Sociopaths"
+      ],
+      "answerIndex": 1,
+      "explanation": "Introverts tend to focus inward and often thrive in precision, individual activities."
+    },
+    {
+      "id": "q6",
+      "topic": "Motivation",
+      "q": "Which type of motivation is generally considered the most durable and long-lasting for an athlete?",
+      "options": [
+        "Intrinsic motivation",
+        "Extrinsic motivation",
+        "Financial motivation",
+        "Social motivation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Intrinsic motivation (doing it for the love of the sport) lasts longer because it doesn't depend on outside factors."
+    },
+    {
+      "id": "q7",
+      "topic": "Laws of Learning",
+      "q": "If a coach tries to teach a complex tactical play to a team that is completely physically exhausted, which of Thorndike's laws is being ignored?",
+      "options": [
+        "Law of Effect",
+        "Law of Exercise",
+        "Law of Readiness",
+        "Law of Diminishing Returns"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Law of Readiness states that learners must be physically and mentally prepared to learn."
+    },
+    {
+      "id": "q8",
+      "topic": "Psychology Basics",
+      "q": "Sports psychology is primarily used to:",
+      "options": [
+        "Treat severe mental illnesses",
+        "Enhance athletic performance and manage competitive anxiety",
+        "Diagnose physical injuries",
+        "Design physical training programs"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sports psychology applies psychological principles to optimize performance and manage the mental aspects of sports."
+    }
+  ]
+}

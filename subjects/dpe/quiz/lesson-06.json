@@ -1,0 +1,114 @@
+{
+  "id": "dpe-l06",
+  "title": "Recall Quiz: Nervous & Endocrine Systems",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Endocrine System",
+      "q": "Which gland in the human body is commonly referred to as the 'Master Gland'?",
+      "qPa": "ਮਨੁੱਖੀ ਸਰੀਰ ਵਿੱਚ ਕਿਸ ਗ੍ਰੰਥੀ ਨੂੰ 'ਮਾਸਟਰ ਗ੍ਰੰਥੀ' ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+      "options": [
+        "Thyroid Gland",
+        "Pituitary Gland",
+        "Adrenal Gland",
+        "Pancreas"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Pituitary Gland is the master gland because it controls the functions of many other endocrine glands.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q2",
+      "topic": "Nervous System",
+      "q": "Which part of the brain is primarily responsible for maintaining balance, posture, and coordination?",
+      "qPa": "ਦਿਮਾਗ ਦਾ ਕਿਹੜਾ ਹਿੱਸਾ ਮੁੱਖ ਤੌਰ 'ਤੇ ਸੰਤੁਲਨ ਅਤੇ ਤਾਲਮੇਲ ਬਣਾਈ ਰੱਖਣ ਲਈ ਜ਼ਿੰਮੇਵਾਰ ਹੈ?",
+      "options": [
+        "Cerebrum",
+        "Medulla Oblongata",
+        "Hypothalamus",
+        "Cerebellum"
+      ],
+      "answerIndex": 3,
+      "explanation": "The cerebellum (the 'little brain') coordinates voluntary movements and balance.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q3",
+      "topic": "Nervous System",
+      "q": "The Central Nervous System (CNS) is composed of the brain and the:",
+      "options": [
+        "Cranial nerves",
+        "Spinal cord",
+        "Somatic nerves",
+        "Autonomic nerves"
+      ],
+      "answerIndex": 1,
+      "explanation": "The CNS consists of the brain and the spinal cord."
+    },
+    {
+      "id": "q4",
+      "topic": "Endocrine System",
+      "q": "Which hormone is known as the 'fight or flight' hormone?",
+      "options": [
+        "Insulin",
+        "Thyroxine",
+        "Adrenaline",
+        "Estrogen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Adrenaline (epinephrine) is released by the adrenal glands during high-stress or exciting situations."
+    },
+    {
+      "id": "q5",
+      "topic": "Nervous System",
+      "q": "What is the basic functional unit of the nervous system?",
+      "options": [
+        "Nephron",
+        "Neuron",
+        "Alveolus",
+        "Capillary"
+      ],
+      "answerIndex": 1,
+      "explanation": "The neuron is the nerve cell that transmits electrical signals."
+    },
+    {
+      "id": "q6",
+      "topic": "Endocrine System",
+      "q": "Which gland regulates the body's basal metabolic rate?",
+      "options": [
+        "Thyroid",
+        "Pancreas",
+        "Pituitary",
+        "Adrenal"
+      ],
+      "answerIndex": 0,
+      "explanation": "The thyroid gland produces thyroxine, which regulates metabolism."
+    },
+    {
+      "id": "q7",
+      "topic": "Nervous System",
+      "q": "Involuntary functions like breathing and heart rate are controlled by the:",
+      "options": [
+        "Cerebrum",
+        "Cerebellum",
+        "Medulla Oblongata",
+        "Frontal Lobe"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Medulla Oblongata (brain stem) controls autonomic, life-sustaining functions."
+    },
+    {
+      "id": "q8",
+      "topic": "Endocrine System",
+      "q": "Insulin, which regulates blood sugar, is produced by the:",
+      "options": [
+        "Liver",
+        "Pancreas",
+        "Kidneys",
+        "Gallbladder"
+      ],
+      "answerIndex": 1,
+      "explanation": "The pancreas secretes insulin to help cells absorb glucose from the blood."
+    }
+  ]
+}

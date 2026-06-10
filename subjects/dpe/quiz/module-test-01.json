@@ -1,0 +1,210 @@
+{
+  "id": "dpe-mt01",
+  "title": "Module 1-4 Mega Test",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mt1_q01",
+      "topic": "Definitions",
+      "q": "Who defined physical education as 'the sum of changes in the individual caused by experiences centering in motor activity'?",
+      "options": ["Voltmer", "Cassidy", "Nash", "Clark"],
+      "answerIndex": 1,
+      "explanation": "Rosalind Cassidy's definition focuses on the sum of changes caused by motor activity."
+    },
+    {
+      "id": "mt1_q02",
+      "topic": "History",
+      "q": "In ancient Greece, what was the primary aim of the Spartan education system (Agoge)?",
+      "options": ["Holistic development", "Intellectual superiority", "Military preparation", "Aesthetic beauty"],
+      "answerIndex": 2,
+      "explanation": "Sparta focused entirely on creating fierce military warriors."
+    },
+    {
+      "id": "mt1_q03",
+      "topic": "Institutions",
+      "q": "In which year was the YMCA College of Physical Education established in Madras by H.C. Buck?",
+      "options": ["1910", "1920", "1932", "1948"],
+      "answerIndex": 1,
+      "explanation": "H.C. Buck founded the YMCA College in 1920, marking the start of modern PE in India."
+    },
+    {
+      "id": "mt1_q04",
+      "topic": "Skeletal System",
+      "q": "Which is the longest bone in the human body?",
+      "qPa": "ਮਨੁੱਖੀ ਸਰੀਰ ਵਿੱਚ ਸਭ ਤੋਂ ਲੰਬੀ ਹੱਡੀ ਕਿਹੜੀ ਹੈ?",
+      "options": ["Tibia", "Humerus", "Femur", "Fibula"],
+      "answerIndex": 2,
+      "explanation": "The femur (thigh bone) is the longest and strongest bone."
+    },
+    {
+      "id": "mt1_q05",
+      "topic": "Muscular System",
+      "q": "Pushing against a solid wall is an example of which type of muscle contraction?",
+      "options": ["Isotonic", "Isometric", "Isokinetic", "Eccentric"],
+      "answerIndex": 1,
+      "explanation": "Isometric contractions involve generating force without changing muscle length."
+    },
+    {
+      "id": "mt1_q06",
+      "topic": "Circulatory System",
+      "q": "Which blood vessel carries deoxygenated blood from the heart to the lungs?",
+      "options": ["Aorta", "Pulmonary Vein", "Pulmonary Artery", "Vena Cava"],
+      "answerIndex": 2,
+      "explanation": "The Pulmonary Artery is the only artery that carries deoxygenated blood."
+    },
+    {
+      "id": "mt1_q07",
+      "topic": "Endocrine System",
+      "q": "Which gland is known as the 'Master Gland'?",
+      "qPa": "ਕਿਸ ਗ੍ਰੰਥੀ ਨੂੰ 'ਮਾਸਟਰ ਗ੍ਰੰਥੀ' ਕਿਹਾ ਜਾਂਦਾ ਹੈ?",
+      "options": ["Thyroid", "Adrenal", "Pancreas", "Pituitary"],
+      "answerIndex": 3,
+      "explanation": "The Pituitary Gland controls the functions of many other endocrine glands."
+    },
+    {
+      "id": "mt1_q08",
+      "topic": "Digestive System",
+      "q": "Where does the maximum absorption of nutrients occur in the human body?",
+      "options": ["Stomach", "Large Intestine", "Liver", "Small Intestine"],
+      "answerIndex": 3,
+      "explanation": "The small intestine is lined with villi specifically designed for maximum nutrient absorption."
+    },
+    {
+      "id": "mt1_q09",
+      "topic": "Psychology",
+      "q": "According to Thorndike's Law of Effect, a behavior is strengthened if followed by:",
+      "options": ["Physical exhaustion", "A reward or satisfying result", "A punishment", "A period of rest"],
+      "answerIndex": 1,
+      "explanation": "Positive outcomes (rewards) strengthen the connection between stimulus and response."
+    },
+    {
+      "id": "mt1_q10",
+      "topic": "Leadership",
+      "q": "A coach who makes all decisions without consulting the team is exhibiting which leadership style?",
+      "options": ["Democratic", "Laissez-Faire", "Autocratic", "Participative"],
+      "answerIndex": 2,
+      "explanation": "Autocratic leaders retain all decision-making power."
+    },
+    {
+      "id": "mt1_q11",
+      "topic": "History",
+      "q": "A 'Paidotribe' in ancient Greece was a:",
+      "options": ["Wrestling school", "Music teacher", "Physical education teacher", "Gymnasium manager"],
+      "answerIndex": 2,
+      "explanation": "A Paidotribe was a physical trainer or teacher."
+    },
+    {
+      "id": "mt1_q12",
+      "topic": "Institutions",
+      "q": "The Sports Authority of India (SAI) was established in:",
+      "options": ["1957", "1961", "1974", "1984"],
+      "answerIndex": 3,
+      "explanation": "SAI was established in 1984 to promote sports and manage infrastructure."
+    },
+    {
+      "id": "mt1_q13",
+      "topic": "Respiratory System",
+      "q": "The maximum volume of air exhaled after a maximal inhalation is called:",
+      "options": ["Tidal Volume", "Vital Capacity", "Residual Volume", "Oxygen Debt"],
+      "answerIndex": 1,
+      "explanation": "Vital Capacity measures the maximum usable capacity of the lungs."
+    },
+    {
+      "id": "mt1_q14",
+      "topic": "Nervous System",
+      "q": "Which part of the brain is responsible for balance and coordination?",
+      "options": ["Cerebrum", "Medulla", "Cerebellum", "Hypothalamus"],
+      "answerIndex": 2,
+      "explanation": "The cerebellum coordinates voluntary movements and maintains balance."
+    },
+    {
+      "id": "mt1_q15",
+      "topic": "Excretory System",
+      "q": "What is the functional filtering unit of the kidney?",
+      "options": ["Neuron", "Alveolus", "Villus", "Nephron"],
+      "answerIndex": 3,
+      "explanation": "The nephron is the microscopic unit that filters blood to form urine."
+    },
+    {
+      "id": "mt1_q16",
+      "topic": "Philosophy",
+      "q": "Which educational philosophy emphasizes 'learning by doing'?",
+      "options": ["Idealism", "Pragmatism", "Naturalism", "Realism"],
+      "answerIndex": 1,
+      "explanation": "Pragmatism, championed by John Dewey, focuses on practical, experiential learning."
+    },
+    {
+      "id": "mt1_q17",
+      "topic": "Motivation",
+      "q": "Playing a sport purely for personal enjoyment rather than for a medal is an example of:",
+      "qPa": "ਮੈਡਲ ਦੀ ਬਜਾਏ ਸਿਰਫ਼ ਨਿੱਜੀ ਆਨੰਦ ਲਈ ਖੇਡ ਖੇਡਣਾ ਕਿਸਦੀ ਉਦਾਹਰਣ ਹੈ?",
+      "options": ["Extrinsic motivation", "Task cohesion", "Intrinsic motivation", "Social cohesion"],
+      "answerIndex": 2,
+      "explanation": "Intrinsic motivation comes from within the individual for the love of the activity itself."
+    },
+    {
+      "id": "mt1_q18",
+      "topic": "Skeletal System",
+      "q": "The knee joint is an example of a:",
+      "options": ["Pivot joint", "Ball and socket joint", "Hinge joint", "Gliding joint"],
+      "answerIndex": 2,
+      "explanation": "The knee acts as a hinge, primarily allowing flexion and extension."
+    },
+    {
+      "id": "mt1_q19",
+      "topic": "Endocrine System",
+      "q": "Which hormone prepares the body for a 'fight or flight' response?",
+      "options": ["Thyroxine", "Insulin", "Adrenaline", "Estrogen"],
+      "answerIndex": 2,
+      "explanation": "Adrenaline (epinephrine) increases heart rate and blood flow during emergencies."
+    },
+    {
+      "id": "mt1_q20",
+      "topic": "Digestive System",
+      "q": "Bile is produced by the:",
+      "options": ["Gallbladder", "Liver", "Pancreas", "Stomach"],
+      "answerIndex": 1,
+      "explanation": "The liver produces bile, which is then stored in the gallbladder."
+    },
+    {
+      "id": "mt1_q21",
+      "topic": "Group Dynamics",
+      "q": "The degree to which team members work together to achieve a specific goal is called:",
+      "options": ["Social cohesion", "Task cohesion", "Autocratic behavior", "Sportsmanship"],
+      "answerIndex": 1,
+      "explanation": "Task cohesion focuses on performance and goal attainment."
+    },
+    {
+      "id": "mt1_q22",
+      "topic": "Muscular System",
+      "q": "Cardiac muscle tissue is found only in the:",
+      "options": ["Lungs", "Brain", "Heart", "Digestive tract"],
+      "answerIndex": 2,
+      "explanation": "Cardiac muscle is the specialized, involuntary muscle tissue of the heart."
+    },
+    {
+      "id": "mt1_q23",
+      "topic": "Institutions",
+      "q": "Who was the first president of the Indian Olympic Association (IOA)?",
+      "options": ["H.C. Buck", "Jawaharlal Nehru", "Sir Dorabji Tata", "Dr. P.M. Joseph"],
+      "answerIndex": 2,
+      "explanation": "Sir Dorabji Tata was elected as the first president of the IOA in 1927."
+    },
+    {
+      "id": "mt1_q24",
+      "topic": "Circulatory System",
+      "q": "Cardiac output is calculated by multiplying Heart Rate by:",
+      "options": ["Blood Pressure", "Stroke Volume", "Tidal Volume", "Vital Capacity"],
+      "answerIndex": 1,
+      "explanation": "Cardiac Output = Heart Rate × Stroke Volume."
+    },
+    {
+      "id": "mt1_q25",
+      "topic": "Definitions",
+      "q": "The phrase 'big muscle activities' is strongly associated with the definition of PE by:",
+      "options": ["Voltmer and Esslinger", "Rosalind Cassidy", "H. Clark", "John Dewey"],
+      "answerIndex": 0,
+      "explanation": "Voltmer and Esslinger defined PE as dealing with big muscle activities."
+    }
+  ]
+}
