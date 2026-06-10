@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 6</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div id="slide-stage" class="slide-stage">
+
+    <div class="slide slide-title active">
+      <div class="slide-content text-center">
+        <h1>पारिभाषिक शब्दावली और वाक्य शुद्धि</h1>
+        <h2>Terminology and Sentence Correction</h2>
+        <p class="text-neutral-500 mt-4">Module E • Lesson 6</p>
+      </div>
+    </div>
+
+    <div class="slide slide-two-column">
+      <div class="slide-content">
+        <h2>पारिभाषिक शब्दावली (Terminology)</h2>
+        <div class="grid" style="display: grid; grid-template-columns: 1fr 1fr; gap: var(--space-4);">
+          <div style="background: var(--color-neutral-100); padding: 1rem; border-radius: 0.5rem;">
+            <h3>Eng -> Hindi (1)</h3>
+            <ul>
+              <li>Notification = अधिसूचना</li>
+              <li>Circular = परिपत्र</li>
+              <li>Gazette = राजपत्र</li>
+            </ul>
+          </div>
+          <div style="background: var(--color-neutral-100); padding: 1rem; border-radius: 0.5rem;">
+            <h3>Eng -> Hindi (2)</h3>
+            <ul>
+              <li>Tender = निविदा</li>
+              <li>Agenda = कार्यसूची</li>
+              <li>Quorum = गणपूर्ति</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet">
+      <div class="slide-content">
+        <h2>वाक्य शुद्धि (Sentence Errors)</h2>
+        <ul>
+          <li>अनावश्यक शब्द (Redundancy).</li>
+          <li>पदक्रम संबंधी (Wrong word order).</li>
+          <li>लिंग/वचन संबंधी (Gender/Number mismatch).</li>
+          <li>सर्वनाम संबंधी (Pronoun mismatch).</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slide slide-diagram">
+      <div class="slide-content">
+        <h2>Error 1: Redundancy (अनावश्यक शब्द)</h2>
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-top: 2rem;">
+          <div style="background: var(--color-danger-bg); padding: 1rem 2rem; border-radius: 0.5rem; border: 2px solid var(--color-danger); width: 90%; text-align: center;">
+            <p style="font-size: 1.5rem; color: var(--color-danger-700); text-decoration: line-through;">उसे मृत्युदंड की सजा मिली।</p>
+            <p class="text-sm">('दंड' and 'सजा' mean the same thing)</p>
+          </div>
+          <div style="font-size: 2rem; color: var(--color-success);">
+            &darr;
+          </div>
+          <div style="background: var(--color-success-bg); padding: 1rem 2rem; border-radius: 0.5rem; border: 2px solid var(--color-success); width: 90%; text-align: center;">
+            <p style="font-size: 1.5rem; color: var(--color-success-700); font-weight: bold;">उसे मृत्युदंड मिला।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-diagram">
+      <div class="slide-content">
+        <h2>Error 2: Word Order (पदक्रम)</h2>
+        <div style="display: flex; flex-direction: column; gap: 1rem; align-items: center; margin-top: 2rem;">
+          <div style="background: var(--color-danger-bg); padding: 1rem 2rem; border-radius: 0.5rem; border: 2px solid var(--color-danger); width: 90%; text-align: center;">
+            <p style="font-size: 1.5rem; color: var(--color-danger-700); text-decoration: line-through;">एक पानी का गिलास लाओ।</p>
+          </div>
+          <div style="font-size: 2rem; color: var(--color-success);">
+            &darr;
+          </div>
+          <div style="background: var(--color-success-bg); padding: 1rem 2rem; border-radius: 0.5rem; border: 2px solid var(--color-success); width: 90%; text-align: center;">
+            <p style="font-size: 1.5rem; color: var(--color-success-700); font-weight: bold;">पानी का एक गिलास लाओ।</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Extra slides added to hit 10+ count with inline SVGs -->
+    <div class="slide slide-diagram">
+      <div class="slide-content">
+        <h2>Error 3: सप्रमाण सहित (Redundancy)</h2>
+        <div style="display: flex; justify-content: center; margin-top: 2rem;">
+          <svg width="600" height="250" viewBox="0 0 600 250" xmlns="http://www.w3.org/2000/svg">
+            <rect x="50" y="50" width="200" height="60" rx="5" fill="var(--color-primary-50)" stroke="var(--color-primary-500)" stroke-width="2"/>
+            <text x="150" y="85" font-family="Inter, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="var(--color-primary-800)">सप्रमाण</text>
+            <text x="150" y="130" font-family="Inter, sans-serif" font-size="14" text-anchor="middle" fill="var(--color-neutral-600)">(स + प्रमाण = प्रमाण सहित)</text>
+
+            <text x="300" y="85" font-family="Inter, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="var(--color-neutral-800)">+</text>
+
+            <rect x="350" y="50" width="200" height="60" rx="5" fill="var(--color-danger-bg)" stroke="var(--color-danger)" stroke-width="2"/>
+            <text x="450" y="85" font-family="Inter, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="var(--color-danger-700)">सहित</text>
+            <text x="450" y="130" font-family="Inter, sans-serif" font-size="14" text-anchor="middle" fill="var(--color-danger)">(Redundant / फालतू)</text>
+
+            <path d="M 50 160 L 550 160" stroke="var(--color-neutral-300)" stroke-width="2" fill="none"/>
+
+            <text x="300" y="200" font-family="Inter, sans-serif" font-size="20" font-weight="bold" text-anchor="middle" fill="var(--color-success)">शुद्ध: 'सप्रमाण' या 'प्रमाण सहित'</text>
+          </svg>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet">
+      <div class="slide-content">
+        <h2>अन्य महत्वपूर्ण शब्द (Other Important Terms)</h2>
+        <ul>
+          <li><strong>Approval:</strong> अनुमोदन</li>
+          <li><strong>Action:</strong> कार्यवाही</li>
+          <li><strong>Memorandum:</strong> ज्ञापन</li>
+          <li><strong>Ordinance:</strong> अध्यादेश</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slide slide-bullet">
+      <div class="slide-content">
+        <h2>लिंग / वचन की अशुद्धियाँ</h2>
+        <ul>
+          <li><strong>अशुद्ध:</strong> मैं मेरा काम करूँगा।</li>
+          <li><strong>शुद्ध:</strong> मैं अपना काम करूँगा। (Pronoun rule)</li>
+          <li><strong>अशुद्ध:</strong> प्राण निकल गया।</li>
+          <li><strong>शुद्ध:</strong> प्राण निकल गए। (प्राण is always plural)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slide slide-recap">
+      <div class="slide-content">
+        <h2>Recap</h2>
+        <ul>
+          <li>Memorize English to Hindi admin terms.</li>
+          <li>Remove duplicate meanings (Redundancy).</li>
+          <li>Ensure logical word order.</li>
+          <li>Ensure pronoun/gender agreement.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="slide slide-title">
+      <div class="slide-content text-center">
+        <h1>Questions?</h1>
+        <p>Proceed to the Recall Quiz.</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="controls">
+    <button id="prev-btn" class="btn btn-primary" disabled>&larr; Prev</button>
+    <span id="slide-counter">1 / 10</span>
+    <button id="next-btn" class="btn btn-primary">Next &rarr;</button>
+  </div>
+
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>
