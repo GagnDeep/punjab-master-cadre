@@ -1,0 +1,115 @@
+{
+  "id": "sst-a-04",
+  "title": "Maharaja Ranjit Singh Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Early Life & Rise",
+      "q": "To which Misl did Maharaja Ranjit Singh belong?",
+      "qPa": "ਮਹਾਰਾਜਾ ਰਣਜੀਤ ਸਿੰਘ ਕਿਸ ਮਿਸਲ ਨਾਲ ਸੰਬੰਧ ਰੱਖਦੇ ਸਨ?",
+      "options": [
+        "Bhangi Misl",
+        "Ahluwalia Misl",
+        "Sukerchakia Misl",
+        "Ramgarhia Misl"
+      ],
+      "answerIndex": 2,
+      "explanation": "Maharaja Ranjit Singh belonged to the Sukerchakia Misl, founded by his grandfather Charat Singh."
+    },
+    {
+      "id": "q2",
+      "topic": "Conquests",
+      "q": "In which year did Ranjit Singh capture Lahore from the Bhangi Sardars?",
+      "options": [
+        "1792",
+        "1799",
+        "1801",
+        "1805"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ranjit Singh captured Lahore in 1799, a turning point that led to the establishment of the Sikh Empire."
+    },
+    {
+      "id": "q3",
+      "topic": "Treaties",
+      "q": "According to the Treaty of Amritsar (1809), which river was fixed as the boundary between the Sikh Empire and British India?",
+      "qPa": "ਅੰਮ੍ਰਿਤਸਰ ਦੀ ਸੰਧੀ (1809) ਅਨੁਸਾਰ ਸਿੱਖ ਸਾਮਰਾਜ ਅਤੇ ਬ੍ਰਿਟਿਸ਼ ਭਾਰਤ ਵਿਚਕਾਰ ਕਿਹੜੀ ਨਦੀ ਨੂੰ ਹੱਦ ਮੰਨਿਆ ਗਿਆ ਸੀ?",
+      "options": [
+        "Beas",
+        "Ravi",
+        "Chenab",
+        "Sutlej"
+      ],
+      "answerIndex": 3,
+      "explanation": "The River Sutlej was established as the boundary by the Treaty of Amritsar in 1809.",
+      "pyq": "ERB 2018, 2022"
+    },
+    {
+      "id": "q4",
+      "topic": "Conquests",
+      "q": "Who was the famous Sikh general who died defending the fort of Jamrud in 1837?",
+      "options": [
+        "Akali Phula Singh",
+        "Hari Singh Nalwa",
+        "Mokham Chand",
+        "Misr Diwan Chand"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hari Singh Nalwa, the legendary commander of the Sikh Khalsa Army, died at the Battle of Jamrud in 1837."
+    },
+    {
+      "id": "q5",
+      "topic": "Administration",
+      "q": "Who among the following European officers was primarily responsible for training Maharaja Ranjit Singh's cavalry?",
+      "options": [
+        "Jean-Baptiste Ventura",
+        "Claude Auguste Court",
+        "Jean-François Allard",
+        "Paolo Avitabile"
+      ],
+      "answerIndex": 2,
+      "explanation": "Jean-François Allard, a former officer in Napoleon's army, was hired to train the Sikh cavalry."
+    },
+    {
+      "id": "q6",
+      "topic": "Conquests",
+      "q": "In which year was Kashmir annexed to the Sikh Empire?",
+      "qPa": "ਕਸ਼ਮੀਰ ਨੂੰ ਸਿੱਖ ਸਾਮਰਾਜ ਵਿੱਚ ਕਿਸ ਸਾਲ ਸ਼ਾਮਲ ਕੀਤਾ ਗਿਆ ਸੀ?",
+      "options": [
+        "1809",
+        "1818",
+        "1819",
+        "1834"
+      ],
+      "answerIndex": 2,
+      "explanation": "Kashmir was conquered and annexed by the Sikh Empire in 1819.",
+      "pyq": "ERB 2016"
+    },
+    {
+      "id": "q7",
+      "topic": "Administration",
+      "q": "Who served as the Foreign Minister in Maharaja Ranjit Singh's secular administration?",
+      "options": [
+        "Dhian Singh Dogra",
+        "Fakir Azizuddin",
+        "Dina Nath",
+        "Sawan Mal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fakir Azizuddin served as the trusted Foreign Minister for Maharaja Ranjit Singh."
+    },
+    {
+      "id": "q8",
+      "topic": "Military",
+      "q": "What was the special, European-trained elite core of the Sikh army called?",
+      "options": [
+        "Dal Khalsa",
+        "Nihang Fauj",
+        "Fauj-i-Khas",
+        "Ghorchada"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Fauj-i-Khas was the modernized, regular army trained by European generals."
+    }
+  ]
+}

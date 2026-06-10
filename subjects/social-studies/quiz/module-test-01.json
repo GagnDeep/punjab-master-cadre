@@ -1,0 +1,332 @@
+{
+  "id": "sst-mod-a-test",
+  "title": "Module A: History of Punjab - Mock Test",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Sikh Gurus",
+      "q": "Which Guru formalized the Gurmukhi script?",
+      "options": [
+        "Guru Nanak Dev Ji",
+        "Guru Angad Dev Ji",
+        "Guru Amar Das Ji",
+        "Guru Ram Das Ji"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Angad Dev Ji standardized the Gurmukhi script."
+    },
+    {
+      "id": "q2",
+      "topic": "Institutions",
+      "q": "The Manji system was established by which Guru to effectively preach Sikhism?",
+      "options": [
+        "Guru Amar Das Ji",
+        "Guru Ram Das Ji",
+        "Guru Arjan Dev Ji",
+        "Guru Hargobind Ji"
+      ],
+      "answerIndex": 0,
+      "explanation": "Guru Amar Das Ji established the Manji system (22 dioceses)."
+    },
+    {
+      "id": "q3",
+      "topic": "City Foundations",
+      "q": "Match the Guru with the city founded: Guru Ram Das Ji.",
+      "options": [
+        "Goindwal Sahib",
+        "Khadur Sahib",
+        "Tarn Taran",
+        "Amritsar (Ramdaspur)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guru Ram Das Ji founded Ramdaspur, later known as Amritsar."
+    },
+    {
+      "id": "q4",
+      "topic": "Sikh Gurus",
+      "q": "In which year was the compilation of the Adi Granth completed?",
+      "options": [
+        "1599",
+        "1604",
+        "1606",
+        "1699"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Arjan Dev Ji completed the compilation in 1604."
+    },
+    {
+      "id": "q5",
+      "topic": "Sikh Gurus",
+      "q": "The concept of Miri and Piri was introduced by which Guru?",
+      "options": [
+        "Guru Ram Das Ji",
+        "Guru Arjan Dev Ji",
+        "Guru Hargobind Ji",
+        "Guru Gobind Singh Ji"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Hargobind Ji introduced Miri and Piri."
+    },
+    {
+      "id": "q6",
+      "topic": "Sikh Gurus",
+      "q": "What was the original name of Anandpur Sahib?",
+      "options": [
+        "Ramdaspur",
+        "Kiratpur",
+        "Chakk Nanaki",
+        "Muktsar"
+      ],
+      "answerIndex": 2,
+      "explanation": "Anandpur Sahib was founded by Guru Tegh Bahadur Ji as Chakk Nanaki."
+    },
+    {
+      "id": "q7",
+      "topic": "Sikh Gurus",
+      "q": "In which year was the Khalsa Panth created by Guru Gobind Singh Ji?",
+      "options": [
+        "1604",
+        "1666",
+        "1699",
+        "1708"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Khalsa was created in 1699."
+    },
+    {
+      "id": "q8",
+      "topic": "Sikh Gurus",
+      "q": "Which was the first major battle fought by Guru Gobind Singh Ji?",
+      "options": [
+        "Battle of Chamkaur",
+        "Battle of Anandpur",
+        "Battle of Muktsar",
+        "Battle of Bhangani"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Battle of Bhangani (1688) was the first major battle."
+    },
+    {
+      "id": "q9",
+      "topic": "Banda Singh Bahadur",
+      "q": "What was the capital of the first sovereign Sikh state established by Banda Singh Bahadur?",
+      "options": [
+        "Amritsar",
+        "Lahore",
+        "Lohgarh",
+        "Sirhind"
+      ],
+      "answerIndex": 2,
+      "explanation": "Banda Singh Bahadur made Lohgarh his capital."
+    },
+    {
+      "id": "q10",
+      "topic": "Banda Singh Bahadur",
+      "q": "Who abolished the Zamindari system and gave land rights to the tillers in Punjab?",
+      "options": [
+        "Maharaja Ranjit Singh",
+        "Banda Singh Bahadur",
+        "Nawab Kapur Singh",
+        "Jassa Singh Ahluwalia"
+      ],
+      "answerIndex": 1,
+      "explanation": "Banda Singh Bahadur abolished the Zamindari system."
+    },
+    {
+      "id": "q11",
+      "topic": "Sikh Misls",
+      "q": "Who organized the fragmented Sikh forces into the Dal Khalsa in 1748?",
+      "options": [
+        "Jassa Singh Ramgarhia",
+        "Charat Singh",
+        "Nawab Kapur Singh",
+        "Hari Singh Nalwa"
+      ],
+      "answerIndex": 2,
+      "explanation": "Nawab Kapur Singh organized the Dal Khalsa."
+    },
+    {
+      "id": "q12",
+      "topic": "Sikh Misls",
+      "q": "Who was the founder of the Sukerchakia Misl?",
+      "options": [
+        "Maha Singh",
+        "Charat Singh",
+        "Ranjit Singh",
+        "Jai Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "Charat Singh founded the Sukerchakia Misl."
+    },
+    {
+      "id": "q13",
+      "topic": "Maharaja Ranjit Singh",
+      "q": "In which year did Ranjit Singh capture Lahore from the Bhangi Sardars?",
+      "options": [
+        "1792",
+        "1799",
+        "1801",
+        "1805"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ranjit Singh captured Lahore in 1799."
+    },
+    {
+      "id": "q14",
+      "topic": "Maharaja Ranjit Singh",
+      "q": "According to the Treaty of Amritsar (1809), which river was fixed as the boundary?",
+      "options": [
+        "Beas",
+        "Ravi",
+        "Chenab",
+        "Sutlej"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sutlej was established as the boundary."
+    },
+    {
+      "id": "q15",
+      "topic": "Maharaja Ranjit Singh",
+      "q": "Who was the famous Sikh general who died defending the fort of Jamrud in 1837?",
+      "options": [
+        "Akali Phula Singh",
+        "Hari Singh Nalwa",
+        "Mokham Chand",
+        "Misr Diwan Chand"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hari Singh Nalwa died at Jamrud."
+    },
+    {
+      "id": "q16",
+      "topic": "Maharaja Ranjit Singh",
+      "q": "Who trained Maharaja Ranjit Singh's cavalry?",
+      "options": [
+        "Ventura",
+        "Court",
+        "Allard",
+        "Avitabile"
+      ],
+      "answerIndex": 2,
+      "explanation": "Jean-François Allard trained the cavalry."
+    },
+    {
+      "id": "q17",
+      "topic": "Anglo-Sikh Wars",
+      "q": "Which treaty resulted in the establishment of a British Resident in Lahore?",
+      "options": [
+        "Treaty of Lahore",
+        "Treaty of Bhairowal",
+        "Treaty of Amritsar",
+        "Treaty of Multan"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Treaty of Bhairowal established a British Resident."
+    },
+    {
+      "id": "q18",
+      "topic": "Anglo-Sikh Wars",
+      "q": "Which battle of the Second Anglo-Sikh War is famously known as the 'Battle of Guns'?",
+      "options": [
+        "Battle of Ramnagar",
+        "Battle of Chillianwala",
+        "Battle of Gujrat",
+        "Battle of Multan"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Battle of Gujrat is known as the Battle of Guns."
+    },
+    {
+      "id": "q19",
+      "topic": "Annexation",
+      "q": "Who was the Governor-General of India when Punjab was annexed?",
+      "options": [
+        "Lord Hardinge",
+        "Lord Cornwallis",
+        "Lord Dalhousie",
+        "Lord Wellesley"
+      ],
+      "answerIndex": 2,
+      "explanation": "Lord Dalhousie annexed Punjab."
+    },
+    {
+      "id": "q20",
+      "topic": "Annexation",
+      "q": "What was the exact date of the annexation of Punjab by the British?",
+      "options": [
+        "14 March 1846",
+        "29 March 1849",
+        "13 April 1849",
+        "29 December 1846"
+      ],
+      "answerIndex": 1,
+      "explanation": "Punjab was annexed on 29 March 1849."
+    },
+    {
+      "id": "q21",
+      "topic": "Freedom Movement",
+      "q": "Who was the founder of the Namdhari (Kuka) Movement?",
+      "options": [
+        "Baba Balak Singh",
+        "Baba Ram Singh",
+        "Baba Gurdit Singh",
+        "Sohan Singh Bhakna"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baba Ram Singh founded the Kuka movement."
+    },
+    {
+      "id": "q22",
+      "topic": "Freedom Movement",
+      "q": "Where was the Ghadar Party founded in 1913?",
+      "options": [
+        "London, UK",
+        "Vancouver, Canada",
+        "San Francisco, USA",
+        "Tokyo, Japan"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Ghadar Party was founded in San Francisco."
+    },
+    {
+      "id": "q23",
+      "topic": "Freedom Movement",
+      "q": "Who chartered the Japanese ship Komagata Maru in 1914?",
+      "options": [
+        "Baba Ram Singh",
+        "Baba Gurdit Singh",
+        "Udham Singh",
+        "Sohan Singh Bhakna"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baba Gurdit Singh chartered the ship."
+    },
+    {
+      "id": "q24",
+      "topic": "Freedom Movement",
+      "q": "What was the exact date of the Jallianwala Bagh Massacre?",
+      "options": [
+        "13 April 1919",
+        "13 March 1919",
+        "23 March 1931",
+        "13 April 1914"
+      ],
+      "answerIndex": 0,
+      "explanation": "The massacre occurred on 13 April 1919."
+    },
+    {
+      "id": "q25",
+      "topic": "Freedom Movement",
+      "q": "Which organization was founded by Bhagat Singh in 1926?",
+      "options": [
+        "Ghadar Party",
+        "Naujawan Bharat Sabha",
+        "Indian National Army",
+        "Hindustan Socialist Republican Association"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bhagat Singh founded the Naujawan Bharat Sabha."
+    }
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "id": "sst-a-02",
+  "title": "The Sikh Gurus (Part 2) Recall Quiz",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Guru Hargobind Ji",
+      "q": "The concept of Miri and Piri was introduced by which Guru?",
+      "qPa": "ਮੀਰੀ ਅਤੇ ਪੀਰੀ ਦਾ ਸੰਕਲਪ ਕਿਸ ਗੁਰੂ ਦੁਆਰਾ ਪੇਸ਼ ਕੀਤਾ ਗਿਆ ਸੀ?",
+      "options": [
+        "Guru Ram Das Ji",
+        "Guru Arjan Dev Ji",
+        "Guru Hargobind Ji",
+        "Guru Gobind Singh Ji"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Hargobind Ji introduced the two swords of Miri (temporal power) and Piri (spiritual authority).",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q2",
+      "topic": "Institutions & Buildings",
+      "q": "Who constructed the Akal Takht in Amritsar?",
+      "options": [
+        "Guru Arjan Dev Ji",
+        "Guru Hargobind Ji",
+        "Guru Tegh Bahadur Ji",
+        "Guru Gobind Singh Ji"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Hargobind Ji constructed the Akal Takht (Throne of the Timeless One) as the center for political affairs."
+    },
+    {
+      "id": "q3",
+      "topic": "Guru Harkrishan Ji",
+      "q": "Which Guru is often referred to as 'Bala Pritam'?",
+      "options": [
+        "Guru Har Rai Ji",
+        "Guru Harkrishan Ji",
+        "Guru Tegh Bahadur Ji",
+        "Guru Gobind Singh Ji"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Harkrishan Ji, who became Guru at the age of five, is known as Bala Pritam."
+    },
+    {
+      "id": "q4",
+      "topic": "Guru Tegh Bahadur Ji",
+      "q": "What was the original name of Anandpur Sahib?",
+      "qPa": "ਅਨੰਦਪੁਰ ਸਾਹਿਬ ਦਾ ਅਸਲ ਨਾਮ ਕੀ ਸੀ?",
+      "options": [
+        "Ramdaspur",
+        "Kiratpur",
+        "Chakk Nanaki",
+        "Muktsar"
+      ],
+      "answerIndex": 2,
+      "explanation": "Anandpur Sahib was founded by Guru Tegh Bahadur Ji and originally named Chakk Nanaki after his mother."
+    },
+    {
+      "id": "q5",
+      "topic": "Guru Tegh Bahadur Ji",
+      "q": "Where was Guru Tegh Bahadur Ji martyred in 1675?",
+      "options": [
+        "Lahore",
+        "Sirhind",
+        "Agra",
+        "Chandni Chowk, Delhi"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guru Tegh Bahadur Ji was publicly executed at Chandni Chowk in Delhi on the orders of Emperor Aurangzeb."
+    },
+    {
+      "id": "q6",
+      "topic": "Guru Gobind Singh Ji",
+      "q": "In which year was the Khalsa Panth created by Guru Gobind Singh Ji?",
+      "qPa": "ਗੁਰੂ ਗੋਬਿੰਦ ਸਿੰਘ ਜੀ ਦੁਆਰਾ ਖਾਲਸਾ ਪੰਥ ਦੀ ਸਾਜਨਾ ਕਿਸ ਸਾਲ ਕੀਤੀ ਗਈ ਸੀ?",
+      "options": [
+        "1604",
+        "1666",
+        "1699",
+        "1708"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Khalsa was created on Baisakhi day in the year 1699 at Anandpur Sahib.",
+      "pyq": "ERB 2016, 2022"
+    },
+    {
+      "id": "q7",
+      "topic": "Battles",
+      "q": "Which was the first major battle fought by Guru Gobind Singh Ji?",
+      "options": [
+        "Battle of Chamkaur",
+        "Battle of Anandpur",
+        "Battle of Muktsar",
+        "Battle of Bhangani"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Battle of Bhangani (1688) against the hill rajas was the first major battle fought by Guru Gobind Singh Ji."
+    },
+    {
+      "id": "q8",
+      "topic": "Guru Gobind Singh Ji",
+      "q": "Where did Guru Gobind Singh Ji pass the Guruship to the Guru Granth Sahib?",
+      "options": [
+        "Anandpur Sahib",
+        "Talwandi Sabo",
+        "Nanded",
+        "Patna Sahib"
+      ],
+      "answerIndex": 2,
+      "explanation": "In 1708, at Nanded (Maharashtra), Guru Gobind Singh Ji declared the Guru Granth Sahib as the eternal Guru."
+    }
+  ]
+}
