@@ -271,3 +271,21 @@
   .slide { position: relative; opacity: 1; visibility: visible; page-break-after: always; padding: 40px; }
   .slides-controls { display: none; }
 }
+
+/* Legacy decks (.slide-container / .slide-stage, no JS-scaled 1920px stage):
+   keep type fluid on small screens so titles don't overflow the viewport.
+   Scoped so scaled .deck decks are unaffected. */
+@media (max-width: 768px) {
+  .slide-container .slide,
+  .slide-stage .slide { padding: 40px 24px; }
+  .slide-container .slide h1,
+  .slide-stage .slide h1 { font-size: clamp(28px, 8vw, 80px); }
+  .slide-container .slide h2,
+  .slide-stage .slide h2 { font-size: clamp(24px, 7vw, 60px); }
+  .slide-container .slide h3,
+  .slide-stage .slide h3 { font-size: clamp(20px, 6vw, 45px); }
+  .slide-container .slide p,
+  .slide-container .slide li,
+  .slide-stage .slide p,
+  .slide-stage .slide li { font-size: clamp(16px, 4.5vw, 32px); }
+}
