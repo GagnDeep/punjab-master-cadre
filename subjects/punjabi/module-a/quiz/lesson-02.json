@@ -1,0 +1,156 @@
+{
+  "id": "pbi-mod-a-l2",
+  "title": "Recall Quiz: Other Guru Sahibaan",
+  "questions": [
+    {
+      "id": "q-2-1",
+      "topic": "Other Guru Sahibaan",
+      "q": "How many Shabads by Guru Arjan Dev Ji?",
+      "qPa": "\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a30\u0a1c\u0a28 \u0a26\u0a47\u0a35 \u0a1c\u0a40 \u0a26\u0a47 \u0a38\u0a3c\u0a2c\u0a26?",
+      "options": [
+        "974",
+        "907",
+        "679",
+        "2218"
+      ],
+      "answerIndex": 3,
+      "explanation": "2218 Shabads.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-2",
+      "topic": "Other Guru Sahibaan",
+      "q": "Who wrote Anand Sahib?",
+      "qPa": "\u0a05\u0a28\u0a70\u0a26\u0a41 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a30\u0a1a\u0a28\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Guru Nanak",
+        "Guru Amar Das",
+        "Guru Ram Das",
+        "Guru Arjan Dev"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Amar Das Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-3",
+      "topic": "Other Guru Sahibaan",
+      "q": "How many Pauris in Anand Sahib?",
+      "qPa": "\u0a05\u0a28\u0a70\u0a26\u0a41 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a26\u0a40\u0a06\u0a02 \u0a2a\u0a09\u0a5c\u0a40\u0a06\u0a02?",
+      "options": [
+        "38",
+        "40",
+        "24",
+        "30"
+      ],
+      "answerIndex": 1,
+      "explanation": "40 Pauris.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-4",
+      "topic": "Other Guru Sahibaan",
+      "q": "Who wrote Lavan?",
+      "qPa": "\u0a32\u0a3e\u0a35\u0a3e\u0a02 \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a32\u0a3f\u0a16\u0a40\u0a06\u0a02?",
+      "options": [
+        "3rd Guru",
+        "4th Guru",
+        "5th Guru",
+        "10th Guru"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Ram Das Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-5",
+      "topic": "Other Guru Sahibaan",
+      "q": "Raag of Lavan?",
+      "qPa": "\u0a32\u0a3e\u0a35\u0a3e\u0a02 \u0a26\u0a3e \u0a30\u0a3e\u0a17?",
+      "options": [
+        "Asa",
+        "Suhi",
+        "Ramkali",
+        "Gauri"
+      ],
+      "answerIndex": 1,
+      "explanation": "Raag Suhi.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-6",
+      "topic": "Other Guru Sahibaan",
+      "q": "Who compiled Adi Granth?",
+      "qPa": "\u0a06\u0a26\u0a3f \u0a17\u0a4d\u0a30\u0a70\u0a25 \u0a26\u0a3e \u0a38\u0a70\u0a2a\u0a3e\u0a26\u0a28 \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a15\u0a40\u0a24\u0a3e?",
+      "options": [
+        "Guru Nanak",
+        "Guru Amar Das",
+        "Guru Ram Das",
+        "Guru Arjan Dev"
+      ],
+      "answerIndex": 3,
+      "explanation": "Guru Arjan Dev Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-7",
+      "topic": "Other Guru Sahibaan",
+      "q": "Year of Adi Granth compilation?",
+      "qPa": "\u0a06\u0a26\u0a3f \u0a17\u0a4d\u0a30\u0a70\u0a25 \u0a15\u0a26\u0a4b\u0a02 \u0a38\u0a70\u0a2a\u0a3e\u0a26\u0a3f\u0a24 \u0a39\u0a4b\u0a07\u0a06?",
+      "options": [
+        "1604",
+        "1699",
+        "1539",
+        "1708"
+      ],
+      "answerIndex": 0,
+      "explanation": "In 1604 AD.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-8",
+      "topic": "Other Guru Sahibaan",
+      "q": "How many Ashtpadis in Sukhmani Sahib?",
+      "qPa": "\u0a38\u0a41\u0a16\u0a2e\u0a28\u0a40 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a3f\u0a70\u0a28\u0a40\u0a06\u0a02 \u0a05\u0a38\u0a1f\u0a2a\u0a26\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "24",
+        "40",
+        "38",
+        "30"
+      ],
+      "answerIndex": 0,
+      "explanation": "24 Ashtpadis.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-9",
+      "topic": "Other Guru Sahibaan",
+      "q": "Raag of Sukhmani Sahib?",
+      "qPa": "\u0a38\u0a41\u0a16\u0a2e\u0a28\u0a40 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a26\u0a3e \u0a30\u0a3e\u0a17?",
+      "options": [
+        "Asa",
+        "Suhi",
+        "Ramkali",
+        "Gauri"
+      ],
+      "answerIndex": 3,
+      "explanation": "Raag Gauri.",
+      "pyq": ""
+    },
+    {
+      "id": "q-2-10",
+      "topic": "Other Guru Sahibaan",
+      "q": "Guru Amar Das Ji used how many Ragas?",
+      "qPa": "\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a2e\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a28\u0a47 \u0a15\u0a3f\u0a70\u0a28\u0a47 \u0a30\u0a3e\u0a17 \u0a35\u0a30\u0a24\u0a47?",
+      "options": [
+        "17",
+        "19",
+        "30",
+        "31"
+      ],
+      "answerIndex": 0,
+      "explanation": "17 Ragas.",
+      "pyq": ""
+    }
+  ]
+}

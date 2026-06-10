@@ -1,0 +1,382 @@
+{
+  "id": "pbi-mod-a-test",
+  "title": "Module A Full Test",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mod-a-test-q1",
+      "topic": "Module A Overall",
+      "q": "How many Shabads did Sri Guru Nanak Dev Ji compose?",
+      "qPa": "\u0a17\u0a41\u0a30\u0a42 \u0a28\u0a3e\u0a28\u0a15 \u0a26\u0a47\u0a35 \u0a1c\u0a40 \u0a26\u0a47 \u0a15\u0a3f\u0a70\u0a28\u0a47 \u0a38\u0a3c\u0a2c\u0a26 \u0a39\u0a28?",
+      "options": [
+        "974",
+        "907",
+        "679",
+        "2218"
+      ],
+      "answerIndex": 0,
+      "explanation": "Guru Nanak Dev Ji composed 974 Shabads.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "mod-a-test-q2",
+      "topic": "Module A Overall",
+      "q": "How many Pauris are there in Japji Sahib?",
+      "qPa": "\u0a1c\u0a2a\u0a41\u0a1c\u0a40 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a35\u0a3f\u0a71\u0a1a \u0a15\u0a3f\u0a70\u0a28\u0a40\u0a06\u0a02 \u0a2a\u0a09\u0a5c\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "24",
+        "38",
+        "40",
+        "30"
+      ],
+      "answerIndex": 1,
+      "explanation": "Japji Sahib contains 38 Pauris.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q3",
+      "topic": "Module A Overall",
+      "q": "Which Bani is Raag-less?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2c\u0a3e\u0a23\u0a40 \u0a30\u0a3e\u0a17-\u0a2e\u0a41\u0a15\u0a24 \u0a39\u0a48?",
+      "options": [
+        "Asa Di Vaar",
+        "Sidh Gosht",
+        "Japji Sahib",
+        "Dakhni Oankar"
+      ],
+      "answerIndex": 2,
+      "explanation": "Japji Sahib has no assigned Raag.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q4",
+      "topic": "Module A Overall",
+      "q": "How many Shabads by Guru Arjan Dev Ji?",
+      "qPa": "\u0a17\u0a41\u0a30\u0a42 \u0a05\u0a30\u0a1c\u0a28 \u0a26\u0a47\u0a35 \u0a1c\u0a40 \u0a26\u0a47 \u0a38\u0a3c\u0a2c\u0a26?",
+      "options": [
+        "974",
+        "907",
+        "679",
+        "2218"
+      ],
+      "answerIndex": 3,
+      "explanation": "2218 Shabads.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q5",
+      "topic": "Module A Overall",
+      "q": "Who wrote Anand Sahib?",
+      "qPa": "\u0a05\u0a28\u0a70\u0a26\u0a41 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a30\u0a1a\u0a28\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Guru Nanak",
+        "Guru Amar Das",
+        "Guru Ram Das",
+        "Guru Arjan Dev"
+      ],
+      "answerIndex": 1,
+      "explanation": "Guru Amar Das Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q6",
+      "topic": "Module A Overall",
+      "q": "Scribe of Adi Granth?",
+      "qPa": "\u0a06\u0a26\u0a3f \u0a17\u0a4d\u0a30\u0a70\u0a25 \u0a26\u0a3e \u0a32\u0a3f\u0a16\u0a3e\u0a30\u0a40?",
+      "options": [
+        "Bhai Mani Singh",
+        "Bhai Gurdas Ji",
+        "Baba Buddha Ji",
+        "Bhai Nand Lal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bhai Gurdas Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q7",
+      "topic": "Module A Overall",
+      "q": "How many Vaars by Bhai Gurdas?",
+      "qPa": "\u0a2d\u0a3e\u0a08 \u0a17\u0a41\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a40\u0a06\u0a02 \u0a35\u0a3e\u0a30\u0a3e\u0a02?",
+      "options": [
+        "24",
+        "38",
+        "39/40",
+        "55"
+      ],
+      "answerIndex": 2,
+      "explanation": "39 or 40 Vaars.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q8",
+      "topic": "Module A Overall",
+      "q": "Pioneer of Punjabi Sufi poetry?",
+      "qPa": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 \u0a38\u0a42\u0a2b\u0a3c\u0a40 \u0a15\u0a3e\u0a35\u0a3f \u0a26\u0a3e \u0a2e\u0a4b\u0a22\u0a40?",
+      "options": [
+        "Shah Hussain",
+        "Bulleh Shah",
+        "Baba Farid",
+        "Waris Shah"
+      ],
+      "answerIndex": 2,
+      "explanation": "Baba Farid Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q9",
+      "topic": "Module A Overall",
+      "q": "How many Shaloks of Farid Ji in GGS?",
+      "qPa": "\u0a2b\u0a30\u0a40\u0a26 \u0a1c\u0a40 \u0a26\u0a47 \u0a15\u0a3f\u0a70\u0a28\u0a47 \u0a38\u0a3c\u0a32\u0a4b\u0a15 \u0a39\u0a28?",
+      "options": [
+        "112",
+        "130",
+        "18",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "112 Shaloks.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q10",
+      "topic": "Module A Overall",
+      "q": "Who introduced the Kafi form?",
+      "qPa": "\u0a15\u0a3e\u0a2b\u0a3c\u0a40 \u0a30\u0a42\u0a2a \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a38\u0a3c\u0a41\u0a30\u0a42 \u0a15\u0a40\u0a24\u0a3e?",
+      "options": [
+        "Baba Farid",
+        "Shah Hussain",
+        "Bulleh Shah",
+        "Waris Shah"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shah Hussain.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q11",
+      "topic": "Module A Overall",
+      "q": "How many Kafian by Shah Hussain?",
+      "qPa": "\u0a38\u0a3c\u0a3e\u0a39 \u0a39\u0a41\u0a38\u0a48\u0a28 \u0a26\u0a40\u0a06\u0a02 \u0a15\u0a3f\u0a70\u0a28\u0a40\u0a06\u0a02 \u0a15\u0a3e\u0a2b\u0a3c\u0a40\u0a06\u0a02?",
+      "options": [
+        "112",
+        "156",
+        "162/163",
+        "200"
+      ],
+      "answerIndex": 2,
+      "explanation": "162/163 Kafian.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q12",
+      "topic": "Module A Overall",
+      "q": "First writer of Heer Qissa?",
+      "qPa": "\u0a39\u0a40\u0a30 \u0a26\u0a3e \u0a2a\u0a39\u0a3f\u0a32\u0a3e \u0a15\u0a3f\u0a71\u0a38\u0a3e\u0a15\u0a3e\u0a30?",
+      "options": [
+        "Waris Shah",
+        "Peelu",
+        "Damodar",
+        "Hashim"
+      ],
+      "answerIndex": 2,
+      "explanation": "Damodar.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q13",
+      "topic": "Module A Overall",
+      "q": "Dialect of Damodar's Heer?",
+      "qPa": "\u0a26\u0a2e\u0a4b\u0a26\u0a30 \u0a26\u0a40 \u0a2d\u0a3e\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Majhi",
+        "Malwai",
+        "Jhangi",
+        "Doabi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Jhangi dialect.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q14",
+      "topic": "Module A Overall",
+      "q": "Who wrote the most famous Heer?",
+      "qPa": "\u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a2e\u0a38\u0a3c\u0a39\u0a42\u0a30 \u0a39\u0a40\u0a30 \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Damodar",
+        "Waris Shah",
+        "Mukbal",
+        "Ahmad Gujjar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waris Shah.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q15",
+      "topic": "Module A Overall",
+      "q": "Meter used in Heer Waris Shah?",
+      "qPa": "\u0a35\u0a3e\u0a30\u0a3f\u0a38 \u0a26\u0a3e \u0a1b\u0a70\u0a26?",
+      "options": [
+        "Dvaiya",
+        "Baint",
+        "Sad",
+        "Korbit"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baint meter.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q16",
+      "topic": "Module A Overall",
+      "q": "Author of Chandi Di Vaar?",
+      "qPa": "\u0a1a\u0a70\u0a21\u0a40 \u0a26\u0a40 \u0a35\u0a3e\u0a30 \u0a26\u0a3e \u0a32\u0a47\u0a16\u0a15?",
+      "options": [
+        "Guru Nanak",
+        "Guru Arjan",
+        "Guru Gobind Singh",
+        "Bhai Gurdas"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Gobind Singh Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q17",
+      "topic": "Module A Overall",
+      "q": "Other name for Chandi Di Vaar?",
+      "qPa": "\u0a26\u0a42\u0a1c\u0a3e \u0a28\u0a3e\u0a2e?",
+      "options": [
+        "Japji",
+        "Vaar Sri Bhagauti Ji Ki",
+        "Bachittar Natak",
+        "Zafarnama"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vaar Sri Bhagauti Ji Ki.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q18",
+      "topic": "Module A Overall",
+      "q": "Jangnama Shah Muhammad describes which war?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a1c\u0a70\u0a17 \u0a26\u0a3e \u0a35\u0a30\u0a23\u0a28 \u0a39\u0a48?",
+      "options": [
+        "Anglo-Sikh War",
+        "Mughal-Sikh War",
+        "World War I",
+        "Afghan-Sikh War"
+      ],
+      "answerIndex": 0,
+      "explanation": "First Anglo-Sikh War.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q19",
+      "topic": "Module A Overall",
+      "q": "Shah Muhammad refers to the conflict as:",
+      "qPa": "\u0a38\u0a3c\u0a3e\u0a39 \u0a2e\u0a41\u0a39\u0a70\u0a2e\u0a26 \u0a1c\u0a70\u0a17 \u0a28\u0a42\u0a70 \u0a15\u0a40 \u0a15\u0a39\u0a3f\u0a70\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Jang Hindu-Muslim",
+        "Jang Hind-Punjab",
+        "Jang Sikh-Farangi",
+        "Jang Dharam"
+      ],
+      "answerIndex": 1,
+      "explanation": "Jang Hind-Punjab.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q20",
+      "topic": "Module A Overall",
+      "q": "Father of modern Punjabi poetry?",
+      "qPa": "\u0a06\u0a27\u0a41\u0a28\u0a3f\u0a15 \u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 \u0a15\u0a35\u0a3f\u0a24\u0a3e \u0a26\u0a3e \u0a2a\u0a3f\u0a24\u0a3e\u0a2e\u0a3e?",
+      "options": [
+        "Prof. Puran Singh",
+        "Bhai Vir Singh",
+        "Dhani Ram Chatrik",
+        "Amrita Pritam"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bhai Vir Singh.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q21",
+      "topic": "Module A Overall",
+      "q": "Bhai Vir Singh's Sahitya Akademi winning book?",
+      "qPa": "\u0a2d\u0a3e\u0a08 \u0a35\u0a40\u0a30 \u0a38\u0a3f\u0a70\u0a18 \u0a26\u0a40 \u0a07\u0a28\u0a3e\u0a2e \u0a1c\u0a47\u0a24\u0a42 \u0a15\u0a3f\u0a24\u0a3e\u0a2c?",
+      "options": [
+        "Rana Surat Singh",
+        "Matak Hulare",
+        "Mere Saiyan Jio",
+        "Kambdi Kalai"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mere Saiyan Jio.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q22",
+      "topic": "Module A Overall",
+      "q": "Who is known as 'Birha Da Sultan'?",
+      "qPa": "'\u0a2c\u0a3f\u0a30\u0a39\u0a3e \u0a26\u0a3e \u0a38\u0a41\u0a32\u0a24\u0a3e\u0a28' \u0a15\u0a4c\u0a23 \u0a39\u0a48?",
+      "options": [
+        "Surjit Patar",
+        "Shiv Kumar Batalvi",
+        "Pash",
+        "Bhai Vir Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shiv Kumar Batalvi.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q23",
+      "topic": "Module A Overall",
+      "q": "Which book won Shiv Kumar the Sahitya Akademi Award?",
+      "qPa": "\u0a15\u0a3f\u0a38 \u0a15\u0a3f\u0a24\u0a3e\u0a2c \u0a32\u0a08 \u0a07\u0a28\u0a3e\u0a2e \u0a2e\u0a3f\u0a32\u0a3f\u0a06?",
+      "options": [
+        "Loona",
+        "Peeran Da Paraga",
+        "Aarti",
+        "Main Te Main"
+      ],
+      "answerIndex": 0,
+      "explanation": "Luna (\u0a32\u0a42\u0a23\u0a3e).",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q24",
+      "topic": "Module A Overall",
+      "q": "Pash is associated with which poetic movement?",
+      "qPa": "\u0a2a\u0a3e\u0a38\u0a3c \u0a15\u0a3f\u0a38 \u0a32\u0a39\u0a3f\u0a30 \u0a28\u0a3e\u0a32 \u0a1c\u0a41\u0a5c\u0a3f\u0a06 \u0a39\u0a48?",
+      "options": [
+        "Romantic",
+        "Mystic",
+        "Jujharvadi (Naxalite/Revolutionary)",
+        "Aesthetic"
+      ],
+      "answerIndex": 2,
+      "explanation": "Jujharvadi (Revolutionary) movement.",
+      "pyq": ""
+    },
+    {
+      "id": "mod-a-test-q25",
+      "topic": "Module A Overall",
+      "q": "Surjit Patar is famous for which poetic form?",
+      "qPa": "\u0a2a\u0a3e\u0a24\u0a30 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a15\u0a3f\u0a38 \u0a30\u0a42\u0a2a \u0a32\u0a08 \u0a2e\u0a38\u0a3c\u0a39\u0a42\u0a30 \u0a39\u0a28?",
+      "options": [
+        "Epic",
+        "Ghazal",
+        "Rubai",
+        "Qissa"
+      ],
+      "answerIndex": 1,
+      "explanation": "The modern Punjabi Ghazal.",
+      "pyq": ""
+    }
+  ]
+}

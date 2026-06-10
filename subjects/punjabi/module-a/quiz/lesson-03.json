@@ -1,0 +1,156 @@
+{
+  "id": "pbi-mod-a-l3",
+  "title": "Recall Quiz: Bhai Gurdas Ji",
+  "questions": [
+    {
+      "id": "q-3-1",
+      "topic": "Bhai Gurdas Ji",
+      "q": "Scribe of Adi Granth?",
+      "qPa": "\u0a06\u0a26\u0a3f \u0a17\u0a4d\u0a30\u0a70\u0a25 \u0a26\u0a3e \u0a32\u0a3f\u0a16\u0a3e\u0a30\u0a40?",
+      "options": [
+        "Bhai Mani Singh",
+        "Bhai Gurdas Ji",
+        "Baba Buddha Ji",
+        "Bhai Nand Lal"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bhai Gurdas Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-2",
+      "topic": "Bhai Gurdas Ji",
+      "q": "How many Vaars by Bhai Gurdas?",
+      "qPa": "\u0a2d\u0a3e\u0a08 \u0a17\u0a41\u0a30\u0a26\u0a3e\u0a38 \u0a1c\u0a40 \u0a26\u0a40\u0a06\u0a02 \u0a35\u0a3e\u0a30\u0a3e\u0a02?",
+      "options": [
+        "24",
+        "38",
+        "39/40",
+        "55"
+      ],
+      "answerIndex": 2,
+      "explanation": "39 or 40 Vaars.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-3",
+      "topic": "Bhai Gurdas Ji",
+      "q": "Language of Kabitt Savaiye?",
+      "qPa": "\u0a15\u0a2c\u0a3f\u0a71\u0a24 \u0a38\u0a35\u0a71\u0a08\u0a0f \u0a26\u0a40 \u0a2d\u0a3e\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Punjabi",
+        "Braj Bhasha",
+        "Persian",
+        "Urdu"
+      ],
+      "answerIndex": 1,
+      "explanation": "Braj Bhasha.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-4",
+      "topic": "Bhai Gurdas Ji",
+      "q": "What is called 'Key to Gurbani'?",
+      "qPa": "\u0a17\u0a41\u0a30\u0a2c\u0a3e\u0a23\u0a40 \u0a26\u0a40 \u0a15\u0a41\u0a70\u0a1c\u0a40 \u0a15\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Japji Sahib",
+        "Sukhmani Sahib",
+        "Vaaran Bhai Gurdas",
+        "Dasam Granth"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vaaran of Bhai Gurdas Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-5",
+      "topic": "Bhai Gurdas Ji",
+      "q": "Which Vaar details Guru Nanak's life?",
+      "qPa": "\u0a17\u0a41\u0a30\u0a42 \u0a28\u0a3e\u0a28\u0a15 \u0a26\u0a47\u0a35 \u0a1c\u0a40 \u0a26\u0a3e \u0a1c\u0a40\u0a35\u0a28 \u0a15\u0a3f\u0a38 \u0a35\u0a3e\u0a30 \u0a35\u0a3f\u0a71\u0a1a \u0a39\u0a48?",
+      "options": [
+        "1st",
+        "11th",
+        "24th",
+        "39th"
+      ],
+      "answerIndex": 0,
+      "explanation": "The 1st Vaar.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-6",
+      "topic": "Bhai Gurdas Ji",
+      "q": "How many Kabitt Savaiye?",
+      "qPa": "\u0a15\u0a3f\u0a70\u0a28\u0a47 \u0a15\u0a2c\u0a3f\u0a71\u0a24 \u0a38\u0a35\u0a71\u0a08\u0a0f?",
+      "options": [
+        "112",
+        "675",
+        "974",
+        "40"
+      ],
+      "answerIndex": 1,
+      "explanation": "675.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-7",
+      "topic": "Bhai Gurdas Ji",
+      "q": "Are Bhai Gurdas's Vaars in Guru Granth Sahib?",
+      "qPa": "\u0a15\u0a40 \u0a2d\u0a3e\u0a08 \u0a17\u0a41\u0a30\u0a26\u0a3e\u0a38 \u0a26\u0a40 \u0a2c\u0a3e\u0a23\u0a40 \u0a17\u0a41\u0a30\u0a42 \u0a17\u0a4d\u0a30\u0a70\u0a25 \u0a38\u0a3e\u0a39\u0a3f\u0a2c \u0a35\u0a3f\u0a71\u0a1a \u0a39\u0a48?",
+      "options": [
+        "Yes",
+        "No",
+        "Partially",
+        "Only 1st Vaar"
+      ],
+      "answerIndex": 1,
+      "explanation": "No, they are separate.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-8",
+      "topic": "Bhai Gurdas Ji",
+      "q": "What is the primary theme of Vaars?",
+      "qPa": "\u0a35\u0a3e\u0a30\u0a3e\u0a02 \u0a26\u0a3e \u0a2e\u0a41\u0a71\u0a16 \u0a35\u0a3f\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Romantic",
+        "Heroic",
+        "Gurmat Philosophy",
+        "Historical wars"
+      ],
+      "answerIndex": 2,
+      "explanation": "Explaining Gurmat Philosophy.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-9",
+      "topic": "Bhai Gurdas Ji",
+      "q": "'Suni pukaar Datar Prabh...' is by:",
+      "qPa": "'\u0a38\u0a41\u0a23\u0a40 \u0a2a\u0a41\u0a15\u0a3e\u0a30\u0a3f \u0a26\u0a3e\u0a24\u0a3e\u0a30 \u0a2a\u0a4d\u0a30\u0a2d\u0a41...' \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Guru Nanak",
+        "Guru Arjan",
+        "Bhai Gurdas",
+        "Guru Gobind Singh"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bhai Gurdas Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3-10",
+      "topic": "Bhai Gurdas Ji",
+      "q": "Who declared the Vaars as Key to Gurbani?",
+      "qPa": "\u0a15\u0a41\u0a70\u0a1c\u0a40 \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a15\u0a3f\u0a39\u0a3e?",
+      "options": [
+        "Guru Nanak",
+        "Guru Amar Das",
+        "Guru Arjan Dev",
+        "Guru Gobind Singh"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Arjan Dev Ji.",
+      "pyq": ""
+    }
+  ]
+}

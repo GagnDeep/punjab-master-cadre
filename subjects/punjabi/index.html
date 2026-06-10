@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Title -->
+  <title>Punjabi (Master Cadre) - Course Home - Punjab Master Cadre 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="../../assets/css/design-system.css">
+
+  <style>
+    .module-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+    }
+    .module-card:hover {
+        transform: translateY(-4px);
+        box-shadow: var(--shadow-lg);
+    }
+    .module-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: var(--space-6);
+    }
+    .hero-section {
+        background: linear-gradient(135deg, var(--color-primary-900) 0%, var(--color-primary-700) 100%);
+        color: var(--color-white);
+        padding: var(--space-12) 0;
+        border-radius: var(--radius-xl);
+        margin-bottom: var(--space-8);
+        text-align: center;
+        position: relative;
+        overflow: hidden;
+    }
+    .hero-section::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 60%);
+        pointer-events: none;
+    }
+    .hero-title {
+        color: var(--color-white);
+        margin-bottom: var(--space-2);
+    }
+    .hero-subtitle {
+        color: var(--color-primary-100);
+        font-size: var(--text-xl);
+        margin-bottom: var(--space-6);
+    }
+    .hero-pa {
+        font-family: var(--font-gurmukhi);
+        color: var(--color-accent-400);
+        font-size: var(--text-2xl);
+        margin-bottom: var(--space-4);
+    }
+    .phase-guidance {
+        background-color: var(--color-info-bg);
+        border: 1px solid var(--color-info);
+        border-radius: var(--radius-lg);
+        padding: var(--space-6);
+        margin-bottom: var(--space-8);
+    }
+    .phase-title {
+        color: var(--color-info);
+        display: flex;
+        align-items: center;
+        gap: var(--space-2);
+        margin-bottom: var(--space-4);
+    }
+    .phase-steps {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+    }
+    @media (min-width: 768px) {
+        .phase-steps {
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .phase-step {
+            flex: 1;
+            padding-right: var(--space-4);
+            border-right: 1px solid var(--color-info);
+        }
+        .phase-step:last-child {
+            border-right: none;
+            padding-right: 0;
+        }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ==========================================
+       HEADER (Shared across site)
+       ========================================== -->
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../../courses.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8 mb-8">
+
+    <!-- Breadcrumbs -->
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../courses.html" class="text-neutral-500">Courses</a> >
+      Punjabi (Master Cadre)
+    </div>
+
+    <!-- Hero Section -->
+    <section class="hero-section card">
+      <h1 class="hero-title">Punjabi (Master Cadre)</h1>
+      <p class="hero-pa">ਪੰਜਾਬੀ (ਮਾਸਟਰ ਕਾਡਰ)</p>
+      <p class="hero-subtitle">Complete Course for 150 MCQs / 150 Minutes Exam</p>
+      <div class="flex" style="justify-content: center; gap: var(--space-4); flex-wrap: wrap;">
+        <span class="badge badge-accent">150 Marks</span>
+        <span class="badge badge-neutral">No Negative Marking</span>
+        <span class="badge badge-primary">36 Total Lessons</span>
+      </div>
+    </section>
+
+    <!-- Phase Guidance -->
+    <section class="phase-guidance">
+      <h2 class="phase-title text-2xl">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"></path><path d="M2 17l10 5 10-5"></path><path d="M2 12l10 5 10-5"></path></svg>
+        Study Plan (Phase Guidance)
+      </h2>
+      <div class="phase-steps">
+        <div class="phase-step">
+          <h3 class="text-lg mb-2">Phase 1: Foundation</h3>
+          <p class="text-sm text-neutral-700">Modules A & B. Master the vast landscape of Punjabi poetry and major prose writers. These carry the most weight and require deep context.</p>
+        </div>
+        <div class="phase-step">
+          <h3 class="text-lg mb-2">Phase 2: Core Areas</h3>
+          <p class="text-sm text-neutral-700">Modules C, D & E. Cover fiction, drama, autobiographies, and Punjabi folk culture. Focus on specific literary forms and cultural terms.</p>
+        </div>
+        <div class="phase-step">
+          <h3 class="text-lg mb-2">Phase 3: Revision & Rules</h3>
+          <p class="text-sm text-neutral-700">Modules F & G. Solidify grammar (Vyakaran) rules and pedagogy concepts. Test your speed with timed quizzes.</p>
+        </div>
+      </div>
+    </section>
+
+    <h2 class="mb-6 text-3xl">Course Modules</h2>
+
+    <div class="module-grid">
+      <!-- Module A -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-primary">Foundation</span>
+            <span class="badge badge-success">Available</span>
+          </div>
+          <h3 class="text-xl mb-2">Module A: Poetry (ਕਵਿਤਾ)</h3>
+          <p class="text-sm text-neutral-600 mb-4">Gurmat Kaav, Sufi Kaav, Kissa Kaav, Beer Kaav, and Modern Poets.</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 100%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">12 Lessons • ~24 Hours</p>
+        </div>
+        <a href="module-a/index.html" class="btn btn-primary btn-block">Start Module</a>
+      </div>
+
+      <!-- Module B -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-primary">Foundation</span>
+            <span class="badge badge-neutral">Coming Soon</span>
+          </div>
+          <h3 class="text-xl mb-2">Module B: Vaartak / Prose (ਵਾਰਤਕ)</h3>
+          <p class="text-sm text-neutral-600 mb-4">Major prose writers and historical Vaartak texts.</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">6 Lessons • ~12 Hours</p>
+        </div>
+        <a href="module-b/index.html" class="btn btn-ghost btn-block">View Outline</a>
+      </div>
+
+      <!-- Module C -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-accent">Core</span>
+            <span class="badge badge-neutral">Coming Soon</span>
+          </div>
+          <h3 class="text-xl mb-2">Module C: Fiction & Drama</h3>
+          <p class="text-sm text-neutral-600 mb-4">Kahani (Story), Novel, Natak (Drama), and Ikangi (One-act play).</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">8 Lessons • ~16 Hours</p>
+        </div>
+        <a href="module-c/index.html" class="btn btn-ghost btn-block">View Outline</a>
+      </div>
+
+      <!-- Module D -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-accent">Core</span>
+            <span class="badge badge-neutral">Coming Soon</span>
+          </div>
+          <h3 class="text-xl mb-2">Module D: Autobiography</h3>
+          <p class="text-sm text-neutral-600 mb-4">Sway-jeevani (Autobiography) and other literary forms.</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">3 Lessons • ~6 Hours</p>
+        </div>
+        <a href="module-d/index.html" class="btn btn-ghost btn-block">View Outline</a>
+      </div>
+
+      <!-- Module E -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-accent">Core</span>
+            <span class="badge badge-neutral">Coming Soon</span>
+          </div>
+          <h3 class="text-xl mb-2">Module E: Folk Lit. & Culture</h3>
+          <p class="text-sm text-neutral-600 mb-4">Lok Sahit (Folk Literature) and Punjabi Sabhiachar (Culture).</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">3 Lessons • ~6 Hours</p>
+        </div>
+        <a href="module-e/index.html" class="btn btn-ghost btn-block">View Outline</a>
+      </div>
+
+      <!-- Module F -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-info">Revision</span>
+            <span class="badge badge-neutral">Coming Soon</span>
+          </div>
+          <h3 class="text-xl mb-2">Module F: Grammar (ਵਿਆਕਰਨ)</h3>
+          <p class="text-sm text-neutral-600 mb-4">Complete Punjabi grammar rules, linguistics, and usage.</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">6 Lessons • ~12 Hours</p>
+        </div>
+        <a href="module-f/index.html" class="btn btn-ghost btn-block">View Outline</a>
+      </div>
+
+      <!-- Module G -->
+      <div class="card module-card">
+        <div>
+          <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-2">
+            <span class="badge badge-info">Revision</span>
+            <span class="badge badge-neutral">Coming Soon</span>
+          </div>
+          <h3 class="text-xl mb-2">Module G: Pedagogy</h3>
+          <p class="text-sm text-neutral-600 mb-4">Pedagogy of teaching Punjabi language.</p>
+          <div class="progress-container mb-2">
+            <div class="progress-bar" style="width: 0%"></div>
+          </div>
+          <p class="text-xs text-neutral-500 mb-4">2 Lessons • ~4 Hours</p>
+        </div>
+        <a href="module-g/index.html" class="btn btn-ghost btn-block">View Outline</a>
+      </div>
+
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+{
+  "id": "pbi-mod-a-l8",
+  "title": "Recall Quiz: Chandi Di Vaar",
+  "questions": [
+    {
+      "id": "q-8-1",
+      "topic": "Chandi Di Vaar",
+      "q": "Author of Chandi Di Vaar?",
+      "qPa": "\u0a1a\u0a70\u0a21\u0a40 \u0a26\u0a40 \u0a35\u0a3e\u0a30 \u0a26\u0a3e \u0a32\u0a47\u0a16\u0a15?",
+      "options": [
+        "Guru Nanak",
+        "Guru Arjan",
+        "Guru Gobind Singh",
+        "Bhai Gurdas"
+      ],
+      "answerIndex": 2,
+      "explanation": "Guru Gobind Singh Ji.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-2",
+      "topic": "Chandi Di Vaar",
+      "q": "Other name for Chandi Di Vaar?",
+      "qPa": "\u0a26\u0a42\u0a1c\u0a3e \u0a28\u0a3e\u0a2e?",
+      "options": [
+        "Japji",
+        "Vaar Sri Bhagauti Ji Ki",
+        "Bachittar Natak",
+        "Zafarnama"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vaar Sri Bhagauti Ji Ki.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-3",
+      "topic": "Chandi Di Vaar",
+      "q": "How many Pauris in Chandi Di Vaar?",
+      "qPa": "\u0a15\u0a3f\u0a70\u0a28\u0a40\u0a06\u0a02 \u0a2a\u0a09\u0a5c\u0a40\u0a06\u0a02 \u0a39\u0a28?",
+      "options": [
+        "38",
+        "40",
+        "55",
+        "24"
+      ],
+      "answerIndex": 2,
+      "explanation": "55 Pauris.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-4",
+      "topic": "Chandi Di Vaar",
+      "q": "Which text is it based on?",
+      "qPa": "\u0a07\u0a39 \u0a15\u0a3f\u0a38 '\u0a24\u0a47 \u0a05\u0a27\u0a3e\u0a30\u0a24 \u0a39\u0a48?",
+      "options": [
+        "Ramayana",
+        "Mahabharata",
+        "Markandeya Purana",
+        "Rig Veda"
+      ],
+      "answerIndex": 2,
+      "explanation": "Markandeya Purana.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-5",
+      "topic": "Chandi Di Vaar",
+      "q": "Meters used in Chandi Di Vaar?",
+      "qPa": "\u0a15\u0a3f\u0a39\u0a5c\u0a47 \u0a1b\u0a70\u0a26 \u0a35\u0a30\u0a24\u0a47 \u0a17\u0a0f \u0a39\u0a28?",
+      "options": [
+        "Baint & Dvaiya",
+        "Sirkhandi & Nishani",
+        "Dohira & Chaupai",
+        "Korbit & Sad"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sirkhandi and Nishani.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-6",
+      "topic": "Chandi Di Vaar",
+      "q": "What is the main Ras (emotion) in this Vaar?",
+      "qPa": "\u0a2e\u0a41\u0a71\u0a16 \u0a30\u0a38 \u0a15\u0a3f\u0a39\u0a5c\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Shant Ras",
+        "Shingar Ras",
+        "Beer Ras (Heroic)",
+        "Karuna Ras"
+      ],
+      "answerIndex": 2,
+      "explanation": "Beer Ras (Heroic poetry).",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-7",
+      "topic": "Chandi Di Vaar",
+      "q": "Purpose of composing this Vaar?",
+      "qPa": "\u0a2e\u0a41\u0a71\u0a16 \u0a09\u0a26\u0a47\u0a38\u0a3c \u0a15\u0a40 \u0a38\u0a40?",
+      "options": [
+        "Romantic tale",
+        "Instill martial spirit in Sikhs",
+        "Teach grammar",
+        "Historical record of Gurus"
+      ],
+      "answerIndex": 1,
+      "explanation": "To inspire bravery and martial spirit.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-8",
+      "topic": "Chandi Di Vaar",
+      "q": "First complete Vaar in Punjabi?",
+      "qPa": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 \u0a26\u0a40 \u0a2a\u0a39\u0a3f\u0a32\u0a40 \u0a38\u0a70\u0a2a\u0a42\u0a30\u0a28 \u0a35\u0a3e\u0a30?",
+      "options": [
+        "Asa Di Vaar",
+        "Chandi Di Vaar",
+        "Najabat Di Vaar",
+        "Chatthian Di Vaar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chandi Di Vaar is the first complete heroic ballad.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-9",
+      "topic": "Chandi Di Vaar",
+      "q": "Who does Chandi fight against?",
+      "qPa": "\u0a1a\u0a70\u0a21\u0a40 \u0a15\u0a3f\u0a38 \u0a28\u0a3e\u0a32 \u0a32\u0a5c\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Mughals",
+        "British",
+        "Demons (Asuras/Rakshasas)",
+        "Rajputs"
+      ],
+      "answerIndex": 2,
+      "explanation": "Demons like Mahishasura.",
+      "pyq": ""
+    },
+    {
+      "id": "q-8-10",
+      "topic": "Chandi Di Vaar",
+      "q": "Language of Chandi Di Vaar?",
+      "qPa": "\u0a2d\u0a3e\u0a38\u0a3c\u0a3e \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Pure Persian",
+        "Braj Bhasha",
+        "Theth Punjabi",
+        "Sanskrit"
+      ],
+      "answerIndex": 2,
+      "explanation": "Theth (pure) Punjabi.",
+      "pyq": ""
+    }
+  ]
+}
