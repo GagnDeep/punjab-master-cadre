@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-04",
+  "title": "Recall Quiz: Prehistoric and Ancient Western Art",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "The famous Paleolithic cave paintings of Lascaux are located in which country?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "France",
+        "Spain",
+        "Italy",
+        "Germany"
+      ],
+      "answerIndex": 0,
+      "explanation": "France is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "Which term describes the Egyptian artistic convention where the most important figure is depicted largest?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Hierarchical scale",
+        "Foreshortening",
+        "Linear perspective",
+        "Chiaroscuro"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hierarchical scale is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "The massive stepped pyramids constructed by the ancient Mesopotamians were called:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Ziggurats",
+        "Mastabas",
+        "Stupas",
+        "Obelisks"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ziggurats is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "Which artifact commemorates the unification of Upper and Lower Egypt?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Narmer Palette",
+        "Standard of Ur",
+        "Stele of Hammurabi",
+        "Rosetta Stone"
+      ],
+      "answerIndex": 0,
+      "explanation": "Narmer Palette is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "The 'Venus of Willendorf' is a prominent example of sculpture from which era?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Paleolithic",
+        "Neolithic",
+        "Egyptian",
+        "Sumerian"
+      ],
+      "answerIndex": 0,
+      "explanation": "Paleolithic is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "In traditional Egyptian painting, the human figure is depicted using a 'composite view', also known as:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Frontalism",
+        "Contrapposto",
+        "Sfumato",
+        "Impasto"
+      ],
+      "answerIndex": 0,
+      "explanation": "Frontalism is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "During the brief Amarna period in Egypt under Pharaoh Akhenaten, the art style became:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "More naturalistic and relaxed",
+        "More rigid and formalized",
+        "Exclusively abstract",
+        "Dominated by landscape painting"
+      ],
+      "answerIndex": 0,
+      "explanation": "More naturalistic and relaxed is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "The 'Stele of Hammurabi', inscribed with a famous law code, originates from which civilization?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Babylonian",
+        "Assyrian",
+        "Egyptian",
+        "Minoan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Babylonian is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "Which color was symbolically used in Egyptian art to represent resurrection and fertility?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Green",
+        "Red",
+        "Gold",
+        "Black"
+      ],
+      "answerIndex": 0,
+      "explanation": "Green is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Prehistoric and Ancient Western Art",
+      "q": "The prehistoric megalithic structure known as Stonehenge is constructed primarily from:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Sarsen stones and bluestones",
+        "Marble and granite",
+        "Limestone and diorite",
+        "Mudbrick and timber"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sarsen stones and bluestones is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

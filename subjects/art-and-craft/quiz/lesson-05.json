@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-05",
+  "title": "Recall Quiz: Renaissance to Modern Western Art",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Which Renaissance technique involves the mathematical system for creating the illusion of 3D space on a 2D surface?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Linear Perspective",
+        "Sfumato",
+        "Fresco",
+        "Impasto"
+      ],
+      "answerIndex": 0,
+      "explanation": "Linear Perspective is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Leonardo da Vinci's 'Mona Lisa' is famous for its use of which technique to create soft, blended transitions?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Sfumato",
+        "Chiaroscuro",
+        "Tenebrism",
+        "Pointillism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Sfumato is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "The shift from egg tempera to which medium allowed Northern Renaissance artists to achieve deep, luminous colors?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Oil paint",
+        "Watercolor",
+        "Acrylic",
+        "Encaustic"
+      ],
+      "answerIndex": 0,
+      "explanation": "Oil paint is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Which art movement, spearheaded by Claude Monet, focused on capturing the fleeting effects of light and atmosphere?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Impressionism",
+        "Baroque",
+        "Neoclassicism",
+        "Romanticism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Impressionism is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Michelangelo's 'David' revived which classical sculptural posture, characterized by a relaxed, asymmetrical weight shift?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Contrapposto",
+        "Frontalism",
+        "Hierarchical scale",
+        "Verism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Contrapposto is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "The extreme, dramatic contrast of light and dark used by Baroque artists like Caravaggio is known as:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Tenebrism",
+        "Sfumato",
+        "Glazing",
+        "Foreshortening"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tenebrism is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Which movement sought a return to the rational, stoic ideals of ancient Greece and Rome during the Enlightenment?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Neoclassicism",
+        "Romanticism",
+        "Rococo",
+        "Mannerism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Neoclassicism is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "The philosophical shift during the Renaissance that focused on human potential and achievements rather than divine intervention is called:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Humanism",
+        "Scholasticism",
+        "Existentialism",
+        "Nihilism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Humanism is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Jan van Eyck's 'Arnolfini Portrait' is a quintessential example of which regional Renaissance style known for minute detail?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Northern Renaissance",
+        "Italian High Renaissance",
+        "Venetian Renaissance",
+        "Early Florentine Renaissance"
+      ],
+      "answerIndex": 0,
+      "explanation": "Northern Renaissance is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Renaissance to Modern Western Art",
+      "q": "Impressionist artists famously abandoned the studio to paint outdoors. This practice is known as:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Plein air painting",
+        "Alla prima",
+        "Trompe l'oeil",
+        "Action painting"
+      ],
+      "answerIndex": 0,
+      "explanation": "Plein air painting is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

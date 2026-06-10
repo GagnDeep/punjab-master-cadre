@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-07",
+  "title": "Recall Quiz: Rajasthani Painting School",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Rajasthani Painting School",
+      "q": "Which painting school is primarily known for its deeply religious and romantic themes, particularly centered on Krishna?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Rajasthani Painting School",
+        "Mughal Painting School",
+        "Company School",
+        "Bengal School"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rajasthani Painting School is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Rajasthani Painting School",
+      "q": "The iconic painting 'Bani Thani', often referred to as the 'Mona Lisa of India', belongs to which sub-school?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Kishangarh",
+        "Mewar",
+        "Bundi",
+        "Bikaner"
+      ],
+      "answerIndex": 0,
+      "explanation": "Kishangarh is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Rajasthani Painting School",
+      "q": "Who was the master artist responsible for creating the 'Bani Thani' masterpiece?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Nihal Chand",
+        "Sahibdin",
+        "Ustad Mansur",
+        "Manaku"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nihal Chand is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Rajasthani Painting School",
+      "q": "Paintings that are visual representations of Indian musical modes, conveying specific moods and times of day, are called:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Ragamala",
+        "Baburnama",
+        "Tutinama",
+        "Hamzanama"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ragamala is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Rajasthani Painting School",
+      "q": "Which Rajasthani sub-school is considered the most foundational, characterized by bold red/yellow backgrounds and the artist Sahibdin?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Mewar",
+        "Kota",
+        "Marwar",
+        "Kishangarh"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mewar is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Rajasthani Painting School",
+      "q": "Dynamic, action-packed hunting scenes (shikar) set in lush, dense jungles are a hallmark of which sub-schools?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Bundi and Kota",
+        "Bikaner and Jodhpur",
+        "Kishangarh and Mewar",
+        "Jaipur and Alwar"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bundi and Kota is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Rajasthani Painting School",
+      "q": "Unlike Mughal art's realism, the facial features in Kishangarh paintings are highly stylized, featuring:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Elongated, sweeping lotus eyes and pointed chins",
+        "Strict anatomical accuracy",
+        "Round faces with small, dot-like eyes",
+        "Heavy shading and chiaroscuro"
+      ],
+      "answerIndex": 0,
+      "explanation": "Elongated, sweeping lotus eyes and pointed chins is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Rajasthani Painting School",
+      "q": "The Bikaner sub-school is distinct from other Rajasthani schools because it exhibits a strong influence from:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "The Mughal style (due to migrating artists)",
+        "European oil painting",
+        "South Indian bronzes",
+        "Ajanta frescoes"
+      ],
+      "answerIndex": 0,
+      "explanation": "The Mughal style (due to migrating artists) is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Rajasthani Painting School",
+      "q": "In typical Rajasthani miniatures, human faces are overwhelmingly depicted in:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Profile (side view)",
+        "Frontal view",
+        "Three-quarter view",
+        "From a bird's-eye view"
+      ],
+      "answerIndex": 0,
+      "explanation": "Profile (side view) is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Rajasthani Painting School",
+      "q": "Which literary work, detailing the divine love of Radha and Krishna, was a frequent subject for Rajasthani painters?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Gita Govinda",
+        "Akbarnama",
+        "Mahabharata",
+        "Upanishads"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gita Govinda is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

@@ -1,0 +1,382 @@
+{
+  "id": "ac-mod-01-test",
+  "title": "Module 1 Test: History of Indian Art, Indus to Modern",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mod1-q-1",
+      "topic": "Indus Valley Civilization Art",
+      "q": "Which material was primarily used to make the seals in the Indus Valley Civilization?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Steatite",
+        "Bronze",
+        "Terracotta",
+        "Iron"
+      ],
+      "answerIndex": 0,
+      "explanation": "Steatite is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-2",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The famous 'Dancing Girl' sculpture was found at which excavation site?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Mohenjo-Daro",
+        "Harappa",
+        "Lothal",
+        "Kalibangan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mohenjo-Daro is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-3",
+      "topic": "Indus Valley Civilization Art",
+      "q": "What technique was used to cast the 'Dancing Girl' bronze statue?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Lost-wax process (Cire Perdue)",
+        "Sand casting",
+        "Die casting",
+        "Forging"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lost-wax process (Cire Perdue) is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-4",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The 'Priest-King' bust is characterized by a shawl with which specific pattern?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Trefoil",
+        "Geometric",
+        "Floral",
+        "Checkered"
+      ],
+      "answerIndex": 0,
+      "explanation": "Trefoil is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-5",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The 'Male Torso' from Harappa is notable for having socket holes for attaching:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Head and arms",
+        "Legs",
+        "Wings",
+        "Tail"
+      ],
+      "answerIndex": 0,
+      "explanation": "Head and arms is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-6",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The 'Pashupati Seal' depicts a central figure surrounded by:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Animals",
+        "Warriors",
+        "Dancers",
+        "Priests"
+      ],
+      "answerIndex": 0,
+      "explanation": "Animals is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-7",
+      "topic": "Indus Valley Civilization Art",
+      "q": "Which of the following was NOT commonly used by Indus Valley artists?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Iron",
+        "Bronze",
+        "Terracotta",
+        "Steatite"
+      ],
+      "answerIndex": 0,
+      "explanation": "Iron is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-8",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The pottery of the Indus Valley was typically painted with:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Black designs on a red slip",
+        "Red designs on a black slip",
+        "Blue and white glazes",
+        "Polychrome floral patterns"
+      ],
+      "answerIndex": 0,
+      "explanation": "Black designs on a red slip is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-9",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The highly polished surface, known as 'Mauryan polish', was typically applied to which type of stone?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Chunar Sandstone",
+        "Marble",
+        "Granite",
+        "Basalt"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chunar Sandstone is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-10",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The Lion Capital of Sarnath, adopted as India's National Emblem, was commissioned by which ruler?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Kanishka",
+        "Harsha"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ashoka is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-11",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Which famous sculpture from the Mauryan period is depicted holding a fly-whisk (chauri)?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Didarganj Yakshi",
+        "Dancing Girl",
+        "Gomateshwara",
+        "Nataraja"
+      ],
+      "answerIndex": 0,
+      "explanation": "Didarganj Yakshi is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-12",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "During the Post-Mauryan period (e.g., at Sanchi and Bharhut), the Buddha was primarily represented:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Aniconically through symbols",
+        "In human form standing",
+        "In human form seated",
+        "As a Hindu deity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Aniconically through symbols is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-13",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The highly decorated gateways of Buddhist stupas, such as those at Sanchi, are called:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Toranas",
+        "Vedikas",
+        "Viharas",
+        "Chaityas"
+      ],
+      "answerIndex": 0,
+      "explanation": "Toranas is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-14",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Which site is famous for its early rock-cut elephant emerging from the natural rock face?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Dhauli",
+        "Ajanta",
+        "Ellora",
+        "Elephanta"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dhauli is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-15",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The narrative sculptures at Bharhut are significant because they often include:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Inscribed labels identifying the scene",
+        "Free-standing 3D figures",
+        "Mauryan high polish",
+        "Roman influences"
+      ],
+      "answerIndex": 0,
+      "explanation": "Inscribed labels identifying the scene is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-16",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Which period is associated with the construction of the Amaravati Stupa and its dynamic, elongated figures?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Satavahana",
+        "Gupta",
+        "Kushana",
+        "Chola"
+      ],
+      "answerIndex": 0,
+      "explanation": "Satavahana is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-17",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The abacus of the Sarnath Lion Capital features all of the following animals EXCEPT:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Tiger",
+        "Horse",
+        "Bull",
+        "Elephant"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tiger is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-18",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "Which historical era is widely considered the 'Golden Age' of Indian art?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Gupta Period",
+        "Mauryan Period",
+        "Mughal Period",
+        "Chola Period"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gupta Period is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-19",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The 'Seated Buddha Preaching the Law' from Sarnath is carved from which material?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Chunar Sandstone",
+        "Mottled Red Sandstone",
+        "Black Granite",
+        "Marble"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chunar Sandstone is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-20",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "A distinguishing feature of Sarnath school Buddha figures is:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Transparent clinging drapery",
+        "String-like thick robe folds",
+        "The absence of a halo",
+        "Depiction of a mustache"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transparent clinging drapery is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-21",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The famous mural painting of 'Bodhisattva Padmapani' is located in which cave at Ajanta?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Cave 1",
+        "Cave 16",
+        "Cave 9",
+        "Cave 26"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cave 1 is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-22",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The primary painting technique used by the artists at the Ajanta Caves is:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Tempera on dry plaster",
+        "True Fresco on wet plaster",
+        "Oil painting on canvas",
+        "Encaustic on wood"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tempera on dry plaster is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-23",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "Which early Gupta stone temple is famous for its 'Vishnu Anantashayana' relief panel?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Dashavatara Temple, Deogarh",
+        "Kailashnath Temple, Ellora",
+        "Sun Temple, Konark",
+        "Brihadeeswarar Temple, Thanjavur"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dashavatara Temple, Deogarh is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "mod1-q-24",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The subject matter of the murals at Ajanta primarily focuses on:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Jataka tales and the life of Buddha",
+        "Hindu epics Ramayana and Mahabharata",
+        "Jain Tirthankaras",
+        "Secular royal court scenes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jataka tales and the life of Buddha is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "mod1-q-25",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The Mathura school of sculpture during the Gupta period predominantly used:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Mottled Red Sandstone",
+        "White Marble",
+        "Steatite",
+        "Bronze"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mottled Red Sandstone is the correct answer based on the lesson material.",
+      "pyq": ""
+    }
+  ]
+}

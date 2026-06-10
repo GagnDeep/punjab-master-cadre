@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-06",
+  "title": "Recall Quiz: Mughal Painting School",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Mughal Painting School",
+      "q": "Which Mughal emperor is credited with establishing the large imperial atelier (tasvir khana) and synthesizing Persian and Indian styles?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Akbar",
+        "Babur",
+        "Humayun",
+        "Shah Jahan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Akbar is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Mughal Painting School",
+      "q": "Under which emperor did Mughal painting reach its zenith, characterized by intense naturalism and psychological portraiture?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Jahangir",
+        "Akbar",
+        "Aurangzeb",
+        "Shah Jahan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jahangir is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Mughal Painting School",
+      "q": "Ustad Mansur was a legendary Mughal artist renowned specifically for his masterly depictions of:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Flora and Fauna (Birds and Animals)",
+        "Monumental battle scenes",
+        "Calligraphic verses",
+        "Architectural drafts"
+      ],
+      "answerIndex": 0,
+      "explanation": "Flora and Fauna (Birds and Animals) is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Mughal Painting School",
+      "q": "Which massive manuscript project, consisting of 1400 large cloth paintings, was the foundational work of Akbar's atelier?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Hamzanama",
+        "Akbarnama",
+        "Baburnama",
+        "Padshahnama"
+      ],
+      "answerIndex": 0,
+      "explanation": "Hamzanama is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Mughal Painting School",
+      "q": "European influences, such as single-point perspective and halos around royalty, became prominent during the reign of:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Jahangir",
+        "Babur",
+        "Humayun",
+        "Aurangzeb"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jahangir is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Mughal Painting School",
+      "q": "The technique of rubbing the painted surface from the back with an agate stone to achieve a jewel-like finish is called:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Burnishing",
+        "Glazing",
+        "Sfumato",
+        "Fresco"
+      ],
+      "answerIndex": 0,
+      "explanation": "Burnishing is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Mughal Painting School",
+      "q": "Which Mughal emperor's orthodox views led to the decline of imperial patronage and the dispersal of artists to provincial courts?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Aurangzeb",
+        "Shah Jahan",
+        "Jahangir",
+        "Akbar"
+      ],
+      "answerIndex": 0,
+      "explanation": "Aurangzeb is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Mughal Painting School",
+      "q": "During Shah Jahan's reign, Mughal painting style shifted away from Jahangir's naturalism towards:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Rigid, formal court scenes with excessive use of gold",
+        "Impressionistic landscapes",
+        "Abstract geometric patterns",
+        "Dark, moody tenebrism"
+      ],
+      "answerIndex": 0,
+      "explanation": "Rigid, formal court scenes with excessive use of gold is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Mughal Painting School",
+      "q": "Who among the following was a master portrait painter in Jahangir's court?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Bishan Das",
+        "Mir Sayyid Ali",
+        "Abd al-Samad",
+        "Daswanth"
+      ],
+      "answerIndex": 0,
+      "explanation": "Bishan Das is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Mughal Painting School",
+      "q": "Mughal miniature paintings were primarily painted on which surface?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Wasli (Handmade burnished paper)",
+        "Canvas",
+        "Wet plaster walls",
+        "Palm leaves"
+      ],
+      "answerIndex": 0,
+      "explanation": "Wasli (Handmade burnished paper) is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

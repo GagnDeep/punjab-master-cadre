@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-01",
+  "title": "Recall Quiz: Indus Valley Civilization Art",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Indus Valley Civilization Art",
+      "q": "Which material was primarily used to make the seals in the Indus Valley Civilization?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Steatite",
+        "Bronze",
+        "Terracotta",
+        "Iron"
+      ],
+      "answerIndex": 0,
+      "explanation": "Steatite is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The famous 'Dancing Girl' sculpture was found at which excavation site?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Mohenjo-Daro",
+        "Harappa",
+        "Lothal",
+        "Kalibangan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mohenjo-Daro is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Indus Valley Civilization Art",
+      "q": "What technique was used to cast the 'Dancing Girl' bronze statue?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Lost-wax process (Cire Perdue)",
+        "Sand casting",
+        "Die casting",
+        "Forging"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lost-wax process (Cire Perdue) is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The 'Priest-King' bust is characterized by a shawl with which specific pattern?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Trefoil",
+        "Geometric",
+        "Floral",
+        "Checkered"
+      ],
+      "answerIndex": 0,
+      "explanation": "Trefoil is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The 'Male Torso' from Harappa is notable for having socket holes for attaching:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Head and arms",
+        "Legs",
+        "Wings",
+        "Tail"
+      ],
+      "answerIndex": 0,
+      "explanation": "Head and arms is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The 'Pashupati Seal' depicts a central figure surrounded by:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Animals",
+        "Warriors",
+        "Dancers",
+        "Priests"
+      ],
+      "answerIndex": 0,
+      "explanation": "Animals is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Indus Valley Civilization Art",
+      "q": "Which of the following was NOT commonly used by Indus Valley artists?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Iron",
+        "Bronze",
+        "Terracotta",
+        "Steatite"
+      ],
+      "answerIndex": 0,
+      "explanation": "Iron is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Indus Valley Civilization Art",
+      "q": "The pottery of the Indus Valley was typically painted with:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Black designs on a red slip",
+        "Red designs on a black slip",
+        "Blue and white glazes",
+        "Polychrome floral patterns"
+      ],
+      "answerIndex": 0,
+      "explanation": "Black designs on a red slip is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Indus Valley Civilization Art",
+      "q": "Where is the 'Dancing Girl' sculpture currently housed?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "National Museum, New Delhi",
+        "British Museum, London",
+        "Lahore Museum",
+        "Metropolitan Museum of Art"
+      ],
+      "answerIndex": 0,
+      "explanation": "National Museum, New Delhi is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Indus Valley Civilization Art",
+      "q": "Terracotta was widely used in the Indus Valley to create:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Mother Goddess figurines and toys",
+        "Large monumental pillars",
+        "Weapons and armor",
+        "Intricate jewelry"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mother Goddess figurines and toys is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}
