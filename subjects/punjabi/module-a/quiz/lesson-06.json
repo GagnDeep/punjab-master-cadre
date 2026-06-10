@@ -1,0 +1,156 @@
+{
+  "id": "pbi-mod-a-l6",
+  "title": "Recall Quiz: Damodar & Peelu",
+  "questions": [
+    {
+      "id": "q-6-1",
+      "topic": "Damodar & Peelu",
+      "q": "First writer of Heer Qissa?",
+      "qPa": "\u0a39\u0a40\u0a30 \u0a26\u0a3e \u0a2a\u0a39\u0a3f\u0a32\u0a3e \u0a15\u0a3f\u0a71\u0a38\u0a3e\u0a15\u0a3e\u0a30?",
+      "options": [
+        "Waris Shah",
+        "Peelu",
+        "Damodar",
+        "Hashim"
+      ],
+      "answerIndex": 2,
+      "explanation": "Damodar.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-2",
+      "topic": "Damodar & Peelu",
+      "q": "Dialect of Damodar's Heer?",
+      "qPa": "\u0a26\u0a2e\u0a4b\u0a26\u0a30 \u0a26\u0a40 \u0a2d\u0a3e\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Majhi",
+        "Malwai",
+        "Jhangi",
+        "Doabi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Jhangi dialect.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-3",
+      "topic": "Damodar & Peelu",
+      "q": "Ending of Damodar's Heer?",
+      "qPa": "\u0a26\u0a2e\u0a4b\u0a26\u0a30 \u0a26\u0a40 \u0a39\u0a40\u0a30 \u0a26\u0a3e \u0a05\u0a70\u0a24?",
+      "options": [
+        "Tragic",
+        "Happy (Sukhantak)",
+        "Incomplete",
+        "Unknown"
+      ],
+      "answerIndex": 1,
+      "explanation": "It ends happily.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-4",
+      "topic": "Damodar & Peelu",
+      "q": "Meter of Damodar's Heer?",
+      "qPa": "\u0a26\u0a2e\u0a4b\u0a26\u0a30 \u0a26\u0a3e \u0a1b\u0a70\u0a26?",
+      "options": [
+        "Baint",
+        "Dvaiya",
+        "Sad",
+        "Sirkhandi"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dvaiya meter.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-5",
+      "topic": "Damodar & Peelu",
+      "q": "Who wrote Mirza Sahiban?",
+      "qPa": "\u0a2e\u0a3f\u0a30\u0a1c\u0a3c\u0a3e \u0a38\u0a3e\u0a39\u0a3f\u0a2c\u0a3e\u0a02 \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a32\u0a3f\u0a16\u0a3f\u0a06?",
+      "options": [
+        "Peelu",
+        "Hafiz Barkhurdar",
+        "Damodar",
+        "Kadar Yar"
+      ],
+      "answerIndex": 0,
+      "explanation": "Peelu.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-6",
+      "topic": "Damodar & Peelu",
+      "q": "Poetic form of Peelu's Mirza?",
+      "qPa": "\u0a2a\u0a40\u0a32\u0a42 \u0a26\u0a3e \u0a15\u0a3e\u0a35\u0a3f-\u0a30\u0a42\u0a2a?",
+      "options": [
+        "Baint",
+        "Dvaiya",
+        "Sad",
+        "Kafi"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sad (\u0a38\u0a26).",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-7",
+      "topic": "Damodar & Peelu",
+      "q": "Theme of Mirza Sahiban?",
+      "qPa": "\u0a2e\u0a3f\u0a30\u0a1c\u0a3c\u0a3e \u0a38\u0a3e\u0a39\u0a3f\u0a2c\u0a3e\u0a02 \u0a26\u0a3e \u0a35\u0a3f\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Spiritual union",
+        "Tragic worldly love & bravery",
+        "War against British",
+        "Social reform"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tragic love and bravery.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-8",
+      "topic": "Damodar & Peelu",
+      "q": "Damodar was a contemporary of which Mughal emperor?",
+      "qPa": "\u0a26\u0a2e\u0a4b\u0a26\u0a30 \u0a15\u0a3f\u0a38\u0a26\u0a3e \u0a38\u0a2e\u0a15\u0a3e\u0a32\u0a40 \u0a38\u0a40?",
+      "options": [
+        "Babar",
+        "Akbar",
+        "Aurangzeb",
+        "Jahangir"
+      ],
+      "answerIndex": 1,
+      "explanation": "Akbar.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-9",
+      "topic": "Damodar & Peelu",
+      "q": "Does Damodar claim to be an eyewitness?",
+      "qPa": "\u0a15\u0a40 \u0a26\u0a2e\u0a4b\u0a26\u0a30 \u0a05\u0a71\u0a16\u0a40\u0a02 \u0a21\u0a3f\u0a71\u0a20\u0a3e \u0a39\u0a4b\u0a23 \u0a26\u0a3e \u0a26\u0a3e\u0a05\u0a35\u0a3e \u0a15\u0a30\u0a26\u0a3e \u0a39\u0a48?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Never mentions"
+      ],
+      "answerIndex": 0,
+      "explanation": "Yes, 'Akkheen dithi' is a famous phrase.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6-10",
+      "topic": "Damodar & Peelu",
+      "q": "Who praises Peelu's poetic greatness?",
+      "qPa": "\u0a2a\u0a40\u0a32\u0a42 \u0a26\u0a40 \u0a38\u0a3f\u0a2b\u0a3c\u0a24 \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a15\u0a40\u0a24\u0a40?",
+      "options": [
+        "Damodar",
+        "Hafiz Barkhurdar",
+        "Waris Shah",
+        "Shah Hussain"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hafiz Barkhurdar praised Peelu.",
+      "pyq": ""
+    }
+  ]
+}

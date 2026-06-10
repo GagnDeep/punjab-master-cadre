@@ -1,0 +1,156 @@
+{
+  "id": "pbi-mod-a-l7",
+  "title": "Recall Quiz: Waris Shah & Hashim Shah",
+  "questions": [
+    {
+      "id": "q-7-1",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Who wrote the most famous Heer?",
+      "qPa": "\u0a38\u0a2d \u0a24\u0a4b\u0a02 \u0a2e\u0a38\u0a3c\u0a39\u0a42\u0a30 \u0a39\u0a40\u0a30 \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Damodar",
+        "Waris Shah",
+        "Mukbal",
+        "Ahmad Gujjar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waris Shah.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-2",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Meter used in Heer Waris Shah?",
+      "qPa": "\u0a35\u0a3e\u0a30\u0a3f\u0a38 \u0a26\u0a3e \u0a1b\u0a70\u0a26?",
+      "options": [
+        "Dvaiya",
+        "Baint",
+        "Sad",
+        "Korbit"
+      ],
+      "answerIndex": 1,
+      "explanation": "Baint meter.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-3",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Year Heer Waris Shah was completed?",
+      "qPa": "\u0a35\u0a3e\u0a30\u0a3f\u0a38 \u0a26\u0a40 \u0a39\u0a40\u0a30 \u0a15\u0a26\u0a4b\u0a02 \u0a2e\u0a41\u0a15\u0a70\u0a2e\u0a32 \u0a39\u0a4b\u0a08?",
+      "options": [
+        "1766",
+        "1800",
+        "1650",
+        "1900"
+      ],
+      "answerIndex": 0,
+      "explanation": "1766 AD.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-4",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Which Qissa is called 'Encyclopedia of Punjab'?",
+      "qPa": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c \u0a26\u0a3e \u0a35\u0a3f\u0a38\u0a3c\u0a35\u0a15\u0a4b\u0a38\u0a3c?",
+      "options": [
+        "Mirza Peelu",
+        "Sassi Hashim",
+        "Heer Waris",
+        "Puran Bhagat"
+      ],
+      "answerIndex": 2,
+      "explanation": "Heer Waris Shah.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-5",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Who wrote the famous Sassui Punnhun?",
+      "qPa": "\u0a2a\u0a4d\u0a30\u0a38\u0a3f\u0a71\u0a27 \u0a38\u0a71\u0a38\u0a40 \u0a15\u0a3f\u0a38\u0a28\u0a47 \u0a32\u0a3f\u0a16\u0a40?",
+      "options": [
+        "Waris Shah",
+        "Hashim Shah",
+        "Fazal Shah",
+        "Kadar Yar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Hashim Shah.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-6",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Meter of Hashim's Sassui?",
+      "qPa": "\u0a39\u0a3e\u0a38\u0a3c\u0a2e \u0a26\u0a3e \u0a1b\u0a70\u0a26?",
+      "options": [
+        "Baint",
+        "Dvaiya",
+        "Sad",
+        "Rubai"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dvaiya meter.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-7",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Hashim Shah was the court poet of:",
+      "qPa": "\u0a39\u0a3e\u0a38\u0a3c\u0a2e \u0a15\u0a3f\u0a38\u0a26\u0a3e \u0a26\u0a30\u0a2c\u0a3e\u0a30\u0a40 \u0a38\u0a40?",
+      "options": [
+        "Akbar",
+        "Maharaja Ranjit Singh",
+        "Aurangzeb",
+        "Shah Jahan"
+      ],
+      "answerIndex": 1,
+      "explanation": "Maharaja Ranjit Singh.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-8",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Ending of Waris Shah's Heer?",
+      "qPa": "\u0a35\u0a3e\u0a30\u0a3f\u0a38 \u0a26\u0a40 \u0a39\u0a40\u0a30 \u0a26\u0a3e \u0a05\u0a70\u0a24?",
+      "options": [
+        "Happy",
+        "Tragic (Dukhantak)",
+        "Unclear",
+        "Spiritual only"
+      ],
+      "answerIndex": 1,
+      "explanation": "Tragic.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-9",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Prominent theme in Hashim's Sassui?",
+      "qPa": "\u0a39\u0a3e\u0a38\u0a3c\u0a2e \u0a26\u0a40 \u0a38\u0a71\u0a38\u0a40 \u0a26\u0a3e \u0a2e\u0a41\u0a71\u0a16 \u0a35\u0a3f\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Comedy",
+        "War",
+        "Intense pain of separation (Sufi love)",
+        "Politics"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pain of separation.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7-10",
+      "topic": "Waris Shah & Hashim Shah",
+      "q": "Who is considered the Shakespeare of Punjabi literature?",
+      "qPa": "\u0a2a\u0a70\u0a1c\u0a3e\u0a2c\u0a40 \u0a26\u0a3e \u0a38\u0a3c\u0a48\u0a15\u0a38\u0a2a\u0a40\u0a05\u0a30 \u0a15\u0a4c\u0a23 \u0a39\u0a48?",
+      "options": [
+        "Bulleh Shah",
+        "Waris Shah",
+        "Bhai Vir Singh",
+        "Shiv Kumar"
+      ],
+      "answerIndex": 1,
+      "explanation": "Waris Shah.",
+      "pyq": ""
+    }
+  ]
+}

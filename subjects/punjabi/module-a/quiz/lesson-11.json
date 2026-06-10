@@ -1,0 +1,156 @@
+{
+  "id": "pbi-mod-a-l11",
+  "title": "Recall Quiz: Shiv Kumar Batalvi",
+  "questions": [
+    {
+      "id": "q-11-1",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "Who is known as 'Birha Da Sultan'?",
+      "qPa": "'\u0a2c\u0a3f\u0a30\u0a39\u0a3e \u0a26\u0a3e \u0a38\u0a41\u0a32\u0a24\u0a3e\u0a28' \u0a15\u0a4c\u0a23 \u0a39\u0a48?",
+      "options": [
+        "Surjit Patar",
+        "Shiv Kumar Batalvi",
+        "Pash",
+        "Bhai Vir Singh"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shiv Kumar Batalvi.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-2",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "Which book won Shiv Kumar the Sahitya Akademi Award?",
+      "qPa": "\u0a15\u0a3f\u0a38 \u0a15\u0a3f\u0a24\u0a3e\u0a2c \u0a32\u0a08 \u0a07\u0a28\u0a3e\u0a2e \u0a2e\u0a3f\u0a32\u0a3f\u0a06?",
+      "options": [
+        "Loona",
+        "Peeran Da Paraga",
+        "Aarti",
+        "Main Te Main"
+      ],
+      "answerIndex": 0,
+      "explanation": "Luna (\u0a32\u0a42\u0a23\u0a3e).",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-3",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "What literary form is 'Luna'?",
+      "qPa": "'\u0a32\u0a42\u0a23\u0a3e' \u0a26\u0a3e \u0a38\u0a3e\u0a39\u0a3f\u0a24\u0a15 \u0a30\u0a42\u0a2a \u0a15\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Novel",
+        "Epic Poem",
+        "Kav-Natak (Verse Play)",
+        "Short Story"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is a Kav-Natak (Verse Play).",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-4",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "Luna is a retelling of which classic legend?",
+      "qPa": "'\u0a32\u0a42\u0a23\u0a3e' \u0a15\u0a3f\u0a38 \u0a15\u0a25\u0a3e '\u0a24\u0a47 \u0a05\u0a27\u0a3e\u0a30\u0a24 \u0a39\u0a48?",
+      "options": [
+        "Heer Ranjha",
+        "Sohni Mahiwal",
+        "Puran Bhagat",
+        "Raja Rasalu"
+      ],
+      "answerIndex": 2,
+      "explanation": "The legend of Puran Bhagat.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-5",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "What is unique about Shiv Kumar's Sahitya Akademi Award?",
+      "qPa": "\u0a07\u0a38 \u0a07\u0a28\u0a3e\u0a2e \u0a2c\u0a3e\u0a30\u0a47 \u0a15\u0a40 \u0a16\u0a3e\u0a38 \u0a39\u0a48?",
+      "options": [
+        "First winner",
+        "Youngest winner",
+        "Refused it",
+        "Won it twice"
+      ],
+      "answerIndex": 1,
+      "explanation": "He is the youngest recipient.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-6",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "Main theme of Shiv Kumar's poetry?",
+      "qPa": "\u0a2e\u0a41\u0a71\u0a16 \u0a35\u0a3f\u0a38\u0a3c\u0a3e?",
+      "options": [
+        "Revolution",
+        "Joy and celebration",
+        "Pain, separation, and early death",
+        "Politics"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pain, separation (Birha), and mortality.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-7",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "In Luna, how does Shiv portray the character of Luna?",
+      "qPa": "\u0a38\u0a3c\u0a3f\u0a35 \u0a28\u0a47 \u0a32\u0a42\u0a23\u0a3e \u0a28\u0a42\u0a70 \u0a15\u0a3f\u0a35\u0a47\u0a02 \u0a2a\u0a47\u0a38\u0a3c \u0a15\u0a40\u0a24\u0a3e \u0a39\u0a48?",
+      "options": [
+        "As a pure villain",
+        "As a feminist victim of patriarchy",
+        "As a goddess",
+        "As a warrior"
+      ],
+      "answerIndex": 1,
+      "explanation": "As a sympathetic victim of patriarchal norms.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-8",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "'Main kandiali thor ve sajna' is written by:",
+      "qPa": "\u0a07\u0a39 \u0a24\u0a41\u0a15 \u0a15\u0a3f\u0a38\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Amrita Pritam",
+        "Surjit Patar",
+        "Shiv Kumar",
+        "Nand Lal Noorpuri"
+      ],
+      "answerIndex": 2,
+      "explanation": "Shiv Kumar Batalvi.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-9",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "Shiv Kumar's poetry heavily borrows imagery from:",
+      "qPa": "\u0a15\u0a3f\u0a38 \u0a24\u0a30\u0a4d\u0a39\u0a3e\u0a02 \u0a26\u0a47 \u0a2a\u0a4d\u0a30\u0a24\u0a40\u0a15 \u0a35\u0a30\u0a24\u0a47 \u0a39\u0a28?",
+      "options": [
+        "Urban cities",
+        "Space exploration",
+        "Rural Punjabi folk life",
+        "European history"
+      ],
+      "answerIndex": 2,
+      "explanation": "Rural Punjabi village life and nature.",
+      "pyq": ""
+    },
+    {
+      "id": "q-11-10",
+      "topic": "Shiv Kumar Batalvi",
+      "q": "When did Shiv Kumar pass away?",
+      "qPa": "\u0a26\u0a47\u0a39\u0a3e\u0a02\u0a24 \u0a15\u0a26\u0a4b\u0a02 \u0a39\u0a4b\u0a07\u0a06?",
+      "options": [
+        "1947",
+        "1973",
+        "1984",
+        "2000"
+      ],
+      "answerIndex": 1,
+      "explanation": "In 1973 at a young age.",
+      "pyq": ""
+    }
+  ]
+}
