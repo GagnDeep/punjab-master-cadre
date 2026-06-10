@@ -1,0 +1,86 @@
+{
+  "id": "pbi-mod-f-l1",
+  "title": "Recall Quiz: Dhuni Viunt te Lipi",
+  "questions": [
+    {
+      "id": "q-f-1-1",
+      "topic": "Dhuni Viunt",
+      "q": "How many vowel letters (Swar Akhar) are in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿੱਚ ਕਿੰਨੇ ਸਵਰ ਅੱਖਰ ਹਨ?",
+      "options": ["10", "3", "35", "41"],
+      "answerIndex": 1,
+      "explanation": "There are only 3 Swar Akhar (ਉ, ਅ, ਇ), but they produce 10 vowel sounds.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-1-2",
+      "topic": "Dhuni Viunt",
+      "q": "How many vowel sounds (Swar Dhunian) are in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿੱਚ ਸਵਰ ਧੁਨੀਆਂ ਦੀ ਗਿਣਤੀ ਕਿੰਨੀ ਹੈ?",
+      "options": ["3", "10", "12", "8"],
+      "answerIndex": 1,
+      "explanation": "The 3 Swar Akhar produce 10 distinct Swar Dhunian.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q-f-1-3",
+      "topic": "Consonants",
+      "q": "Which type of consonant is 'ਚ'?",
+      "qPa": "'ਚ' ਕਿਹੜੇ ਵਰਗ ਦਾ ਵਿਅੰਜਨ ਹੈ?",
+      "options": ["ਕੰਠੀ (Kanthi)", "ਤਾਲਵੀ (Talvi)", "ਦੰਤੀ (Danti)", "ਹੋਂਠੀ (Honthi)"],
+      "answerIndex": 1,
+      "explanation": "'ਚ' belongs to the Talvi (Palatal) group.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-1-4",
+      "topic": "Consonants",
+      "q": "Which group does 'ਪ, ਫ, ਬ, ਭ, ਮ' belong to?",
+      "qPa": "'ਪ, ਫ, ਬ, ਭ, ਮ' ਕਿਸ ਵਰਗ ਦੀਆਂ ਧੁਨੀਆਂ ਹਨ?",
+      "options": ["ਕੰਠੀ", "ਤਾਲਵੀ", "ਉਲਟ-ਜੀਭੀ", "ਹੋਂਠੀ"],
+      "answerIndex": 3,
+      "explanation": "They are Bilabial (Honthi) sounds.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-1-5",
+      "topic": "Akhandi Dhunian",
+      "q": "Which of the following is an Akhandi (Suprasegmental) sound?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜੀ ਅਖੰਡੀ ਧੁਨੀ ਹੈ?",
+      "options": ["ਸਵਰ (Vowel)", "ਵਿਅੰਜਨ (Consonant)", "ਸੁਰ (Tone)", "ਲਿਪੀ (Script)"],
+      "answerIndex": 2,
+      "explanation": "Tone (Sur), Stress (Bal), and Nasalization (Nasikta) are Akhandi Dhunian.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-1-6",
+      "topic": "Script",
+      "q": "How many letters were originally in the Gurmukhi script?",
+      "qPa": "ਗੁਰਮੁਖੀ ਲਿਪੀ ਦੇ ਮੂਲ ਅੱਖਰ ਕਿੰਨੇ ਸਨ?",
+      "options": ["41", "35", "38", "40"],
+      "answerIndex": 1,
+      "explanation": "Originally 35 (Panti Akhar).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-1-7",
+      "topic": "Script",
+      "q": "How many total letters are currently in Gurmukhi?",
+      "qPa": "ਹੁਣ ਗੁਰਮੁਖੀ ਲਿਪੀ ਵਿੱਚ ਕੁੱਲ ਕਿੰਨੇ ਅੱਖਰ ਹਨ?",
+      "options": ["35", "39", "41", "44"],
+      "answerIndex": 2,
+      "explanation": "35 original + 6 Naveen Varg = 41 total.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-1-8",
+      "topic": "Script",
+      "q": "How many Lagaakhar are there in Gurmukhi?",
+      "qPa": "ਗੁਰਮੁਖੀ ਵਿੱਚ ਕਿੰਨੇ ਲਗਾਖਰ ਹਨ?",
+      "options": ["10", "3", "5", "6"],
+      "answerIndex": 1,
+      "explanation": "There are 3: Bindi, Tippi, Adhak.",
+      "pyq": ""
+    }
+  ]
+}

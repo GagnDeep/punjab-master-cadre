@@ -1,0 +1,86 @@
+{
+  "id": "pbi-mod-f-l3",
+  "title": "Recall Quiz: Ling, Vachan, Karak",
+  "questions": [
+    {
+      "id": "q-f-3-1",
+      "topic": "Vachan",
+      "q": "What is the plural form (Bahu-Vachan) of the direct masculine word 'ਘਰ' (House)?",
+      "qPa": "ਪੁਲਿੰਗ ਸ਼ਬਦ 'ਘਰ' ਦਾ ਸਧਾਰਨ ਬਹੁ-ਵਚਨ ਕੀ ਹੋਵੇਗਾ?",
+      "options": ["ਘਰਾਂ", "ਘਰੇ", "ਘਰੀਂ", "ਘਰ"],
+      "answerIndex": 3,
+      "explanation": "Masculine nouns ending without a vowel (Mukta) do not change in the direct plural case.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "q-f-3-2",
+      "topic": "Karak",
+      "q": "How many types of Karak are there in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿੱਚ ਕਾਰਕ ਦੀਆਂ ਕਿੰਨੀਆਂ ਕਿਸਮਾਂ ਹਨ?",
+      "options": ["5", "6", "8", "10"],
+      "answerIndex": 2,
+      "explanation": "There are 8 types of Karak.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-3-3",
+      "topic": "Karak",
+      "q": "Which Karak uses the marker 'ਨੇ'?",
+      "qPa": "'ਨੇ' ਚਿੰਨ੍ਹ ਕਿਹੜੇ ਕਾਰਕ ਦਾ ਹੈ?",
+      "options": ["ਕਰਮ", "ਕਰਤਾ", "ਕਰਣ", "ਸੰਪਰਦਾਨ"],
+      "answerIndex": 1,
+      "explanation": "'ਨੇ' is the marker for Karta Karak (Nominative).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-3-4",
+      "topic": "Karak",
+      "q": "In the sentence 'ਰੁੱਖ ਤੋਂ ਪੱਤਾ ਡਿੱਗਿਆ', what is the Karak of 'ਰੁੱਖ ਤੋਂ'?",
+      "qPa": "ਵਾਕ 'ਰੁੱਖ ਤੋਂ ਪੱਤਾ ਡਿੱਗਿਆ' ਵਿੱਚ 'ਰੁੱਖ ਤੋਂ' ਦਾ ਕਾਰਕ ਦੱਸੋ:",
+      "options": ["ਅਪਾਦਾਨ", "ਅਧਿਕਰਣ", "ਸੰਬੰਧ", "ਕਰਣ"],
+      "answerIndex": 0,
+      "explanation": "Separation ('ਤੋਂ') is indicated by Apadan Karak (Ablative).",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q-f-3-5",
+      "topic": "Karak",
+      "q": "Which Karak uses the markers 'ਦਾ, ਦੇ, ਦੀ, ਦੀਆਂ'?",
+      "qPa": "'ਦਾ, ਦੇ, ਦੀ' ਕਿਸ ਕਾਰਕ ਦੇ ਚਿੰਨ੍ਹ ਹਨ?",
+      "options": ["ਕਰਮ", "ਅਪਾਦਾਨ", "ਸੰਬੰਧ", "ਅਧਿਕਰਣ"],
+      "answerIndex": 2,
+      "explanation": "These denote possession/relation, which is Sambandh Karak (Genitive).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-3-6",
+      "topic": "Karak",
+      "q": "In 'ਮੈਂ ਪੈੱਨ ਨਾਲ ਲਿਖਿਆ', what is the Karak of 'ਪੈੱਨ ਨਾਲ'?",
+      "qPa": "ਵਾਕ 'ਮੈਂ ਪੈੱਨ ਨਾਲ ਲਿਖਿਆ' ਵਿੱਚ 'ਪੈੱਨ ਨਾਲ' ਕੀ ਹੈ?",
+      "options": ["ਕਰਮ", "ਕਰਣ", "ਸੰਪਰਦਾਨ", "ਅਪਾਦਾਨ"],
+      "answerIndex": 1,
+      "explanation": "'ਪੈੱਨ ਨਾਲ' indicates the instrument used, so it is Karan Karak (Instrumental).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-3-7",
+      "topic": "Karak",
+      "q": "In 'ਉਸਨੇ ਮੁੰਡੇ ਨੂੰ ਕਿਤਾਬ ਦਿੱਤੀ', what is the Karak of 'ਮੁੰਡੇ ਨੂੰ'?",
+      "qPa": "ਵਾਕ 'ਉਸਨੇ ਮੁੰਡੇ ਨੂੰ ਕਿਤਾਬ ਦਿੱਤੀ' ਵਿੱਚ 'ਮੁੰਡੇ ਨੂੰ' ਕਿਹੜਾ ਕਾਰਕ ਹੈ?",
+      "options": ["ਕਰਮ", "ਸੰਪਰਦਾਨ", "ਸੰਬੰਧ", "ਅਧਿਕਰਣ"],
+      "answerIndex": 1,
+      "explanation": "Giving something to someone makes it Sampradan Karak (Dative), even if the marker is 'ਨੂੰ'.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-3-8",
+      "topic": "Ling",
+      "q": "What is the feminine form (Istri Ling) of 'ਸਪੇਰਾ'?",
+      "qPa": "'ਸਪੇਰਾ' ਸ਼ਬਦ ਦਾ ਇਸਤਰੀ ਲਿੰਗ ਕੀ ਹੋਵੇਗਾ?",
+      "options": ["ਸਪੇਰੀ", "ਸਪੇਰਨ", "ਸਪੇਰਨੀ", "ਸਪਣੀ"],
+      "answerIndex": 1,
+      "explanation": "'ਸਪੇਰਾ' becomes 'ਸਪੇਰਨ'.",
+      "pyq": ""
+    }
+  ]
+}

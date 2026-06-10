@@ -8,6 +8,26 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../assets/css/design-system.css">
+
+  <style>
+    .lesson-item {
+        display: flex;
+        flex-direction: column;
+        gap: var(--space-4);
+        padding: var(--space-4) 0;
+        border-bottom: 1px solid var(--color-neutral-200);
+    }
+    .lesson-item:last-child {
+        border-bottom: none;
+    }
+    @media (min-width: 640px) {
+        .lesson-item {
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -28,42 +48,77 @@
 
     <div class="card mb-8">
       <div style="display: flex; justify-content: space-between; align-items: flex-start;" class="mb-4">
-        <h1 class="mb-0">Module F: Grammar (Vyakaran)</h1>
-        <span class="badge badge-neutral">Coming Soon</span>
+        <div>
+          <h1 class="mb-2">Module F: Grammar (ਵਿਆਕਰਨ)</h1>
+          <p class="text-neutral-600">Complete Punjabi grammar rules, linguistics, and usage. Master the foundational structure of the language to secure crucial marks in the ERB exam.</p>
+        </div>
       </div>
-      <p class="pa text-lg text-primary-600 mb-4">ਮੋਡਿਊਲ ਐਫ: ਪੰਜਾਬੀ ਵਿਆਕਰਨ</p>
-      <p>Complete coverage of Punjabi linguistics, grammar rules, and structural analysis.</p>
+      <div class="progress-container mb-2">
+        <div class="progress-bar" style="width: 0%"></div>
+      </div>
+      <p class="text-sm text-neutral-500">0 of 6 lessons completed</p>
     </div>
 
-    <h2 class="mb-4">Lessons Outline</h2>
-    <div class="card bg-neutral-50">
-      <ul style="list-style-type: none; margin-left: 0;">
-        <li class="mb-4 pb-4 border-bottom">
-          <h3 class="text-lg">Lesson 1: Bhasha and Gurmukhi Lipi</h3>
-          <p class="text-sm text-neutral-600">Origin of Punjabi language, dialects (Majhi, Malwai, Doabi, Puadhi), and script history.</p>
-        </li>
-        <li class="mb-4 pb-4 border-bottom">
-          <h3 class="text-lg">Lesson 2: Dhuni Bodh (Phonology)</h3>
-          <p class="text-sm text-neutral-600">Swar (Vowels), Vianjan (Consonants), Laga-matra, and Lgakhar.</p>
-        </li>
-        <li class="mb-4 pb-4 border-bottom">
-          <h3 class="text-lg">Lesson 3: Shabad Bodh - 1 (Morphology)</h3>
-          <p class="text-sm text-neutral-600">Naav (Noun), Parnaav (Pronoun), and Visheshan (Adjective).</p>
-        </li>
-        <li class="mb-4 pb-4 border-bottom">
-          <h3 class="text-lg">Lesson 4: Shabad Bodh - 2</h3>
-          <p class="text-sm text-neutral-600">Kirya (Verb), Kirya Visheshan (Adverb), Sabandhak (Preposition), Yojak (Conjunction).</p>
-        </li>
-        <li class="mb-4 pb-4 border-bottom">
-          <h3 class="text-lg">Lesson 5: Vaak Bodh (Syntax)</h3>
-          <p class="text-sm text-neutral-600">Sentence structure, simple/compound/complex sentences, and Visram Chinn (Punctuation).</p>
-        </li>
-        <li class="mb-0">
-          <h3 class="text-lg">Lesson 6: Arath Bodh (Semantics)</h3>
-          <p class="text-sm text-neutral-600">Synonyms, Antonyms, Idioms (Muhavare), and Proverbs (Akhaan).</p>
-        </li>
-      </ul>
+    <h2 class="text-2xl mb-4">Lessons</h2>
+    <div class="card mb-8">
+
+      <div class="lesson-item">
+        <div>
+          <h3 class="text-lg">Lesson 1: Dhuni Viunt te Lipi</h3>
+          <p class="pa text-sm text-neutral-600">ਧੁਨੀ ਵਿਉਂਤ ਤੇ ਲਿਪੀ (Phonology and Script)</p>
+        </div>
+        <a href="lesson-01.html" class="btn btn-primary btn-sm">Start Lesson</a>
+      </div>
+
+      <div class="lesson-item">
+        <div>
+          <h3 class="text-lg">Lesson 2: Shabad Shrenian</h3>
+          <p class="pa text-sm text-neutral-600">ਸ਼ਬਦ ਸ਼੍ਰੇਣੀਆਂ (Word Classes)</p>
+        </div>
+        <a href="lesson-02.html" class="btn btn-primary btn-sm">Start Lesson</a>
+      </div>
+
+      <div class="lesson-item">
+        <div>
+          <h3 class="text-lg">Lesson 3: Ling, Vachan, Karak</h3>
+          <p class="pa text-sm text-neutral-600">ਲਿੰਗ, ਵਚਨ, ਕਾਰਕ (Gender, Number, Case)</p>
+        </div>
+        <a href="lesson-03.html" class="btn btn-primary btn-sm">Start Lesson</a>
+      </div>
+
+      <div class="lesson-item">
+        <div>
+          <h3 class="text-lg">Lesson 4: Kaal te Kirya Roop</h3>
+          <p class="pa text-sm text-neutral-600">ਕਾਲ ਤੇ ਕਿਰਿਆ ਰੂਪ (Tense and Verb Forms)</p>
+        </div>
+        <a href="lesson-04.html" class="btn btn-primary btn-sm">Start Lesson</a>
+      </div>
+
+      <div class="lesson-item">
+        <div>
+          <h3 class="text-lg">Lesson 5: Vaak Bantar te Vaak Vatandra</h3>
+          <p class="pa text-sm text-neutral-600">ਵਾਕ ਬਣਤਰ ਤੇ ਵਾਕ ਵਟਾਂਦਰਾ (Syntax)</p>
+        </div>
+        <a href="lesson-05.html" class="btn btn-primary btn-sm">Start Lesson</a>
+      </div>
+
+      <div class="lesson-item">
+        <div>
+          <h3 class="text-lg">Lesson 6: Muhavare, Akhaan, Shudh-Ashudh</h3>
+          <p class="pa text-sm text-neutral-600">ਮੁਹਾਵਰੇ, ਅਖਾਣ, ਸ਼ੁੱਧ-ਅਸ਼ੁੱਧ (Idioms, Proverbs, Correct-Incorrect)</p>
+        </div>
+        <a href="lesson-06.html" class="btn btn-primary btn-sm">Start Lesson</a>
+      </div>
+
     </div>
+
+    <h2 class="text-2xl mb-4">Module Assessment</h2>
+    <div class="card text-center bg-neutral-50">
+      <h3 class="text-lg mb-2">Module F Full Test</h3>
+      <p class="text-sm text-neutral-600 mb-4">20 Questions • 25 Minutes</p>
+      <a href="quiz/module-test.json" class="btn btn-secondary btn-block">Take Practice Test</a>
+    </div>
+
   </main>
 
   <footer class="site-footer">

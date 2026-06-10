@@ -1,0 +1,86 @@
+{
+  "id": "pbi-mod-f-l5",
+  "title": "Recall Quiz: Vaak Bantar",
+  "questions": [
+    {
+      "id": "q-f-5-1",
+      "topic": "Vaak Bantar",
+      "q": "What is the standard sentence structure in Punjabi?",
+      "qPa": "ਪੰਜਾਬੀ ਵਾਕ ਦੀ ਮਿਆਰੀ ਤਰਤੀਬ ਕੀ ਹੈ?",
+      "options": ["ਕਰਤਾ + ਕਿਰਿਆ + ਕਰਮ", "ਕਰਮ + ਕਰਤਾ + ਕਿਰਿਆ", "ਕਰਤਾ + ਕਰਮ + ਕਿਰਿਆ", "ਕਿਰਿਆ + ਕਰਤਾ + ਕਰਮ"],
+      "answerIndex": 2,
+      "explanation": "Punjabi follows SOV order (Subject + Object + Verb).",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "q-f-5-2",
+      "topic": "Vaak Types",
+      "q": "Identify the type of sentence: 'ਉਹ ਗਰੀਬ ਹੈ, ਪਰ ਇਮਾਨਦਾਰ ਹੈ।'",
+      "qPa": "ਵਾਕ ਦੀ ਕਿਸਮ ਦੱਸੋ: 'ਉਹ ਗਰੀਬ ਹੈ, ਪਰ ਇਮਾਨਦਾਰ ਹੈ।'?",
+      "options": ["ਸਧਾਰਨ ਵਾਕ", "ਸੰਯੁਕਤ ਵਾਕ", "ਮਿਸ਼ਰਤ ਵਾਕ", "ਪ੍ਰਸ਼ਨ-ਵਾਚਕ"],
+      "answerIndex": 1,
+      "explanation": "It contains two independent clauses joined by 'ਪਰ' (coordinating conjunction), making it a Sanyukt Vaak (Compound sentence).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-5-3",
+      "topic": "Vaak Types",
+      "q": "Identify the type of sentence: 'ਮਾਸਟਰ ਜੀ ਨੇ ਕਿਹਾ ਕਿ ਕੱਲ੍ਹ ਛੁੱਟੀ ਹੈ।'",
+      "qPa": "ਵਾਕ ਦੀ ਕਿਸਮ ਦੱਸੋ: 'ਮਾਸਟਰ ਜੀ ਨੇ ਕਿਹਾ ਕਿ ਕੱਲ੍ਹ ਛੁੱਟੀ ਹੈ।'?",
+      "options": ["ਸਧਾਰਨ ਵਾਕ", "ਸੰਯੁਕਤ ਵਾਕ", "ਮਿਸ਼ਰਤ ਵਾਕ", "ਵਿਸਮਿਕ ਵਾਕ"],
+      "answerIndex": 2,
+      "explanation": "It has a main clause and a dependent clause joined by 'ਕਿ', making it a Mishrat Vaak (Complex sentence).",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q-f-5-4",
+      "topic": "Vaak Bantar",
+      "q": "Which of these is a subordinating conjunction (ਅਧੀਨ ਯੋਜਕ)?",
+      "qPa": "ਇਹਨਾਂ ਵਿੱਚੋਂ ਅਧੀਨ ਯੋਜਕ ਕਿਹੜਾ ਹੈ?",
+      "options": ["ਅਤੇ", "ਪਰ", "ਜਾਂ", "ਕਿਉਂਕਿ"],
+      "answerIndex": 3,
+      "explanation": "'ਕਿਉਂਕਿ' joins a dependent clause to a main clause.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-5-5",
+      "topic": "Vaak Vatandra",
+      "q": "Change the compound sentence 'ਉਹ ਗਰੀਬ ਹੈ, ਪਰ ਇਮਾਨਦਾਰ ਹੈ' into a simple sentence.",
+      "qPa": "ਸੰਯੁਕਤ ਵਾਕ 'ਉਹ ਗਰੀਬ ਹੈ, ਪਰ ਇਮਾਨਦਾਰ ਹੈ' ਨੂੰ ਸਧਾਰਨ ਵਾਕ ਵਿੱਚ ਬਦਲੋ:",
+      "options": ["ਉਹ ਗਰੀਬ ਹੈ ਅਤੇ ਇਮਾਨਦਾਰ ਹੈ।", "ਉਹ ਗਰੀਬ ਹੋਣ ਦੇ ਬਾਵਜੂਦ ਇਮਾਨਦਾਰ ਹੈ।", "ਜੇਕਰ ਉਹ ਗਰੀਬ ਹੈ, ਤਾਂ ਇਮਾਨਦਾਰ ਹੈ।", "ਉਹ ਇਮਾਨਦਾਰ ਹੈ ਕਿਉਂਕਿ ਉਹ ਗਰੀਬ ਹੈ।"],
+      "answerIndex": 1,
+      "explanation": "Removing the conjunction 'ਪਰ' and combining into one clause gives the simple sentence.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-5-6",
+      "topic": "Vaak Bantar",
+      "q": "What are the two main parts of a sentence?",
+      "qPa": "ਵਾਕ ਦੇ ਦੋ ਮੁੱਖ ਭਾਗ ਕਿਹੜੇ ਹੁੰਦੇ ਹਨ?",
+      "options": ["ਕਰਤਾ ਅਤੇ ਕਰਮ", "ਨਾਂਵ ਅਤੇ ਪੜਨਾਂਵ", "ਉਦੇਸ਼ ਅਤੇ ਵਿਧੇ", "ਅੱਖਰ ਅਤੇ ਸ਼ਬਦ"],
+      "answerIndex": 2,
+      "explanation": "A sentence is divided into Udesh (Subject/Theme) and Vidhe (Predicate).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-5-7",
+      "topic": "Vaak Vatandra",
+      "q": "Which type of sentence contains only one independent clause?",
+      "qPa": "ਕਿਸ ਵਾਕ ਵਿੱਚ ਸਿਰਫ਼ ਇੱਕ ਸੁਤੰਤਰ ਉਪਵਾਕ ਹੁੰਦਾ ਹੈ?",
+      "options": ["ਮਿਸ਼ਰਤ", "ਸੰਯੁਕਤ", "ਸਧਾਰਨ", "ਗੁੰਝਲਦਾਰ"],
+      "answerIndex": 2,
+      "explanation": "A Sadharan Vaak (Simple sentence) has only one independent clause.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-5-8",
+      "topic": "Vaak Types",
+      "q": "Which of these is a coordinating conjunction (ਸਮਾਨ ਯੋਜਕ)?",
+      "qPa": "ਇਹਨਾਂ ਵਿੱਚੋਂ ਸਮਾਨ ਯੋਜਕ ਕਿਹੜਾ ਹੈ?",
+      "options": ["ਕਿ", "ਜਿਹੜਾ", "ਅਤੇ", "ਤਾਂ ਜੋ"],
+      "answerIndex": 2,
+      "explanation": "'ਅਤੇ' joins two independent clauses.",
+      "pyq": ""
+    }
+  ]
+}

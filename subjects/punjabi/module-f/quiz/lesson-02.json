@@ -1,0 +1,86 @@
+{
+  "id": "pbi-mod-f-l2",
+  "title": "Recall Quiz: Shabad Shrenian",
+  "questions": [
+    {
+      "id": "q-f-2-1",
+      "topic": "General",
+      "q": "How many word classes (Shabad Shrenian) are there in Punjabi grammar?",
+      "qPa": "ਪੰਜਾਬੀ ਵਿਆਕਰਨ ਵਿੱਚ ਸ਼ਬਦ ਸ਼੍ਰੇਣੀਆਂ ਕਿੰਨੀਆਂ ਹਨ?",
+      "options": ["5", "6", "8", "10"],
+      "answerIndex": 2,
+      "explanation": "There are 8 word classes (Noun, Pronoun, Adjective, Verb, Adverb, Preposition, Conjunction, Interjection).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-2-2",
+      "topic": "Naav",
+      "q": "What type of Noun is 'ਇੱਜੜ' (Flock)?",
+      "qPa": "'ਇੱਜੜ' ਕਿਹੜਾ ਨਾਂਵ ਹੈ?",
+      "options": ["ਆਮ ਨਾਂਵ", "ਖਾਸ ਨਾਂਵ", "ਭਾਵ-ਵਾਚਕ ਨਾਂਵ", "ਇਕੱਠ-ਵਾਚਕ ਨਾਂਵ"],
+      "answerIndex": 3,
+      "explanation": "'ਇੱਜੜ' represents a group, so it is an Ikath-vachak Naav (Collective Noun).",
+      "pyq": "ERB 2020"
+    },
+    {
+      "id": "q-f-2-3",
+      "topic": "Naav",
+      "q": "How many types of Nouns (Naav) are there?",
+      "qPa": "ਨਾਂਵ ਦੀਆਂ ਕਿੰਨੀਆਂ ਕਿਸਮਾਂ ਹਨ?",
+      "options": ["3", "4", "5", "6"],
+      "answerIndex": 2,
+      "explanation": "Naav has 5 types.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-2-4",
+      "topic": "Parnaav",
+      "q": "How many types of Pronouns (Parnaav) are there?",
+      "qPa": "ਪੜਨਾਂਵ ਦੀਆਂ ਕਿੰਨੀਆਂ ਕਿਸਮਾਂ ਹਨ?",
+      "options": ["4", "5", "6", "8"],
+      "answerIndex": 2,
+      "explanation": "Parnaav has 6 types.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-2-5",
+      "topic": "Parnaav",
+      "q": "Identify the type of pronoun: 'ਆਪ' (in 'ਉਹ ਆਪ ਗਿਆ').",
+      "qPa": "'ਉਹ ਆਪ ਗਿਆ' ਵਿੱਚ 'ਆਪ' ਕਿਹੜਾ ਪੜਨਾਂਵ ਹੈ?",
+      "options": ["ਨਿੱਜ-ਵਾਚਕ", "ਪੁਰਖ-ਵਾਚਕ", "ਨਿਸ਼ਚੇ-ਵਾਚਕ", "ਅਨਿਸ਼ਚੇ-ਵਾਚਕ"],
+      "answerIndex": 0,
+      "explanation": "'ਆਪ' is Nij-vachak (Reflexive pronoun).",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-2-6",
+      "topic": "Visheshan",
+      "q": "How many types of Adjectives (Visheshan) are there?",
+      "qPa": "ਵਿਸ਼ੇਸ਼ਣ ਦੀਆਂ ਕਿੰਨੀਆਂ ਕਿਸਮਾਂ ਹਨ?",
+      "options": ["4", "5", "6", "7"],
+      "answerIndex": 1,
+      "explanation": "Visheshan has 5 types.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-2-7",
+      "topic": "Visheshan",
+      "q": "In the sentence 'ਇਹ ਕਿਤਾਬ ਮੇਰੀ ਹੈ', what is 'ਇਹ'?",
+      "qPa": "ਵਾਕ 'ਇਹ ਕਿਤਾਬ ਮੇਰੀ ਹੈ' ਵਿੱਚ 'ਇਹ' ਕੀ ਹੈ?",
+      "options": ["ਨਿਸ਼ਚੇਵਾਚਕ ਪੜਨਾਂਵ", "ਨਿਸ਼ਚੇਵਾਚਕ ਵਿਸ਼ੇਸ਼ਣ", "ਗੁਣਵਾਚਕ ਵਿਸ਼ੇਸ਼ਣ", "ਪੁਰਖਵਾਚਕ ਪੜਨਾਂਵ"],
+      "answerIndex": 1,
+      "explanation": "Since 'ਇਹ' is modifying the noun 'ਕਿਤਾਬ', it acts as a Nishche-vachak Visheshan (Demonstrative Adjective).",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-f-2-8",
+      "topic": "Naav",
+      "q": "What type of noun is 'ਸੋਨਾ' (Gold)?",
+      "qPa": "'ਸੋਨਾ' ਕਿਹੜਾ ਨਾਂਵ ਹੈ?",
+      "options": ["ਆਮ ਨਾਂਵ", "ਖਾਸ ਨਾਂਵ", "ਵਸਤੂ-ਵਾਚਕ ਨਾਂਵ", "ਭਾਵ-ਵਾਚਕ ਨਾਂਵ"],
+      "answerIndex": 2,
+      "explanation": "'ਸੋਨਾ' is a material that can be weighed, so it is Vastu-vachak Naav.",
+      "pyq": ""
+    }
+  ]
+}

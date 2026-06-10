@@ -1,0 +1,86 @@
+{
+  "id": "pbi-mod-f-l6",
+  "title": "Recall Quiz: Muhavare, Akhaan, Shudh-Ashudh",
+  "questions": [
+    {
+      "id": "q-f-6-1",
+      "topic": "Muhavare vs Akhaan",
+      "q": "Which of these ends in an infinitive verb (ਣਾ/ਨਾ) and changes form according to tense?",
+      "qPa": "ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਸਦੇ ਅੰਤ ਵਿੱਚ 'ਣਾ/ਨਾ' ਆਉਂਦਾ ਹੈ ਅਤੇ ਵਾਕ ਵਿੱਚ ਉਸਦਾ ਰੂਪ ਬਦਲਦਾ ਹੈ?",
+      "options": ["ਅਖਾਣ", "ਮੁਹਾਵਰਾ", "ਸ਼ਬਦ", "ਵਾਕ"],
+      "answerIndex": 1,
+      "explanation": "Muhavaras end in infinitive verbs and their form changes in a sentence.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "q-f-6-2",
+      "topic": "Akhaan",
+      "q": "Complete the Akhaan: 'ਆਪੇ ਫਾਥੜੀਏ...'",
+      "qPa": "ਅਖਾਣ ਪੂਰਾ ਕਰੋ: 'ਆਪੇ ਫਾਥੜੀਏ...'",
+      "options": ["ਕੀ ਕਰੀਏ", "ਤੈਨੂੰ ਕੌਣ ਛੁਡਾਵੇ", "ਜਾਲ ਵਿੱਚ", "ਆਪਣਾ ਨੁਕਸਾਨ"],
+      "answerIndex": 1,
+      "explanation": "The full Akhaan is 'ਆਪੇ ਫਾਥੜੀਏ ਤੈਨੂੰ ਕੌਣ ਛੁਡਾਵੇ'.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-f-6-3",
+      "topic": "Shudh-Ashudh",
+      "q": "Which of the following is the correct spelling?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਸ਼ੁੱਧ ਸ਼ਬਦ ਚੁਣੋ:",
+      "options": ["ਬੋਹਤ", "ਬਹੁੱਤ", "ਬਹੁਤ", "ਬਹੁਤੁ"],
+      "answerIndex": 2,
+      "explanation": "'ਬਹੁਤ' is the grammatically correct spelling.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-6-4",
+      "topic": "Muhavare",
+      "q": "What is the meaning of the Muhavara: 'ਉੱਲੂ ਬਣਾਉਣਾ'?",
+      "qPa": "ਮੁਹਾਵਰੇ 'ਉੱਲੂ ਬਣਾਉਣਾ' ਦਾ ਕੀ ਅਰਥ ਹੈ?",
+      "options": ["ਪਿਆਰ ਕਰਨਾ", "ਮੂਰਖ ਬਣਾਉਣਾ", "ਜਾਗਦੇ ਰਹਿਣਾ", "ਰੌਲਾ ਪਾਉਣਾ"],
+      "answerIndex": 1,
+      "explanation": "It means to fool someone.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-6-5",
+      "topic": "Akhaan",
+      "q": "Complete the Akhaan: 'ਨਾਤੀ ਧੋਤੀ ਰਹਿ ਗਈ...'",
+      "qPa": "ਅਖਾਣ ਪੂਰਾ ਕਰੋ: 'ਨਾਤੀ ਧੋਤੀ ਰਹਿ ਗਈ...'",
+      "options": ["ਕੱਪੜੇ ਖਰਾਬ ਹੋ ਗਏ", "ਪਾਣੀ ਮੁੱਕ ਗਿਆ", "ਉੱਤੇ ਮੱਖੀ ਬਹਿ ਗਈ", "ਕੰਮ ਵਿਗੜ ਗਿਆ"],
+      "answerIndex": 2,
+      "explanation": "The full Akhaan is 'ਨਾਤੀ ਧੋਤੀ ਰਹਿ ਗਈ, ਉੱਤੇ ਮੱਖੀ ਬਹਿ ਗਈ'.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-6-6",
+      "topic": "Shudh-Ashudh",
+      "q": "Which is the correct spelling?",
+      "qPa": "ਸ਼ੁੱਧ ਸ਼ਬਦ ਚੁਣੋ:",
+      "options": ["ਸਹੁਰਾ", "ਸੌਹਰਾ", "ਸੌਰਾ", "ਸਹੋਰਾ"],
+      "answerIndex": 0,
+      "explanation": "Though pronounced 'ਸੌਹਰਾ', the correct written form is 'ਸਹੁਰਾ'.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-6-7",
+      "topic": "Shudh-Ashudh",
+      "q": "Which is the correct spelling?",
+      "qPa": "ਸ਼ੁੱਧ ਸ਼ਬਦ ਚੁਣੋ:",
+      "options": ["ਜਿੰਦਗੀ", "ਜ਼ਿੰਦਗੀ", "ਜਿੰਦੱਗੀ", "ਜ਼ਿੰਦੱਗੀ"],
+      "answerIndex": 1,
+      "explanation": "The letter 'ਜ਼' (with pair-bindi) is required.",
+      "pyq": ""
+    },
+    {
+      "id": "q-f-6-8",
+      "topic": "Akhaan",
+      "q": "Which Akhaan is used for someone who interferes without being asked?",
+      "qPa": "ਬਿਨਾਂ ਪੁੱਛੇ ਦਖਲ ਦੇਣ ਵਾਲੇ ਲਈ ਕਿਹੜਾ ਅਖਾਣ ਵਰਤਿਆ ਜਾਂਦਾ ਹੈ?",
+      "options": ["ਉੱਠੇ ਤਾਂ ਫਰੀਦ, ਬੈਠੇ ਤਾਂ ਮੁਰੀਦ", "ਆਪੇ ਫਾਥੜੀਏ ਤੈਨੂੰ ਕੌਣ ਛੁਡਾਵੇ", "ਸਦੀ ਨਾ ਬੁਲਾਈ, ਮੈਂ ਲਾੜੇ ਦੀ ਤਾਈ", "ਨਾਤੀ ਧੋਤੀ ਰਹਿ ਗਈ, ਉੱਤੇ ਮੱਖੀ ਬਹਿ ਗਈ"],
+      "answerIndex": 2,
+      "explanation": "It means 'Uninvited guest who interferes'.",
+      "pyq": ""
+    }
+  ]
+}
