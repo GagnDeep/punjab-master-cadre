@@ -1,0 +1,110 @@
+{
+  "id": "quiz-06",
+  "title": "Quiz 06",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Binomial",
+      "q": "The number of terms in the expansion of (2x - 3y)^12 is:",
+      "options": [
+        "11",
+        "12",
+        "13",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "The number of terms is always n + 1. Here n=12, so 13 terms."
+    },
+    {
+      "id": "q2",
+      "topic": "Binomial",
+      "q": "The coefficient of x^3 in the expansion of (1 + x)^5 is:",
+      "options": [
+        "5",
+        "10",
+        "15",
+        "20"
+      ],
+      "answerIndex": 1,
+      "explanation": "It corresponds to 5C3, which is (5*4)/(2*1) = 10."
+    },
+    {
+      "id": "q3",
+      "topic": "Binomial",
+      "q": "Sum of all binomial coefficients in (x+a)^n is:",
+      "options": [
+        "2^n",
+        "n^2",
+        "2n",
+        "n!"
+      ],
+      "answerIndex": 0,
+      "explanation": "Substituting x=1, a=1 gives sum of coefficients = (1+1)^n = 2^n."
+    },
+    {
+      "id": "q4",
+      "topic": "Binomial",
+      "q": "What is the middle term in the expansion of (x + y)^8?",
+      "options": [
+        "4th term",
+        "5th term",
+        "Both 4th and 5th",
+        "6th term"
+      ],
+      "answerIndex": 1,
+      "explanation": "Since n=8 is even, there is one middle term at (n/2 + 1) = 5th term."
+    },
+    {
+      "id": "q5",
+      "topic": "Binomial",
+      "q": "The term independent of x in (x - 1/x)^6 is:",
+      "options": [
+        "-20",
+        "20",
+        "15",
+        "-15"
+      ],
+      "answerIndex": 0,
+      "explanation": "General term is 6Cr * x^(6-r) * (-x^-1)^r. For independent, 6-2r = 0 => r=3. Term is 6C3 * (-1)^3 = -20."
+    },
+    {
+      "id": "q6",
+      "topic": "Series",
+      "q": "In the expansion of e^x, the coefficient of x^n is:",
+      "options": [
+        "1/n",
+        "1/n!",
+        "n!",
+        "n"
+      ],
+      "answerIndex": 1,
+      "explanation": "The series is e^x = 1 + x/1! + x^2/2! + ... + x^n/n!."
+    },
+    {
+      "id": "q7",
+      "topic": "Series",
+      "q": "What is the sum of the series 1 - 1/2 + 1/3 - 1/4 + ... ?",
+      "options": [
+        "ln(2)",
+        "e",
+        "1",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is the Maclaurin series expansion for ln(1+x) at x=1, giving ln(2)."
+    },
+    {
+      "id": "q8",
+      "topic": "Binomial",
+      "q": "If the coefficients of x^7 and x^8 in (2 + x/3)^n are equal, then n is:",
+      "options": [
+        "55",
+        "56",
+        "45",
+        "15"
+      ],
+      "answerIndex": 0,
+      "explanation": "nC7 * 2^(n-7) * (1/3)^7 = nC8 * 2^(n-8) * (1/3)^8. Solving yields n = 55."
+    }
+  ]
+}

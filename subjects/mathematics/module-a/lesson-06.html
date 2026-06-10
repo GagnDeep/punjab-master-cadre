@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Series & Binomial Theorem - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 06
+    </div>
+
+    <h1>Lesson 06: Series & Binomial Theorem</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਲੜੀ ਅਤੇ ਬਾਇਨੋਮੀਅਲ ਥਿਊਰਮ</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2022 Pattern)</div>
+        <p>Identifying the coefficient of a specific term or finding the term independent of 'x' in a binomial expansion is guaranteed to appear in the exam.</p>
+        <p class="pa mt-2">ਬਾਇਨੋਮੀਅਲ ਪਸਾਰ ਵਿੱਚ ਕਿਸੇ ਖਾਸ ਟਰਮ ਦਾ ਕੋਐਫੀਸ਼ੀਐਂਟ (coefficient) ਜਾਂ 'x' ਤੋਂ ਸੁਤੰਤਰ ਟਰਮ ਲੱਭਣਾ ਪੇਪਰ ਵਿੱਚ ਪੱਕਾ ਆਉਂਦਾ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Expand binomial expressions using Pascal's triangle and combinations.</li><li>Formulate and use the general term T<sub class="sub">r+1</sub> of a binomial expansion.</li><li>Determine the middle term(s) of an expansion based on the power 'n'.</li><li>Calculate the term independent of 'x'.</li><li>Understand the properties of binomial coefficients.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>The Power of the General Term</h2>
+      <p>The <strong>Binomial Theorem</strong> provides an algebraic expansion of powers of a binomial: (x + y)<sup class="sup">n</sup>. The coefficients of this expansion correspond to combinations nCr. The most powerful tool for solving exam questions is the <strong>general term</strong> formula: T<sub class="sub">r+1</sub> = nCr &times; x<sup class="sup">n-r</sup> &times; y<sup class="sup">r</sup>. Whenever a question asks for a specific coefficient, you should write out this general term and equate the resulting exponent of the variable to the desired power. The <strong>middle term</strong> depends on whether 'n' is even or odd. If n is even, there is one middle term at position (n/2 + 1). If n is odd, there are two middle terms at positions (n+1)/2 and (n+3)/2.</p>
+      <p>Beyond the standard binomial expansion, understanding the exponential series (e^x) and logarithmic series (ln(1+x)) is crucial, as they frequently appear intertwined with binomial concepts in limit evaluations. The exponential series expands into an infinite polynomial 1 + x + x^2/2! + x^3/3! + ..., which is essentially a limit case of the binomial expansion as 'n' approaches infinity. Mastery of these infinite series expansions allows you to quickly approximate functions and solve limits that would otherwise require repeated, tedious applications of L'Hopital's rule. Memorizing the first four terms of these standard expansions is highly recommended.</p>
+      <p>A particularly challenging class of exam questions involves finding the remainder when a large power is divided by a number. The Binomial Theorem is perfectly suited for this. For example, to find the remainder when 7^103 is divided by 25, you express 7^103 as 7 * (49)^51, which becomes 7 * (50 - 1)^51. When you expand (50 - 1)^51 using the binomial theorem, every term contains a multiple of 50 (and thus 25), except for the very last term, which is (-1)^51 = -1. Therefore, the remainder is essentially -7, which corresponds to a positive remainder of 18 (since 25 - 7 = 18). This application transforms a daunting number theory problem into a simple binomial expansion.</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>A very common mistake is confusing 'r' with the term number. The r-value is always one less than the term number. The 5th term corresponds to r = 4, not r = 5.</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Find the term independent of x in the expansion of (x - 1/x)<sup class="sup">6</sup>.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Write the general term: T<sub class="sub">r+1</sub> = 6Cr &times; (x)<sup class="sup">6-r</sup> &times; (-x<sup class="sup">-1</sup>)<sup class="sup">r</sup>.</p><p><strong>Step 2:</strong> Separate constants and variables: T<sub class="sub">r+1</sub> = 6Cr &times; (-1)<sup class="sup">r</sup> &times; x<sup class="sup">6-r</sup> &times; x<sup class="sup">-r</sup>.</p><p><strong>Step 3:</strong> Combine the exponents of x: 6 - 2r.</p><p><strong>Step 4:</strong> For a term independent of x, the exponent must be 0: 6 - 2r = 0, which means r = 3.</p><p><strong>Step 5:</strong> Substitute r = 3 back into the coefficient: 6C3 &times; (-1)<sup class="sup">3</sup> = -20.</p>
+        <p class="mt-4"><strong>Answer:</strong> The term independent of x is -20.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>The sum of all binomial coefficients in (1+x)<sup class="sup">n</sup> is 2<sup class="sup">n</sup>. The sum of the odd coefficients equals the sum of the even coefficients, both being 2<sup class="sup">n-1</sup>. Examiners love testing these identities.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>General term: T<sub class="sub">r+1</sub> = nCr &times; x<sup class="sup">n-r</sup> &times; y<sup class="sup">r</sup>.</li><li>Middle term (n even): (n/2 + 1)th term.</li><li>Middle term (n odd): (n+1)/2 and (n+3)/2th terms.</li><li>Independent term: Set the total exponent of x to zero.</li><li>Sum of coefficients = 2<sup class="sup">n</sup>.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-06.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਸਤਿ ਸ਼੍ਰੀ ਅਕਾਲ ਜੀ! ਅੱਜ ਦਾ ਸਾਡਾ ਵਿਸ਼ਾ ਹੈ ਬਾਇਨੋਮੀਅਲ ਥਿਊਰਮ (Binomial Theorem)। ਇਹ ਦੇਖਣ ਵਿੱਚ ਸ਼ਾਇਦ ਥੋੜ੍ਹਾ ਔਖਾ ਲੱਗੇ, ਪਰ ਇਸਦੇ ਸਵਾਲ ਬਹੁਤ ਹੀ ਸਿੱਧੇ ਹੁੰਦੇ ਹਨ। ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਚੀਜ਼ ਜੋ ਤੁਸੀਂ ਯਾਦ ਰੱਖਣੀ ਹੈ, ਉਹ ਹੈ 'ਜਨਰਲ ਟਰਮ' (General Term) ਦਾ ਫਾਰਮੂਲਾ। ਜਦੋਂ ਵੀ ਪੇਪਰ ਵਿੱਚ ਕੋਈ ਖਾਸ ਟਰਮ ਲੱਭਣ ਲਈ ਕਿਹਾ ਜਾਵੇ, ਭਾਵੇਂ ਉਹ x ਦੀ ਘਾਤ 5 ਹੋਵੇ ਜਾਂ 'x ਤੋਂ ਸੁਤੰਤਰ' (independent of x) ਟਰਮ ਹੋਵੇ, ਤੁਸੀਂ ਬਸ T(r+1) ਵਾਲਾ ਫਾਰਮੂਲਾ ਲਿਖਣਾ ਹੈ। ਫਿਰ x ਦੀਆਂ ਸਾਰੀਆਂ ਘਾਤਾਂ (powers) ਨੂੰ ਇਕੱਠਾ ਕਰੋ ਅਤੇ ਉਸਨੂੰ ਲੋੜੀਂਦੀ ਘਾਤ ਦੇ ਬਰਾਬਰ ਰੱਖ ਦਿਓ। ਉਥੋਂ ਤੁਹਾਨੂੰ 'r' ਦਾ ਮੁੱਲ ਮਿਲ ਜਾਵੇਗਾ। </p><p>ਇੱਥੇ ਬੱਚੇ ਇੱਕ ਬਹੁਤ ਆਮ ਗਲਤੀ ਕਰਦੇ ਹਨ। ਜੇਕਰ ਸਵਾਲ ਵਿੱਚ 5ਵੀਂ ਟਰਮ ਪੁੱਛੀ ਗਈ ਹੈ, ਤਾਂ ਬੱਚੇ 'r' ਦਾ ਮੁੱਲ 5 ਭਰ ਦਿੰਦੇ ਹਨ। ਪਰ ਯਾਦ ਰੱਖੋ, ਫਾਰਮੂਲਾ T(r+1) ਦਾ ਹੈ! ਇਸ ਲਈ 5ਵੀਂ ਟਰਮ ਲਈ 'r' ਦਾ ਮੁੱਲ 4 ਹੋਵੇਗਾ। ਇਹ ਛੋਟੀ ਜਿਹੀ ਗਲਤੀ ਤੁਹਾਡਾ ਪੂਰਾ ਸਵਾਲ ਗਲਤ ਕਰਵਾ ਸਕਦੀ ਹੈ। ਦੂਜੀ ਮਹੱਤਵਪੂਰਨ ਗੱਲ ਹੈ 'ਮਿਡਲ ਟਰਮ' (Middle Term) ਲੱਭਣਾ। ਜੇਕਰ ਘਾਤ 'n' ਜਿਸਤ (even) ਹੈ, ਤਾਂ ਸਿਰਫ਼ ਇੱਕ ਮਿਡਲ ਟਰਮ ਹੋਵੇਗੀ। ਪਰ ਜੇਕਰ 'n' ਟਾਂਕ (odd) ਹੈ, ਤਾਂ ਦੋ ਮਿਡਲ ਟਰਮਾਂ ਹੋਣਗੀਆਂ। ਇਸਤੋਂ ਇਲਾਵਾ, ਕੋਐਫੀਸ਼ੀਐਂਟਸ (coefficients) ਦਾ ਜੋੜ ਹਮੇਸ਼ਾ 2 ਦੀ ਘਾਤ n (2^n) ਹੁੰਦਾ ਹੈ। ਇਹ ਸਿੱਧਾ ਫਾਰਮੂਲਾ ਕਈ ਵਾਰ ਪੇਪਰ ਵਿੱਚ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ।</p><p>ਬਾਇਨੋਮੀਅਲ ਥਿਊਰਮ ਦੇ ਸਵਾਲਾਂ ਨੂੰ ਹੱਲ ਕਰਦੇ ਸਮੇਂ, ਇੱਕ ਬਹੁਤ ਹੀ ਖਾਸ ਗੱਲ ਦਾ ਧਿਆਨ ਰੱਖਣਾ ਪੈਂਦਾ ਹੈ - ਉਹ ਹੈ 'ਕੈਲਕੁਲੇਸ਼ਨ' (Calculation) ਦੀ ਗਲਤੀ। ਜਦੋਂ ਅਸੀਂ nCr ਖੋਲ੍ਹਦੇ ਹਾਂ, ਤਾਂ ਕਈ ਵਾਰ ਜਲਦੀ ਵਿੱਚ ਫੈਕਟੋਰੀਅਲ (factorial) ਦੀਆਂ ਰਕਮਾਂ ਗਲਤ ਕੱਟੀਆਂ ਜਾਂਦੀਆਂ ਹਨ। ਮੈਂ ਤੁਹਾਨੂੰ ਸਲਾਹ ਦਿਆਂਗਾ ਕਿ ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਬਾਇਨੋਮੀਅਲ ਦਾ ਸਵਾਲ ਕਰੋ, ਤਾਂ ਆਪਣੇ ਰਫ ਵਰਕ (rough work) ਨੂੰ ਬਹੁਤ ਸਾਫ਼ ਸੁਥਰਾ ਰੱਖੋ। ਜਿੰਨਾ ਸਾਫ਼ ਤੁਸੀਂ ਲਿਖੋਗੇ, ਉੰਨੀ ਹੀ ਗਲਤੀ ਦੀ ਗੁੰਜਾਇਸ਼ ਘੱਟ ਹੋਵੇਗੀ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਪਾਸਕਲ ਦੇ ਤਿਕੋਣ (Pascal's Triangle) ਦੀਆਂ ਪਹਿਲੀਆਂ 5-6 ਲਾਈਨਾਂ ਜ਼ਬਾਨੀ ਯਾਦ ਹੋਣੀਆਂ ਚਾਹੀਦੀਆਂ ਹਨ। ਇਸ ਨਾਲ ਤੁਹਾਨੂੰ ਛੋਟੀਆਂ ਘਾਤਾਂ ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚ nCr ਕੱਢਣ ਦੀ ਲੋੜ ਨਹੀਂ ਪਵੇਗੀ ਅਤੇ ਤੁਹਾਡਾ ਕੀਮਤੀ ਸਮਾਂ ਬਚੇਗਾ। ਪੇਪਰ ਵਿੱਚ ਸਮਾਂ ਹੀ ਸਭ ਕੁਝ ਹੈ, ਇਸ ਲਈ ਸਮਾਂ ਬਚਾਉਣ ਵਾਲਾ ਹਰ ਤਰੀਕਾ ਸਾਡੇ ਲਈ ਫਾਇਦੇਮੰਦ ਹੈ। ਮੈਨੂੰ ਪੂਰਾ ਵਿਸ਼ਵਾਸ ਹੈ ਕਿ ਲਗਾਤਾਰ ਅਭਿਆਸ ਨਾਲ ਤੁਸੀਂ ਇਹਨਾਂ ਸਵਾਲਾਂ ਨੂੰ ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੱਲ ਕਰਨ ਲੱਗ ਜਾਵੋਗੇ।</p><p>ਇਹ ਵੀ ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ ਕਿ ਕਦੇ-ਕਦੇ ਸਵਾਲ ਸਿੱਧਾ ਨਹੀਂ ਪੁੱਛਿਆ ਜਾਂਦਾ ਬਲਕਿ ਘੁਮਾ-ਫਿਰਾ ਕੇ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ। ਉਦਾਹਰਣ ਵਜੋਂ ਜੇਕਰ ਉਹ ਪੁੱਛਦੇ ਹਨ ਕਿ ਕਿਹੜਾ ਪਦ x ਤੋਂ ਸੁਤੰਤਰ ਹੈ ਤਾਂ ਅਸਲ ਵਿੱਚ ਤੁਹਾਨੂੰ x ਦੀ ਘਾਤ ਜ਼ੀਰੋ ਬਣਾਉਣੀ ਹੁੰਦੀ ਹੈ। ਇਹ ਛੋਟੀਆਂ-ਛੋਟੀਆਂ ਗੱਲਾਂ ਹੀ ਵੱਡੇ ਅੰਤਰ ਪੈਦਾ ਕਰਦੀਆਂ ਹਨ। ਮਿਹਨਤ ਕਰਦੇ ਰਹੋ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-06.json');</script>
+</body></html>

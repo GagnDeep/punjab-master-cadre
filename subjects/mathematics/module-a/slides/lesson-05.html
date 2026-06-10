@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 05</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 05</div>
+      <h1 class="slide-heading">Arithmetic & Geometric Progressions</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Calculate the nth term and sum of n terms for Arithmetic Progressions (AP).</li><li>Calculate the nth term and sum of n terms for Geometric Progressions (GP).</li><li>Evaluate the sum of an infinite Geometric Series.</li><li>Understand Harmonic Progressions (HP) as the reciprocal of AP.</li><li>Apply the AM-GM-HM inequality to solve minimum/maximum problems.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>An <strong>Arithmetic Progression (AP)</strong> is a sequence where the difference between consecutive terms is constant, known as the common difference 'd'. The nth term is given by a + (n-1)d, and the sum of n terms is (n/2)[2a + (n-1)d]. A <strong>Geometric Progression (GP)</strong> multiplies each term by a common ratio 'r'. Its nth term is a(r<sup class="sup">n-1</sup>), and the sum of n terms is a(1-r<sup class="sup">n</sup>)/(1-r) for r < 1. A critical concept often tested is the <strong>infinite geometric series</strong>, whose sum converges to <span class="fraction"><span>a</span><span class="bottom">1 - r</span></span>, provided the absolute value of r is strictly less than 1. A <strong>Harmonic Progression (HP)</strong> is simply a sequence whose reciprocals form an AP. There is no general formula for the sum of an HP, which is a common trick question.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>Applying the infinite GP sum formula when |r| &ge; 1. The series diverges, and the formula yields a nonsensical, incorrect result. Always verify the ratio first.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Find the sum of the infinite geometric series: 2, 2/3, 2/9, 2/27, ...</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the first term 'a': a = 2.</li><li>Calculate the common ratio 'r' by dividing the second term by the first: (2/3) / 2 = 1/3.</li><li>Verify that |r| < 1. Since 1/3 < 1, the series converges.</li><li>Apply the infinite sum formula: S = a / (1 - r).</li><li>Substitute values: S = 2 / (1 - 1/3) = 2 / (2/3) = 3.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The sum is 3.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>ERB frequently tests the relationship between the Arithmetic Mean (AM), Geometric Mean (GM), and Harmonic Mean (HM). Memorize the inequality: AM &ge; GM &ge; HM, and the equation GM<sup class="sup">2</sup> = AM &times; HM.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Questions on finding the sum of infinite geometric series and identifying the nth term of a harmonic progression are staple MCQs. Speed here is crucial.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>AP nth term: a + (n-1)d</li><li>GP sum (infinite): a / (1-r) for |r| < 1</li><li>HP is the reciprocal of AP</li><li>AM &ge; GM &ge; HM</li><li>GM<sup class="sup">2</sup> = AM &times; HM</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

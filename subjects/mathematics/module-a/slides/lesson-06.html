@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 06</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 06</div>
+      <h1 class="slide-heading">Series & Binomial Theorem</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Expand binomial expressions using Pascal's triangle and combinations.</li><li>Formulate and use the general term T<sub class="sub">r+1</sub> of a binomial expansion.</li><li>Determine the middle term(s) of an expansion based on the power 'n'.</li><li>Calculate the term independent of 'x'.</li><li>Understand the properties of binomial coefficients.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>The <strong>Binomial Theorem</strong> provides an algebraic expansion of powers of a binomial: (x + y)<sup class="sup">n</sup>. The coefficients of this expansion correspond to combinations nCr. The most powerful tool for solving exam questions is the <strong>general term</strong> formula: T<sub class="sub">r+1</sub> = nCr &times; x<sup class="sup">n-r</sup> &times; y<sup class="sup">r</sup>. Whenever a question asks for a specific coefficient, you should write out this general term and equate the resulting exponent of the variable to the desired power. The <strong>middle term</strong> depends on whether 'n' is even or odd. If n is even, there is one middle term at position (n/2 + 1). If n is odd, there are two middle terms at positions (n+1)/2 and (n+3)/2.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>A very common mistake is confusing 'r' with the term number. The r-value is always one less than the term number. The 5th term corresponds to r = 4, not r = 5.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Find the term independent of x in the expansion of (x - 1/x)<sup class="sup">6</sup>.</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Write the general term: T<sub class="sub">r+1</sub> = 6Cr &times; (x)<sup class="sup">6-r</sup> &times; (-x<sup class="sup">-1</sup>)<sup class="sup">r</sup>.</li><li>Separate constants and variables: T<sub class="sub">r+1</sub> = 6Cr &times; (-1)<sup class="sup">r</sup> &times; x<sup class="sup">6-r</sup> &times; x<sup class="sup">-r</sup>.</li><li>Combine the exponents of x: 6 - 2r.</li><li>For a term independent of x, the exponent must be 0: 6 - 2r = 0, which means r = 3.</li><li>Substitute r = 3 back into the coefficient: 6C3 &times; (-1)<sup class="sup">3</sup> = -20.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The term independent of x is -20.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>The sum of all binomial coefficients in (1+x)<sup class="sup">n</sup> is 2<sup class="sup">n</sup>. The sum of the odd coefficients equals the sum of the even coefficients, both being 2<sup class="sup">n-1</sup>. Examiners love testing these identities.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Identifying the coefficient of a specific term or finding the term independent of 'x' in a binomial expansion is guaranteed to appear in the exam.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>General term: T<sub class="sub">r+1</sub> = nCr &times; x<sup class="sup">n-r</sup> &times; y<sup class="sup">r</sup>.</li><li>Middle term (n even): (n/2 + 1)th term.</li><li>Middle term (n odd): (n+1)/2 and (n+3)/2th terms.</li><li>Independent term: Set the total exponent of x to zero.</li><li>Sum of coefficients = 2<sup class="sup">n</sup>.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

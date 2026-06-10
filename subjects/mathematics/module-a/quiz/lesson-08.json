@@ -1,0 +1,110 @@
+{
+  "id": "quiz-08",
+  "title": "Quiz 08",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Quadratic",
+      "q": "The discriminant of 3x^2 - 5x + 2 = 0 is:",
+      "options": [
+        "1",
+        "49",
+        "-1",
+        "25"
+      ],
+      "answerIndex": 0,
+      "explanation": "D = b^2 - 4ac = (-5)^2 - 4(3)(2) = 25 - 24 = 1."
+    },
+    {
+      "id": "q2",
+      "topic": "Quadratic",
+      "q": "If D < 0, the roots of the quadratic equation are:",
+      "options": [
+        "Real and equal",
+        "Real and distinct",
+        "Complex conjugates",
+        "Rational"
+      ],
+      "answerIndex": 2,
+      "explanation": "Negative discriminant yields square roots of negative numbers, i.e., complex conjugates."
+    },
+    {
+      "id": "q3",
+      "topic": "Quadratic",
+      "q": "Sum of roots of 2x^2 + 8x - 10 = 0 is:",
+      "options": [
+        "4",
+        "-4",
+        "5",
+        "-5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sum = -b/a = -8/2 = -4."
+    },
+    {
+      "id": "q4",
+      "topic": "Quadratic",
+      "q": "If roots of a quadratic equation are 2 and 3, the equation is:",
+      "options": [
+        "x^2 - 5x + 6 = 0",
+        "x^2 + 5x + 6 = 0",
+        "x^2 - 5x - 6 = 0",
+        "x^2 + 6x - 5 = 0"
+      ],
+      "answerIndex": 0,
+      "explanation": "x^2 - (sum)x + product = x^2 - (5)x + 6 = 0."
+    },
+    {
+      "id": "q5",
+      "topic": "Quadratic",
+      "q": "If one root of x^2 - 6x + k = 0 is 2, the value of k is:",
+      "options": [
+        "4",
+        "8",
+        "-8",
+        "12"
+      ],
+      "answerIndex": 1,
+      "explanation": "Plug x=2: 4 - 12 + k = 0 => k = 8."
+    },
+    {
+      "id": "q6",
+      "topic": "Quadratic",
+      "q": "The minimum value of the quadratic function f(x) = x^2 - 4x + 7 is:",
+      "options": [
+        "3",
+        "7",
+        "-4",
+        "11"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vertex x = -b/2a = 4/2 = 2. f(2) = 4 - 8 + 7 = 3."
+    },
+    {
+      "id": "q7",
+      "topic": "Quadratic",
+      "q": "If alpha, beta are roots of x^2 - 3x + 2 = 0, find alpha^2 + beta^2.",
+      "options": [
+        "5",
+        "13",
+        "9",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "(a+b)^2 - 2ab = 3^2 - 2(2) = 9 - 4 = 5."
+    },
+    {
+      "id": "q8",
+      "topic": "Quadratic",
+      "q": "For roots to be real and equal, the discriminant must be:",
+      "options": [
+        "Greater than 0",
+        "Less than 0",
+        "Equal to 0",
+        "Equal to 1"
+      ],
+      "answerIndex": 2,
+      "explanation": "D = 0 implies the +/- part of the formula vanishes, giving one repeated root."
+    }
+  ]
+}

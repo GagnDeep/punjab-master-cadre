@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 07</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 07</div>
+      <h1 class="slide-heading">Complex Numbers Basics</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Simplify expressions involving higher powers of 'iota' (i).</li><li>Calculate the modulus, conjugate, and argument of a complex number.</li><li>Represent complex numbers in polar and Euler (exponential) forms.</li><li>Understand the properties of cube roots of unity (1, &omega;, &omega;<sup class="sup">2</sup>).</li><li>Rationalize complex fractions using conjugates.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>A complex number is written in the form z = a + ib, where 'a' is the real part and 'b' is the imaginary part, with i<sup class="sup">2</sup> = -1. The powers of 'i' cycle every 4 steps: i, -1, -i, 1. The <strong>conjugate</strong> of z, denoted as z&#772;, is a - ib. The <strong>modulus</strong> |z| represents the distance from the origin in the Argand plane and is calculated as &radic;(a<sup class="sup">2</sup> + b<sup class="sup">2</sup>). A crucial identity linking these is z &times; z&#772; = |z|<sup class="sup">2</sup>. To divide complex numbers, you must rationalize the denominator by multiplying the numerator and denominator by the conjugate of the denominator.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>A common mistake is incorrectly calculating the argument (angle) in different quadrants. While tan<sup class="sup">-1</sup>(|b/a|) gives the reference angle, you must adjust it based on whether the number is in the 2nd, 3rd, or 4th quadrant.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Express the complex number (1 + i) / (1 - i) in the standard a + ib form.</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the denominator: 1 - i. Its conjugate is 1 + i.</li><li>Multiply numerator and denominator by (1 + i).</li><li>Numerator becomes: (1 + i)(1 + i) = 1 + 2i + i<sup class="sup">2</sup> = 1 + 2i - 1 = 2i.</li><li>Denominator becomes: (1 - i)(1 + i) = 1<sup class="sup">2</sup> - i<sup class="sup">2</sup> = 1 - (-1) = 2.</li><li>Divide: 2i / 2 = i.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The standard form is 0 + 1i, or simply i.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>The cube roots of unity (1, &omega;, &omega;<sup class="sup">2</sup>) frequently appear in algebraic simplification questions. Always use the properties: 1 + &omega; + &omega;<sup class="sup">2</sup> = 0 and &omega;<sup class="sup">3</sup> = 1 to reduce high powers.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Questions on finding the modulus, conjugate, or expressing a fraction in standard a+ib form appear in almost every paper. Polar form conversions are also very common.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Powers of i cycle in sequences of 4.</li><li>Modulus |z| = &radic;(a<sup class="sup">2</sup> + b<sup class="sup">2</sup>).</li><li>z &times; z&#772; = |z|<sup class="sup">2</sup>.</li><li>Argument must be adjusted based on the quadrant.</li><li>Cube roots of unity: 1 + &omega; + &omega;<sup class="sup">2</sup> = 0.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

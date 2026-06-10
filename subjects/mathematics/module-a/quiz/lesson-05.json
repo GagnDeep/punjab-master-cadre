@@ -1,0 +1,110 @@
+{
+  "id": "quiz-05",
+  "title": "Quiz 05",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "AP",
+      "q": "The 10th term of an AP with first term 2 and common difference 3 is:",
+      "options": [
+        "29",
+        "32",
+        "27",
+        "30"
+      ],
+      "answerIndex": 0,
+      "explanation": "a + (n-1)d = 2 + (9)3 = 2 + 27 = 29."
+    },
+    {
+      "id": "q2",
+      "topic": "AP",
+      "q": "The sum of the first 20 natural numbers is:",
+      "options": [
+        "200",
+        "210",
+        "400",
+        "420"
+      ],
+      "answerIndex": 1,
+      "explanation": "n(n+1)/2 = 20(21)/2 = 210."
+    },
+    {
+      "id": "q3",
+      "topic": "GP",
+      "q": "If the common ratio of a GP is 1/2 and first term is 8, the 4th term is:",
+      "options": [
+        "1",
+        "2",
+        "4",
+        "1/2"
+      ],
+      "answerIndex": 0,
+      "explanation": "a*r^3 = 8 * (1/2)^3 = 8 * (1/8) = 1."
+    },
+    {
+      "id": "q4",
+      "topic": "GP",
+      "q": "Sum of infinite GP: 5, 5/2, 5/4, ... is:",
+      "options": [
+        "10",
+        "5",
+        "15",
+        "7.5"
+      ],
+      "answerIndex": 0,
+      "explanation": "S = a / (1 - r) = 5 / (1 - 1/2) = 5 / (1/2) = 10."
+    },
+    {
+      "id": "q5",
+      "topic": "HP",
+      "q": "If 1/2, 1/5, 1/8 are in HP, the next term is:",
+      "options": [
+        "1/10",
+        "1/11",
+        "1/12",
+        "1/9"
+      ],
+      "answerIndex": 1,
+      "explanation": "The AP is 2, 5, 8. Next term is 11. Reciprocal is 1/11."
+    },
+    {
+      "id": "q6",
+      "topic": "AM-GM",
+      "q": "The Arithmetic Mean of two positive numbers is 5 and Geometric Mean is 4. The numbers are:",
+      "options": [
+        "2 and 8",
+        "1 and 16",
+        "4 and 6",
+        "3 and 7"
+      ],
+      "answerIndex": 0,
+      "explanation": "(a+b)/2 = 5 so a+b=10. sqrt(ab) = 4 so ab=16. Only 2 and 8 fit."
+    },
+    {
+      "id": "q7",
+      "topic": "AM-GM",
+      "q": "For any two distinct positive numbers, the relationship between AM and GM is:",
+      "options": [
+        "AM < GM",
+        "AM > GM",
+        "AM = GM",
+        "AM <= GM"
+      ],
+      "answerIndex": 1,
+      "explanation": "AM is strictly greater than GM for distinct positive numbers."
+    },
+    {
+      "id": "q8",
+      "topic": "AP",
+      "q": "If the sum of n terms of an AP is n^2 + 2n, its common difference is:",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "S1 = a1 = 3. S2 = a1+a2 = 8. So a2 = 5. Common diff d = a2 - a1 = 5 - 3 = 2."
+    }
+  ]
+}
