@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quadratic Equations - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 08
+    </div>
+
+    <h1>Lesson 08: Quadratic Equations</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਦੋ-ਘਾਤੀ ਸਮੀਕਰਨਾਂ</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2022 Pattern)</div>
+        <p>Determining the nature of roots using the discriminant and applying the sum and product of roots formulas are guaranteed to appear. These are high-yield questions.</p>
+        <p class="pa mt-2">ਡਿਸਕ੍ਰਿਮੀਨੈਂਟ ਰਾਹੀਂ ਜੜ੍ਹਾਂ ਦੀ ਪ੍ਰਕਿਰਤੀ ਲੱਭਣਾ ਅਤੇ ਜੜ੍ਹਾਂ ਦੇ ਜੋੜ/ਗੁਣਨਫਲ ਦੇ ਫਾਰਮੂਲੇ ਵਰਤਣਾ ਪੇਪਰ ਵਿੱਚ ਪੱਕਾ ਆਉਂਦਾ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Determine the nature of roots using the discriminant (D = b<sup class="sup">2</sup> - 4ac).</li><li>Calculate the sum and product of roots rapidly.</li><li>Form a quadratic equation when its roots are given.</li><li>Analyze the signs of roots based on the coefficients.</li><li>Find the maximum or minimum value of a quadratic expression.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Discriminant and Root Relationships</h2>
+      <p>For a quadratic equation ax<sup class="sup">2</sup> + bx + c = 0, the roots are given by the quadratic formula. The expression under the square root, D = b<sup class="sup">2</sup> - 4ac, is the <strong>discriminant</strong>. If D > 0, the roots are real and distinct. If D = 0, the roots are real and equal (coincident). If D < 0, the roots are complex conjugates. A profoundly useful shortcut involves the relationship between the roots (&alpha;, &beta;) and the coefficients. The sum of the roots is &alpha; + &beta; = <span class="fraction"><span>-b</span><span class="bottom">a</span></span>, and the product is &alpha;&beta; = <span class="fraction"><span>c</span><span class="bottom">a</span></span>. You can build any quadratic equation if you know the sum (S) and product (P) of its roots: x<sup class="sup">2</sup> - Sx + P = 0.</p>
+      <p>Understanding the graphical representation of a quadratic equation (a parabola) provides immense intuition for solving inequalities. If a > 0, the parabola opens upwards, resembling a 'U'. If a < 0, it opens downwards. The roots of the equation correspond to the x-intercepts where the graph crosses the x-axis. This graphical view is crucial when solving quadratic inequalities like ax^2 + bx + c < 0. For an upward-opening parabola with distinct roots alpha and beta (where alpha < beta), the expression is negative only between the roots (alpha < x < beta) and positive outside them. Memorizing this 'wavy curve' graphical behavior allows you to solve inequality questions in seconds without drawing sign charts.</p>
+      <p>A specialized topic often tested to separate top candidates is the location of roots. You might be asked under what conditions both roots of a quadratic equation are strictly greater than a specific real number 'k'. This requires checking a combination of conditions: the discriminant must be non-negative (D &ge; 0 for real roots), the vertex x-coordinate must be greater than k (-b/2a > k), and the function evaluated at k must have the same sign as 'a' (a * f(k) > 0). While these condition sets seem intimidating to memorize, sketching the parabola visually reveals them immediately. If the parabola opens upward (a>0) and both roots are to the right of 'k', then the graph at x=k must be above the x-axis (f(k)>0).</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>If the coefficients a, b, c are rational, and one root is an irrational surd (e.g., p + &radic;q), the other root MUST be its conjugate (p - &radic;q). The same rule applies to complex roots only if coefficients are real. Do not assume conjugate roots if coefficients themselves contain imaginary numbers.</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> If &alpha; and &beta; are roots of x<sup class="sup">2</sup> - 5x + 6 = 0, find the value of &alpha;<sup class="sup">2</sup> + &beta;<sup class="sup">2</sup>.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the sum and product from the equation: &alpha; + &beta; = 5, and &alpha;&beta; = 6.</p><p><strong>Step 2:</strong> Use the algebraic identity: &alpha;<sup class="sup">2</sup> + &beta;<sup class="sup">2</sup> = (&alpha; + &beta;)<sup class="sup">2</sup> - 2&alpha;&beta;.</p><p><strong>Step 3:</strong> Substitute the known values: (5)<sup class="sup">2</sup> - 2(6).</p><p><strong>Step 4:</strong> Calculate the final result: 25 - 12 = 13.</p>
+        <p class="mt-4"><strong>Answer:</strong> The value is 13.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Questions asking for the minimum or maximum value of a quadratic expression ax<sup class="sup">2</sup> + bx + c are common. The vertex occurs at x = -b/(2a). If 'a' is positive, it's a minimum; if 'a' is negative, it's a maximum. The actual min/max value is -D/(4a).</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>D = b<sup class="sup">2</sup> - 4ac determines root nature.</li><li>Sum of roots = -b/a.</li><li>Product of roots = c/a.</li><li>Equation formation: x<sup class="sup">2</sup> - (Sum)x + (Product) = 0.</li><li>Vertex (min/max point) is at x = -b/(2a).</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-08.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਸਵਾਗਤ ਹੈ ਜੀ! ਅੱਜ ਅਸੀਂ Quadratic Equations ਭਾਵ ਦੋ-ਘਾਤੀ ਸਮੀਕਰਨਾਂ ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ, ਜੋ ਅਸੀਂ ਸਕੂਲ ਸਮੇਂ ਤੋਂ ਪੜ੍ਹਦੇ ਆ ਰਹੇ ਹਾਂ। ਪਰ ਇੱਥੇ ਅਸੀਂ ਮੁਕਾਬਲੇ ਵਾਲੀ ਪ੍ਰੀਖਿਆ (competitive exam) ਦੇ ਨਜ਼ਰੀਏ ਤੋਂ ਸ਼ਾਰਟਕੱਟ ਸਿੱਖਾਂਗੇ। ਸਭ ਤੋਂ ਜ਼ਰੂਰੀ ਹੈ ਡਿਸਕ੍ਰਿਮੀਨੈਂਟ, ਜਿਸਨੂੰ ਅਸੀਂ 'D' ਕਹਿੰਦੇ ਹਾਂ (D = b^2 - 4ac)। ਜੇਕਰ D ਜ਼ੀਰੋ ਤੋਂ ਵੱਡਾ ਹੈ, ਤਾਂ ਜੜ੍ਹਾਂ (roots) ਅਸਲੀ ਅਤੇ ਵੱਖਰੀਆਂ ਹੋਣਗੀਆਂ। ਜੇਕਰ D ਬਿਲਕੁਲ ਜ਼ੀਰੋ ਹੈ, ਤਾਂ ਜੜ੍ਹਾਂ ਬਰਾਬਰ ਹੋਣਗੀਆਂ। ਅਤੇ ਜੇਕਰ D ਜ਼ੀਰੋ ਤੋਂ ਛੋਟਾ ਯਾਨੀ negative ਹੈ, ਤਾਂ ਜੜ੍ਹਾਂ ਕੰਪਲੈਕਸ (complex) ਹੋਣਗੀਆਂ। ਬਹੁਤ ਸਾਰੇ ਸਵਾਲ ਸਿਰਫ਼ D ਚੈੱਕ ਕਰਨ ਨਾਲ ਹੀ ਹੱਲ ਹੋ ਜਾਂਦੇ ਹਨ!</p><p>ਦੂਜੀ ਸਭ ਤੋਂ ਵੱਧ ਵਰਤੀ ਜਾਣ ਵਾਲੀ ਤਕਨੀਕ ਹੈ ਜੜ੍ਹਾਂ ਦਾ ਜੋੜ ਅਤੇ ਗੁਣਨਫਲ। ਜੜ੍ਹਾਂ ਦਾ ਜੋੜ (Sum) ਹਮੇਸ਼ਾ -b/a ਹੁੰਦਾ ਹੈ, ਅਤੇ ਗੁਣਨਫਲ (Product) c/a ਹੁੰਦਾ ਹੈ। ਪ੍ਰੀਖਿਅਕ ਅਕਸਰ ਤੁਹਾਨੂੰ ਦੋ ਜੜ੍ਹਾਂ alpha ਅਤੇ beta ਦੇ ਕੇ alpha square + beta square ਵਰਗੀਆਂ ਚੀਜ਼ਾਂ ਦਾ ਮੁੱਲ ਪੁੱਛਦੇ ਹਨ। ਉੱਥੇ ਤੁਹਾਨੂੰ ਸਮੀਕਰਨ ਹੱਲ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ! ਸਿੱਧਾ (alpha+beta)^2 - 2(alpha)(beta) ਵਾਲਾ ਫਾਰਮੂਲਾ ਲਗਾਓ ਅਤੇ ਜਵਾਬ ਕੱਢੋ। ਇੱਕ ਹੋਰ ਗੱਲ ਯਾਦ ਰੱਖੋ, ਜੇਕਰ ਤੁਹਾਨੂੰ ਕੋਈ ਅਜਿਹੀ ਜੜ੍ਹ ਦਿੱਤੀ ਹੈ ਜਿਸ ਵਿੱਚ ਅੰਡਰਰੂਟ (surd) ਜਾਂ ਆਇਓਟਾ (i) ਹੈ, ਤਾਂ ਦੂਜੀ ਜੜ੍ਹ ਹਮੇਸ਼ਾ ਉਸਦਾ ਕੰਜੂਗੇਟ (conjugate) ਹੋਵੇਗੀ। ਮਤਲਬ ਜੇ ਇੱਕ ਜੜ੍ਹ 2+3i ਹੈ, ਤਾਂ ਦੂਜੀ 2-3i ਪੱਕਾ ਹੋਵੇਗੀ। ਇਸ ਨਾਲ ਤੁਹਾਡਾ ਅੱਧਾ ਕੰਮ ਆਸਾਨ ਹੋ ਜਾਂਦਾ ਹੈ। ਆਓ ਹੁਣ ਕੁਝ ਸਵਾਲਾਂ 'ਤੇ ਇਹਨਾਂ ਤਕਨੀਕਾਂ ਦੀ ਵਰਤੋਂ ਕਰਕੇ ਦੇਖਦੇ ਹਾਂ।</p><p>ਦੋ-ਘਾਤੀ ਸਮੀਕਰਨਾਂ (Quadratic Equations) ਦੇ ਸਵਾਲਾਂ ਨੂੰ ਹੱਲ ਕਰਨ ਦਾ ਸਭ ਤੋਂ ਵਧੀਆ ਤਰੀਕਾ ਹੈ ਗ੍ਰਾਫ (Graphs) ਦੀ ਮਦਦ ਲੈਣਾ। ਜੇਕਰ ਤੁਸੀਂ ਸਮੀਕਰਨ ਦੇ ਪੈਰਾਬੋਲਾ (Parabola) ਨੂੰ ਆਪਣੇ ਦਿਮਾਗ ਵਿੱਚ ਕਲਪਨਾ (imagine) ਕਰ ਸਕਦੇ ਹੋ, ਤਾਂ ਬਹੁਤ ਸਾਰੇ ਸਵਾਲ ਬਿਨਾਂ ਪੈੱਨ ਚੁੱਕੇ ਹੱਲ ਹੋ ਸਕਦੇ ਹਨ। ਜਿਵੇਂ ਕਿ ਅਸਮਾਨਤਾਵਾਂ (Inequalities) ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚ, ਜੇਕਰ ਗ੍ਰਾਫ x-axis ਤੋਂ ਉੱਪਰ ਹੈ, ਤਾਂ ਮੁੱਲ positive ਹੋਵੇਗਾ। ਇਹ 'Wavy Curve Method' ਤੁਹਾਨੂੰ ਬਹੁਤ ਸਮਾਂ ਬਚਾਉਣ ਵਿੱਚ ਮਦਦ ਕਰੇਗਾ। ਇਸਦੇ ਨਾਲ ਹੀ, Roots ਦੀ Location ਵਾਲੇ ਸਵਾਲ ਥੋੜ੍ਹੇ ਔਖੇ ਲੱਗ ਸਕਦੇ ਹਨ, ਪਰ ਜੇਕਰ ਤੁਸੀਂ ਗ੍ਰਾਫ ਬਣਾ ਕੇ ਤਿੰਨਾਂ ਸ਼ਰਤਾਂ (Conditions) ਨੂੰ ਸਮਝ ਲੈਂਦੇ ਹੋ, ਤਾਂ ਇਹ ਵੀ ਬਹੁਤ ਆਸਾਨ ਹੋ ਜਾਣਗੇ। ਇਹ ਸਾਰੀਆਂ ਤਕਨੀਕਾਂ ਤੁਹਾਡੀ ਪ੍ਰੀਖਿਆ ਦੀ ਤਿਆਰੀ ਵਿੱਚ ਰਾਮਬਾਣ ਸਾਬਤ ਹੋਣਗੀਆਂ। ਮੇਰੀ ਸਲਾਹ ਹੈ ਕਿ ਪਿਛਲੇ ਸਾਲਾਂ ਦੇ ਪ੍ਰਸ਼ਨ ਪੱਤਰਾਂ ਨੂੰ ਜ਼ਰੂਰ ਹੱਲ ਕਰੋ ਅਤੇ ਦੇਖੋ ਕਿ ਇਹ ਤਕਨੀਕਾਂ ਕਿੰਨੀਆਂ ਲਾਭਦਾਇਕ ਹਨ।</p><p>ਇਸਦੇ ਨਾਲ ਹੀ ਇਹ ਵੀ ਧਿਆਨ ਵਿੱਚ ਰੱਖਣਾ ਚਾਹੀਦਾ ਹੈ ਕਿ ਸਮੀਕਰਨ ਨੂੰ ਬਣਾਉਣ ਦੀ ਕਲਾ ਵੀ ਓਨੀ ਹੀ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਕਦੇ-ਕਦੇ ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਤੁਹਾਨੂੰ ਸਿਰਫ ਜੜ੍ਹਾਂ ਦਿੱਤੀਆਂ ਜਾਂਦੀਆਂ ਹਨ ਅਤੇ ਤੁਹਾਨੂੰ ਸਮੀਕਰਨ ਤਿਆਰ ਕਰਨ ਲਈ ਕਿਹਾ ਜਾਂਦਾ ਹੈ। ਅਜਿਹੇ ਸਮੇਂ ਫਾਰਮੂਲਾ x² - (ਜੜ੍ਹਾਂ ਦਾ ਜੋੜ)x + (ਜੜ੍ਹਾਂ ਦਾ ਗੁਣਨਫਲ) = 0 ਬਹੁਤ ਕੰਮ ਆਉਂਦਾ ਹੈ। ਇਹ ਫਾਰਮੂਲਾ ਤੁਹਾਡੇ ਸਮੇਂ ਨੂੰ ਬਚਾਉਂਦਾ ਹੈ ਅਤੇ ਤੁਹਾਨੂੰ ਸਿੱਧੇ ਉੱਤਰ ਤੱਕ ਪਹੁੰਚਾਉਂਦਾ ਹੈ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-08.json');</script>
+</body></html>

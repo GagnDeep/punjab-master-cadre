@@ -1,0 +1,110 @@
+{
+  "id": "quiz-04",
+  "title": "Quiz 04",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Determinants",
+      "q": "A matrix is singular if its determinant is:",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Undefined"
+      ],
+      "answerIndex": 2,
+      "explanation": "Singular means |A| = 0, so it has no inverse."
+    },
+    {
+      "id": "q2",
+      "topic": "Determinants",
+      "q": "If a 3x3 matrix A has |A| = 5, what is |2A|?",
+      "options": [
+        "10",
+        "20",
+        "40",
+        "15"
+      ],
+      "answerIndex": 2,
+      "explanation": "|kA| = k<sup class=\"sup\">n</sup>|A|. Here, 2<sup class=\"sup\">3</sup> * 5 = 8 * 5 = 40."
+    },
+    {
+      "id": "q3",
+      "topic": "Determinants",
+      "q": "If two rows of a determinant are identical, its value is:",
+      "options": [
+        "1",
+        "0",
+        "-1",
+        "Doubled"
+      ],
+      "answerIndex": 1,
+      "explanation": "Identical rows or columns make the determinant zero."
+    },
+    {
+      "id": "q4",
+      "topic": "Determinants",
+      "q": "What is the determinant of the Identity matrix I?",
+      "options": [
+        "0",
+        "1",
+        "Depends on size",
+        "-1"
+      ],
+      "answerIndex": 1,
+      "explanation": "The product of the diagonal elements of I is always 1."
+    },
+    {
+      "id": "q5",
+      "topic": "Determinants",
+      "q": "The formula for A<sup class=\"sup\">-1</sup> is:",
+      "options": [
+        "|A| * adj(A)",
+        "adj(A) / |A|",
+        "A / |A|",
+        "1 / adj(A)"
+      ],
+      "answerIndex": 1,
+      "explanation": "The inverse requires dividing the adjoint by the determinant."
+    },
+    {
+      "id": "q6",
+      "topic": "Determinants",
+      "q": "If |A| = 4 for a 3x3 matrix, what is |adj(A)|?",
+      "options": [
+        "4",
+        "16",
+        "64",
+        "1/4"
+      ],
+      "answerIndex": 1,
+      "explanation": "|adj(A)| = |A|<sup class=\"sup\">n-1</sup> = 4<sup class=\"sup\">3-1</sup> = 4<sup class=\"sup\">2</sup> = 16."
+    },
+    {
+      "id": "q7",
+      "topic": "Determinants",
+      "q": "Cramer's Rule fails if the main determinant D is:",
+      "options": [
+        "Positive",
+        "Negative",
+        "Zero",
+        "Fractional"
+      ],
+      "answerIndex": 2,
+      "explanation": "Because Cramer's Rule involves division by D, it fails if D = 0."
+    },
+    {
+      "id": "q8",
+      "topic": "Determinants",
+      "q": "The determinant of a diagonal matrix is:",
+      "options": [
+        "Sum of diagonal elements",
+        "Product of diagonal elements",
+        "0",
+        "1"
+      ],
+      "answerIndex": 1,
+      "explanation": "For any triangular or diagonal matrix, |A| is the product of its main diagonal."
+    }
+  ]
+}

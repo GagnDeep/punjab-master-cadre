@@ -1,0 +1,110 @@
+{
+  "id": "quiz-11",
+  "title": "Quiz 11",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Number Theory",
+      "q": "Which number is divisible by 9?",
+      "options": [
+        "12345",
+        "9876",
+        "23454",
+        "4563"
+      ],
+      "answerIndex": 3,
+      "explanation": "Sum of digits of 4563 is 18, which is divisible by 9."
+    },
+    {
+      "id": "q2",
+      "topic": "Number Theory",
+      "q": "If GCD(a, b) = 1, then a and b are called:",
+      "options": [
+        "Prime numbers",
+        "Composite numbers",
+        "Co-prime numbers",
+        "Twin primes"
+      ],
+      "answerIndex": 2,
+      "explanation": "Numbers with GCD of 1 are relatively prime or co-prime."
+    },
+    {
+      "id": "q3",
+      "topic": "Number Theory",
+      "q": "The LCM of 15 and 20 is:",
+      "options": [
+        "30",
+        "60",
+        "120",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Multiples of 20 are 20, 40, 60... 60 is divisible by 15."
+    },
+    {
+      "id": "q4",
+      "topic": "Number Theory",
+      "q": "If a*b = 100 and GCD(a,b) = 5, what is LCM(a,b)?",
+      "options": [
+        "20",
+        "500",
+        "50",
+        "25"
+      ],
+      "answerIndex": 0,
+      "explanation": "a*b = GCD * LCM. So 100 = 5 * LCM. LCM = 20."
+    },
+    {
+      "id": "q5",
+      "topic": "Number Theory",
+      "q": "The number of prime factors in 2^3 * 3^2 * 5 is:",
+      "options": [
+        "3",
+        "6",
+        "1",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "The distinct prime bases are 2, 3, and 5 (total 3)."
+    },
+    {
+      "id": "q6",
+      "topic": "Number Theory",
+      "q": "Euclid's algorithm is primarily used to find:",
+      "options": [
+        "LCM",
+        "GCD",
+        "Prime factors",
+        "Remainders"
+      ],
+      "answerIndex": 1,
+      "explanation": "It's an efficient method for computing the Greatest Common Divisor."
+    },
+    {
+      "id": "q7",
+      "topic": "Number Theory",
+      "q": "Is 1 a prime number?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Only in algebra"
+      ],
+      "answerIndex": 1,
+      "explanation": "1 is neither prime nor composite. Prime numbers must have exactly two distinct factors."
+    },
+    {
+      "id": "q8",
+      "topic": "Number Theory",
+      "q": "A number is divisible by 11 if the difference of sum of alternating digits is:",
+      "options": [
+        "0 or multiple of 11",
+        "Multiple of 9",
+        "Even",
+        "Odd"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is the standard divisibility test for 11."
+    }
+  ]
+}

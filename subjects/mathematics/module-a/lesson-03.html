@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Matrices & Operations - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 03
+    </div>
+
+    <h1>Lesson 03: Matrices & Operations</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਮੈਟ੍ਰਿਕਸ ਅਤੇ ਕਾਰਵਾਈਆਂ</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2022 Pattern)</div>
+        <p>Questions involving matrix multiplication and transpose properties are frequent. Finding A squared or A cubed efficiently is a common calculation task that tests both accuracy and speed.</p>
+        <p class="pa mt-2">ਮੈਟ੍ਰਿਕਸ ਗੁਣਾ ਅਤੇ ਟ੍ਰਾਂਸਪੋਜ਼ ਦੀਆਂ ਵਿਸ਼ੇਸ਼ਤਾਵਾਂ ਵਾਲੇ ਸਵਾਲ ਅਕਸਰ ਆਉਂਦੇ ਹਨ। A ਵਰਗ ਜਾਂ A ਘਣ ਨੂੰ ਕੁਸ਼ਲਤਾ ਨਾਲ ਲੱਭਣਾ ਇੱਕ ਆਮ ਗਣਨਾ ਕਾਰਜ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Perform matrix addition, subtraction, and multiplication flawlessly.</li><li>Understand the concept of matrix transpose.</li><li>Identify symmetric and skew-symmetric matrices.</li><li>Apply properties of matrix operations to simplify complex expressions.</li><li>Decompose a square matrix into symmetric and skew-symmetric parts.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>Matrix multiplication is fundamentally different from regular number multiplication. To multiply two matrices A (size m by n) and B (size n by p), the number of columns in A must strictly equal the number of rows in B. The resulting matrix will have the size m by p. Unlike normal numbers, matrix multiplication is <strong>not commutative</strong>, meaning AB does not generally equal BA. The <strong>transpose</strong> of a matrix, denoted as A<sup class="sup">T</sup>, is found by swapping rows and columns. A matrix is perfectly <strong>symmetric</strong> if A = A<sup class="sup">T</sup>, and it is <strong>skew-symmetric</strong> if A = -A<sup class="sup">T</sup>. Any square matrix can uniquely be expressed as the sum of a symmetric and a skew-symmetric matrix.</p><p>The algebra of matrices includes addition, subtraction, and scalar multiplication, which behave exactly as you would expect intuitively. You add corresponding elements. However, the non-commutative nature of multiplication means that expanding algebraic identities requires caution. For example, (A + B)<sup class="sup">2</sup> is NOT A<sup class="sup">2</sup> + 2AB + B<sup class="sup">2</sup>. It is actually A<sup class="sup">2</sup> + AB + BA + B<sup class="sup">2</sup>. Only if A and B commute (i.e., AB = BA) does the standard binomial expansion hold. Examiners frequently exploit this misconception.</p><p>Special matrices are highly scoring if you know their properties. A diagonal matrix has non-zero elements only on the main diagonal. Multiplying diagonal matrices is simple: just multiply the corresponding diagonal elements. The Identity matrix (I) is a diagonal matrix with 1s on the diagonal. A scalar matrix is a diagonal matrix where all diagonal elements are identical. </p><p>Orthogonal matrices are another crucial concept. A matrix A is orthogonal if A * A<sup class="sup">T</sup> = I. This implies that the transpose of the matrix is equal to its inverse. The determinant of an orthogonal matrix is always +1 or -1, representing rotations and reflections in space.</p><p>Trace of a matrix is the sum of its main diagonal elements. It possesses neat properties: Trace(A+B) = Trace(A) + Trace(B), and most importantly, Trace(AB) = Trace(BA). This cyclical property is useful for proving complex identities without computing the full matrix product.</p><p>Nilpotent matrices (A<sup class="sup">k</sup> = 0 for some integer k) and Idempotent matrices (A<sup class="sup">2</sup> = A) often appear in multiple-choice questions requiring you to calculate high powers of A. For an idempotent matrix, A<sup class="sup">100</sup> is simply A. Recognizing these patterns saves immense calculation time.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> If A = [[1, 2], [3, 4]] and B = [[2, 0], [1, 2]], find the element in the first row and first column of the product AB.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the first row of A: [1, 2].</p><p><strong>Step 2:</strong> Identify the first column of B: [2, 1].</p><p><strong>Step 3:</strong> Multiply corresponding elements and sum them up.</p><p><strong>Step 4:</strong> Calculation: (1 * 2) + (2 * 1) = 2 + 2 = 4.</p>
+        <p class="mt-4"><strong>Answer:</strong> The element is 4.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>They frequently ask to decompose a square matrix into the sum of a symmetric and a skew-symmetric matrix. The standard formula to memorize is: A = 1/2(A + A<sup class="sup">T</sup>) + 1/2(A - A<sup class="sup">T</sup>).</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Inner dimensions must match for multiplication (n = n).</li><li>Matrix multiplication is NOT commutative (AB != BA).</li><li>Transpose reversal rule: (AB)<sup class="sup">T</sup> = B<sup class="sup">T</sup> A<sup class="sup">T</sup>.</li><li>Symmetric: A = A<sup class="sup">T</sup>.</li><li>Skew-symmetric: A = -A<sup class="sup">T</sup>.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-03.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਵਿਦਿਆਰਥੀਓ, ਅੱਜ ਅਸੀਂ ਮੈਟ੍ਰਿਕਸ (Matrices) ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ। ਮਾਸਟਰ ਕਾਡਰ ਵਿੱਚ ਇਹ ਇੱਕ ਬਹੁਤ ਹੀ ਸਕੋਰਿੰਗ ਵਿਸ਼ਾ ਹੈ, ਪਰ ਗਲਤੀਆਂ ਵੀ ਇੱਥੇ ਹੀ ਹੁੰਦੀਆਂ ਹਨ!</p><p>ਮੈਟ੍ਰਿਕਸ ਗੁਣਾ ਕਰਨਾ ਥੋੜ੍ਹਾ ਧਿਆਨ ਮੰਗਦਾ ਹੈ। ਯਾਦ ਰੱਖੋ, ਪਹਿਲੇ ਮੈਟ੍ਰਿਕਸ ਦੀਆਂ ਕਤਾਰਾਂ (Rows) ਨੂੰ ਦੂਜੇ ਮੈਟ੍ਰਿਕਸ ਦੇ ਕਾਲਮਾਂ (Columns) ਨਾਲ ਗੁਣਾ ਕੀਤਾ ਜਾਂਦਾ ਹੈ। ਕਾਹਲੀ ਵਿੱਚ ਕਦੇ ਵੀ ਰੋਅ ਨੂੰ ਰੋਅ ਨਾਲ ਗੁਣਾ ਨਾ ਕਰ ਦੇਣਾ। ਅਤੇ ਸਭ ਤੋਂ ਵੱਡੀ ਗੱਲ, AB ਅਤੇ BA ਹਮੇਸ਼ਾ ਬਰਾਬਰ ਨਹੀਂ ਹੁੰਦੇ। ਗਣਿਤ ਵਿੱਚ ਅਸੀਂ 2 ਗੁਣਾ 3 ਨੂੰ 6 ਲਿਖਦੇ ਹਾਂ ਅਤੇ 3 ਗੁਣਾ 2 ਨੂੰ ਵੀ 6, ਪਰ ਮੈਟ੍ਰਿਕਸ ਵਿੱਚ ਅਜਿਹਾ ਨਹੀਂ ਹੈ!</p><p>ਦੂਜੀ ਅਹਿਮ ਗੱਲ ਹੈ Symmetric ਅਤੇ Skew-Symmetric ਮੈਟ੍ਰਿਕਸ। ਇਹਨਾਂ ਦੀ ਪਛਾਣ ਟ੍ਰਾਂਸਪੋਜ਼ (Transpose) ਤੋਂ ਹੁੰਦੀ ਹੈ। ਟ੍ਰਾਂਸਪੋਜ਼ ਦਾ ਮਤਲਬ ਹੈ ਲੇਟਵੀਆਂ ਲਾਈਨਾਂ ਨੂੰ ਖੜ੍ਹੀਆਂ ਲਾਈਨਾਂ ਬਣਾ ਦੇਣਾ। ਜੇਕਰ ਕਿਸੇ ਮੈਟ੍ਰਿਕਸ ਦਾ ਟ੍ਰਾਂਸਪੋਜ਼ ਕਰਨ ਤੋਂ ਬਾਅਦ ਵੀ ਉਹ ਬਿਲਕੁਲ ਉਹੀ ਰਹਿੰਦਾ ਹੈ, ਤਾਂ ਉਹ Symmetric ਹੈ। ਪਰ ਜੇਕਰ ਉਹ ਆਪਣੇ ਨਕਾਰਾਤਮਕ (negative) ਦੇ ਬਰਾਬਰ ਹੋ ਜਾਂਦਾ ਹੈ, ਤਾਂ ਉਹ Skew-Symmetric ਹੈ। </p><p>ਇੱਕ ਬਹੁਤ ਹੀ ਖਾਸ ਫਾਰਮੂਲਾ ਜੋ ਪੇਪਰ ਵਿੱਚ ਵਾਰ-ਵਾਰ ਆਉਂਦਾ ਹੈ, ਉਹ ਹੈ ਟ੍ਰਾਂਸਪੋਜ਼ ਦਾ ਰਿਵਰਸਲ ਰੂਲ: (AB) ਦਾ ਟ੍ਰਾਂਸਪੋਜ਼ ਬਰਾਬਰ ਹੁੰਦਾ ਹੈ B ਦਾ ਟ੍ਰਾਂਸਪੋਜ਼ ਗੁਣਾ A ਦਾ ਟ੍ਰਾਂਸਪੋਜ਼। ਇਸਨੂੰ ਕਦੇ ਨਾ ਭੁੱਲਣਾ! </p><p>ਨਾਲ ਹੀ, ਸਾਨੂੰ ਆਈਡੈਂਟਿਟੀ ਮੈਟ੍ਰਿਕਸ (Identity Matrix) ਬਾਰੇ ਵੀ ਪਤਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ। ਇਹ ਮੈਟ੍ਰਿਕਸ ਗੁਣਾ ਵਿੱਚ ਨੰਬਰ '1' ਵਾਂਗ ਕੰਮ ਕਰਦਾ ਹੈ। ਕਿਸੇ ਵੀ ਮੈਟ੍ਰਿਕਸ ਨੂੰ ਇਸ ਨਾਲ ਗੁਣਾ ਕਰੋ, ਉਹੀ ਮੈਟ੍ਰਿਕਸ ਵਾਪਸ ਆ ਜਾਵੇਗਾ। </p><p>ਟ੍ਰੇਸ (Trace) ਕੱਢਣਾ ਵੀ ਬਹੁਤ ਆਸਾਨ ਹੈ। ਬਸ ਮੁੱਖ ਡਾਇਗਨਲ (main diagonal) ਦੇ ਸਾਰੇ ਅੰਕਾਂ ਨੂੰ ਜੋੜ ਦਿਓ। ਪੇਪਰ ਵਿੱਚ ਕਈ ਵਾਰ ਉਹ AB ਦਾ ਟ੍ਰੇਸ ਪੁੱਛਦੇ ਹਨ, ਤਾਂ ਯਾਦ ਰੱਖੋ Trace(AB) ਬਰਾਬਰ ਹੁੰਦਾ ਹੈ Trace(BA) ਦੇ। ਇਹਨਾਂ ਛੋਟੇ-ਛੋਟੇ ਨਿਯਮਾਂ ਨਾਲ ਤੁਸੀਂ ਵੱਡੇ ਸਵਾਲਾਂ ਨੂੰ ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੱਲ ਕਰ ਸਕਦੇ ਹੋ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-03.json');</script>
+</body></html>

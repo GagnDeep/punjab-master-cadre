@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 08</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 08</div>
+      <h1 class="slide-heading">Quadratic Equations</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Determine the nature of roots using the discriminant (D = b<sup class="sup">2</sup> - 4ac).</li><li>Calculate the sum and product of roots rapidly.</li><li>Form a quadratic equation when its roots are given.</li><li>Analyze the signs of roots based on the coefficients.</li><li>Find the maximum or minimum value of a quadratic expression.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>For a quadratic equation ax<sup class="sup">2</sup> + bx + c = 0, the roots are given by the quadratic formula. The expression under the square root, D = b<sup class="sup">2</sup> - 4ac, is the <strong>discriminant</strong>. If D > 0, the roots are real and distinct. If D = 0, the roots are real and equal (coincident). If D < 0, the roots are complex conjugates. A profoundly useful shortcut involves the relationship between the roots (&alpha;, &beta;) and the coefficients. The sum of the roots is &alpha; + &beta; = <span class="fraction"><span>-b</span><span class="bottom">a</span></span>, and the product is &alpha;&beta; = <span class="fraction"><span>c</span><span class="bottom">a</span></span>. You can build any quadratic equation if you know the sum (S) and product (P) of its roots: x<sup class="sup">2</sup> - Sx + P = 0.</p></div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display: flex; gap: var(--space-4); justify-content: center; margin-top: var(--space-2);">
+            <div style="text-align: center;">
+                <svg width="100" height="100" viewBox="0 0 100 100">
+                    <line x1="10" y1="80" x2="90" y2="80" stroke="var(--color-neutral-400)" stroke-width="2" />
+                    <path d="M 20 20 Q 50 120 80 20" fill="none" stroke="var(--color-primary-500)" stroke-width="3" />
+                    <circle cx="37" cy="80" r="4" fill="var(--color-accent-500)" />
+                    <circle cx="63" cy="80" r="4" fill="var(--color-accent-500)" />
+                </svg>
+                <p class="text-sm font-semibold">D > 0<br>(2 Real Roots)</p>
+            </div>
+            <div style="text-align: center;">
+                <svg width="100" height="100" viewBox="0 0 100 100">
+                    <line x1="10" y1="80" x2="90" y2="80" stroke="var(--color-neutral-400)" stroke-width="2" />
+                    <path d="M 20 20 Q 50 140 80 20" fill="none" stroke="var(--color-primary-500)" stroke-width="3" />
+                    <circle cx="50" cy="80" r="4" fill="var(--color-accent-500)" />
+                </svg>
+                <p class="text-sm font-semibold">D = 0<br>(1 Equal Root)</p>
+            </div>
+            <div style="text-align: center;">
+                <svg width="100" height="100" viewBox="0 0 100 100">
+                    <line x1="10" y1="80" x2="90" y2="80" stroke="var(--color-neutral-400)" stroke-width="2" />
+                    <path d="M 20 10 Q 50 100 80 10" fill="none" stroke="var(--color-primary-500)" stroke-width="3" />
+                </svg>
+                <p class="text-sm font-semibold">D &lt; 0<br>(0 Real Roots)</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>If the coefficients a, b, c are rational, and one root is an irrational surd (e.g., p + &radic;q), the other root MUST be its conjugate (p - &radic;q). The same rule applies to complex roots only if coefficients are real. Do not assume conjugate roots if coefficients themselves contain imaginary numbers.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> If &alpha; and &beta; are roots of x<sup class="sup">2</sup> - 5x + 6 = 0, find the value of &alpha;<sup class="sup">2</sup> + &beta;<sup class="sup">2</sup>.</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the sum and product from the equation: &alpha; + &beta; = 5, and &alpha;&beta; = 6.</li><li>Use the algebraic identity: &alpha;<sup class="sup">2</sup> + &beta;<sup class="sup">2</sup> = (&alpha; + &beta;)<sup class="sup">2</sup> - 2&alpha;&beta;.</li><li>Substitute the known values: (5)<sup class="sup">2</sup> - 2(6).</li><li>Calculate the final result: 25 - 12 = 13.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The value is 13.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Questions asking for the minimum or maximum value of a quadratic expression ax<sup class="sup">2</sup> + bx + c are common. The vertex occurs at x = -b/(2a). If 'a' is positive, it's a minimum; if 'a' is negative, it's a maximum. The actual min/max value is -D/(4a).</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Determining the nature of roots using the discriminant and applying the sum and product of roots formulas are guaranteed to appear. These are high-yield questions.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>D = b<sup class="sup">2</sup> - 4ac determines root nature.</li><li>Sum of roots = -b/a.</li><li>Product of roots = c/a.</li><li>Equation formation: x<sup class="sup">2</sup> - (Sum)x + (Product) = 0.</li><li>Vertex (min/max point) is at x = -b/(2a).</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

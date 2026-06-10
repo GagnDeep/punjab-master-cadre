@@ -1,0 +1,110 @@
+{
+  "id": "quiz-02",
+  "title": "Quiz 02",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Relations",
+      "q": "A relation R on set A is called reflexive if:",
+      "options": [
+        "(a, b) in R implies (b, a) in R",
+        "(a, a) in R for all a in A",
+        "(a, b) in R and (b, c) in R implies (a, c) in R",
+        "It is one-to-one"
+      ],
+      "answerIndex": 1,
+      "explanation": "Reflexive means every single element in the domain is related to itself."
+    },
+    {
+      "id": "q2",
+      "topic": "Functions",
+      "q": "A function that is strictly injective and surjective is called:",
+      "options": [
+        "Constant function",
+        "Identity function",
+        "Bijective function",
+        "Inverse function"
+      ],
+      "answerIndex": 2,
+      "explanation": "Bijective = One-to-one (injective) AND Onto (surjective)."
+    },
+    {
+      "id": "q3",
+      "topic": "Relations",
+      "q": "Let R be relation on N defined by x + 2y = 8. The domain of R is:",
+      "options": [
+        "{2, 4, 6}",
+        "{1, 2, 3, 4}",
+        "{2, 4, 6, 8}",
+        "{1, 2, 3}"
+      ],
+      "answerIndex": 0,
+      "explanation": "y must be an integer. If y=1, x=6. If y=2, x=4. If y=3, x=2. Domain x={2, 4, 6}."
+    },
+    {
+      "id": "q4",
+      "topic": "Functions",
+      "q": "The range of the function f(x) = |x| is:",
+      "options": [
+        "All real numbers",
+        "Real numbers >= 0",
+        "Real numbers > 0",
+        "Integers"
+      ],
+      "answerIndex": 1,
+      "explanation": "Absolute value is always non-negative, meaning the range is [0, infinity)."
+    },
+    {
+      "id": "q5",
+      "topic": "Relations",
+      "q": "An equivalence relation partitions a set into:",
+      "options": [
+        "Overlapping subsets",
+        "Equivalence classes",
+        "Empty sets",
+        "Infinite sets"
+      ],
+      "answerIndex": 1,
+      "explanation": "Equivalence classes are mutually disjoint and their union covers the original set."
+    },
+    {
+      "id": "q6",
+      "topic": "Functions",
+      "q": "If f(x) = x<sup class=\"sup\">2</sup> and g(x) = x + 1, what is f(g(x))?",
+      "options": [
+        "x<sup class=\"sup\">2</sup> + 1",
+        "x<sup class=\"sup\">2</sup> + x + 1",
+        "(x+1)<sup class=\"sup\">2</sup>",
+        "x<sup class=\"sup\">2</sup> + 2x"
+      ],
+      "answerIndex": 2,
+      "explanation": "Substitute g(x) into f: f(x+1) = (x+1)<sup class=\"sup\">2</sup>."
+    },
+    {
+      "id": "q7",
+      "topic": "Relations",
+      "q": "Is the relation 'is less than' (<) on Real numbers symmetric?",
+      "options": [
+        "Yes",
+        "No",
+        "Sometimes",
+        "Only for integers"
+      ],
+      "answerIndex": 1,
+      "explanation": "If 2 < 3, it is NOT true that 3 < 2. So it is not symmetric."
+    },
+    {
+      "id": "q8",
+      "topic": "Functions",
+      "q": "A function f: A -> B is invertible if and only if it is:",
+      "options": [
+        "Injective",
+        "Surjective",
+        "Bijective",
+        "Continuous"
+      ],
+      "answerIndex": 2,
+      "explanation": "Only bijective functions have well-defined inverses because every output maps back to a single unique input."
+    }
+  ]
+}

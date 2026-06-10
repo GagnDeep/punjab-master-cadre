@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 01</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 01</div>
+      <h1 class="slide-heading">Sets, Relations & Functions</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Define sets, subsets, and power sets clearly.</li><li>Understand set operations: union, intersection, difference, and complement.</li><li>Calculate the number of elements in subsets quickly using powers of 2.</li><li>Apply De Morgan's Laws to complex set operations.</li><li>Identify infinite vs finite sets easily.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p>A <strong>set</strong> is a well-defined collection of distinct objects. It is the most basic building block in algebra. Sets are usually denoted by capital letters like A, B, C. A <strong>subset</strong> contains elements that are all present in another set. If every element of set A is also in set B, then A is a subset of B. The <strong>power set</strong> is the set of all possible subsets. For example, the empty set is a subset of every set, and every set is a subset of itself. The cardinality of a power set is extremely important. If a set has n elements, its power set will have 2<sup class="sup">n</sup> elements. Understanding this relationship is key to solving ERB questions quickly. Set operations such as union (combining elements) and intersection (finding common elements) are also frequently tested. Remember that intersection is commutative, meaning A intersection B is the same as B intersection A. We also use Venn diagrams to visually represent these operations, which can be very helpful for complex problems.</p></div>
+      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>Don't confuse the empty set with the set containing the empty set. The empty set has 0 elements, while a set containing the empty set has 1 element.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> If a set A has 5 elements, how many proper subsets does it have?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the number of elements: n = 5.</li><li>Apply the formula for the number of subsets: 2<sup class="sup">n</sup>.</li><li>Calculate the total subsets: 2<sup class="sup">5</sup> = 32.</li><li>Recall that proper subsets exclude the set itself.</li><li>Subtract 1 from the total subsets: 32 - 1 = 31.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">31 proper subsets.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>They often ask for the number of proper subsets instead of total subsets to test your attention to detail. The formula for proper subsets is <span class="fraction"><span>2<sup class="sup">n</sup></span><span class="bottom">- 1</span></span>.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Questions on subset definitions and power sets appear almost every year. In ERB 2022, a direct question on the cardinality of a power set was asked. Knowing the basics saves time and helps you score quickly without long calculations. It is a fundamental topic.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Set: Well-defined collection of distinct elements.</li><li>Subset: Elements inside another set.</li><li>Power Set Cardinality: 2<sup class="sup">n</sup></li><li>Proper Subsets: 2<sup class="sup">n</sup> - 1</li><li>Union combines, Intersection finds commonalities.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

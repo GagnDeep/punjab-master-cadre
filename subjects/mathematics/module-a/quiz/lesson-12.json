@@ -1,0 +1,110 @@
+{
+  "id": "quiz-12",
+  "title": "Quiz 12",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Congruences",
+      "q": "What is 15 mod 4?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "0"
+      ],
+      "answerIndex": 2,
+      "explanation": "15 / 4 = 3 with a remainder of 3."
+    },
+    {
+      "id": "q2",
+      "topic": "Congruences",
+      "q": "The unit digit of 3^41 is:",
+      "options": [
+        "3",
+        "9",
+        "7",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cycle of 3 is [3, 9, 7, 1]. 41 / 4 leaves remainder 1. So first in cycle, which is 3."
+    },
+    {
+      "id": "q3",
+      "topic": "Congruences",
+      "q": "By Fermat's Little Theorem, what is the remainder of 5^12 divided by 13?",
+      "options": [
+        "5",
+        "1",
+        "12",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "a^(p-1) mod p = 1. Here p=13, so 5^12 mod 13 = 1."
+    },
+    {
+      "id": "q4",
+      "topic": "Congruences",
+      "q": "If x is congruent to 5 (mod 7), what is x + 3 (mod 7)?",
+      "options": [
+        "8",
+        "1",
+        "5",
+        "0"
+      ],
+      "answerIndex": 1,
+      "explanation": "5 + 3 = 8. And 8 mod 7 = 1."
+    },
+    {
+      "id": "q5",
+      "topic": "Congruences",
+      "q": "Unit digit of 5^999 is:",
+      "options": [
+        "1",
+        "5",
+        "0",
+        "9"
+      ],
+      "answerIndex": 1,
+      "explanation": "Any positive power of 5 ends in 5."
+    },
+    {
+      "id": "q6",
+      "topic": "Congruences",
+      "q": "In mod 5 arithmetic, what is the inverse of 2 (i.e. 2 * x = 1 mod 5)?",
+      "options": [
+        "3",
+        "2",
+        "4",
+        "1"
+      ],
+      "answerIndex": 0,
+      "explanation": "2 * 3 = 6. And 6 mod 5 = 1. So inverse is 3."
+    },
+    {
+      "id": "q7",
+      "topic": "Congruences",
+      "q": "Unit digit of 2^4 is:",
+      "options": [
+        "2",
+        "4",
+        "8",
+        "6"
+      ],
+      "answerIndex": 3,
+      "explanation": "2^4 = 16, so unit digit is 6."
+    },
+    {
+      "id": "q8",
+      "topic": "Congruences",
+      "q": "The value of -3 mod 5 is equivalent to:",
+      "options": [
+        "-3",
+        "2",
+        "3",
+        "5"
+      ],
+      "answerIndex": 1,
+      "explanation": "Add the modulo 5 to the negative number: -3 + 5 = 2."
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Theory (Congruences & Tricks) - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 12
+    </div>
+
+    <h1>Lesson 12: Number Theory (Congruences & Tricks)</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਨੰਬਰ ਥਿਊਰੀ (ਕਾਂਗਰੂਐਂਸ ਅਤੇ ਸ਼ਾਰਟਕੱਟ ਟ੍ਰਿਕਸ)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Finding the unit digit of a massive power (like 7^105) or the remainder when divided by a number are classic competitive exam questions. Congruence modulo arithmetic is the key.</p>
+        <p class="pa mt-2">ਕਿਸੇ ਵੱਡੀ ਘਾਤ (ਜਿਵੇਂ 7^105) ਦਾ ਆਖਰੀ ਅੰਕ (unit digit) ਲੱਭਣਾ ਜਾਂ ਬਾਕੀ (remainder) ਲੱਭਣਾ ਬਹੁਤ ਆਮ ਸਵਾਲ ਹਨ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Understand and apply congruence modulo arithmetic.</li><li>Determine the unit digit of a number raised to a large power.</li><li>Calculate remainders using modulo properties.</li><li>Apply Fermat's Little Theorem for prime moduli.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Modulo Arithmetic and Unit Digits</h2>
+      <p><strong>Modular arithmetic</strong> is like arithmetic on a clock face. We say a &equiv; b (mod m) if m exactly divides (a - b), meaning 'a' and 'b' leave the same remainder when divided by 'm'. This is incredibly powerful for finding remainders of large powers. For instance, to find the remainder of 2<sup class="sup">100</sup> divided by 3, we note that 2 &equiv; -1 (mod 3). Therefore, 2<sup class="sup">100</sup> &equiv; (-1)<sup class="sup">100</sup> &equiv; 1 (mod 3). Finding the <strong>unit digit</strong> of a number is equivalent to finding the number modulo 10. The unit digits of powers of any number follow a repeating cycle of length 4. For example, the powers of 7 end in 7, 9, 3, 1, and then repeat. To find the unit digit of 7<sup class="sup">105</sup>, divide 105 by 4. The remainder is 1, so the unit digit corresponds to the first number in the cycle, which is 7.</p>
+      <p>Fermat's Little Theorem is an elegant shortcut specifically for prime numbers. It states that if 'p' is a prime number and 'a' is an integer not divisible by 'p', then a^(p-1) &equiv; 1 (mod p). This means that if you raise any number to the power of one less than a prime number, dividing it by that prime will always leave a remainder of 1. For example, what is the remainder when 5^12 is divided by 13? Since 13 is prime and 12 is 13-1, the answer is instantly 1. Recognizing when to apply Fermat's theorem transforms a seemingly impossible calculation into a trivial one-second observation.</p>
+      <p>Wilson's Theorem and Euler's Totient Theorem are natural extensions of Fermat's work, but for the Master Cadre level, focusing on the cyclicity of unit digits and basic modulo properties yields the highest return on time invested. When dealing with negative remainders in modulo arithmetic, always convert them back to a positive equivalent before selecting your final answer. For instance, -2 (mod 7) is equivalent to 5 (mod 7). Think of it as moving backward on the clock face; if it is 2 hours before 7 o'clock, it is 5 o'clock. Mastering this 'clock math' intuition prevents silly errors at the final step of a calculation.</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>When using the cycle of 4 for unit digits, if the power is exactly divisible by 4 (remainder 0), the unit digit is the 4th (last) number in the cycle, NOT the first.</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> What is the unit digit of 3<sup class="sup">40</sup>?</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the base number: 3.</p><p><strong>Step 2:</strong> Recall the unit digit cycle for 3: 3, 9, 7, 1.</p><p><strong>Step 3:</strong> Divide the power by 4: 40 / 4 = 10 with a remainder of 0.</p><p><strong>Step 4:</strong> Since the remainder is 0, we look at the 4th (last) position in the cycle.</p><p><strong>Step 5:</strong> The 4th number in the cycle is 1.</p>
+        <p class="mt-4"><strong>Answer:</strong> The unit digit is 1.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Expect combined questions, like finding the unit digit of 3<sup class="sup">40</sup> + 7<sup class="sup">42</sup>. Simply find the unit digits separately (1 and 9) and add them together (10). The final unit digit is 0.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>a &equiv; b (mod m) means 'a' and 'b' have the same remainder when divided by 'm'.</li><li>Unit digit calculation relies on a cycle of 4.</li><li>If power mod 4 is 0, use the 4th number in the cycle.</li><li>Fermat's Little Theorem: a<sup class="sup">p-1</sup> &equiv; 1 (mod p) for prime p.</li><li>Convert negative remainders to positive by adding the modulo.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-12.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਪਿਆਰੇ ਵਿਦਿਆਰਥੀਓ, ਅੱਜ ਅਸੀਂ ਨੰਬਰ ਥਿਊਰੀ ਦੇ ਸਭ ਤੋਂ ਮਜ਼ੇਦਾਰ ਹਿੱਸੇ ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ: ਮੋਡਿਊਲਰ ਅੰਕਗਣਿਤ (Modular Arithmetic) ਅਤੇ ਆਖਰੀ ਅੰਕ (Unit Digit) ਲੱਭਣ ਦੀਆਂ ਟ੍ਰਿਕਸ।</p><p>ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਇੱਕ ਸਵਾਲ ਪੱਕਾ ਆਉਂਦਾ ਹੈ ਜਿੱਥੇ ਤੁਹਾਨੂੰ ਬਹੁਤ ਵੱਡੀ ਘਾਤ ਦਿੱਤੀ ਹੁੰਦੀ ਹੈ, ਜਿਵੇਂ ਕਿ 7 ਦੀ ਘਾਤ 105, ਅਤੇ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ ਕਿ ਇਸਦਾ ਆਖਰੀ ਅੰਕ ਕੀ ਹੋਵੇਗਾ? ਸੁਣਨ ਵਿੱਚ ਇਹ ਅਸੰਭਵ ਲੱਗਦਾ ਹੈ, ਪਰ ਇਸਦਾ ਇੱਕ ਜਾਦੂਈ ਸ਼ਾਰਟਕੱਟ ਹੈ। ਹਰ ਨੰਬਰ ਦੀਆਂ ਘਾਤਾਂ ਦਾ ਆਖਰੀ ਅੰਕ 4 ਕਦਮਾਂ ਬਾਅਦ ਦੁਹਰਾਇਆ ਜਾਂਦਾ ਹੈ। ਜਿਵੇਂ 7 ਦੀਆਂ ਘਾਤਾਂ ਦਾ ਆਖਰੀ ਅੰਕ 7, 9, 3, 1 ਹੁੰਦਾ ਹੈ ਅਤੇ ਫਿਰ ਵਾਪਸ 7 ਆ ਜਾਂਦਾ ਹੈ। ਤੁਹਾਨੂੰ ਬਸ ਘਾਤ (power) ਨੂੰ 4 ਨਾਲ ਭਾਗ ਕਰਨਾ ਹੈ ਅਤੇ ਬਾਕੀ (remainder) ਦੇਖਣਾ ਹੈ। ਜੇਕਰ ਬਾਕੀ 1 ਬਚਦਾ ਹੈ, ਤਾਂ ਪਹਿਲਾ ਅੰਕ ਜਵਾਬ ਹੈ। ਜੇ 2 ਬਚਦਾ ਹੈ ਤਾਂ ਦੂਜਾ ਅੰਕ। ਪਰ ਧਿਆਨ ਰੱਖੋ, ਜੇਕਰ ਬਾਕੀ 0 ਬਚਦਾ ਹੈ (ਯਾਨੀ ਘਾਤ 4 ਨਾਲ ਪੂਰੀ ਵੰਡੀ ਜਾਂਦੀ ਹੈ), ਤਾਂ ਚੱਕਰ ਦਾ ਚੌਥਾ ਯਾਨੀ ਆਖਰੀ ਅੰਕ ਤੁਹਾਡਾ ਜਵਾਬ ਹੋਵੇਗਾ!</p><p>ਦੂਜੀ ਵੱਡੀ ਤਕਨੀਕ ਹੈ ਬਾਕੀ (remainder) ਲੱਭਣਾ। ਜੇਕਰ ਮੈਂ ਤੁਹਾਨੂੰ ਕਹਾਂ ਕਿ 2 ਦੀ ਘਾਤ 100 ਨੂੰ 3 ਨਾਲ ਭਾਗ ਕਰੋ ਅਤੇ ਬਾਕੀ ਦੱਸੋ। ਇੱਥੇ ਅਸੀਂ 'ਮੋਡਿਊਲੋ' (Modulo) ਦੀ ਵਰਤੋਂ ਕਰਾਂਗੇ। 2 ਨੂੰ ਅਸੀਂ 3 ਦੇ ਹਿਸਾਬ ਨਾਲ -1 ਲਿਖ ਸਕਦੇ ਹਾਂ (ਕਿਉਂਕਿ ਇਹ 3 ਤੋਂ 1 ਘੱਟ ਹੈ)। ਹੁਣ -1 ਦੀ ਘਾਤ 100 ਕਰਨਾ ਬਹੁਤ ਆਸਾਨ ਹੈ। ਕਿਉਂਕਿ 100 ਇੱਕ ਜਿਸਤ (even) ਨੰਬਰ ਹੈ, ਇਸ ਲਈ -1 ਦੀ ਘਾਤ 100 ਬਰਾਬਰ 1 ਹੋ ਜਾਵੇਗਾ। ਸੋ, ਤੁਹਾਡਾ ਬਾਕੀ 1 ਹੈ। </p><p>ਇਹਨਾਂ ਤਕਨੀਕਾਂ ਨਾਲ ਤੁਸੀਂ ਉਹ ਸਵਾਲ ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੱਲ ਕਰ ਸਕਦੇ ਹੋ ਜਿਹਨਾਂ ਨੂੰ ਦੇਖ ਕੇ ਬਾਕੀ ਬੱਚੇ ਡਰ ਜਾਂਦੇ ਹਨ। ਇਹ ਸ਼ਾਰਟਕੱਟ ਹੀ ਤੁਹਾਡਾ ਅਸਲੀ ਹਥਿਆਰ ਹਨ!</p>
+          <p>ਮੋਡਿਊਲਰ ਅੰਕਗਣਿਤ (Modular Arithmetic) ਨੂੰ ਦੇਖ ਕੇ ਡਰਨਾ ਨਹੀਂ ਚਾਹੀਦਾ, ਇਹ ਅਸਲ ਵਿੱਚ ਸਭ ਤੋਂ ਮਜ਼ੇਦਾਰ ਵਿਸ਼ਾ ਹੈ। ਇਹ ਬਿਲਕੁਲ ਘੜੀ (Clock) ਦੀ ਤਰ੍ਹਾਂ ਕੰਮ ਕਰਦਾ ਹੈ। ਜਿਵੇਂ 12 ਵਜਣ ਤੋਂ ਬਾਅਦ ਫਿਰ ਤੋਂ 1, 2, 3 ਵੱਜਦੇ ਹਨ, ਉਵੇਂ ਹੀ ਮੋਡਿਊਲੋ ਵਿੱਚ ਵੀ ਸੰਖਿਆਵਾਂ ਇੱਕ ਚੱਕਰ ਵਿੱਚ ਘੁੰਮਦੀਆਂ ਹਨ। ਜਦੋਂ ਤੁਸੀਂ ਫਰਮੈਟ ਦੀ ਥਿਊਰਮ (Fermat's Little Theorem) ਦੀ ਵਰਤੋਂ ਕਰਦੇ ਹੋ, ਤਾਂ ਇਹ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਜਿਸ ਸੰਖਿਆ ਨਾਲ ਤੁਸੀਂ ਭਾਗ ਕਰ ਰਹੇ ਹੋ, ਉਹ ਪ੍ਰਾਈਮ (Prime) ਹੈ। ਜੇਕਰ ਉਹ ਪ੍ਰਾਈਮ ਨਹੀਂ ਹੈ, ਤਾਂ ਇਹ ਥਿਊਰਮ ਕੰਮ ਨਹੀਂ ਕਰੇਗੀ। ਅਜਿਹੀ ਹਾਲਤ ਵਿੱਚ ਸਾਨੂੰ ਇਯੂਲਰ (Euler) ਦੀ ਥਿਊਰਮ ਵਰਤਣੀ ਪੈਂਦੀ ਹੈ। ਆਖਰੀ ਅੰਕ (Unit Digit) ਕੱਢਣ ਵਾਲੇ ਸਵਾਲਾਂ ਵਿੱਚ ਸਿਰਫ਼ ਆਖਰੀ ਅੰਕ 'ਤੇ ਹੀ ਧਿਆਨ ਦਿਓ, ਅੱਗੇ ਵਾਲੀ ਪੂਰੀ ਰਕਮ ਨੂੰ ਨਜ਼ਰਅੰਦਾਜ਼ ਕਰ ਦਿਓ। ਜਿਵੇਂ 1234 ਦੀ ਘਾਤ 55 ਦਾ ਆਖਰੀ ਅੰਕ ਕੱਢਣ ਲਈ, ਸਿਰਫ਼ 4 ਦੀ ਘਾਤ 55 ਬਾਰੇ ਸੋਚੋ। ਇਹ ਛੋਟੀਆਂ ਤਕਨੀਕਾਂ ਤੁਹਾਡੀ ਰਫ਼ਤਾਰ ਨੂੰ ਦੁੱਗਣਾ ਕਰ ਦੇਣਗੀਆਂ। ਮਿਹਨਤ ਕਰਦੇ ਰਹੋ, ਸਫਲਤਾ ਤੁਹਾਡੇ ਕਦਮ ਚੁੰਮੇਗੀ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-12.json');</script>
+</body></html>

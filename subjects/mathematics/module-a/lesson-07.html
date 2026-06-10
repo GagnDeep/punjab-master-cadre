@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Complex Numbers Basics - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 07
+    </div>
+
+    <h1>Lesson 07: Complex Numbers Basics</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਕੰਪਲੈਕਸ ਨੰਬਰ ਦੀਆਂ ਬੁਨਿਆਦੀ ਗੱਲਾਂ</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2022 Pattern)</div>
+        <p>Questions on finding the modulus, conjugate, or expressing a fraction in standard a+ib form appear in almost every paper. Polar form conversions are also very common.</p>
+        <p class="pa mt-2">ਮਾਡਿਊਲਸ, ਕੰਜੂਗੇਟ ਜਾਂ ਕਿਸੇ ਭਿੰਨ (fraction) ਨੂੰ a+ib ਰੂਪ ਵਿੱਚ ਲਿਖਣ ਦੇ ਸਵਾਲ ਲਗਭਗ ਹਰ ਪੇਪਰ ਵਿੱਚ ਆਉਂਦੇ ਹਨ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Simplify expressions involving higher powers of 'iota' (i).</li><li>Calculate the modulus, conjugate, and argument of a complex number.</li><li>Represent complex numbers in polar and Euler (exponential) forms.</li><li>Understand the properties of cube roots of unity (1, &omega;, &omega;<sup class="sup">2</sup>).</li><li>Rationalize complex fractions using conjugates.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Algebra of the Argand Plane</h2>
+      <p>A complex number is written in the form z = a + ib, where 'a' is the real part and 'b' is the imaginary part, with i<sup class="sup">2</sup> = -1. The powers of 'i' cycle every 4 steps: i, -1, -i, 1. The <strong>conjugate</strong> of z, denoted as z&#772;, is a - ib. The <strong>modulus</strong> |z| represents the distance from the origin in the Argand plane and is calculated as &radic;(a<sup class="sup">2</sup> + b<sup class="sup">2</sup>). A crucial identity linking these is z &times; z&#772; = |z|<sup class="sup">2</sup>. To divide complex numbers, you must rationalize the denominator by multiplying the numerator and denominator by the conjugate of the denominator.</p>
+      <p>De Moivre's Theorem is the crown jewel of complex number arithmetic, particularly when dealing with high powers and roots. It states that (cos &theta; + i sin &theta;)<sup class="sup">n</sup> = cos(n&theta;) + i sin(n&theta;). This theorem beautifully connects complex algebra with trigonometry. Instead of expanding a binomial like (1 + &radic;3i)<sup class="sup">10</sup> algebraically—which is virtually impossible under exam conditions—you convert the number to its polar form first. By applying De Moivre's Theorem, calculating the 10th power becomes a simple multiplication of the angle by 10. Understanding this transition between Cartesian and polar coordinates is essential for speed.</p>
+      <p>The geometry of complex numbers on the Argand plane is a frequent source of challenging questions. A complex number z = x + iy corresponds directly to the coordinate point (x, y). Therefore, the modulus |z_1 - z_2| precisely represents the Euclidean distance between the two points z_1 and z_2. Exam questions often ask you to identify the locus of a point z moving under a specific condition, such as |z - a| = r, which describes a circle centered at 'a' with radius 'r'. By interpreting algebraic equations geometrically, you can often draw the shape and solve the problem visually, bypassing complex algebraic manipulations.</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>A common mistake is incorrectly calculating the argument (angle) in different quadrants. While tan<sup class="sup">-1</sup>(|b/a|) gives the reference angle, you must adjust it based on whether the number is in the 2nd, 3rd, or 4th quadrant.</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Express the complex number (1 + i) / (1 - i) in the standard a + ib form.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the denominator: 1 - i. Its conjugate is 1 + i.</p><p><strong>Step 2:</strong> Multiply numerator and denominator by (1 + i).</p><p><strong>Step 3:</strong> Numerator becomes: (1 + i)(1 + i) = 1 + 2i + i<sup class="sup">2</sup> = 1 + 2i - 1 = 2i.</p><p><strong>Step 4:</strong> Denominator becomes: (1 - i)(1 + i) = 1<sup class="sup">2</sup> - i<sup class="sup">2</sup> = 1 - (-1) = 2.</p><p><strong>Step 5:</strong> Divide: 2i / 2 = i.</p>
+        <p class="mt-4"><strong>Answer:</strong> The standard form is 0 + 1i, or simply i.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>The cube roots of unity (1, &omega;, &omega;<sup class="sup">2</sup>) frequently appear in algebraic simplification questions. Always use the properties: 1 + &omega; + &omega;<sup class="sup">2</sup> = 0 and &omega;<sup class="sup">3</sup> = 1 to reduce high powers.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Powers of i cycle in sequences of 4.</li><li>Modulus |z| = &radic;(a<sup class="sup">2</sup> + b<sup class="sup">2</sup>).</li><li>z &times; z&#772; = |z|<sup class="sup">2</sup>.</li><li>Argument must be adjusted based on the quadrant.</li><li>Cube roots of unity: 1 + &omega; + &omega;<sup class="sup">2</sup> = 0.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-07.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਹੈਲੋ ਬੱਚਿਓ! ਅੱਜ ਅਸੀਂ ਕੰਪਲੈਕਸ ਨੰਬਰ (Complex Numbers) ਬਾਰੇ ਪੜ੍ਹਾਂਗੇ। ਇਹ ਇੱਕ ਬਹੁਤ ਹੀ ਸਕੋਰਿੰਗ ਅਤੇ ਦਿਲਚਸਪ ਵਿਸ਼ਾ ਹੈ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਗੱਲ ਕਰਦੇ ਹਾਂ 'ਆਇਓਟਾ' (i) ਦੀ। ਇਸਦੀਆਂ ਘਾਤਾਂ (powers) ਹਰ 4 ਕਦਮਾਂ ਬਾਅਦ ਦੁਹਰਾਈਆਂ ਜਾਂਦੀਆਂ ਹਨ। i ਦੀ ਘਾਤ 1 i ਹੁੰਦੀ ਹੈ, i ਦੀ ਘਾਤ 2 -1 ਹੁੰਦੀ ਹੈ, ਘਾਤ 3 -i ਅਤੇ ਘਾਤ 4 ਫਿਰ ਤੋਂ 1 ਹੋ ਜਾਂਦੀ ਹੈ। ਜੇਕਰ ਪੇਪਰ ਵਿੱਚ ਤੁਹਾਨੂੰ i ਦੀ ਕੋਈ ਬਹੁਤ ਵੱਡੀ ਘਾਤ ਮਿਲੇ, ਤਾਂ ਬਸ ਉਸ ਘਾਤ ਨੂੰ 4 ਨਾਲ ਭਾਗ ਕਰੋ ਅਤੇ ਬਾਕੀ (remainder) ਦੇਖੋ। ਤੁਹਾਡਾ ਸਵਾਲ ਸਕਿੰਟਾਂ ਵਿੱਚ ਹੱਲ ਹੋ ਜਾਵੇਗਾ!</p><p>ਦੂਜੀ ਜ਼ਰੂਰੀ ਚੀਜ਼ ਹੈ ਕੰਜੂਗੇਟ (Conjugate) ਅਤੇ ਮਾਡਿਊਲਸ (Modulus)। ਜੇਕਰ ਨੰਬਰ a + ib ਹੈ, ਤਾਂ ਉਸਦਾ ਕੰਜੂਗੇਟ a - ib ਹੋਵੇਗਾ, ਯਾਨੀ ਕਿ ਬਸ i ਵਾਲੇ ਹਿੱਸੇ ਦਾ ਨਿਸ਼ਾਨ ਬਦਲਣਾ ਹੈ। ਮਾਡਿਊਲਸ ਕੱਢਣ ਲਈ ਅਸੀਂ a ਅਤੇ b ਦਾ ਵਰਗ ਕਰਕੇ ਜੋੜਦੇ ਹਾਂ ਅਤੇ ਫਿਰ ਅੰਡਰਰੂਟ ਲੈਂਦੇ ਹਾਂ। ਇੱਥੇ ਇੱਕ ਬਹੁਤ ਹੀ ਕੰਮ ਦਾ ਫਾਰਮੂਲਾ ਹੈ: z ਗੁਣਾ z ਬਾਰ = |z| ਦਾ ਵਰਗ। ਇਹ ਫਾਰਮੂਲਾ ਕਈ ਔਖੇ ਸਵਾਲਾਂ ਨੂੰ ਸੌਖਾ ਕਰ ਦਿੰਦਾ ਹੈ। ਜਦੋਂ ਵੀ ਤੁਹਾਨੂੰ ਬਟੇ (fraction) ਵਿੱਚ ਕੰਪਲੈਕਸ ਨੰਬਰ ਮਿਲੇ, ਤਾਂ ਹਮੇਸ਼ਾ ਹੇਠਲੇ ਨੰਬਰ ਦੇ ਕੰਜੂਗੇਟ ਨਾਲ ਉੱਪਰ ਅਤੇ ਹੇਠਾਂ ਗੁਣਾ ਕਰੋ। ਇਸਨੂੰ Rationalize ਕਰਨਾ ਕਹਿੰਦੇ ਹਨ। ਇਸ ਤੋਂ ਬਿਨਾਂ ਤੁਸੀਂ a+ib ਰੂਪ ਨਹੀਂ ਬਣਾ ਸਕਦੇ। ਅੰਤ ਵਿੱਚ, ਓਮੇਗਾ (ω) ਵਾਲੇ ਸਵਾਲ ਕਦੇ ਨਾ ਛੱਡੋ। ਇਹਨਾਂ ਲਈ ਸਿਰਫ਼ ਦੋ ਗੱਲਾਂ ਯਾਦ ਰੱਖਣੀਆਂ ਹਨ: 1 + ω + ω^2 ਹਮੇਸ਼ਾ 0 ਹੁੰਦਾ ਹੈ, ਅਤੇ ω ਦੀ ਘਾਤ 3 ਹਮੇਸ਼ਾ 1 ਹੁੰਦੀ ਹੈ।</p><p>ਕੰਪਲੈਕਸ ਨੰਬਰਾਂ ਦੇ ਸਵਾਲਾਂ ਵਿੱਚ ਆਮ ਤੌਰ 'ਤੇ ਬੱਚੇ ਆਰਗੂਮੈਂਟ (Argument) ਕੱਢਣ ਵੇਲੇ ਗਲਤੀ ਕਰਦੇ ਹਨ। ਸਾਨੂੰ ਸਿਰਫ਼ tan(theta) ਕੱਢ ਕੇ ਹੀ ਖੁਸ਼ ਨਹੀਂ ਹੋਣਾ ਚਾਹੀਦਾ, ਸਾਨੂੰ ਇਹ ਵੀ ਦੇਖਣਾ ਪਵੇਗਾ ਕਿ ਨੰਬਰ ਕਿਹੜੇ ਕਵਾਡ੍ਰੈਂਟ (Quadrant) ਵਿੱਚ ਹੈ। ਜਿਵੇਂ ਕਿ ਜੇਕਰ x negative ਹੈ ਅਤੇ y positive ਹੈ, ਤਾਂ ਨੰਬਰ ਦੂਜੇ ਕਵਾਡ੍ਰੈਂਟ ਵਿੱਚ ਹੋਵੇਗਾ ਅਤੇ ਸਾਡਾ ਐਂਗਲ pi - theta ਹੋਵੇਗਾ। ਇਹਨਾਂ ਛੋਟੀਆਂ-ਛੋਟੀਆਂ ਗਲਤੀਆਂ ਕਾਰਨ ਹੀ ਪੇਪਰ ਵਿੱਚ ਨੰਬਰ ਕੱਟੇ ਜਾਂਦੇ ਹਨ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਪ੍ਰੀਖਿਆਰਥੀ ਤੁਹਾਨੂੰ ਉਲਝਾਉਣ ਲਈ ਵੱਡੀਆਂ-ਵੱਡੀਆਂ ਸਮੀਕਰਨਾਂ ਦੇਵੇਗਾ, ਪਰ ਜੇਕਰ ਤੁਸੀਂ ਉਹਨਾਂ ਨੂੰ ਪੋਲਰ ਫਾਰਮ (Polar form) ਵਿੱਚ ਬਦਲ ਲੈਂਦੇ ਹੋ, ਤਾਂ ਗੁਣਾ ਅਤੇ ਭਾਗ ਕਰਨਾ ਬਹੁਤ ਆਸਾਨ ਹੋ ਜਾਂਦਾ ਹੈ। De Moivre ਦੀ ਥਿਊਰਮ ਤਾਂ ਇੱਕ ਜਾਦੂ ਵਰਗੀ ਹੈ। ਇਸਦੀ ਵੱਧ ਤੋਂ ਵੱਧ ਪ੍ਰੈਕਟਿਸ ਕਰੋ ਕਿਉਂਕਿ ਇੱਕ ਜਾਂ ਦੋ ਸਵਾਲ ਇਸ ਥਿਊਰਮ 'ਤੇ ਪੱਕੇ ਆਉਂਦੇ ਹਨ। ਆਪਣੀ ਤਿਆਰੀ ਨੂੰ ਮਜ਼ਬੂਤ ਰੱਖੋ, ਸਫਲਤਾ ਜ਼ਰੂਰ ਮਿਲੇਗੀ।</p><p>ਕੰਪਲੈਕਸ ਨੰਬਰਾਂ ਵਿੱਚ ਅਰਗੈਂਡ ਪਲੇਨ (Argand Plane) ਬਾਰੇ ਵੀ ਜਾਣਨਾ ਬਹੁਤ ਮਹੱਤਵਪੂਰਨ ਹੈ। ਇਹ ਬਿਲਕੁਲ ਆਮ ਗ੍ਰਾਫ ਵਰਗਾ ਹੁੰਦਾ ਹੈ ਪਰ ਇੱਥੇ x-ਧੁਰਾ ਅਸਲ ਹਿੱਸੇ (Real part) ਨੂੰ ਦਰਸਾਉਂਦਾ ਹੈ ਅਤੇ y-ਧੁਰਾ ਕਾਲਪਨਿਕ ਹਿੱਸੇ (Imaginary part) ਨੂੰ। ਜਦੋਂ ਅਸੀਂ ਇਹ ਸਮਝ ਲੈਂਦੇ ਹਾਂ ਤਾਂ ਕੰਪਲੈਕਸ ਨੰਬਰ ਸਿਰਫ ਸੰਖਿਆਵਾਂ ਨਹੀਂ ਰਹਿੰਦੇ ਬਲਕਿ ਉਹ ਬਿੰਦੂਆਂ ਵਾਂਗ ਨਜ਼ਰ ਆਉਣ ਲੱਗ ਪੈਂਦੇ ਹਨ। ਜਿਸ ਨਾਲ ਸਵਾਲਾਂ ਨੂੰ ਹੱਲ ਕਰਨਾ ਹੋਰ ਵੀ ਦਿਲਚਸਪ ਹੋ ਜਾਂਦਾ ਹੈ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-07.json');</script>
+</body></html>

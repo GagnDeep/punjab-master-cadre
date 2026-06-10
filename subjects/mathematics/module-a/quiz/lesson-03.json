@@ -1,0 +1,110 @@
+{
+  "id": "quiz-03",
+  "title": "Quiz 03",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Matrices",
+      "q": "If matrix A is 2x3 and B is 3x4, the product AB has dimension:",
+      "options": [
+        "2x3",
+        "3x4",
+        "2x4",
+        "Cannot be multiplied"
+      ],
+      "answerIndex": 2,
+      "explanation": "Inner dimensions match (3). The outer dimensions give the result: 2x4."
+    },
+    {
+      "id": "q2",
+      "topic": "Matrices",
+      "q": "Which property is NOT generally true for matrix multiplication?",
+      "options": [
+        "Associativity",
+        "Distributivity",
+        "Commutativity",
+        "Multiplication by identity yields the same matrix"
+      ],
+      "answerIndex": 2,
+      "explanation": "AB does not usually equal BA."
+    },
+    {
+      "id": "q3",
+      "topic": "Matrices",
+      "q": "If A = A<sup class=\"sup\">T</sup>, then A is called:",
+      "options": [
+        "Skew-symmetric",
+        "Symmetric",
+        "Orthogonal",
+        "Identity"
+      ],
+      "answerIndex": 1,
+      "explanation": "Symmetric matrices are equal to their own transpose."
+    },
+    {
+      "id": "q4",
+      "topic": "Matrices",
+      "q": "(AB)<sup class=\"sup\">T</sup> is equal to:",
+      "options": [
+        "A<sup class=\"sup\">T</sup> B<sup class=\"sup\">T</sup>",
+        "B<sup class=\"sup\">T</sup> A<sup class=\"sup\">T</sup>",
+        "AB",
+        "BA"
+      ],
+      "answerIndex": 1,
+      "explanation": "The transpose of a product requires reversing the order of the matrices."
+    },
+    {
+      "id": "q5",
+      "topic": "Matrices",
+      "q": "If all elements of a matrix are zero, it is called a:",
+      "options": [
+        "Diagonal matrix",
+        "Null matrix",
+        "Identity matrix",
+        "Scalar matrix"
+      ],
+      "answerIndex": 1,
+      "explanation": "A null or zero matrix consists entirely of zeros."
+    },
+    {
+      "id": "q6",
+      "topic": "Matrices",
+      "q": "A diagonal matrix where all diagonal elements are 1 is the:",
+      "options": [
+        "Null matrix",
+        "Scalar matrix",
+        "Identity matrix",
+        "Symmetric matrix"
+      ],
+      "answerIndex": 2,
+      "explanation": "This defines the Identity matrix (I)."
+    },
+    {
+      "id": "q7",
+      "topic": "Matrices",
+      "q": "If A is skew-symmetric, what are its diagonal elements?",
+      "options": [
+        "1",
+        "-1",
+        "0",
+        "Any real number"
+      ],
+      "answerIndex": 2,
+      "explanation": "For A = -A<sup class=\"sup\">T</sup>, the element a_ii must equal -a_ii, which is only possible if a_ii = 0."
+    },
+    {
+      "id": "q8",
+      "topic": "Matrices",
+      "q": "Any square matrix can be expressed as the sum of a symmetric and:",
+      "options": [
+        "An identity matrix",
+        "A skew-symmetric matrix",
+        "A null matrix",
+        "A diagonal matrix"
+      ],
+      "answerIndex": 1,
+      "explanation": "A = 1/2(A+A<sup class=\"sup\">T</sup>) [symmetric] + 1/2(A-A<sup class=\"sup\">T</sup>) [skew-symmetric]."
+    }
+  ]
+}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 09</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 09</div>
+      <h1 class="slide-heading">Permutations & Combinations</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Differentiate between Permutations (arrangements) and Combinations (selections).</li><li>Calculate nPr and nCr efficiently.</li><li>Solve linear arrangement problems with repeated items and restrictions.</li><li>Calculate circular permutations correctly.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h3>Circular Permutations</h3>
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: var(--space-4);">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <!-- Table -->
+                <circle cx="100" cy="100" r="60" fill="none" stroke="var(--color-primary-400)" stroke-width="6" />
+
+                <!-- Seats (A is fixed top) -->
+                <!-- A: 90 deg (top) -> x=100, y=40 -->
+                <circle cx="100" cy="40" r="15" fill="var(--color-primary-600)" />
+                <text x="100" y="44" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">A</text>
+
+                <!-- B: ~18 deg -> x=157, y=58 -->
+                <circle cx="157" cy="58" r="15" fill="var(--color-accent-500)" />
+                <text x="157" y="62" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">B</text>
+
+                <!-- C: ~-54 deg -> x=135, y=148 -->
+                <circle cx="135" cy="148" r="15" fill="var(--color-accent-500)" />
+                <text x="135" y="152" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+
+                <!-- D: ~234 deg -> x=65, y=148 -->
+                <circle cx="65" cy="148" r="15" fill="var(--color-accent-500)" />
+                <text x="65" y="152" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">D</text>
+
+                <!-- E: ~162 deg -> x=43, y=58 -->
+                <circle cx="43" cy="58" r="15" fill="var(--color-accent-500)" />
+                <text x="43" y="62" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">E</text>
+            </svg>
+            <p class="text-center font-bold text-lg text-primary-800 mt-2">(n-1)! arrangements</p>
+        </div>
+      </div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display: flex; flex-direction: column; gap: var(--space-4); align-items: center; margin-top: var(--space-2);">
+            <div style="display: flex; align-items: center; gap: var(--space-4);">
+                <div style="position: relative; width: 100px; height: 100px;">
+                    <div style="position: absolute; top: 10px; left: 10px; right: 10px; bottom: 10px; border: 3px solid var(--color-neutral-300); border-radius: 50%;"></div>
+                    <div style="position: absolute; top: 0; left: 40px; width: 20px; height: 20px; background: var(--color-primary-500); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 10px;">1</div>
+                    <div style="position: absolute; bottom: 25px; right: 0; width: 20px; height: 20px; background: var(--color-accent-500); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 10px;">2</div>
+                    <div style="position: absolute; bottom: 25px; left: 0; width: 20px; height: 20px; background: var(--color-accent-500); border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-size: 10px;">3</div>
+                </div>
+                <div class="text-sm">
+                    <p><strong>Circular: (n-1)!</strong></p>
+                    <p class="text-neutral-500">Fix one seat, arrange the rest.</p>
+                </div>
+            </div>
+            <div style="display: flex; gap: var(--space-4); width: 100%;">
+                <div style="flex: 1; background: var(--color-primary-50); padding: var(--space-2); border-radius: 4px; text-align: center;">
+                    <p class="font-bold text-primary-800">nPr (Arrangement)</p>
+                    <p class="text-sm">Order Matters! AB &ne; BA</p>
+                </div>
+                <div style="flex: 1; background: var(--color-accent-50); padding: var(--space-2); border-radius: 4px; text-align: center;">
+                    <p class="font-bold text-accent-800">nCr (Selection)</p>
+                    <p class="text-sm">Group Only! AB = BA</p>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>Applying the linear arrangement formula (n!) to a circular table problem. Always use (n-1)! for circles unless the positions are numbered or distinguishable.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> In how many ways can 5 boys and 4 girls sit in a row such that all girls sit together?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Treat the 4 girls as a single unit.</li><li>Total units to arrange = 5 boys + 1 (girls unit) = 6 units.</li><li>Arrange these 6 units: 6! = 720 ways.</li><li>The 4 girls can be arranged among themselves inside their unit in 4! = 24 ways.</li><li>Total arrangements = 720 &times; 24 = 17,280.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">17,280 ways.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Derangement problems (where no item occupies its original position) sometimes appear as hard questions. The formula for deranging n objects is D_n = n! * (1 - 1/1! + 1/2! - 1/3! ... + (-1)^n/n!). Memorize D_3 = 2, D_4 = 9, D_5 = 44.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Arrangement problems with specific restrictions (like vowels always together) and circular arrangements are extremely common. Understanding the difference between choosing (nCr) and arranging (nPr) is fundamental.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Permutation (Order matters): nPr = n! / (n-r)!</li><li>Combination (Order does not matter): nCr = n! / [r!(n-r)!]</li><li>Circular arrangements: (n-1)!</li><li>Repeated items: Divide by factorial of repetitions.</li><li>Grouping restriction: Treat as one unit, then multiply by internal arrangements.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 12</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 12</div>
+      <h1 class="slide-heading">Number Theory (Congruences & Tricks)</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Understand and apply congruence modulo arithmetic.</li><li>Determine the unit digit of a number raised to a large power.</li><li>Calculate remainders using modulo properties.</li><li>Apply Fermat's Little Theorem for prime moduli.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p><strong>Modular arithmetic</strong> is like arithmetic on a clock face. We say a &equiv; b (mod m) if m exactly divides (a - b), meaning 'a' and 'b' leave the same remainder when divided by 'm'. This is incredibly powerful for finding remainders of large powers. For instance, to find the remainder of 2<sup class="sup">100</sup> divided by 3, we note that 2 &equiv; -1 (mod 3). Therefore, 2<sup class="sup">100</sup> &equiv; (-1)<sup class="sup">100</sup> &equiv; 1 (mod 3). Finding the <strong>unit digit</strong> of a number is equivalent to finding the number modulo 10. The unit digits of powers of any number follow a repeating cycle of length 4. For example, the powers of 7 end in 7, 9, 3, 1, and then repeat. To find the unit digit of 7<sup class="sup">105</sup>, divide 105 by 4. The remainder is 1, so the unit digit corresponds to the first number in the cycle, which is 7.</p></div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display: flex; gap: var(--space-6); justify-content: center; align-items: center; margin-top: var(--space-2); width: 100%;">
+            <div style="text-align: center; flex: 1;">
+                <p class="text-sm font-semibold mb-2">Pascal's Triangle</p>
+                <div style="font-family: monospace; font-size: 12px; line-height: 1.6;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;1<br>
+                    &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;1<br>
+                    &nbsp;&nbsp;1&nbsp;&nbsp;2&nbsp;&nbsp;1<br>
+                    &nbsp;1&nbsp;&nbsp;3&nbsp;&nbsp;3&nbsp;&nbsp;1<br>
+                    1&nbsp;&nbsp;4&nbsp;&nbsp;6&nbsp;&nbsp;4&nbsp;&nbsp;1
+                </div>
+            </div>
+            <div style="text-align: center; flex: 1;">
+                <p class="text-sm font-semibold mb-2">Cycle of 7<sup>n</sup></p>
+                <svg width="120" height="120" viewBox="0 0 120 120">
+                    <circle cx="60" cy="60" r="50" fill="none" stroke="var(--color-neutral-300)" stroke-width="2" />
+                    <path d="M 60 10 A 50 50 0 0 1 110 60" fill="none" stroke="var(--color-primary-500)" stroke-width="4" />
+                    <text x="56" y="25" font-weight="bold" fill="var(--color-primary-800)">7</text>
+                    <text x="95" y="65" font-weight="bold" fill="var(--color-primary-800)">9</text>
+                    <text x="56" y="105" font-weight="bold" fill="var(--color-primary-800)">3</text>
+                    <text x="15" y="65" font-weight="bold" fill="var(--color-primary-800)">1</text>
+                    <text x="40" y="64" font-size="10" fill="var(--color-neutral-500)">mod 4</text>
+                </svg>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>When using the cycle of 4 for unit digits, if the power is exactly divisible by 4 (remainder 0), the unit digit is the 4th (last) number in the cycle, NOT the first.</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> What is the unit digit of 3<sup class="sup">40</sup>?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Identify the base number: 3.</li><li>Recall the unit digit cycle for 3: 3, 9, 7, 1.</li><li>Divide the power by 4: 40 / 4 = 10 with a remainder of 0.</li><li>Since the remainder is 0, we look at the 4th (last) position in the cycle.</li><li>The 4th number in the cycle is 1.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The unit digit is 1.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Expect combined questions, like finding the unit digit of 3<sup class="sup">40</sup> + 7<sup class="sup">42</sup>. Simply find the unit digits separately (1 and 9) and add them together (10). The final unit digit is 0.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Finding the unit digit of a massive power (like 7^105) or the remainder when divided by a number are classic competitive exam questions. Congruence modulo arithmetic is the key.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>a &equiv; b (mod m) means 'a' and 'b' have the same remainder when divided by 'm'.</li><li>Unit digit calculation relies on a cycle of 4.</li><li>If power mod 4 is 0, use the 4th number in the cycle.</li><li>Fermat's Little Theorem: a<sup class="sup">p-1</sup> &equiv; 1 (mod p) for prime p.</li><li>Convert negative remainders to positive by adding the modulo.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

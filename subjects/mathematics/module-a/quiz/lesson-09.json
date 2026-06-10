@@ -1,0 +1,110 @@
+{
+  "id": "quiz-09",
+  "title": "Quiz 09",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Permutations",
+      "q": "In how many ways can 4 people sit around a circular table?",
+      "options": [
+        "24",
+        "6",
+        "12",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "Circular arrangement formula is (n-1)!. Here (4-1)! = 3! = 6."
+    },
+    {
+      "id": "q2",
+      "topic": "Combinations",
+      "q": "The value of 10C8 is:",
+      "options": [
+        "45",
+        "90",
+        "120",
+        "10"
+      ],
+      "answerIndex": 0,
+      "explanation": "10C8 = 10C2 = (10*9)/2 = 45."
+    },
+    {
+      "id": "q3",
+      "topic": "Combinations",
+      "q": "Number of triangles formed from 8 non-collinear points is:",
+      "options": [
+        "24",
+        "56",
+        "336",
+        "64"
+      ],
+      "answerIndex": 1,
+      "explanation": "8C3 = (8*7*6)/(3*2*1) = 56."
+    },
+    {
+      "id": "q4",
+      "topic": "Permutations",
+      "q": "Arrangements of the word 'BOOK' is:",
+      "options": [
+        "24",
+        "12",
+        "6",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "Total letters=4. 'O' repeats twice. 4! / 2! = 24 / 2 = 12."
+    },
+    {
+      "id": "q5",
+      "topic": "Combinations",
+      "q": "If nC4 = nC6, find n.",
+      "options": [
+        "10",
+        "2",
+        "24",
+        "12"
+      ],
+      "answerIndex": 0,
+      "explanation": "nCx = nCy means x+y = n. So n = 4+6 = 10."
+    },
+    {
+      "id": "q6",
+      "topic": "Permutations",
+      "q": "In nPr, the relationship between n and r is:",
+      "options": [
+        "n < r",
+        "n >= r",
+        "n = r only",
+        "n > r only"
+      ],
+      "answerIndex": 1,
+      "explanation": "You cannot choose more items than you have available."
+    },
+    {
+      "id": "q7",
+      "topic": "Combinations",
+      "q": "Number of handshakes among 5 people is:",
+      "options": [
+        "20",
+        "15",
+        "10",
+        "5"
+      ],
+      "answerIndex": 2,
+      "explanation": "A handshake requires 2 people. 5C2 = (5*4)/2 = 10."
+    },
+    {
+      "id": "q8",
+      "topic": "Permutations",
+      "q": "Ways to arrange 3 boys and 2 girls in a row so girls are together?",
+      "options": [
+        "120",
+        "48",
+        "24",
+        "72"
+      ],
+      "answerIndex": 1,
+      "explanation": "Group girls as 1 unit. Total 4 units. Arrange units: 4! = 24. Arrange girls internally: 2! = 2. Total = 24*2 = 48."
+    }
+  ]
+}

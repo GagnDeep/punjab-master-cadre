@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Arithmetic & Geometric Progressions - Module A - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module A</a> >
+      Lesson 05
+    </div>
+
+    <h1>Lesson 05: Arithmetic & Geometric Progressions</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਅੰਕਗਣਿਤਕ ਅਤੇ ਰੇਖਾਗਣਿਤਕ ਪ੍ਰਗਤੀ (AP/GP/HP)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB 2022 Pattern)</div>
+        <p>Questions on finding the sum of infinite geometric series and identifying the nth term of a harmonic progression are staple MCQs. Speed here is crucial.</p>
+        <p class="pa mt-2">ਅਨੰਤ GP ਦੇ ਜੋੜ ਅਤੇ ਹਾਰਮੋਨਿਕ ਪ੍ਰਗਤੀ (HP) ਦੀ 'n'ਵੀਂ ਟਰਮ ਲੱਭਣ ਵਾਲੇ ਸਵਾਲ ਆਮ ਹਨ। ਇੱਥੇ ਰਫ਼ਤਾਰ ਬਹੁਤ ਜ਼ਰੂਰੀ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Calculate the nth term and sum of n terms for Arithmetic Progressions (AP).</li><li>Calculate the nth term and sum of n terms for Geometric Progressions (GP).</li><li>Evaluate the sum of an infinite Geometric Series.</li><li>Understand Harmonic Progressions (HP) as the reciprocal of AP.</li><li>Apply the AM-GM-HM inequality to solve minimum/maximum problems.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Understanding Progressions: AP, GP, and HP</h2>
+      <p>An <strong>Arithmetic Progression (AP)</strong> is a sequence where the difference between consecutive terms is constant, known as the common difference 'd'. The nth term is given by a + (n-1)d, and the sum of n terms is (n/2)[2a + (n-1)d]. A <strong>Geometric Progression (GP)</strong> multiplies each term by a common ratio 'r'. Its nth term is a(r<sup class="sup">n-1</sup>), and the sum of n terms is a(1-r<sup class="sup">n</sup>)/(1-r) for r < 1. A critical concept often tested is the <strong>infinite geometric series</strong>, whose sum converges to <span class="fraction"><span>a</span><span class="bottom">1 - r</span></span>, provided the absolute value of r is strictly less than 1. A <strong>Harmonic Progression (HP)</strong> is simply a sequence whose reciprocals form an AP. There is no general formula for the sum of an HP, which is a common trick question.</p>
+      <p>Delving deeper into series, the method of differences is an incredibly powerful tool for finding the sum of series that are neither strictly AP nor GP. By subtracting the series from a shifted version of itself, you can often reveal a hidden GP that is easy to sum. Furthermore, recognizing standard sums like the sum of the first n natural numbers, squares, and cubes is mandatory. Sigma notation is heavily used in the exam to condense these expressions, so you must be fluent in distributing the sigma operator across algebraic terms. When evaluating complex limits in calculus later, these series summation formulas will reappear, proving their foundational importance.</p>
+      <p>The AM-GM inequality is a secret weapon for solving optimization problems without resorting to derivatives. If you need to find the minimum value of an expression like x + 1/x for positive x, simply apply AM &ge; GM. The arithmetic mean is (x + 1/x)/2, and the geometric mean is the square root of (x * 1/x), which equals 1. Thus, (x + 1/x)/2 &ge; 1, leading directly to x + 1/x &ge; 2. The minimum value is 2, achieved precisely when the terms are equal (x = 1/x). Mastering this shortcut will save you precious minutes on the exam, bypassing lengthy differentiation processes.</p>
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>Applying the infinite GP sum formula when |r| &ge; 1. The series diverges, and the formula yields a nonsensical, incorrect result. Always verify the ratio first.</p>
+      </div>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Find the sum of the infinite geometric series: 2, 2/3, 2/9, 2/27, ...</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the first term 'a': a = 2.</p><p><strong>Step 2:</strong> Calculate the common ratio 'r' by dividing the second term by the first: (2/3) / 2 = 1/3.</p><p><strong>Step 3:</strong> Verify that |r| < 1. Since 1/3 < 1, the series converges.</p><p><strong>Step 4:</strong> Apply the infinite sum formula: S = a / (1 - r).</p><p><strong>Step 5:</strong> Substitute values: S = 2 / (1 - 1/3) = 2 / (2/3) = 3.</p>
+        <p class="mt-4"><strong>Answer:</strong> The sum is 3.</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>ERB frequently tests the relationship between the Arithmetic Mean (AM), Geometric Mean (GM), and Harmonic Mean (HM). Memorize the inequality: AM &ge; GM &ge; HM, and the equation GM<sup class="sup">2</sup> = AM &times; HM.</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>AP nth term: a + (n-1)d</li><li>GP sum (infinite): a / (1-r) for |r| < 1</li><li>HP is the reciprocal of AP</li><li>AM &ge; GM &ge; HM</li><li>GM<sup class="sup">2</sup> = AM &times; HM</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-05.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਪਿਆਰੇ ਵਿਦਿਆਰਥੀਓ, ਅੱਜ ਅਸੀਂ AP, GP ਅਤੇ HP ਯਾਨੀ ਕਿ ਪ੍ਰਗਤੀ (Progressions) ਬਾਰੇ ਪੜ੍ਹਾਂਗੇ। ਇਹ ਇੱਕ ਅਜਿਹਾ ਵਿਸ਼ਾ ਹੈ ਜਿਸ ਵਿੱਚੋਂ ਸਿੱਧੇ ਅਤੇ ਸੌਖੇ ਸਵਾਲ ਆਉਂਦੇ ਹਨ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਫਾਰਮੂਲੇ ਯਾਦ ਹਨ, ਤਾਂ ਤੁਸੀਂ ਬਿਨਾਂ ਸਮਾਂ ਖਰਾਬ ਕੀਤੇ ਨੰਬਰ ਪੱਕੇ ਕਰ ਸਕਦੇ ਹੋ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਗੱਲ ਕਰਦੇ ਹਾਂ Arithmetic Progression ਜਾਂ AP ਦੀ। ਇਸ ਵਿੱਚ ਹਰ ਅਗਲਾ ਨੰਬਰ ਪਿਛਲੇ ਨੰਬਰ ਵਿੱਚ ਇੱਕ ਪੱਕਾ ਅੰਕ (difference) ਜੋੜ ਕੇ ਬਣਦਾ ਹੈ। ਜਿਵੇਂ 2, 4, 6, 8. ਇੱਥੇ ਅੰਤਰ 2 ਹੈ। ਇਸਦੀ 'n'ਵੀਂ ਟਰਮ ਕੱਢਣ ਦਾ ਫਾਰਮੂਲਾ a + (n-1)d ਹੁੰਦਾ ਹੈ। </p><p>ਦੂਜੇ ਪਾਸੇ, Geometric Progression ਜਾਂ GP ਵਿੱਚ ਅਸੀਂ ਜੋੜਨ ਦੀ ਬਜਾਏ ਗੁਣਾ ਕਰਦੇ ਹਾਂ। ਜਿਵੇਂ 2, 4, 8, 16. ਇੱਥੇ ਹਰ ਨੰਬਰ ਨੂੰ 2 ਨਾਲ ਗੁਣਾ ਕੀਤਾ ਜਾ ਰਿਹਾ ਹੈ। GP ਦਾ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਸਵਾਲ ਅਨੰਤ (infinite) ਲੜੀ ਦਾ ਹੁੰਦਾ ਹੈ। ਜੇਕਰ ਗੁਣਾ ਕਰਨ ਵਾਲਾ ਅੰਕ (ratio) 1 ਤੋਂ ਛੋਟਾ ਹੈ, ਤਾਂ ਪੂਰੀ ਲੜੀ ਦਾ ਜੋੜ a / (1-r) ਹੁੰਦਾ ਹੈ। ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਇਹ ਸਵਾਲ ਬਹੁਤ ਵਾਰ ਆਉਂਦਾ ਹੈ! ਤੀਜੀ ਕਿਸਮ ਹੈ Harmonic Progression ਜਾਂ HP. ਇਹ ਸਭ ਤੋਂ ਸੌਖੀ ਹੈ ਪਰ ਬੱਚੇ ਇਸਤੋਂ ਸਭ ਤੋਂ ਵੱਧ ਡਰਦੇ ਹਨ। HP ਕੁਝ ਵੀ ਨਹੀਂ, ਬਸ AP ਦਾ ਉਲਟ (reciprocal) ਹੁੰਦਾ ਹੈ। ਜੇਕਰ ਤੁਹਾਨੂੰ HP ਦਾ ਕੋਈ ਵੀ ਸਵਾਲ ਆਵੇ, ਤਾਂ ਰਕਮਾਂ ਨੂੰ ਉਲਟਾ ਦਿਓ, ਉਹ AP ਬਣ ਜਾਵੇਗੀ। ਫਿਰ AP ਵਾਲੇ ਫਾਰਮੂਲੇ ਲਗਾ ਕੇ ਹੱਲ ਕਰੋ ਅਤੇ ਅਖੀਰ ਵਿੱਚ ਜਵਾਬ ਨੂੰ ਦੁਬਾਰਾ ਉਲਟਾ ਦਿਓ। </p><p>ਇੱਕ ਹੋਰ ਬਹੁਤ ਹੀ ਖਾਸ ਨਿਯਮ ਯਾਦ ਰੱਖੋ: AM, GM ਅਤੇ HM ਦਾ ਆਪਸੀ ਸੰਬੰਧ। Arithmetic Mean ਹਮੇਸ਼ਾ Geometric Mean ਤੋਂ ਵੱਡਾ ਜਾਂ ਬਰਾਬਰ ਹੁੰਦਾ ਹੈ (AM >= GM >= HM)। ਕਈ ਵਾਰ ਪੇਪਰ ਵਿੱਚ ਸਿੱਧਾ ਪੁੱਛ ਲੈਂਦੇ ਹਨ ਕਿ ਇਹਨਾਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਸੰਬੰਧ ਸਹੀ ਹੈ। ਇਸਨੂੰ ਚੰਗੀ ਤਰ੍ਹਾਂ ਯਾਦ ਕਰ ਲਓ! ਹੁਣ ਆਓ ਪ੍ਰੀਖਿਆ ਦੀ ਰਣਨੀਤੀ ਬਾਰੇ ਕੁਝ ਗਹਿਰਾਈ ਨਾਲ ਗੱਲ ਕਰੀਏ। ਮਾਸਟਰ ਕਾਡਰ ਦਾ ਪੇਪਰ ਸਿਰਫ਼ ਤੁਹਾਡੇ ਗਿਆਨ ਦਾ ਟੈਸਟ ਨਹੀਂ ਹੈ, ਬਲਕਿ ਇਹ ਤੁਹਾਡੀ ਰਫ਼ਤਾਰ ਅਤੇ ਦਿਮਾਗੀ ਸੰਤੁਲਨ ਦਾ ਵੀ ਟੈਸਟ ਹੈ। AP ਅਤੇ GP ਦੇ ਸਵਾਲਾਂ ਵਿੱਚ ਸਮਾਂ ਬਚਾਉਣਾ ਸਭ ਤੋਂ ਆਸਾਨ ਹੈ। ਜਦੋਂ ਵੀ ਤੁਹਾਨੂੰ ਲੜੀ ਦਾ ਜੋੜ ਪੁੱਛਿਆ ਜਾਵੇ, ਤਾਂ ਹਮੇਸ਼ਾ ਪਹਿਲਾਂ ਇਹ ਦੇਖੋ ਕਿ ਕੀ ਅਸੀਂ ਆਪਸ਼ਨਜ਼ (options) ਰਾਹੀਂ ਉਲਟਾ ਜਾ ਸਕਦੇ ਹਾਂ। ਕਈ ਵਾਰ 'n' ਦਾ ਮੁੱਲ 1 ਜਾਂ 2 ਰੱਖ ਕੇ ਅਸੀਂ ਸਹੀ ਆਪਸ਼ਨ ਲੱਭ ਸਕਦੇ ਹਾਂ, ਅਤੇ ਸਾਨੂੰ ਪੂਰਾ ਲੰਬਾ ਫਾਰਮੂਲਾ ਲਗਾਉਣ ਦੀ ਲੋੜ ਹੀ ਨਹੀਂ ਪੈਂਦੀ। ਖਾਸ ਕਰਕੇ ਜਦੋਂ ਸਵਾਲ ਵਿੱਚ 'n'ਵੀਂ ਟਰਮ ਦਿੱਤੀ ਹੋਵੇ ਅਤੇ ਜੋੜ ਪੁੱਛਿਆ ਹੋਵੇ। ਅਜਿਹੀਆਂ ਛੋਟੀਆਂ-ਛੋਟੀਆਂ ਤਕਨੀਕਾਂ ਹੀ ਤੁਹਾਨੂੰ ਬਾਕੀ ਵਿਦਿਆਰਥੀਆਂ ਤੋਂ ਅੱਗੇ ਲੈ ਕੇ ਜਾਣਗੀਆਂ। ਯਾਦ ਰੱਖੋ, ਪ੍ਰੀਖਿਆ ਵਿੱਚ ਕੋਈ ਨੈਗੇਟਿਵ ਮਾਰਕਿੰਗ ਨਹੀਂ ਹੈ, ਪਰ ਇਸਦਾ ਮਤਲਬ ਇਹ ਨਹੀਂ ਕਿ ਅਸੀਂ ਅੰਨ੍ਹੇਵਾਹ ਤੁੱਕੇ ਮਾਰੀਏ। ਹਮੇਸ਼ਾ Educated Guess ਲਗਾਓ। ਮੈਨੂੰ ਉਮੀਦ ਹੈ ਕਿ ਤੁਸੀਂ ਇਹਨਾਂ ਤਕਨੀਕਾਂ ਦਾ ਘਰ ਜਾ ਕੇ ਪੂਰਾ ਅਭਿਆਸ ਕਰੋਗੇ।</p><p>ਇਸਦੇ ਨਾਲ ਹੀ ਇਹ ਵੀ ਸਮਝਣਾ ਜ਼ਰੂਰੀ ਹੈ ਕਿ ਪ੍ਰੀਖਿਆ ਦੇ ਸਮੇਂ ਦਬਾਅ ਕਿਵੇਂ ਘੱਟ ਕਰਨਾ ਹੈ। ਜਦੋਂ ਅਸੀਂ ਵੱਡੇ ਫਾਰਮੂਲੇ ਦੇਖਦੇ ਹਾਂ ਤਾਂ ਘਬਰਾਹਟ ਹੁੰਦੀ ਹੈ। ਪਰ ਜੇਕਰ ਅਸੀਂ ਉਹਨਾਂ ਫਾਰਮੂਲਿਆਂ ਨੂੰ ਛੋਟੇ-ਛੋਟੇ ਹਿੱਸਿਆਂ ਵਿੱਚ ਵੰਡ ਲਈਏ ਅਤੇ ਉਹਨਾਂ ਦਾ ਮਤਲਬ ਸਮਝ ਲਈਏ, ਤਾਂ ਉਹ ਕਦੇ ਵੀ ਨਹੀਂ ਭੁੱਲਦੇ। ਗਣਿਤ ਇੱਕ ਐਸਾ ਵਿਸ਼ਾ ਹੈ ਜੋ ਸਿਰਫ ਸਮਝਣ ਨਾਲ ਹੀ ਆਉਂਦਾ ਹੈ, ਰੱਟਾ ਲਗਾਉਣ ਨਾਲ ਨਹੀਂ। ਇਸਲਈ ਮੇਰੀ ਸਲਾਹ ਹੈ ਕਿ ਤੁਸੀਂ ਹਰ ਰੋਜ਼ ਘੱਟੋ-ਘੱਟ ਵੀਹ ਸਵਾਲ ਜ਼ਰੂਰ ਹੱਲ ਕਰੋ। ਅਭਿਆਸ ਤੋਂ ਬਿਨਾਂ ਗਣਿਤ ਵਿੱਚ ਸਫਲਤਾ ਪ੍ਰਾਪਤ ਕਰਨੀ ਅਸੰਭਵ ਹੈ।</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-05.json');</script>
+</body></html>

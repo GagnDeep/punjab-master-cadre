@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 11</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module A • Lesson 11</div>
+      <h1 class="slide-heading">Number Theory (Divisibility & Primes)</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul><li>Apply divisibility rules rapidly.</li><li>Calculate GCD and LCM using prime factorization and the Euclidean algorithm.</li><li>Understand the relationship: a &times; b = GCD(a,b) &times; LCM(a,b).</li><li>Identify prime numbers and understand the Fundamental Theorem of Arithmetic.</li></ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Core Concept</h2><p><strong>Number Theory</strong> deals with the properties of integers. The <strong>Fundamental Theorem of Arithmetic</strong> states that every integer greater than 1 can be represented uniquely as a product of prime numbers. This prime factorization is the key to finding the Greatest Common Divisor (GCD) and Least Common Multiple (LCM). To find the GCD, take the lowest power of all common prime factors. To find the LCM, take the highest power of all prime factors present. A fundamental property linking two numbers is that their product equals the product of their GCD and LCM: a &times; b = GCD(a, b) &times; LCM(a, b). The <strong>Euclidean Algorithm</strong> is an efficient method for computing the GCD of two larger numbers by repeatedly dividing and finding remainders until the remainder is zero.</p></div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display: flex; gap: var(--space-8); justify-content: center; align-items: flex-start; margin-top: var(--space-4);">
+            <div style="text-align: center;">
+                <p class="text-sm font-semibold mb-2">Prime Factorization (60)</p>
+                <svg width="120" height="150" viewBox="0 0 120 150">
+                    <circle cx="60" cy="20" r="15" fill="var(--color-neutral-200)" />
+                    <text x="52" y="25" font-size="12">60</text>
+
+                    <circle cx="30" cy="70" r="12" fill="var(--color-accent-100)" stroke="var(--color-accent-500)" />
+                    <text x="26" y="74" font-size="12">2</text>
+
+                    <circle cx="90" cy="70" r="15" fill="var(--color-neutral-200)" />
+                    <text x="82" y="74" font-size="12">30</text>
+
+                    <circle cx="60" cy="120" r="12" fill="var(--color-accent-100)" stroke="var(--color-accent-500)" />
+                    <text x="56" y="124" font-size="12">2</text>
+
+                    <circle cx="110" cy="120" r="12" fill="var(--color-accent-100)" stroke="var(--color-accent-500)" />
+                    <text x="102" y="124" font-size="12">15</text>
+
+                    <line x1="50" y1="32" x2="35" y2="60" stroke="var(--color-neutral-400)" />
+                    <line x1="70" y1="32" x2="85" y2="60" stroke="var(--color-neutral-400)" />
+                    <line x1="80" y1="82" x2="65" y2="110" stroke="var(--color-neutral-400)" />
+                    <line x1="100" y1="82" x2="105" y2="108" stroke="var(--color-neutral-400)" />
+                </svg>
+            </div>
+            <div style="background: var(--color-primary-50); padding: var(--space-4); border-radius: 8px;">
+                <p class="text-sm font-semibold mb-2">Euclid's Algorithm</p>
+                <div style="font-family: monospace; font-size: 14px; line-height: 1.5; color: var(--color-primary-900);">
+                    48 = 18 &times; 2 + <span style="color: var(--color-accent-600); font-weight: bold;">12</span><br>
+                    18 = 12 &times; 1 + <span style="color: var(--color-accent-600); font-weight: bold;">6</span><br>
+                    12 = &nbsp;<span style="color: var(--color-primary-600); font-weight: bold; border-bottom: 2px solid var(--color-primary-600);">6</span> &times; 2 + 0
+                </div>
+                <p class="text-xs text-primary-600 mt-2">GCD is last non-zero remainder (6).</p>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Important Formula</h2>
+      <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
+      <div class="stat-number">Speed = Accuracy</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Common Error</h2><p>Applying the formula a &times; b = GCD &times; LCM to three or more numbers. This formula is STRICTLY for two numbers only. For three numbers, a &times; b &times; c &ne; GCD(a,b,c) &times; LCM(a,b,c).</p></div>
+      <div class="col"><h3>How to Avoid</h3><p>Always double-check your initial assumptions before calculating.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> The LCM of two numbers is 120 and their GCD is 10. If one of the numbers is 30, what is the other number?</p>
+      <p><strong>Steps:</strong></p>
+      <ul><li>Recall the formula: Number1 &times; Number2 = GCD &times; LCM.</li><li>Substitute the known values: 30 &times; Number2 = 10 &times; 120.</li><li>Simplify the right side: 30 &times; Number2 = 1200.</li><li>Solve for Number2: Number2 = 1200 / 30 = 40.</li></ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">The other number is 40.</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col"><h2>Exam Pattern</h2><p>Questions involving finding the number of trailing zeros in a factorial (like 100!) are essentially prime factorization questions. You just need to count the number of 5s in the prime factorization, as there are always more 2s than 5s.</p></div>
+      <div class="col"><h3>PYQ Focus</h3><p>Finding the GCD/HCF using the Euclidean algorithm and solving problems based on the fundamental theorem of arithmetic are common. These require quick mental math.</p></div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul><li>Every integer has a unique prime factorization.</li><li>GCD = lowest powers of common primes.</li><li>LCM = highest powers of all primes.</li><li>a &times; b = GCD(a, b) &times; LCM(a, b) (for TWO numbers only).</li><li>Consecutive integers are always co-prime.</li></ul>
+    </div>
+    <div class="slide slide-title">
+      <h1 class="slide-heading">End of Slides</h1>
+      <p class="slide-subheading">Proceed to the recall quiz.</p>
+    </div>
+  </div>
+  <div class="slide-controls">
+    <button class="btn btn-ghost" id="prev-slide">&larr; Prev</button>
+    <span class="slide-counter"><span id="current-slide-num">1</span> / <span id="total-slides">10</span></span>
+    <button class="btn btn-ghost" id="next-slide">Next &rarr;</button>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>
