@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-03",
+  "title": "Recall Quiz: Gupta Period and Ajanta Caves",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "Which historical era is widely considered the 'Golden Age' of Indian art?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Gupta Period",
+        "Mauryan Period",
+        "Mughal Period",
+        "Chola Period"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gupta Period is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The 'Seated Buddha Preaching the Law' from Sarnath is carved from which material?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Chunar Sandstone",
+        "Mottled Red Sandstone",
+        "Black Granite",
+        "Marble"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chunar Sandstone is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "A distinguishing feature of Sarnath school Buddha figures is:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Transparent clinging drapery",
+        "String-like thick robe folds",
+        "The absence of a halo",
+        "Depiction of a mustache"
+      ],
+      "answerIndex": 0,
+      "explanation": "Transparent clinging drapery is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The famous mural painting of 'Bodhisattva Padmapani' is located in which cave at Ajanta?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Cave 1",
+        "Cave 16",
+        "Cave 9",
+        "Cave 26"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cave 1 is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The primary painting technique used by the artists at the Ajanta Caves is:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Tempera on dry plaster",
+        "True Fresco on wet plaster",
+        "Oil painting on canvas",
+        "Encaustic on wood"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tempera on dry plaster is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "Which early Gupta stone temple is famous for its 'Vishnu Anantashayana' relief panel?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Dashavatara Temple, Deogarh",
+        "Kailashnath Temple, Ellora",
+        "Sun Temple, Konark",
+        "Brihadeeswarar Temple, Thanjavur"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dashavatara Temple, Deogarh is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The subject matter of the murals at Ajanta primarily focuses on:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Jataka tales and the life of Buddha",
+        "Hindu epics Ramayana and Mahabharata",
+        "Jain Tirthankaras",
+        "Secular royal court scenes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Jataka tales and the life of Buddha is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The Mathura school of sculpture during the Gupta period predominantly used:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Mottled Red Sandstone",
+        "White Marble",
+        "Steatite",
+        "Bronze"
+      ],
+      "answerIndex": 0,
+      "explanation": "Mottled Red Sandstone is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The 'Padmapani' figure at Ajanta is depicted holding a:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Lotus flower",
+        "Thunderbolt (Vajra)",
+        "Sword",
+        "Wheel (Chakra)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lotus flower is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Gupta Period and Ajanta Caves",
+      "q": "The emotional masterpiece 'The Dying Princess' is painted in which Ajanta Cave?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Cave 16",
+        "Cave 1",
+        "Cave 17",
+        "Cave 2"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cave 16 is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

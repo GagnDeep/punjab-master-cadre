@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-08",
+  "title": "Recall Quiz: Pahari and Mysore Painting Schools",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "The origin of the Pahari Painting School is closely linked to the migration of artists escaping the court of which Mughal Emperor?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Aurangzeb",
+        "Jahangir",
+        "Akbar",
+        "Shah Jahan"
+      ],
+      "answerIndex": 0,
+      "explanation": "Aurangzeb is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "Which early Pahari sub-school is famous for its fierce intensity, primary colors, and the unique use of emerald-green beetle wings for jewelry?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Basohli",
+        "Kangra",
+        "Guler",
+        "Chamba"
+      ],
+      "answerIndex": 0,
+      "explanation": "Basohli is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "The Kangra school of Pahari painting reached its classical pinnacle under the patronage of which ruler?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Raja Sansar Chand",
+        "Raja Kirpal Pal",
+        "Raja Balwant Singh",
+        "Raja Savant Singh"
+      ],
+      "answerIndex": 0,
+      "explanation": "Raja Sansar Chand is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "The Pahari painting style is universally celebrated for its:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Lyrical grace and serene depiction of the Himalayan landscape",
+        "Monumental scale and fresco technique",
+        "Strict adherence to mathematical perspective",
+        "Exclusive focus on Islamic calligraphy"
+      ],
+      "answerIndex": 0,
+      "explanation": "Lyrical grace and serene depiction of the Himalayan landscape is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "Who was the master artist instrumental in bridging the Mughal and Pahari styles, renowned for his work in Guler and Jammu?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Nainsukh",
+        "Nihal Chand",
+        "Sahibdin",
+        "Bishan Das"
+      ],
+      "answerIndex": 0,
+      "explanation": "Nainsukh is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "The Mysore Painting School, originating in southern India, is distinct for its delicate use of which material to create textured jewelry on deities?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Gesso paste and Gold leaf",
+        "Beetle wings",
+        "Lapis Lazuli",
+        "Silver foil"
+      ],
+      "answerIndex": 0,
+      "explanation": "Gesso paste and Gold leaf is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "Compared to the intense colors of Basohli, the Kangra style is characterized by:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Cool, refreshing palettes dominated by greens and blues",
+        "Heavy use of pure black backgrounds",
+        "Monochromatic brown washes",
+        "Thick, textured oil paints (Impasto)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Cool, refreshing palettes dominated by greens and blues is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "The central thematic focus of most Pahari miniature paintings revolves around:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Vaishnavism and the divine romance of Radha and Krishna",
+        "Portraits of the British East India Company officers",
+        "Abstract geometric tantric diagrams",
+        "Depictions of ordinary peasant labor"
+      ],
+      "answerIndex": 0,
+      "explanation": "Vaishnavism and the divine romance of Radha and Krishna is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "The term 'Pahari' literally translates to:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "From the hills",
+        "From the desert",
+        "From the royal court",
+        "From the riverbanks"
+      ],
+      "answerIndex": 0,
+      "explanation": "From the hills is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Pahari and Mysore Painting Schools",
+      "q": "While Tanjore paintings also use gold, Mysore paintings differ by:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Using a more delicate, lower-relief gesso work with muted colors",
+        "Being painted exclusively on glass",
+        "Using heavy semi-precious stones extensively",
+        "Focusing strictly on secular court scenes"
+      ],
+      "answerIndex": 0,
+      "explanation": "Using a more delicate, lower-relief gesso work with muted colors is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "id": "ac-lesson-02",
+  "title": "Recall Quiz: Mauryan and Post-Mauryan Art",
+  "timeLimitMinutes": 10,
+  "questions": [
+    {
+      "id": "q-1",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The highly polished surface, known as 'Mauryan polish', was typically applied to which type of stone?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Chunar Sandstone",
+        "Marble",
+        "Granite",
+        "Basalt"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chunar Sandstone is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-2",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The Lion Capital of Sarnath, adopted as India's National Emblem, was commissioned by which ruler?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Ashoka",
+        "Chandragupta Maurya",
+        "Kanishka",
+        "Harsha"
+      ],
+      "answerIndex": 0,
+      "explanation": "Ashoka is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-3",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Which famous sculpture from the Mauryan period is depicted holding a fly-whisk (chauri)?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Didarganj Yakshi",
+        "Dancing Girl",
+        "Gomateshwara",
+        "Nataraja"
+      ],
+      "answerIndex": 0,
+      "explanation": "Didarganj Yakshi is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-4",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "During the Post-Mauryan period (e.g., at Sanchi and Bharhut), the Buddha was primarily represented:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Aniconically through symbols",
+        "In human form standing",
+        "In human form seated",
+        "As a Hindu deity"
+      ],
+      "answerIndex": 0,
+      "explanation": "Aniconically through symbols is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-5",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The highly decorated gateways of Buddhist stupas, such as those at Sanchi, are called:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Toranas",
+        "Vedikas",
+        "Viharas",
+        "Chaityas"
+      ],
+      "answerIndex": 0,
+      "explanation": "Toranas is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-6",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Which site is famous for its early rock-cut elephant emerging from the natural rock face?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Dhauli",
+        "Ajanta",
+        "Ellora",
+        "Elephanta"
+      ],
+      "answerIndex": 0,
+      "explanation": "Dhauli is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-7",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The narrative sculptures at Bharhut are significant because they often include:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Inscribed labels identifying the scene",
+        "Free-standing 3D figures",
+        "Mauryan high polish",
+        "Roman influences"
+      ],
+      "answerIndex": 0,
+      "explanation": "Inscribed labels identifying the scene is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "q-8",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Which period is associated with the construction of the Amaravati Stupa and its dynamic, elongated figures?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Satavahana",
+        "Gupta",
+        "Kushana",
+        "Chola"
+      ],
+      "answerIndex": 0,
+      "explanation": "Satavahana is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-9",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "The abacus of the Sarnath Lion Capital features all of the following animals EXCEPT:",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Tiger",
+        "Horse",
+        "Bull",
+        "Elephant"
+      ],
+      "answerIndex": 0,
+      "explanation": "Tiger is the correct answer based on the lesson material.",
+      "pyq": ""
+    },
+    {
+      "id": "q-10",
+      "topic": "Mauryan and Post-Mauryan Art",
+      "q": "Who were the primary patrons of Post-Mauryan Buddhist art at sites like Sanchi?",
+      "qPa": "ਪ੍ਰਸ਼ਨ: ",
+      "options": [
+        "Merchants and guilds",
+        "Emperor Ashoka",
+        "The Brahminical priesthood",
+        "Foreign invaders"
+      ],
+      "answerIndex": 0,
+      "explanation": "Merchants and guilds is the correct answer based on the lesson material.",
+      "pyq": "ERB 2022"
+    }
+  ]
+}
