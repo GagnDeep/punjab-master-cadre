@@ -1,0 +1,110 @@
+{
+  "id": "dpe-l13",
+  "title": "Recall Quiz: Lesson 13",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Nutrition",
+      "q": "Which macronutrient is the body's primary source of immediate energy?",
+      "options": [
+        "Protein",
+        "Carbohydrates",
+        "Fats",
+        "Vitamins"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carbs break down quickly into glucose."
+    },
+    {
+      "id": "q2",
+      "topic": "Nutrition",
+      "q": "The primary function of dietary protein is to:",
+      "options": [
+        "Provide immediate energy",
+        "Store excess calories",
+        "Repair and build muscle tissue",
+        "Regulate body temperature"
+      ],
+      "answerIndex": 2,
+      "explanation": "Proteins supply amino acids for tissue repair."
+    },
+    {
+      "id": "q3",
+      "topic": "Intoxicants",
+      "q": "How does smoking primarily affect athletic performance?",
+      "options": [
+        "It increases bone density",
+        "Carbon monoxide reduces oxygen transport in blood",
+        "It improves lung capacity",
+        "It acts as a stimulant for endurance"
+      ],
+      "answerIndex": 1,
+      "explanation": "CO binds to hemoglobin, depriving muscles of oxygen."
+    },
+    {
+      "id": "q4",
+      "topic": "Intoxicants",
+      "q": "Alcohol acts primarily as a ____________ on the central nervous system.",
+      "options": [
+        "Stimulant",
+        "Depressant",
+        "Hallucinogen",
+        "Steroid"
+      ],
+      "answerIndex": 1,
+      "explanation": "Alcohol slows down brain function and impairs coordination."
+    },
+    {
+      "id": "q5",
+      "topic": "Nutrition",
+      "q": "Which of the following are considered micronutrients?",
+      "options": [
+        "Carbs and Fats",
+        "Proteins and Water",
+        "Vitamins and Minerals",
+        "Amino Acids"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vitamins and minerals are needed in small amounts and yield no energy."
+    },
+    {
+      "id": "q6",
+      "topic": "Nutrition",
+      "q": "Which mineral is crucial for bone health and muscle contraction?",
+      "options": [
+        "Iron",
+        "Calcium",
+        "Zinc",
+        "Vitamin C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Calcium is a major component of bones and required for muscle firing."
+    },
+    {
+      "id": "q7",
+      "topic": "Intoxicants",
+      "q": "A major negative physiological effect of alcohol on athletes is:",
+      "options": [
+        "Increased hydration",
+        "Improved reaction time",
+        "Severe dehydration",
+        "Enhanced muscle growth"
+      ],
+      "answerIndex": 2,
+      "explanation": "Alcohol is a diuretic, causing the body to lose fluid."
+    },
+    {
+      "id": "q8",
+      "topic": "Nutrition",
+      "q": "Which macronutrient provides the most concentrated source of stored energy?",
+      "options": [
+        "Carbohydrates",
+        "Proteins",
+        "Fats",
+        "Water"
+      ],
+      "answerIndex": 2,
+      "explanation": "Fats provide 9 calories per gram, making them dense energy stores."
+    }
+  ]
+}

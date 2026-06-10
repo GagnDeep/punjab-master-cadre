@@ -1,0 +1,110 @@
+{
+  "id": "dpe-l17",
+  "title": "Recall Quiz: Lesson 17",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "First Aid",
+      "q": "In the initial treatment of a soft tissue injury using the PRICES method, what does the 'E' stand for?",
+      "options": [
+        "Exercise",
+        "Energy",
+        "Elevation",
+        "Extension"
+      ],
+      "answerIndex": 2,
+      "explanation": "Elevation helps drain fluid from the injury site."
+    },
+    {
+      "id": "q2",
+      "topic": "First Aid",
+      "q": "Why is ice applied to an acute sports injury?",
+      "options": [
+        "To increase blood flow",
+        "To cause vasoconstriction and reduce swelling",
+        "To warm the muscle",
+        "To stretch the ligament"
+      ],
+      "answerIndex": 1,
+      "explanation": "Ice shrinks blood vessels, minimizing internal bleeding and swelling."
+    },
+    {
+      "id": "q3",
+      "topic": "First Aid",
+      "q": "What is the primary aim of First Aid?",
+      "options": [
+        "To diagnose the injury",
+        "To perform surgery",
+        "To preserve life and prevent worsening",
+        "To prescribe medication"
+      ],
+      "answerIndex": 2,
+      "explanation": "First aid is immediate, temporary care to keep the person safe."
+    },
+    {
+      "id": "q4",
+      "topic": "First Aid",
+      "q": "What does the 'C' in PRICES stand for?",
+      "options": [
+        "Care",
+        "Compression",
+        "Cooling",
+        "Cardio"
+      ],
+      "answerIndex": 1,
+      "explanation": "Compression physically limits the expansion of tissue due to swelling."
+    },
+    {
+      "id": "q5",
+      "topic": "First Aid",
+      "q": "When should the PRICES protocol typically be applied?",
+      "options": [
+        "Immediately after a soft tissue injury (first 48 hours)",
+        "One week after the injury",
+        "Before warming up",
+        "Only for compound fractures"
+      ],
+      "answerIndex": 0,
+      "explanation": "It is the standard acute management for sprains and strains."
+    },
+    {
+      "id": "q6",
+      "topic": "First Aid",
+      "q": "What does CPR stand for?",
+      "options": [
+        "Cardio Patient Recovery",
+        "Cardiopulmonary Resuscitation",
+        "Central Pulse Rate",
+        "Cardiac Prevention Routine"
+      ],
+      "answerIndex": 1,
+      "explanation": "It maintains circulation when the heart stops."
+    },
+    {
+      "id": "q7",
+      "topic": "First Aid",
+      "q": "In PRICES, what does 'Protection' mean?",
+      "options": [
+        "Wearing a helmet during play",
+        "Applying a bandage to stop bleeding",
+        "Protecting the injured area from further damage (e.g., using crutches)",
+        "Taking painkillers"
+      ],
+      "answerIndex": 2,
+      "explanation": "It means preventing a mild injury from becoming severe."
+    },
+    {
+      "id": "q8",
+      "topic": "First Aid",
+      "q": "Why should you elevate an injured ankle above heart level?",
+      "options": [
+        "To increase blood flow to the foot",
+        "To use gravity to reduce fluid accumulation and swelling",
+        "To keep the athlete awake",
+        "To make it easier to apply ice"
+      ],
+      "answerIndex": 1,
+      "explanation": "Gravity pulls blood and lymphatic fluid back toward the core."
+    }
+  ]
+}

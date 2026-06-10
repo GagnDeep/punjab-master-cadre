@@ -1,0 +1,110 @@
+{
+  "id": "dpe-l14",
+  "title": "Recall Quiz: Lesson 14",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Fitness",
+      "q": "The ability of a joint to move through its full range of motion is called:",
+      "options": [
+        "Strength",
+        "Agility",
+        "Flexibility",
+        "Endurance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flexibility relates specifically to joint mobility."
+    },
+    {
+      "id": "q2",
+      "topic": "Fitness",
+      "q": "Running a 5km race primarily tests which fitness component?",
+      "options": [
+        "Muscular Strength",
+        "Aerobic Endurance",
+        "Anaerobic Endurance",
+        "Speed"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sustained, continuous activity relies on the aerobic system."
+    },
+    {
+      "id": "q3",
+      "topic": "Fitness",
+      "q": "The maximum force a muscle can exert against a resistance is known as:",
+      "options": [
+        "Power",
+        "Muscular Endurance",
+        "Muscular Strength",
+        "Flexibility"
+      ],
+      "answerIndex": 2,
+      "explanation": "Strength is the absolute maximum force."
+    },
+    {
+      "id": "q4",
+      "topic": "Fitness",
+      "q": "A 100m sprint primarily uses which energy system?",
+      "options": [
+        "Aerobic",
+        "Anaerobic",
+        "Oxidative",
+        "Cardiovascular"
+      ],
+      "answerIndex": 1,
+      "explanation": "Short, intense bursts of energy do not rely on oxygen (anaerobic)."
+    },
+    {
+      "id": "q5",
+      "topic": "Coordination",
+      "q": "Agility, balance, and reaction time are examples of:",
+      "options": [
+        "Health-related fitness",
+        "Coordinative abilities",
+        "Structural fitness",
+        "Aerobic capacity"
+      ],
+      "answerIndex": 1,
+      "explanation": "These depend heavily on the central nervous system."
+    },
+    {
+      "id": "q6",
+      "topic": "Measurement",
+      "q": "The 'Sit and Reach' test is commonly used to measure:",
+      "options": [
+        "Leg strength",
+        "Core endurance",
+        "Hamstring and lower back flexibility",
+        "Reaction time"
+      ],
+      "answerIndex": 2,
+      "explanation": "It assesses the range of motion in the posterior chain."
+    },
+    {
+      "id": "q7",
+      "topic": "Fitness",
+      "q": "The ability to perform a movement in the shortest possible time is defined as:",
+      "options": [
+        "Endurance",
+        "Strength",
+        "Speed",
+        "Agility"
+      ],
+      "answerIndex": 2,
+      "explanation": "Speed is distance over time."
+    },
+    {
+      "id": "q8",
+      "topic": "Fitness",
+      "q": "Doing 50 push-ups without stopping is a test of:",
+      "options": [
+        "Muscular Strength",
+        "Muscular Endurance",
+        "Aerobic Endurance",
+        "Power"
+      ],
+      "answerIndex": 1,
+      "explanation": "It tests the muscle's ability to resist fatigue over many repetitions."
+    }
+  ]
+}

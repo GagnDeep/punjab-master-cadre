@@ -1,0 +1,112 @@
+{
+  "id": "dpe-l11",
+  "title": "Recall Quiz: Lesson 11",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Pathogens",
+      "q": "Which of the following diseases is caused by a protozoan?",
+      "qPa": "\u0a39\u0a47\u0a20 \u0a32\u0a3f\u0a16\u0a3f\u0a06\u0a02 \u0a35\u0a3f\u0a71\u0a1a\u0a4b\u0a02 \u0a15\u0a3f\u0a39\u0a5c\u0a40 \u0a2c\u0a3f\u0a2e\u0a3e\u0a30\u0a40 \u0a2a\u0a4d\u0a30\u0a4b\u0a1f\u0a4b\u0a1c\u0a3c\u0a4b\u0a06 \u0a15\u0a3e\u0a30\u0a28 \u0a39\u0a41\u0a70\u0a26\u0a40 \u0a39\u0a48?",
+      "options": [
+        "Tuberculosis",
+        "Typhoid",
+        "Malaria",
+        "Measles"
+      ],
+      "answerIndex": 2,
+      "explanation": "Malaria is caused by the Plasmodium protozoan.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q2",
+      "topic": "Pathogens",
+      "q": "Tuberculosis is primarily caused by which type of organism?",
+      "options": [
+        "Virus",
+        "Bacteria",
+        "Fungus",
+        "Parasite"
+      ],
+      "answerIndex": 1,
+      "explanation": "TB is caused by the Mycobacterium tuberculosis bacterium."
+    },
+    {
+      "id": "q3",
+      "topic": "Transmission",
+      "q": "The female Anopheles mosquito acts as a vector for which disease?",
+      "options": [
+        "Dengue",
+        "Typhoid",
+        "Malaria",
+        "Cholera"
+      ],
+      "answerIndex": 2,
+      "explanation": "The female Anopheles mosquito transmits the malaria parasite."
+    },
+    {
+      "id": "q4",
+      "topic": "Pathogens",
+      "q": "Measles and Polio are examples of diseases caused by:",
+      "options": [
+        "Viruses",
+        "Bacteria",
+        "Protozoa",
+        "Fungi"
+      ],
+      "answerIndex": 0,
+      "explanation": "Both are highly contagious viral infections."
+    },
+    {
+      "id": "q5",
+      "topic": "Transmission",
+      "q": "Typhoid is typically transmitted through:",
+      "options": [
+        "Mosquito bites",
+        "Contaminated food and water",
+        "Airborne droplets",
+        "Direct skin contact"
+      ],
+      "answerIndex": 1,
+      "explanation": "Typhoid is a waterborne/foodborne bacterial disease."
+    },
+    {
+      "id": "q6",
+      "topic": "Concepts",
+      "q": "Diseases that can be passed from one person to another are called:",
+      "options": [
+        "Non-communicable diseases",
+        "Genetic diseases",
+        "Communicable diseases",
+        "Lifestyle diseases"
+      ],
+      "answerIndex": 2,
+      "explanation": "Communicable or infectious diseases can spread between hosts."
+    },
+    {
+      "id": "q7",
+      "topic": "Prevention",
+      "q": "Which is the most effective method for preventing viral diseases like Polio and Measles?",
+      "options": [
+        "Antibiotics",
+        "Vaccination",
+        "Mosquito nets",
+        "Boiling water"
+      ],
+      "answerIndex": 1,
+      "explanation": "Vaccines train the immune system to fight viruses."
+    },
+    {
+      "id": "q8",
+      "topic": "Pathogens",
+      "q": "Which pathogen type is treated using antibiotics?",
+      "options": [
+        "Viruses",
+        "Bacteria",
+        "Fungi",
+        "Protozoa"
+      ],
+      "answerIndex": 1,
+      "explanation": "Antibiotics kill or inhibit the growth of bacteria, not viruses."
+    }
+  ]
+}

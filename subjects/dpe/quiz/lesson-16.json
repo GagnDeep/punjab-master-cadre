@@ -1,0 +1,110 @@
+{
+  "id": "dpe-l16",
+  "title": "Recall Quiz: Lesson 16",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Injuries",
+      "q": "An injury involving the tearing of a ligament is known as a:",
+      "options": [
+        "Strain",
+        "Sprain",
+        "Contusion",
+        "Fracture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Sprains affect ligaments (bone to bone)."
+    },
+    {
+      "id": "q2",
+      "topic": "Injuries",
+      "q": "A 'Strain' is an injury to which tissue?",
+      "options": [
+        "Ligament",
+        "Bone",
+        "Muscle or Tendon",
+        "Skin"
+      ],
+      "answerIndex": 2,
+      "explanation": "Strains affect muscles or tendons (muscle to bone)."
+    },
+    {
+      "id": "q3",
+      "topic": "Injuries",
+      "q": "Which type of fracture involves the broken bone piercing through the skin?",
+      "options": [
+        "Simple Fracture",
+        "Compound Fracture",
+        "Greenstick Fracture",
+        "Stress Fracture"
+      ],
+      "answerIndex": 1,
+      "explanation": "Also called an open fracture, it carries a high risk of infection."
+    },
+    {
+      "id": "q4",
+      "topic": "Injuries",
+      "q": "A bruise caused by a direct blow that results in bleeding under the skin is called a:",
+      "options": [
+        "Laceration",
+        "Abrasion",
+        "Contusion",
+        "Dislocation"
+      ],
+      "answerIndex": 2,
+      "explanation": "A contusion is the medical term for a bruise."
+    },
+    {
+      "id": "q5",
+      "topic": "Injuries",
+      "q": "An incomplete break in a bone, common in young children whose bones are softer, is a:",
+      "options": [
+        "Greenstick fracture",
+        "Comminuted fracture",
+        "Compound fracture",
+        "Dislocation"
+      ],
+      "answerIndex": 0,
+      "explanation": "Like a green twig, the bone bends and splinters but doesn't snap entirely."
+    },
+    {
+      "id": "q6",
+      "topic": "Injuries",
+      "q": "When a bone is forced completely out of its normal position in a joint, it is a:",
+      "options": [
+        "Subluxation",
+        "Sprain",
+        "Dislocation",
+        "Fracture"
+      ],
+      "answerIndex": 2,
+      "explanation": "A dislocation requires medical relocation."
+    },
+    {
+      "id": "q7",
+      "topic": "Injuries",
+      "q": "Scraping away the outer layer of skin (e.g., turf burn) is called an:",
+      "options": [
+        "Incision",
+        "Abrasion",
+        "Contusion",
+        "Laceration"
+      ],
+      "answerIndex": 1,
+      "explanation": "Abrasions are superficial skin scrapes."
+    },
+    {
+      "id": "q8",
+      "topic": "Injuries",
+      "q": "A micro-fracture in a bone caused by repeated overuse rather than acute trauma is a:",
+      "options": [
+        "Simple fracture",
+        "Compound fracture",
+        "Stress fracture",
+        "Greenstick fracture"
+      ],
+      "answerIndex": 2,
+      "explanation": "Stress fractures develop over time from repeated impact."
+    }
+  ]
+}

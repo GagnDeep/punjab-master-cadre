@@ -1,0 +1,267 @@
+{
+  "id": "dpe-mt02",
+  "title": "Module 5-8 Mega Test",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mt2_q01",
+      "topic": "Health Definition",
+      "q": "According to the World Health Organization (WHO), health is a state of complete physical, mental, and social well-being, and not merely the absence of:",
+      "options": [
+        "A. Physical limitations",
+        "B. Disease or infirmity",
+        "C. Emotional stress",
+        "D. Social isolation"
+      ],
+      "answerIndex": 1,
+      "explanation": "The WHO definition emphasizes that health is holistic and not just 'not being sick' (absence of disease or infirmity)."
+    },
+    {
+      "id": "mt2_q02",
+      "topic": "Dimensions of Health",
+      "q": "Which dimension of health focuses on the ability to interact effectively with other people and the environment?",
+      "options": [
+        "A. Physical Health",
+        "B. Mental Health",
+        "C. Social Health",
+        "D. Spiritual Health"
+      ],
+      "answerIndex": 2,
+      "explanation": "Social health is the ability to build and maintain healthy relationships and interact with society."
+    },
+    {
+      "id": "mt2_q03",
+      "topic": "Communicable Diseases",
+      "q": "Which of the following diseases is caused by a protozoan and transmitted by the female Anopheles mosquito?",
+      "options": [
+        "A. Tuberculosis",
+        "B. Typhoid",
+        "C. Measles",
+        "D. Malaria"
+      ],
+      "answerIndex": 3,
+      "explanation": "Malaria is caused by the Plasmodium protozoan and transmitted by female Anopheles mosquitoes."
+    },
+    {
+      "id": "mt2_q04",
+      "topic": "Pathogens",
+      "q": "Tuberculosis (TB) is primarily an infection of the lungs caused by which type of pathogen?",
+      "options": [
+        "A. Virus",
+        "B. Bacteria",
+        "C. Fungi",
+        "D. Protozoa"
+      ],
+      "answerIndex": 1,
+      "explanation": "TB is caused by the bacteria Mycobacterium tuberculosis."
+    },
+    {
+      "id": "mt2_q05",
+      "topic": "Growth and Development",
+      "q": "Which of the following best describes 'Growth' rather than 'Development'?",
+      "options": [
+        "A. Maturation of problem-solving skills",
+        "B. Quantitative increase in body size",
+        "C. Improvement in social skills",
+        "D. Qualitative changes in motor ability"
+      ],
+      "answerIndex": 1,
+      "explanation": "Growth is defined as quantitative changes that can be measured, such as height and weight."
+    },
+    {
+      "id": "mt2_q06",
+      "topic": "Stages of Development",
+      "q": "During which stage of human development do individuals typically experience rapid physical growth associated with puberty and complex identity formation?",
+      "options": [
+        "A. Infancy",
+        "B. Early Childhood",
+        "C. Later Childhood",
+        "D. Adolescence"
+      ],
+      "answerIndex": 3,
+      "explanation": "Adolescence (12-18 years) is characterized by puberty, rapid physical changes, and identity development."
+    },
+    {
+      "id": "mt2_q07",
+      "topic": "Nutrition",
+      "q": "Which macronutrient is considered the body's primary and most efficient source of immediate energy?",
+      "options": [
+        "A. Proteins",
+        "B. Fats",
+        "C. Carbohydrates",
+        "D. Vitamins"
+      ],
+      "answerIndex": 2,
+      "explanation": "Carbohydrates are quickly broken down into glucose to provide immediate energy."
+    },
+    {
+      "id": "mt2_q08",
+      "topic": "Intoxicants",
+      "q": "How does smoking tobacco primarily impair athletic endurance?",
+      "options": [
+        "A. It decreases bone density",
+        "B. Carbon monoxide reduces oxygen transport in the blood",
+        "C. It causes severe dehydration",
+        "D. It impairs the central nervous system coordination"
+      ],
+      "answerIndex": 1,
+      "explanation": "Carbon monoxide in smoke binds to hemoglobin more strongly than oxygen, severely reducing the blood's oxygen-carrying capacity."
+    },
+    {
+      "id": "mt2_q09",
+      "topic": "Physical Fitness",
+      "q": "The maximum amount of force a muscle or muscle group can exert in a single effort is known as:",
+      "options": [
+        "A. Muscular Endurance",
+        "B. Muscular Strength",
+        "C. Power",
+        "D. Agility"
+      ],
+      "answerIndex": 1,
+      "explanation": "Muscular strength is the absolute maximum force generated."
+    },
+    {
+      "id": "mt2_q10",
+      "topic": "Physical Fitness",
+      "q": "Which component of physical fitness allows a joint to move through its complete and full range of motion?",
+      "options": [
+        "A. Coordination",
+        "B. Speed",
+        "C. Flexibility",
+        "D. Balance"
+      ],
+      "answerIndex": 2,
+      "explanation": "Flexibility refers specifically to the range of motion around a joint."
+    },
+    {
+      "id": "mt2_q11",
+      "topic": "Training Methods",
+      "q": "Which training method, developed in Sweden, translates to 'speed play' and involves continuous running with random variations in speed?",
+      "options": [
+        "A. Interval Training",
+        "B. Continuous Training",
+        "C. Circuit Training",
+        "D. Fartlek Training"
+      ],
+      "answerIndex": 3,
+      "explanation": "Fartlek means 'speed play' in Swedish and involves varying speeds without strict intervals."
+    },
+    {
+      "id": "mt2_q12",
+      "topic": "Warm-up",
+      "q": "What is a primary physiological benefit of a proper warm-up before athletic activity?",
+      "options": [
+        "A. Decreasing body temperature",
+        "B. Removing lactic acid",
+        "C. Increasing blood flow and muscle temperature",
+        "D. Decreasing heart rate"
+      ],
+      "answerIndex": 2,
+      "explanation": "Warming up increases core temperature and blood flow, making muscles more pliable and reducing injury risk."
+    },
+    {
+      "id": "mt2_q13",
+      "topic": "Sports Injuries",
+      "q": "An injury that involves the stretching or tearing of a ligament is called a:",
+      "options": [
+        "A. Strain",
+        "B. Sprain",
+        "C. Contusion",
+        "D. Fracture"
+      ],
+      "answerIndex": 1,
+      "explanation": "A sprain is an injury to a ligament (bone to bone). Remember, a strain affects a tendon or muscle."
+    },
+    {
+      "id": "mt2_q14",
+      "topic": "Sports Injuries",
+      "q": "Which type of fracture involves the broken bone piercing through the skin?",
+      "options": [
+        "A. Simple Fracture",
+        "B. Stress Fracture",
+        "C. Compound (Open) Fracture",
+        "D. Greenstick Fracture"
+      ],
+      "answerIndex": 2,
+      "explanation": "A compound or open fracture breaks the skin, creating a high risk of infection."
+    },
+    {
+      "id": "mt2_q15",
+      "topic": "First Aid",
+      "q": "In the PRICES protocol for soft tissue injuries, what does the 'E' stand for?",
+      "options": [
+        "A. Exercise",
+        "B. Evaluation",
+        "C. Elevation",
+        "D. Extension"
+      ],
+      "answerIndex": 2,
+      "explanation": "PRICES stands for Protection, Rest, Ice, Compression, Elevation, and Support."
+    },
+    {
+      "id": "mt2_q16",
+      "topic": "First Aid",
+      "q": "Why is 'Compression' applied to a sprained ankle in the first 48 hours?",
+      "options": [
+        "A. To heat the tissue",
+        "B. To increase blood flow",
+        "C. To prevent and control swelling",
+        "D. To stretch the ligament"
+      ],
+      "answerIndex": 2,
+      "explanation": "Compression mechanically restricts the expansion of tissue, controlling swelling and fluid accumulation."
+    },
+    {
+      "id": "mt2_q17",
+      "topic": "Nutrition",
+      "q": "Which micronutrients are essential for regulating metabolism and protecting cells but do not provide direct energy (calories)?",
+      "options": [
+        "A. Carbohydrates and Fats",
+        "B. Proteins and Water",
+        "C. Vitamins and Minerals",
+        "D. Amino Acids and Glucose"
+      ],
+      "answerIndex": 2,
+      "explanation": "Vitamins and minerals are essential for cellular function but yield no caloric energy."
+    },
+    {
+      "id": "mt2_q18",
+      "topic": "Endurance",
+      "q": "Running a full marathon primarily relies on which energy system?",
+      "options": [
+        "A. Anaerobic System",
+        "B. Aerobic System",
+        "C. ATP-PC System",
+        "D. Lactic Acid System"
+      ],
+      "answerIndex": 1,
+      "explanation": "Marathons are sustained activities that require oxygen to produce energy over a long period (Aerobic)."
+    },
+    {
+      "id": "mt2_q19",
+      "topic": "Diseases",
+      "q": "Typhoid fever is primarily transmitted through:",
+      "options": [
+        "A. Mosquito bites",
+        "B. Airborne droplets",
+        "C. Contaminated food and water",
+        "D. Direct blood contact"
+      ],
+      "answerIndex": 2,
+      "explanation": "Typhoid is caused by Salmonella typhi, which spreads via the fecal-oral route through contaminated food and water."
+    },
+    {
+      "id": "mt2_q20",
+      "topic": "Development",
+      "q": "Which principle states that development proceeds from the head downward (e.g., infants control their head before their legs)?",
+      "options": [
+        "A. Proximodistal principle",
+        "B. Cephalocaudal principle",
+        "C. Principle of integration",
+        "D. Principle of individual differences"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Cephalocaudal principle dictates that growth and motor control proceed from head to toe."
+    }
+  ]
+}
