@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 03 - Applications of Derivatives</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module B • Lesson 03</div>
+      <h1 class="slide-heading">Applications of Derivatives</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul>
+        <li>Find equations of tangent and normal lines.</li>
+        <li>Identify local maxima and minima.</li>
+        <li>Solve rate-of-change word problems.</li>
+        <li>Understand increasing and decreasing functions.</li>
+      </ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Tangents & Normals</h2>
+        <p>The derivative f'(x) is the slope <strong>m</strong> of the tangent line.</p>
+        <p>Tangent Eq: y - y<sub>1</sub> = m(x - x<sub>1</sub>)</p>
+        <p>Normal Eq: y - y<sub>1</sub> = -1/m(x - x<sub>1</sub>)</p>
+      </div>
+      <div class="col">
+        <h3>Rate of Change</h3>
+        <p>Derivatives represent how one variable changes relative to another (e.g., dy/dx, or dV/dt for volume over time).</p>
+      </div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Critical Points</h2>
+        <p>Points where f'(x) = 0 or is undefined.</p>
+        <p>These are the "peaks" and "valleys" of the graph.</p>
+      </div>
+      <div class="col">
+        <svg width="250" height="200" viewBox="-50 -20 350 250">
+          <line x1="0" y1="180" x2="300" y2="180" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <line x1="20" y1="200" x2="20" y2="0" stroke="var(--color-neutral-800)" stroke-width="2"/>
+
+          <path d="M 20 150 C 80 0, 150 0, 200 100 S 280 180, 290 80" fill="none" stroke="var(--color-primary-600)" stroke-width="3"/>
+          <circle cx="115" cy="40" r="5" fill="var(--color-accent-500)"/>
+          <circle cx="235" cy="145" r="5" fill="var(--color-accent-500)"/>
+        </svg>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Second Derivative Test</h2>
+      <p>At a critical point x = c (where f'(c) = 0):</p>
+      <ul>
+        <li>If f''(c) &gt; 0, the curve is concave UP &rarr; <strong>Local Minimum</strong>.</li>
+        <li>If f''(c) &lt; 0, the curve is concave DOWN &rarr; <strong>Local Maximum</strong>.</li>
+        <li>If f''(c) = 0, the test is inconclusive.</li>
+      </ul>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Find the local extrema of f(x) = x<sup>3</sup> - 3x + 2.</p>
+      <ul>
+        <li>f'(x) = 3x<sup>2</sup> - 3. Set to 0 &rarr; x = 1, x = -1.</li>
+        <li>f''(x) = 6x.</li>
+        <li>Test x=1: f''(1) = 6 &gt; 0 (Minimum).</li>
+        <li>Test x=-1: f''(-1) = -6 &lt; 0 (Maximum).</li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">Max at x=-1 (val=4), Min at x=1 (val=0)</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Exam Strategy</h2>
+        <p>For optimization word problems, always reduce the main equation to ONE variable before differentiating.</p>
+      </div>
+      <div class="col">
+        <h3>Common Trap</h3>
+        <p>Forgetting to check the endpoints of a closed interval when looking for Absolute Maximum/Minimum.</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul>
+        <li>Tangent slope = f'(x). Normal slope = -1/f'(x).</li>
+        <li>Find critical points: f'(x) = 0.</li>
+        <li>Use f''(x) to classify as max (-) or min (+).</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

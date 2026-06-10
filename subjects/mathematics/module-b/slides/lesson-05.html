@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 05 - Definite Integrals & Areas</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module B • Lesson 05</div>
+      <h1 class="slide-heading">Definite Integrals & Areas</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul>
+        <li>Master the Fundamental Theorem of Calculus.</li>
+        <li>Calculate area under and between curves.</li>
+        <li>Leverage definite integral properties for shortcuts.</li>
+      </ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Fundamental Theorem</h2>
+        <p>&int;<sub>a</sub><sup>b</sup> f(x)dx = F(b) - F(a)</p>
+        <p>Where F(x) is the antiderivative of f(x).</p>
+        <p>No '+ C' is needed!</p>
+      </div>
+      <div class="col">
+        <h3>Geometric Meaning</h3>
+        <p>Represents the signed area between the curve and the x-axis.</p>
+        <svg width="200" height="150" viewBox="-20 -20 220 170">
+          <line x1="0" y1="120" x2="200" y2="120" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <line x1="10" y1="130" x2="10" y2="0" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <path d="M 30 120 L 30 60 Q 90 10 150 50 L 150 120 Z" fill="var(--color-primary-100)" stroke="none"/>
+          <path d="M 10 90 Q 90 -20 180 80" fill="none" stroke="var(--color-primary-600)" stroke-width="2"/>
+          <text x="80" y="80" font-size="20">&int;</text>
+        </svg>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Area Between Curves</h2>
+      <p>Area = &int;<sub>a</sub><sup>b</sup> (Top Curve - Bottom Curve) dx</p>
+      <ul>
+        <li>Always sketch the graph first.</li>
+        <li>Find intersection points to determine the limits 'a' and 'b' if not given.</li>
+      </ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Symmetry Properties</h2>
+        <p>For limits from <strong>-a to a</strong>:</p>
+      </div>
+      <div class="col">
+        <h3>Odd vs Even</h3>
+        <ul>
+            <li><strong>Odd Function</strong> (f(-x) = -f(x)): Integral = <strong>0</strong>.</li>
+            <li><strong>Even Function</strong> (f(-x) = f(x)): Integral = <strong>2 * &int;<sub>0</sub><sup>a</sup> f(x)dx</strong>.</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Area under y = x<sup>2</sup> from x = 0 to 3.</p>
+      <ul>
+        <li>Integral: &int;<sub>0</sub><sup>3</sup> x<sup>2</sup> dx</li>
+        <li>Antiderivative: x<sup>3</sup>/3</li>
+        <li>Evaluate at 3: 3<sup>3</sup>/3 = 27/3 = 9</li>
+        <li>Evaluate at 0: 0</li>
+        <li>Result: 9 - 0 = 9</li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">9 sq. units</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Common Trap</h2>
+        <p>"Evaluate the integral" vs. "Find the Area"</p>
+      </div>
+      <div class="col">
+        <h3>The Difference</h3>
+        <p>Integrals can be negative. <strong>Area is strictly positive.</strong> If a curve dips below the x-axis, the area is the absolute value of the integral.</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul>
+        <li>Definite Integral: F(b) - F(a).</li>
+        <li>Area: Top minus Bottom.</li>
+        <li>Odd functions from -a to a evaluate to 0.</li>
+        <li>Area must be positive.</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

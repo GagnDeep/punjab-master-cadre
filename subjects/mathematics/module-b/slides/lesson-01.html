@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 01 - Limits & Continuity</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module B • Lesson 01</div>
+      <h1 class="slide-heading">Limits & Continuity</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul>
+        <li>Grasp the epsilon-delta intuition of limits.</li>
+        <li>Evaluate standard limits efficiently.</li>
+        <li>Master L'Hôpital's Rule for indeterminate forms.</li>
+        <li>Identify removable, jump, and infinite discontinuities.</li>
+        <li>Define continuity at a point rigorously.</li>
+      </ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>What is a Limit?</h2>
+        <p>A <strong>limit</strong> describes the value a function approaches as the input approaches a specific value.</p>
+        <p><strong>Formal Definition:</strong> For every &epsilon; &gt; 0, there exists a &delta; &gt; 0 such that if 0 &lt; |x - a| &lt; &delta;, then |f(x) - L| &lt; &epsilon;.</p>
+      </div>
+      <div class="col">
+        <h3>Continuity</h3>
+        <p>A function is <strong>continuous</strong> at x = a if:</p>
+        <ul>
+            <li>f(a) is defined</li>
+            <li>lim(x&rarr;a) f(x) exists</li>
+            <li>lim(x&rarr;a) f(x) = f(a)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Types of Discontinuity</h2>
+        <ul>
+            <li><strong>Removable:</strong> Limit exists, but f(a) is undefined or different.</li>
+            <li><strong>Jump:</strong> LHL &ne; RHL.</li>
+            <li><strong>Infinite:</strong> Asymptotes.</li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Visualizing Discontinuities</h3>
+        <svg width="300" height="200" viewBox="-50 -50 350 250">
+          <line x1="0" y1="150" x2="300" y2="150" stroke="var(--color-neutral-800)" stroke-width="2"/>
+          <line x1="20" y1="200" x2="20" y2="-20" stroke="var(--color-neutral-800)" stroke-width="2"/>
+
+          <path d="M 20 100 Q 60 40 100 80" fill="none" stroke="var(--color-primary-500)" stroke-width="3"/>
+          <circle cx="100" cy="80" r="4" fill="#fff" stroke="var(--color-primary-500)" stroke-width="2"/>
+
+          <path d="M 110 90 Q 150 120 180 80" fill="none" stroke="var(--color-accent-500)" stroke-width="3"/>
+          <circle cx="180" cy="80" r="4" fill="#fff" stroke="var(--color-accent-500)" stroke-width="2"/>
+          <circle cx="180" cy="120" r="4" fill="var(--color-accent-500)"/>
+          <path d="M 180 120 Q 220 160 260 100" fill="none" stroke="var(--color-accent-500)" stroke-width="3"/>
+        </svg>
+      </div>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">L'Hôpital's Rule</h2>
+      <p class="text-center text-xl mt-4">If lim f(x)/g(x) gives 0/0 or &infin;/&infin;</p>
+      <div class="stat-number">lim f'(x) / g'(x)</div>
+    </div>
+    <div class="slide slide-two-column">
+        <div class="col">
+            <h2>Standard Limits</h2>
+            <p>Memorize these for the exam:</p>
+            <ul>
+                <li>lim(x&rarr;0) sin(x)/x = 1</li>
+                <li>lim(x&rarr;0) tan(x)/x = 1</li>
+                <li>lim(x&rarr;0) (e<sup>x</sup> - 1)/x = 1</li>
+            </ul>
+        </div>
+        <div class="col">
+            <h3>Why?</h3>
+            <p>They allow you to bypass tedious L'Hôpital applications in complex fractions.</p>
+        </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Evaluate lim(x&rarr;2) (x<sup>2</sup> - 4)/(x - 2)</p>
+      <p><strong>Steps:</strong></p>
+      <ul>
+        <li>Direct sub: 0/0.</li>
+        <li>Factor numerator: (x - 2)(x + 2).</li>
+        <li>Cancel (x - 2) term.</li>
+        <li>Evaluate lim(x&rarr;2) (x + 2) = 4.</li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">4</div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Exam Pattern</h2>
+        <p>ERB loves functions with modulus like f(x) = |x| / x. They ask for LHL and RHL at x=0.</p>
+      </div>
+      <div class="col">
+        <h3>PYQ Focus</h3>
+        <p>Remember LHL = -1, RHL = 1. Since LHL &ne; RHL, the limit does not exist (Jump discontinuity).</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul>
+        <li>Limit: The value a function approaches.</li>
+        <li>Continuity: LHL = RHL = f(a).</li>
+        <li>0/0 or &infin;/&infin; forms? Use L'Hôpital's Rule.</li>
+        <li>Standard Limit: lim(x&rarr;0) sin(x)/x = 1</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>

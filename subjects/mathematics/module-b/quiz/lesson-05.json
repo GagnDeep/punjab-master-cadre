@@ -1,0 +1,110 @@
+{
+  "id": "quiz-05",
+  "title": "Quiz 05: Definite Integrals & Areas",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Fundamental Theorem",
+      "q": "Evaluate the integral of 2x dx from x=1 to x=3.",
+      "options": [
+        "4",
+        "6",
+        "8",
+        "10"
+      ],
+      "answerIndex": 2,
+      "explanation": "Antiderivative is x^2. Evaluate: 3^2 - 1^2 = 9 - 1 = 8."
+    },
+    {
+      "id": "q2",
+      "topic": "Properties",
+      "q": "Evaluate the integral of sin(x) dx from x = -pi to x = pi.",
+      "options": [
+        "-2",
+        "0",
+        "2",
+        "pi"
+      ],
+      "answerIndex": 1,
+      "explanation": "sin(x) is an odd function. The integral of an odd function from -a to a is always 0."
+    },
+    {
+      "id": "q3",
+      "topic": "Area",
+      "q": "Find the area bounded by the curve y = 3x^2, the x-axis, and the lines x = 0 and x = 2.",
+      "options": [
+        "6",
+        "8",
+        "12",
+        "24"
+      ],
+      "answerIndex": 1,
+      "explanation": "Integral of 3x^2 is x^3. Evaluate from 0 to 2: 2^3 - 0^3 = 8."
+    },
+    {
+      "id": "q4",
+      "topic": "Properties",
+      "q": "If integral of f(x) from 0 to 5 is 10, and integral of f(x) from 0 to 2 is 3, what is the integral of f(x) from 2 to 5?",
+      "options": [
+        "30",
+        "13",
+        "7",
+        "-7"
+      ],
+      "answerIndex": 2,
+      "explanation": "integral(0 to 5) = integral(0 to 2) + integral(2 to 5). So, 10 = 3 + x => x = 7."
+    },
+    {
+      "id": "q5",
+      "topic": "Area Between Curves",
+      "q": "To find the area between y = x^2 and y = x from x=0 to x=1, which integral should be set up?",
+      "options": [
+        "integral of (x^2 - x) dx",
+        "integral of (x - x^2) dx",
+        "integral of (x + x^2) dx",
+        "integral of (x^2 / x) dx"
+      ],
+      "answerIndex": 1,
+      "explanation": "On the interval (0,1), the line y=x is above the curve y=x^2. Area = Top - Bottom = x - x^2."
+    },
+    {
+      "id": "q6",
+      "topic": "Fundamental Theorem",
+      "q": "Evaluate integral of e^x dx from 0 to ln(2).",
+      "options": [
+        "1",
+        "2",
+        "e",
+        "ln(2)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Antiderivative is e^x. Evaluate: e^(ln 2) - e^0 = 2 - 1 = 1."
+    },
+    {
+      "id": "q7",
+      "topic": "Properties",
+      "q": "integral of f(x) dx from a to b is equal to:",
+      "options": [
+        "- integral of f(x) dx from b to a",
+        "integral of f(x) dx from b to a",
+        "f(b) + f(a)",
+        "0"
+      ],
+      "answerIndex": 0,
+      "explanation": "Reversing the limits of integration changes the sign of the definite integral."
+    },
+    {
+      "id": "q8",
+      "topic": "Area vs Integral",
+      "q": "The integral of x^3 from -1 to 1 is 0. What is the total AREA bounded by y=x^3 and the x-axis from x=-1 to x=1?",
+      "options": [
+        "0",
+        "1/4",
+        "1/2",
+        "1"
+      ],
+      "answerIndex": 2,
+      "explanation": "Area requires absolute values. Area = |integral from -1 to 0 of x^3| + |integral from 0 to 1 of x^3| = |-1/4| + |1/4| = 1/2."
+    }
+  ]
+}

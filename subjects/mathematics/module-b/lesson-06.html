@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Differential Equations - Module B - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module B</a> >
+      Lesson 06
+    </div>
+
+    <h1>Lesson 06: Differential Equations</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਡਿਫਰੈਂਸ਼ੀਅਲ ਸਮੀਕਰਨਾਂ (Differential Equations)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>This topic beautifully combines derivatives and integrals. Questions on finding the order, degree, and integrating factors of linear differential equations are direct and can be answered in seconds if you know the definitions.</p>
+        <p class="pa mt-2">ਇਹ ਵਿਸ਼ਾ ਡੈਰੀਵੇਟਿਵਜ਼ ਅਤੇ ਇੰਟੈਗਰਲਜ਼ ਨੂੰ ਖੂਬਸੂਰਤੀ ਨਾਲ ਜੋੜਦਾ ਹੈ। ਆਰਡਰ, ਡਿਗਰੀ, ਅਤੇ ਇੰਟੈਗਰੇਟਿੰਗ ਫੈਕਟਰ (I.F.) ਲੱਭਣ ਬਾਰੇ ਸਵਾਲ ਸਿੱਧੇ ਹੁੰਦੇ ਹਨ ਅਤੇ ਜੇਕਰ ਤੁਸੀਂ ਪਰਿਭਾਸ਼ਾਵਾਂ ਨੂੰ ਜਾਣਦੇ ਹੋ ਤਾਂ ਸਕਿੰਟਾਂ ਵਿੱਚ ਜਵਾਬ ਦਿੱਤਾ ਜਾ ਸਕਦਾ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Determine the order and degree of any differential equation.</li>
+        <li>Form a differential equation from a given family of curves.</li>
+        <li>Solve equations using the Variable Separable method.</li>
+        <li>Solve Linear First Order Differential Equations using the Integrating Factor (I.F.).</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>A <strong>Differential Equation (D.E.)</strong> is an equation that involves an independent variable, a dependent variable, and its derivatives. The <strong>Order</strong> is the highest derivative present in the equation. The <strong>Degree</strong> is the power of the highest order derivative, provided the equation is a polynomial in its derivatives (no derivatives inside sine, logs, or under fractional powers).</p>
+
+      <p>To <strong>form a D.E.</strong> from a family of curves like y = A sin(x) + B cos(x), you count the number of arbitrary constants (here, A and B, so 2). You must differentiate the equation that many times (twice) and eliminate the constants to get the D.E. The order of the resulting D.E. will exactly equal the number of arbitrary constants.</p>
+
+      <p>There are two main methods to solve first-order D.E.s that you need to master:</p>
+
+      <ol>
+        <li class="mb-4"><strong>Variable Separable:</strong> If you can rewrite the equation so that all 'y' terms are with 'dy' on one side, and all 'x' terms are with 'dx' on the other, just integrate both sides! Example: dy/dx = x/y &rarr; y dy = x dx &rarr; &int;y dy = &int;x dx &rarr; y<sup class="sup">2</sup>/2 = x<sup class="sup">2</sup>/2 + C.</li>
+
+        <li><strong>Linear First Order D.E.:</strong> This takes the standard form <strong><span class="fraction"><span>dy</span><span class="bottom">dx</span></span> + P(x)y = Q(x)</strong>. To solve it, first find the Integrating Factor (I.F.): <strong>I.F. = e<sup class="sup">&int;P(x)dx</sup></strong>. The general solution is then simply: <strong>y &middot; (I.F.) = &int;Q(x) &middot; (I.F.) dx + C</strong>.</li>
+      </ol>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Solve the differential equation <span class="fraction"><span>dy</span><span class="bottom">dx</span></span> + <span class="fraction"><span>y</span><span class="bottom">x</span></span> = x<sup class="sup">2</sup>.</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Recognize the Linear form: dy/dx + P(x)y = Q(x). Here, P(x) = 1/x and Q(x) = x<sup class="sup">2</sup>.</p>
+        <p><strong>Step 2:</strong> Calculate the Integrating Factor (I.F.): I.F. = e<sup class="sup">&int;(1/x)dx</sup>.</p>
+        <p><strong>Step 3:</strong> Since &int;(1/x)dx = ln|x|, we have I.F. = e<sup class="sup">ln(x)</sup> = x.</p>
+        <p><strong>Step 4:</strong> Apply the formula: y &middot; (I.F.) = &int;Q(x) &middot; (I.F.) dx.</p>
+        <p><strong>Step 5:</strong> Substitute: y &middot; x = &int;(x<sup class="sup">2</sup>) &middot; x dx = &int;x<sup class="sup">3</sup> dx.</p>
+        <p><strong>Step 6:</strong> Integrate: xy = x<sup class="sup">4</sup>/4 + C.</p>
+        <p class="mt-4"><strong>Answer:</strong> xy = <span class="fraction"><span>x<sup class="sup">4</sup></span><span class="bottom">4</span></span> + C</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>They often ask for just the Integrating Factor, not the full solution. For the equation x(dy/dx) + 2y = x&sup3;, remember you must divide by 'x' first to get it into the standard form dy/dx + (2/x)y = x&sup2; before finding P(x).</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Order: Highest derivative. Degree: Power of highest derivative.</li>
+        <li>No. of arbitrary constants = Order of the D.E.</li>
+        <li>Variable Separable: Get x with dx, y with dy.</li>
+        <li>Linear D.E.: I.F. = e<sup class="sup">&int;P dx</sup>. Sol: y(I.F.) = &int;Q(I.F.)dx.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-06.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਵਿਦਿਆਰਥੀਓ, ਕੈਲਕੂਲਸ ਦੇ ਆਖਰੀ ਪੜਾਅ 'ਤੇ ਤੁਹਾਡਾ ਸਵਾਗਤ ਹੈ! ਅੱਜ ਅਸੀਂ ਡਿਫਰੈਂਸ਼ੀਅਲ ਸਮੀਕਰਨਾਂ (Differential Equations) ਬਾਰੇ ਪੜ੍ਹਾਂਗੇ। ਜੇਕਰ ਤੁਹਾਨੂੰ ਡੈਰੀਵੇਟਿਵਜ਼ ਅਤੇ ਇੰਟੈਗਰੇਸ਼ਨ ਆਉਂਦੀ ਹੈ, ਤਾਂ ਇਹ ਟੌਪਿਕ ਤੁਹਾਡੇ ਲਈ ਬਹੁਤ ਸੌਖਾ ਹੋਵੇਗਾ। ਸਭ ਤੋਂ ਪਹਿਲਾਂ, ਆਰਡਰ (Order) ਅਤੇ ਡਿਗਰੀ (Degree) ਸਮਝੋ। ਸਮੀਕਰਨ ਵਿੱਚ ਸਭ ਤੋਂ ਵੱਡਾ ਡੈਰੀਵੇਟਿਵ ਕਿਹੜਾ ਹੈ? ਜੇਕਰ d²y/dx² ਹੈ, ਤਾਂ ਆਰਡਰ 2 ਹੈ! ਫਿਰ ਦੇਖੋ ਉਸ ਸਭ ਤੋਂ ਵੱਡੇ ਡੈਰੀਵੇਟਿਵ ਦੀ ਪਾਵਰ (power) ਕੀ ਹੈ, ਉਹ ਉਸਦੀ ਡਿਗਰੀ ਹੋਵੇਗੀ। ਪਰ ਧਿਆਨ ਰੱਖਣਾ, ਜੇਕਰ ਕੋਈ ਡੈਰੀਵੇਟਿਵ sin, cos, ਜਾਂ log ਦੇ ਅੰਦਰ ਫਸਿਆ ਹੋਇਆ ਹੈ, ਤਾਂ ਡਿਗਰੀ 'ਪਰਿਭਾਸ਼ਿਤ ਨਹੀਂ' (not defined) ਹੋਵੇਗੀ।</p>
+          <p>ਇੱਕ ਹੋਰ ਸਵਾਲ ਜੋ ਅਕਸਰ ਆਉਂਦਾ ਹੈ: ਇੱਕ ਸਮੀਕਰਨ ਤੋਂ ਡਿਫਰੈਂਸ਼ੀਅਲ ਸਮੀਕਰਨ ਬਣਾਉਣਾ। ਜਿੰਨੇ ਉਸ ਵਿੱਚ 'arbitrary constants' (ਜਿਵੇਂ A, B, C) ਹੋਣਗੇ, ਤੁਹਾਨੂੰ ਓਨੀ ਵਾਰ ਹੀ ਡੈਰੀਵੇਟਿਵ ਕਰਨਾ ਪਵੇਗਾ। ਜੇਕਰ ਸਮੀਕਰਨ ਵਿੱਚ ਦੋ constant ਹਨ, ਤਾਂ ਆਰਡਰ 2 ਵਾਲੀ D.E. ਬਣੇਗੀ!</p>
+          <p>ਹੁਣ ਗੱਲ ਕਰਦੇ ਹਾਂ ਇਨ੍ਹਾਂ ਨੂੰ ਹੱਲ ਕਿਵੇਂ ਕਰਨਾ ਹੈ। ਪਹਿਲਾ ਤਰੀਕਾ ਹੈ "Variable Separable"। ਇਸਦਾ ਮਤਲਬ ਹੈ ਸਾਰੇ x ਵਾਲੇ ਪਦਾਂ ਨੂੰ dx ਦੇ ਪਾਸੇ ਲੈ ਜਾਓ ਅਤੇ y ਵਾਲਿਆਂ ਨੂੰ dy ਦੇ ਪਾਸੇ। ਜਦੋਂ ਉਹ ਵੱਖ-ਵੱਖ ਹੋ ਜਾਣ, ਤਾਂ ਦੋਵਾਂ ਪਾਸੇ ਇੰਟੈਗਰੇਸ਼ਨ ਦਾ ਨਿਸ਼ਾਨ ਲਗਾਓ ਅਤੇ ਹੱਲ ਕਰ ਦਿਓ।</p>
+          <p>ਦੂਜਾ ਅਤੇ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਤਰੀਕਾ ਹੈ "Linear Differential Equations"। ਇਹ dy/dx + Py = Q ਦੇ ਰੂਪ ਵਿੱਚ ਹੁੰਦੀਆਂ ਹਨ। ਇੱਥੇ P ਅਤੇ Q ਸਿਰਫ਼ x ਵਾਲੇ ਫੰਕਸ਼ਨ ਹੁੰਦੇ ਹਨ। ਇਸਨੂੰ ਹੱਲ ਕਰਨ ਲਈ ਸਾਨੂੰ "Integrating Factor" (I.F.) ਦੀ ਲੋੜ ਪੈਂਦੀ ਹੈ, ਜੋ ਕਿ e ਦੀ ਪਾਵਰ ਵਿੱਚ P ਦਾ ਇੰਟੈਗਰੇਸ਼ਨ ਹੁੰਦਾ ਹੈ। ਕਈ ਵਾਰ ਪੇਪਰ ਵਿੱਚ ਸਿਰਫ਼ I.F. ਹੀ ਪੁੱਛ ਲਿਆ ਜਾਂਦਾ ਹੈ, ਇਸਲਈ ਇਸਦਾ ਫਾਰਮੂਲਾ e^∫Pdx ਚੰਗੀ ਤਰ੍ਹਾਂ ਰਟ ਲਓ! ਅਖੀਰ ਵਿੱਚ, ਹੱਲ ਕੱਢਣ ਲਈ y ਨੂੰ I.F. ਨਾਲ ਗੁਣਾ ਕਰੋ ਅਤੇ ਬਰਾਬਰ ਦੇ ਦੂਜੇ ਪਾਸੇ Q ਅਤੇ I.F. ਦੀ ਗੁਣਾ ਦਾ ਇੰਟੈਗਰੇਸ਼ਨ ਕਰ ਦਿਓ। ਇਹ ਬਹੁਤ ਸਿੱਧੇ ਸਵਾਲ ਹੁੰਦੇ ਹਨ ਜੋ ਤੁਹਾਡੀ ਮੈਰਿਟ ਵਧਾਉਣਗੇ!</p>
+        <p>ਵਿਦਿਆਰਥੀਓ, ਡਿਫਰੈਂਸ਼ੀਅਲ ਸਮੀਕਰਨਾਂ ਵਿੱਚ ਮਾਸਟਰ ਬਣਨ ਲਈ ਇੱਕ ਹੋਰ ਗੱਲ ਦਾ ਧਿਆਨ ਰੱਖੋ। ਕਈ ਵਾਰ ਸਵਾਲ 'ਹੋਮੋਜੀਨੀਅਸ' (Homogeneous) ਸਮੀਕਰਨਾਂ ਦਾ ਆ ਜਾਂਦਾ ਹੈ। ਇਸਦਾ ਪਤਾ ਕਿਵੇਂ ਲੱਗਦਾ ਹੈ? ਜੇਕਰ ਸਮੀਕਰਨ ਦੇ ਹਰ ਹਿੱਸੇ ਵਿੱਚ x ਅਤੇ y ਦੀਆਂ ਘਾਤਾਂ (powers) ਦਾ ਜੋੜ ਬਰਾਬਰ ਹੋਵੇ, ਤਾਂ ਉਹ ਹੋਮੋਜੀਨੀਅਸ ਹੁੰਦੀ ਹੈ। ਅਜਿਹੇ ਸਵਾਲਾਂ ਵਿੱਚ ਅਸੀਂ ਹਮੇਸ਼ਾ y = vx ਰੱਖਦੇ ਹਾਂ, ਅਤੇ ਫਿਰ dy/dx ਕੱਢ ਕੇ ਸਮੀਕਰਨ ਨੂੰ ਬਦਲ ਲੈਂਦੇ ਹਾਂ। ਇਸ ਨਾਲ ਸਵਾਲ 'ਵੇਰੀਏਬਲ ਸੈਪਰੇਬਲ' (Variable Separable) ਬਣ ਜਾਂਦਾ ਹੈ। ਇਹ ਬਹੁਤ ਹੀ ਖਾਸ ਤਰੀਕਾ ਹੈ! ਇਸਤੋਂ ਇਲਾਵਾ, ਲੀਨੀਅਰ (Linear) ਡਿਫਰੈਂਸ਼ੀਅਲ ਸਮੀਕਰਨਾਂ ਵਿੱਚ ਕਈ ਵਾਰ ਸਮੀਕਰਨ x ਵਿੱਚ ਲੀਨੀਅਰ ਹੁੰਦੀ ਹੈ, ਨਾ ਕਿ y ਵਿੱਚ (ਯਾਨੀ ਕਿ dx/dy + Px = Q)। ਅਜਿਹੀ ਸਥਿਤੀ ਵਿੱਚ ਧਿਆਨ ਰੱਖਣਾ ਕਿ ਇੰਟੈਗਰੇਟਿੰਗ ਫੈਕਟਰ (I.F.) e ਦੀ ਪਾਵਰ ਵਿੱਚ P ਦਾ y ਦੇ ਹਿਸਾਬ ਨਾਲ ਇੰਟੈਗਰੇਸ਼ਨ ਹੋਵੇਗਾ (e^∫Pdy)। ਇਹ ਉਲਟਾਫੇਰ ਬੱਚਿਆਂ ਨੂੰ ਬਹੁਤ ਉਲਝਾਉਂਦਾ ਹੈ, ਇਸਲਈ ਪੇਪਰ ਵਿੱਚ ਧਿਆਨ ਨਾਲ ਦੇਖਣਾ ਕਿ ਸਮੀਕਰਨ ਕਿਸ ਫਾਰਮ ਵਿੱਚ ਹੈ। ਇੱਕ ਹੋਰ ਮਹੱਤਵਪੂਰਨ ਕੰਸੈਪਟ ਹੈ 'ਇਕਜ਼ੈਕਟ ਡਿਫਰੈਂਸ਼ੀਅਲ ਇਕੁਏਸ਼ਨ' (Exact Differential Equation), ਹਾਲਾਂਕਿ ਇਹ ਕਦੇ-ਕਦੇ ਹੀ ਆਉਂਦਾ ਹੈ, ਪਰ ਜੇਕਰ Mdx + Ndy = 0 ਦੇ ਰੂਪ ਵਿੱਚ ਹੋਵੇ ਅਤੇ ∂M/∂y = ∂N/∂x ਹੋਵੇ, ਤਾਂ ਇਹ ਇਕਜ਼ੈਕਟ ਹੁੰਦੀ ਹੈ। ਇਸਦਾ ਸਿੱਧਾ ਹੱਲ ਵੀ ਕੱਢਿਆ ਜਾ ਸਕਦਾ ਹੈ। ਅੰਤ ਵਿੱਚ, ਇਨ੍ਹਾਂ ਸਾਰੇ ਤਰੀਕਿਆਂ ਦੀ ਚੰਗੀ ਤਰ੍ਹਾਂ ਪਛਾਣ ਕਰਨਾ ਸਿੱਖੋ। ਜਦੋਂ ਤੁਸੀਂ ਸਵਾਲ ਦੇਖਦੇ ਹੋ, ਤਾਂ ਤੁਹਾਡੇ ਦਿਮਾਗ ਵਿੱਚ ਇੱਕ ਦਮ ਆਉਣਾ চরਹੀਦਾ ਹੈ ਕਿ ਇੱਥੇ ਕਿਹੜਾ ਤਰੀਕਾ ਲੱਗੇਗਾ। ਇਹ ਸਪੀਡ ਹੀ ਤੁਹਾਨੂੰ ਮੈਰਿਟ ਵਿੱਚ ਲੈ ਕੇ ਜਾਵੇਗੀ। ਆਪਣੀ ਤਿਆਰੀ ਜਾਰੀ ਰੱਖੋ, ਸਫਲਤਾ ਤੁਹਾਡੇ ਕਦਮ ਚੁੰਮੇਗੀ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-06.json');</script>
+</body></html>

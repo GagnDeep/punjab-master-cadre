@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Indefinite Integrals - Module B - Mathematics - Punjab Master Cadre 2026</title>
+  <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../assets/css/slides.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links"><a href="../../../courses.html">Courses</a></nav>
+    </div>
+</header>
+<main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../index.html" class="text-neutral-500">Mathematics</a> >
+      <a href="index.html" class="text-neutral-500">Module B</a> >
+      Lesson 04
+    </div>
+
+    <h1>Lesson 04: Indefinite Integrals</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਅਨਿਸ਼ਚਿਤ ਇੰਟੈਗਰਲਜ਼ (Indefinite Integrals)</p>
+
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Integration is the reverse of differentiation. The ERB exam heavily tests integration by substitution and integration by parts. Memorizing standard forms is non-negotiable for saving time.</p>
+        <p class="pa mt-2">ਇੰਟੈਗਰੇਸ਼ਨ ਡਿਫਰੈਂਸ਼ੀਏਸ਼ਨ ਦਾ ਉਲਟ ਹੈ। ERB ਇਮਤਿਹਾਨ ਭਾਗਾਂ ਦੁਆਰਾ ਇੰਟੈਗਰੇਸ਼ਨ ਅਤੇ ਪ੍ਰਤੀਸਥਾਪਨ ਦੁਆਰਾ ਇੰਟੈਗਰੇਸ਼ਨ ਦੀ ਬਹੁਤ ਜਾਂਚ ਕਰਦਾ ਹੈ। ਸਮਾਂ ਬਚਾਉਣ ਲਈ ਮਿਆਰੀ ਫਾਰਮਾਂ ਨੂੰ ਯਾਦ ਕਰਨਾ ਲਾਜ਼ਮੀ ਹੈ।</p>
+      </div>
+    </section>
+
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Understand integration as an anti-derivative and the necessity of the constant 'C'.</li>
+        <li>Memorize the integrals of standard algebraic, trigonometric, and exponential functions.</li>
+        <li>Master the method of Integration by Substitution.</li>
+        <li>Apply the Integration by Parts formula correctly.</li>
+      </ul>
+    </section>
+
+    <section id="concept" class="mb-8">
+      <h2>Core Concepts and Exam Focus</h2>
+      <p>An <strong>Indefinite Integral</strong> represents the family of all antiderivatives of a function. Because the derivative of any constant is zero, we must always add an arbitrary constant <strong>C</strong> to our result. If <span class="fraction"><span>d</span><span class="bottom">dx</span></span>F(x) = f(x), then &int;f(x)dx = F(x) + C.</p>
+
+      <p>The core standard forms must be at your fingertips:</p>
+      <ul>
+          <li><strong>Power Rule:</strong> &int;x<sup class="sup">n</sup> dx = <span class="fraction"><span>x<sup class="sup">n+1</sup></span><span class="bottom">n+1</span></span> + C (for n &ne; -1)</li>
+          <li><strong>Logarithmic:</strong> &int;(1/x) dx = ln|x| + C</li>
+          <li><strong>Exponential:</strong> &int;e<sup class="sup">x</sup> dx = e<sup class="sup">x</sup> + C</li>
+          <li><strong>Trigonometric:</strong> &int;cos(x) dx = sin(x) + C, and &int;sin(x) dx = -cos(x) + C (mind the negative sign!)</li>
+      </ul>
+
+      <p>When you encounter a composite function multiplied by the derivative of its inner function, use <strong>Integration by Substitution</strong>. Let u equal the inner function, find du, and substitute to simplify the integral into a standard form.</p>
+
+      <p>When dealing with the product of two functions, use <strong>Integration by Parts</strong>: &int;u dv = uv - &int;v du. To choose which function should be 'u' and which should be 'dv', use the <strong>ILATE</strong> rule (Inverse trig, Logarithmic, Algebraic, Trigonometric, Exponential). The function that comes first in ILATE should be your 'u'.</p>
+    </section>
+
+    <section id="examples" class="mb-8">
+      <h2>Worked Example</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> Evaluate &int;x &middot; cos(x<sup class="sup">2</sup>) dx</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Recognize that the derivative of x<sup class="sup">2</sup> is 2x, and we have an 'x' in our integrand. This is a classic Substitution problem.</p>
+        <p><strong>Step 2:</strong> Let u = x<sup class="sup">2</sup>.</p>
+        <p><strong>Step 3:</strong> Differentiate: du = 2x dx. Therefore, x dx = du / 2.</p>
+        <p><strong>Step 4:</strong> Substitute into the integral: &int;cos(u) &middot; (du / 2) = (1/2)&int;cos(u) du.</p>
+        <p><strong>Step 5:</strong> Integrate: (1/2)sin(u) + C.</p>
+        <p><strong>Step 6:</strong> Substitute 'u' back: (1/2)sin(x<sup class="sup">2</sup>) + C.</p>
+        <p class="mt-4"><strong>Answer:</strong> <span class="fraction"><span>sin(x<sup class="sup">2</sup>)</span><span class="bottom">2</span></span> + C</p>
+      </div>
+    </section>
+
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>Questions like &int;e<sup class="sup">x</sup>[f(x) + f'(x)]dx are very common. The answer is simply e<sup class="sup">x</sup>f(x) + C. If you spot this pattern, you don't need to do any work—just write the answer!</p>
+      </div>
+    </section>
+
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>Always add '+ C'.</li>
+        <li>Substitution: Look for a function and its derivative.</li>
+        <li>By Parts: &int;u dv = uv - &int;v du.</li>
+        <li>Use ILATE to choose 'u' for Integration by Parts.</li>
+      </ul>
+    </section>
+
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-04.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4" style="line-height: 1.8;">
+          <p>ਵਿਦਿਆਰਥੀਓ, ਕੈਲਕੂਲਸ ਦੀ ਇਸ ਕਲਾਸ ਵਿੱਚ ਅਸੀਂ ਇੰਟੈਗਰੇਸ਼ਨ (Integration) ਬਾਰੇ ਗੱਲ ਕਰਾਂਗੇ, ਜਿਸਨੂੰ ਅਸੀਂ ਐਂਟੀ-ਡੈਰੀਵੇਟਿਵ (Anti-derivative) ਵੀ ਕਹਿੰਦੇ ਹਾਂ। ਡੈਰੀਵੇਟਿਵ ਦਾ ਮਤਲਬ ਸੀ ਚੀਜ਼ਾਂ ਨੂੰ ਤੋੜਨਾ, ਅਤੇ ਇੰਟੈਗਰੇਸ਼ਨ ਦਾ ਮਤਲਬ ਹੈ ਉਹਨਾਂ ਨੂੰ ਵਾਪਸ ਜੋੜਨਾ! ਇਹ ਡੈਰੀਵੇਟਿਵ ਦੀ ਬਿਲਕੁਲ ਉਲਟ ਪ੍ਰਕਿਰਿਆ ਹੈ। ਪਰ ਇੱਕ ਗੱਲ ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖਣੀ ਹੈ: ਅੰਤ ਵਿੱਚ ਹਮੇਸ਼ਾ '+ C' (constant of integration) ਲਗਾਉਣਾ ਹੈ, ਕਿਉਂਕਿ ਕਿਸੇ ਵੀ constant ਦਾ ਡੈਰੀਵੇਟਿਵ ਜ਼ੀਰੋ ਹੁੰਦਾ ਹੈ, ਸਾਨੂੰ ਨਹੀਂ ਪਤਾ ਕਿ ਅਸਲ ਫੰਕਸ਼ਨ ਵਿੱਚ ਕੋਈ constant ਸੀ ਜਾਂ ਨਹੀਂ।</p>
+          <p>ਜਿਵੇਂ ਤੁਹਾਨੂੰ ਡੈਰੀਵੇਟਿਵਜ਼ ਦੇ ਫਾਰਮੂਲੇ ਯਾਦ ਹਨ, ਉਸੇ ਤਰ੍ਹਾਂ ਇੰਟੈਗਰੇਸ਼ਨ ਦੇ ਵੀ ਫਾਰਮੂਲੇ ਰਟ ਲਓ! ਉਦਾਹਰਨ ਲਈ, cos(x) ਦਾ ਇੰਟੈਗਰਲ sin(x) ਹੈ, ਪਰ sin(x) ਦਾ ਇੰਟੈਗਰਲ -cos(x) ਹੈ। ਇਹ ਮਾਈਨਸ ਦਾ ਨਿਸ਼ਾਨ ਪੇਪਰ ਵਿੱਚ ਬਹੁਤ ਗਲਤੀਆਂ ਕਰਵਾਉਂਦਾ ਹੈ, ਇਸਲਈ ਧਿਆਨ ਰੱਖਣਾ!</p>
+          <p>ਹੁਣ ਗੱਲ ਕਰਦੇ ਹਾਂ 'ਸਬਸਟੀਟਿਊਸ਼ਨ' (Substitution) ਵਿਧੀ ਦੀ। ਜਦੋਂ ਸਵਾਲ ਵਿੱਚ ਇੱਕ ਫੰਕਸ਼ਨ ਹੋਵੇ ਅਤੇ ਨਾਲ ਹੀ ਉਸਦਾ ਡੈਰੀਵੇਟਿਵ ਵੀ ਗੁਣਾ ਹੋ ਰਿਹਾ ਹੋਵੇ, ਤਾਂ ਸਮਝ ਜਾਓ ਕਿ ਇਹ ਸਬਸਟੀਟਿਊਸ਼ਨ ਦਾ ਸਵਾਲ ਹੈ। ਅਸੀਂ ਮੁੱਖ ਫੰਕਸ਼ਨ ਨੂੰ 'u' ਮੰਨਦੇ ਹਾਂ, ਅਤੇ ਉਸਦੇ ਡੈਰੀਵੇਟਿਵ ਨੂੰ 'du' ਵਿੱਚ ਬਦਲ ਦਿੰਦੇ ਹਾਂ। ਇਸ ਨਾਲ ਵੱਡਾ ਸਾਰਾ ਸਵਾਲ ਇੱਕ ਛੋਟੇ ਜਿਹੇ ਫਾਰਮੂਲੇ ਵਿੱਚ ਬਦਲ ਜਾਂਦਾ ਹੈ।</p>
+          <p>ਦੂਜੀ ਸਭ ਤੋਂ ਮਹੱਤਵਪੂਰਨ ਵਿਧੀ ਹੈ 'ਇੰਟੈਗਰੇਸ਼ਨ ਬਾਏ ਪਾਰਟਸ' (Integration by Parts)। ਜਦੋਂ ਦੋ ਵੱਖ-ਵੱਖ ਤਰ੍ਹਾਂ ਦੇ ਫੰਕਸ਼ਨ (ਜਿਵੇਂ x ਅਤੇ sin x) ਗੁਣਾ ਹੋ ਰਹੇ ਹੋਣ, ਤਾਂ ਅਸੀਂ ਇਹ ਫਾਰਮੂਲਾ ਵਰਤਦੇ ਹਾਂ। ਪਰ ਸਭ ਤੋਂ ਵੱਡਾ ਸਵਾਲ ਇਹ ਹੁੰਦਾ ਹੈ ਕਿ ਕਿਸਨੂੰ 'u' ਮੰਨਣਾ ਹੈ ਅਤੇ ਕਿਸਨੂੰ 'dv'? ਇਸਦੇ ਲਈ ਇੱਕ ਜਾਦੂਈ ਸ਼ਬਦ ਹੈ: ILATE (Inverse, Logarithmic, Algebraic, Trigonometric, Exponential)। ਜਿਹੜਾ ਫੰਕਸ਼ਨ ਇਸ ਲਿਸਟ ਵਿੱਚ ਪਹਿਲਾਂ ਆਉਂਦਾ ਹੈ, ਉਸਨੂੰ ਹਮੇਸ਼ਾ 'u' ਮੰਨੋ!</p>
+          <p>ਅੰਤ ਵਿੱਚ, ਇੱਕ ਬਹੁਤ ਹੀ ਖਾਸ ਫਾਰਮੂਲਾ ਹੈ ਜੋ ERB ਪੇਪਰ ਵਿੱਚ ਅਕਸਰ ਆਉਂਦਾ ਹੈ: &int;e^x [f(x) + f'(x)] dx। ਜਦੋਂ e ਦੀ ਪਾਵਰ x ਦੇ ਨਾਲ ਬਰੈਕਟ ਵਿੱਚ ਇੱਕ ਫੰਕਸ਼ਨ ਅਤੇ ਉਸਦਾ ਡੈਰੀਵੇਟਿਵ ਜੁੜ ਰਹੇ ਹੋਣ, ਤਾਂ ਤੁਹਾਨੂੰ ਹੱਲ ਕਰਨ ਦੀ ਲੋੜ ਨਹੀਂ ਹੈ। ਸਿੱਧਾ ਜਵਾਬ e^x * f(x) + C ਹੁੰਦਾ ਹੈ। ਇਹ ਛੋਟੀਆਂ-ਛੋਟੀਆਂ ਟ੍ਰਿਕਸ (tricks) ਹੀ ਤੁਹਾਡਾ ਸਮਾਂ ਬਚਾਉਣਗੀਆਂ!</p>
+        <p>ਪਿਆਰੇ ਬੱਚਿਓ, ਇੰਟੈਗਰੇਸ਼ਨ ਦੇ ਸਫਰ ਵਿੱਚ ਕੁਝ ਹੋਰ ਮਹੱਤਵਪੂਰਨ ਗੱਲਾਂ ਧਿਆਨ ਵਿੱਚ ਰੱਖੋ। ਜਦੋਂ ਵੀ ਤੁਸੀਂ ਕਿਸੇ ਸਵਾਲ ਵਿੱਚ ਫਸ ਜਾਓ, ਤਾਂ ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਸੋਚੋ ਕਿ ਕੀ ਇੱਥੇ ਕੋਈ ਸਬਸਟੀਟਿਊਸ਼ਨ (substitution) ਲੱਗ ਸਕਦੀ ਹੈ? ਕਈ ਵਾਰ ਸਾਨੂੰ ਸਿੱਧਾ ਡੈਰੀਵੇਟਿਵ ਨਜ਼ਰ ਨਹੀਂ ਆਉਂਦਾ, ਪਰ ਜੇਕਰ ਅਸੀਂ ਫੰਕਸ਼ਨ ਨੂੰ ਥੋੜ੍ਹਾ ਜਿਹਾ ਸੈੱਟ (manipulate) ਕਰੀਏ, ਤਾਂ ਉਹ ਸਾਹਮਣੇ ਆ ਜਾਂਦਾ ਹੈ। ਜਿਵੇਂ ਕਿ ਜੇਕਰ ਉੱਪਰ x ਆ ਰਿਹਾ ਹੈ ਅਤੇ ਹੇਠਾਂ x² + 1 ਹੈ, ਤਾਂ x² + 1 ਨੂੰ 'u' ਮੰਨਣ ਨਾਲ ਸਾਡਾ ਕੰਮ ਬਹੁਤ ਸੌਖਾ ਹੋ ਜਾਂਦਾ ਹੈ। ਇੰਟੈਗਰੇਸ਼ਨ ਬਾਏ ਪਾਰਟਸ (Integration by parts) ਵਿੱਚ ILATE ਰੂਲ ਨੂੰ ਹਮੇਸ਼ਾ ਯਾਦ ਰੱਖੋ, ਪਰ ਕਈ ਵਾਰ ਕੁਝ ਖਾਸ ਸਵਾਲਾਂ ਵਿੱਚ ਸਾਨੂੰ ਥੋੜ੍ਹਾ ਵੱਖਰਾ ਵੀ ਸੋਚਣਾ ਪੈ ਸਕਦਾ ਹੈ। ਉਦਾਹਰਨ ਲਈ, ਜੇਕਰ ਸਿਰਫ਼ ln(x) ਦਾ ਇੰਟੈਗਰੇਸ਼ਨ ਕਰਨਾ ਹੋਵੇ, ਤਾਂ ਅਸੀਂ 1 ਨੂੰ ਦੂਜਾ ਫੰਕਸ਼ਨ ਮੰਨ ਕੇ ਚੱਲਦੇ ਹਾਂ। ਇਹ ਇੱਕ ਬਹੁਤ ਹੀ ਮਸ਼ਹੂਰ ਟ੍ਰਿਕ (trick) ਹੈ ਜੋ ਪੇਪਰ ਵਿੱਚ ਕੰਮ ਆਉਂਦੀ ਹੈ। ਇਸ ਤੋਂ ਇਲਾਵਾ, ਪਾਰਸ਼ੀਅਲ ਫਰੈਕਸ਼ਨਜ਼ (Partial Fractions) ਵੀ ਇੱਕ ਬਹੁਤ ਹੀ ਜ਼ਬਰਦਸਤ ਤਰੀਕਾ ਹੈ, ਖਾਸ ਕਰਕੇ ਜਦੋਂ ਸਾਡੇ ਕੋਲ ਪੋਲੀਨੋਮੀਅਲਜ਼ (polynomials) ਦਾ ਕੋਸ਼ੈਂਟ (quotient) ਹੋਵੇ। ਹਮੇਸ਼ਾ ਯਕੀਨੀ ਬਣਾਓ ਕਿ ਉੱਪਰਲੇ ਹਿੱਸੇ ਦੀ ਡਿਗਰੀ (degree) ਹੇਠਲੇ ਹਿੱਸੇ ਤੋਂ ਘੱਟ ਹੋਵੇ। ਜੇਕਰ ਨਹੀਂ, ਤਾਂ ਪਹਿਲਾਂ ਲੰਬੀ ਵੰਡ (long division) ਕਰੋ। ਇਹ ਸਾਰੀਆਂ ਤਕਨੀਕਾਂ ਤੁਹਾਡੇ ਤਰਕਸ਼ (quiver) ਵਿੱਚ ਤੀਰਾਂ ਵਾਂਗ ਹਨ। ਤੁਹਾਨੂੰ ਪਤਾ ਹੋਣਾ ਚਾਹੀਦਾ ਹੈ ਕਿ ਕਿਹੜੇ ਸਵਾਲ 'ਤੇ ਕਿਹੜਾ ਤੀਰ ਚਲਾਉਣਾ ਹੈ। ਅਭਿਆਸ ਕਰਦੇ ਰਹੋ ਅਤੇ ਹੌਸਲਾ ਨਾ ਛੱਡੋ, ਇੰਟੈਗਰੇਸ਼ਨ ਤੁਹਾਡੀ ਸਭ ਤੋਂ ਚੰਗੀ ਦੋਸਤ ਬਣ ਸਕਦੀ ਹੈ!</p>
+        </div>
+      </details>
+    </section>
+</main>
+<footer class="site-footer">
+    <div class="container text-center text-neutral-500 text-sm">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+</footer>
+<script src="../../../assets/js/quiz-engine.js"></script>
+<script>new QuizEngine('lesson-quiz-container', 'quiz/lesson-04.json');</script>
+</body></html>

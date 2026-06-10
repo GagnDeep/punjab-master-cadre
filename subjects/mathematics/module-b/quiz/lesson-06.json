@@ -1,0 +1,108 @@
+{
+  "id": "quiz-06",
+  "title": "Quiz 06: Differential Equations",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Order & Degree",
+      "q": "What is the order and degree of the differential equation: (d^2y/dx^2)^3 + dy/dx = sin(x)?",
+      "options": [
+        "Order 1, Degree 3",
+        "Order 2, Degree 3",
+        "Order 2, Degree 1",
+        "Order 3, Degree 2"
+      ],
+      "answerIndex": 1,
+      "explanation": "The highest derivative is the second derivative (Order 2). Its power is 3 (Degree 3)."
+    },
+    {
+      "id": "q2",
+      "topic": "Order & Degree",
+      "q": "What is the degree of the differential equation: d^2y/dx^2 + sin(dy/dx) = 0?",
+      "options": [
+        "1",
+        "2",
+        "0",
+        "Not Defined"
+      ],
+      "answerIndex": 3,
+      "explanation": "Because a derivative (dy/dx) is the argument of the sine function, the equation is not a polynomial in its derivatives, so the degree is not defined."
+    },
+    {
+      "id": "q3",
+      "topic": "Forming D.E.",
+      "q": "If a family of curves is given by y = A e^(2x) + B e^(-2x), what will be the order of its corresponding differential equation?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "There are two arbitrary constants (A and B), so the differential equation will be of order 2."
+    },
+    {
+      "id": "q4",
+      "topic": "Variable Separable",
+      "q": "Solve the differential equation dy/dx = y / x.",
+      "options": [
+        "y = x + C",
+        "y = C x",
+        "x^2 + y^2 = C",
+        "xy = C"
+      ],
+      "answerIndex": 1,
+      "explanation": "Separate variables: dy/y = dx/x. Integrate: ln|y| = ln|x| + C'. Exponentiate: y = e^(ln|x| + C') = e^C' * x = C x."
+    },
+    {
+      "id": "q5",
+      "topic": "Integrating Factor",
+      "q": "Find the integrating factor for the linear differential equation dy/dx + 3y = e^x.",
+      "options": [
+        "e^(3x)",
+        "3x",
+        "e^x",
+        "e^(x^3)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Here P(x) = 3. I.F. = e^(integral of 3 dx) = e^(3x)."
+    },
+    {
+      "id": "q6",
+      "topic": "Integrating Factor",
+      "q": "Find the integrating factor of x(dy/dx) - y = x^2.",
+      "options": [
+        "x",
+        "1/x",
+        "-x",
+        "-1/x"
+      ],
+      "answerIndex": 1,
+      "explanation": "First divide by x: dy/dx - (1/x)y = x. Here P(x) = -1/x. I.F. = e^(integral of -1/x dx) = e^(-ln x) = e^(ln(x^-1)) = 1/x."
+    },
+    {
+      "id": "q7",
+      "topic": "Linear D.E. Solution",
+      "q": "The solution to a linear D.E. of the form dy/dx + Py = Q is given by:",
+      "options": [
+        "y = integral of (Q * IF) dx + C",
+        "y * IF = integral of (Q * IF) dx + C",
+        "y * IF = integral of Q dx + C",
+        "y = IF * integral of Q dx + C"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is the standard general solution formula for linear first-order differential equations."
+    },
+    {
+      "id": "q8",
+      "topic": "Linear D.E.",
+      "q": "Is the differential equation dy/dx + x * y^2 = 0 a linear differential equation in y?",
+      "options": [
+        "Yes",
+        "No"
+      ],
+      "answerIndex": 1,
+      "explanation": "No, because the dependent variable y is squared (y^2). A linear D.E. must have degree 1 for y and all its derivatives."
+    }
+  ]
+}

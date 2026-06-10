@@ -1,0 +1,110 @@
+{
+  "id": "quiz-02",
+  "title": "Quiz 02: Differentiability & Derivative Rules",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Differentiability",
+      "q": "If a function is differentiable at x=a, which of the following MUST be true?",
+      "options": [
+        "It is continuous at x=a",
+        "It has a sharp corner at x=a",
+        "Its derivative is 0 at x=a",
+        "It is undefined at x=a"
+      ],
+      "answerIndex": 0,
+      "explanation": "Differentiability implies continuity. The reverse is not always true."
+    },
+    {
+      "id": "q2",
+      "topic": "Derivative Rules",
+      "q": "What is the derivative of f(x) = x * e^x?",
+      "options": [
+        "e^x",
+        "x * e^x",
+        "e^x * (x + 1)",
+        "e^x * (x - 1)"
+      ],
+      "answerIndex": 2,
+      "explanation": "Use the product rule: u=x, v=e^x. f'(x) = 1*e^x + x*e^x = e^x(1 + x)."
+    },
+    {
+      "id": "q3",
+      "topic": "Derivative Rules",
+      "q": "Find the derivative of y = sin^2(x).",
+      "options": [
+        "cos^2(x)",
+        "2sin(x)",
+        "2cos(x)",
+        "2sin(x)cos(x)"
+      ],
+      "answerIndex": 3,
+      "explanation": "Use the chain rule: outer function u^2 -> 2u. Inner function sin(x) -> cos(x). y' = 2sin(x)cos(x)."
+    },
+    {
+      "id": "q4",
+      "topic": "Derivative Rules",
+      "q": "What is the derivative of f(x) = ln(3x)?",
+      "options": [
+        "1/x",
+        "1/(3x)",
+        "3/x",
+        "3ln(x)"
+      ],
+      "answerIndex": 0,
+      "explanation": "Chain rule: derivative of ln(u) is 1/u. Derivative of 3x is 3. f'(x) = (1/3x) * 3 = 1/x."
+    },
+    {
+      "id": "q5",
+      "topic": "Differentiability",
+      "q": "Where is the function f(x) = |x - 2| NOT differentiable?",
+      "options": [
+        "x = 0",
+        "x = -2",
+        "x = 2",
+        "Nowhere, it is differentiable everywhere"
+      ],
+      "answerIndex": 2,
+      "explanation": "The modulus function has a sharp 'V' corner at the root of its argument. |x-2| has a corner at x=2."
+    },
+    {
+      "id": "q6",
+      "topic": "Derivative Rules",
+      "q": "Using the quotient rule, what is the derivative of tan(x) = sin(x)/cos(x)?",
+      "options": [
+        "cot(x)",
+        "sec^2(x)",
+        "csc^2(x)",
+        "-sec^2(x)"
+      ],
+      "answerIndex": 1,
+      "explanation": "u=sin(x), v=cos(x). (cos(x)cos(x) - sin(x)(-sin(x))) / cos^2(x) = (cos^2(x) + sin^2(x)) / cos^2(x) = 1/cos^2(x) = sec^2(x)."
+    },
+    {
+      "id": "q7",
+      "topic": "Derivative Rules",
+      "q": "Find the derivative of y = e^(x^2).",
+      "options": [
+        "e^(x^2)",
+        "2x * e^(x^2)",
+        "x^2 * e^(x^2)",
+        "2 * e^(x^2)"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chain rule. Outer: e^u -> e^u. Inner: x^2 -> 2x. y' = e^(x^2) * 2x."
+    },
+    {
+      "id": "q8",
+      "topic": "Derivative Rules",
+      "q": "If f(x) = x^3 - 2x + 1, what is f''(x) (the second derivative)?",
+      "options": [
+        "3x^2 - 2",
+        "6x",
+        "6x - 2",
+        "3x"
+      ],
+      "answerIndex": 1,
+      "explanation": "First derivative f'(x) = 3x^2 - 2. Second derivative f''(x) = 6x."
+    }
+  ]
+}

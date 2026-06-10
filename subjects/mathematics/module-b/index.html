@@ -8,6 +8,30 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../../assets/css/design-system.css">
+  <style>
+    .lessons-list {
+      display: grid;
+      gap: var(--space-4);
+    }
+    .lesson-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4);
+      border: 1px solid var(--color-neutral-200);
+      border-radius: 0.5rem;
+      background-color: white;
+    }
+    .lesson-item:hover {
+      border-color: var(--color-primary-500);
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    }
+    .lesson-item.disabled {
+      opacity: 0.6;
+      pointer-events: none;
+      background-color: var(--color-neutral-50);
+    }
+  </style>
 </head>
 <body>
   <header class="site-header">
@@ -24,26 +48,56 @@
       <a href="../index.html" class="text-neutral-500">Mathematics</a> >
       Module B: Calculus
     </div>
-    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-8);">
-        <h1 class="mb-0">Module B: Calculus</h1>
-        <span class="badge" style="background-color: var(--color-accent-100); color: var(--color-accent-600); padding: var(--space-2) var(--space-4); border-radius: 999px; font-weight: 600;">Coming Soon</span>
+
+    <div class="mb-8">
+        <h1 class="mb-2">Module B: Calculus</h1>
+        <p class="text-lg text-neutral-600">Master the mathematics of continuous change. This module covers limits, continuity, derivatives, integrals, and differential equations.</p>
     </div>
-    <div class="card">
-        <h2 class="mb-4">Topics Covered</h2>
-        <ol style="margin-left: var(--space-4);">
-            <li style='margin-bottom: var(--space-2);'>Limits</li>
-            <li style='margin-bottom: var(--space-2);'>Continuity</li>
-            <li style='margin-bottom: var(--space-2);'>Differentiability</li>
-            <li style='margin-bottom: var(--space-2);'>Derivatives</li>
-            <li style='margin-bottom: var(--space-2);'>Applications of Derivatives - Maxima & Minima</li>
-            <li style='margin-bottom: var(--space-2);'>Applications of Derivatives - Tangents & Normals</li>
-            <li style='margin-bottom: var(--space-2);'>Indefinite Integrals</li>
-            <li style='margin-bottom: var(--space-2);'>Definite Integrals</li>
-            <li style='margin-bottom: var(--space-2);'>Applications of Integrals - Area</li>
-            <li style='margin-bottom: var(--space-2);'>Differential Equations - Order & Degree</li>
-            <li style='margin-bottom: var(--space-2);'>Differential Equations - Solutions</li>
-            <li style='margin-bottom: var(--space-2);'>Numerical Analysis</li>
-        </ol>
+
+    <div class="lessons-list mb-8">
+
+        <a href="lesson-01.html" style="text-decoration: none; color: inherit;">
+            <div class="lesson-item">
+                <span class="font-semibold text-primary-900">Lesson 1: Limits &amp; Continuity</span>
+                <span class="text-sm text-primary-600">Start Lesson &rarr;</span>
+            </div>
+        </a>
+
+        <a href="lesson-02.html" style="text-decoration: none; color: inherit;">
+            <div class="lesson-item">
+                <span class="font-semibold text-primary-900">Lesson 2: Differentiability &amp; Derivative Rules</span>
+                <span class="text-sm text-primary-600">Start Lesson &rarr;</span>
+            </div>
+        </a>
+
+        <a href="lesson-03.html" style="text-decoration: none; color: inherit;">
+            <div class="lesson-item">
+                <span class="font-semibold text-primary-900">Lesson 3: Applications of Derivatives</span>
+                <span class="text-sm text-primary-600">Start Lesson &rarr;</span>
+            </div>
+        </a>
+
+        <a href="lesson-04.html" style="text-decoration: none; color: inherit;">
+            <div class="lesson-item">
+                <span class="font-semibold text-primary-900">Lesson 4: Indefinite Integrals</span>
+                <span class="text-sm text-primary-600">Start Lesson &rarr;</span>
+            </div>
+        </a>
+
+        <a href="lesson-05.html" style="text-decoration: none; color: inherit;">
+            <div class="lesson-item">
+                <span class="font-semibold text-primary-900">Lesson 5: Definite Integrals &amp; Areas</span>
+                <span class="text-sm text-primary-600">Start Lesson &rarr;</span>
+            </div>
+        </a>
+
+        <a href="lesson-06.html" style="text-decoration: none; color: inherit;">
+            <div class="lesson-item">
+                <span class="font-semibold text-primary-900">Lesson 6: Differential Equations</span>
+                <span class="text-sm text-primary-600">Start Lesson &rarr;</span>
+            </div>
+        </a>
+
     </div>
   </main>
   <footer class="site-footer mt-12">

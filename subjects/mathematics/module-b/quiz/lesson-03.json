@@ -1,0 +1,111 @@
+{
+  "id": "quiz-03",
+  "title": "Quiz 03: Applications of Derivatives",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Tangents & Normals",
+      "q": "What is the slope of the normal to the curve y = 2x^2 at the point (1, 2)?",
+      "options": [
+        "4",
+        "-4",
+        "1/4",
+        "-1/4"
+      ],
+      "answerIndex": 3,
+      "explanation": "f'(x) = 4x. At x=1, m = 4. The normal slope is -1/m = -1/4.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "q2",
+      "topic": "Maxima & Minima",
+      "q": "If f'(c) = 0 and f''(c) > 0, then the point c is a:",
+      "options": [
+        "Local maximum",
+        "Local minimum",
+        "Point of inflection",
+        "None of the above"
+      ],
+      "answerIndex": 1,
+      "explanation": "By the Second Derivative Test, f''(c) > 0 means the curve is concave up, indicating a local minimum."
+    },
+    {
+      "id": "q3",
+      "topic": "Rate of Change",
+      "q": "The radius of a circle is increasing at a rate of 2 cm/s. At what rate is the area increasing when the radius is 10 cm?",
+      "options": [
+        "20 pi cm^2/s",
+        "40 pi cm^2/s",
+        "100 pi cm^2/s",
+        "200 pi cm^2/s"
+      ],
+      "answerIndex": 1,
+      "explanation": "A = pi * r^2. dA/dt = 2 * pi * r * dr/dt. dA/dt = 2 * pi * 10 * 2 = 40 pi."
+    },
+    {
+      "id": "q4",
+      "topic": "Maxima & Minima",
+      "q": "At which point does the function f(x) = x^2 - 4x + 5 have a minimum?",
+      "options": [
+        "x = 0",
+        "x = 2",
+        "x = -2",
+        "x = 4"
+      ],
+      "answerIndex": 1,
+      "explanation": "f'(x) = 2x - 4. Set 2x - 4 = 0 => x = 2. Since f''(x) = 2 > 0, it's a minimum."
+    },
+    {
+      "id": "q5",
+      "topic": "Increasing/Decreasing",
+      "q": "A function f(x) is strictly increasing on an interval if, for all x in that interval:",
+      "options": [
+        "f'(x) < 0",
+        "f'(x) <= 0",
+        "f'(x) > 0",
+        "f''(x) > 0"
+      ],
+      "answerIndex": 2,
+      "explanation": "A strictly positive first derivative means the function's value is always going up."
+    },
+    {
+      "id": "q6",
+      "topic": "Maxima & Minima",
+      "q": "Find the maximum value of f(x) = -x^2 + 6x - 8.",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 0,
+      "explanation": "f'(x) = -2x + 6. Set to 0 => x=3. f(3) = -9 + 18 - 8 = 1. Since f''(x) = -2 < 0, this is a maximum."
+    },
+    {
+      "id": "q7",
+      "topic": "Tangents & Normals",
+      "q": "The equation of the tangent line to y = e^x at x = 0 is:",
+      "options": [
+        "y = x",
+        "y = x + 1",
+        "y = e^x + 1",
+        "y = 1"
+      ],
+      "answerIndex": 1,
+      "explanation": "At x=0, y=1. f'(x) = e^x, so m = e^0 = 1. Equation: y - 1 = 1(x - 0) => y = x + 1."
+    },
+    {
+      "id": "q8",
+      "topic": "Critical Points",
+      "q": "Which of the following is a critical point of f(x) = x^3?",
+      "options": [
+        "x = 1",
+        "x = 0",
+        "x = -1",
+        "There are no critical points"
+      ],
+      "answerIndex": 1,
+      "explanation": "f'(x) = 3x^2. Set 3x^2 = 0 => x = 0."
+    }
+  ]
+}

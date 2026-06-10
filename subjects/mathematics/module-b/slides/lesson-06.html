@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Lesson 06 - Differential Equations</title>
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+  <div class="slides-container" id="slides-container">
+    <div class="slide slide-title active">
+      <div class="badge mb-4">Module B • Lesson 06</div>
+      <h1 class="slide-heading">Differential Equations</h1>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Objectives</h2>
+      <ul>
+        <li>Determine the order and degree of a D.E.</li>
+        <li>Form a D.E. from a family of curves.</li>
+        <li>Solve using Variable Separable method.</li>
+        <li>Find Integrating Factors and solve Linear D.E.s.</li>
+      </ul>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Order & Degree</h2>
+        <p><strong>Order:</strong> The highest derivative present in the equation.</p>
+        <p><strong>Degree:</strong> The power of that highest derivative.</p>
+      </div>
+      <div class="col">
+        <h3>Caution on Degree</h3>
+        <p>If a derivative is "trapped" inside a function like sin(dy/dx) or e<sup>dy/dx</sup>, the degree is <strong>Not Defined</strong>.</p>
+      </div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Forming a D.E.</h2>
+        <p>y = A sin(x) + B cos(x)</p>
+        <p>How many arbitrary constants? <strong>Two (A and B).</strong></p>
+        <p>Therefore, you must differentiate <strong>twice</strong> to eliminate them.</p>
+      </div>
+      <div class="col">
+        <h2>Variable Separable</h2>
+        <p>Group all 'y' terms with 'dy' and all 'x' terms with 'dx'.</p>
+        <p>Then simply integrate both sides.</p>
+        <p>&int;f(y)dy = &int;g(x)dx</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Linear First Order D.E.</h2>
+      <p>Standard Form: <strong>dy/dx + P(x)y = Q(x)</strong></p>
+      <ul>
+        <li>Step 1: Make sure dy/dx has a coefficient of 1.</li>
+        <li>Step 2: Identify P(x) and Q(x).</li>
+        <li>Step 3: Calculate Integrating Factor (I.F.) = e<sup>&int;P(x)dx</sup>.</li>
+        <li>Step 4: Solution is y * (I.F.) = &int; Q(x) * (I.F.) dx + C.</li>
+      </ul>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Worked Example</h2>
+      <p><strong>Q: </strong> Find the I.F. for x(dy/dx) + 2y = x<sup>3</sup></p>
+      <ul>
+        <li>Divide by x: dy/dx + (2/x)y = x<sup>2</sup></li>
+        <li>Identify P(x): P(x) = 2/x</li>
+        <li>Integrate P: &int;(2/x)dx = 2 ln(x) = ln(x<sup>2</sup>)</li>
+        <li>I.F. = e<sup>ln(x<sup>2</sup>)</sup></li>
+      </ul>
+    </div>
+    <div class="slide slide-big-stat">
+      <h2 class="slide-heading text-center">Solution</h2>
+      <div class="stat-number">I.F. = x<sup>2</sup></div>
+    </div>
+    <div class="slide slide-two-column">
+      <div class="col">
+        <h2>Exam Strategy</h2>
+        <p>Don't jump straight into long calculations. Check if the question only asks for the Order or the I.F.</p>
+      </div>
+      <div class="col">
+        <h3>PYQ Insight</h3>
+        <p>Order and Degree questions are guaranteed. Memorize the rule about "Not Defined" degree to score a quick +1.</p>
+      </div>
+    </div>
+    <div class="slide slide-bullet">
+      <h2 class="slide-heading">Quick Review</h2>
+      <ul>
+        <li>Order = Highest deriv. Degree = Power of highest deriv.</li>
+        <li>No. of constants = Order of the D.E.</li>
+        <li>Linear Form: dy/dx + P(x)y = Q(x).</li>
+        <li>I.F. = e<sup>&int;P dx</sup>.</li>
+      </ul>
+    </div>
+  </div>
+  <script src="../../../../assets/js/slides.js"></script>
+</body>
+</html>
