@@ -21,22 +21,37 @@
       <div class="col"><h2>Core Concept</h2><p>When solving <strong>inequalities</strong>, remember the golden rule: multiplying or dividing by a negative number flips the inequality sign. For absolute value (modulus) inequalities, |x| < a translates to -a < x < a. Conversely, |x| > a translates to x < -a OR x > a. In <strong>Mathematical Reasoning</strong>, a statement 'If p, then q' (p &rarr; q) has three important related statements. The <strong>Converse</strong> is 'If q, then p' (q &rarr; p). The <strong>Inverse</strong> is 'If not p, then not q' (~p &rarr; ~q). The <strong>Contrapositive</strong> is 'If not q, then not p' (~q &rarr; ~p). A crucial fact for the exam is that a statement is logically equivalent ONLY to its contrapositive. A <strong>Tautology</strong> is a statement that is always true, regardless of the truth values of its components.</p></div>
       <div class="col">
         <h3>Visualizing It</h3>
-        <div style="display:flex; justify-content:center; margin-top:var(--space-6); width:100%;">
-        <div style="width:80%; height:4px; background:var(--color-neutral-800); position:relative; margin-top:20px;">
-            <div style="position:absolute; left:20%; top:-10px; width:20px; height:20px; border-radius:50%; border:3px solid var(--color-primary-600); background:white;"></div>
-            <div style="position:absolute; left:80%; top:-10px; width:20px; height:20px; border-radius:50%; background:var(--color-primary-600);"></div>
-            <div style="position:absolute; left:22%; top:-25px; width:58%; height:4px; background:var(--color-primary-400); opacity:0.5;"></div>
-            <div style="position:absolute; left:18%; top:15px; font-size:12px;">-a</div>
-            <div style="position:absolute; left:78%; top:15px; font-size:12px;">a</div>
+        <div style="display: flex; flex-direction: column; gap: var(--space-6); align-items: center; margin-top: var(--space-2); width: 100%;">
+            <div style="width: 90%;">
+                <p class="text-sm font-semibold mb-2 text-center">-2 &lt; x &le; 3</p>
+                <svg width="100%" height="40" viewBox="0 0 300 40">
+                    <line x1="10" y1="20" x2="290" y2="20" stroke="var(--color-neutral-400)" stroke-width="2" />
+                    <line x1="80" y1="20" x2="220" y2="20" stroke="var(--color-primary-500)" stroke-width="4" />
+                    <circle cx="80" cy="20" r="6" fill="white" stroke="var(--color-primary-500)" stroke-width="2" />
+                    <text x="75" y="40" font-size="12" fill="var(--color-neutral-600)">-2</text>
+                    <circle cx="220" cy="20" r="6" fill="var(--color-primary-500)" />
+                    <text x="215" y="40" font-size="12" fill="var(--color-neutral-600)">3</text>
+                </svg>
+            </div>
+            <table style="width: 90%; border-collapse: collapse; font-size: 0.8rem; text-align: center; border: 1px solid var(--color-neutral-300);">
+                <tr style="background: var(--color-neutral-100); border-bottom: 1px solid var(--color-neutral-300);">
+                    <th style="padding: 4px;">p</th>
+                    <th style="padding: 4px;">q</th>
+                    <th style="padding: 4px; color: var(--color-primary-700);">p &rarr; q</th>
+                    <th style="padding: 4px;">~q &rarr; ~p</th>
+                </tr>
+                <tr><td style="padding: 4px;">T</td><td style="padding: 4px;">T</td><td style="padding: 4px;">T</td><td style="padding: 4px;">T</td></tr>
+                <tr style="background: var(--color-neutral-50);"><td style="padding: 4px;">T</td><td style="padding: 4px;">F</td><td style="padding: 4px;">F</td><td style="padding: 4px;">F</td></tr>
+                <tr><td style="padding: 4px;">F</td><td style="padding: 4px;">T</td><td style="padding: 4px;">T</td><td style="padding: 4px;">T</td></tr>
+                <tr style="background: var(--color-neutral-50);"><td style="padding: 4px;">F</td><td style="padding: 4px;">F</td><td style="padding: 4px;">T</td><td style="padding: 4px;">T</td></tr>
+            </table>
         </div>
-    </div>
-    <p class="text-center text-sm text-neutral-500 mt-6">Number line showing open and closed bounds</p>
       </div>
     </div>
     <div class="slide slide-big-stat">
-      <h2 class="slide-heading text-center">Important Concept</h2>
+      <h2 class="slide-heading text-center">Important Formula</h2>
       <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
-      <div class="stat-number" style="font-size:3rem; line-height:1.2;">Apply logic before formula.</div>
+      <div class="stat-number">Speed = Accuracy</div>
     </div>
     <div class="slide slide-two-column">
       <div class="col"><h2>Common Error</h2><p>A common logical trap is assuming that the converse of a true statement is also true. For example, 'If it is a dog, it is an animal' is true, but the converse 'If it is an animal, it is a dog' is false. Only the contrapositive holds the same truth value.</p></div>
@@ -50,7 +65,7 @@
     </div>
     <div class="slide slide-big-stat">
       <h2 class="slide-heading text-center">Solution</h2>
-      <div class="stat-number" style="font-size:4rem;">If a number is not divisible by 3, then it is not divisible by 9.</div>
+      <div class="stat-number">If a number is not divisible by 3, then it is not divisible by 9.</div>
     </div>
     <div class="slide slide-two-column">
       <div class="col"><h2>Exam Pattern</h2><p>They frequently test modulus inequalities with quadratics inside, e.g., |x<sup class="sup">2</sup> - 4| < 5. You must split this into -5 < x<sup class="sup">2</sup> - 4 < 5, solve the two parts separately, and find the intersection.</p></div>

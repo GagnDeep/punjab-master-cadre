@@ -21,22 +21,36 @@
       <div class="col"><h2>Core Concept</h2><p><strong>Modular arithmetic</strong> is like arithmetic on a clock face. We say a &equiv; b (mod m) if m exactly divides (a - b), meaning 'a' and 'b' leave the same remainder when divided by 'm'. This is incredibly powerful for finding remainders of large powers. For instance, to find the remainder of 2<sup class="sup">100</sup> divided by 3, we note that 2 &equiv; -1 (mod 3). Therefore, 2<sup class="sup">100</sup> &equiv; (-1)<sup class="sup">100</sup> &equiv; 1 (mod 3). Finding the <strong>unit digit</strong> of a number is equivalent to finding the number modulo 10. The unit digits of powers of any number follow a repeating cycle of length 4. For example, the powers of 7 end in 7, 9, 3, 1, and then repeat. To find the unit digit of 7<sup class="sup">105</sup>, divide 105 by 4. The remainder is 1, so the unit digit corresponds to the first number in the cycle, which is 7.</p></div>
       <div class="col">
         <h3>Visualizing It</h3>
-        <div style="display:flex; justify-content:center; align-items:center; margin-top:var(--space-6);">
-        <div style="width:100px; height:100px; border-radius:50%; border:4px solid var(--color-primary-500); position:relative; display:flex; justify-content:center; align-items:center;">
-            <div style="position:absolute; top:-20px;">0</div>
-            <div style="position:absolute; right:-20px;">1</div>
-            <div style="position:absolute; bottom:-20px;">2</div>
-            <div style="position:absolute; left:-20px;">3</div>
-            <div style="width:2px; height:40px; background:var(--color-accent-500); transform:rotate(45deg); transform-origin:bottom; position:absolute; bottom:50%;"></div>
+        <div style="display: flex; gap: var(--space-6); justify-content: center; align-items: center; margin-top: var(--space-2); width: 100%;">
+            <div style="text-align: center; flex: 1;">
+                <p class="text-sm font-semibold mb-2">Pascal's Triangle</p>
+                <div style="font-family: monospace; font-size: 12px; line-height: 1.6;">
+                    &nbsp;&nbsp;&nbsp;&nbsp;1<br>
+                    &nbsp;&nbsp;&nbsp;1&nbsp;&nbsp;1<br>
+                    &nbsp;&nbsp;1&nbsp;&nbsp;2&nbsp;&nbsp;1<br>
+                    &nbsp;1&nbsp;&nbsp;3&nbsp;&nbsp;3&nbsp;&nbsp;1<br>
+                    1&nbsp;&nbsp;4&nbsp;&nbsp;6&nbsp;&nbsp;4&nbsp;&nbsp;1
+                </div>
+            </div>
+            <div style="text-align: center; flex: 1;">
+                <p class="text-sm font-semibold mb-2">Cycle of 7<sup>n</sup></p>
+                <svg width="120" height="120" viewBox="0 0 120 120">
+                    <circle cx="60" cy="60" r="50" fill="none" stroke="var(--color-neutral-300)" stroke-width="2" />
+                    <path d="M 60 10 A 50 50 0 0 1 110 60" fill="none" stroke="var(--color-primary-500)" stroke-width="4" />
+                    <text x="56" y="25" font-weight="bold" fill="var(--color-primary-800)">7</text>
+                    <text x="95" y="65" font-weight="bold" fill="var(--color-primary-800)">9</text>
+                    <text x="56" y="105" font-weight="bold" fill="var(--color-primary-800)">3</text>
+                    <text x="15" y="65" font-weight="bold" fill="var(--color-primary-800)">1</text>
+                    <text x="40" y="64" font-size="10" fill="var(--color-neutral-500)">mod 4</text>
+                </svg>
+            </div>
         </div>
-    </div>
-    <p class="text-center text-sm text-neutral-500 mt-8">Modulo arithmetic "clock" logic</p>
       </div>
     </div>
     <div class="slide slide-big-stat">
-      <h2 class="slide-heading text-center">Important Concept</h2>
+      <h2 class="slide-heading text-center">Important Formula</h2>
       <p class="text-center text-xl mt-4">Memorize this for the exam:</p>
-      <div class="stat-number" style="font-size:3rem; line-height:1.2;">Apply logic before formula.</div>
+      <div class="stat-number">Speed = Accuracy</div>
     </div>
     <div class="slide slide-two-column">
       <div class="col"><h2>Common Error</h2><p>When using the cycle of 4 for unit digits, if the power is exactly divisible by 4 (remainder 0), the unit digit is the 4th (last) number in the cycle, NOT the first.</p></div>
@@ -50,7 +64,7 @@
     </div>
     <div class="slide slide-big-stat">
       <h2 class="slide-heading text-center">Solution</h2>
-      <div class="stat-number" style="font-size:4rem;">The unit digit is 1.</div>
+      <div class="stat-number">The unit digit is 1.</div>
     </div>
     <div class="slide slide-two-column">
       <div class="col"><h2>Exam Pattern</h2><p>Expect combined questions, like finding the unit digit of 3<sup class="sup">40</sup> + 7<sup class="sup">42</sup>. Simply find the unit digits separately (1 and 9) and add them together (10). The final unit digit is 0.</p></div>

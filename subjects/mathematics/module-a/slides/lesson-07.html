@@ -19,7 +19,30 @@
     </div>
     <div class="slide slide-two-column">
       <div class="col"><h2>Core Concept</h2><p>A complex number is written in the form z = a + ib, where 'a' is the real part and 'b' is the imaginary part, with i<sup class="sup">2</sup> = -1. The powers of 'i' cycle every 4 steps: i, -1, -i, 1. The <strong>conjugate</strong> of z, denoted as z&#772;, is a - ib. The <strong>modulus</strong> |z| represents the distance from the origin in the Argand plane and is calculated as &radic;(a<sup class="sup">2</sup> + b<sup class="sup">2</sup>). A crucial identity linking these is z &times; z&#772; = |z|<sup class="sup">2</sup>. To divide complex numbers, you must rationalize the denominator by multiplying the numerator and denominator by the conjugate of the denominator.</p></div>
-      <div class="col"><h3>Visualizing It</h3><p>Imagine the theoretical framework mapping directly to the physical problem space.</p></div>
+      <div class="col">
+        <h3>Visualizing It</h3>
+        <div style="display: flex; justify-content: center; margin-top: var(--space-4);">
+            <svg width="250" height="200" viewBox="0 0 250 200">
+                <defs>
+                    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--color-primary-600)" />
+                    </marker>
+                </defs>
+                <line x1="20" y1="160" x2="230" y2="160" stroke="var(--color-neutral-400)" stroke-width="2" />
+                <line x1="60" y1="20" x2="60" y2="180" stroke="var(--color-neutral-400)" stroke-width="2" />
+                <text x="210" y="175" font-family="sans-serif" font-size="12" fill="var(--color-neutral-600)">Re(z)</text>
+                <text x="10" y="30" font-family="sans-serif" font-size="12" fill="var(--color-neutral-600)">Im(z)</text>
+                <line x1="60" y1="160" x2="180" y2="60" stroke="var(--color-primary-600)" stroke-width="3" marker-end="url(#arrow)" />
+                <line x1="60" y1="160" x2="180" y2="160" stroke="var(--color-accent-500)" stroke-width="2" stroke-dasharray="4" />
+                <line x1="180" y1="160" x2="180" y2="60" stroke="var(--color-accent-500)" stroke-width="2" stroke-dasharray="4" />
+                <text x="100" y="100" font-family="sans-serif" font-size="14" font-weight="bold" fill="var(--color-primary-800)">|z|</text>
+                <text x="120" y="175" font-family="sans-serif" font-size="12" fill="var(--color-accent-600)">a</text>
+                <text x="190" y="110" font-family="sans-serif" font-size="12" fill="var(--color-accent-600)">ib</text>
+                <circle cx="180" cy="60" r="4" fill="var(--color-primary-800)" />
+                <text x="190" y="55" font-family="sans-serif" font-size="12" fill="var(--color-neutral-800)">z = a+ib</text>
+            </svg>
+        </div>
+      </div>
     </div>
     <div class="slide slide-big-stat">
       <h2 class="slide-heading text-center">Important Formula</h2>
