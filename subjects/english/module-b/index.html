@@ -23,12 +23,20 @@
       border: 1px solid var(--color-neutral-200);
       border-radius: var(--radius-md);
       margin-bottom: var(--space-4);
-      background: var(--color-neutral-50);
+      background: var(--color-white);
+      transition: box-shadow var(--transition-fast), border-color var(--transition-fast);
+    }
+    .lesson-item:hover {
+      box-shadow: var(--shadow-sm);
+      border-color: var(--color-primary-300);
     }
     .lesson-info h3 {
-      margin-bottom: 0;
+      margin-bottom: var(--space-1);
       font-size: var(--text-lg);
-      color: var(--color-neutral-600);
+    }
+    .lesson-meta {
+      font-size: var(--text-sm);
+      color: var(--color-neutral-500);
     }
   </style>
 </head>
@@ -56,43 +64,53 @@
     <section class="mb-8 card bg-neutral-100" style="border-color: var(--color-neutral-300);">
       <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: var(--space-2);">
           <p style="margin: 0;">Narayan, Raja Rao, Anand, Desai, Roy, Tagore, Naidu, Ramanujan, Ghosh, Khushwant Singh</p>
-          <span class="badge badge-neutral">Coming Soon</span>
+          <span class="badge badge-success">Available</span>
       </div>
     </section>
 
     <section>
-      <h2 class="mb-4">Lessons Outline</h2>
+      <h2 class="mb-4">Lessons</h2>
       <ul class="lesson-list">
 
         <li class="lesson-item">
           <div class="lesson-info">
-            <h3>1. Introduction to Indian English Literature</h3>
+            <h3>1. The Founding Trio: Narayan, Rao, Anand</h3>
+            <div class="lesson-meta">Themes • Major Works</div>
           </div>
-          <span class="btn btn-ghost disabled">Coming Soon</span>
+          <a href="lesson-01.html" class="btn btn-primary btn-sm">Start Lesson</a>
         </li>
 
         <li class="lesson-item">
           <div class="lesson-info">
-            <h3>2. The Founding Fathers: Narayan, Rao, Anand</h3>
+            <h3>2. Tagore & Sarojini Naidu</h3>
+            <div class="lesson-meta">Gitanjali • Poetry • Nobel</div>
           </div>
-          <span class="btn btn-ghost disabled">Coming Soon</span>
+          <a href="lesson-02.html" class="btn btn-primary btn-sm">Start Lesson</a>
         </li>
 
         <li class="lesson-item">
           <div class="lesson-info">
-            <h3>3. Modern Voices: Desai, Roy, Tagore</h3>
+            <h3>3. Modern Novelists: Desai, Roy, Rushdie, Ghosh</h3>
+            <div class="lesson-meta">Booker Facts • Contemporary Themes</div>
           </div>
-          <span class="btn btn-ghost disabled">Coming Soon</span>
+          <a href="lesson-03.html" class="btn btn-primary btn-sm">Start Lesson</a>
         </li>
 
         <li class="lesson-item">
           <div class="lesson-info">
-            <h3>4. Contemporary Indian Writing in English</h3>
+            <h3>4. Ramanujan, Khushwant Singh & Others</h3>
+            <div class="lesson-meta">Poetry • Prose</div>
           </div>
-          <span class="btn btn-ghost disabled">Coming Soon</span>
+          <a href="lesson-04.html" class="btn btn-primary btn-sm">Start Lesson</a>
         </li>
 
       </ul>
+    </section>
+
+    <section class="mb-8 card text-center" style="background-color: var(--color-primary-50); border-color: var(--color-primary-200);">
+        <h2 style="color: var(--color-primary-800);">Ready to Test Your Knowledge?</h2>
+        <p class="mb-4">Take the comprehensive module test for Module B to gauge your preparation.</p>
+        <a href="quiz/module-test.html" class="btn btn-primary">Start Module B Test</a>
     </section>
 
   </main>

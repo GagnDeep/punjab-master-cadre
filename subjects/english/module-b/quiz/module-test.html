@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module B Mock Test - English - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../../../../courses.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8 mb-8" style="max-width: 800px;">
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../../index.html" class="text-neutral-500">English</a> >
+      <a href="../index.html" class="text-neutral-500">Module B</a> >
+      Mock Test
+    </div>
+
+    <h1 class="mb-2">Module B Comprehensive Mock Test</h1>
+    <p class="pa mb-8 text-primary-600 text-lg">ਮੋਡਿਊਲ B: ਮੌਕ ਟੈਸਟ</p>
+
+    <div class="callout callout-warning mb-8">
+        <div class="callout-title">Instructions</div>
+        <p>This test contains 20 questions based on the Master Cadre pattern for Module B (Indian English Writers). You have 20 minutes to complete it. Good luck!</p>
+    </div>
+
+    <div id="test-container"></div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../../../../assets/js/quiz-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new QuizEngine('test-container', 'module-test.json');
+    });
+  </script>
+</body>
+</html>
