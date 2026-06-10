@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Mendelian Genetics - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .grid-line {
+      stroke: var(--color-neutral-800);
+      stroke-width: 4;
+    }
+    .grid-text {
+      font-family: var(--font-display);
+      font-size: 32px;
+      font-weight: bold;
+      text-anchor: middle;
+      dominant-baseline: middle;
+    }
+    .grid-header {
+      fill: var(--color-primary-600);
+    }
+    .grid-content {
+      fill: var(--color-neutral-800);
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Mendelian Genetics</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਮੈਂਡਲ ਦੀ ਜੈਨੇਟਿਕਸ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Biology Module: Cell Biology & Genetics</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: 3 Laws -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>Mendel's Three Laws</h2>
+          <ul>
+            <li><strong>Law of Dominance:</strong> One allele masks the other (Tall over dwarf).</li>
+            <li><strong>Law of Segregation:</strong> Alleles separate during gamete formation. <strong class="text-success">Universally true!</strong></li>
+            <li><strong>Law of Independent Assortment:</strong> Traits sort independently (if genes are on different chromosomes).</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: Punnett Square -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Monohybrid Cross ($Tt \times Tt$)</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 400 400" class="svg-diagram">
+              <!-- Grid Lines -->
+              <line x1="100" y1="200" x2="300" y2="200" class="grid-line"/>
+              <line x1="200" y1="100" x2="200" y2="300" class="grid-line"/>
+
+              <!-- Headers -->
+              <text x="150" y="80" class="grid-text grid-header">T</text>
+              <text x="250" y="80" class="grid-text grid-header">t</text>
+              <text x="80" y="150" class="grid-text grid-header">T</text>
+              <text x="80" y="250" class="grid-text grid-header">t</text>
+
+              <!-- Contents -->
+              <text x="150" y="150" class="grid-text grid-content text-success">TT</text>
+              <text x="250" y="150" class="grid-text grid-content text-success">Tt</text>
+              <text x="150" y="250" class="grid-text grid-content text-success">Tt</text>
+              <text x="250" y="250" class="grid-text grid-content text-danger">tt</text>
+            </svg>
+          </div>
+          <p class="text-center text-xl mt-4">Phenotypic Ratio = 3:1 | Genotypic Ratio = 1:2:1</p>
+        </div>
+      </div>
+
+      <!-- Slide 4: Exceptions -->
+      <div class="slide slide-two-col">
+        <div class="slide-content">
+          <h2 class="mb-8">Exceptions to Dominance</h2>
+          <div class="col-container">
+            <div class="col card bg-primary-50">
+              <h3>Incomplete Dominance</h3>
+              <p>Heterozygote is a <strong>blend</strong>.</p>
+              <p>Red x White = <strong>Pink</strong>.</p>
+              <p class="font-bold text-lg mt-4">Ratio: 1:2:1 (Both Pheno & Geno)</p>
+            </div>
+            <div class="col card bg-accent-50">
+              <h3>Co-dominance</h3>
+              <p>Both alleles expressed <strong>equally</strong>.</p>
+              <p>Blood Group AB ($I^A I^B$).</p>
+              <p class="font-bold text-lg mt-4">Ratio: 1:2:1</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Test Cross -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>The Test Cross</h2>
+          <p class="text-2xl mb-8">Unknown dominant $\times$ Homozygous recessive</p>
+          <div class="stat-number my-8 text-primary-600" style="font-size: 4rem;">1:1</div>
+          <p class="text-2xl mt-4">Dihybrid Test Cross = 1:1:1:1</p>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>Law of Segregation has NO exceptions.</li>
+            <li>Dihybrid phenotypic ratio: 9:3:3:1.</li>
+            <li>Incomplete dominance ratio (Pink flowers) = 1:2:1.</li>
+            <li>ABO Blood group = Co-dominance & Multiple alleles.</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

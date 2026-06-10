@@ -1,0 +1,60 @@
+{
+  "id": "phys-mech-l01",
+  "title": "Newton's Laws and Constraints Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Pseudo Force",
+      "q": "A mass 'm' is placed on a wedge of angle \u03B8. If the wedge is given a horizontal acceleration 'a' such that the mass remains stationary relative to the wedge, what is the magnitude of 'a'?",
+      "qPa": "ਇੱਕ ਪੁੰਜ 'm' ਨੂੰ \u03B8 ਕੋਣ ਵਾਲੇ ਵੇਜ 'ਤੇ ਰੱਖਿਆ ਗਿਆ ਹੈ। ਜੇਕਰ ਵੇਜ ਨੂੰ ਖਿਤਿਜੀ ਪ੍ਰਵੇਗ 'a' ਦਿੱਤਾ ਜਾਂਦਾ ਹੈ ਤਾਂ ਜੋ ਪੁੰਜ ਵੇਜ ਦੇ ਮੁਕਾਬਲੇ ਸਥਿਰ ਰਹੇ, ਤਾਂ 'a' ਦਾ ਮੁੱਲ ਕੀ ਹੈ?",
+      "options": [
+        "g sin\u03B8",
+        "g cos\u03B8",
+        "g tan\u03B8",
+        "g cot\u03B8"
+      ],
+      "answerIndex": 2,
+      "explanation": "Applying pseudo force 'ma' opposite to the wedge's acceleration. Resolving along the incline: ma cos\u03B8 = mg sin\u03B8, which gives a = g tan\u03B8.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "q2",
+      "topic": "Elevator Problem",
+      "q": "A man of mass 60 kg is standing on a weighing machine in an elevator. The elevator is moving downwards with a uniform acceleration of 5 m/s\u00b2. What is the reading on the machine? (Take g = 10 m/s\u00b2)",
+      "options": [
+        "600 N",
+        "300 N",
+        "900 N",
+        "0 N"
+      ],
+      "answerIndex": 1,
+      "explanation": "For downward acceleration, apparent weight N = m(g - a) = 60(10 - 5) = 60 * 5 = 300 N."
+    },
+    {
+      "id": "q3",
+      "topic": "String Constraint",
+      "q": "In a movable pulley system, if the free end of the string is pulled with velocity 'v', what is the velocity of the mass attached to the movable pulley?",
+      "options": [
+        "v",
+        "2v",
+        "v/2",
+        "v/4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Using virtual work method \u03a3 T \u00b7 v = 0. If the free end has tension T and velocity v, the movable pulley has tension 2T. T(v) + 2T(-v_p) = 0 => v_p = v/2."
+    },
+    {
+      "id": "q4",
+      "topic": "Frames of Reference",
+      "q": "Which of the following is TRUE regarding a pseudo force?",
+      "options": [
+        "It is a fundamental force of nature.",
+        "It acts in the same direction as the frame's acceleration.",
+        "It is only observed in inertial frames.",
+        "It is a fictitious force required to apply Newton's laws in non-inertial frames."
+      ],
+      "answerIndex": 3,
+      "explanation": "A pseudo force is a mathematical correction (-ma) used only in accelerating (non-inertial) frames to make Newton's second law valid."
+    }
+  ]
+}

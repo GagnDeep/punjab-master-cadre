@@ -1,0 +1,60 @@
+{
+  "id": "bio-cell-l03",
+  "title": "Molecular Basis Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Transcription",
+      "q": "If the sequence of the coding strand in a transcription unit is 5'-ATGCAT-3', what will be the sequence of the transcribed mRNA?",
+      "qPa": "ਜੇਕਰ ਟ੍ਰਾਂਸਕ੍ਰਿਪਸ਼ਨ ਯੂਨਿਟ ਵਿੱਚ ਕੋਡਿੰਗ ਸਟ੍ਰੈਂਡ ਦਾ ਕ੍ਰਮ 5'-ATGCAT-3' ਹੈ, ਤਾਂ ਬਣਨ ਵਾਲੇ mRNA ਦਾ ਕ੍ਰਮ ਕੀ ਹੋਵੇਗਾ?",
+      "options": [
+        "3'-TACGTA-5'",
+        "5'-UACGUA-3'",
+        "5'-AUGCAU-3'",
+        "3'-UACGUA-5'"
+      ],
+      "answerIndex": 2,
+      "explanation": "The mRNA sequence is exactly the same as the coding strand (which is 5' to 3'), except that Thymine (T) is replaced by Uracil (U). Therefore, ATGCAT becomes AUGCAU.",
+      "pyq": "ERB Pattern"
+    },
+    {
+      "id": "q2",
+      "topic": "Chargaff's Rule",
+      "q": "In a double-stranded DNA molecule, if the percentage of Adenine is 15%, what is the percentage of Guanine?",
+      "options": [
+        "15%",
+        "30%",
+        "35%",
+        "70%"
+      ],
+      "answerIndex": 2,
+      "explanation": "If A = 15%, then T = 15% (total 30%). The remaining 70% must be G and C. Since G = C, Guanine is half of 70%, which is 35%."
+    },
+    {
+      "id": "q3",
+      "topic": "Central Dogma",
+      "q": "Which type of RNA brings amino acids to the ribosome during translation?",
+      "options": [
+        "mRNA",
+        "tRNA",
+        "rRNA",
+        "snRNA"
+      ],
+      "answerIndex": 1,
+      "explanation": "Transfer RNA (tRNA) acts as an adapter molecule that reads the codon on mRNA and brings the corresponding amino acid to the ribosome."
+    },
+    {
+      "id": "q4",
+      "topic": "Polymerization Direction",
+      "q": "In which direction do DNA and RNA polymerases catalyze the synthesis of a new strand?",
+      "options": [
+        "3' to 5'",
+        "5' to 3'",
+        "Both directions simultaneously",
+        "Direction depends on the template"
+      ],
+      "answerIndex": 1,
+      "explanation": "All known DNA and RNA polymerases synthesize new nucleic acid strands exclusively in the 5' to 3' direction, adding nucleotides to the 3'-OH end."
+    }
+  ]
+}

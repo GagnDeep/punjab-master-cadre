@@ -1,0 +1,60 @@
+{
+  "id": "chem-atomic-l02",
+  "title": "Electronic Configuration Rules Recall",
+  "questions": [
+    {
+      "id": "q1",
+      "topic": "Exceptions",
+      "q": "What is the correct ground state electronic configuration of Chromium (Cr, atomic number 24)?",
+      "qPa": "ਕ੍ਰੋਮੀਅਮ (Cr, ਪਰਮਾਣੂ ਸੰਖਿਆ 24) ਦੀ ਸਹੀ ਇਲੈਕਟ੍ਰਾਨਿਕ ਸੰਰਚਨਾ ਕੀ ਹੈ?",
+      "options": [
+        "[Ar] 4s\u00b2 3d\u2074",
+        "[Ar] 4s\u00b9 3d\u2075",
+        "[Ar] 4s\u00b2 3d\u2075",
+        "[Ar] 3d\u2076"
+      ],
+      "answerIndex": 1,
+      "explanation": "Chromium is an exception to the Aufbau principle. One 4s electron is transferred to the 3d orbital to achieve the extra stability of a half-filled d-subshell (3d5).",
+      "pyq": "ERB Pattern"
+    },
+    {
+      "id": "q2",
+      "topic": "Rules",
+      "q": "Which rule states that pairing of electrons in the orbitals belonging to the same subshell does not take place until each orbital is singly occupied?",
+      "options": [
+        "Aufbau Principle",
+        "Pauli Exclusion Principle",
+        "Hund's Rule of Maximum Multiplicity",
+        "Heisenberg's Uncertainty Principle"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hund's Rule states that for degenerate orbitals, electrons fill them singly first, with parallel spins, before pairing begins."
+    },
+    {
+      "id": "q3",
+      "topic": "Ion Configuration",
+      "q": "What is the electronic configuration of the Cu\u00b2\u207a ion? (Cu atomic number = 29)",
+      "options": [
+        "[Ar] 4s\u00b9 3d\u2078",
+        "[Ar] 4s\u00b2 3d\u2077",
+        "[Ar] 3d\u2079",
+        "[Ar] 4s\u00b2 3d\u2079"
+      ],
+      "answerIndex": 2,
+      "explanation": "The neutral Cu atom is [Ar] 4s\u00b9 3d\u00b9\u2070. To form Cu\u00b2\u207a, two electrons are removed. The first electron is removed from the highest principal quantum number (4s), and the second from the 3d. This leaves [Ar] 3d\u2079."
+    },
+    {
+      "id": "q4",
+      "topic": "n+l rule",
+      "q": "According to the (n+l) rule, which orbital will be filled first: 4f or 5d?",
+      "options": [
+        "4f",
+        "5d",
+        "They are filled simultaneously",
+        "Depends on the element"
+      ],
+      "answerIndex": 0,
+      "explanation": "For 4f, n=4 and l=3, so (n+l) = 7. For 5d, n=5 and l=2, so (n+l) = 7. Since both have the same (n+l) value, the orbital with the lower 'n' value (4f) is filled first."
+    }
+  ]
+}

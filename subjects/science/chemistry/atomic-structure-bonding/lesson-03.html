@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Title -->
+  <title>Lesson 3: VSEPR Theory & Hybridization - Atomic Structure - Chemistry - Punjab Master Cadre 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+
+  <!-- Component Specific CSS -->
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../../../../courses.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8 mb-8" style="max-width: 800px;"> <!-- Narrower column for optimal reading -->
+
+    <!-- Breadcrumbs -->
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../../index.html" class="text-neutral-500">Chemistry</a> >
+      <a href="index.html" class="text-neutral-500">Atomic Structure & Bonding</a> >
+      Lesson 3
+    </div>
+
+    <h1 class="mb-2">VSEPR Theory & Hybridization</h1>
+    <p class="pa text-lg mb-8 text-primary-600">VSEPR ਥਿਊਰੀ ਅਤੇ ਹਾਈਬ੍ਰਿਡਾਈਜ਼ੇਸ਼ਨ (Hybridization)</p>
+
+    <!-- BEAT 1: The Hook (PYQ or Relevance) -->
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Favorite)</div>
+        <p>Questions like "What is the shape of \( XeF_4 \)?" or "What is the hybridization in \( SF_6 \)?" are guaranteed in every Master Cadre paper. You need a fast, foolproof method to find steric numbers without drawing Lewis structures.</p>
+        <p class="pa mt-2">ਹਰ ਪੇਪਰ ਵਿੱਚ ਅਣੂਆਂ (molecules) ਦੀ ਸ਼ਕਲ (shape) ਬਾਰੇ ਸਵਾਲ ਆਉਂਦਾ ਹੈ। ਤੁਹਾਨੂੰ ਬਿਨਾਂ ਪੂਰਾ ਚਿੱਤਰ ਬਣਾਏ, 10 ਸਕਿੰਟਾਂ ਵਿੱਚ ਸ਼ਕਲ ਲੱਭਣ ਦਾ ਤਰੀਕਾ ਆਉਣਾ ਚਾਹੀਦਾ ਹੈ।</p>
+      </div>
+    </section>
+
+    <!-- BEAT 2: Objectives -->
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Calculate the Steric Number quickly using the valence electron formula.</li>
+        <li>Map the Steric Number to its corresponding hybridization.</li>
+        <li>Predict molecular shapes using VSEPR by accounting for lone pairs.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 3: Concept Sections (The Core Material) -->
+    <section id="concept-1" class="mb-8">
+      <h2>1. The Steric Number (SN) Shortcut</h2>
+      <p>The Steric Number tells you how many electron domains (bonds + lone pairs) are around the central atom. This immediately gives you the hybridization.</p>
+      <div class="card bg-neutral-50 font-bold text-lg mb-4 text-center">
+        $$ SN = \frac{1}{2} (V + M - C + A) $$
+      </div>
+      <ul class="text-sm">
+        <li><strong>V</strong> = Valence electrons on central atom.</li>
+        <li><strong>M</strong> = Number of Monovalent surrounding atoms (H, F, Cl, Br, I). <em>Ignore Oxygen!</em></li>
+        <li><strong>C</strong> = Cationic charge (subtract it).</li>
+        <li><strong>A</strong> = Anionic charge (add it).</li>
+      </ul>
+    </section>
+
+    <section id="concept-2" class="mb-8">
+      <h2>2. Hybridization from SN</h2>
+      <p>Once you have SN, just count the orbitals:</p>
+      <ul>
+        <li><strong>SN = 2:</strong> \( sp \) (Linear, \( 180^\circ \))</li>
+        <li><strong>SN = 3:</strong> \( sp^2 \) (Trigonal Planar, \( 120^\circ \))</li>
+        <li><strong>SN = 4:</strong> \( sp^3 \) (Tetrahedral, \( 109.5^\circ \))</li>
+        <li><strong>SN = 5:</strong> \( sp^3d \) (Trigonal Bipyramidal)</li>
+        <li><strong>SN = 6:</strong> \( sp^3d^2 \) (Octahedral)</li>
+      </ul>
+    </section>
+
+    <section id="concept-3" class="mb-8">
+      <h2>3. VSEPR: Factoring in Lone Pairs</h2>
+      <p>Repulsion order: <strong>Lone Pair-Lone Pair > Lone Pair-Bond Pair > Bond Pair-Bond Pair</strong>.</p>
+      <p>To find the exact shape, count the Lone Pairs (LP):<br>
+         <strong>LP = SN - (Total surrounding atoms)</strong></p>
+      <ul>
+        <li>If SN=4, LP=0 $\rightarrow$ Tetrahedral (e.g., $CH_4$)</li>
+        <li>If SN=4, LP=1 $\rightarrow$ Pyramidal (e.g., $NH_3$)</li>
+        <li>If SN=4, LP=2 $\rightarrow$ V-shape / Bent (e.g., $H_2O$)</li>
+      </ul>
+
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>Do not confuse <em>Geometry</em> (Electron arrangement, depends only on SN) with <em>Shape</em> (Molecular structure, ignores lone pairs visibly). ERB usually asks for the <strong>Shape</strong>.</p>
+      </div>
+    </section>
+
+    <!-- BEAT 4: Worked Examples -->
+    <section id="examples" class="mb-8">
+      <h2>Worked Example: Xenon Tetrafluoride (\( XeF_4 \))</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> What is the hybridization and shape of \( XeF_4 \)?</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1: Calculate SN.</strong> Central atom is Xe (Noble gas, V=8). Surrounding atoms are F (Monovalent, M=4). Charge = 0.<br>
+           $SN = \frac{1}{2} (8 + 4 - 0 + 0) = \frac{12}{2} = 6$.</p>
+        <p><strong>Step 2: Hybridization.</strong> SN=6 means \( sp^3d^2 \).</p>
+        <p><strong>Step 3: Lone Pairs.</strong> LP = SN - Surrounding = $6 - 4 = 2$ lone pairs.</p>
+        <p><strong>Step 4: Shape.</strong> SN=6 geometry is Octahedral. Removing 2 positions (top and bottom) for lone pairs leaves a <strong>Square Planar</strong> shape.</p>
+        <p><strong>Answer:</strong> \( sp^3d^2 \), Square Planar.</p>
+      </div>
+    </section>
+
+    <!-- BEAT 5: "How ERB Asks It" Box -->
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>They love asking about \( I_3^- \) (Triiodide ion). <br> Central I: V=7. Monovalent I=2. Anion=1. <br> $SN = \frac{1}{2}(7+2+1) = 5$ ($sp^3d$). LP = $5-2=3$.<br> Shape = Linear. It's a classic trick question because $sp^3d$ usually isn't linear.</p>
+      </div>
+    </section>
+
+    <!-- BEAT 6: Recap Bullets -->
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>$SN = 0.5 \times (V + M - C + A)$. Ignore Oxygen for 'M'.</li>
+        <li>SN = 2, 3, 4, 5, 6 $\implies$ $sp, sp^2, sp^3, sp^3d, sp^3d^2$.</li>
+        <li>Lone Pairs = SN - Surrounding Atoms.</li>
+        <li>LP-LP > LP-BP > BP-BP repulsion shrinks bond angles.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 7: Embedded Recall Quiz -->
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <!-- Optional: Embedded Slides -->
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the molecular shapes and rules from the lecture:</p>
+      <a href="slides/lesson-03.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <!-- Optional: Punjabi Voiceover / Transcript -->
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4 text-neutral-800 leading-relaxed">
+          <p>ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੋਸਤੋ! ਅੱਜ ਦੀ ਕਲਾਸ ਬਹੁਤ ਖਾਸ ਹੈ। ਕੈਮੀਕਲ ਬੌਂਡਿੰਗ ਦਾ ਸਭ ਤੋਂ ਵੱਧ ਪੁੱਛਿਆ ਜਾਣ ਵਾਲਾ ਸਵਾਲ - ਅਣੂਆਂ ਦੀ ਸ਼ਕਲ (Shape of molecules)। ਕੀ ਤੁਸੀਂ ਬਿਨਾਂ ਪੈੱਨ ਚੁੱਕੇ ਦੱਸ ਸਕਦੇ ਹੋ ਕਿ $XeF_4$ ਦੀ ਸ਼ਕਲ ਕੀ ਹੈ?</p>
+          <p>ਇਸਦਾ ਇੱਕ ਬਹੁਤ ਹੀ ਸੌਖਾ ਫਾਰਮੂਲਾ ਹੈ - Steric Number (SN)। ਬੱਸ ਕੇਂਦਰੀ ਐਟਮ ਦੇ ਬਾਹਰੀ ਇਲੈਕਟ੍ਰੋਨ ਲਓ, ਨਾਲ ਜੁੜੇ ਸਿੰਗਲ ਬੌਂਡ ਵਾਲੇ ਐਟਮ (ਜਿਵੇਂ H ਜਾਂ F) ਜੋੜੋ, ਚਾਰਜ ਨੂੰ ਉਲਟਾ ਕੇ ਜੋੜੋ, ਤੇ ਅੱਧਾ ਕਰ ਦਿਓ। ਧਿਆਨ ਰੱਖਿਓ, ਜੇ ਆਕਸੀਜਨ (O) ਜੁੜੀ ਹੈ, ਤਾਂ ਉਸਨੂੰ ਨਾ ਗਿਣੋ!</p>
+          <p>ਜੇ SN 4 ਆ ਗਿਆ, ਤਾਂ ਮਤਲਬ 4 ਕਮਰੇ ਚਾਹੀਦੇ ਨੇ - ਇੱਕ s ਤੇ ਤਿੰਨ p ($sp^3$)। ਜੇ SN 5 ਆਇਆ ਤਾਂ $sp^3d$।</p>
+          <p>ਹੁਣ ਸ਼ਕਲ (Shape) ਕਿਵੇਂ ਕੱਢੀਏ? ਜੇ SN 4 ਹੈ ਪਰ ਆਲੇ-ਦੁਆਲੇ ਐਟਮ ਸਿਰਫ਼ 2 ਨੇ (ਜਿਵੇਂ ਪਾਣੀ, $H_2O$ ਵਿੱਚ), ਤਾਂ ਬਾਕੀ 2 ਕੀ ਨੇ? Lone Pairs! ਜਦੋਂ 4 ਵਿੱਚੋਂ 2 lone pair ਹੋਣ, ਤਾਂ ਸ਼ਕਲ "V-shape" ਜਾਂ "Bent" ਬਣ ਜਾਂਦੀ ਹੈ।</p>
+          <p>ਪੇਪਰ ਵਿੱਚ $I_3^-$ ਬਾਰੇ ਪੱਕਾ ਪੁੱਛਿਆ ਜਾਂਦਾ ਹੈ। ਇਹ ਦੇਖਣ ਨੂੰ ਵੱਡਾ ਲੱਗਦਾ ਹੈ, ਪਰ ਇਸਦਾ SN 5 ਹੈ ਤੇ ਇਸ ਕੋਲ 3 lone pairs ਹੁੰਦੇ ਹਨ, ਜਿਸ ਕਰਕੇ ਇਸਦੀ ਸ਼ਕਲ ਬਿਲਕੁਲ ਸਿੱਧੀ (Linear) ਹੋ ਜਾਂਦੀ ਹੈ। ਇਹਨਾਂ ਟ੍ਰਿਕਸ ਨੂੰ ਯਾਦ ਰੱਖੋ, ਤੁਹਾਡਾ ਸਮਾਂ ਬਹੁਤ ਬਚੇਗਾ!</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Navigation -->
+    <div style="display: flex; justify-content: space-between; border-top: 1px solid var(--color-neutral-200); padding-top: var(--space-4);">
+      <a href="lesson-02.html" class="btn btn-ghost">&larr; Previous Lesson</a>
+      <a href="index.html" class="btn btn-primary">Back to Module &rarr;</a>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../../../assets/js/quiz-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new QuizEngine('lesson-quiz-container', 'quiz/lesson-03.json');
+    });
+  </script>
+</body>
+</html>

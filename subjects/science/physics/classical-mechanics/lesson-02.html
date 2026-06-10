@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- SEO & Title -->
+  <title>Lesson 2: Work, Energy and Collisions - Classical Mechanics - Physics - Punjab Master Cadre 2026</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Design System -->
+  <link rel="stylesheet" href="../../../../assets/css/design-system.css">
+
+  <!-- Component Specific CSS (if embedding slides or quizzes) -->
+  <link rel="stylesheet" href="../../../../assets/css/slides.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container nav-container">
+      <a href="../../../../index.html" class="logo">Master Cadre <span>2026</span></a>
+      <nav class="nav-links">
+        <a href="../../../../courses.html">Courses</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container mt-8 mb-8" style="max-width: 800px;"> <!-- Narrower column for optimal reading -->
+
+    <!-- Breadcrumbs -->
+    <div class="text-sm mb-4 text-neutral-500">
+      <a href="../../../../courses.html" class="text-neutral-500">Courses</a> >
+      <a href="../../index.html" class="text-neutral-500">Physics</a> >
+      <a href="index.html" class="text-neutral-500">Classical Mechanics</a> >
+      Lesson 2
+    </div>
+
+    <h1 class="mb-2">Work, Energy and Collisions</h1>
+    <p class="pa text-lg mb-8 text-primary-600">ਕੰਮ, ਊਰਜਾ ਅਤੇ ਟਕਰਾਅ (Collisions)</p>
+
+    <!-- BEAT 1: The Hook (PYQ or Relevance) -->
+    <section id="hook" class="mb-8">
+      <div class="callout callout-pyq">
+        <div class="callout-title">Why this matters (ERB Pattern)</div>
+        <p>Problems involving conservative forces, calculating potential energy from force functions, and finding final velocities in inelastic collisions are heavily tested. You need to identify when to conserve momentum versus energy instantly.</p>
+        <p class="pa mt-2">ਰੂੜੀਵਾਦੀ ਬਲਾਂ (conservative forces) ਅਤੇ ਟਕਰਾਅ ਦੇ ਸਵਾਲ ਅਕਸਰ ਆਉਂਦੇ ਹਨ। ਤੁਹਾਨੂੰ ਤੁਰੰਤ ਪਛਾਣਨਾ ਪਵੇਗਾ ਕਿ ਕਦੋਂ ਮੋਮੈਂਟਮ ਬਚਾਉਣਾ ਹੈ ਅਤੇ ਕਦੋਂ ਊਰਜਾ।</p>
+      </div>
+    </section>
+
+    <!-- BEAT 2: Objectives -->
+    <section id="objectives" class="mb-8 card">
+      <h2 class="text-xl border-bottom mb-4 pb-2">By the end of this lesson, you will:</h2>
+      <ul>
+        <li>Differentiate between conservative and non-conservative forces.</li>
+        <li>Calculate potential energy \( U(x) \) from a given force function \( F(x) \).</li>
+        <li>Apply the coefficient of restitution \( e \) to solve 1D collision problems.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 3: Concept Sections (The Core Material) -->
+    <section id="concept-1" class="mb-8">
+      <h2>1. Conservative Forces & Potential Energy</h2>
+      <p>A force is <strong>conservative</strong> if the work done by it over a closed path is zero (e.g., gravity, spring force). For a conservative force, we can define a potential energy function \( U \):</p>
+      <div class="card bg-neutral-50 text-center font-bold text-lg mb-4">
+        $$ \vec{F} = -\nabla U $$
+        <p class="text-sm mt-2 font-normal">In 1D: \( F(x) = -\frac{dU}{dx} \)</p>
+      </div>
+      <p>This means the force always acts in the direction that <em>minimizes</em> potential energy.</p>
+
+      <div class="callout callout-warning mt-4">
+        <div class="callout-title">Common Trap</div>
+        <p>Forgetting the negative sign! If \( U(x) = cx^2 \), then \( F(x) = -2cx \), meaning the force is attractive (restoring).</p>
+      </div>
+    </section>
+
+    <section id="concept-2" class="mb-8">
+      <h2>2. Collisions & Coefficient of Restitution</h2>
+      <p>In <strong>all</strong> collisions (in absence of external forces), <strong>momentum is conserved</strong>.</p>
+      <p>The type of collision is determined by the <strong>coefficient of restitution (\( e \))</strong>:</p>
+      <p>$$ e = \frac{\text{Velocity of Separation}}{\text{Velocity of Approach}} = \frac{v_2 - v_1}{u_1 - u_2} $$</p>
+      <ul>
+        <li><strong>Elastic Collision:</strong> \( e = 1 \). Both momentum and kinetic energy are conserved.</li>
+        <li><strong>Inelastic Collision:</strong> \( 0 < e < 1 \). Kinetic energy is lost.</li>
+        <li><strong>Perfectly Inelastic:</strong> \( e = 0 \). Objects stick together (\( v_1 = v_2 \)). Maximum KE loss.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 4: Worked Examples -->
+    <section id="examples" class="mb-8">
+      <h2>Worked Example: Perfectly Inelastic Collision</h2>
+      <div class="card bg-neutral-50">
+        <p><strong>Q: </strong> A bullet of mass \( m \) moving with velocity \( v \) strikes a stationary wooden block of mass \( M \) and gets embedded in it. What is the final velocity of the system?</p>
+        <hr class="my-4" style="border:0; border-top: 1px solid var(--color-neutral-200); margin: var(--space-4) 0;">
+        <p><strong>Step 1:</strong> Identify the collision. "Embedded" means perfectly inelastic (\( e = 0 \)).</p>
+        <p><strong>Step 2:</strong> Conserve momentum. Initial momentum = Final momentum.</p>
+        <p><strong>Step 3:</strong> \( m \cdot v + M \cdot 0 = (m + M) \cdot V_{\text{final}} \)</p>
+        <p><strong>Answer:</strong> \( V_{\text{final}} = \frac{mv}{m + M} \)</p>
+      </div>
+    </section>
+
+    <!-- BEAT 5: "How ERB Asks It" Box -->
+    <section id="exam-pattern" class="mb-8">
+      <div class="callout callout-tip" style="background-color: var(--color-primary-50); border-color: var(--color-primary-600);">
+        <div class="callout-title" style="color: var(--color-primary-800);">🧠 How ERB Asks It</div>
+        <p>ERB rarely asks for just final velocity. They usually ask for the <strong>fraction of kinetic energy lost</strong> in a perfectly inelastic collision. <br> Memorize the shortcut: \( \text{Fraction Lost} = \frac{M}{m+M} \) (where M is the target mass).</p>
+      </div>
+    </section>
+
+    <!-- BEAT 6: Recap Bullets -->
+    <section id="recap" class="mb-8 card" style="background-color: var(--color-accent-50); border-color: var(--color-accent-200);">
+      <h2>Quick Recap</h2>
+      <ul style="list-style-type: '✓ ';">
+        <li>\( F = -\frac{dU}{dx} \). The derivative of potential energy gives the negative of the force.</li>
+        <li>Momentum is ALWAYS conserved in collisions (if \( F_{\text{ext}} = 0 \)).</li>
+        <li>Elastic: \( e = 1 \), KE conserved. Perfectly Inelastic: \( e = 0 \), bodies stick together.</li>
+      </ul>
+    </section>
+
+    <!-- BEAT 7: Embedded Recall Quiz -->
+    <section id="recall-quiz" class="mb-12">
+      <h2>Test Your Knowledge</h2>
+      <div id="lesson-quiz-container"></div>
+    </section>
+
+    <!-- Optional: Embedded Slides -->
+    <section id="slides-reference" class="mb-8">
+      <h2>Lesson Slides</h2>
+      <p class="mb-4">Review the slide deck used in the video lecture:</p>
+      <a href="slides/lesson-02.html" class="btn btn-secondary" target="_blank">Open Slides Fullscreen</a>
+    </section>
+
+    <!-- Optional: Punjabi Voiceover / Transcript -->
+    <section id="transcript" class="mb-8">
+      <details>
+        <summary>Punjabi Transcript / ਪੰਜਾਬੀ ਅਨੁਵਾਦ</summary>
+        <div class="pa mt-4 text-neutral-800 leading-relaxed">
+          <p>ਸਤਿ ਸ੍ਰੀ ਅਕਾਲ ਦੋਸਤੋ! ਅੱਜ ਦਾ ਵਿਸ਼ਾ ਹੈ ਕੰਮ, ਊਰਜਾ, ਅਤੇ ਟਕਰਾਅ (Work, Energy and Collisions)। ਫਿਜ਼ਿਕਸ ਦੇ ਪੇਪਰ ਵਿੱਚ ਇਹ ਹਿੱਸਾ ਬਹੁਤ ਸਕੋਰਿੰਗ ਹੈ, ਜੇ ਤੁਹਾਨੂੰ ਛੋਟੀਆਂ ਗੱਲਾਂ ਦਾ ਪਤਾ ਹੋਵੇ।</p>
+          <p>ਸਭ ਤੋਂ ਪਹਿਲਾਂ ਗੱਲ ਕਰਦੇ ਹਾਂ Conservative Forces ਦੀ। ਯਾਦ ਰੱਖਿਓ, ਜਿੱਥੇ ਵੀ Potential Energy (\( U \)) ਦਾ ਜ਼ਿਕਰ ਹੋਵੇ, ਉੱਥੇ ਫੋਰਸ ਕੱਢਣ ਲਈ ਸਿਰਫ਼ ਡੈਰੀਵੇਟਿਵ (derivative) ਕਰਨਾ ਹੈ ਅਤੇ ਅੱਗੇ ਮਾਈਨਸ ਲਗਾਉਣਾ ਹੈ (\( F = -dU/dx \))। ਕਦੇ ਵੀ ਮਾਈਨਸ ਲਗਾਉਣਾ ਨਾ ਭੁੱਲੋ!</p>
+          <p>ਦੂਜੀ ਗੱਲ, ਟਕਰਾਅ (Collisions)। ਪੇਪਰ ਵਿੱਚ ਜਦੋਂ ਵੀ "embedded", "sticks to" ਵਰਗੇ ਸ਼ਬਦ ਆਉਣ, ਤਾਂ ਸਮਝ ਲਓ ਇਹ Perfectly Inelastic Collision ਹੈ। ਇੱਥੇ \( e = 0 \) ਹੁੰਦਾ ਹੈ। ਦੋਵੇਂ ਚੀਜ਼ਾਂ ਟਕਰਾਉਣ ਤੋਂ ਬਾਅਦ ਇੱਕ ਹੋ ਜਾਂਦੀਆਂ ਹਨ। ਐਗਜ਼ਾਮੀਨਰ ਅਕਸਰ ਪੁੱਛਦਾ ਹੈ ਕਿ ਕਿੰਨੀ ਊਰਜਾ ਦਾ ਨੁਕਸਾਨ (Energy loss) ਹੋਇਆ? ਇਸਦਾ ਸਿੱਧਾ ਫਾਰਮੂਲਾ ਯਾਦ ਰੱਖੋ: ਊਰਜਾ ਨੁਕਸਾਨ ਦਾ ਹਿੱਸਾ (Fraction lost) ਹੁੰਦਾ ਹੈ \( M / (m+M) \)।</p>
+          <p>ਇਹਨਾਂ ਸ਼ਾਰਟਕੱਟਸ ਨਾਲ ਤੁਸੀਂ ਸਵਾਲ 15 ਸਕਿੰਟਾਂ ਵਿੱਚ ਕੱਢ ਸਕਦੇ ਹੋ। ਹੁਣ ਥੱਲੇ ਦਿੱਤੇ ਕੁਇਜ਼ ਵਿੱਚ ਆਪਣਾ ਜ਼ੋਰ ਅਜ਼ਮਾਓ!</p>
+        </div>
+      </details>
+    </section>
+
+    <!-- Navigation -->
+    <div style="display: flex; justify-content: space-between; border-top: 1px solid var(--color-neutral-200); padding-top: var(--space-4);">
+      <a href="lesson-01.html" class="btn btn-ghost">&larr; Previous Lesson</a>
+      <a href="lesson-03.html" class="btn btn-primary">Next Lesson &rarr;</a>
+    </div>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2024 Punjab Master Cadre Prep. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="../../../../assets/js/quiz-engine.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new QuizEngine('lesson-quiz-container', 'quiz/lesson-02.json');
+    });
+  </script>
+</body>
+</html>

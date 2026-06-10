@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Rigid Body Dynamics - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+    }
+    .svg-diagram {
+      width: 100%;
+      max-height: 400px;
+    }
+    .shape-stroke {
+      stroke: var(--color-primary-600);
+      stroke-width: 4;
+      fill: none;
+    }
+    .shape-fill {
+      fill: var(--color-primary-100);
+      stroke: var(--color-primary-600);
+      stroke-width: 4;
+    }
+    .axis-line {
+      stroke: var(--color-danger);
+      stroke-width: 3;
+      stroke-dasharray: 8, 4;
+    }
+    .text-label {
+      font-family: var(--font-body);
+      font-size: 20px;
+      font-weight: 600;
+      fill: var(--color-neutral-800);
+      text-anchor: middle;
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Rigid Body Dynamics</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਸਖ਼ਤ ਸਰੀਰ ਗਤੀਸ਼ੀਲਤਾ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Physics Module: Classical Mechanics</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: Standard MOIs -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Standard Moments of Inertia ($I$)</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 600 200" class="svg-diagram">
+              <!-- Ring -->
+              <circle cx="100" cy="100" r="50" class="shape-stroke"/>
+              <line x1="100" y1="20" x2="100" y2="180" class="axis-line"/>
+              <text x="100" y="180" class="text-label">Ring</text>
+              <text x="100" y="200" class="text-label text-sm">$MR^2$</text>
+
+              <!-- Disc/Cyl -->
+              <circle cx="300" cy="100" r="50" class="shape-fill"/>
+              <line x1="300" y1="20" x2="300" y2="180" class="axis-line"/>
+              <text x="300" y="180" class="text-label">Solid Disc</text>
+              <text x="300" y="200" class="text-label text-sm">$\frac{1}{2}MR^2$</text>
+
+              <!-- Solid Sphere -->
+              <circle cx="500" cy="100" r="50" class="shape-fill"/>
+              <!-- Add some lines to make it look 3D ish -->
+              <ellipse cx="500" cy="100" rx="50" ry="15" fill="none" stroke="var(--color-primary-600)" stroke-width="2"/>
+              <line x1="500" y1="20" x2="500" y2="180" class="axis-line"/>
+              <text x="500" y="180" class="text-label">Solid Sphere</text>
+              <text x="500" y="200" class="text-label text-sm">$\frac{2}{5}MR^2$</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Pure Rolling Acceleration -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>Acceleration on Incline</h2>
+          <div class="stat-number my-8" style="font-size: 4rem;">$ a = \frac{g \sin\theta}{1 + \frac{k^2}{R^2}} $</div>
+          <p class="text-2xl mt-4">Smaller $\frac{k^2}{R^2}$ means <strong>faster</strong> acceleration!</p>
+        </div>
+      </div>
+
+      <!-- Slide 4: The Race -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>The "Race" Down the Incline</h2>
+          <p class="mb-4">Mass and Radius <strong>do not matter</strong>.</p>
+          <ul class="text-xl">
+            <li><strong>1st:</strong> Solid Sphere ($\frac{k^2}{R^2} = 0.4$)</li>
+            <li><strong>2nd:</strong> Solid Cylinder ($\frac{k^2}{R^2} = 0.5$)</li>
+            <li><strong>3rd:</strong> Hollow Sphere ($\frac{k^2}{R^2} \approx 0.67$)</li>
+            <li><strong>4th:</strong> Hollow Cylinder / Ring ($\frac{k^2}{R^2} = 1$)</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 5: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>$I_{ring} = MR^2$</li>
+            <li>$I_{disc} = \frac{1}{2}MR^2$</li>
+            <li>Solid things roll faster than hollow things.</li>
+            <li>Pure rolling: $v = \omega R$ (No slipping).</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>

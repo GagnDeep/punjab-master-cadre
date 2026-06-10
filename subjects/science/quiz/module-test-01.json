@@ -1,0 +1,336 @@
+{
+  "id": "sci-module-test-01",
+  "title": "Science Flagship Modules Mock Test 01",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mt1-q01",
+      "topic": "Classical Mechanics",
+      "q": "A monkey of mass m is climbing a rope hanging from the roof with acceleration a. The tension in the rope is:",
+      "qPa": "ਛੱਤ ਨਾਲ ਲਟਕਦੀ ਰੱਸੀ 'ਤੇ m ਪੁੰਜ ਵਾਲਾ ਇੱਕ ਬਾਂਦਰ a ਪ੍ਰਵੇਗ (acceleration) ਨਾਲ ਉੱਪਰ ਚੜ੍ਹ ਰਿਹਾ ਹੈ। ਰੱਸੀ ਵਿੱਚ ਤਣਾਅ (tension) ਕਿੰਨਾ ਹੋਵੇਗਾ?",
+      "options": [
+        "mg",
+        "m(g-a)",
+        "m(g+a)",
+        "ma"
+      ],
+      "answerIndex": 2,
+      "explanation": "Drawing the FBD of the monkey: T (up), mg (down), pseudo force ma (down). T = mg + ma = m(g+a).",
+      "pyq": "ERB Pattern"
+    },
+    {
+      "id": "mt1-q02",
+      "topic": "Classical Mechanics",
+      "q": "A particle moves in a 1D potential field U(x) = x^3 - 3x. The equilibrium position is at:",
+      "options": [
+        "x = 1",
+        "x = -1",
+        "x = \u00b11",
+        "x = 0"
+      ],
+      "answerIndex": 2,
+      "explanation": "Equilibrium occurs where Force F = -dU/dx = 0. dU/dx = 3x^2 - 3. Setting to 0 gives x^2 = 1, so x = \u00b11."
+    },
+    {
+      "id": "mt1-q03",
+      "topic": "Classical Mechanics",
+      "q": "Two masses m and 2m moving with velocities v and v/2 respectively in opposite directions collide elastically. The total kinetic energy after collision is:",
+      "options": [
+        "mv^2",
+        "3/4 mv^2",
+        "1/2 mv^2",
+        "Zero"
+      ],
+      "answerIndex": 1,
+      "explanation": "In an elastic collision, kinetic energy is conserved. Initial KE = 1/2*m*v^2 + 1/2*(2m)*(v/2)^2 = 1/2*mv^2 + 1/4*mv^2 = 3/4*mv^2. Final KE is the same."
+    },
+    {
+      "id": "mt1-q04",
+      "topic": "Classical Mechanics",
+      "q": "Which of the following bodies rolling down an incline has the maximum linear acceleration? (Assume same mass and radius)",
+      "options": [
+        "Solid Cylinder",
+        "Hollow Sphere",
+        "Solid Sphere",
+        "Ring"
+      ],
+      "answerIndex": 2,
+      "explanation": "Acceleration is max when the shape factor (k^2/R^2) is minimum. Solid sphere has the minimum value (0.4) among the given choices."
+    },
+    {
+      "id": "mt1-q05",
+      "topic": "Classical Mechanics",
+      "q": "If the radius of the earth shrinks by 1%, its mass remaining the same, the value of g on the earth's surface would:",
+      "options": [
+        "Increase by 1%",
+        "Increase by 2%",
+        "Decrease by 1%",
+        "Decrease by 2%"
+      ],
+      "answerIndex": 1,
+      "explanation": "g = GM/R^2. Taking logs and differentiating: \u0394g/g = -2(\u0394R/R). If \u0394R/R is -1%, then \u0394g/g = -2(-1%) = +2%."
+    },
+    {
+      "id": "mt1-q06",
+      "topic": "Atomic Structure",
+      "q": "Which of the following orbitals is non-directional?",
+      "qPa": "ਹੇਠ ਲਿਖਿਆਂ ਵਿੱਚੋਂ ਕਿਹੜਾ ਔਰਬਿਟਲ ਗੈਰ-ਦਿਸ਼ਾਵੀ (non-directional) ਹੈ?",
+      "options": [
+        "s",
+        "p",
+        "d",
+        "f"
+      ],
+      "answerIndex": 0,
+      "explanation": "The s-orbital has a spherical shape, meaning the electron probability density is equal in all directions from the nucleus."
+    },
+    {
+      "id": "mt1-q07",
+      "topic": "Atomic Structure",
+      "q": "What is the maximum number of electrons that can be accommodated in a subshell with principal quantum number n=4 and azimuthal quantum number l=3?",
+      "options": [
+        "2",
+        "6",
+        "10",
+        "14"
+      ],
+      "answerIndex": 3,
+      "explanation": "For l=3 (f-subshell), the number of orbitals is 2l + 1 = 7. Each orbital holds 2 electrons, so max electrons = 7 * 2 = 14."
+    },
+    {
+      "id": "mt1-q08",
+      "topic": "Atomic Structure",
+      "q": "The electronic configuration of Fe3+ (atomic number 26) is:",
+      "options": [
+        "[Ar] 4s\u00b2 3d\u00b3",
+        "[Ar] 3d\u2075",
+        "[Ar] 4s\u00b9 3d\u2074",
+        "[Ar] 3d\u2076"
+      ],
+      "answerIndex": 1,
+      "explanation": "Fe is [Ar] 4s\u00b2 3d\u2076. To form Fe3+, remove electrons from the highest 'n' first (remove two 4s electrons), then one from 3d. Leaves [Ar] 3d\u2075."
+    },
+    {
+      "id": "mt1-q09",
+      "topic": "Chemical Bonding",
+      "q": "In the molecule SF6, what is the hybridization of the Sulfur atom?",
+      "options": [
+        "sp\u00b3",
+        "sp\u00b3d",
+        "sp\u00b3d\u00b2",
+        "d\u00b2sp\u00b3"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sulfur has 6 valence e-. It is bonded to 6 monovalent F atoms. SN = 1/2(6 + 6) = 6. SN=6 implies sp\u00b3d\u00b2 hybridization."
+    },
+    {
+      "id": "mt1-q10",
+      "topic": "Chemical Bonding",
+      "q": "Which of the following species has a linear shape?",
+      "options": [
+        "NO2\u207b",
+        "O3",
+        "I3\u207b",
+        "SO2"
+      ],
+      "answerIndex": 2,
+      "explanation": "For I3-, SN = 5 (sp\u00b3d) with 3 lone pairs. The 3 lone pairs occupy equatorial positions, leaving the atoms in a linear arrangement."
+    },
+    {
+      "id": "mt1-q11",
+      "topic": "Chemical Bonding",
+      "q": "According to VSEPR theory, the bond angle in a water molecule (H2O) is less than the standard tetrahedral angle (109.5\u00b0) primarily due to:",
+      "options": [
+        "Bond Pair - Bond Pair repulsion",
+        "High electronegativity of Oxygen",
+        "Lone Pair - Lone Pair repulsion",
+        "Hydrogen bonding"
+      ],
+      "answerIndex": 2,
+      "explanation": "Water has two lone pairs. The strong Lone Pair - Lone Pair repulsion forces the Bond Pairs closer together, reducing the angle to ~104.5\u00b0."
+    },
+    {
+      "id": "mt1-q12",
+      "topic": "Cell Biology",
+      "q": "During the cell cycle, DNA replication occurs during:",
+      "qPa": "ਸੈੱਲ ਚੱਕਰ (cell cycle) ਦੌਰਾਨ DNA ਰੈਪਲੀਕੇਸ਼ਨ (replication) ਕਦੋਂ ਹੁੰਦੀ ਹੈ?",
+      "options": [
+        "G1 phase",
+        "G2 phase",
+        "S phase",
+        "M phase"
+      ],
+      "answerIndex": 2,
+      "explanation": "The synthesis (S) phase is exclusively when DNA replication takes place, doubling the DNA content from 2C to 4C."
+    },
+    {
+      "id": "mt1-q13",
+      "topic": "Cell Biology",
+      "q": "Bivalents (tetrads) clearly appear during which stage of Prophase I?",
+      "options": [
+        "Leptotene",
+        "Zygotene",
+        "Pachytene",
+        "Diakinesis"
+      ],
+      "answerIndex": 1,
+      "explanation": "During Zygotene, homologous chromosomes pair up (synapsis) to form bivalents or tetrads."
+    },
+    {
+      "id": "mt1-q14",
+      "topic": "Genetics",
+      "q": "If a man with blood type AB marries a woman with blood type O, what are the possible blood types of their children?",
+      "options": [
+        "A and B only",
+        "AB and O only",
+        "A, B, and O",
+        "A, B, AB, and O"
+      ],
+      "answerIndex": 0,
+      "explanation": "Man is I^A I^B. Woman is ii. The gametes are (I^A, I^B) and (i, i). Offspring will be I^Ai (Type A) or I^Bi (Type B). No child can have AB or O."
+    },
+    {
+      "id": "mt1-q15",
+      "topic": "Genetics",
+      "q": "A heterozygous tall pea plant is crossed with a dwarf pea plant. The expected phenotypic ratio of the offspring is:",
+      "options": [
+        "3:1",
+        "1:2:1",
+        "1:1",
+        "9:3:3:1"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is a test cross (Tt x tt). The offspring will be Tt (Tall) and tt (Dwarf) in a 1:1 ratio."
+    },
+    {
+      "id": "mt1-q16",
+      "topic": "Molecular Basis",
+      "q": "In a DNA molecule, the ratio of (A+T)/(G+C) is:",
+      "options": [
+        "Always equal to 1",
+        "Constant for a particular species",
+        "Variable within the same individual",
+        "Always greater than 1"
+      ],
+      "answerIndex": 1,
+      "explanation": "While A+G = T+C (purines = pyrimidines) is true for all DNA, the ratio of A+T to G+C is specific to the species and helps determine the DNA's melting temperature."
+    },
+    {
+      "id": "mt1-q17",
+      "topic": "Molecular Basis",
+      "q": "Which of the following is true about RNA polymerase during transcription?",
+      "options": [
+        "It reads the template in 5' to 3' direction",
+        "It synthesizes RNA in 3' to 5' direction",
+        "It synthesizes RNA in 5' to 3' direction",
+        "It requires a primer to initiate synthesis"
+      ],
+      "answerIndex": 2,
+      "explanation": "All polymerases synthesize new nucleic acid strands exclusively in the 5' to 3' direction."
+    },
+    {
+      "id": "mt1-q18",
+      "topic": "Classical Mechanics",
+      "q": "The apparent weight of a freely falling body is:",
+      "options": [
+        "mg",
+        "m(g+a)",
+        "Zero",
+        "Infinite"
+      ],
+      "answerIndex": 2,
+      "explanation": "In free fall, downward acceleration a = g. Apparent weight = m(g-a) = m(g-g) = 0. This is the state of weightlessness."
+    },
+    {
+      "id": "mt1-q19",
+      "topic": "Atomic Structure",
+      "q": "How many angular nodes are present in a 3d orbital?",
+      "options": [
+        "0",
+        "1",
+        "2",
+        "3"
+      ],
+      "answerIndex": 2,
+      "explanation": "The number of angular nodes is equal to the azimuthal quantum number 'l'. For a d-orbital, l = 2."
+    },
+    {
+      "id": "mt1-q20",
+      "topic": "Cell Biology",
+      "q": "During which phase do the centromeres split and sister chromatids separate?",
+      "options": [
+        "Anaphase I of Meiosis",
+        "Metaphase of Mitosis",
+        "Anaphase of Mitosis",
+        "Prophase II of Meiosis"
+      ],
+      "answerIndex": 2,
+      "explanation": "Centromeres split during Anaphase of Mitosis and Anaphase II of Meiosis. In Anaphase I of Meiosis, homologous chromosomes separate but centromeres remain intact."
+    },
+    {
+      "id": "mt1-q21",
+      "topic": "Genetics",
+      "q": "The phenotypic ratio of 1:2:1 in the F2 generation of a monohybrid cross is indicative of:",
+      "options": [
+        "Complete dominance",
+        "Incomplete dominance",
+        "Independent assortment",
+        "Multiple alleles"
+      ],
+      "answerIndex": 1,
+      "explanation": "In incomplete dominance (like flower color in snapdragons), the heterozygous phenotype is distinct, making the phenotypic ratio (1:2:1) match the genotypic ratio."
+    },
+    {
+      "id": "mt1-q22",
+      "topic": "Chemical Bonding",
+      "q": "What is the total number of lone pairs on the central atom in Xenon Difluoride (XeF2)?",
+      "options": [
+        "1",
+        "2",
+        "3",
+        "4"
+      ],
+      "answerIndex": 2,
+      "explanation": "Xe has 8 valence e-. Bonded to 2 F atoms. SN = 1/2(8+2) = 5 (sp3d). Lone Pairs = SN - surrounding atoms = 5 - 2 = 3 lone pairs."
+    },
+    {
+      "id": "mt1-q23",
+      "topic": "Molecular Basis",
+      "q": "Which RNA molecule possesses an anticodon loop?",
+      "options": [
+        "mRNA",
+        "rRNA",
+        "tRNA",
+        "hnRNA"
+      ],
+      "answerIndex": 2,
+      "explanation": "Transfer RNA (tRNA) has an anticodon loop that is complementary to the codon on mRNA."
+    },
+    {
+      "id": "mt1-q24",
+      "topic": "Classical Mechanics",
+      "q": "Which of the following equations represents a conservative force field F?",
+      "options": [
+        "F = kv",
+        "F = \u03bcv",
+        "\u2207 x F = 0",
+        "\u2207 \u00b7 F = 0"
+      ],
+      "answerIndex": 2,
+      "explanation": "A force field is conservative if its curl is zero (\u2207 x F = 0), which implies the work done is independent of the path."
+    },
+    {
+      "id": "mt1-q25",
+      "topic": "Atomic Structure",
+      "q": "The orbital diagram in which both electrons have the same spin in the same orbital violates:",
+      "options": [
+        "Aufbau principle",
+        "Hund's rule",
+        "Pauli's exclusion principle",
+        "Bohr's theory"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pauli's exclusion principle states that no two electrons in an atom can have all 4 quantum numbers the same. If they are in the same orbital, their spins must be opposite (+1/2 and -1/2)."
+    }
+  ]
+}

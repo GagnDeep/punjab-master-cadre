@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Slides: Work, Energy & Collisions - Punjab Master Cadre 2026</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@400;600;700&family=Mukta+Mahee:wght@400;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="../../../../../assets/css/design-system.css">
+  <link rel="stylesheet" href="../../../../../assets/css/slides.css">
+
+  <style>
+    .diagram-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      flex-direction: column;
+    }
+    .svg-diagram {
+      width: 80%;
+      max-height: 400px;
+    }
+    .graph-line {
+      stroke: var(--color-primary-600);
+      stroke-width: 4;
+      fill: none;
+    }
+    .axis {
+      stroke: var(--color-neutral-800);
+      stroke-width: 3;
+    }
+    .graph-text {
+      font-family: var(--font-body);
+      font-size: 20px;
+      fill: var(--color-neutral-800);
+    }
+  </style>
+</head>
+<body class="slide-mode">
+
+  <div id="slide-wrapper" class="slide-wrapper">
+    <div class="deck">
+
+      <!-- Slide 1: Title -->
+      <div class="slide slide-title">
+        <div class="slide-content text-center">
+          <h1 class="text-4xl mb-4">Work, Energy & Collisions</h1>
+          <h2 class="text-2xl text-primary-600 pa">ਕੰਮ, ਊਰਜਾ ਅਤੇ ਟਕਰਾਅ</h2>
+          <p class="text-xl text-neutral-600 mt-8">Physics Module: Classical Mechanics</p>
+        </div>
+      </div>
+
+      <!-- Slide 2: Conservative Forces -->
+      <div class="slide slide-bullet">
+        <div class="slide-content">
+          <h2>Conservative Forces & Potential Energy</h2>
+          <ul>
+            <li>Work done is independent of the path.</li>
+            <li>Work done in a closed loop is ZERO.</li>
+            <li>We can define a Potential Energy function $U(x)$.</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- Slide 3: F = -dU/dx -->
+      <div class="slide slide-big-stat">
+        <div class="slide-content text-center">
+          <h2>Force from Potential Energy</h2>
+          <div class="stat-number my-8" style="font-size: 5rem; color: var(--color-danger);">$ F = -\frac{dU}{dx} $</div>
+          <p class="text-2xl">Don't forget the negative sign! Force pushes towards <em>lower</em> potential energy.</p>
+        </div>
+      </div>
+
+      <!-- Slide 4: Potential Energy Graph -->
+      <div class="slide slide-diagram">
+        <div class="slide-content">
+          <h2>Equilibrium Points on U(x) Graph</h2>
+          <div class="diagram-container">
+            <svg viewBox="0 0 500 300" class="svg-diagram">
+              <!-- Axes -->
+              <line x1="50" y1="250" x2="450" y2="250" class="axis"/> <!-- x-axis -->
+              <line x1="50" y1="250" x2="50" y2="50" class="axis"/> <!-- y-axis -->
+              <text x="250" y="280" class="graph-text" text-anchor="middle">Position (x)</text>
+              <text x="20" y="150" class="graph-text" transform="rotate(-90 20,150)" text-anchor="middle">U(x)</text>
+
+              <!-- U(x) Curve -->
+              <path d="M 50 100 Q 150 300 250 150 T 450 100" class="graph-line"/>
+
+              <!-- Points -->
+              <circle cx="150" cy="225" r="6" fill="var(--color-success)"/>
+              <text x="150" y="250" class="graph-text" fill="var(--color-success)" text-anchor="middle">Stable</text>
+
+              <circle cx="350" cy="100" r="6" fill="var(--color-danger)"/>
+              <text x="350" y="80" class="graph-text" fill="var(--color-danger)" text-anchor="middle">Unstable</text>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 5: Collisions -->
+      <div class="slide slide-two-col">
+        <div class="slide-content">
+          <h2 class="mb-8">Types of Collisions</h2>
+          <div class="col-container">
+            <div class="col card bg-primary-50">
+              <h3>Elastic ($e = 1$)</h3>
+              <ul>
+                <li>Momentum Conserved</li>
+                <li>Kinetic Energy Conserved</li>
+                <li>Billiard balls (approx)</li>
+              </ul>
+            </div>
+            <div class="col card bg-accent-50">
+              <h3>Perfectly Inelastic ($e = 0$)</h3>
+              <ul>
+                <li>Momentum Conserved</li>
+                <li>Max Kinetic Energy LOST</li>
+                <li>Objects stick together</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 6: Recap -->
+      <div class="slide slide-recap" style="background-color: var(--color-accent-50);">
+        <div class="slide-content">
+          <h2 style="color: var(--color-accent-600);">Key Takeaways</h2>
+          <ul style="list-style-type: '✓ ';">
+            <li>$F = -dU/dx$</li>
+            <li>Momentum is ALWAYS conserved in collisions (if $F_{ext}=0$).</li>
+            <li>Shortcut for Perfectly Inelastic KE Loss: Fraction = $\frac{M}{m+M}$</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="../../../../../assets/js/slides.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      new SlideDeck(document.getElementById('slide-wrapper'));
+    });
+  </script>
+</body>
+</html>
