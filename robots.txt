@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://mastercadre.com/sitemap.xml
+Sitemap: https://gagndeep.github.io/punjab-master-cadre/sitemap.xml
