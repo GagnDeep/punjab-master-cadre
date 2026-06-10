@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-13",
+  "title": "Recall Quiz: Later Victorians: Dickens, Hardy, Eliot, Arnold",
+  "questions": [
+    {
+      "id": "l13q01",
+      "topic": "Settings",
+      "q": "The fictional region of 'Wessex' serves as the setting for the novels of which Victorian author?",
+      "options": [
+        "Charles Dickens",
+        "George Eliot",
+        "Thomas Hardy",
+        "William Makepeace Thackeray"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hardy based Wessex on the real counties of southwestern England.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "l13q02",
+      "topic": "Authors",
+      "q": "What was the real name of the author who wrote under the pseudonym George Eliot?",
+      "options": [
+        "Mary Shelley",
+        "Charlotte Bront\u00eb",
+        "Mary Ann Evans",
+        "Jane Austen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Mary Ann Evans used a male pen name to ensure her work was judged seriously."
+    },
+    {
+      "id": "l13q03",
+      "topic": "Works",
+      "q": "Which novel by Charles Dickens begins with the famous line 'It was the best of times, it was the worst of times'?",
+      "options": [
+        "Great Expectations",
+        "A Tale of Two Cities",
+        "Oliver Twist",
+        "Bleak House"
+      ],
+      "answerIndex": 1,
+      "explanation": "This is the opening of his historical novel set during the French Revolution."
+    },
+    {
+      "id": "l13q04",
+      "topic": "Themes",
+      "q": "Thomas Hardy's novels are primarily characterized by a philosophy of:",
+      "options": [
+        "Optimistic Romanticism",
+        "Christian redemption",
+        "Fatalism and Determinism",
+        "Utopian Socialism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hardy's characters are often victims of blind, uncaring fate and strict social conventions."
+    },
+    {
+      "id": "l13q05",
+      "topic": "Works",
+      "q": "Which poem by Matthew Arnold famously laments the 'melancholy, long, withdrawing roar' of the Sea of Faith?",
+      "options": [
+        "The Scholar Gipsy",
+        "Thyrsis",
+        "Dover Beach",
+        "Ulysses"
+      ],
+      "answerIndex": 2,
+      "explanation": "Dover Beach is the ultimate expression of Victorian anxiety over the loss of religion."
+    },
+    {
+      "id": "l13q06",
+      "topic": "Works",
+      "q": "Which novel by George Eliot is subtitled 'A Study of Provincial Life' and is widely considered her masterpiece?",
+      "options": [
+        "Silas Marner",
+        "The Mill on the Floss",
+        "Middlemarch",
+        "Daniel Deronda"
+      ],
+      "answerIndex": 2,
+      "explanation": "Middlemarch explores a vast web of interconnected lives in a provincial English town."
+    },
+    {
+      "id": "l13q07",
+      "topic": "Works",
+      "q": "The public outrage against the bleakness and anti-religious themes of which novel caused Thomas Hardy to stop writing fiction entirely?",
+      "options": [
+        "Far from the Madding Crowd",
+        "Jude the Obscure",
+        "Tess of the d'Urbervilles",
+        "The Return of the Native"
+      ],
+      "answerIndex": 1,
+      "explanation": "The harsh reception of Jude the Obscure led Hardy to focus only on poetry for the rest of his life."
+    },
+    {
+      "id": "l13q08",
+      "topic": "Characters",
+      "q": "Pip, Miss Havisham, and the convict Magwitch are characters from which Dickens novel?",
+      "options": [
+        "David Copperfield",
+        "Oliver Twist",
+        "Great Expectations",
+        "Hard Times"
+      ],
+      "answerIndex": 2,
+      "explanation": "These are the central characters in the masterpiece 'Great Expectations'."
+    }
+  ]
+}

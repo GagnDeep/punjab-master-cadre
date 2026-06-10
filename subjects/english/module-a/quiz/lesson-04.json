@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-04",
+  "title": "Recall Quiz: Jacobean Age & John Donne",
+  "questions": [
+    {
+      "id": "l04q01",
+      "topic": "Terminology",
+      "q": "Who coined the term 'Metaphysical Poets'?",
+      "options": [
+        "John Donne",
+        "John Dryden",
+        "Samuel Johnson",
+        "Ben Jonson"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 18th-century critic Dr. Samuel Johnson coined the term in his 'Lives of the Most Eminent English Poets'.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "l04q02",
+      "topic": "Definitions",
+      "q": "In metaphysical poetry, what is a 'conceit'?",
+      "options": [
+        "A proud, arrogant character",
+        "A short rhyming couplet",
+        "An extended, highly unusual comparison",
+        "A reference to classical mythology"
+      ],
+      "answerIndex": 2,
+      "explanation": "A metaphysical conceit compares two vastly different things using intellect and logic."
+    },
+    {
+      "id": "l04q03",
+      "topic": "Works",
+      "q": "In which poem does Donne compare the souls of lovers to the legs of a drawing compass?",
+      "options": [
+        "The Flea",
+        "A Valediction: Forbidding Mourning",
+        "The Sun Rising",
+        "The Canonization"
+      ],
+      "answerIndex": 1,
+      "explanation": "This famous compass conceit is found in A Valediction: Forbidding Mourning."
+    },
+    {
+      "id": "l04q04",
+      "topic": "Works",
+      "q": "The famous line 'No man is an island' appears in which of John Donne's works?",
+      "options": [
+        "Holy Sonnet 10",
+        "The Flea",
+        "Meditation XVII",
+        "A Valediction"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is from his prose work, Meditation XVII, exploring the interconnectedness of humanity."
+    },
+    {
+      "id": "l04q05",
+      "topic": "Works",
+      "q": "Which poem argues that Death is merely a short sleep and will ultimately be defeated?",
+      "options": [
+        "Death be not proud",
+        "The Flea",
+        "To His Coy Mistress",
+        "The Collar"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is the premise of Holy Sonnet 10, 'Death be not proud'."
+    },
+    {
+      "id": "l04q06",
+      "topic": "Context",
+      "q": "The publication of which major text in 1611 had a profound influence on the English language during the Jacobean era?",
+      "options": [
+        "The Book of Common Prayer",
+        "The King James Bible",
+        "The First Folio",
+        "The Faerie Queene"
+      ],
+      "answerIndex": 1,
+      "explanation": "The King James Bible was published under the sponsorship of King James I in 1611."
+    },
+    {
+      "id": "l04q07",
+      "topic": "Authors",
+      "q": "Which metaphysical poet wrote the famous 'carpe diem' poem 'To His Coy Mistress'?",
+      "options": [
+        "John Donne",
+        "George Herbert",
+        "Andrew Marvell",
+        "Henry Vaughan"
+      ],
+      "answerIndex": 2,
+      "explanation": "Andrew Marvell wrote this famous poem urging his lover not to waste time."
+    },
+    {
+      "id": "l04q08",
+      "topic": "Style",
+      "q": "Which of the following is NOT a typical characteristic of Metaphysical poetry?",
+      "options": [
+        "Use of paradoxes",
+        "Abrupt, conversational openings",
+        "Simple, predictable rhyme schemes",
+        "Blending of emotion and intellect"
+      ],
+      "answerIndex": 2,
+      "explanation": "Metaphysical poetry is known for its complexity, intellectual rigor, and irregular meter/rhymes, not simple predictability."
+    }
+  ]
+}

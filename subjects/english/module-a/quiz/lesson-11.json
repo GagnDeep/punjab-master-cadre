@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-11",
+  "title": "Recall Quiz: Later Romantics: Coleridge, Byron, Shelley, Keats, Austen",
+  "questions": [
+    {
+      "id": "l11q01",
+      "topic": "Criticism",
+      "q": "Which Romantic writer coined the phrase 'willing suspension of disbelief' in his prose work Biographia Literaria?",
+      "options": [
+        "William Wordsworth",
+        "John Keats",
+        "Samuel Taylor Coleridge",
+        "P.B. Shelley"
+      ],
+      "answerIndex": 2,
+      "explanation": "Coleridge used this phrase to describe how readers should approach supernatural elements in poetry.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "l11q02",
+      "topic": "Works",
+      "q": "Percy Bysshe Shelley's 'Adonais' is a pastoral elegy mourning the death of:",
+      "options": [
+        "Lord Byron",
+        "John Keats",
+        "William Wordsworth",
+        "His son, William"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shelley wrote Adonais to mourn the tragic early death of Keats."
+    },
+    {
+      "id": "l11q03",
+      "topic": "Terminology",
+      "q": "John Keats coined which term to describe the capacity to remain in doubts and uncertainties without reaching after fact and reason?",
+      "options": [
+        "Negative Capability",
+        "Objective Correlative",
+        "Spontaneous Overflow",
+        "The Sublime"
+      ],
+      "answerIndex": 0,
+      "explanation": "He used 'Negative Capability' to praise Shakespeare's objective, open-minded genius."
+    },
+    {
+      "id": "l11q04",
+      "topic": "Genres",
+      "q": "Jane Austen's novels, such as 'Pride and Prejudice', are best classified as:",
+      "options": [
+        "Gothic Romances",
+        "Picaresque Novels",
+        "Novels of Manners",
+        "Historical Epics"
+      ],
+      "answerIndex": 2,
+      "explanation": "She perfected the Novel of Manners, focusing on social behavior and courtship."
+    },
+    {
+      "id": "l11q05",
+      "topic": "Quotes",
+      "q": "Which poem contains the famous lines 'Water, water, every where, / Nor any drop to drink'?",
+      "options": [
+        "Ode to the West Wind",
+        "Kubla Khan",
+        "The Rime of the Ancient Mariner",
+        "Childe Harold's Pilgrimage"
+      ],
+      "answerIndex": 2,
+      "explanation": "These lines are spoken by the cursed sailor in Coleridge's masterpiece."
+    },
+    {
+      "id": "l11q06",
+      "topic": "Works",
+      "q": "Lord Byron's masterpiece, a massive satirical epic that reverses a famous legend to make its hero an innocent man seduced by women, is:",
+      "options": [
+        "Manfred",
+        "Don Juan",
+        "Childe Harold's Pilgrimage",
+        "Beppo"
+      ],
+      "answerIndex": 1,
+      "explanation": "Don Juan is Byron's greatest and most humorous satirical work."
+    },
+    {
+      "id": "l11q07",
+      "topic": "Quotes",
+      "q": "Who wrote the line 'Beauty is truth, truth beauty'?",
+      "options": [
+        "John Keats",
+        "Lord Byron",
+        "P.B. Shelley",
+        "William Wordsworth"
+      ],
+      "answerIndex": 0,
+      "explanation": "This is the concluding philosophical statement of Keats's 'Ode on a Grecian Urn'."
+    },
+    {
+      "id": "l11q08",
+      "topic": "Works",
+      "q": "Which poem by Shelley describes the shattered statue of an ancient king in the desert, symbolizing the inevitable decay of tyrannical power?",
+      "options": [
+        "To a Skylark",
+        "Prometheus Unbound",
+        "Ozymandias",
+        "The Cloud"
+      ],
+      "answerIndex": 2,
+      "explanation": "Ozymandias is a famous sonnet warning against the hubris of absolute rulers."
+    }
+  ]
+}

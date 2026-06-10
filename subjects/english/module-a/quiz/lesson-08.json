@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-08",
+  "title": "Recall Quiz: Augustan Age: Pope & Swift",
+  "questions": [
+    {
+      "id": "l08q01",
+      "topic": "Context",
+      "q": "The Augustan Age in English literature is also frequently referred to as:",
+      "options": [
+        "The Age of Romanticism",
+        "The Age of Reason (Neoclassical Age)",
+        "The Elizabethan Era",
+        "The Victorian Period"
+      ],
+      "answerIndex": 1,
+      "explanation": "It focused on intellect, logic, and classical models, suppressing emotion.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "l08q02",
+      "topic": "Works",
+      "q": "Alexander Pope's 'The Rape of the Lock' is best classified as which type of poem?",
+      "options": [
+        "A pastoral elegy",
+        "A tragic epic",
+        "A mock-epic",
+        "A dramatic monologue"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is a mock-epic, treating the trivial cutting of hair with grandiose epic conventions."
+    },
+    {
+      "id": "l08q03",
+      "topic": "Quotes",
+      "q": "Which poem contains the famous lines 'To err is human, to forgive, divine' and 'A little learning is a dangerous thing'?",
+      "options": [
+        "The Rape of the Lock",
+        "An Essay on Man",
+        "The Dunciad",
+        "An Essay on Criticism"
+      ],
+      "answerIndex": 3,
+      "explanation": "These lines are from Pope's didactic poem 'An Essay on Criticism'."
+    },
+    {
+      "id": "l08q04",
+      "topic": "Works",
+      "q": "Jonathan Swift's 'A Modest Proposal' is a masterpiece of:",
+      "options": [
+        "Romantic poetry",
+        "Sentimental drama",
+        "Savage, ironical prose satire",
+        "Historical biography"
+      ],
+      "answerIndex": 2,
+      "explanation": "It uses shocking irony to satirize the cruel economic policies toward the Irish."
+    },
+    {
+      "id": "l08q05",
+      "topic": "Plot",
+      "q": "In Swift's 'A Modest Proposal', what is the shocking 'solution' the narrator offers for poverty in Ireland?",
+      "options": [
+        "Selling children to the rich as food",
+        "Relocating the poor to America",
+        "Forcing the poor to work in factories",
+        "Banning the consumption of potatoes"
+      ],
+      "answerIndex": 0,
+      "explanation": "The essay satirically suggests cannibalism to highlight the landlords' figurative 'devouring' of the poor."
+    },
+    {
+      "id": "l08q06",
+      "topic": "Works",
+      "q": "Which of the following is a prose satire by Swift depicting a literal fight in a library?",
+      "options": [
+        "The Dunciad",
+        "The Battle of the Books",
+        "Mac Flecknoe",
+        "Gulliver's Travels"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Battle of the Books satirizes the debate between Ancient and Modern learning."
+    },
+    {
+      "id": "l08q07",
+      "topic": "Form",
+      "q": "What was the dominant poetic form during the Augustan age, perfected by Alexander Pope?",
+      "options": [
+        "Blank verse",
+        "Free verse",
+        "The Heroic Couplet",
+        "The Spenserian stanza"
+      ],
+      "answerIndex": 2,
+      "explanation": "Pope achieved ultimate technical perfection with the rhyming heroic couplet."
+    },
+    {
+      "id": "l08q08",
+      "topic": "Themes",
+      "q": "Neoclassical writers generally valued which of the following above all else?",
+      "options": [
+        "Unrestrained emotion and passion",
+        "Individual imagination",
+        "Supernatural and Gothic elements",
+        "Order, balance, and logic"
+      ],
+      "answerIndex": 3,
+      "explanation": "They sought to emulate the rational, balanced style of classical Roman authors."
+    }
+  ]
+}

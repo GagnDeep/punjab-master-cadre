@@ -1,0 +1,336 @@
+{
+  "id": "module-a-test-01",
+  "title": "Module A Mock Test: Survey of English Literature",
+  "timeLimitMinutes": 25,
+  "questions": [
+    {
+      "id": "mt01-01",
+      "topic": "Elizabethan Age",
+      "q": "Which member of the University Wits is famous for introducing blank verse to the English stage, a technique Ben Jonson called his 'mighty line'?",
+      "options": [
+        "Thomas Kyd",
+        "Robert Greene",
+        "William Shakespeare",
+        "Christopher Marlowe"
+      ],
+      "answerIndex": 3,
+      "explanation": "Christopher Marlowe popularized blank verse in plays like Doctor Faustus.",
+      "pyq": "ERB 2018"
+    },
+    {
+      "id": "mt01-02",
+      "topic": "Shakespeare",
+      "q": "To whom did William Shakespeare dedicate the first 126 of his sonnets?",
+      "options": [
+        "The Dark Lady",
+        "Queen Elizabeth I",
+        "The Fair Youth",
+        "Anne Hathaway"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sonnets 1-126 are addressed to a young aristocrat known as the Fair Youth."
+    },
+    {
+      "id": "mt01-03",
+      "topic": "Edmund Spenser",
+      "q": "In Edmund Spenser's 'The Faerie Queene', what virtue does the Redcrosse Knight represent?",
+      "options": [
+        "Temperance",
+        "Justice",
+        "Chastity",
+        "Holiness"
+      ],
+      "answerIndex": 3,
+      "explanation": "The Redcrosse Knight is the patron of Holiness in Book I."
+    },
+    {
+      "id": "mt01-04",
+      "topic": "Jacobean Age",
+      "q": "Who coined the term 'Metaphysical Poets' to describe John Donne and his followers?",
+      "options": [
+        "John Dryden",
+        "Samuel Johnson",
+        "Ben Jonson",
+        "Alexander Pope"
+      ],
+      "answerIndex": 1,
+      "explanation": "Dr. Samuel Johnson coined the term in his Lives of the Poets.",
+      "pyq": "ERB 2021"
+    },
+    {
+      "id": "mt01-05",
+      "topic": "John Milton",
+      "q": "What is the explicitly stated purpose of John Milton's 'Paradise Lost'?",
+      "options": [
+        "To chronicle the fall of Satan",
+        "To justify the ways of God to men",
+        "To explain the origins of the universe",
+        "To defend the Puritan revolution"
+      ],
+      "answerIndex": 1,
+      "explanation": "Milton states this purpose in the opening lines of Book 1."
+    },
+    {
+      "id": "mt01-06",
+      "topic": "Ben Jonson",
+      "q": "Ben Jonson popularized which theatrical genre, based on the medieval medical theory of four bodily fluids?",
+      "options": [
+        "Comedy of Manners",
+        "Romantic Comedy",
+        "Comedy of Humours",
+        "Tragicomedy"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Comedy of Humours features characters driven by a single dominant trait."
+    },
+    {
+      "id": "mt01-07",
+      "topic": "Restoration Age",
+      "q": "Who was appointed as England's first official Poet Laureate in 1668?",
+      "options": [
+        "William Wordsworth",
+        "Alexander Pope",
+        "Ben Jonson",
+        "John Dryden"
+      ],
+      "answerIndex": 3,
+      "explanation": "John Dryden received the first official royal patent for Poet Laureate."
+    },
+    {
+      "id": "mt01-08",
+      "topic": "Augustan Age",
+      "q": "Alexander Pope's 'The Rape of the Lock' is best classified as which type of poem?",
+      "options": [
+        "Pastoral Elegy",
+        "Mock-Epic",
+        "Dramatic Monologue",
+        "Pindaric Ode"
+      ],
+      "answerIndex": 1,
+      "explanation": "It treats the trivial theft of a lock of hair with grandiose epic conventions."
+    },
+    {
+      "id": "mt01-09",
+      "topic": "Augustan Age",
+      "q": "Jonathan Swift's 'A Modest Proposal' uses savage irony to suggest solving Irish poverty by doing what?",
+      "options": [
+        "Emigrating to America",
+        "Overthrowing the British government",
+        "Selling children as food for the rich",
+        "Banning the export of potatoes"
+      ],
+      "answerIndex": 2,
+      "explanation": "It highlights the cruelty of British landlords through an outrageous, satirical proposal."
+    },
+    {
+      "id": "mt01-10",
+      "topic": "Rise of the Novel",
+      "q": "Which author is credited with inventing the Epistolary Novel (a novel written as a series of letters)?",
+      "options": [
+        "Daniel Defoe",
+        "Henry Fielding",
+        "Samuel Richardson",
+        "Tobias Smollett"
+      ],
+      "answerIndex": 2,
+      "explanation": "Richardson wrote Pamela and Clarissa entirely in the form of letters."
+    },
+    {
+      "id": "mt01-11",
+      "topic": "Romantic Age",
+      "q": "The publication of which book in 1798 officially launched the Romantic movement in England?",
+      "options": [
+        "Songs of Innocence",
+        "Lyrical Ballads",
+        "The Prelude",
+        "Sense and Sensibility"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lyrical Ballads was published jointly by Wordsworth and Coleridge.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "mt01-12",
+      "topic": "Romantic Age",
+      "q": "Who defined poetry as 'the spontaneous overflow of powerful feelings'?",
+      "options": [
+        "William Blake",
+        "S.T. Coleridge",
+        "John Keats",
+        "William Wordsworth"
+      ],
+      "answerIndex": 3,
+      "explanation": "Wordsworth wrote this in the Preface to the Lyrical Ballads."
+    },
+    {
+      "id": "mt01-13",
+      "topic": "Romantic Age",
+      "q": "Samuel Taylor Coleridge coined the phrase 'willing suspension of disbelief' in which of his works?",
+      "options": [
+        "The Rime of the Ancient Mariner",
+        "Biographia Literaria",
+        "Kubla Khan",
+        "Christabel"
+      ],
+      "answerIndex": 1,
+      "explanation": "It appears in his major work of literary criticism, Biographia Literaria."
+    },
+    {
+      "id": "mt01-14",
+      "topic": "Romantic Age",
+      "q": "Percy Bysshe Shelley's 'Adonais' is a pastoral elegy written to mourn the death of which fellow poet?",
+      "options": [
+        "Lord Byron",
+        "John Keats",
+        "William Wordsworth",
+        "S.T. Coleridge"
+      ],
+      "answerIndex": 1,
+      "explanation": "Shelley wrote it after Keats died of tuberculosis at age 25."
+    },
+    {
+      "id": "mt01-15",
+      "topic": "Victorian Age",
+      "q": "Which Victorian poet perfected the form of the 'Dramatic Monologue', as seen in 'My Last Duchess'?",
+      "options": [
+        "Alfred, Lord Tennyson",
+        "Matthew Arnold",
+        "Robert Browning",
+        "Thomas Hardy"
+      ],
+      "answerIndex": 2,
+      "explanation": "Browning used this form to explore the dark psychology of his characters."
+    },
+    {
+      "id": "mt01-16",
+      "topic": "Victorian Age",
+      "q": "Alfred, Lord Tennyson's massive elegy 'In Memoriam' explores Victorian doubts regarding science and faith after the death of:",
+      "options": [
+        "Queen Victoria's husband",
+        "His friend Arthur Henry Hallam",
+        "Charles Darwin",
+        "His brother Charles"
+      ],
+      "answerIndex": 1,
+      "explanation": "He wrote it to mourn his close Cambridge friend, A.H.H."
+    },
+    {
+      "id": "mt01-17",
+      "topic": "Victorian Age",
+      "q": "The fictional, semi-mythical region of 'Wessex' serves as the primary setting for the pessimistic novels of which author?",
+      "options": [
+        "Charles Dickens",
+        "George Eliot",
+        "Thomas Hardy",
+        "Charlotte Bront\u00eb"
+      ],
+      "answerIndex": 2,
+      "explanation": "Hardy based Wessex on the real counties of southwestern England.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "mt01-18",
+      "topic": "Victorian Age",
+      "q": "Which novel by Charles Dickens begins with the famous line 'It was the best of times, it was the worst of times'?",
+      "options": [
+        "Oliver Twist",
+        "Great Expectations",
+        "A Tale of Two Cities",
+        "Bleak House"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is the opening line of his novel set during the French Revolution."
+    },
+    {
+      "id": "mt01-19",
+      "topic": "Modern Age",
+      "q": "In what year were both T.S. Eliot's 'The Waste Land' and James Joyce's 'Ulysses' published?",
+      "options": [
+        "1914",
+        "1918",
+        "1922",
+        "1929"
+      ],
+      "answerIndex": 2,
+      "explanation": "1922 is considered the 'miracle year' of literary Modernism."
+    },
+    {
+      "id": "mt01-20",
+      "topic": "Modern Age",
+      "q": "The revolutionary narrative technique used by Virginia Woolf and James Joyce to mimic the continuous, chaotic flow of a character's internal thoughts is called:",
+      "options": [
+        "Objective Correlative",
+        "Stream of Consciousness",
+        "Free Indirect Discourse",
+        "Magic Realism"
+      ],
+      "answerIndex": 1,
+      "explanation": "Stream of Consciousness breaks traditional syntax to replicate raw thought."
+    },
+    {
+      "id": "mt01-21",
+      "topic": "Modern Age",
+      "q": "The famous lines 'Things fall apart; the centre cannot hold' appear in which prophetic poem by W.B. Yeats?",
+      "options": [
+        "Easter, 1916",
+        "Sailing to Byzantium",
+        "The Second Coming",
+        "Leda and the Swan"
+      ],
+      "answerIndex": 2,
+      "explanation": "This poem envisions the breakdown of society after World War I."
+    },
+    {
+      "id": "mt01-22",
+      "topic": "Modern Age",
+      "q": "Samuel Beckett's 'Waiting for Godot' is the defining masterpiece of which post-WWII theatrical movement?",
+      "options": [
+        "Theatre of Cruelty",
+        "Drama of Ideas",
+        "Theatre of the Absurd",
+        "Kitchen Sink Realism"
+      ],
+      "answerIndex": 2,
+      "explanation": "Absurdist theatre strips away traditional plot to reflect existential meaninglessness."
+    },
+    {
+      "id": "mt01-23",
+      "topic": "Contemporary Age",
+      "q": "The famous line 'All animals are equal, but some animals are more equal than others' appears in which allegorical novella?",
+      "options": [
+        "1984",
+        "Animal Farm",
+        "Lord of the Flies",
+        "Midnight's Children"
+      ],
+      "answerIndex": 1,
+      "explanation": "It is the ultimate corrupted commandment in George Orwell's 'Animal Farm'."
+    },
+    {
+      "id": "mt01-24",
+      "topic": "Contemporary Age",
+      "q": "William Golding's 'Lord of the Flies' primarily argues that:",
+      "options": [
+        "Children are inherently innocent",
+        "Proper education solves all problems",
+        "There is an inherent darkness and savagery in human nature",
+        "Civilization will always triumph over chaos"
+      ],
+      "answerIndex": 2,
+      "explanation": "The stranded boys quickly shed civilization and resort to murder."
+    },
+    {
+      "id": "mt01-25",
+      "topic": "Contemporary Age",
+      "q": "Which novel by Salman Rushdie uses 'Magic Realism' to link the lives of telepathic children to the history of independent India?",
+      "options": [
+        "A House for Mr Biswas",
+        "The God of Small Things",
+        "The Satanic Verses",
+        "Midnight's Children"
+      ],
+      "answerIndex": 3,
+      "explanation": "Midnight's Children uses magic realism to tell the story of India."
+    }
+  ]
+}

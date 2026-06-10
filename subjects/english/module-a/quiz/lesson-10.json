@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-10",
+  "title": "Recall Quiz: Early Romantics: Blake & Wordsworth",
+  "questions": [
+    {
+      "id": "l10q01",
+      "topic": "Dates & Context",
+      "q": "The publication of which book in 1798 is generally considered the beginning of the Romantic movement in England?",
+      "options": [
+        "Songs of Innocence",
+        "Lyrical Ballads",
+        "The Prelude",
+        "Sense and Sensibility"
+      ],
+      "answerIndex": 1,
+      "explanation": "Lyrical Ballads by Wordsworth and Coleridge marked a radical shift in poetry.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "l10q02",
+      "topic": "Quotes",
+      "q": "Who defined poetry as 'the spontaneous overflow of powerful feelings'?",
+      "options": [
+        "William Blake",
+        "S.T. Coleridge",
+        "William Wordsworth",
+        "John Keats"
+      ],
+      "answerIndex": 2,
+      "explanation": "Wordsworth wrote this in his famous Preface to the Lyrical Ballads."
+    },
+    {
+      "id": "l10q03",
+      "topic": "Works",
+      "q": "Which of William Blake's poetry collections contains the famous poem 'The Tyger'?",
+      "options": [
+        "Songs of Innocence",
+        "Songs of Experience",
+        "The Marriage of Heaven and Hell",
+        "Poetical Sketches"
+      ],
+      "answerIndex": 1,
+      "explanation": "'The Tyger' is the dark counterpart to 'The Lamb' from Songs of Innocence."
+    },
+    {
+      "id": "l10q04",
+      "topic": "Works",
+      "q": "William Wordsworth's massive autobiographical epic poem, which traces the growth of his poetical mind, is titled:",
+      "options": [
+        "The Excursion",
+        "Tintern Abbey",
+        "The Prelude",
+        "Endymion"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Prelude was published posthumously in 1850."
+    },
+    {
+      "id": "l10q05",
+      "topic": "Themes",
+      "q": "Which of the following is NOT a core characteristic of Romanticism?",
+      "options": [
+        "Deep reverence for nature",
+        "Strict adherence to classical literary rules",
+        "Celebration of the individual and emotion",
+        "Interest in the supernatural and mystical"
+      ],
+      "answerIndex": 1,
+      "explanation": "Romanticism was a rebellion *against* the strict classical rules of the previous age."
+    },
+    {
+      "id": "l10q06",
+      "topic": "Quotes",
+      "q": "The famous line 'The Child is father of the Man' was written by:",
+      "options": [
+        "William Blake",
+        "Thomas Gray",
+        "William Wordsworth",
+        "Robert Burns"
+      ],
+      "answerIndex": 2,
+      "explanation": "This line from 'My Heart Leaps Up' encapsulates Wordsworth's belief in the purity and importance of childhood."
+    },
+    {
+      "id": "l10q07",
+      "topic": "Authors",
+      "q": "Which poet is best known for his 'Elegy Written in a Country Churchyard'?",
+      "options": [
+        "Robert Burns",
+        "Thomas Gray",
+        "William Blake",
+        "Oliver Goldsmith"
+      ],
+      "answerIndex": 1,
+      "explanation": "Thomas Gray is the most famous of the Graveyard Poets or Pre-Romantics."
+    },
+    {
+      "id": "l10q08",
+      "topic": "Authors",
+      "q": "Which of the following poets collaborated with William Wordsworth to produce 'Lyrical Ballads'?",
+      "options": [
+        "Lord Byron",
+        "John Keats",
+        "Percy Bysshe Shelley",
+        "Samuel Taylor Coleridge"
+      ],
+      "answerIndex": 3,
+      "explanation": "Coleridge provided four poems for the collection, including The Rime of the Ancient Mariner."
+    }
+  ]
+}

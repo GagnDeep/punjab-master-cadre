@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-12",
+  "title": "Recall Quiz: Early Victorians: Tennyson, Browning, Bront\u00ebs",
+  "questions": [
+    {
+      "id": "l12q01",
+      "topic": "Form",
+      "q": "A poem in which a single fictional character speaks to a silent listener, inadvertently revealing their own psychological flaws, is known as a:",
+      "options": [
+        "Soliloquy",
+        "Dramatic Monologue",
+        "Pastoral Elegy",
+        "Lyrical Ballad"
+      ],
+      "answerIndex": 1,
+      "explanation": "This form was perfected by Robert Browning.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "l12q02",
+      "topic": "Works",
+      "q": "Tennyson's massive elegiac poem, 'In Memoriam', was written to mourn the death of:",
+      "options": [
+        "John Keats",
+        "Queen Victoria's husband, Albert",
+        "Arthur Henry Hallam",
+        "William Wordsworth"
+      ],
+      "answerIndex": 2,
+      "explanation": "He wrote it for his close Cambridge friend, Arthur Henry Hallam (A.H.H.)."
+    },
+    {
+      "id": "l12q03",
+      "topic": "Authors",
+      "q": "Which poet wrote the chilling dramatic monologue 'My Last Duchess'?",
+      "options": [
+        "Alfred, Lord Tennyson",
+        "Matthew Arnold",
+        "John Keats",
+        "Robert Browning"
+      ],
+      "answerIndex": 3,
+      "explanation": "Browning is famous for this psychological portrait of a murderous Renaissance Duke."
+    },
+    {
+      "id": "l12q04",
+      "topic": "Works",
+      "q": "Which Bront\u00eb sister wrote the novel 'Wuthering Heights', featuring the brooding character Heathcliff?",
+      "options": [
+        "Charlotte Bront\u00eb",
+        "Anne Bront\u00eb",
+        "Emily Bront\u00eb",
+        "Mary Ann Evans"
+      ],
+      "answerIndex": 2,
+      "explanation": "Emily Bront\u00eb wrote only one novel, the intensely passionate Wuthering Heights."
+    },
+    {
+      "id": "l12q05",
+      "topic": "Quotes",
+      "q": "Who wrote the famous lines ''Tis better to have loved and lost / Than never to have loved at all'?",
+      "options": [
+        "William Shakespeare",
+        "Lord Byron",
+        "Alfred, Lord Tennyson",
+        "Elizabeth Barrett Browning"
+      ],
+      "answerIndex": 2,
+      "explanation": "This famous quote is from Tennyson's 'In Memoriam A.H.H.'."
+    },
+    {
+      "id": "l12q06",
+      "topic": "Works",
+      "q": "The character of Bertha Mason, the 'madwoman in the attic', appears in which landmark Victorian novel?",
+      "options": [
+        "Wuthering Heights",
+        "Jane Eyre",
+        "Great Expectations",
+        "Vanity Fair"
+      ],
+      "answerIndex": 1,
+      "explanation": "Bertha Mason is Mr. Rochester's hidden wife in Charlotte Bront\u00eb's 'Jane Eyre'."
+    },
+    {
+      "id": "l12q07",
+      "topic": "Context",
+      "q": "The publication of which scientific work in 1859 profoundly shook the religious faith of the Victorian literary world?",
+      "options": [
+        "Newton's Principia",
+        "Lyell's Principles of Geology",
+        "Darwin's On the Origin of Species",
+        "Freud's Interpretation of Dreams"
+      ],
+      "answerIndex": 2,
+      "explanation": "Darwin's theory of evolution challenged literal interpretations of the Bible, causing deep anxiety."
+    },
+    {
+      "id": "l12q08",
+      "topic": "Quotes",
+      "q": "The line 'To strive, to seek, to find, and not to yield' concludes which famous poem by Tennyson?",
+      "options": [
+        "The Charge of the Light Brigade",
+        "In Memoriam",
+        "The Lady of Shalott",
+        "Ulysses"
+      ],
+      "answerIndex": 3,
+      "explanation": "It is the concluding resolution of the aging hero in the dramatic monologue 'Ulysses'."
+    }
+  ]
+}

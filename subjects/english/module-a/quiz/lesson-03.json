@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-03",
+  "title": "Recall Quiz: Edmund Spenser & The Faerie Queene",
+  "questions": [
+    {
+      "id": "l03q01",
+      "topic": "Titles",
+      "q": "Who referred to Edmund Spenser as 'the poet's poet'?",
+      "options": [
+        "John Milton",
+        "William Wordsworth",
+        "Charles Lamb",
+        "Matthew Arnold"
+      ],
+      "answerIndex": 2,
+      "explanation": "Charles Lamb, the Romantic essayist, famously gave Spenser this title due to his massive influence on other poets.",
+      "pyq": "ERB 2019"
+    },
+    {
+      "id": "l03q02",
+      "topic": "Allegory",
+      "q": "In Book I of The Faerie Queene, what virtue does the Redcrosse Knight represent?",
+      "options": [
+        "Temperance",
+        "Holiness",
+        "Justice",
+        "Chastity"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Redcrosse Knight is the patron of Holiness."
+    },
+    {
+      "id": "l03q03",
+      "topic": "Form",
+      "q": "The Spenserian stanza consists of how many lines?",
+      "options": [
+        "7",
+        "8",
+        "9",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "It is a nine-line stanza."
+    },
+    {
+      "id": "l03q04",
+      "topic": "Form",
+      "q": "What is the rhyme scheme of the Spenserian stanza?",
+      "options": [
+        "ababcdcd",
+        "ababbcbcc",
+        "aba bcb cdc",
+        "aabbccdd e"
+      ],
+      "answerIndex": 1,
+      "explanation": "The interlocking rhyme scheme is ababbcbcc."
+    },
+    {
+      "id": "l03q05",
+      "topic": "Form",
+      "q": "What is the specific metric name given to the final (ninth) line of a Spenserian stanza?",
+      "options": [
+        "Spondee",
+        "Anapest",
+        "Alexandrine",
+        "Heroic Couplet"
+      ],
+      "answerIndex": 2,
+      "explanation": "The 9th line is an iambic hexameter, which is known as an Alexandrine."
+    },
+    {
+      "id": "l03q06",
+      "topic": "Allegory",
+      "q": "In The Faerie Queene, Britomart is a female knight representing the virtue of:",
+      "options": [
+        "Courage",
+        "Temperance",
+        "Chastity",
+        "Friendship"
+      ],
+      "answerIndex": 2,
+      "explanation": "Britomart represents Chastity in Book III."
+    },
+    {
+      "id": "l03q07",
+      "topic": "Works",
+      "q": "Which of Spenser's works is a collection of 12 pastoral poems, one for each month of the year?",
+      "options": [
+        "Amoretti",
+        "Epithalamion",
+        "The Shepheardes Calender",
+        "Astrophil and Stella"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Shepheardes Calender consists of 12 eclogues."
+    },
+    {
+      "id": "l03q08",
+      "topic": "Works",
+      "q": "Spenser's 'Amoretti' is a sequence of sonnets written to commemorate his courtship of:",
+      "options": [
+        "Queen Elizabeth I",
+        "Mary, Queen of Scots",
+        "Penelope Rich",
+        "Elizabeth Boyle"
+      ],
+      "answerIndex": 3,
+      "explanation": "He wrote Amoretti and Epithalamion for his second wife, Elizabeth Boyle."
+    }
+  ]
+}

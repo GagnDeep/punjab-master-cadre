@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-02",
+  "title": "Recall Quiz: William Shakespeare",
+  "questions": [
+    {
+      "id": "l02q01",
+      "topic": "Sonnets",
+      "q": "To whom are the first 126 of Shakespeare's sonnets addressed?",
+      "options": [
+        "The Dark Lady",
+        "Queen Elizabeth",
+        "The Fair Youth",
+        "Christopher Marlowe"
+      ],
+      "answerIndex": 2,
+      "explanation": "Sonnets 1-126 are addressed to a young man, often referred to as the Fair Youth.",
+      "pyq": "ERB 2022"
+    },
+    {
+      "id": "l02q02",
+      "topic": "Criticism",
+      "q": "Which contemporary playwright referred to Shakespeare as an 'upstart crow, beautified with our feathers'?",
+      "options": [
+        "Ben Jonson",
+        "Robert Greene",
+        "Christopher Marlowe",
+        "Thomas Nashe"
+      ],
+      "answerIndex": 1,
+      "explanation": "Robert Greene wrote this in his 'Groatsworth of Wit', criticizing Shakespeare for lacking a university education."
+    },
+    {
+      "id": "l02q03",
+      "topic": "Tragedies",
+      "q": "Which of the following is NOT considered one of Shakespeare's 'Four Great Tragedies'?",
+      "options": [
+        "Hamlet",
+        "Macbeth",
+        "Romeo and Juliet",
+        "Othello"
+      ],
+      "answerIndex": 2,
+      "explanation": "While famous, Romeo and Juliet is an earlier play. The 'Great Tragedies' are Hamlet, Othello, Lear, and Macbeth."
+    },
+    {
+      "id": "l02q04",
+      "topic": "Themes",
+      "q": "Othello is primarily a study of the destructive power of:",
+      "options": [
+        "Ambition",
+        "Jealousy",
+        "Indecision",
+        "Old age"
+      ],
+      "answerIndex": 1,
+      "explanation": "Othello's tragic downfall is orchestrated by Iago playing on his extreme jealousy."
+    },
+    {
+      "id": "l02q05",
+      "topic": "Form",
+      "q": "What is the rhyme scheme of a typical Shakespearean sonnet?",
+      "options": [
+        "abba abba cde cde",
+        "abab bcbc cdcd ee",
+        "abab cdcd efef gg",
+        "aabb ccdd eeff gg"
+      ],
+      "answerIndex": 2,
+      "explanation": "The Shakespearean sonnet consists of three quatrains and a concluding couplet rhyming abab cdcd efef gg."
+    },
+    {
+      "id": "l02q06",
+      "topic": "Late Plays",
+      "q": "Which group of plays belongs to Shakespeare's final period, often characterized by elements of magic and reconciliation?",
+      "options": [
+        "The Early Comedies",
+        "The Problem Plays",
+        "The Roman Tragedies",
+        "The Romances"
+      ],
+      "answerIndex": 3,
+      "explanation": "Plays like The Tempest and The Winter's Tale are classified as Romances or Tragomedies."
+    },
+    {
+      "id": "l02q07",
+      "topic": "Tragedies",
+      "q": "In which play does a king divide his kingdom based on his daughters' professions of love?",
+      "options": [
+        "King Lear",
+        "Richard III",
+        "Macbeth",
+        "Henry V"
+      ],
+      "answerIndex": 0,
+      "explanation": "King Lear begins with Lear dividing his kingdom between Goneril and Regan, while banishing Cordelia."
+    },
+    {
+      "id": "l02q08",
+      "topic": "Sonnets",
+      "q": "Sonnets 127-152 are addressed to:",
+      "options": [
+        "The Fair Youth",
+        "The Dark Lady",
+        "Anne Hathaway",
+        "The Earl of Southampton"
+      ],
+      "answerIndex": 1,
+      "explanation": "This sequence is addressed to the mysterious 'Dark Lady'."
+    }
+  ]
+}

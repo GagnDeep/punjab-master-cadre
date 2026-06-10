@@ -1,0 +1,111 @@
+{
+  "id": "mod-a-les-06",
+  "title": "Recall Quiz: Ben Jonson & The Comedy of Humours",
+  "questions": [
+    {
+      "id": "l06q01",
+      "topic": "Genres",
+      "q": "Ben Jonson is most famous for popularizing which dramatic genre?",
+      "options": [
+        "Revenge Tragedy",
+        "Comedy of Manners",
+        "Comedy of Humours",
+        "Romantic Comedy"
+      ],
+      "answerIndex": 2,
+      "explanation": "He created the Comedy of Humours, where characters are driven by an overarching dominant trait.",
+      "pyq": "ERB 2017"
+    },
+    {
+      "id": "l06q02",
+      "topic": "Works",
+      "q": "Which of the following is a play by Ben Jonson that satirizes human greed through a protagonist who pretends to be dying?",
+      "options": [
+        "The Alchemist",
+        "Volpone",
+        "Bartholomew Fair",
+        "The Jew of Malta"
+      ],
+      "answerIndex": 1,
+      "explanation": "Volpone (The Fox) is a masterpiece of satire targeting greed and legacy-hunting."
+    },
+    {
+      "id": "l06q03",
+      "topic": "Cavalier Poets",
+      "q": "The group of poets known as the 'Cavaliers' were politically aligned with whom during the English Civil War?",
+      "options": [
+        "Oliver Cromwell",
+        "King Charles I",
+        "Queen Elizabeth I",
+        "The Parliamentarians"
+      ],
+      "answerIndex": 1,
+      "explanation": "The Cavaliers were Royalists who supported King Charles I."
+    },
+    {
+      "id": "l06q04",
+      "topic": "Themes",
+      "q": "What does the Latin phrase 'Carpe Diem', central to Cavalier poetry, translate to?",
+      "options": [
+        "Seize the day",
+        "Remember you must die",
+        "Art for art's sake",
+        "Love conquers all"
+      ],
+      "answerIndex": 0,
+      "explanation": "Carpe Diem urges people to enjoy life while they are young."
+    },
+    {
+      "id": "l06q05",
+      "topic": "Quotes",
+      "q": "Which Cavalier poet wrote the famous line 'Gather ye rosebuds while ye may'?",
+      "options": [
+        "John Suckling",
+        "Richard Lovelace",
+        "Robert Herrick",
+        "Andrew Marvell"
+      ],
+      "answerIndex": 2,
+      "explanation": "This is the opening line of Robert Herrick's 'To the Virgins, to Make Much of Time'."
+    },
+    {
+      "id": "l06q06",
+      "topic": "Quotes",
+      "q": "Who wrote the lines 'Stone walls do not a prison make, / Nor iron bars a cage'?",
+      "options": [
+        "John Donne",
+        "Richard Lovelace",
+        "John Milton",
+        "Ben Jonson"
+      ],
+      "answerIndex": 1,
+      "explanation": "Richard Lovelace wrote this in his poem 'To Althea, from Prison'."
+    },
+    {
+      "id": "l06q07",
+      "topic": "Terminology",
+      "q": "According to the theory of 'humours', a person's temperament is determined by the balance of:",
+      "options": [
+        "Four bodily fluids",
+        "The alignment of the stars",
+        "Good and evil spirits",
+        "Classical education"
+      ],
+      "answerIndex": 0,
+      "explanation": "The four fluids were blood, phlegm, yellow bile, and black bile."
+    },
+    {
+      "id": "l06q08",
+      "topic": "Groups",
+      "q": "The younger poets who admired and followed Ben Jonson's classical style were known as the:",
+      "options": [
+        "University Wits",
+        "Sons of Ben (or Tribe of Ben)",
+        "Graveyard Poets",
+        "Pre-Raphaelites"
+      ],
+      "answerIndex": 1,
+      "explanation": "They styled themselves as the Tribe (or Sons) of Ben."
+    }
+  ]
+}
