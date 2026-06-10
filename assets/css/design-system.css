@@ -18,16 +18,16 @@
   --color-accent-400: #fbbf24;
   --color-accent-100: #fef3c7;
 
-  /* Neutrals */
-  --color-neutral-900: #0f172a;
-  --color-neutral-800: #1e293b;
-  --color-neutral-700: #334155;
-  --color-neutral-600: #475569;
-  --color-neutral-500: #64748b;
-  --color-neutral-300: #cbd5e1;
-  --color-neutral-200: #e2e8f0;
-  --color-neutral-100: #f1f5f9;
-  --color-neutral-50:  #f8fafc;
+  /* Neutrals (Warm Grays to pair with Saffron/Navy) */
+  --color-neutral-900: #1c1917;
+  --color-neutral-800: #292524;
+  --color-neutral-700: #44403c;
+  --color-neutral-600: #57534e;
+  --color-neutral-500: #78716c;
+  --color-neutral-300: #d6d3d1;
+  --color-neutral-200: #e7e5e4;
+  --color-neutral-100: #f5f5f4;
+  --color-neutral-50:  #fafaf9;
   --color-white: #ffffff;
 
   /* Semantic Colors */
@@ -45,15 +45,15 @@
   --font-body: 'Inter', system-ui, sans-serif;
   --font-gurmukhi: 'Mukta Mahee', sans-serif;
 
-  /* Fluid Type Scale */
-  --text-xs: clamp(0.75rem, 0.7rem + 0.25vw, 0.875rem);
-  --text-sm: clamp(0.875rem, 0.825rem + 0.25vw, 1rem);
-  --text-base: clamp(1rem, 0.95rem + 0.25vw, 1.125rem);
-  --text-lg: clamp(1.125rem, 1.075rem + 0.25vw, 1.25rem);
-  --text-xl: clamp(1.25rem, 1.15rem + 0.5vw, 1.5rem);
-  --text-2xl: clamp(1.5rem, 1.3rem + 1vw, 2rem);
-  --text-3xl: clamp(1.875rem, 1.575rem + 1.5vw, 2.5rem);
-  --text-4xl: clamp(2.25rem, 1.85rem + 2vw, 3.25rem);
+  /* Fluid Type Scale (Modular Scale: 1.25 Ratio) */
+  --text-xs: clamp(0.75rem, 0.73rem + 0.1vw, 0.8rem);
+  --text-sm: clamp(0.875rem, 0.85rem + 0.12vw, 0.9rem);
+  --text-base: clamp(1rem, 0.95rem + 0.24vw, 1.125rem);
+  --text-lg: clamp(1.25rem, 1.18rem + 0.35vw, 1.406rem);
+  --text-xl: clamp(1.563rem, 1.47rem + 0.47vw, 1.758rem);
+  --text-2xl: clamp(1.953rem, 1.83rem + 0.61vw, 2.197rem);
+  --text-3xl: clamp(2.441rem, 2.29rem + 0.76vw, 2.747rem);
+  --text-4xl: clamp(3.052rem, 2.86rem + 0.96vw, 3.433rem);
 
   /* Spacing */
   --space-1: 0.25rem;
@@ -72,14 +72,14 @@
   --radius-xl: 1rem;
   --radius-full: 9999px;
 
-  /* Shadows */
-  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.05);
-  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
-  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  /* Shadows (Softer, layered elevation) */
+  --shadow-sm: 0 1px 2px 0 rgb(0 0 0 / 0.04);
+  --shadow-md: 0 4px 6px -1px rgb(0 0 0 / 0.06), 0 2px 4px -2px rgb(0 0 0 / 0.06);
+  --shadow-lg: 0 10px 15px -3px rgb(0 0 0 / 0.08), 0 4px 6px -4px rgb(0 0 0 / 0.04);
 
   /* Transitions */
-  --transition-fast: 150ms ease-in-out;
-  --transition-normal: 250ms ease-in-out;
+  --transition-fast: 150ms ease-out;
+  --transition-normal: 200ms ease-out;
 }
 
 /* --- Resets & Base --- */
@@ -100,7 +100,7 @@ body {
   font-family: var(--font-body);
   color: var(--color-neutral-900);
   background-color: var(--color-neutral-50);
-  line-height: 1.6;
+  line-height: 1.7;
   min-width: 320px; /* Supports down to 320px safely, 360px targeted */
   overflow-x: hidden;
 }
@@ -108,9 +108,10 @@ body {
 /* Gurmukhi Content class */
 .pa {
   font-family: var(--font-gurmukhi);
-  font-size: 1.1em; /* Slightly larger for readability */
-  line-height: 1.8;
+  font-size: 1.2em; /* Slightly larger for readability relative to Latin */
+  line-height: 1.9;
   letter-spacing: 0.02em;
+  margin-bottom: var(--space-4);
 }
 
 /* Headings */
@@ -122,9 +123,9 @@ h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--space-4);
 }
 
-h1 { font-size: var(--text-4xl); }
-h2 { font-size: var(--text-3xl); }
-h3 { font-size: var(--text-2xl); }
+h1 { font-size: var(--text-4xl); line-height: 1.15; letter-spacing: -0.02em; }
+h2 { font-size: var(--text-3xl); line-height: 1.15; letter-spacing: -0.015em; }
+h3 { font-size: var(--text-2xl); letter-spacing: -0.01em; }
 h4 { font-size: var(--text-xl); }
 
 a {
@@ -135,6 +136,11 @@ a {
 a:hover {
   color: var(--color-primary-800);
   text-decoration: underline;
+}
+a:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
+  border-radius: 2px;
 }
 
 img {
@@ -156,6 +162,12 @@ ul, ol {
   padding: 0 var(--space-4);
 }
 
+/* Enforce readable line lengths for main reading areas */
+main.container {
+  max-width: 70ch;
+  margin-inline: auto;
+}
+
 /* --- Components --- */
 
 /* Buttons */
@@ -173,6 +185,10 @@ ul, ol {
   cursor: pointer;
   text-decoration: none;
   transition: all var(--transition-fast);
+}
+.btn:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
 }
 .btn:disabled {
   opacity: 0.6;
@@ -232,6 +248,7 @@ ul, ol {
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  font-variant-numeric: tabular-nums;
 }
 .badge-primary { background: var(--color-primary-100); color: var(--color-primary-800); }
 .badge-accent { background: var(--color-accent-100); color: var(--color-accent-600); }
@@ -245,6 +262,7 @@ ul, ol {
   border-radius: var(--radius-md);
   margin-bottom: var(--space-4);
   border-left: 4px solid;
+  box-shadow: var(--shadow-sm);
 }
 .callout-title {
   font-weight: 700;
@@ -256,15 +274,26 @@ ul, ol {
 .callout-tip {
   background-color: var(--color-info-bg);
   border-color: var(--color-info);
+  color: var(--color-info);
+}
+.callout-tip p {
   color: var(--color-neutral-800);
 }
 .callout-warning {
   background-color: var(--color-warning-bg);
   border-color: var(--color-warning);
+  color: var(--color-warning);
+}
+.callout-warning p {
+  color: var(--color-neutral-800);
 }
 .callout-pyq {
   background-color: var(--color-accent-100);
-  border-color: var(--color-accent-500);
+  border-color: var(--color-accent-600);
+  color: var(--color-accent-600);
+}
+.callout-pyq p {
+  color: var(--color-neutral-900);
 }
 .callout-pyq .callout-title { color: var(--color-accent-600); }
 
@@ -298,6 +327,11 @@ summary {
   justify-content: space-between;
   align-items: center;
   outline: none;
+  border-radius: var(--radius-sm);
+}
+summary:focus-visible {
+  outline: 2px solid var(--color-primary-500);
+  outline-offset: 2px;
 }
 summary::-webkit-details-marker { display: none; }
 summary::after {
@@ -381,6 +415,7 @@ details[open] summary {
   font-size: var(--text-3xl);
   font-weight: 700;
   color: var(--color-primary-700);
+  font-variant-numeric: tabular-nums;
 }
 .stat-label {
   font-size: var(--text-sm);
@@ -403,5 +438,51 @@ details[open] summary {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+/* Print Styles */
+@media print {
+  body {
+    background-color: var(--color-white);
+    color: var(--color-neutral-900);
+    font-size: 12pt;
+    line-height: 1.5;
+  }
+
+  .site-header,
+  .site-footer,
+  .slides-controls,
+  #slides-reference,
+  #recall-quiz,
+  .btn,
+  .nav-links {
+    display: none !important;
+  }
+
+  main.container {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  a {
+    color: var(--color-neutral-900);
+    text-decoration: underline;
+  }
+
+  .card, .callout {
+    break-inside: avoid;
+    border: 1px solid var(--color-neutral-300);
+    box-shadow: none;
+  }
+
+  h1, h2, h3 {
+    break-after: avoid;
+  }
+
+  p, h2, h3 {
+    orphans: 3;
+    widows: 3;
   }
 }
