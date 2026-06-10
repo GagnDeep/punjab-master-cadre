@@ -18,7 +18,37 @@
       <ul><li>Differentiate between Permutations (arrangements) and Combinations (selections).</li><li>Calculate nPr and nCr efficiently.</li><li>Solve linear arrangement problems with repeated items and restrictions.</li><li>Calculate circular permutations correctly.</li></ul>
     </div>
     <div class="slide slide-two-column">
-      <div class="col"><h2>Core Concept</h2><p>The fundamental principle of counting states that if one task can be done in 'm' ways and another in 'n' ways, both can be done in m &times; n ways. A <strong>Permutation</strong> is an arrangement where order matters. The number of ways to arrange r objects from n distinct objects is nPr = n! / (n-r)!. If objects are repeated (e.g., 'p' of one type), you divide the total arrangements by p!. A <strong>Combination</strong> is a selection where order does not matter. The number of ways to choose r objects from n is nCr = n! / [r!(n-r)!]. A crucial property for speed is nCr = nC(n-r). For <strong>circular permutations</strong>, the number of ways to arrange n distinct objects in a circle is (n-1)!, because there is no fixed starting point.</p></div>
+      <div class="col">
+        <h3>Circular Permutations</h3>
+        <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; margin-top: var(--space-4);">
+            <svg width="200" height="200" viewBox="0 0 200 200">
+                <!-- Table -->
+                <circle cx="100" cy="100" r="60" fill="none" stroke="var(--color-primary-400)" stroke-width="6" />
+
+                <!-- Seats (A is fixed top) -->
+                <!-- A: 90 deg (top) -> x=100, y=40 -->
+                <circle cx="100" cy="40" r="15" fill="var(--color-primary-600)" />
+                <text x="100" y="44" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">A</text>
+
+                <!-- B: ~18 deg -> x=157, y=58 -->
+                <circle cx="157" cy="58" r="15" fill="var(--color-accent-500)" />
+                <text x="157" y="62" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">B</text>
+
+                <!-- C: ~-54 deg -> x=135, y=148 -->
+                <circle cx="135" cy="148" r="15" fill="var(--color-accent-500)" />
+                <text x="135" y="152" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">C</text>
+
+                <!-- D: ~234 deg -> x=65, y=148 -->
+                <circle cx="65" cy="148" r="15" fill="var(--color-accent-500)" />
+                <text x="65" y="152" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">D</text>
+
+                <!-- E: ~162 deg -> x=43, y=58 -->
+                <circle cx="43" cy="58" r="15" fill="var(--color-accent-500)" />
+                <text x="43" y="62" font-family="sans-serif" font-size="12" font-weight="bold" fill="white" text-anchor="middle">E</text>
+            </svg>
+            <p class="text-center font-bold text-lg text-primary-800 mt-2">(n-1)! arrangements</p>
+        </div>
+      </div>
       <div class="col">
         <h3>Visualizing It</h3>
         <div style="display: flex; flex-direction: column; gap: var(--space-4); align-items: center; margin-top: var(--space-2);">

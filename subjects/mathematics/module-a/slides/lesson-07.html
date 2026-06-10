@@ -18,7 +18,42 @@
       <ul><li>Simplify expressions involving higher powers of 'iota' (i).</li><li>Calculate the modulus, conjugate, and argument of a complex number.</li><li>Represent complex numbers in polar and Euler (exponential) forms.</li><li>Understand the properties of cube roots of unity (1, &omega;, &omega;<sup class="sup">2</sup>).</li><li>Rationalize complex fractions using conjugates.</li></ul>
     </div>
     <div class="slide slide-two-column">
-      <div class="col"><h2>Core Concept</h2><p>A complex number is written in the form z = a + ib, where 'a' is the real part and 'b' is the imaginary part, with i<sup class="sup">2</sup> = -1. The powers of 'i' cycle every 4 steps: i, -1, -i, 1. The <strong>conjugate</strong> of z, denoted as z&#772;, is a - ib. The <strong>modulus</strong> |z| represents the distance from the origin in the Argand plane and is calculated as &radic;(a<sup class="sup">2</sup> + b<sup class="sup">2</sup>). A crucial identity linking these is z &times; z&#772; = |z|<sup class="sup">2</sup>. To divide complex numbers, you must rationalize the denominator by multiplying the numerator and denominator by the conjugate of the denominator.</p></div>
+      <div class="col">
+        <h3>Argand Diagram z = 3+4i</h3>
+        <div style="display: flex; justify-content: center; margin-top: var(--space-4);">
+            <svg width="250" height="220" viewBox="0 0 250 220">
+                <defs>
+                    <marker id="arrow" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                        <path d="M 0 0 L 10 5 L 0 10 z" fill="var(--color-primary-600)" />
+                    </marker>
+                </defs>
+                <!-- Axes -->
+                <line x1="20" y1="180" x2="230" y2="180" stroke="var(--color-neutral-400)" stroke-width="2" />
+                <line x1="40" y1="20" x2="40" y2="200" stroke="var(--color-neutral-400)" stroke-width="2" />
+                <text x="210" y="195" font-family="sans-serif" font-size="12" fill="var(--color-neutral-600)">Re</text>
+                <text x="10" y="30" font-family="sans-serif" font-size="12" fill="var(--color-neutral-600)">Im</text>
+
+                <!-- Theta Arc -->
+                <path d="M 70 180 A 30 30 0 0 0 65 145" fill="none" stroke="var(--color-accent-500)" stroke-width="2" />
+                <text x="75" y="170" font-family="sans-serif" font-size="12" font-style="italic" fill="var(--color-accent-600)">θ</text>
+
+                <!-- Vector -->
+                <line x1="40" y1="180" x2="160" y2="60" stroke="var(--color-primary-600)" stroke-width="3" marker-end="url(#arrow)" />
+
+                <!-- Components -->
+                <line x1="40" y1="180" x2="160" y2="180" stroke="var(--color-accent-500)" stroke-width="2" stroke-dasharray="4" />
+                <line x1="160" y1="180" x2="160" y2="60" stroke="var(--color-accent-500)" stroke-width="2" stroke-dasharray="4" />
+
+                <!-- Labels -->
+                <text x="80" y="105" font-family="sans-serif" font-size="14" font-weight="bold" fill="var(--color-primary-800)">|z|=5</text>
+                <text x="100" y="195" font-family="sans-serif" font-size="12" fill="var(--color-accent-600)">3</text>
+                <text x="170" y="120" font-family="sans-serif" font-size="12" fill="var(--color-accent-600)">4i</text>
+
+                <circle cx="160" cy="60" r="4" fill="var(--color-primary-800)" />
+                <text x="170" y="55" font-family="sans-serif" font-size="12" font-weight="bold" fill="var(--color-neutral-800)">z=3+4i</text>
+            </svg>
+        </div>
+      </div>
       <div class="col">
         <h3>Visualizing It</h3>
         <div style="display: flex; justify-content: center; margin-top: var(--space-4);">
